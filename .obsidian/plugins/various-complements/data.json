@@ -1,0 +1,129 @@
+{
+  "strategy": "default",
+  "matchStrategy": "prefix",
+  "maxNumberOfSuggestions": 255,
+  "maxNumberOfWordsAsPhrase": 1,
+  "minNumberOfCharactersTriggered": 2,
+  "minNumberOfWordsTriggeredPhrase": 1,
+  "complementAutomatically": true,
+  "delayMilliSeconds": 0,
+  "disableSuggestionsDuringImeOn": false,
+  "insertAfterCompletion": false,
+  "firstCharactersDisableSuggestions": ":/^",
+  "showMatchStrategy": false,
+  "showComplementAutomatically": false,
+  "showIndexingStatus": false,
+  "descriptionOnSuggestion": "Short",
+  "selectSuggestionKeys": "Enter",
+  "additionalCycleThroughSuggestionsKeys": "Tab, Shift+Tab",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "None",
+  "propagateEsc": false,
+  "enableCurrentFileComplement": false,
+  "currentFileMinNumberOfCharacters": 0,
+  "onlyComplementEnglishOnCurrentFileComplement": false,
+  "enableCurrentVaultComplement": false,
+  "currentVaultMinNumberOfCharacters": 0,
+  "includeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathPrefixPatterns": "",
+  "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "enableCustomDictionaryComplement": true,
+  "customDictionaryPaths": "Thiết lập/Gõ tắt.md",
+  "columnDelimiter": "Tab",
+  "customDictionaryWordRegexPattern": "",
+  "delimiterToHideSuggestion": "",
+  "delimiterToDivideSuggestionsForDisplayFromInsertion": "",
+  "caretLocationSymbolAfterComplement": "|",
+  "displayedTextSuffix": " => ...",
+  "enableInternalLinkComplement": false,
+  "suggestInternalLinkWithAlias": false,
+  "excludeInternalLinkPathPrefixPatterns": "",
+  "enableFrontMatterComplement": true,
+  "frontMatterComplementMatchStrategy": "inherit",
+  "insertCommaAfterFrontMatterCompletion": true,
+  "intelligentSuggestionPrioritization": {
+    "maxDaysToKeepHistory": 30,
+    "maxNumberOfHistoryToKeep": 0
+  },
+  "showLogAboutPerformanceInConsole": true,
+  "selectionHistoryTree": {
+    "dtv": {
+      "```dataview\nLIST\nFROM |\nWHERE\n```": {
+        "customDictionary": {
+          "count": 3,
+          "lastUpdated": 1674144288671
+        }
+      }
+    },
+    "mmm": {
+      "Thành quả cần có::": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1672822403619
+        }
+      }
+    },
+    "nc": {
+      "Đáp ứng cho nhu cầu của mình::": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1672901391530
+        }
+      }
+    },
+    "vvl": {
+      "Lý do::": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1673117185389
+        }
+      }
+    },
+    "kkk, kqmm": {
+      "Thành quả cần có::": {
+        "customDictionary": {
+          "count": 20,
+          "lastUpdated": 1674554256181
+        }
+      }
+    },
+    "kkk, tqmm": {
+      "Thành quả cần có::": {
+        "customDictionary": {
+          "count": 9,
+          "lastUpdated": 1675271632397
+        }
+      }
+    },
+    "tp": {
+      "Thành phẩm::": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1675318634959
+        }
+      }
+    },
+    "tq": {
+      "Thành quả mong muốn::": {
+        "customDictionary": {
+          "count": 4,
+          "lastUpdated": 1675334457485
+        }
+      }
+    },
+    "pt": {
+      "> [!Tip] Phím tắt\n> `|`": {
+        "customDictionary": {
+          "count": 3,
+          "lastUpdated": 1675330150832
+        }
+      },
+      "> [!Tip] Phím tắt\n> <kbd>|</kbd>": {
+        "customDictionary": {
+          "count": 2,
+          "lastUpdated": 1675331580760
+        }
+      }
+    }
+  }
+}

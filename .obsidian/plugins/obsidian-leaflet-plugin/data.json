@@ -1,0 +1,301 @@
+{
+  "mapMarkers": [
+    {
+      "id": "leaflet-map",
+      "lastAccessed": 1674322991480,
+      "markers": [
+        {
+          "id": "ID_7818b8d86a09",
+          "type": "Thịnh",
+          "loc": [
+            -2.245907783735369,
+            4.939072534721705
+          ],
+          "link": "Thịnh",
+          "layer": "%5B%5BC%C3%A1c%20s%E1%BA%A3n%20ph%E1%BA%A9m%20ch%C3%ADnh.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.4648538856208663,
+            0.45271841939862556
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9b69c928ea6a",
+          "type": "Tuyên",
+          "loc": [
+            -3.3407740629287153,
+            7.232820446558575
+          ],
+          "link": "Tuyên",
+          "layer": "%5B%5BC%C3%A1c%20s%E1%BA%A3n%20ph%E1%BA%A9m%20ch%C3%ADnh.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.6807360420290424,
+            0.6734158741021662
+          ],
+          "description": "",
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_097ac92a3a6b",
+          "type": "Nhật",
+          "loc": [
+            -2.154285768389024,
+            5.48632570421068
+          ],
+          "link": "Nhật",
+          "layer": "%5B%5BC%C3%A1c%20s%E1%BA%A3n%20ph%E1%BA%A9m%20ch%C3%ADnh.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_baf859e8e9db",
+          "type": "Nhật",
+          "loc": [
+            -3.1230358275168353,
+            6.6743151010944795
+          ],
+          "layer": "%5B%5BC%C3%A1c%20s%E1%BA%A3n%20ph%E1%BA%A9m%20ch%C3%ADnh.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": null,
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_fb1b1bbbe97b",
+          "type": "Nhật",
+          "loc": [
+            -2.9661459922790527,
+            6.058571422640229
+          ],
+          "layer": "%5B%5BC%C3%A1c%20s%E1%BA%A3n%20ph%E1%BA%A9m%20ch%C3%ADnh.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5702184868367275,
+            0.5979002945066437
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_9808cb4a49eb",
+          "type": "Ân",
+          "loc": [
+            -1.6160714258466449,
+            4.393918093002484
+          ],
+          "layer": "%5B%5BC%C3%A1c%20s%E1%BA%A3n%20ph%E1%BA%A9m%20ch%C3%ADnh.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.4135452322825867,
+            0.325759279540741
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        },
+        {
+          "id": "ID_4a9bf9d848b9",
+          "type": "Nhật",
+          "loc": [
+            -2.280506144478219,
+            6.3110045504594945
+          ],
+          "link": "Nhật",
+          "layer": "%5B%5BC%C3%A1c%20s%E1%BA%A3n%20ph%E1%BA%A9m%20ch%C3%ADnh.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.593976898866776,
+            0.45969257715466466
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "hover"
+        },
+        {
+          "id": "ID_9a18cb181a09",
+          "type": "Ân",
+          "loc": [
+            -2.77753019787019,
+            5.3793605129146735
+          ],
+          "layer": "%5B%5BC%C3%A1c%20s%E1%BA%A3n%20ph%E1%BA%A9m%20ch%C3%ADnh.png%5D%5D",
+          "mutable": true,
+          "command": false,
+          "percent": [
+            0.5062927541566752,
+            0.5598801028777706
+          ],
+          "description": null,
+          "minZoom": null,
+          "maxZoom": null,
+          "tooltip": "always"
+        }
+      ],
+      "overlays": [],
+      "shapes": [],
+      "files": [
+        "== Tổng quan tình hình hiện tại ==.md"
+      ]
+    }
+  ],
+  "defaultMarker": {
+    "type": "default",
+    "iconName": "map-marker",
+    "color": "#dddddd",
+    "transform": {
+      "size": 6,
+      "x": 0,
+      "y": -2
+    }
+  },
+  "markerIcons": [
+    {
+      "type": "Tuyên",
+      "iconName": "user",
+      "color": "#fff261",
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [
+        "player"
+      ],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Nhật",
+      "iconName": "user",
+      "color": "#00aaff",
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Ân",
+      "iconName": "user",
+      "color": "#564343",
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    },
+    {
+      "type": "Thịnh",
+      "iconName": "user",
+      "color": "#f86d6d",
+      "layer": true,
+      "transform": {
+        "size": 6,
+        "x": 0,
+        "y": -2
+      },
+      "isImage": false,
+      "tags": [],
+      "minZoom": null,
+      "maxZoom": null
+    }
+  ],
+  "color": "#dddddd",
+  "lat": 39.983334,
+  "long": -82.98333,
+  "notePreview": false,
+  "layerMarkers": true,
+  "previousVersion": "5.1.2",
+  "version": {
+    "major": 5,
+    "minor": 1,
+    "patch": 2
+  },
+  "warnedAboutMapMarker": false,
+  "copyOnClick": false,
+  "displayMarkerTooltips": "hover",
+  "displayOverlayTooltips": true,
+  "configDirectory": null,
+  "mapViewEnabled": true,
+  "mapViewParameters": {
+    "darkMode": "false",
+    "defaultZoom": 6.5,
+    "distanceMultiplier": 1,
+    "drawColor": "#3388ff",
+    "geojson": [],
+    "geojsonColor": "#3388ff",
+    "gpx": [],
+    "gpxColor": "#3388ff",
+    "height": "500px",
+    "image": "[[Các sản phẩm chính.png]]",
+    "imageOverlay": [],
+    "isMapView": false,
+    "layers": [
+      "[[Các sản phẩm chính.png]]"
+    ],
+    "linksFrom": [],
+    "linksTo": [],
+    "marker": [],
+    "commandMarker": [],
+    "markerFile": [],
+    "markerFolder": [],
+    "markerTag": [],
+    "maxZoom": 10,
+    "minZoom": 1,
+    "osmLayer": true,
+    "overlay": [],
+    "overlayColor": "blue",
+    "scale": 1,
+    "showAllMarkers": false,
+    "tileServer": [],
+    "verbose": false,
+    "zoomDelta": 1,
+    "zoomFeatures": false,
+    "id": "leaflet-map",
+    "lat": 50,
+    "long": 50,
+    "unit": "meters",
+    "filterTag": []
+  },
+  "enableDraw": true,
+  "defaultUnitType": "metric",
+  "defaultTile": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultTileDark": "https://stamen-tiles.a.ssl.fastly.net/terrain/{z}/{x}/{y}.png",
+  "defaultAttribution": "Map tiles by <a href=\"http://stamen.com\">Stamen Design</a>, under <a href=\"http://creativecommons.org/licenses/by/3.0\">CC BY 3.0</a>. Data by <a href=\"http://openstreetmap.org\">OpenStreetMap</a>, under <a href=\"http://www.openstreetmap.org/copyright\">ODbL</a>."
+}

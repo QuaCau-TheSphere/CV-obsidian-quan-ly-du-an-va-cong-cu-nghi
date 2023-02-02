@@ -1,0 +1,17 @@
+{
+  "autocomplete": [
+    {
+      "field": "Thành phẩm",
+      "folder": "Dự án/Thành phẩm"
+    },
+    {
+      "field": "Nhu cầu",
+      "folder": "Dự án/Nhu cầu"
+    },
+    {
+      "field": "Thành quả mong muốn",
+      "folder": "Dự án/Thành quả mong muốn"
+    }
+  ],
+  "regexpTrigger": "/"
+}

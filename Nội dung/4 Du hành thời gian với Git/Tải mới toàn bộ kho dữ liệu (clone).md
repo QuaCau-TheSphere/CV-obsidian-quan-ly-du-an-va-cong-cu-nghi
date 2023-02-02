@@ -1,0 +1,6 @@
+# Tải mới toàn bộ kho dữ liệu (clone) 
+<iframe src="https://www.youtube.com/embed/Lb4yvfrX_7I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+```git
+git clone https://github.com/QuaCau-TheSphere/LandofSpheres
+```
