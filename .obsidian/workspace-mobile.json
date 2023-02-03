@@ -1,0 +1,131 @@
+{
+  "main": {
+    "id": "0b1ef8b619fe70dc",
+    "type": "split",
+    "children": [
+      {
+        "id": "23008036ce95954e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85d130993ace45b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Đăng trên Discord QC.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ff79ca940646c203",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "9bd0c5cb881fd615",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "2045f6fd632b79db",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "f3c58a3fb2b38f00",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "baefcaf206c62a8b",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "aa46f172f5794207",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c9e814a2cbe8c53e",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Đăng trên Discord QC.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "b7664a05ae756262",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Đăng trên Discord QC.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "2a81964fd7035a3f",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Đăng trên Discord QC.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "85d130993ace45b4",
+  "lastOpenFiles": [
+    "Cài Analytics.md",
+    "🌟BẮT ĐẦU Ở ĐÂY.md",
+    "Dự án/Thành quả mong muốn/50 người mở vault ít nhất 5 lần.md"
+  ]
+}

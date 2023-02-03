@@ -1,0 +1,1 @@
+- [ ] [[Đăng trên Discord QC]] 

@@ -98,16 +98,16 @@
     "tp": {
       "Thành phẩm::": {
         "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1675318634959
+          "count": 2,
+          "lastUpdated": 1675392587105
         }
       }
     },
     "tq": {
       "Thành quả mong muốn::": {
         "customDictionary": {
-          "count": 4,
-          "lastUpdated": 1675334457485
+          "count": 6,
+          "lastUpdated": 1675358373702
         }
       }
     },
@@ -120,8 +120,16 @@
       },
       "> [!Tip] Phím tắt\n> <kbd>|</kbd>": {
         "customDictionary": {
-          "count": 2,
-          "lastUpdated": 1675331580760
+          "count": 4,
+          "lastUpdated": 1675353256721
+        }
+      }
+    },
+    "tm": {
+      "> [!Tip] Terminal\n> <kbd>|</kbd>": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1675353313818
         }
       }
     }

@@ -1,17 +1,4 @@
 {
-  "theme": "obsidian",
-  "cssTheme": "AnuPpuccin",
-  "enabledCssSnippets": [
-    "css",
-    "New Text Document",
-    "supercharged-links-gen",
-    "MCL Wide Views",
-    "MCL Multi Column",
-    "MCL Gallery Cards",
-    "Horizontal tabs",
-    "Custom"
-  ],
-  "baseFontSize": 15,
-  "translucency": false,
-  "accentColor": "#c4be6e"
+  "accentColor": "",
+  "theme": "moonstone"
 }

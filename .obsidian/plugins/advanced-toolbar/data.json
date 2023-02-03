@@ -7,16 +7,8 @@
   "alwaysShowToolbar": true,
   "mappedIcons": [
     {
-      "commandID": "metaedit:metaEditRun",
-      "iconID": "sheets-in-box"
-    },
-    {
       "commandID": "obsidian-editor-shortcuts:deleteLine",
       "iconID": "minus"
-    },
-    {
-      "commandID": "templater-obsidian:insert-templater",
-      "iconID": "layout-list"
     },
     {
       "commandID": "obsidian-editor-shortcuts:duplicateLine",
