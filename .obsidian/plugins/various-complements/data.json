@@ -55,22 +55,6 @@
         }
       }
     },
-    "mmm": {
-      "Thành quả cần có::": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1672822403619
-        }
-      }
-    },
-    "nc": {
-      "Đáp ứng cho nhu cầu của mình::": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1672901391530
-        }
-      }
-    },
     "vvl": {
       "Lý do::": {
         "customDictionary": {
@@ -98,16 +82,22 @@
     "tp": {
       "Thành phẩm::": {
         "customDictionary": {
-          "count": 2,
-          "lastUpdated": 1675392587105
+          "count": 3,
+          "lastUpdated": 1675492019175
         }
       }
     },
     "tq": {
       "Thành quả mong muốn::": {
         "customDictionary": {
-          "count": 6,
-          "lastUpdated": 1675358373702
+          "count": 7,
+          "lastUpdated": 1675477469885
+        }
+      },
+      "Thành quả mong muốn:: ": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1675609918565
         }
       }
     },

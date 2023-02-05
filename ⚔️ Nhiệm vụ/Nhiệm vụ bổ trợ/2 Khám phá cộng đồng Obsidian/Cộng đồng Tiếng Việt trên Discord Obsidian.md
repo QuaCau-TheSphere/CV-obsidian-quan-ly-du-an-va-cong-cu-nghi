@@ -1,0 +1,1 @@
+Nhớ xem pin message [Discord Tiếng Việt cho Obsidian](https://discord.gg/obsidianmd)

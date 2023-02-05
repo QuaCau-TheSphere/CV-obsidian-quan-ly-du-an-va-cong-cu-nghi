@@ -1,0 +1,40 @@
+%%%%%%%%%%%%
+╭━┳━╭━╭━╮╮
+┃┈┈┈┣▅╋▅┫┃
+┃┈┃┈╰━╰━━━━━━╮
+╰┳╯┈┈┈┈┈┈┈┈┈◢▉◣
+╲┃┈┈┈┈┈┈┈┈┈▉▉▉
+╲┃┈┈┈┈┈┈┈┈┈◥▉◤
+╲┃┈┈┈┈╭━┳━━━━╯
+╲┣━━━━━━┫
+╔═══════════════════╗
+║  Nếu bạn đọc được   ║
+║  dòng này, hãy bấm  ║
+║ **Ctrl + E** để thấy  ║
+║        điều kỳ diệu       ║
+╚═══════════════════╝
+%%%%%%%%%%%%
+![[Điều gì đưa bạn đến nơi này ngày hôm nay.jpg|300]]
+```button
+name Tôi muốn biết xem Obsidian có gì hay
+type link
+Action obsidian://open?vault=%E1%BB%A8ng%20d%E1%BB%A5ng%20Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%F0%9F%96%BC%EF%B8%8F%20Khu%20tr%C6%B0ng%20b%C3%A0y%2F%F0%9F%96%BC%EF%B8%8F%20Khu%20tr%C6%B0ng%20b%C3%A0y
+color blue
+```
+^button-xtkc
+
+```button
+name Tôi muốn sử dụng Obsidian thành thạo
+type link
+action obsidian://open?vault=%E1%BB%A8ng%20d%E1%BB%A5ng%20Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%E2%9A%94%EF%B8%8F%20Nhi%E1%BB%87m%20v%E1%BB%A5%2F%E2%9A%94%EF%B8%8F%20Nhi%E1%BB%87m%20v%E1%BB%A5
+color blue
+```
+^button-o67r
+
+```button
+name Tôi muốn biết hướng đi của nơi này 
+type link
+Action obsidian://open?vault=%E1%BB%A8ng%20d%E1%BB%A5ng%20Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%F0%9F%93%90%20D%E1%BB%B1%20%C3%A1n%2F%F0%9F%93%90%20D%E1%BB%B1%20%C3%A1n
+color blue
+```
+^button-o67f
