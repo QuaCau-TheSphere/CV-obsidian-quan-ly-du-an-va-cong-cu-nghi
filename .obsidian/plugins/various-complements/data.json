@@ -85,19 +85,25 @@
           "count": 3,
           "lastUpdated": 1675492019175
         }
+      },
+      "Thành phẩm:: ": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1675664324844
+        }
       }
     },
     "tq": {
-      "Thành quả mong muốn::": {
+      "2 Thành quả mong muốn::": {
         "customDictionary": {
           "count": 7,
           "lastUpdated": 1675477469885
         }
       },
-      "Thành quả mong muốn:: ": {
+      "2 Thành quả mong muốn:: ": {
         "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1675609918565
+          "count": 3,
+          "lastUpdated": 1675664320623
         }
       }
     },
@@ -120,6 +126,14 @@
         "customDictionary": {
           "count": 1,
           "lastUpdated": 1675353313818
+        }
+      }
+    },
+    "tqht": {
+      "Thành quả hỗ trợ:: ": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1675664922253
         }
       }
     }

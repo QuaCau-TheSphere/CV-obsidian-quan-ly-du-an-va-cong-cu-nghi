@@ -15,8 +15,12 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "Nội dung",
+      "folder": "⚔️ Nhiệm vụ",
       "template": "Thiết lập/Templates/Bài mới.md"
+    },
+    {
+      "folder": "📐 Dự án/2 Thành quả mong muốn",
+      "template": "Thiết lập/Templates/Thành quả.md"
     }
   ],
   "syntax_highlighting": true,

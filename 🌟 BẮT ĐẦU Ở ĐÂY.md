@@ -32,9 +32,17 @@ color blue
 ^button-o67r
 
 ```button
-name Tôi muốn biết hướng đi của nơi này 
+name Tôi muốn biết kế hoạch của dự án này 
 type link
 Action obsidian://open?vault=%E1%BB%A8ng%20d%E1%BB%A5ng%20Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%F0%9F%93%90%20D%E1%BB%B1%20%C3%A1n%2F%F0%9F%93%90%20D%E1%BB%B1%20%C3%A1n
 color blue
 ```
 ^button-o67f
+
+```button
+name Tôi muốn góp phản hồi về dự án này
+type link
+Action https://quảcầu.cc/khao-sat-nguoi-dung-vault-nhap-mon-obsidian/?utm_source=Vault+%C2%BB+Nh%E1%BA%ADp+m%C3%B4n+Obsidian+%C2%BB+Trang+ch%E1%BB%A7&utm_medium=Giai+%C4%91o%E1%BA%A1n+2
+color blue
+```
+^button-o67g

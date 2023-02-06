@@ -1,5 +1,6 @@
 Nhu cầu:: 		nc
-Thành quả mong muốn:: 		tq
+Thành quả cần có:: 		tqcc
+Thành quả hỗ trợ:: 		tqht
 Thành phẩm:: 		tp
 
 > [!Tip] Phím tắt\n> <kbd>|</kbd>		pt

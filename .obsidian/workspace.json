@@ -8,19 +8,44 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f3f7c4b8c3145d58",
+            "id": "526788cffa135127",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "2d04923e90a4d278",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "c31caf04c626f4e9",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "2a087a656bf28fda",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
-                "mode": "preview",
+                "file": "📐 Dự án/4 Theo dõi chỉ số/Giới thiệu vault trên Discord QC.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -86,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
+                "file": "📐 Dự án/4 Theo dõi chỉ số/Giới thiệu vault trên Discord QC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
+                "file": "📐 Dự án/4 Theo dõi chỉ số/Giới thiệu vault trên Discord QC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md"
+                "file": "📐 Dự án/4 Theo dõi chỉ số/Giới thiệu vault trên Discord QC.md"
               }
             }
           }
@@ -169,17 +194,17 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f3f7c4b8c3145d58",
+  "active": "2a087a656bf28fda",
   "lastOpenFiles": [
-    "Thiết lập/Ảnh/Điều gì đưa bạn đến nơi này ngày hôm nay.jpg",
-    "🌟 BẮT ĐẦU Ở ĐÂY.md",
+    "🖼️ Khu trưng bày/🖼️ Khu trưng bày.md",
+    "📐 Dự án/4 Theo dõi chỉ số/Demo tại nhóm phát triển sản phẩm.md",
+    "📐 Dự án/4 Theo dõi chỉ số/Giới thiệu vault trên Discord QC.md",
+    "📐 Dự án/5 Nơi đăng/Zalo Product Maker Vietnam.md",
+    "📐 Dự án/5 Nơi đăng/Facebook group ❝Một đám mây chim sáo❞.md",
+    "📐 Dự án/5 Nơi đăng/Discord QC.md",
+    "📐 Dự án/5 Nơi đăng/Discord Obsidian tiếng-Việt.md",
     "📐 Dự án/📐 Dự án.md",
     "⚔️ Nhiệm vụ/⚔️ Nhiệm vụ.md",
-    "🖼️ Khu trưng bày/🖼️ Khu trưng bày.md",
-    "LinhRab transparent.jpg.md",
-    "Thiết lập/Ảnh/LinhRab transparent.jpg",
-    "LinhRab transparent.jpg",
-    "🖼️ Khu trưng bày/Plugin/Tạo bảng.md",
-    "⚔️ Nhiệm vụ/2 Xây dựng dự án với plugin/📖 Bài đọc thêm/📖 Hiểu về cơ sở dữ liệu.md"
+    "📐 Dự án/2 Thành quả mong muốn/1000 người cho phản ứng với bài đăng giới thiệu về vault.md"
   ]
 }

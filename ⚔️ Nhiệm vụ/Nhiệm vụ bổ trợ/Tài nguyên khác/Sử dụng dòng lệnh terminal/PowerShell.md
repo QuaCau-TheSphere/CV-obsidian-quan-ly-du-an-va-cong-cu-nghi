@@ -22,5 +22,9 @@ Get-ChildItem *.md -recurse | Where-Object {$_.name -cmatch '^2[A-Z]'}  | Rename
 - `-cmatch`: match có case sensitive
 # Tìm và thay chuỗi hàng loạt
 ```PowerShell
-Get-ChildItem *.md -recurse | ForEach-Object { (Get-Content $_).Replace('Kết quả mong muốn::','Thành quả cần có::') | Set-Content $_ } 
+Get-ChildItem *.md -recurse | ForEach-Object { (Get-Content $_).Replace('Kết quả cần có::','Thành quả cần có::') | Set-Content $_ } 
+```
+# Xoá tất cả desktop.ini 
+```PowerShell
+Get-ChildItem -Force -Recurse -File -Filter "desktop.ini" | Remove-Item -force
 ```
