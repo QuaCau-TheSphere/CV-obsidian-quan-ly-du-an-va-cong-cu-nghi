@@ -55,14 +55,6 @@
         }
       }
     },
-    "vvl": {
-      "Lý do::": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1673117185389
-        }
-      }
-    },
     "kkk, kqmm": {
       "Thành quả cần có::": {
         "customDictionary": {
@@ -132,8 +124,16 @@
     "tqht": {
       "Thành quả hỗ trợ:: ": {
         "customDictionary": {
+          "count": 2,
+          "lastUpdated": 1675931136310
+        }
+      }
+    },
+    "tqcc": {
+      "Thành quả cần có:: ": {
+        "customDictionary": {
           "count": 1,
-          "lastUpdated": 1675664922253
+          "lastUpdated": 1675931028961
         }
       }
     }

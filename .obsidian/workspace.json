@@ -8,44 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "526788cffa135127",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "2d04923e90a4d278",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "c31caf04c626f4e9",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "2a087a656bf28fda",
+            "id": "c5977ddcf449cacf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/4 Theo dõi chỉ số/Giới thiệu vault trên Discord QC.md",
-                "mode": "source",
+                "file": "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Discord QC.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/4 Theo dõi chỉ số/Giới thiệu vault trên Discord QC.md",
+                "file": "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Discord QC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/4 Theo dõi chỉ số/Giới thiệu vault trên Discord QC.md",
+                "file": "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Discord QC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/4 Theo dõi chỉ số/Giới thiệu vault trên Discord QC.md"
+                "file": "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Discord QC.md"
               }
             }
           }
@@ -181,30 +156,29 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
+      "homepage:Open homepage": false,
+      "daily-notes:Open today's daily note": true,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
-      "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "open-vscode:VSCode": false,
-      "homepage:Open homepage": false
+      "obsidian42-brat:BRAT": true,
+      "templater-obsidian:Templater": true,
+      "obsidian-leaflet-plugin:Open Leaflet Map": true,
+      "open-vscode:VSCode": true
     }
   },
-  "active": "2a087a656bf28fda",
+  "active": "c5977ddcf449cacf",
   "lastOpenFiles": [
-    "🖼️ Khu trưng bày/🖼️ Khu trưng bày.md",
-    "📐 Dự án/4 Theo dõi chỉ số/Demo tại nhóm phát triển sản phẩm.md",
-    "📐 Dự án/4 Theo dõi chỉ số/Giới thiệu vault trên Discord QC.md",
-    "📐 Dự án/5 Nơi đăng/Zalo Product Maker Vietnam.md",
-    "📐 Dự án/5 Nơi đăng/Facebook group ❝Một đám mây chim sáo❞.md",
-    "📐 Dự án/5 Nơi đăng/Discord QC.md",
-    "📐 Dự án/5 Nơi đăng/Discord Obsidian tiếng-Việt.md",
+    "📐 Dự án/4 Theo dõi chỉ số/GitHub.md",
     "📐 Dự án/📐 Dự án.md",
-    "⚔️ Nhiệm vụ/⚔️ Nhiệm vụ.md",
-    "📐 Dự án/2 Thành quả mong muốn/1000 người cho phản ứng với bài đăng giới thiệu về vault.md"
+    "🌟 BẮT ĐẦU Ở ĐÂY.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi demo vault/Demo tại nhóm phát triển sản phẩm.md",
+    "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Các bài quảng bá vault.md",
+    "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Discord Obsidian tiếng-Việt.md",
+    "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Discord QC.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn 1-1/Các buổi hướng dẫn 1-1.md",
+    "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Facebook page QC.md",
+    "📐 Dự án/4 Theo dõi chỉ số/Giới thiệu vault trên Discord QC.md"
   ]
 }

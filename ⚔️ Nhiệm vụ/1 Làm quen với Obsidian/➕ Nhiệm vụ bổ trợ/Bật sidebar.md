@@ -1,1 +1,1 @@
-[[Chèn ảnh]]
+[[Chèn ảnh. Chèn đoạn văn từ ghi chú khác]]

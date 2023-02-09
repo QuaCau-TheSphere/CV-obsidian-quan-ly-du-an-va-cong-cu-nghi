@@ -4,6 +4,7 @@ List
 From "📐 Dự án/2 Thành quả mong muốn" 
 where contains(thành-quả-cần-có,[[]]) or contains(thành-quả-hỗ-trợ,[[]]) 
 ```
+Thành quả cần có:: 
+Thành phẩm:: 
 
-Thành quả cần có:: [[4000 người biết về sự tồn tại của vault]]
-Thành quả hỗ trợ:: [[1000 người cho phản ứng với bài đăng giới thiệu về vault]]
+- [ ] [[Trên Discord QC]] 
