@@ -36,7 +36,7 @@ color blue
 ```button
 name Tôi muốn biết kế hoạch phát triển của dự án "Nhóm tự học Obsidian" 
 type link
-Action obsidian://open?vault=Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%F0%9F%93%90%20D%E1%BB%B1%20%C3%A1n%2F%F0%9F%93%90%20D%E1%BB%B1%20%C3%A1n
+Action obsidian://open?vault=Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%F0%9F%93%90%20D%E1%BB%B1%20%C3%A1n%2FT%C3%A0i%20li%E1%BB%87u%2FGi%E1%BB%9Bi%20thi%E1%BB%87u%20v%E1%BB%81%20vault%20%E2%9D%9DObsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n%E2%9D%9E
 color blue
 ```
 ^button-o67f
@@ -56,20 +56,3 @@ Action https://discord.gg/ynvxH2K7Ct
 color blue
 ```
 ^button-o67g
-
----
-
-Đây là một sản phẩm dành riêng cho người Việt với mục tiêu hỗ trợ những ai chưa từng làm quen với Obsidian và Git cũng như kiến thức về phát triển sản phẩm có thể nhanh chóng học những ứng dụng và kiến thức này từng bước một để làm một kho dữ liệu quản lý dự án. Bạn có thể dùng vault này để tự học hoặc như một giáo án để hỗ trợ bạn bè của mình.
-
-Khảo sát xyz người với câu hỏi "Khó khăn khi bạn" 
-
-Ontology
-
-Nếu đi qua hết tất cả các thử thách ở đây, bạn sẽ có được:
-- Một bản kế hoạch cho cuộc sống của mình
-- Một kho dữ liệu quản lý các dự án mình tham gia
-- Kiến thức lập trình cơ bản
-- Sự tự tin với công nghệ thông tin
-- Sự rõ ràng hơn trong chặng đường sắp tới của mình.
-
-Vault này được khởi xướng bởi Quả Cầu, và được hoàn thiện bởi những người cũng đang làm dự án giống như bạn.

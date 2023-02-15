@@ -10,7 +10,7 @@ WHERE contains(thành-phẩm,[[]])
 Người chơi:: Nhật
 
 Thành quả cần có::
-Thành quả hỗ trợ::
+Thành quả hỗ trợ:: Người tham gia nói nhu cầu của họ
 
 Thành phẩm nhỏ hơn:
 ```dataview

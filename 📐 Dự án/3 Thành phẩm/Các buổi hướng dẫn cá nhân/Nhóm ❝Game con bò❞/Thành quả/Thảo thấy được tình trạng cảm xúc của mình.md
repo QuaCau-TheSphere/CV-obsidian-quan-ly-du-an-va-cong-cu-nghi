@@ -7,4 +7,4 @@ where contains(thành-quả-cần-có,[[]]) or contains(thành-quả-hỗ-trợ,
 ```
 Thành quả cần có:: 
 
-Thành phẩm:: 
+Thành phẩm:: [[Hệ thống chấm điểm cảm xúc]]

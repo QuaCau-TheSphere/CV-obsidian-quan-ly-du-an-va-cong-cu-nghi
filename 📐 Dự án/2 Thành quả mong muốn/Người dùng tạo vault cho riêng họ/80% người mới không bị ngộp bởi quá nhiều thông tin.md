@@ -5,6 +5,6 @@ List
 From #file/thành-quả 
 where contains(thành-quả-cần-có,[[]]) or contains(thành-quả-hỗ-trợ,[[]]) 
 ```
-Thành quả cần có:: [[80% người mới không bị ngộp bởi quá nhiều thông tin]]
+Thành quả cần có:: 
 
-Thành phẩm:: [[Các buổi hướng dẫn cá nhân]]
+Thành phẩm:: 

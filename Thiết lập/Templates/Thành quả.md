@@ -1,4 +1,7 @@
-%%#file/thành-quả%%
+%%
+#tt/<% tp.file.cursor() %>
+#file/thành-quả
+%%
 Phục vụ cho thành quả:
 ```dataview
 List 

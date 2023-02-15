@@ -8,25 +8,42 @@
         "type": "tabs",
         "children": [
           {
-            "id": "25aa19c8ce94ad1c",
+            "id": "4f4acea57daf9d3f",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi lấy phản hồi của người dùng/Các buổi lấy phản hồi của người dùng.md",
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Phiếu đăng ký tham gia buổi nói chuyện.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "2a34f4e393323594",
+            "id": "3e884aa17368ad7f",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🖼️ Khu trưng bày/Theo mục đích/Mạng kết nối nhu cầu.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "d3772dae756f9de6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Thành phẩm/Hệ thống chấm điểm cảm xúc.md",
+                "file": "📐 Dự án/Tài liệu/Giới thiệu về vault ❝Obsidian và Git cho quản lý dự án❞.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -99,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi lấy phản hồi của người dùng/Các buổi lấy phản hồi của người dùng.md",
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Phiếu đăng ký tham gia buổi nói chuyện.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi lấy phản hồi của người dùng/Các buổi lấy phản hồi của người dùng.md",
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Phiếu đăng ký tham gia buổi nói chuyện.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi lấy phản hồi của người dùng/Các buổi lấy phản hồi của người dùng.md"
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Phiếu đăng ký tham gia buổi nói chuyện.md"
               }
             }
           }
@@ -180,17 +197,17 @@
       "open-vscode:VSCode": true
     }
   },
-  "active": "25aa19c8ce94ad1c",
+  "active": "4f4acea57daf9d3f",
   "lastOpenFiles": [
-    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Các buổi hướng dẫn cá nhân.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi lấy phản hồi của người dùng/Các buổi lấy phản hồi của người dùng.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Nhóm ❝Game con bò❞.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Thành quả/Thảo có cuộc sống tích cực, khoẻ mạnh.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Thành phẩm/Hệ thống chấm điểm cảm xúc.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Thành quả/Ngân học được Nodejs.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Thành quả/Những người quan tâm tới Thảo hiểu được Thảo.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Thành quả/Thảo thấy được tình trạng cảm xúc của mình.md",
-    "Thiết lập/Templates/Thành phẩm.md",
-    "Thiết lập/Templates/Bài học.md"
+    "📐 Dự án/Tài liệu/Giới thiệu về vault ❝Obsidian và Git cho quản lý dự án❞.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Phiếu đăng ký tham gia buổi nói chuyện.md",
+    "🖼️ Khu trưng bày/Theo mục đích/Mạng kết nối nhu cầu.md",
+    "🖼️ Khu trưng bày/🖼️ Khu trưng bày.md",
+    "📐 Dự án/Tài liệu/Các dự án tương tự.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Các buổi xây dựng nội dung vault.md",
+    "📐 Dự án/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/1000 người cho phản ứng với bài đăng giới thiệu về vault.md",
+    "📐 Dự án/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/2500 người tải bộ cài về.md",
+    "📐 Dự án/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/2000 người mở vault 1 lần.md",
+    "📐 Dự án/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/1000 người mở vault 3 lần.md"
   ]
 }
