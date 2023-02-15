@@ -30,5 +30,6 @@
     "editor:insert-wikilink"
   ],
   "livePreview": false,
-  "showLineNumber": false
+  "showLineNumber": false,
+  "attachmentFolderPath": "Thiết lập/Ảnh"
 }

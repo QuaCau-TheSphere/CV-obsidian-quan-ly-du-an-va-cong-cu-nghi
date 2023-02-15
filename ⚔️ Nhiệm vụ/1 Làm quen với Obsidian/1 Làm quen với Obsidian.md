@@ -1,1 +1,4 @@
-# [[1.1 Tạo vault mới]]➡️
+Các cấp độ:
+```dataview
+list from "⚔️ Nhiệm vụ/1 Làm quen với Obsidian" 
+```

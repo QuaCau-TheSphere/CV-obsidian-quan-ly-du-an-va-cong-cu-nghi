@@ -80,8 +80,8 @@
       },
       "Thành phẩm:: ": {
         "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1675664324844
+          "count": 9,
+          "lastUpdated": 1676456202892
         }
       }
     },
@@ -124,16 +124,24 @@
     "tqht": {
       "Thành quả hỗ trợ:: ": {
         "customDictionary": {
-          "count": 2,
-          "lastUpdated": 1675931136310
+          "count": 8,
+          "lastUpdated": 1676474556577
         }
       }
     },
     "tqcc": {
       "Thành quả cần có:: ": {
         "customDictionary": {
+          "count": 7,
+          "lastUpdated": 1676455345090
+        }
+      }
+    },
+    "Thành quả cần có:: ": {
+      "Thành quả cần có:: ": {
+        "customDictionary": {
           "count": 1,
-          "lastUpdated": 1675931028961
+          "lastUpdated": 1676472699173
         }
       }
     }

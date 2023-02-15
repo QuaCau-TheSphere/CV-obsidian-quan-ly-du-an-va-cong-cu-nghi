@@ -1,1 +1,2 @@
-Nhớ xem pin message [Discord Tiếng Việt cho Obsidian](https://discord.gg/obsidianmd)
+![](https://i.imgur.com/CAVIjPW.png)
+https://discord.gg/obsidianmd

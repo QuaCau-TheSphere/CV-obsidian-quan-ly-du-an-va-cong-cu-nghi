@@ -4,17 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "f843f104aa8ec02a",
+        "id": "8c43bc34cb8ab9d5",
         "type": "tabs",
         "children": [
           {
-            "id": "c5977ddcf449cacf",
+            "id": "25aa19c8ce94ad1c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Discord QC.md",
-                "mode": "preview",
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi lấy phản hồi của người dùng/Các buổi lấy phản hồi của người dùng.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2a34f4e393323594",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Thành phẩm/Hệ thống chấm điểm cảm xúc.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Discord QC.md",
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi lấy phản hồi của người dùng/Các buổi lấy phản hồi của người dùng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Discord QC.md",
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi lấy phản hồi của người dùng/Các buổi lấy phản hồi của người dùng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,12 +155,11 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Discord QC.md"
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi lấy phản hồi của người dùng/Các buổi lấy phản hồi của người dùng.md"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -168,17 +180,17 @@
       "open-vscode:VSCode": true
     }
   },
-  "active": "c5977ddcf449cacf",
+  "active": "25aa19c8ce94ad1c",
   "lastOpenFiles": [
-    "📐 Dự án/4 Theo dõi chỉ số/GitHub.md",
-    "📐 Dự án/📐 Dự án.md",
-    "🌟 BẮT ĐẦU Ở ĐÂY.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi demo vault/Demo tại nhóm phát triển sản phẩm.md",
-    "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Các bài quảng bá vault.md",
-    "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Discord Obsidian tiếng-Việt.md",
-    "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Discord QC.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn 1-1/Các buổi hướng dẫn 1-1.md",
-    "📐 Dự án/3 Thành phẩm/Các bài quảng bá vault/Trên Facebook page QC.md",
-    "📐 Dự án/4 Theo dõi chỉ số/Giới thiệu vault trên Discord QC.md"
+    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Các buổi hướng dẫn cá nhân.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi lấy phản hồi của người dùng/Các buổi lấy phản hồi của người dùng.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Nhóm ❝Game con bò❞.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Thành quả/Thảo có cuộc sống tích cực, khoẻ mạnh.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Thành phẩm/Hệ thống chấm điểm cảm xúc.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Thành quả/Ngân học được Nodejs.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Thành quả/Những người quan tâm tới Thảo hiểu được Thảo.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Thành quả/Thảo thấy được tình trạng cảm xúc của mình.md",
+    "Thiết lập/Templates/Thành phẩm.md",
+    "Thiết lập/Templates/Bài học.md"
   ]
 }

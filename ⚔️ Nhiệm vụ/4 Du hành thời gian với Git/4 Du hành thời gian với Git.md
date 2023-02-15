@@ -1,6 +1,1 @@
-# 4 Du hành thời gian với Git Overview
- 
-```ccard
-type: folder_brief_live
-```
- 
+![](https://explainxkcd.com/wiki/images/4/4d/git.png)
