@@ -5,12 +5,17 @@ Link tải bộ cài cho vault: https://github.com/QuaCau-TheSphere/Obsidian-va-
 Số lượng:
 
 # Câu hỏi
-Bạn đến buổi gặp mặt với mục tiêu gì?
-- Tham gia nhận việc 
-- Đóng góp nhu cầu của người sử dụng
-- Nghe là chính
-- Khác
 
+## Bạn dự định sẽ làm gì trong buổi hôm đó?  
+  
+- Nhận việc  
+- Đóng góp ý tưởng cho việc lên kế hoạch  
+- Đóng góp nhu cầu người sử dụng  
+- Quan sát, lắng nghe là chính  
+  
+Ngoài Obsidian ra bạn còn những nhu cầu nào khác  
+Bạn có muốn những bạn khác biết về những nhu cầu này của bạn không?  
+  
 Bạn ở tỉnh nào?
 
 Khi đăng ký tham gia mong bạn cung cấp vài thông tin:
@@ -20,3 +25,5 @@ Khi đăng ký tham gia mong bạn cung cấp vài thông tin:
 
 # Sau khi đăng ký xong
 Cảm ơn bạn đã đăng ký tham gia. Để giới thiệu trước về bản thân bạn và làm quen với những bạn sẽ có mặt trong buổi hôm đó, đặt câu hỏi cũng như cập nhật những thông báo mới nhất tại  bạn có thể vào Discord Quả Cầu, kênh # hỗ-trợ-người-tự-học. Link:
+
+

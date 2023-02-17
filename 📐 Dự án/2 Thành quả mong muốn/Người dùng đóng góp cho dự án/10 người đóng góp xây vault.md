@@ -6,7 +6,7 @@ where contains(file.outlinks,[[]])
 ```
 Thành quả hỗ trợ:: [[50% người chia sẻ vault cho bạn bè]]
 Thành phẩm:: [[Các buổi lấy phản hồi hoặc kết quả khảo sát]]
-Thành phẩm:: [[Các bài viết giới thiệu vault]]
+Thành phẩm:: [[Các bài viết truyền thông]]
 Thành phẩm:: [[Các buổi xây dựng nội dung vault]]
 
 %%#file/thành-quả%%

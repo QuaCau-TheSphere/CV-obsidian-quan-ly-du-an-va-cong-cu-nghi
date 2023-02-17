@@ -1,6 +1,8 @@
 %%
 #file/thành-phẩm
 %%
+Trạng thái:: #tt/chưa-hoàn-thành 
+
 Phục vụ cho thành quả:
 ```dataview
 LIST
@@ -18,3 +20,5 @@ List
 From #file/thành-phẩm 
 Where contains(file.folder,this.file.folder) and file.name!=this.file.name
 ```
+
+- [ ] 

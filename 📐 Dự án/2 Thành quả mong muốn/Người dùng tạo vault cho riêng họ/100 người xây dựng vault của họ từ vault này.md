@@ -15,4 +15,4 @@ Thành quả hỗ trợ:: [[50% người dễ dàng tự sử dụng]]
 
 Thành phẩm:: [[Các bài học]]
 Thành phẩm:: [[Các buổi hướng dẫn cá nhân]]
-Thành phẩm:: [[Các bài viết giới thiệu vault]]
+Thành phẩm:: [[Các bài viết truyền thông]]

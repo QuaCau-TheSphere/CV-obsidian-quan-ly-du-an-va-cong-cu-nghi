@@ -34,7 +34,7 @@ color blue
 ^button-o67r
 
 ```button
-name Tôi muốn biết kế hoạch phát triển của dự án "Nhóm tự học Obsidian" 
+name Tôi muốn biết kế hoạch của dự án "Nhóm tự học Obsidian" 
 type link
 Action obsidian://open?vault=Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%F0%9F%93%90%20D%E1%BB%B1%20%C3%A1n%2FT%C3%A0i%20li%E1%BB%87u%2FGi%E1%BB%9Bi%20thi%E1%BB%87u%20v%E1%BB%81%20vault%20%E2%9D%9DObsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n%E2%9D%9E
 color blue

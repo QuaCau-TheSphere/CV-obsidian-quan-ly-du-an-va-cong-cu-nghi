@@ -1,9 +1,13 @@
+%%
+#tt/<% tp.file.cursor() %>
+#file/thành-quả
+%%
 Phục vụ cho thành quả:
 ```dataview
 List 
-From "📐 Dự án/2 Thành quả mong muốn" 
+From #file/thành-quả 
 where contains(thành-quả-cần-có,[[]]) or contains(thành-quả-hỗ-trợ,[[]]) 
 ```
 Thành quả cần có:: 
 
-Thành phẩm:: [[Các bài học]]
+Thành phẩm:: 

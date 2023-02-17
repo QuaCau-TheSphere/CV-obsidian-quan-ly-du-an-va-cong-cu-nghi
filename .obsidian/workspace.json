@@ -8,42 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4f4acea57daf9d3f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Phiếu đăng ký tham gia buổi nói chuyện.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "3e884aa17368ad7f",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🖼️ Khu trưng bày/Theo mục đích/Mạng kết nối nhu cầu.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "d3772dae756f9de6",
+            "id": "af4a9219ef09954c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Tài liệu/Giới thiệu về vault ❝Obsidian và Git cho quản lý dự án❞.md",
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Các buổi xây dựng nội dung vault.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -116,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Phiếu đăng ký tham gia buổi nói chuyện.md",
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Các buổi xây dựng nội dung vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Phiếu đăng ký tham gia buổi nói chuyện.md",
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Các buổi xây dựng nội dung vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Phiếu đăng ký tham gia buổi nói chuyện.md"
+                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Các buổi xây dựng nội dung vault.md"
               }
             }
           }
@@ -193,21 +163,21 @@
       "command-palette:Open command palette": false,
       "obsidian42-brat:BRAT": true,
       "templater-obsidian:Templater": true,
-      "obsidian-leaflet-plugin:Open Leaflet Map": true,
-      "open-vscode:VSCode": true
+      "open-vscode:VSCode": true,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "4f4acea57daf9d3f",
+  "active": "af4a9219ef09954c",
   "lastOpenFiles": [
-    "📐 Dự án/Tài liệu/Giới thiệu về vault ❝Obsidian và Git cho quản lý dự án❞.md",
+    "📐 Dự án/📐 Dự án.md",
     "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Phiếu đăng ký tham gia buổi nói chuyện.md",
-    "🖼️ Khu trưng bày/Theo mục đích/Mạng kết nối nhu cầu.md",
-    "🖼️ Khu trưng bày/🖼️ Khu trưng bày.md",
-    "📐 Dự án/Tài liệu/Các dự án tương tự.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Các buổi xây dựng nội dung vault.md",
-    "📐 Dự án/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/1000 người cho phản ứng với bài đăng giới thiệu về vault.md",
-    "📐 Dự án/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/2500 người tải bộ cài về.md",
-    "📐 Dự án/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/2000 người mở vault 1 lần.md",
-    "📐 Dự án/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/1000 người mở vault 3 lần.md"
+    "📐 Dự án/3 Thành phẩm/3 Thành phẩm.md",
+    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Các bài viết truyền thông.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Nhóm ❝Game con bò❞.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Các buổi hướng dẫn cá nhân.md",
+    "📐 Dự án/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/100 người xây dựng vault của họ từ vault này.md",
+    "⚔️ Nhiệm vụ/⚔️ Nhiệm vụ.md",
+    "⚔️ Nhiệm vụ/1 Làm quen với Obsidian/📖 Bài đọc thêm/📖 Obsidian hay hơn các công cụ khác ở điểm nào.md",
+    "⚔️ Nhiệm vụ/1 Làm quen với Obsidian/1 Làm quen với Obsidian.md"
   ]
 }

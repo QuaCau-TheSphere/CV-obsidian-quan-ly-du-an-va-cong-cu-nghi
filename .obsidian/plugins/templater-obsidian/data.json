@@ -16,11 +16,15 @@
   "folder_templates": [
     {
       "folder": "⚔️ Nhiệm vụ",
-      "template": "Thiết lập/Templates/Bài mới.md"
+      "template": "Thiết lập/Templates/Bài học.md"
     },
     {
       "folder": "📐 Dự án/2 Thành quả mong muốn",
       "template": "Thiết lập/Templates/Thành quả.md"
+    },
+    {
+      "folder": "📐 Dự án/3 Thành phẩm",
+      "template": "Thiết lập/Templates/Thành phẩm.md"
     }
   ],
   "syntax_highlighting": true,
