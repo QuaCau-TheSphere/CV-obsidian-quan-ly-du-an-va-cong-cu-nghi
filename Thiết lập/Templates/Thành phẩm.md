@@ -1,6 +1,7 @@
 %%
 #file/thành-phẩm
 %%
+
 Phục vụ cho thành quả:
 ```dataview
 LIST

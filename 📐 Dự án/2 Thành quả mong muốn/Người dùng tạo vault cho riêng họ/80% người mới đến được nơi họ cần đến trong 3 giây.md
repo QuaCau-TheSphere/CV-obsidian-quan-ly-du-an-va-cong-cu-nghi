@@ -1,4 +1,7 @@
-%%#file/thành-quả%%
+%%
+#file/thành-quả
+%%
+
 Phục vụ cho thành quả:
 ```dataview
 List 

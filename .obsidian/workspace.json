@@ -4,23 +4,55 @@
     "type": "split",
     "children": [
       {
-        "id": "8c43bc34cb8ab9d5",
+        "id": "513e811f72b4a7fa",
         "type": "tabs",
         "children": [
           {
-            "id": "af4a9219ef09954c",
+            "id": "ec95e43410f60430",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Trang chủ.canvas",
+                "viewState": {
+                  "x": -40,
+                  "y": -127,
+                  "zoom": 0,
+                  "snapToGrid": false
+                }
+              },
+              "pinned": true
+            }
+          },
+          {
+            "id": "c14daf547849d07a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Các buổi xây dựng nội dung vault.md",
+                "file": "📐 Dự án/3 Thành phẩm/Bộ cài.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
+          },
+          {
+            "id": "67828f49401496e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🖼️ Khu trưng bày/Theo mục đích xây dựng vault/Chơi game.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Các buổi xây dựng nội dung vault.md",
+                "file": "🖼️ Khu trưng bày/Theo mục đích xây dựng vault/Chơi game.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Các buổi xây dựng nội dung vault.md",
+                "file": "🖼️ Khu trưng bày/Theo mục đích xây dựng vault/Chơi game.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Các buổi xây dựng nội dung vault.md"
+                "file": "🖼️ Khu trưng bày/Theo mục đích xây dựng vault/Chơi game.md"
               }
             }
           }
@@ -167,17 +199,17 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "af4a9219ef09954c",
+  "active": "67828f49401496e8",
   "lastOpenFiles": [
-    "📐 Dự án/📐 Dự án.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi xây dựng nội dung vault/Phiếu đăng ký tham gia buổi nói chuyện.md",
+    "🌟 BẮT ĐẦU Ở ĐÂY.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi xây dựng kế hoạch/Phiếu đăng ký tham gia buổi lên kế hoạch xây dựng.md",
+    "📐 Dự án/Tài liệu/Giới thiệu về vault ❝Obsidian và Git cho quản lý dự án❞.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi xây dựng kế hoạch/Các buổi xây dựng kế hoạch.md",
     "📐 Dự án/3 Thành phẩm/3 Thành phẩm.md",
-    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Các bài viết truyền thông.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Nhóm ❝Game con bò❞/Nhóm ❝Game con bò❞.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi hướng dẫn cá nhân/Các buổi hướng dẫn cá nhân.md",
-    "📐 Dự án/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/100 người xây dựng vault của họ từ vault này.md",
-    "⚔️ Nhiệm vụ/⚔️ Nhiệm vụ.md",
-    "⚔️ Nhiệm vụ/1 Làm quen với Obsidian/📖 Bài đọc thêm/📖 Obsidian hay hơn các công cụ khác ở điểm nào.md",
-    "⚔️ Nhiệm vụ/1 Làm quen với Obsidian/1 Làm quen với Obsidian.md"
+    "📐 Dự án/📐 Dự án.md",
+    "📐 Dự án/Tài liệu/So sánh với các dự án khác.md",
+    "📐 Dự án/Tài liệu/Các dự án tương tự.md",
+    "📐 Dự án/Tài liệu/4 Theo dõi chỉ số/GitHub.md",
+    "📐 Dự án/Tài liệu/4 Theo dõi chỉ số/4 Theo dõi chỉ số.md"
   ]
 }

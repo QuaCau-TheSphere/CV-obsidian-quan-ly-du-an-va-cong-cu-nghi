@@ -1,1 +1,0 @@
-[Obsidian Hub](https://publish.obsidian.md/hub/00+-+Start+here "00 - Start here - Obsidian Hub - Obsidian Publish")

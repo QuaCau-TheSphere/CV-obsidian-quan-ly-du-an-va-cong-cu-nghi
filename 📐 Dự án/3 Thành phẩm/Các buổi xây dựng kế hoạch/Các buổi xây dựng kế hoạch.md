@@ -9,9 +9,9 @@ LIST
 FROM #file/thành-quả 
 WHERE contains(thành-phẩm,[[]])
 ```
-Người chơi:: Nhật
+Người chơi:: [[Nhật]]
 
-Thành quả cần có::
+Thành quả cần có:: 
 Thành quả hỗ trợ:: Người tham gia nói nhu cầu của họ
 
 Thành phẩm nhỏ hơn:
@@ -21,4 +21,6 @@ From #file/thành-phẩm
 Where contains(file.folder,this.file.folder) and file.name!=this.file.name
 ```
 
-- [ ] 
+- [ ] Hoàn thiện kế hoạch buổi gặp
+- [ ] Hoàn thiện phiếu đăng ký
+- [ ] Đăng trên các nhóm

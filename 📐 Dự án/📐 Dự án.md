@@ -1,6 +1,6 @@
 # Thành quả mong muốn
 %%
-Thành quả cần có:: [[100 người xây dựng vault của họ từ vault này]] 
+Thành quả cần có:: [[100 nhóm dự án dùng Obsidian để quản lý công việc]] 
 
 Thành quả hỗ trợ:: [[10 người đóng góp xây vault]]
 Thành quả hỗ trợ:: [[50% người xây vault kết nối nhu cầu của mình tới vault chung]]
@@ -21,11 +21,8 @@ Where contains(this.thành-quả-hỗ-trợ,file.link)
 ```
 # Thành phẩm
 ```dataview
-List trạng-thái
-From "📐 Dự án/3 Thành phẩm" 
-Where file.name!="3 Thành phẩm"
-	and (file.name=split(file.folder, "/")[length(split(file.folder, "/"))-1]
-	or split(file.folder, "/")[length(split(file.folder, "/"))-1]="3 Thành phẩm") 
+List 
+From "📐 Dự án" and #file/thành-phẩm 
 Sort trạng-thái desc
 ```
 
