@@ -56,3 +56,12 @@ Action https://discord.gg/ynvxH2K7Ct
 color blue
 ```
 ^button-o67g
+```button
+name Tôi muốn sử dụng Obsidian như một công cụ để hỗ trợ đạt được nhiều mục tiêu khác
+type link
+Action obsidian://open?vault=Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%F0%9F%96%BC%EF%B8%8F%20Khu%20tr%C6%B0ng%20b%C3%A0y%2F%F0%9F%96%BC%EF%B8%8F%20Khu%20tr%C6%B0ng%20b%C3%A0y
+color yellow
+```
+^button-xtkc
+
+

@@ -16,8 +16,8 @@
               "state": {
                 "file": "Trang chủ.canvas",
                 "viewState": {
-                  "x": -40,
-                  "y": -127,
+                  "x": -176.71000000000004,
+                  "y": 71.34157989501954,
                   "zoom": 0,
                   "snapToGrid": false
                 }
@@ -26,26 +26,26 @@
             }
           },
           {
-            "id": "c14daf547849d07a",
+            "id": "8b3f3657bf96b0c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Bộ cài.md",
-                "mode": "source",
+                "file": "⚔️ Nhiệm vụ/2 Xây dựng dự án với plugin/2.3 Truy vấn dữ liệu (Dataview tập 2).md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "67828f49401496e8",
+            "id": "c25f38c34a2f9ad2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🖼️ Khu trưng bày/Theo mục đích xây dựng vault/Chơi game.md",
-                "mode": "preview",
+                "file": "⚔️ Nhiệm vụ/2 Xây dựng dự án với plugin/2.2 Tạo biến và dùng biến với (Dataview tập 1).md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🖼️ Khu trưng bày/Theo mục đích xây dựng vault/Chơi game.md",
+                "file": "⚔️ Nhiệm vụ/2 Xây dựng dự án với plugin/2.2 Tạo biến và dùng biến với (Dataview tập 1).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🖼️ Khu trưng bày/Theo mục đích xây dựng vault/Chơi game.md",
+                "file": "⚔️ Nhiệm vụ/2 Xây dựng dự án với plugin/2.2 Tạo biến và dùng biến với (Dataview tập 1).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🖼️ Khu trưng bày/Theo mục đích xây dựng vault/Chơi game.md"
+                "file": "⚔️ Nhiệm vụ/2 Xây dựng dự án với plugin/2.2 Tạo biến và dùng biến với (Dataview tập 1).md"
               }
             }
           }
@@ -199,17 +199,17 @@
       "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "67828f49401496e8",
+  "active": "c25f38c34a2f9ad2",
   "lastOpenFiles": [
+    "⚔️ Nhiệm vụ/2 Xây dựng dự án với plugin/2.4 Tạo mẫu ghi chú (Templater).md",
+    "⚔️ Nhiệm vụ/2 Xây dựng dự án với plugin/2.9 Tìm hiểu tự do.md",
+    "⚔️ Nhiệm vụ/2 Xây dựng dự án với plugin/2.3 Truy vấn dữ liệu (Dataview tập 2).md",
+    "⚔️ Nhiệm vụ/2 Xây dựng dự án với plugin/2.2 Tạo biến và dùng biến với (Dataview tập 1).md",
+    "⚔️ Nhiệm vụ/1 Làm quen với Obsidian/1 Làm quen với Obsidian.md",
+    "Thiết lập/Gõ tắt.md",
+    "⚔️ Nhiệm vụ/1 Làm quen với Obsidian/📖 Bài đọc thêm/📖 Obsidian hay hơn các công cụ khác ở điểm nào.md",
     "🌟 BẮT ĐẦU Ở ĐÂY.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi xây dựng kế hoạch/Phiếu đăng ký tham gia buổi lên kế hoạch xây dựng.md",
     "📐 Dự án/Tài liệu/Giới thiệu về vault ❝Obsidian và Git cho quản lý dự án❞.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi xây dựng kế hoạch/Các buổi xây dựng kế hoạch.md",
-    "📐 Dự án/3 Thành phẩm/3 Thành phẩm.md",
-    "📐 Dự án/📐 Dự án.md",
-    "📐 Dự án/Tài liệu/So sánh với các dự án khác.md",
-    "📐 Dự án/Tài liệu/Các dự án tương tự.md",
-    "📐 Dự án/Tài liệu/4 Theo dõi chỉ số/GitHub.md",
-    "📐 Dự án/Tài liệu/4 Theo dõi chỉ số/4 Theo dõi chỉ số.md"
+    "⚔️ Nhiệm vụ/⚔️ Nhiệm vụ.md"
   ]
 }

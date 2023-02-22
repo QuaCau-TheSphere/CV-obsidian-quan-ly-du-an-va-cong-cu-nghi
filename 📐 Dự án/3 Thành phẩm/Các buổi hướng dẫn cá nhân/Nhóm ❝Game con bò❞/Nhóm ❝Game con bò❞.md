@@ -23,4 +23,5 @@ From #file/thành-phẩm
 Where contains(file.folder,this.file.folder) and file.name!=this.file.name
 ```
 
-- [ ] Dạy cho Ngân 🔁 every week on Sunday 🛫 2023-02-19
+- [ ] Dạy cho Ngân 🔁 every week on Sunday 🛫 2023-02-26
+- [x] Dạy cho Ngân 🔁 every week on Sunday 🛫 2023-02-19 ✅ 2023-02-19

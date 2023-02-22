@@ -21,4 +21,4 @@ Where contains(file.folder,this.file.folder) and file.name!=this.file.name
 ```
 
 - [ ] Chỉnh hình nền 
-- [ ] 
+- [ ] Chạy thử trên máy ảo

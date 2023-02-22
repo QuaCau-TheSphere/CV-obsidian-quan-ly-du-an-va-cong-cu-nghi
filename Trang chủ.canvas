@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"fb4a5dbfc94b61c9","x":-240,"y":-205,"width":400,"height":347,"color":"3","type":"file","file":"📐 Dự án/📐 Dự án.md","subpath":"#Công việc"},
-		{"id":"7b0182678cce002e","x":-240,"y":-409,"width":400,"height":168,"color":"4","type":"file","file":"📐 Dự án/📐 Dự án.md","subpath":"#Cần có"}
+		{"id":"7b0182678cce002e","x":-240,"y":-433,"width":400,"height":168,"color":"4","type":"file","file":"📐 Dự án/📐 Dự án.md","subpath":"#Cần có"}
 	],
 	"edges":[
 		{"id":"195c4dac5453d75d","fromNode":"7b0182678cce002e","fromSide":"bottom","toNode":"fb4a5dbfc94b61c9","toSide":"top"}
