@@ -2,19 +2,19 @@
   "autocomplete": [
     {
       "field": "Thành phẩm",
-      "folder": "📐 Dự án/3 Thành phẩm"
+      "folder": "📐 Phòng giáo viên/3 Thành phẩm"
     },
     {
       "field": "Nhu cầu",
-      "folder": "📐 Dự án/1 Nhu cầu"
+      "folder": "📐 Phòng giáo viên/1 Nhu cầu"
     },
     {
       "field": "Thành quả cần có",
-      "folder": "📐 Dự án/2 Thành quả mong muốn"
+      "folder": "📐 Phòng giáo viên/2 Thành quả mong muốn"
     },
     {
       "field": "Thành quả hỗ trợ",
-      "folder": "📐 Dự án/2 Thành quả mong muốn"
+      "folder": "📐 Phòng giáo viên/2 Thành quả mong muốn"
     }
   ],
   "regexpTrigger": "/"

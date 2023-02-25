@@ -15,15 +15,15 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "⚔️ Nhiệm vụ",
+      "folder": "⚔️ Lớp học",
       "template": "Thiết lập/Templates/Bài học.md"
     },
     {
-      "folder": "📐 Dự án/2 Thành quả mong muốn",
+      "folder": "📐 Phòng giáo viên/2 Thành quả mong muốn",
       "template": "Thiết lập/Templates/Thành quả.md"
     },
     {
-      "folder": "📐 Dự án/3 Thành phẩm",
+      "folder": "📐 Phòng giáo viên/3 Thành phẩm",
       "template": "Thiết lập/Templates/Thành phẩm.md"
     }
   ],

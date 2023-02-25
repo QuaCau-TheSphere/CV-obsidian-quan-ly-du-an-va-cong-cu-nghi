@@ -13,10 +13,6 @@
     {
       "commandID": "obsidian-editor-shortcuts:duplicateLine",
       "iconID": "plus"
-    },
-    {
-      "commandID": "obsidian-another-quick-switcher:search-command_recommended-search",
-      "iconID": "file-search"
     }
   ],
   "allowStylingOfAllActions": false,

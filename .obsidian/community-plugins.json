@@ -1,6 +1,4 @@
 [
-  "dataview",
-  "table-editor-obsidian",
   "obsidian-another-quick-switcher",
   "obsidian-editor-shortcuts",
   "obsidian-auto-link-title",
@@ -47,7 +45,6 @@
   "obsidian-colorful-tag",
   "advanced-cursors",
   "obsidian-user-plugins",
-  "obsidian-advanced-uri",
   "omnisearch",
   "language-translator",
   "obsidian-kanban",
@@ -62,5 +59,6 @@
   "open-vscode",
   "simple-time-tracker",
   "homepage",
-  "obsidian-mind-map"
+  "obsidian-mind-map",
+  "dataview"
 ]

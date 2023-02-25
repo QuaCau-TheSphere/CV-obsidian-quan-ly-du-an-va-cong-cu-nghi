@@ -65,3 +65,6 @@ color yellow
 ^button-xtkc
 
 
+<a href="https://opencollective.com/nhom-tu-hoc/donate" target="_blank">
+  <img src="https://opencollective.com/webpack/donate/button@2x.png?color=blue" width=300 />
+</a>
