@@ -24,6 +24,7 @@ Where contains(file.folder,this.file.folder) and file.name!=this.file.name
 ```
 
 - [ ] Dạy cho Ngân 🔁 every week on Sunday 🛫 2023-02-26
-- [ ] Dạy cho Thảo 🔁 every week on Friday 🛫 2023-02-24
+- [ ] Dạy cho Thảo 🔁 every week on Friday 🛫 2023-03-03
+- [x] Dạy cho Thảo 🔁 every week on Friday 🛫 2023-02-24 ✅ 2023-02-25
 - [x] Dạy cho Thảo 🔁 every week on Friday 🛫 2023-02-23 ✅ 2023-02-24
 - [x] Dạy cho Ngân 🔁 every week on Sunday 🛫 2023-02-19 ✅ 2023-02-19

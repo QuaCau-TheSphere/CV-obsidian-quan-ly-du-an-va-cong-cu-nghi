@@ -31,7 +31,4 @@ Sort trạng-thái desc
 # Công việc
 ```tasks
 path includes Thành phẩm
-short form
-hide tag
 ```
-
