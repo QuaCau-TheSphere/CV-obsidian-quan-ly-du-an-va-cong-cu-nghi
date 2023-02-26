@@ -8,29 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ec95e43410f60430",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Trang chủ.canvas",
-                "viewState": {
-                  "x": -40,
-                  "y": -103,
-                  "zoom": 0
-                }
-              },
-              "pinned": true
-            }
-          },
-          {
-            "id": "5f7a052272b82b1b",
+            "id": "f43c18dac2b3ce03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚔️ Lớp học/⚔️ Lớp học.md",
+                "file": "⚔️ Lớp học/2 Xây dựng dự án với plugin/2.3 Truy vấn dữ liệu (Dataview tập 2).md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "844d817ddcb54328",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -104,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚔️ Lớp học/⚔️ Lớp học.md",
+                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚔️ Lớp học/⚔️ Lớp học.md",
+                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚔️ Lớp học/⚔️ Lớp học.md"
+                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md"
               }
             }
           }
@@ -173,45 +169,46 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "open-vscode:VSCode": false,
       "homepage:Open homepage": false,
       "daily-notes:Open today's daily note": true,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "obsidian42-brat:BRAT": true,
-      "templater-obsidian:Templater": true,
-      "open-vscode:VSCode": true,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "5f7a052272b82b1b",
+  "active": "844d817ddcb54328",
   "lastOpenFiles": [
-    "📐 Phòng giáo viên/📐 Phòng giáo viên.md",
+    "⚔️ Lớp học/Bài học thêm/Công cụ bổ trợ/Chỉnh sửa hàng loạt/Chỉnh sửa PDF hàng loạt.md",
+    "⚔️ Lớp học/Bài học thêm/Công cụ bổ trợ/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+    "⚔️ Lớp học/Bài học thêm/Công cụ bổ trợ/Chỉnh sửa hàng loạt/Chỉnh sửa ảnh hàng loạt bằng ImageMagick.md",
+    "⚔️ Lớp học/Bài học thêm/Công cụ bổ trợ/Khám phá cộng đồng lập trình viên/Tiếng Việt.md",
+    "⚔️ Lớp học/Bài học thêm/Công cụ bổ trợ/Lập trình web/WordPress.md",
+    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Sử dụng Dataview nâng cao/1. Hiểu về object.md",
+    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Sử dụng Dataview nâng cao/Sử dụng DataviewJS.md",
+    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Viết plugin/2. Nhập môn TypeScript.md",
+    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Viết plugin/1. Dùng plugin mẫu.md",
+    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Viết plugin/📖 Nodejs và Electron.md",
     "🌟 BẮT ĐẦU Ở ĐÂY.md",
-    "Trang chủ.canvas",
-    "📐 Phòng giáo viên/Tài liệu/Giới thiệu về vault ❝Obsidian và Git cho quản lý dự án❞.md",
+    "⚔️ Lớp học/3 Kết nối dữ liệu với mọi người/Đồng bộ dữ liệu với điện thoại.md",
+    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Viết plugin/2. JavaScript và TypeScript.md",
+    "⚔️ Lớp học/3 Kết nối dữ liệu với mọi người/📖 Bài đọc thêm/📖 Khi nào thì nên dùng Syncthing？Khi nào thì nên dùng Git？.md",
+    "⚔️ Lớp học/Bài học thêm/Công cụ bổ trợ/Gõ tắt nhanh (AutoHotKey).md",
+    "Untitled.md",
+    "⚔️ Lớp học/2 Xây dựng dự án với plugin/2.9 Tìm hiểu tự do.md",
+    "⚔️ Lớp học/2 Xây dựng dự án với plugin/2.2 Tạo biến và dùng biến với (Dataview tập 1).md",
+    "⚔️ Lớp học/2 Xây dựng dự án với plugin/2.1 Cài plugin.md",
+    "⚔️ Lớp học/2 Xây dựng dự án với plugin/2 Xây dựng dự án với plugin.md",
+    "🖼️ Khu trưng bày/🖼️ Khu trưng bày.md",
     "⚔️ Lớp học/⚔️ Lớp học.md",
-    "📐 Phòng giáo viên/Tài liệu.md",
-    "⚔️ Lớp học/Bài học thêm/Quản lý dự án/Nền kinh tế dùng tiền và chủ nghĩa tân tự do/Nền kinh tế dùng tiền và chủ nghĩa tân tự do.md",
-    "⚔️ Lớp học/Bài học thêm/Quản lý dự án/Khoa học nhận thức/Khoa học nhận thức.md",
+    "Trang chủ.canvas",
+    "⚔️ Lớp học/2 Xây dựng dự án với plugin/2.3 Truy vấn dữ liệu (Dataview tập 2).md",
     "⚔️ Lớp học/3 Kết nối dữ liệu với mọi người/3 Kết nối dữ liệu với mọi người.md",
-    "⚔️ Lớp học/4 Du hành thời gian với Git/4 Du hành thời gian với Git.md",
-    "⚔️ Lớp học/4 Du hành thời gian với Git/4.1 Khám phá cây lịch sử.md",
-    "⚔️ Lớp học/4 Du hành thời gian với Git/4.2 Cài đặt Git và GitKraken.md",
-    "⚔️ Lớp học/4 Du hành thời gian với Git/4.3 Lưu dữ liệu mới (commit).md",
-    "⚔️ Lớp học/4 Du hành thời gian với Git/4.4 Mở dữ liệu cũ (checkout).md",
-    "⚔️ Lớp học/4 Du hành thời gian với Git/4.5 Tạo nhánh (branch).md",
-    "⚔️ Lớp học/4 Du hành thời gian với Git/4.6 Chuyển nhánh (switch).md",
-    "⚔️ Lớp học/4 Du hành thời gian với Git/4.7 Nhập nhánh (merge).md",
-    "⚔️ Lớp học/5 Làm việc cùng nhau/5 Làm việc cùng nhau.md",
-    "⚔️ Lớp học/3 Kết nối dữ liệu với mọi người/3.1 Đồng bộ dữ liệu giữa các vault.md",
-    "⚔️ Lớp học/3 Kết nối dữ liệu với mọi người/Chia sẻ hiểu biết.md",
-    "⚔️ Lớp học/3 Kết nối dữ liệu với mọi người/Chia sẻ nhu cầu và kế hoạch.md",
-    "⚔️ Lớp học/3 Kết nối dữ liệu với mọi người/Chia sẻ tài nguyên.md",
-    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Sử dụng Dataview JS/Sử dụng Dataview JS.md",
-    "⚔️ Lớp học/Bài học thêm/Quản lý dự án/Xử lý ngôn ngữ tự nhiên/Xử lý ngôn ngữ tự nhiên.md",
-    "⚔️ Lớp học/Bài học thêm/Quản lý dự án/Sức khoẻ/Sức khoẻ.md",
-    "⚔️ Lớp học/Bài học thêm/Nhiệm vụ bổ trợ.md"
+    "📐 Phòng giáo viên/📐 Phòng giáo viên.md",
+    "📐 Phòng giáo viên/3 Thành phẩm/3 Thành phẩm.md"
   ]
 }

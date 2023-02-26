@@ -76,6 +76,8 @@ Những vấn đề mà một người tự học, không có nhiều tiền và
 Các bài tập không chỉ được thiết kế Chỉnh từ từ để không bị ngộp, nhưng sau đó vứt đi, mà còn chính là vault của bạn trong việc quản lý dự án
 Ontology
 bạn tham gia vào đây không phải chỉ để học Obsidian hay Git, mà vào đây để dự án của mình được tốt hơn
+
+Bỏ qua các bước như học js bài bản
 Nếu đi qua hết tất cả các thử thách ở đây, bạn sẽ có được:
 - Một bản kế hoạch cho cuộc sống của mình
 - Một kho dữ liệu quản lý các dự án mình tham gia
