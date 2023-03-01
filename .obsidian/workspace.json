@@ -4,16 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "513e811f72b4a7fa",
+        "id": "7eec2a902dcbe731",
         "type": "tabs",
         "children": [
           {
-            "id": "f43c18dac2b3ce03",
+            "id": "43cb7893e53f9b1a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "dc74adab15fb91eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚔️ Lớp học/2 Xây dựng dự án với plugin/2.3 Truy vấn dữ liệu (Dataview tập 2).md",
+                "file": "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Viết plugin/2. Nhập môn TypeScript.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "833713cd5606f843",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚔️ Lớp Obsidian và Git/1 Làm quen với Obsidian/1 Làm quen với Obsidian.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "535342390c934eeb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚔️ Lớp Obsidian và Git/4 Du hành thời gian với Git/4.3 Lưu dữ liệu mới (commit).md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7bd726d4f9b68637",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/JavaScript/Phương thức là hàm của đối tượng.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,12 +68,25 @@
             }
           },
           {
-            "id": "844d817ddcb54328",
+            "id": "be19fd16fee4ece3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
+                "file": "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/JavaScript/this là một đối tượng được tham chiếu sẵn.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5e03699ebe7a5268",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Phòng giáo viên/📐 Phòng giáo viên.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -34,7 +94,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -100,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
+                "file": "📐 Phòng giáo viên/📐 Phòng giáo viên.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
+                "file": "📐 Phòng giáo viên/📐 Phòng giáo viên.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +216,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md"
+                "file": "📐 Phòng giáo viên/📐 Phòng giáo viên.md"
               }
             }
           }
@@ -181,34 +241,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "844d817ddcb54328",
+  "active": "5e03699ebe7a5268",
   "lastOpenFiles": [
-    "⚔️ Lớp học/Bài học thêm/Công cụ bổ trợ/Chỉnh sửa hàng loạt/Chỉnh sửa PDF hàng loạt.md",
-    "⚔️ Lớp học/Bài học thêm/Công cụ bổ trợ/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
-    "⚔️ Lớp học/Bài học thêm/Công cụ bổ trợ/Chỉnh sửa hàng loạt/Chỉnh sửa ảnh hàng loạt bằng ImageMagick.md",
-    "⚔️ Lớp học/Bài học thêm/Công cụ bổ trợ/Khám phá cộng đồng lập trình viên/Tiếng Việt.md",
-    "⚔️ Lớp học/Bài học thêm/Công cụ bổ trợ/Lập trình web/WordPress.md",
-    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Sử dụng Dataview nâng cao/1. Hiểu về object.md",
-    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Sử dụng Dataview nâng cao/Sử dụng DataviewJS.md",
-    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Viết plugin/2. Nhập môn TypeScript.md",
-    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Viết plugin/1. Dùng plugin mẫu.md",
-    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Viết plugin/📖 Nodejs và Electron.md",
+    "⚔️ Lớp Obsidian và Git/⚔️ Lớp Obsidian và Git.md",
     "🌟 BẮT ĐẦU Ở ĐÂY.md",
-    "⚔️ Lớp học/3 Kết nối dữ liệu với mọi người/Đồng bộ dữ liệu với điện thoại.md",
-    "⚔️ Lớp học/Bài học thêm/Sử dụng Obsidian nâng cao/Viết plugin/2. JavaScript và TypeScript.md",
-    "⚔️ Lớp học/3 Kết nối dữ liệu với mọi người/📖 Bài đọc thêm/📖 Khi nào thì nên dùng Syncthing？Khi nào thì nên dùng Git？.md",
-    "⚔️ Lớp học/Bài học thêm/Công cụ bổ trợ/Gõ tắt nhanh (AutoHotKey).md",
-    "Untitled.md",
-    "⚔️ Lớp học/2 Xây dựng dự án với plugin/2.9 Tìm hiểu tự do.md",
-    "⚔️ Lớp học/2 Xây dựng dự án với plugin/2.2 Tạo biến và dùng biến với (Dataview tập 1).md",
-    "⚔️ Lớp học/2 Xây dựng dự án với plugin/2.1 Cài plugin.md",
-    "⚔️ Lớp học/2 Xây dựng dự án với plugin/2 Xây dựng dự án với plugin.md",
-    "🖼️ Khu trưng bày/🖼️ Khu trưng bày.md",
-    "⚔️ Lớp học/⚔️ Lớp học.md",
-    "Trang chủ.canvas",
-    "⚔️ Lớp học/2 Xây dựng dự án với plugin/2.3 Truy vấn dữ liệu (Dataview tập 2).md",
-    "⚔️ Lớp học/3 Kết nối dữ liệu với mọi người/3 Kết nối dữ liệu với mọi người.md",
     "📐 Phòng giáo viên/📐 Phòng giáo viên.md",
-    "📐 Phòng giáo viên/3 Thành phẩm/3 Thành phẩm.md"
+    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do/Nền kinh tế dùng tiền và chủ nghĩa tân tự do.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Các bài học nâng cao.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/3 Kết nối dữ liệu với mọi người/3 Kết nối dữ liệu với mọi người.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/JavaScript/Console giúp.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Sử dụng Dataview nâng cao/Sử dụng DataviewJS.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Sử dụng Dataview nâng cao/1. Hiểu về object.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/JavaScript/this là một đối tượng được tham chiếu sẵn.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/JavaScript/Phương thức là hàm của đối tượng.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/JavaScript/Đối tượng.md",
+    "⚔️ Lớp Obsidian và Git/5 Làm việc cùng nhau/5 Làm việc cùng nhau.md",
+    "⚔️ Lớp Obsidian và Git/4 Du hành thời gian với Git/4 Du hành thời gian với Git.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Git/Git không biết gì về folder.md",
+    "⚔️ Lớp Obsidian và Git/4 Du hành thời gian với Git/4.3 Lưu dữ liệu mới (commit).md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Git",
+    "⚔️ Lớp Obsidian và Git/4 Du hành thời gian với Git/📖 Bài đọc thêm/📖 Sử dụng plugin Obsidian Git.md",
+    "⚔️ Lớp Obsidian và Git/1 Làm quen với Obsidian/1 Làm quen với Obsidian.md",
+    "⚔️ Lớp Obsidian và Git/1 Làm quen với Obsidian/1.3 Tạo liên kết.md",
+    "⚔️ Lớp Obsidian và Git/1 Làm quen với Obsidian/1.2 Tạo ghi chú và thư mục mới.md",
+    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Mọi thứ sẽ luôn tốn thời gian hơn bạn nghĩ.md",
+    "📖 Kiến thức bổ trợ và nâng cao/Tư duy về tư duy/Tư duy về tư duy.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Viết plugin/2. Nhập môn TypeScript.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/JavaScript",
+    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do/Việc chi tiền làm tâm lý con người bị đau.md",
+    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do/Sách kinh tế.md",
+    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Working on niche, personally-meaningful projects brings weirder, more serendipitous inbounds.md",
+    "📖 Kiến thức bổ trợ và nâng cao/Tư duy về tư duy/Ghi chú thông tin",
+    "📖 Kiến thức bổ trợ và nâng cao/Tư duy về tư duy/~syncthing~Bạn không thể dừng nghĩ về công việc khi nó chưa hoàn thành.md.tmp",
+    "📖 Kiến thức bổ trợ và nâng cao/Tư duy về tư duy",
+    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Nghiên cứu",
+    "📖 Kiến thức bổ trợ và nâng cao/Công nghệ thông tin/Sử dụng chương trình soạn thảo",
+    "📖 Kiến thức bổ trợ và nâng cao/Công nghệ thông tin/Syncthing nâng cao",
+    "📖 Kiến thức bổ trợ và nâng cao/Công nghệ thông tin/Lập trình web",
+    "📖 Kiến thức bổ trợ và nâng cao/Công nghệ thông tin/Làm việc với hệ điều hành",
+    "Trang chủ.canvas"
   ]
 }

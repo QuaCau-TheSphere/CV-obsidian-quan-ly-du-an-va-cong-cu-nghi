@@ -28,7 +28,7 @@ color blue
 ```button
 name Tôi muốn biết cách sử dụng Obsidian
 type link
-action obsidian://open?vault=Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%E2%9A%94%EF%B8%8F%20L%E1%BB%9Bp%20h%E1%BB%8Dc%2F%E2%9A%94%EF%B8%8F%20L%E1%BB%9Bp%20h%E1%BB%8Dc
+action obsidian://open?vault=Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%E2%9A%94%EF%B8%8F%20L%E1%BB%9Bp%20Obsidian%20v%C3%A0%20Git%2F%E2%9A%94%EF%B8%8F%20L%E1%BB%9Bp%20Obsidian%20v%C3%A0%20Git
 color blue
 ```
 ^button-o67r
@@ -77,6 +77,8 @@ Các bài tập không chỉ được thiết kế Chỉnh từ từ để khôn
 Ontology
 bạn tham gia vào đây không phải chỉ để học Obsidian hay Git, mà vào đây để dự án của mình được tốt hơn
 
+  
+Các bài học phải đến từ serious use of learner. Nó phải giải đáp được nhu cầu có thực của riêng họ, chứ không phải chỉ là một ví dụ cho dễ hiểu xong rồi xóa đi. Bài tập được giao cho họ phải là thứ họ rồi cũng sẽ phải làm
 Bỏ qua các bước như học js bài bản
 Nếu đi qua hết tất cả các thử thách ở đây, bạn sẽ có được:
 - Một bản kế hoạch cho cuộc sống của mình

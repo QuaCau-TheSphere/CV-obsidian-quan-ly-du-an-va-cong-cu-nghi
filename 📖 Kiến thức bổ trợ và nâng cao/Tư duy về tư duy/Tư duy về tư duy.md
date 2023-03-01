@@ -3,4 +3,3 @@
 - Hệ thống thông tin, UX
 - Evergreen, concept map, semantic triplestore, labeling, typography, bản thể luận
 - Các hiệu ứng tâm lý liên quan đến việc làm việc hoặc lên kế hoạch
-- Outcome vs output

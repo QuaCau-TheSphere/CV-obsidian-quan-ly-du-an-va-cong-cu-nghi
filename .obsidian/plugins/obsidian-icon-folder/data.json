@@ -5,7 +5,13 @@
     "fontSize": 16,
     "emojiStyle": "none",
     "iconColor": null,
-    "recentlyUsedIcons": [],
+    "recentlyUsedIcons": [
+      "FasGraduationCap",
+      "FarFutbol",
+      "RiGalleryFill",
+      "IbStore",
+      "FasChalkboardUser"
+    ],
     "recentlyUsedIconsSize": 5,
     "rules": [],
     "extraMargin": {
