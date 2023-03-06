@@ -70,6 +70,8 @@ color yellow
 
 Đây là một sản phẩm dành riêng cho người Việt với mục tiêu hỗ trợ những ai chưa từng làm quen với Obsidian và Git cũng như kiến thức về phát triển sản phẩm có thể nhanh chóng học những ứng dụng và kiến thức này từng bước một để làm một kho dữ liệu quản lý dự án. Bạn có thể dùng vault này để tự học hoặc như một giáo án để hỗ trợ bạn bè của mình.
 
+Nơi đây sẽ chứa những insight mà những người đang tự học quản lý dự án nhiều khi cũng lờ mờ nhận ra nhưng không có ai ở ngay đó để đẩy vấn đề đi xa hơn, còn những người mới học thì thấy quá tải, nhức đầu vì những lời khuyên, bài viết trên mạng dù hay đến mấy cũng rời rạc. Đậm đặc insight thì không nổi lên được bằng các bài viết SEO
+
 Khảo sát xyz người với câu hỏi "Khó khăn khi bạn" 
 Những vấn đề mà một người tự học, không có nhiều tiền và cảm thấy quá tải sẽ có lúc cần dùng đến
 
@@ -91,6 +93,7 @@ Vault này được khởi xướng bởi Quả Cầu, và được hoàn thiệ
 
 
 # Mục tiêu
-- Kiến thức công nghệ áp dụng được cho việc hoạt động như một bầy chim sáo
+- Cung cấp kiến thức công nghệ áp dụng được cho việc hoạt động như một bầy chim sáo
 - Nhấn mạnh vào sự khác biệt với những phần mềm khác và ý nghĩa của nó
 - Giúp những người tự nhận là mình ngu công nghệ thấy được mình có thể làm chủ công nghệ như thế nào
+- Là một đầu mối để khám phá và kết nối các dự án khác

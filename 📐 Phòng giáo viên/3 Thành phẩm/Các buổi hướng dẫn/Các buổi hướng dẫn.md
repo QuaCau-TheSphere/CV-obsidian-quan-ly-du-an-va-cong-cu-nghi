@@ -11,7 +11,7 @@ WHERE contains(thành-phẩm,[[]])
 Người chơi:: [[Nhật]]
 
 Thành quả cần có::
-Thành quả hỗ trợ::
+Thành quả hỗ trợ:: [[100% người tham gia cho phản hồi về độ hấp dẫn của bài học]]
 
 Thành phẩm nhỏ hơn:
 ```dataview

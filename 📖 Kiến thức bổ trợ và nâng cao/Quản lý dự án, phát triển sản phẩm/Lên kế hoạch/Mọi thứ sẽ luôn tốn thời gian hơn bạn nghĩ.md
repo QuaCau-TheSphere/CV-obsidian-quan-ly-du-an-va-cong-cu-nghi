@@ -1,1 +1,0 @@
-Định luật Hofstadter 

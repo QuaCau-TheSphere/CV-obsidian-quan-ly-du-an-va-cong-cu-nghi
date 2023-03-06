@@ -1,0 +1,1 @@
+- Cảm giác mất mát là cảm giác tiêu cực
