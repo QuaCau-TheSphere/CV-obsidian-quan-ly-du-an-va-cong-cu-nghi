@@ -1,3 +1,5 @@
+<iframe id="reddit-embed" src="https://www.redditmedia.com/r/ObsidianMD/comments/xunff0/the_best_obsidian_trailer_ive_seen_so_far/?ref_source=embed&amp;ref=share&amp;embed=true" sandbox="allow-scripts allow-same-origin allow-popups" style="border: none;" scrolling="no" width="640" height="477"></iframe>
+
 # Discord Obsidian
 ![](https://i.imgur.com/CAVIjPW.png)
 ```button

@@ -10,4 +10,4 @@ where contains(thành-quả-cần-có,[[]]) or contains(thành-quả-hỗ-trợ,
 ```
 Thành quả cần có:: [[40% người tham gia biết dùng Git]]
 
-Thành phẩm:: [[Các bài học]]
+Thành phẩm:: [[Các bài học trên vault]]

@@ -1,6 +1,6 @@
 # Thành quả mong muốn
 %%
-Thành quả cần có:: [[100 nhóm dự án dùng Obsidian để quản lý công việc]] 
+Thành quả cần có:: [[50 nhóm dự án sử dụng Obsidian để quản lý công việc]]
 
 Thành quả hỗ trợ:: [[10 người đóng góp xây vault]]
 
@@ -31,4 +31,5 @@ Sort trạng-thái desc
 # Công việc
 ```tasks
 path includes Thành phẩm
+not done
 ```

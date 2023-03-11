@@ -1,7 +1,8 @@
 {
 	"nodes":[
-		{"id":"fb4a5dbfc94b61c9","x":-240,"y":-205,"width":400,"height":432,"color":"3","type":"file","file":"📐 Phòng giáo viên/📐 Phòng giáo viên.md","subpath":"#Công việc"},
-		{"id":"7b0182678cce002e","x":-240,"y":-433,"width":400,"height":168,"color":"4","type":"file","file":"📐 Phòng giáo viên/📐 Phòng giáo viên.md","subpath":"#Cần có"}
+		{"type":"file","file":"📐 Phòng giáo viên/📐 Phòng giáo viên.md","subpath":"#Công việc","id":"fb4a5dbfc94b61c9","x":-240,"y":-205,"width":400,"height":432,"color":"3"},
+		{"type":"file","file":"📐 Phòng giáo viên/📐 Phòng giáo viên.md","subpath":"#Cần có","id":"7b0182678cce002e","x":-240,"y":-433,"width":400,"height":168,"color":"4"},
+		{"type":"file","file":"Thiết lập/Code supplement.md","id":"90a550de26003c3a","x":-700,"y":-205,"width":400,"height":400,"subpath":"#Sửa gần đây"}
 	],
 	"edges":[
 		{"id":"195c4dac5453d75d","fromNode":"7b0182678cce002e","fromSide":"bottom","toNode":"fb4a5dbfc94b61c9","toSide":"top"}

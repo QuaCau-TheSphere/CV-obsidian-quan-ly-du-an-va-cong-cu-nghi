@@ -1,0 +1,1 @@
+Lấy ý tưởng từ lập trình hướng đối tượng

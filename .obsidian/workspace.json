@@ -4,23 +4,63 @@
     "type": "split",
     "children": [
       {
-        "id": "896d8f8a2334bab9",
+        "id": "d69f9835fd2f34f3",
         "type": "tabs",
         "children": [
           {
-            "id": "b5d74a7a45257fbf",
+            "id": "b0b0356c1e8b383f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Nỗi ám ảnh với sự hiệu quả có thể đến từ nỗi sợ chết.md",
+                "file": "📐 Phòng giáo viên/📐 Phòng giáo viên.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
+          },
+          {
+            "id": "ec7b155c1696d74c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Hướng dẫn phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8fd6396024f68ce4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Viết plugin/📖 Nodejs và Electron.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c116f70e23d82e95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -34,7 +74,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b499b02077365e32",
+            "id": "b61fdbd6be7ed6ac",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -86,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Nỗi ám ảnh với sự hiệu quả có thể đến từ nỗi sợ chết.md",
+                "file": "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Viết plugin/📖 Nodejs và Electron.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Nỗi ám ảnh với sự hiệu quả có thể đến từ nỗi sợ chết.md",
+                "file": "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Viết plugin/📖 Nodejs và Electron.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Nỗi ám ảnh với sự hiệu quả có thể đến từ nỗi sợ chết.md"
+                "file": "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Viết plugin/📖 Nodejs và Electron.md"
               }
             }
           }
@@ -167,44 +207,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5d74a7a45257fbf",
+  "active": "8fd6396024f68ce4",
   "lastOpenFiles": [
-    "📖 Kiến thức bổ trợ và nâng cao/📖 Kiến thức bổ trợ và nâng cao.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Nỗi ám ảnh với sự hiệu quả có thể đến từ nỗi sợ chết.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Tư duy về tư duy/Nỗi ám ảnh bởi những công việc chưa hoàn thành (hiệu ứng Zeigarnik).md",
-    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Những người viết những app quản lý công việc cũng cảm thấy phần mềm của họ không thể giúp quản lý công việc một cách hiệu quả được.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Quản lý dự án, phát triển sản phẩm.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Phương pháp đánh chỉ số.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Việc chi tiền làm tâm lý con người bị đau.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Tiền tạo cảm giác phải cạnh tranh để có tài nguyên hơn là hợp tác.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Tiền có nhiệm vụ làm trung gian cho việc trao đổi nhu cầu.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động",
-    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do",
-    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do/Untitled.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Mọi thứ sẽ luôn tốn thời gian hơn bạn nghĩ.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Công việc khai phá và công việc khám phá.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Người Hy Lạp cổ không tự hào về việc mình có việc làm.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Phỏng vấn và nghiên cứu người dùng phải được diễn ra liên tục, thay vì các dự án hoặc hoạt động diễn ra một lần.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Truyền thông, xây dựng cộng đồng/Untitled.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Tư duy về tư duy/Tư duy về tư duy.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Khảo sát thường được dùng để kiểm chứng giả thuyết quan trọng có được từ phỏng vấn trên quy mô lớn.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Gây quỹ/Funder-exclusive writing should be a secondary by-product of primary work.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Tư duy về tư duy/Các công ty ít có lợi trong việc đầu tư nghiên cứu công cụ tư duy.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Người giúp đỡ sẽ khó có động lực giúp nếu không thấy tưởng mình rõ ràng.md",
-    "🌟 BẮT ĐẦU Ở ĐÂY.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Gây quỹ/Crowdfunding depends on highly visible public work.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Giai đoạn lên ý tưởng thường khó khăn.md",
-    "📖 Kiến thức bổ trợ và nâng cao/Tư duy về tư duy/switching costs are high between software development and research thinking.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/3 Kết nối dữ liệu với mọi người/Chia sẻ hiểu biết.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/3 Kết nối dữ liệu với mọi người/📖 Bài đọc thêm/📖 Khi nào thì nên dùng Syncthing？Khi nào thì nên dùng Git？.md",
+    "🖼️ Khu trưng bày/📖 Hệ sinh thái.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/3 Kết nối dữ liệu với mọi người/3 Kết nối dữ liệu với mọi người.md",
+    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Các bài học nâng cao.md",
+    "⚔️ Lớp Obsidian và Git/5 Làm việc cùng nhau/5 Làm việc cùng nhau.md",
+    "⚔️ Lớp Obsidian và Git/4 Du hành thời gian với Git/4 Du hành thời gian với Git.md",
+    "⚔️ Lớp Obsidian và Git/4 Du hành thời gian với Git/📖 Bài đọc thêm/📖 Sử dụng plugin Obsidian Git.md",
+    "⚔️ Lớp Obsidian và Git/2 Xây dựng dự án với plugin/2 Xây dựng dự án với plugin.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Sử dụng máy tính/📖 Tại sao Excel lại dở.md",
+    "🖼️ Khu trưng bày/📖 Điểm yếu của Google Drive, Notion.md",
+    "⚔️ Lớp Obsidian và Git/1 Làm quen với Obsidian/1 Làm quen với Obsidian.md",
+    "🖼️ Khu trưng bày/📖 Obsidian hay hơn các công cụ khác ở điểm nào.md",
+    "⚔️ Lớp Obsidian và Git/1 Làm quen với Obsidian/📖 Bài đọc thêm/📖 2 chế độ chỉnh sửa nội dung.md",
+    "🖼️ Khu trưng bày/🖼️ Khu trưng bày.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Sử dụng máy tính/Lập trình web/WordPress.md",
+    "⚡Hiểu biết sâu cho người làm dự án/⚡Hiểu biết sâu cho người làm dự án.md",
+    "⚔️ Lớp Obsidian và Git/⚔️ Lớp Obsidian và Git.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Quản lý dự án, phát triển sản phẩm.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Các cấp trong tổ chức nên nói chuyện với nhau bằng thành quả.md",
+    "📐 Phòng giáo viên/📐 Phòng giáo viên.md",
+    "📐 Phòng giáo viên/3 Thành phẩm/3 Thành phẩm.md",
+    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về người dùng.md",
+    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp.md",
+    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Phỏng vấn pqn.md",
+    "🖼️ Khu trưng bày/Theo mục đích xây dựng vault/Chơi game.md",
+    "Trang chủ.canvas",
+    "🖼️ Khu trưng bày/Theo mục đích xây dựng vault/Untitled",
+    "Thiết lập/Ảnh/Open another vault.png",
+    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về mức độ ưu tiên của người dùng về việc tìm hiểu Obsidian",
     "~syncthing~🌟 BẮT ĐẦU Ở ĐÂY.md.tmp",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Gây quỹ/Người ủng hộ trên Patreon ủng hộ vì muốn có được sản phẩm sẽ có trong tương lai, hơn vì muốn trả cho những gì mình đã có (sản phẩm trong quá khứ).md",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Truyền thông, xây dựng cộng đồng/Untitled",
-    "~syncthing~81556ccca912f58b5a7a96a5548bff6f168285fd7c2372b08f9d8354d129b7ab.tmp",
-    "~syncthing~Nỗi ám ảnh với sự hiệu quả có thể đến từ nỗi sợ chết.md.tmp",
-    "📖 Kiến thức bổ trợ và nâng cao/Tư duy về tư duy/~syncthing~Nỗi ám ảnh bởi những công việc chưa hoàn thành (hiệu ứng Zeigarnik).md.tmp",
-    "📖 Kiến thức bổ trợ và nâng cao/Quản lý dự án, phát triển sản phẩm/Tổ chức sự kiện",
-    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Git",
-    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/JavaScript",
-    "Trang chủ.canvas"
+    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các buổi phỏng vấn/Các buổi phỏng vấn người làm quản lý dự án",
+    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các buổi phỏng vấn/Các buổi phỏng vấn người tham gia làm quản lý dự án",
+    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các buổi phỏng vấn/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt - Copy",
+    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các buổi phỏng vấn",
+    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các bài khảo sát",
+    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp",
+    "📐 Phòng giáo viên/5 Các bên liên quan/Theo giải pháp đang sử dụng"
   ]
 }

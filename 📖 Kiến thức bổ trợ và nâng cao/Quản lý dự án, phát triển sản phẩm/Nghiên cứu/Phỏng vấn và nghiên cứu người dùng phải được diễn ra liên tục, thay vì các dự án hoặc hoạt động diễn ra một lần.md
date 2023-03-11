@@ -1,1 +1,0 @@
-Tốt nhất là cứ lên lịch hằng tuần. Mỗi khi có ý tưởng mới là lại có người mới để phỏng vấn

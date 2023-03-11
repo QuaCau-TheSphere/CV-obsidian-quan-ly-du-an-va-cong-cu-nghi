@@ -17,21 +17,12 @@
 ```
 %%%%%%%%%%%%
 ![[Điều gì đưa bạn đến nơi này ngày hôm nay.png|300]]
-```button
-name Tôi muốn biết xem Obsidian có gì hay
-type link
-Action obsidian://open?vault=Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%F0%9F%96%BC%EF%B8%8F%20Khu%20tr%C6%B0ng%20b%C3%A0y%2F%F0%9F%96%BC%EF%B8%8F%20Khu%20tr%C6%B0ng%20b%C3%A0y
-color blue
-```
-^button-xtkc
 
-```button
-name Tôi muốn biết cách sử dụng Obsidian
-type link
-action obsidian://open?vault=Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%E2%9A%94%EF%B8%8F%20L%E1%BB%9Bp%20Obsidian%20v%C3%A0%20Git%2F%E2%9A%94%EF%B8%8F%20L%E1%BB%9Bp%20Obsidian%20v%C3%A0%20Git
-color blue
-```
-^button-o67r
+| Câu hỏi                                                                                       | Loại câu hỏi | Nơi cho câu trả lời                     |
+| --------------------------------------------------------------------------------------------- | ------------ | --------------------------------------- |
+| Obsidian có gì hay?                                                                           | What         | [[🖼️ Khu trưng bày]]                    |
+| OK tôi thấy Obsidian cũng thú vị. Tôi ứng dụng nó vào công việc của tôi thế nào cho hiệu quả? | How          | [[⚔️ Lớp Obsidian và Git]]              |
+| Hmm... Tôi thấy hướng dẫn ghi là nên làm cái A này. Tại sao không phải là cái B kia?          | Why          | [[⚡Hiểu biết sâu cho người làm dự án]] |
 
 ```button
 name Tôi muốn biết kế hoạch của dự án "Nhóm tự học Obsidian" 
@@ -56,13 +47,6 @@ Action https://discord.gg/ynvxH2K7Ct
 color blue
 ```
 ^button-o67g
-```button
-name Tôi muốn sử dụng Obsidian như một công cụ để hỗ trợ đạt được nhiều mục tiêu khác
-type link
-Action obsidian://open?vault=Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%F0%9F%96%BC%EF%B8%8F%20Khu%20tr%C6%B0ng%20b%C3%A0y%2F%F0%9F%96%BC%EF%B8%8F%20Khu%20tr%C6%B0ng%20b%C3%A0y
-color yellow
-```
-^button-xtkc
 
 <a href="https://opencollective.com/nhom-tu-hoc/donate" target="_blank">
   <img src="https://opencollective.com/webpack/donate/button@2x.png?color=blue" width=300 />
@@ -71,13 +55,16 @@ color yellow
 Đây là một sản phẩm dành riêng cho người Việt với mục tiêu hỗ trợ những ai chưa từng làm quen với Obsidian và Git cũng như kiến thức về phát triển sản phẩm có thể nhanh chóng học những ứng dụng và kiến thức này từng bước một để làm một kho dữ liệu quản lý dự án. Bạn có thể dùng vault này để tự học hoặc như một giáo án để hỗ trợ bạn bè của mình.
 
 Nơi đây sẽ chứa những insight mà những người đang tự học quản lý dự án nhiều khi cũng lờ mờ nhận ra nhưng không có ai ở ngay đó để đẩy vấn đề đi xa hơn, còn những người mới học thì thấy quá tải, nhức đầu vì những lời khuyên, bài viết trên mạng dù hay đến mấy cũng rời rạc. Đậm đặc insight thì không nổi lên được bằng các bài viết SEO
+Nhiều cái rất bình thường và hiển nhiên với người có kinh nghiệm, lại là những thử gây trắc trở với những người mới.
 
 Khảo sát xyz người với câu hỏi "Khó khăn khi bạn" 
 Những vấn đề mà một người tự học, không có nhiều tiền và cảm thấy quá tải sẽ có lúc cần dùng đến
 
+ 
 Các bài tập không chỉ được thiết kế Chỉnh từ từ để không bị ngộp, nhưng sau đó vứt đi, mà còn chính là vault của bạn trong việc quản lý dự án
 Ontology
 bạn tham gia vào đây không phải chỉ để học Obsidian hay Git, mà vào đây để dự án của mình được tốt hơn
+
 
   
 Các bài học phải đến từ serious use of learner. Nó phải giải đáp được nhu cầu có thực của riêng họ, chứ không phải chỉ là một ví dụ cho dễ hiểu xong rồi xóa đi. Bài tập được giao cho họ phải là thứ họ rồi cũng sẽ phải làm
@@ -97,3 +84,5 @@ Vault này được khởi xướng bởi Quả Cầu, và được hoàn thiệ
 - Nhấn mạnh vào sự khác biệt với những phần mềm khác và ý nghĩa của nó
 - Giúp những người tự nhận là mình ngu công nghệ thấy được mình có thể làm chủ công nghệ như thế nào
 - Là một đầu mối để khám phá và kết nối các dự án khác
+
+mình định hướng là vault sẽ vừa cho người mới học vừa cho người đã có trải nghiệm và muốn đào sâu. Ai muốn học Obsidian và Git thì sẽ có một folder riêng. Các bài tập trong đó sẽ giúp họ tạo ra một vault quản lý dự án cho riêng họ luôn. Như vậy cũng sẽ đáp ứng cái what và how trong thời gian ngắn nhất. Còn ai đã lên được cái khung dữ liệu cho mình và bắt đầu chạy dự án của mình trên thực tế thì sẽ cần đến những cái why

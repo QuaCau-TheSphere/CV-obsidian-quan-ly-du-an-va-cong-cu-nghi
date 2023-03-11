@@ -1,1 +1,0 @@
-Thách thức:: [[Người giúp đỡ sẽ khó có động lực giúp nếu không thấy tưởng mình rõ ràng]] 
