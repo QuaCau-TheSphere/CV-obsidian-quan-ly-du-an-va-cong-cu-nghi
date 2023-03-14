@@ -1,0 +1,1 @@
+Đây là một bài toán khó của khoa học máy tính. Việc hợp tác làm việc chung qua mạng không phải là bất khả; các công cụ như Git rất mạnh, và còn cho bạn thấy được nhiều khả thể hợp tác khác. Nhưng phải mất công học chứ không trực quan được

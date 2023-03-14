@@ -1,0 +1,15 @@
+Việc **dữ liệu nằm trên máy của bạn** có nghĩa là nó là của bạn và luôn sẵn sàng chờ bạn. Bạn không còn phải lo về vấn đề bảo mật dữ liệu, bởi vì nó không có được chuyển qua một máy chủ nào hết. Bạn không cần phải lo lắng mỗi lần ra ngoài đường hay rớt mạng, vì bạn không phải tải dữ liệu về để làm việc. Việc **dữ liệu được lưu ở định dạng đơn giản** nghĩa là bạn không còn gặp khó khăn trong việc chuyển đổi định dạng. Điều này sẽ hữu ích nếu một ngày bạn chán Obsidian và muốn dùng công cụ khác, hoặc nếu Obsidian còn thiếu chức năng nào đó và bạn cần dùng công cụ khác để bổ sung. Một nền tảng có thể cung cấp tính năng xuất dữ liệu người dùng, và mỗi định dạng khác nhau sẽ có những phần mềm chuyên dụng để đọc nó. Nhưng nếu bạn còn phải tải về dữ liệu của mình, hoặc còn phải sử dụng một phần mềm riêng để có thể đọc được dữ liệu của mình, thì về lý thuyết, bạn sẽ còn chịu sự chi phối của nền tảng/phần mềm đó. Còn với triết lý này, thì bạn mới thực sự làm chủ dữ liệu của mình.
+
+Ví dụ: bạn cần lưu chuyển dữ liệu. Việc nằm trên Google Drive
+
+- **Tự động hoá**
+- [[Obsidian có thể tạo biến tại bất cứ vị trí nào trong ghi chú]] 
+- [[Có thể dùng kết hợp Obsidian với các giải pháp xử lý dữ liệu khác]]
+- [[Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0]]
+- 
+
+[[Obsidian cực kỳ dễ mở rộng tính năng]]
+
+Tuy nhiên, [[Có sự đánh đổi giữa sự dễ dàng tuỳ biến dữ liệu của mình và sự dễ dàng hợp tác qua mạng]] 
+
+Xem thêm:: [[Dữ liệu dưới dạng cơ sở dữ liệu đảm bảo các bên tham gia nhập dữ liệu cùng một format]] 
