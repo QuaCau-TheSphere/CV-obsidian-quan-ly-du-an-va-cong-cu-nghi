@@ -1,0 +1,1 @@
+Obsidian đủ để quản lý công việc

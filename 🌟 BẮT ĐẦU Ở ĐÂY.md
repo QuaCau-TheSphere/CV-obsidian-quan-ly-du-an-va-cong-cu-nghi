@@ -20,7 +20,7 @@
 
 | Câu hỏi                                                                                       | Loại câu hỏi | Nơi cho câu trả lời                     |
 | --------------------------------------------------------------------------------------------- | ------------ | --------------------------------------- |
-| Obsidian có gì hay?                                                                           | What         | [[🖼️ Khu trưng bày]]                    |
+| Obsidian có gì hay?                                                                           | What         | [[💎 Giới thiệu về Obsidian]]               |
 | OK tôi thấy Obsidian cũng thú vị. Tôi ứng dụng nó vào công việc của tôi thế nào cho hiệu quả? | How          | [[⚔️ Lớp Obsidian và Git]]              |
 | Hmm... Tôi thấy hướng dẫn ghi là nên làm cái A này. Tại sao không phải là cái B kia?          | Why          | [[⚡Hiểu biết sâu cho người làm dự án]] |
 
@@ -84,5 +84,3 @@ Vault này được khởi xướng bởi Quả Cầu, và được hoàn thiệ
 - Nhấn mạnh vào sự khác biệt với những phần mềm khác và ý nghĩa của nó
 - Giúp những người tự nhận là mình ngu công nghệ thấy được mình có thể làm chủ công nghệ như thế nào
 - Là một đầu mối để khám phá và kết nối các dự án khác
-
-mình định hướng là vault sẽ vừa cho người mới học vừa cho người đã có trải nghiệm và muốn đào sâu. Ai muốn học Obsidian và Git thì sẽ có một folder riêng. Các bài tập trong đó sẽ giúp họ tạo ra một vault quản lý dự án cho riêng họ luôn. Như vậy cũng sẽ đáp ứng cái what và how trong thời gian ngắn nhất. Còn ai đã lên được cái khung dữ liệu cho mình và bắt đầu chạy dự án của mình trên thực tế thì sẽ cần đến những cái why

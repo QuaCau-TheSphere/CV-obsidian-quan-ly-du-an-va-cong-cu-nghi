@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d69f9835fd2f34f3",
+        "id": "b664b9eb43fec28c",
         "type": "tabs",
         "children": [
           {
-            "id": "8b1ac89fb76cb11d",
+            "id": "33de927214aa243b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "💎Giới thiệu về Obsidian/Mô tả về Obsidian/Obsidian lưu dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản.md",
-                "mode": "source",
+                "file": "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"\\\"⚔️ Nhiệm vụ\" \"",
+                "query": "snpo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "💎Giới thiệu về Obsidian/Mô tả về Obsidian/Obsidian lưu dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản.md",
+                "file": "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "💎Giới thiệu về Obsidian/Mô tả về Obsidian/Obsidian lưu dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản.md",
+                "file": "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "💎Giới thiệu về Obsidian/Mô tả về Obsidian/Obsidian lưu dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản.md"
+                "file": "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng.md"
               }
             }
           }
@@ -157,57 +157,57 @@
     "hiddenItems": {
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "open-vscode:VSCode": false,
-      "homepage:Open homepage": false,
       "daily-notes:Open today's daily note": true,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "8b1ac89fb76cb11d",
+  "active": "33de927214aa243b",
   "lastOpenFiles": [
-    "💎Giới thiệu về Obsidian/Mô tả về Obsidian/Obsidian xem liên kết là công dân hạng nhất.md",
-    "💎Giới thiệu về Obsidian/💎Giới thiệu về Obsidian.md",
-    "⚔️ Lớp Obsidian và Git/⚔️ Lớp Obsidian và Git.md",
-    "⚔️ Lớp Obsidian và Git/4 Du hành thời gian với Git/4 Du hành thời gian với Git.md",
-    "⚔️ Lớp Obsidian và Git/4 Du hành thời gian với Git/📖 Bài đọc thêm/📖 Sử dụng plugin Obsidian Git.md",
-    "⚔️ Lớp Obsidian và Git/5 Làm việc cùng nhau/5 Làm việc cùng nhau.md",
-    "⚔️ Lớp Obsidian và Git/5 Làm việc cùng nhau/📖 Bài đọc thêm/📖 Remote, upstream, origin.md",
-    "⚔️ Lớp Obsidian và Git/5 Làm việc cùng nhau/📖 Bài đọc thêm/Tài liệu đọc thêm về Git.md",
-    "⚡Hiểu biết sâu cho người làm dự án/⚡Hiểu biết sâu cho người làm dự án.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Sử dụng máy tính/Công nghệ thông tin/JavaScript/XML và JSON.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Sử dụng máy tính/Công nghệ thông tin/JavaScript/Console giúp.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Sử dụng máy tính/Công nghệ thông tin/Regex giúp tìm kiếm những chuỗi phức tạp.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Sử dụng máy tính/Công nghệ thông tin/Git giúp ta du hành thời gian.md",
-    "💎Giới thiệu về Obsidian/Mô tả về Obsidian/Có thể dùng kết hợp Obsidian với các giải pháp xử lý dữ liệu khác.md",
-    "💎Giới thiệu về Obsidian/Mô tả về Obsidian/Obsidian lưu dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản.md",
-    "Trang chủ.canvas",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các buổi phỏng vấn/Bài đăng kêu gọi phỏng vấn.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Quản lý dự án, phát triển sản phẩm.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/5 Các bên liên quan.md",
+    "🌟 BẮT ĐẦU Ở ĐÂY.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Vấn đề chỉ được phát hiện ra khi đến khâu triển khai ý tưởng.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Đừng chạy theo tính năng, mà hãy xác định vấn đề cần ưu tiên giải quyết và nhanh chóng kiểm tra các giả thuyết.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/3 Thành phẩm.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp/Phỏng vấn pqn.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Một số thành phẩm sẽ có những thành quả mong muốn bên trong nó, nhưng thường chỉ là thành phẩm nhỏ hơn.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các buổi phỏng vấn/Hướng dẫn phỏng vấn người muốn xây dựng cộng đồng hoặc mạng lưới.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về người dùng.md",
+    "💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
     "📐 Dự án hỗ trợ người mới học Obsidian/📐 Dự án hỗ trợ người mới học Obsidian.md",
-    "💎Giới thiệu về Obsidian/Mô tả về Obsidian/Một hệ sinh thái không hoạt động bằng cách đặt câu hỏi, mà bằng cách không cần hỏi cũng biết câu trả lời là gì.md",
-    "obs.md",
-    "💎Giới thiệu về Obsidian/Theo tính năng của plugin/Tạo nút.md",
-    "💎Giới thiệu về Obsidian/Theo tính năng của plugin/Tạo bảng.md",
-    "💎Giới thiệu về Obsidian/Theo tính năng của plugin/Slide.md",
-    "💎Giới thiệu về Obsidian/Theo tính năng của plugin/Excalidraw.md",
-    "💎Giới thiệu về Obsidian/Theo tính năng của plugin/Chèn bản đồ.md",
-    "💎Giới thiệu về Obsidian/Theo tính năng của plugin/Canvas.md",
-    "💎Giới thiệu về Obsidian/Mô tả về Obsidian/Obsidian có thể tạo biến tại bất cứ vị trí nào trong ghi chú.md",
-    "💎Giới thiệu về Obsidian/Mô tả về Obsidian/Obsidian cực kỳ dễ mở rộng tính năng.md",
-    "🖼️ Khu trưng bày/Mô tả về Obsidian/~syncthing~Cộng đồng rất mạnh.md.tmp",
+    "⚡Hiểu biết sâu cho người làm dự án/⚡Hiểu biết sâu cho người làm dự án.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/Cá nhân cụ thể/Product Maker Vietnam.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/6 Giả thuyết/Các dự án có lợi nhuận không quan tâm đến nhu cầu khác.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/50 nhóm dự án sử dụng Obsidian để quản lý công việc.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/100 dự án cộng đồng thấy Obsidian giúp họ xây dựng cộng đồng mạnh.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/6 Giả thuyết/Việc có sẵn dữ liệu của các bên khác trong csdl của mình sẽ giúp mình hoạch định tốt hơn.md",
     "Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
-    "Untitled.canvas",
-    "~syncthing~Trang chủ.canvas.tmp",
-    "💎Giới thiệu về Obsidian/Mô tả về Obsidian",
-    "🖼️ Khu trưng bày/Theo mục đích xây dựng vault/Untitled",
-    "Thiết lập/Ảnh/Open another vault.png",
+    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Quản lý rủi ro",
+    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Đảo thông tin khiến cho những thao tác tự động hoá đơn giản không thể làm được.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các buổi phỏng vấn/Phỏng vấn một người có nhiều kinh nghiệm trong lĩnh vực phi lợi nhuận.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp/Hướng dẫn phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/Cá nhân cụ thể/Nhật.md",
+    "Trang chủ.canvas",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các buổi phỏng vấn/Các bài viết tuyển người phỏng vấn",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các buổi phỏng vấn",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về mức độ ưu tiên của người dùng về việc tìm hiểu Obsidian/Các buổi phỏng vấn người làm quản lý dự án cộng đồng",
     "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về mức độ ưu tiên của người dùng về việc tìm hiểu Obsidian",
-    "~syncthing~🌟 BẮT ĐẦU Ở ĐÂY.md.tmp",
-    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các buổi phỏng vấn/Các buổi phỏng vấn người làm quản lý dự án",
-    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các buổi phỏng vấn/Các buổi phỏng vấn người tham gia làm quản lý dự án",
-    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các buổi phỏng vấn/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt - Copy",
-    "📐 Phòng giáo viên/3 Thành phẩm/Các nghiên cứu về người dùng/Các buổi phỏng vấn"
+    "⚡Hiểu biết sâu cho người làm dự án/Sử dụng máy tính/Công nghệ thông tin/Cơ sở dữ liệu/~syncthing~Dữ liệu dưới dạng cơ sở dữ liệu đảm bảo các bên tham gia nhập dữ liệu cùng một định dạng.md.tmp",
+    "~syncthing~Untitled.md.tmp",
+    "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/Loại đối tượng",
+    "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/Cá nhân cụ thể",
+    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp",
+    "Untitled.canvas",
+    "Thiết lập/Ảnh/Open another vault.png"
   ]
 }

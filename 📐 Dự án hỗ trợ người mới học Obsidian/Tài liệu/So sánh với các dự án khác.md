@@ -1,3 +1,5 @@
-# Với Obsidian Help
+# Obsidian Help
 
 # ChatGPT
+
+# Wikipedia

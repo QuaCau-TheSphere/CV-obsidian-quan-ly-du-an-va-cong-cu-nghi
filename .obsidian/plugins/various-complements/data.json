@@ -1,6 +1,8 @@
 {
   "strategy": "default",
+  "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "prefix",
+  "fuzzyMatch": true,
   "maxNumberOfSuggestions": 255,
   "maxNumberOfWordsAsPhrase": 1,
   "minNumberOfCharactersTriggered": 2,
@@ -10,6 +12,11 @@
   "disableSuggestionsDuringImeOn": false,
   "insertAfterCompletion": false,
   "firstCharactersDisableSuggestions": ":/^",
+  "useCommonPrefixCompletionOfSuggestion": false,
+  "patternsToSuppressTrigger": [
+    "^~~~.*",
+    "^```.*"
+  ],
   "showMatchStrategy": false,
   "showComplementAutomatically": false,
   "showIndexingStatus": false,
@@ -38,6 +45,12 @@
   "enableInternalLinkComplement": false,
   "suggestInternalLinkWithAlias": false,
   "excludeInternalLinkPathPrefixPatterns": "",
+  "updateInternalLinksOnSave": true,
+  "insertAliasTransformedFromDisplayedInternalLink": {
+    "enabled": false,
+    "beforeRegExp": "",
+    "after": ""
+  },
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": true,
@@ -92,6 +105,14 @@
         "customDictionary": {
           "count": 1,
           "lastUpdated": 1678205506750
+        }
+      }
+    },
+    "Thành phẩm:: ": {
+      "Thành phẩm:: ": {
+        "customDictionary": {
+          "count": 4,
+          "lastUpdated": 1678879711992
         }
       }
     }

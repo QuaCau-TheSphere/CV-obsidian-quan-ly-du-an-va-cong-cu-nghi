@@ -1,1 +1,0 @@
-Tuy nhiên, nếu số lượng biến là rất nhiều thì có thể cân nhắc dùng một cơ sở dữ liệu để chuyên biệt hoá chuyện này. [[Dữ liệu dưới dạng cơ sở dữ liệu đảm bảo các bên tham gia nhập dữ liệu cùng một format]] 

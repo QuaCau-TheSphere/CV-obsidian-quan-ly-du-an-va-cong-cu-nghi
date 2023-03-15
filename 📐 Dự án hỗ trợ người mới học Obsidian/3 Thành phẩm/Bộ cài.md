@@ -15,8 +15,7 @@ Thành quả hỗ trợ::
 
 Thành phẩm nhỏ hơn:
 ```dataview
-List 
-From #file/thành-phẩm 
+List
 Where contains(file.folder,this.file.folder) and file.name!=this.file.name
 ```
 

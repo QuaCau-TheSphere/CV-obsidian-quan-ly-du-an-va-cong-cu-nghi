@@ -2,19 +2,31 @@
   "autocomplete": [
     {
       "field": "Thành phẩm",
-      "folder": "📐 Phòng giáo viên/3 Thành phẩm"
+      "folder": "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm"
     },
     {
       "field": "Nhu cầu",
-      "folder": "📐 Phòng giáo viên/1 Nhu cầu"
+      "folder": "📐 Dự án hỗ trợ người mới học Obsidian/1 Nhu cầu"
     },
     {
       "field": "Thành quả cần có",
-      "folder": "📐 Phòng giáo viên/2 Thành quả mong muốn"
+      "folder": "📐 Dự án hỗ trợ người mới học Obsidian/2 Thành quả mong muốn"
     },
     {
       "field": "Thành quả hỗ trợ",
-      "folder": "📐 Phòng giáo viên/2 Thành quả mong muốn"
+      "folder": "📐 Dự án hỗ trợ người mới học Obsidian/2 Thành quả mong muốn"
+    },
+    {
+      "field": "Giả thuyết",
+      "folder": "📐 Dự án hỗ trợ người mới học Obsidian/6 Giả thuyết"
+    },
+    {
+      "field": "Đối tượng thụ hưởng",
+      "folder": "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/Loại đối tượng"
+    },
+    {
+      "field": "Người chơi",
+      "folder": "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/Cá nhân cụ thể"
     }
   ],
   "regexpTrigger": "/"
