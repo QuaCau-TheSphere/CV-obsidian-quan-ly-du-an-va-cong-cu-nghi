@@ -1,0 +1,1 @@
+[[Idea với insight đều là một]] 

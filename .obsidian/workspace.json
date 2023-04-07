@@ -4,23 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "b664b9eb43fec28c",
+        "id": "1a33f2d5648a287e",
         "type": "tabs",
         "children": [
           {
-            "id": "33de927214aa243b",
+            "id": "fc58afa9817dfe8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng.md",
+                "file": "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Quản lý dự án, phát triển sản phẩm.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f5cbde8ac03fd45b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu cho người làm dự án/Hệ thống phức hợp, AI/Hệ thống phức hợp, AI.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng.md",
+                "file": "⚡Hiểu biết sâu cho người làm dự án/Hệ thống phức hợp, AI/Hệ thống phức hợp, AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng.md",
+                "file": "⚡Hiểu biết sâu cho người làm dự án/Hệ thống phức hợp, AI/Hệ thống phức hợp, AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng.md"
+                "file": "⚡Hiểu biết sâu cho người làm dự án/Hệ thống phức hợp, AI/Hệ thống phức hợp, AI.md"
               }
             }
           }
@@ -167,36 +181,39 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "33de927214aa243b",
+  "active": "f5cbde8ac03fd45b",
   "lastOpenFiles": [
-    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các buổi phỏng vấn/Bài đăng kêu gọi phỏng vấn.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Quản lý dự án, phát triển sản phẩm.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/5 Các bên liên quan.md",
     "🌟 BẮT ĐẦU Ở ĐÂY.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Vấn đề chỉ được phát hiện ra khi đến khâu triển khai ý tưởng.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Đừng chạy theo tính năng, mà hãy xác định vấn đề cần ưu tiên giải quyết và nhanh chóng kiểm tra các giả thuyết.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/3 Thành phẩm.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp/Phỏng vấn pqn.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Một số thành phẩm sẽ có những thành quả mong muốn bên trong nó, nhưng thường chỉ là thành phẩm nhỏ hơn.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các buổi phỏng vấn/Hướng dẫn phỏng vấn người muốn xây dựng cộng đồng hoặc mạng lưới.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về người dùng.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Tư duy về tư duy.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Hệ thống phức hợp, AI/Hệ thống phức hợp, AI.md",
+    "Tổng quan.md",
     "💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/📐 Dự án hỗ trợ người mới học Obsidian.md",
-    "⚡Hiểu biết sâu cho người làm dự án/⚡Hiểu biết sâu cho người làm dự án.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/Cá nhân cụ thể/Product Maker Vietnam.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/6 Giả thuyết/Các dự án có lợi nhuận không quan tâm đến nhu cầu khác.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/50 nhóm dự án sử dụng Obsidian để quản lý công việc.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/2 Thành quả mong muốn/Người dùng tạo vault cho riêng họ/100 dự án cộng đồng thấy Obsidian giúp họ xây dựng cộng đồng mạnh.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/6 Giả thuyết/Việc có sẵn dữ liệu của các bên khác trong csdl của mình sẽ giúp mình hoạch định tốt hơn.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin/Hợp tác làm việc/Real-time collaboration isn't necessary in most cases, but asynchronous collaboration.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Môi trường tư duy, nhận thức tăng cường.md",
+    "Thiết lập/Gõ tắt.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Nhận thức tăng cường.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Lectures, as a format, are shaped as if tranmissionism were true, so lecturers mostly behave as if it were true.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Giấy và bút không thể hiện hành vi của hệ thống đang được nghiên cứu.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Viết cho phép bạn nghĩ về sự nghĩ.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Sự phát minh của việc viết phát minh ra việc lập luận.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Sự phát minh ra ký hiệu phát minh ra toán học hiện đại.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin/Hợp tác làm việc/Có sự đánh đổi giữa sự dễ dàng tuỳ biến dữ liệu của mình và sự dễ dàng hợp tác qua mạng.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin/Hợp tác làm việc/Git mở ra nhiều khả thể trong việc hợp tác.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin/Hợp tác làm việc/Các nhóm làm việc qua mạng ngày càng nhiều.md",
+    "💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Khả năng tuỳ biến của Obsidian rất cao.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin/Cơ sở dữ liệu/Dữ liệu dưới dạng cơ sở dữ liệu đảm bảo các bên tham gia nhập dữ liệu cùng một định dạng.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Quản lý cuộc sống có phải là quản lý dự án？.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Ghi chú thông tin/Quản lý tài liệu.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Khoa học nhận thức/Càng mất nhiều ta càng học nhiều.md",
+    "💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Đồ thị giúp thấy được bức tranh tổng thể của nhóm.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Tài liệu.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Viết làm suy nghĩ không còn là vô hình.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Khoa học nhận thức/Cảm xúc không chỉ khiến ta nhớ tốt hơn, mà còn điều hướng những suy nghĩ tự động.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Khoa học nhận thức",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Bản thể luận",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường",
     "Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
     "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Quản lý rủi ro",
-    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Đảo thông tin khiến cho những thao tác tự động hoá đơn giản không thể làm được.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các buổi phỏng vấn/Phỏng vấn một người có nhiều kinh nghiệm trong lĩnh vực phi lợi nhuận.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp/Hướng dẫn phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/Cá nhân cụ thể/Nhật.md",
     "Trang chủ.canvas",
     "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các buổi phỏng vấn/Các bài viết tuyển người phỏng vấn",
     "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các buổi phỏng vấn",
@@ -204,9 +221,6 @@
     "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về mức độ ưu tiên của người dùng về việc tìm hiểu Obsidian",
     "⚡Hiểu biết sâu cho người làm dự án/Sử dụng máy tính/Công nghệ thông tin/Cơ sở dữ liệu/~syncthing~Dữ liệu dưới dạng cơ sở dữ liệu đảm bảo các bên tham gia nhập dữ liệu cùng một định dạng.md.tmp",
     "~syncthing~Untitled.md.tmp",
-    "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/Loại đối tượng",
-    "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/Cá nhân cụ thể",
-    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp",
     "Untitled.canvas",
     "Thiết lập/Ảnh/Open another vault.png"
   ]

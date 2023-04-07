@@ -1,1 +1,1 @@
-core-econ.org/
+[Contents – Economy, Society, and Public Policy](https://www.core-econ.org/espp/book/text/0-3-contents.html)

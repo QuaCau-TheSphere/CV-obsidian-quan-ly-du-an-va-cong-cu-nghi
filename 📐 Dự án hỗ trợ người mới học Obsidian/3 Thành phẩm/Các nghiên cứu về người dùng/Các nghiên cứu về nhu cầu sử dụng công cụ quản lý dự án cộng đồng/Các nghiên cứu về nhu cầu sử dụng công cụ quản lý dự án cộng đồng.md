@@ -16,15 +16,18 @@ WHERE contains(thành-phẩm,[[]])
 ```
 Người chơi::
 Đối tượng thụ hưởng: `=this.file.inlinks.đối-tượng-thụ-hưởng`
-Thành quả cần có::
-Thành quả hỗ trợ::
-- Hoàn thành [[Hướng dẫn phỏng vấn người muốn xây dựng cộng đồng hoặc mạng lưới]]
+Thành quả cần có:: [[1 người tham gia phỏng vấn mỗi tuần]]
+Thành quả hỗ trợ:: [[3 người có 10 năm kinh nghiệm trong lĩnh vực phi lợi nhuận nhận phỏng vấn]]
+Thành quả hỗ trợ:: [[3 người có 1 năm kinh nghiệm trong lĩnh vực phi lợi nhuận nhận phỏng vấn]]
+
 - [x] [[Bài đăng kêu gọi phỏng vấn]] ✅ 2023-03-15
-- [ ] Phỏng vấn một người có nhiều kinh nghiệm trong lĩnh vực phi lợi nhuận
+- [ ] Hoàn thành [[Hướng dẫn phỏng vấn người muốn xây dựng cộng đồng hoặc mạng lưới]]
+- [ ] [[Email mời phỏng vấn]]
 	- [ ] SNPO
-- [ ] Phỏng vấn một tổ chức trẻ
 	- [ ] VOGE
+	- [ ] 
 - [x] Phỏng vấn anh Minh ✅ 2023-03-14
+- [ ] Khảo sát
 
 Thành phẩm nhỏ hơn:
 ```dataview

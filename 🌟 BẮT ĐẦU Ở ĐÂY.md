@@ -24,16 +24,20 @@
 | OK tôi thấy Obsidian cũng thú vị. Tôi ứng dụng nó vào công việc của tôi thế nào cho hiệu quả? | How          | [[⚔️ Lớp Obsidian và Git]]              |
 | Hmm... Tôi thấy hướng dẫn ghi là nên làm cái A này. Tại sao không phải là cái B kia?          | Why          | [[⚡Hiểu biết sâu cho người làm dự án]] |
 
+| Câu hỏi khác                  |                                            |
+| ----------------------------- | ------------------------------------------ |
+| Kế hoạch của vault này là gì? | [[Khi nào thì có thể nói là thành công？]] |
+|                               |                                            |
 ```button
-name Tôi muốn biết kế hoạch của dự án "Nhóm tự học Obsidian" 
+name Tôi muốn biết kế hoạch của dự án hỗ trợ người mới học Obsidian
 type link
-Action obsidian://open?vault=Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%F0%9F%93%90%20Ph%C3%B2ng%20gi%C3%A1o%20vi%C3%AAn%2F%F0%9F%93%90%20Ph%C3%B2ng%20gi%C3%A1o%20vi%C3%AAn
+Action obsidian://open?vault=Obsidian%20v%C3%A0%20Git%20cho%20qu%E1%BA%A3n%20l%C3%BD%20d%E1%BB%B1%20%C3%A1n&file=%F0%9F%93%90%20D%E1%BB%B1%20%C3%A1n%20h%E1%BB%97%20tr%E1%BB%A3%20ng%C6%B0%E1%BB%9Di%20m%E1%BB%9Bi%20h%E1%BB%8Dc%20Obsidian%2F6%20K%E1%BA%BF%20ho%E1%BA%A1ch%2FKhi%20n%C3%A0o%20th%C3%AC%20c%C3%B3%20th%E1%BB%83%20n%C3%B3i%20l%C3%A0%20th%C3%A0nh%20c%C3%B4ng%EF%BC%9F
 color blue
 ```
 ^button-o67f
 
 ```button
-name Tôi muốn góp phản hồi về dự án "Nhóm tự học Obsidian" 
+name Tôi muốn góp phản hồi về dự án hỗ trợ người mới học Obsidian
 type link
 Action https://quảcầu.cc/khao-sat-nguoi-dung-vault-nhap-mon-obsidian/?utm_source=Vault+%C2%BB+Nh%E1%BA%ADp+m%C3%B4n+Obsidian+%C2%BB+Trang+ch%E1%BB%A7&utm_medium=Giai+%C4%91o%E1%BA%A1n+2
 color blue
@@ -41,7 +45,7 @@ color blue
 ^button-o67g
 
 ```button
-name Tôi muốn gặp gỡ những bạn cũng đang tham gia dự án "Nhóm tự học Obsidian" 
+name Tôi muốn gặp gỡ những bạn cũng đang tham gia dự án hỗ trợ người mới học Obsidian
 type link
 Action https://discord.gg/ynvxH2K7Ct
 color blue
@@ -84,3 +88,4 @@ Vault này được khởi xướng bởi Quả Cầu, và được hoàn thiệ
 - Nhấn mạnh vào sự khác biệt với những phần mềm khác và ý nghĩa của nó
 - Giúp những người tự nhận là mình ngu công nghệ thấy được mình có thể làm chủ công nghệ như thế nào
 - Là một đầu mối để khám phá và kết nối các dự án khác
+Thông tin có ngay ở đó quan trọng hơn hay nút bấm quan trọng hơn?

@@ -1,1 +1,0 @@
-Xử lý ngôn ngữ tự nhiên, AI, Wikipedia

@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:\"⚡Hiểu biết sâu cho người làm dự án\" OR path:\"💎 Giới thiệu về Obsidian/Mô tả về Obsidian\"",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,45 +8,52 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"1 Nhu cầu\"",
+      "query": "path:\"💎 Giới thiệu về Obsidian/Mô tả về Obsidian\"",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
     },
     {
-      "query": "path:\"2 Kỹ năng, thử thách, mức độ thành thạo\"",
+      "query": "path:\"⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin\"",
       "color": {
         "a": 1,
         "rgb": 14069084
       }
     },
     {
-      "query": "path:\"3 Kiến thức, câu hỏi\"",
+      "query": "path:\"⚡Hiểu biết sâu cho người làm dự án/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động\"",
       "color": {
         "a": 1,
         "rgb": 11392604
       }
     },
     {
-      "query": "path:\"4 Sản phẩm, 2 Thành quả mong muốn (các vùng đất)\"",
+      "query": "path:\"⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm\"",
       "color": {
         "a": 1,
         "rgb": 6084188
       }
     },
     {
-      "query": "path:\"5 SWOT, giá trị cốt lõi\"",
+      "query": "path:\"⚡Hiểu biết sâu cho người làm dự án/Sức khoẻ\"",
       "color": {
         "a": 1,
         "rgb": 6084269
       }
     },
     {
-      "query": "path:\"6 Các bên liên quan (NPC)\"",
+      "query": "path:\"⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy\"",
       "color": {
         "a": 1,
         "rgb": 6073814
+      }
+    },
+    {
+      "query": "path:\"⚡Hiểu biết sâu cho người làm dự án/Xử lý ngôn ngữ tự nhiên, AI\"",
+      "color": {
+        "a": 1,
+        "rgb": 6053078
       }
     }
   ],
@@ -60,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.19189603488489287,
+  "scale": 0.19189603488489293,
   "close": true
 }
