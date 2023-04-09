@@ -1,1 +1,0 @@
-[[Đối tượng là cách ta mô phỏng thể giới]]

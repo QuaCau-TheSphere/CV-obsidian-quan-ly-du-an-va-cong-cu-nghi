@@ -4,37 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "1a33f2d5648a287e",
+        "id": "2221752f4176dd89",
         "type": "tabs",
         "children": [
           {
-            "id": "fc58afa9817dfe8e",
+            "id": "bbc9acd8a5437a75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Quản lý dự án, phát triển sản phẩm.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f5cbde8ac03fd45b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu cho người làm dự án/Hệ thống phức hợp, AI/Hệ thống phức hợp, AI.md",
-                "mode": "preview",
+                "file": "Lời giới thiệu.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu cho người làm dự án/Hệ thống phức hợp, AI/Hệ thống phức hợp, AI.md",
+                "file": "Lời giới thiệu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu cho người làm dự án/Hệ thống phức hợp, AI/Hệ thống phức hợp, AI.md",
+                "file": "Lời giới thiệu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu cho người làm dự án/Hệ thống phức hợp, AI/Hệ thống phức hợp, AI.md"
+                "file": "Lời giới thiệu.md"
               }
             }
           }
@@ -181,46 +167,45 @@
       "homepage:Open homepage": false
     }
   },
-  "active": "f5cbde8ac03fd45b",
+  "active": "bbc9acd8a5437a75",
   "lastOpenFiles": [
     "🌟 BẮT ĐẦU Ở ĐÂY.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Tư duy về tư duy.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Hệ thống phức hợp, AI/Hệ thống phức hợp, AI.md",
-    "Tổng quan.md",
+    "Lời giới thiệu.md",
+    "Trang chủ.canvas",
+    "💎 Giới thiệu về Obsidian/Introduction.md",
     "💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin/Hợp tác làm việc/Real-time collaboration isn't necessary in most cases, but asynchronous collaboration.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Môi trường tư duy, nhận thức tăng cường.md",
-    "Thiết lập/Gõ tắt.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Nhận thức tăng cường.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Lectures, as a format, are shaped as if tranmissionism were true, so lecturers mostly behave as if it were true.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Giấy và bút không thể hiện hành vi của hệ thống đang được nghiên cứu.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Viết cho phép bạn nghĩ về sự nghĩ.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Sự phát minh của việc viết phát minh ra việc lập luận.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Sự phát minh ra ký hiệu phát minh ra toán học hiện đại.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin/Hợp tác làm việc/Có sự đánh đổi giữa sự dễ dàng tuỳ biến dữ liệu của mình và sự dễ dàng hợp tác qua mạng.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin/Hợp tác làm việc/Git mở ra nhiều khả thể trong việc hợp tác.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin/Hợp tác làm việc/Các nhóm làm việc qua mạng ngày càng nhiều.md",
     "💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Khả năng tuỳ biến của Obsidian rất cao.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin/Cơ sở dữ liệu/Dữ liệu dưới dạng cơ sở dữ liệu đảm bảo các bên tham gia nhập dữ liệu cùng một định dạng.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Quản lý cuộc sống có phải là quản lý dự án？.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Ghi chú thông tin/Quản lý tài liệu.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Khoa học nhận thức/Càng mất nhiều ta càng học nhiều.md",
-    "💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Đồ thị giúp thấy được bức tranh tổng thể của nhóm.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Tài liệu.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Viết làm suy nghĩ không còn là vô hình.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Khoa học nhận thức/Cảm xúc không chỉ khiến ta nhớ tốt hơn, mà còn điều hướng những suy nghĩ tự động.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Truyền thông, xây dựng cộng đồng/Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0.md",
+    "💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Obsidian lưu dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản.md",
+    "💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Một hệ sinh thái không hoạt động bằng cách đặt câu hỏi, mà bằng cách không cần hỏi cũng biết câu trả lời là gì.md",
+    "một hệ sinh thái không hoạt động bằng cách đặt câu hỏi, mà bằng cách không cần hỏi cũng biết câu trả lời là gì.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Xử lý ngôn ngữ tự nhiên, AI/Xử lý ngôn ngữ tự nhiên, AI.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Tư duy về tư duy.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Một văn bản không phải chỉ để truyền đạt thông tin hay hiểu biết, mà còn nên trở thành một sân chơi cho người đọc khám phá.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Sau 2 tuần nên cập nhật những cái mới.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Để có thể thiết kế một giải pháp một cách nhanh chóng và tự tin, ta cần được thử nghiệm ý tưởng mới và kiểm trả giả thiết ngay khi chúng vừa được nghĩ ra.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Môi trường tư duy, nhận thức tăng cường.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Explorable explanation phù hợp cho các trình bày liên quan chặt chẽ đến toán hơn.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Ghi chú thông tin/Khu vườn số luôn phát triển và thay đổi. Nó không bao giờ có trạng thái xong.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Sức khoẻ/Sức khoẻ.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Chi phí chuyển đổi giữa lập trình và nghiên cứu là lớn.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Bản thể luận/Chúng ta thường nhìn hiện tại và tương lai bằng những khái niệm học trong quá khứ.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Sức khoẻ/Công thái học/Việc ngột CO₂ xảy ra nhiều hơn chúng ta tưởng.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Sức khoẻ/Công thái học/Ô nhiễm tiếng ồn.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Hiểu biết không chỉ để mình làm một cái gì đó, mà còn để mình không làm một cái gì đó.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường/Powerful medium enables powerful representations.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Hệ phức hợp",
+    "⚡Hiểu biết sâu cho người làm dự án/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Untitled",
     "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Khoa học nhận thức",
     "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Bản thể luận",
     "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường tư duy, nhận thức tăng cường",
     "Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
     "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Quản lý rủi ro",
-    "Trang chủ.canvas",
     "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các buổi phỏng vấn/Các bài viết tuyển người phỏng vấn",
     "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Các buổi phỏng vấn",
     "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về mức độ ưu tiên của người dùng về việc tìm hiểu Obsidian/Các buổi phỏng vấn người làm quản lý dự án cộng đồng",
     "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về mức độ ưu tiên của người dùng về việc tìm hiểu Obsidian",
-    "⚡Hiểu biết sâu cho người làm dự án/Sử dụng máy tính/Công nghệ thông tin/Cơ sở dữ liệu/~syncthing~Dữ liệu dưới dạng cơ sở dữ liệu đảm bảo các bên tham gia nhập dữ liệu cùng một định dạng.md.tmp",
-    "~syncthing~Untitled.md.tmp",
     "Untitled.canvas",
     "Thiết lập/Ảnh/Open another vault.png"
   ]
