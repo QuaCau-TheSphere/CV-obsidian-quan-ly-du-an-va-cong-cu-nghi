@@ -61,6 +61,10 @@ color blue
 Nơi đây sẽ chứa những insight mà những người đang tự học quản lý dự án nhiều khi cũng lờ mờ nhận ra nhưng không có ai ở ngay đó để đẩy vấn đề đi xa hơn, còn những người mới học thì thấy quá tải, nhức đầu vì những lời khuyên, bài viết trên mạng dù hay đến mấy cũng rời rạc. Đậm đặc insight thì không nổi lên được bằng các bài viết SEO
 Nhiều cái rất bình thường và hiển nhiên với người có kinh nghiệm, lại là những thử gây trắc trở với những người mới.
 
+![[Drawing 2023-04-12 13.38.23.excalidraw]]
+
+Những insight trong đây không chỉ, mà còn là quan sát triết học hoặc nhân học liên quan đến quản lý dự án hoặc tự học
+
 Khảo sát xyz người với câu hỏi "Khó khăn khi bạn" 
 Những vấn đề mà một người tự học, không có nhiều tiền và cảm thấy quá tải sẽ có lúc cần dùng đến
 

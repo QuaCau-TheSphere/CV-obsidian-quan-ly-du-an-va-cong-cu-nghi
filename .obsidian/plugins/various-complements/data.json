@@ -60,59 +60,27 @@
   },
   "showLogAboutPerformanceInConsole": true,
   "selectionHistoryTree": {
-    "tp": {
-      "Thành phẩm:: ": {
-        "customDictionary": {
-          "count": 10,
-          "lastUpdated": 1678259643308
-        }
-      }
-    },
-    "tqht": {
-      "Thành quả hỗ trợ:: ": {
-        "customDictionary": {
-          "count": 13,
-          "lastUpdated": 1678259727362
-        }
-      }
-    },
-    "tqcc": {
-      "Thành quả cần có:: ": {
-        "customDictionary": {
-          "count": 7,
-          "lastUpdated": 1676455345090
-        }
-      }
-    },
-    "Thành quả cần có:: ": {
-      "Thành quả cần có:: ": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1676472699173
-        }
-      }
-    },
-    "nt": {
-      "Niềm tin về họ:: ": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1678205448537
-        }
-      }
-    },
-    "Niềm tin về họ:: ": {
-      "Niềm tin về họ:: ": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1678205506750
-        }
-      }
-    },
     "Thành phẩm:: ": {
       "Thành phẩm:: ": {
         "customDictionary": {
           "count": 4,
           "lastUpdated": 1678879711992
+        }
+      }
+    },
+    "Giải pháp gợi ý:: ": {
+      "Giải pháp gợi ý:: ": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1681190160625
+        }
+      }
+    },
+    "Lý do:: ": {
+      "Lý do:: ": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1681190494994
         }
       }
     }

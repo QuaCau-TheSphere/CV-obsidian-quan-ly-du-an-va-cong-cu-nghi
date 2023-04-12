@@ -1,0 +1,1 @@
+![[💎 Giới thiệu về Obsidian]]

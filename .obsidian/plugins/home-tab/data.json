@@ -22,5 +22,20 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": true,
-  "recentFilesStore": []
+  "recentFilesStore": [
+    {
+      "filepath": "🌟 BẮT ĐẦU Ở ĐÂY.md",
+      "timestamp": 1681286916208
+    },
+    {
+      "filepath": "Thiết lập/Gõ tắt.md",
+      "timestamp": 1681286913941
+    }
+  ],
+  "starredFileStore": [],
+  "searchDelay": 0,
+  "replaceNewTabs": true,
+  "newTabOnStart": false,
+  "closePreviousSessionTabs": false,
+  "omnisearch": false
 }
