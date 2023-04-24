@@ -1,1 +1,0 @@
-[[Ẩn dụ làm tô đậm những tính chất được chia sẻ, và ẩn đi những tính chất không được chia sẻ]]

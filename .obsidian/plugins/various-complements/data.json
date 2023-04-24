@@ -3,6 +3,8 @@
   "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "prefix",
   "fuzzyMatch": true,
+  "matchingWithoutEmoji": true,
+  "treatAccentDiacriticsAsAlphabeticCharacters": false,
   "maxNumberOfSuggestions": 255,
   "maxNumberOfWordsAsPhrase": 1,
   "minNumberOfCharactersTriggered": 2,
@@ -58,16 +60,9 @@
     "maxDaysToKeepHistory": 30,
     "maxNumberOfHistoryToKeep": 0
   },
+  "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": true,
   "selectionHistoryTree": {
-    "Thành phẩm:: ": {
-      "Thành phẩm:: ": {
-        "customDictionary": {
-          "count": 4,
-          "lastUpdated": 1678879711992
-        }
-      }
-    },
     "Giải pháp gợi ý:: ": {
       "Giải pháp gợi ý:: ": {
         "customDictionary": {
@@ -81,6 +76,30 @@
         "customDictionary": {
           "count": 1,
           "lastUpdated": 1681190494994
+        }
+      }
+    },
+    "```dataview\nLIST\nFROM |\nWHERE\n```": {
+      "```dataview\nLIST\nFROM |\nWHERE\n```": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1681546373937
+        }
+      }
+    },
+    "Câu hỏi:: ": {
+      "Câu hỏi:: ": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1681711394749
+        }
+      }
+    },
+    "Xem thêm:: ": {
+      "Xem thêm:: ": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1682321685580
         }
       }
     }

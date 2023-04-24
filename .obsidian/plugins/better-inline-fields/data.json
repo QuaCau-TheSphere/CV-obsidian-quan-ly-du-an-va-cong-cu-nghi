@@ -27,6 +27,10 @@
     {
       "field": "Người chơi",
       "folder": "📐 Dự án hỗ trợ người mới học Obsidian/5 Các bên liên quan/Cá nhân cụ thể"
+    },
+    {
+      "field": "Nguồn",
+      "folder": "⚡Hiểu biết sâu/Ξ Nguồn"
     }
   ],
   "regexpTrigger": "/"

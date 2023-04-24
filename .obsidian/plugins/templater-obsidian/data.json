@@ -25,6 +25,10 @@
     {
       "folder": "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm",
       "template": "Thiết lập/Templates/Thành phẩm.md"
+    },
+    {
+      "folder": "⚡Hiểu biết sâu",
+      "template": "Thiết lập/Templates/Ý tưởng.md"
     }
   ],
   "syntax_highlighting": true,

@@ -4,30 +4,30 @@
     "type": "split",
     "children": [
       {
-        "id": "2221752f4176dd89",
+        "id": "dedd7a4ffd34c921",
         "type": "tabs",
         "children": [
           {
-            "id": "882b1b113178ed9d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Thiết lập/Gõ tắt.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "bba794dc0b6648d9",
+            "id": "e3c62082d66ddfef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
                 "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b685f27a71bc68a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Giới thiệu vault.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
+                "file": "Giới thiệu vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
+                "file": "Giới thiệu vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md"
+                "file": "Giới thiệu vault.md"
               }
             }
           }
@@ -182,46 +182,46 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bba794dc0b6648d9",
+  "active": "b685f27a71bc68a2",
   "lastOpenFiles": [
-    "Thiết lập/Gõ tắt.md",
     "🌟 BẮT ĐẦU Ở ĐÂY.md",
-    "Thiết lập/Excalidraw/Drawing 2023-04-12 13.38.23.excalidraw.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/6 Kế hoạch/Kế hoạch tổng.md",
+    "Giới thiệu vault.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/Động lực.md",
     "📐 Dự án hỗ trợ người mới học Obsidian/📐 Dự án hỗ trợ người mới học Obsidian.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm/3 Thành phẩm.md",
-    "Thiết lập/Templates/Thành phẩm.md",
-    "⚡Hiểu biết sâu cho người làm dự án/⚡Hiểu biết sâu cho người làm dự án.md",
-    "Thiết lập/Excalidraw/Drawing 2023-04-12 13.38.23.excalidraw.png",
+    "📐 Dự án hỗ trợ người mới học Obsidian/Introduction.md",
     "Trang chủ.canvas",
-    "⚡Hiểu biết sâu cho người làm dự án/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Nghĩ về việc nghĩ/Tư duy về tư duy.md",
-    "Thiết lập/Excalidraw",
-    "⚡Hiểu biết sâu cho người làm dự án/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Nỗi ám ảnh với sự hiệu quả có thể đến từ nỗi sợ chết.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Khoa học dữ liệu/Khoa học dữ liệu.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/ESG.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Khoa học máy tính/Lập trình là một cái gì đó thâm nhập vào đời sống của chúng ta, nhưng lại gần như vô hình.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Khoa học máy tính/Người không học về lập trình thấy việc lập trình như làm phép thuật.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Khoa học máy tính/Người lập trình chủ yếu là biết google.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Nền kinh tế chăm sóc.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Những app quản lý công việc mang trong mình những giá trị văn hoá.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm/Quản lý dự án, phát triển sản phẩm.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Lời giới thiệu.md",
-    "📜 Tài nguyên/Công nghệ thông tin.md",
-    "📜 Tài nguyên/Môi trường nghĩ.md",
-    "📜 Tài nguyên/Sách kinh tế.md",
-    "📜 Tài nguyên/tuhocict.md",
+    "📜 Tài nguyên/📜 Tài nguyên.md",
     "📜 Tài nguyên/💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Khoa học máy tính/Hợp tác làm việc/Việc trung tâm hoá đáp ứng economy of scale.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Khoa học máy tính/Hợp tác làm việc/The assumption of centralization is deeply ingrained in our user experiences today, and we are only beginning to discover the consequences of changing that assumption.md",
-    "⚡Hiểu biết sâu cho người làm dự án/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết",
-    "⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy/Môi trường nghĩ, nhận thức tăng cường/New folder",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm yếu của Obsidian",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm mạnh của Obsidian",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian",
-    "📜 Tài nguyên/Nơi gặp mặt offline/Quán không có phòng riêng",
+    "📐 Dự án hỗ trợ người mới học Obsidian/2 Thành quả mong muốn/3 người có 1 năm kinh nghiệm trong lĩnh vực phi lợi nhuận nhận phỏng vấn.md",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/Theo tính năng của plugin.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/5 Giả thuyết/5 Giả thuyết.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/Các khái niệm/Quản lý dự án.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/Các khái niệm/Tự học.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/Theo dõi chỉ số/Theo dõi chỉ số.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/Lịch sử.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/So sánh với các dự án khác.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Người dùng bấm bao nhiêu lần cũng được, miễn là tự tin mình đang đi đúng hướng.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Việc mò mẫm vui, đỡ phải nghĩ và thường là hiệu quả hơn là đọc hướng dẫn cẩn thận.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Số lượng vấn đề tìm ra trong 1 buổi có thể nhiều hơn số lượng vấn đề có thể giải quyết trong 1 tháng.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Trải nghiệm trên web giống như trải nghiệm đến một nơi xa lạ.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Chúng ta không chọn phương án tối ưu khi chọn sai cũng chẳng hại gì.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Một trang web giúp người dùng tới ngay được nơi họ cần đến làm họ cảm thấy mình có thêm tính tự chủ.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Các tập quán chung giúp người dùng sử dụng web dễ dàng hơn, còn thôi thúc sáng tạo khỏi lối mòn đó là mãnh liệt.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Link gây xao nhãng.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm.md",
+    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tiền được lưu ở dạng vật chất, nhưng nhu cầu là một trạng thái của con người.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Lập luận",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Ẩn dụ",
+    "~syncthing~Các chương trình dùng electron ngốn ram.md.tmp",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Untitled",
+    "⚡Hiểu biết sâu/Ξ Nguồn",
+    "📜 Tài nguyên/Kinh tế",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái",
+    "Thiết lập/PDF/A SURVEY OF STAKEHOLDER VISUALIZATION APPROACHES.pdf",
+    "Thiết lập/PDF",
+    "Thiết lập/Excalidraw/Drawing 2023-04-12 13.38.23.excalidraw.png",
     "Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
     "Untitled.canvas",
     "Thiết lập/Ảnh/Open another vault.png"

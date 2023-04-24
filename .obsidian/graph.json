@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:\"⚡Hiểu biết sâu cho người làm dự án\" OR path:\"💎 Giới thiệu về Obsidian/Mô tả về Obsidian\"",
+  "search": "path:\"⚡Hiểu biết sâu\" OR path:\"💎 Giới thiệu về Obsidian/Mô tả về Obsidian\"",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -15,42 +15,42 @@
       }
     },
     {
-      "query": "path:\"⚡Hiểu biết sâu cho người làm dự án/Công nghệ thông tin\"",
+      "query": "path:\"⚡Hiểu biết sâu/Công nghệ thông tin\"",
       "color": {
         "a": 1,
         "rgb": 14069084
       }
     },
     {
-      "query": "path:\"⚡Hiểu biết sâu cho người làm dự án/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động\"",
+      "query": "path:\"⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động\"",
       "color": {
         "a": 1,
         "rgb": 11392604
       }
     },
     {
-      "query": "path:\"⚡Hiểu biết sâu cho người làm dự án/Quản lý dự án, phát triển sản phẩm\"",
+      "query": "path:\"⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm\"",
       "color": {
         "a": 1,
         "rgb": 6084188
       }
     },
     {
-      "query": "path:\"⚡Hiểu biết sâu cho người làm dự án/Sức khoẻ\"",
+      "query": "path:\"⚡Hiểu biết sâu/Sức khoẻ\"",
       "color": {
         "a": 1,
         "rgb": 6084269
       }
     },
     {
-      "query": "path:\"⚡Hiểu biết sâu cho người làm dự án/Tư duy về tư duy\"",
+      "query": "path:\"⚡Hiểu biết sâu/Tư duy về tư duy\"",
       "color": {
         "a": 1,
         "rgb": 6073814
       }
     },
     {
-      "query": "path:\"⚡Hiểu biết sâu cho người làm dự án/Xử lý ngôn ngữ tự nhiên, AI\"",
+      "query": "path:\"⚡Hiểu biết sâu/Xử lý ngôn ngữ tự nhiên, AI\"",
       "color": {
         "a": 1,
         "rgb": 6053078
@@ -63,10 +63,10 @@
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 250,
-  "scale": 0.19189603488489293,
-  "close": true
+  "centerStrength": 0.355318615143235,
+  "repelStrength": 15.33,
+  "linkStrength": 0.12,
+  "linkDistance": 94,
+  "scale": 0.04967011180319935,
+  "close": false
 }
