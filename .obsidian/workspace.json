@@ -13,6 +13,45 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Giới thiệu vault.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0a3d9c0efacc7fe1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a4c803e58ee5056a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Môi trường nghĩ, nhận thức tăng cường.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "da8e86296f3a1dbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
                 "mode": "preview",
                 "backlinks": true,
@@ -21,12 +60,12 @@
             }
           },
           {
-            "id": "b685f27a71bc68a2",
+            "id": "c6d148cc7555d077",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Giới thiệu vault.md",
+                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Máy không mệt khi phát sự kiện cũng như lắng nghe sự kiện.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,7 +73,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -100,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Giới thiệu vault.md",
+                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Máy không mệt khi phát sự kiện cũng như lắng nghe sự kiện.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Giới thiệu vault.md",
+                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Máy không mệt khi phát sự kiện cũng như lắng nghe sự kiện.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Giới thiệu vault.md"
+                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Máy không mệt khi phát sự kiện cũng như lắng nghe sự kiện.md"
               }
             }
           }
@@ -179,18 +218,39 @@
       "command-palette:Open command palette": false,
       "homepage:Open homepage": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "b685f27a71bc68a2",
+  "active": "c6d148cc7555d077",
   "lastOpenFiles": [
-    "🌟 BẮT ĐẦU Ở ĐÂY.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/6 Kế hoạch/Kế hoạch tổng.md",
-    "Giới thiệu vault.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/Động lực.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Real-time collaboration isn't necessary in most cases, but asynchronous collaboration.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Máy không mệt khi phát sự kiện cũng như lắng nghe sự kiện.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Sự kiện chỉ thông báo về sự thay đổi chứ không kỳ vọng một chương trình phản ứng với nó.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Event-driven architecture.md",
+    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
     "📐 Dự án hỗ trợ người mới học Obsidian/📐 Dự án hỗ trợ người mới học Obsidian.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/Introduction.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/Lợi ích của việc tải vault về hơn là đọc trên web.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Dictionaries are useful for fast lookups by key, lists are useful for ordered sequences of items, and objects are useful for representing things with properties and behaviors.md",
+    "🌟 BẮT ĐẦU Ở ĐÂY.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Phân loại, phi tuyến/Tư duy phi tuyến.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng/Hoán dụ giúp ta vẽ được những thứ trừu tượng.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng/Siêu vật là những vật mà ta khi ta chạm vào những vị trí khác nhau của nó thì không thấy sự liên quan giữa chúng, làm ta nghĩ chúng là những vật khác nhau.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng/Đối tượng (hay vật) là cách ta mô phỏng thể giới.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng/Sử dụng nhiều ẩn dụ khác nhau sẽ cho ta thấy đối tượng tốt hơn.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Mọi thứ luôn nằm ở chỗ cuối cùng bạn tìm thấy nó.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Phân loại, phi tuyến",
+    "~syncthing~Sự kiện chỉ thông báo về sự thay đổi chứ không kỳ vọng một chương trình phản ứng với nó.md.tmp",
+    "~syncthing~Tair veef thì có gì hơn là đọc trên web.md.tmp",
+    "~syncthing~Giới thiệu vault.md.tmp",
+    "Giới thiệu vault.md",
+    "Thiết lập/test.py",
+    "test.py",
     "Trang chủ.canvas",
+    "📐 Dự án hỗ trợ người mới học Obsidian/6 Kế hoạch/Kế hoạch tổng.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/Động lực.md",
+    "📐 Dự án hỗ trợ người mới học Obsidian/Introduction.md",
     "📜 Tài nguyên/📜 Tài nguyên.md",
     "📜 Tài nguyên/💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
     "📐 Dự án hỗ trợ người mới học Obsidian/2 Thành quả mong muốn/3 người có 1 năm kinh nghiệm trong lĩnh vực phi lợi nhuận nhận phỏng vấn.md",
@@ -198,29 +258,9 @@
     "📐 Dự án hỗ trợ người mới học Obsidian/5 Giả thuyết/5 Giả thuyết.md",
     "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/Các khái niệm/Quản lý dự án.md",
     "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/Các khái niệm/Tự học.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/Theo dõi chỉ số/Theo dõi chỉ số.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/Lịch sử.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/So sánh với các dự án khác.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Người dùng bấm bao nhiêu lần cũng được, miễn là tự tin mình đang đi đúng hướng.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Việc mò mẫm vui, đỡ phải nghĩ và thường là hiệu quả hơn là đọc hướng dẫn cẩn thận.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Số lượng vấn đề tìm ra trong 1 buổi có thể nhiều hơn số lượng vấn đề có thể giải quyết trong 1 tháng.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Trải nghiệm trên web giống như trải nghiệm đến một nơi xa lạ.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Chúng ta không chọn phương án tối ưu khi chọn sai cũng chẳng hại gì.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Một trang web giúp người dùng tới ngay được nơi họ cần đến làm họ cảm thấy mình có thêm tính tự chủ.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Các tập quán chung giúp người dùng sử dụng web dễ dàng hơn, còn thôi thúc sáng tạo khỏi lối mòn đó là mãnh liệt.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Link gây xao nhãng.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm.md",
-    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tiền được lưu ở dạng vật chất, nhưng nhu cầu là một trạng thái của con người.md",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Lập luận",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Ẩn dụ",
-    "~syncthing~Các chương trình dùng electron ngốn ram.md.tmp",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Untitled",
-    "⚡Hiểu biết sâu/Ξ Nguồn",
-    "📜 Tài nguyên/Kinh tế",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái",
-    "Thiết lập/PDF/A SURVEY OF STAKEHOLDER VISUALIZATION APPROACHES.pdf",
-    "Thiết lập/PDF",
     "Thiết lập/Excalidraw/Drawing 2023-04-12 13.38.23.excalidraw.png",
     "Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
     "Untitled.canvas",

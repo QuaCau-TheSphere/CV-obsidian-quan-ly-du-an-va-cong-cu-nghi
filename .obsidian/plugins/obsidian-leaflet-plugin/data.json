@@ -241,11 +241,11 @@
   "long": -82.98333,
   "notePreview": false,
   "layerMarkers": true,
-  "previousVersion": "5.5.2",
+  "previousVersion": "5.5.4",
   "version": {
     "major": 5,
     "minor": 5,
-    "patch": 2
+    "patch": 4
   },
   "warnedAboutMapMarker": false,
   "copyOnClick": false,
