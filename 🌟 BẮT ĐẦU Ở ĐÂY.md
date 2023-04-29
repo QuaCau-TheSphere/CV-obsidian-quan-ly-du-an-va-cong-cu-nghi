@@ -1,7 +1,6 @@
 ---
-dg-publish: True
-dg-home: True
-share: [ True, true ]
+share: true
+title: Home
 ---
 %%%%%%%%%%%%
 ╭━┳━╭━╭━╮╮

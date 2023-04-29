@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 - [[Các nghiên cứu về sản phẩm]]
 - [[Các nghiên cứu về người dùng]]

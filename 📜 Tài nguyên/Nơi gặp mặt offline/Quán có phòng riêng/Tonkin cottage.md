@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Loại :: [[Quán có phòng riêng]], [[Quán không có phòng riêng]]
 Địa chỉ:: [91 Lý Tự Trọng, Bến Thành, Q1]

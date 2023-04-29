@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 #### Tải và cài đặt plugin Advanced Slide
 

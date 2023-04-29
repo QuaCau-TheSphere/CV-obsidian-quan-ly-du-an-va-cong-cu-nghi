@@ -1,5 +1,5 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 ![[Quý II – 2023]]

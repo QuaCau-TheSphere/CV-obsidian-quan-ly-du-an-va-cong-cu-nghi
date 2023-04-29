@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Nhập môn Obsidian
 Obsidian và Git cho quản lý dự án

@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Loại :: [[Phòng họp riêng]]
 Giờ đóng cửa :: 21h30, 50

@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Sự từ chối cơ thể và sự chiến thắng của não
 [[Lập trình không hoàn toàn chỉ dùng não, mà còn dùng cơ thể]]

@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Loại :: [[Quán có phòng riêng]]
 Địa chỉ:: [5 Cao Thắng, Q1]  

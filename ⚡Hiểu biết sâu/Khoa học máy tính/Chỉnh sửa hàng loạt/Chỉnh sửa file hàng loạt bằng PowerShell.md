@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 [The Complete Guide to PowerShell Punctuation - Simple Talk](https://www.red-gate.com/simple-talk/sysadmin/powershell/the-complete-guide-to-powershell-punctuation/)
 # Tạo nhiều folder
@@ -32,4 +32,9 @@ Get-ChildItem *.md -recurse | ForEach-Object { (Get-Content $_).Replace('Kết q
 # Xoá tất cả desktop.ini 
 ```PowerShell
 Get-ChildItem -Force -Recurse -File -Filter "desktop.ini" | Remove-Item -force
+```
+# [Maximum Path Length Limitation - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell#enable-long-paths-in-windows-10-version-1607-and-later "Maximum Path Length Limitation - Win32 apps | Microsoft Learn")
+```PowerShell
+New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" `
+-Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
 ```

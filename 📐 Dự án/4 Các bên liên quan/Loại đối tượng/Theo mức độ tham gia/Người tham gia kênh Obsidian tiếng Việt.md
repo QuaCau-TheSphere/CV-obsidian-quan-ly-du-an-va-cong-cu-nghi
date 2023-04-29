@@ -1,5 +1,5 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Người tham gia kênh Obsidian tiếng Việt

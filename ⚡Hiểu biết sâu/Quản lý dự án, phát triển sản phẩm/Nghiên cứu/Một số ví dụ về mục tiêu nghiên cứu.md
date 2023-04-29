@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 # Trước khi phát triển sản phẩm/tính năng
 

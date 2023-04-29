@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Quản lý tài sản
 [[📖 Nguyên tắc quản lý rủi ro]]

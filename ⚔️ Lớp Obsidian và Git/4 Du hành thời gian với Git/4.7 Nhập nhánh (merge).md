@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 %%
 Trạng thái :: Chưa hoàn thành

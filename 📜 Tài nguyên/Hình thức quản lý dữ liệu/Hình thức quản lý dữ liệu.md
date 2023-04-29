@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 [[Wiki cá nhân]]
 Wiki nhóm

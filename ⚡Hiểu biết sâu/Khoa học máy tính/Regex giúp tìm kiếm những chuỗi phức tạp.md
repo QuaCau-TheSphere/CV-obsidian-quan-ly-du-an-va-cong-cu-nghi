@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 # Tạo query DQL từ danh sách các key
 Do that in several steps. 

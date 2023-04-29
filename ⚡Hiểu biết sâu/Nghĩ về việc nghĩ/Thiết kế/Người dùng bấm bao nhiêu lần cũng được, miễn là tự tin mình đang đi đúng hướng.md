@@ -1,5 +1,5 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Nguồn :: [[Đừng bắt tôi nghĩ]]

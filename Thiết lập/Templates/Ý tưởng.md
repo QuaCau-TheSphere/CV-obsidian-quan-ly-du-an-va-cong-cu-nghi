@@ -1,5 +1,5 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Nguồn :: [[ABG Open Special 2023]]

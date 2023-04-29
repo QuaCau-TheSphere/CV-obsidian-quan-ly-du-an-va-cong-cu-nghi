@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 # Chỉnh sửa ghi chú
 Ian Hayes

@@ -1,5 +1,5 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 [[Phương thức chỉnh sửa đối tượng]]

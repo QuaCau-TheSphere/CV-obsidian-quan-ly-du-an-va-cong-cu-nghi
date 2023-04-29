@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 ![](http://wiki.doing-projects.org/images/thumb/6/6a/Bannertop3.png/380px-Bannertop3.png) 
 Welcome to our wiki for doing projects - an online resource for managing projects, programs, and portfolios.

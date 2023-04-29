@@ -1,5 +1,5 @@
 ---
-share: [ True, true ]
+share: true
 ---
 Các hiệp định thương mại đầu tiên VN ký là 1995
 

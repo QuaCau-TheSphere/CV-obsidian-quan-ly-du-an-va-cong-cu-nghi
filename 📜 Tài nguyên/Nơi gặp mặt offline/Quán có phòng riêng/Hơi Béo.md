@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Địa chỉ:: 261/16 Trần Hưng Đạo
 Ưu đãi giá:: 

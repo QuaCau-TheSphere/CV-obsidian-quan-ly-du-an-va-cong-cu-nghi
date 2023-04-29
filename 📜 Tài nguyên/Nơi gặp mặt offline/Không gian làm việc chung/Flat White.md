@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Địa chỉ:: [274 Lý Tự Trọng, Q1]
 Giá nước :: ![](https://lh4.googleusercontent.com/xUDBTawkVYM8j7hR1Ej_0i30tXejh7iYGF_uQ5UGPQGquG5yJfkTCgoCiKnp9TFrtky4LkrQAzWv_UCKJE4_ZE7i6DejN0ciyoU5q2Id72hziUOFvbZ8ARbdLIF2TrdUUZ_V3J-5C_f8lBdmEU7Ui6ahGPdP-bUdxtAJtUk_9NCsIRY9EAAuNR_mnLsYVpPTETGtdw)

@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Khi cầm vợt đánh cầu lông mình chỉ vung tay và không cảm giác là cái vợt là thứ rời ra khỏi cơ thể của mình.
 

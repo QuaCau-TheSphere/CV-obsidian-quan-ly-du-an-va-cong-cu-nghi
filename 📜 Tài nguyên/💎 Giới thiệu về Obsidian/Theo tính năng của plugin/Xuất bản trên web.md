@@ -1,5 +1,5 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 <iframe width=100% height=500px src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQmtvyiHSchIyyTXIeM6eNPtGE1HKmlbiyBoHlpuMHYHf6-0pR3HkSPHNCA0x677UfhjZ-CePewLHkO/pubhtml?widget=true&amp;headers=false"></iframe>

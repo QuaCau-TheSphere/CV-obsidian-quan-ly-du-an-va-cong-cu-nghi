@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Có 2 chế độ chỉnh sửa nội dung:
 - Source mode:

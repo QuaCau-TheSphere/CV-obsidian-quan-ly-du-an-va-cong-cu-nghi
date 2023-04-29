@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 1.  Knowledge lives in many tools (Notion, Miro, Canny, Slack, Jira)
 2.  Discussions out of context

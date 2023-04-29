@@ -1,7 +1,7 @@
 ---
 alias: Khi nào thì có thể nói là thành công
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Nhu cầu :: các nhóm liên thông dữ liệu với nhau, Quả Cầu có thêm người quan tâm
 

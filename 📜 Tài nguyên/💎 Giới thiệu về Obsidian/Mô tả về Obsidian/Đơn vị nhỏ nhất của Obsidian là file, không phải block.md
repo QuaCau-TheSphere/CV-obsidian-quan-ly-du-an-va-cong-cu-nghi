@@ -1,5 +1,5 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 [[Giao diện block cho phép người dùng linh hoạt hơn]]

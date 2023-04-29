@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Giới hạn của bản miễn phí:: Tối đa 25 người
 Giới hạn về mặt công nghệ:: 

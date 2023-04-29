@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 [[Cấu trúc phân cấp thường cứng nhắc và nhân tạo]]
 [[Fibery]]

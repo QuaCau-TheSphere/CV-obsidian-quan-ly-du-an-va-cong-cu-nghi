@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 # B1: Tải Syncthing
 Tệp cài đặt Syncthing cho [Windows](https://github.com/canton7/SyncTrayzor/releases/download/v1.1.29/SyncTrayzorSetup-x64.exe), [Mac](https://github.com/syncthing/syncthing-macos/releases/download/v1.21.0-1/Syncthing-1.21.0-1.dmg). Cả hai đều có app trên Android và iOS. 

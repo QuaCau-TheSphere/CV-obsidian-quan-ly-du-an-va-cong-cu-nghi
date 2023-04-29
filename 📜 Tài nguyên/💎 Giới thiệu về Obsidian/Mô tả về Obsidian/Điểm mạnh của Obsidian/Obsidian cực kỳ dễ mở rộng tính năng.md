@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Lý do :: [[Obsidian lưu dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản]]
 

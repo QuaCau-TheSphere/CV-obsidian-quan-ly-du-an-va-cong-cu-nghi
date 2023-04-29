@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 [Examples of ImageMagick Usage](https://imagemagick.org/Usage/ "Examples of ImageMagick Usage")
 

@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 ![](https://www.researchgate.net/profile/Shahrinaz-Ismail-2/publication/261459678/figure/fig2/AS:296803514765312@1447774880081/figure-fig2.png)
 

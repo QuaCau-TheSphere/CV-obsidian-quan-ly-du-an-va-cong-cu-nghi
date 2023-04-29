@@ -1,5 +1,5 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Thành phẩm :: [[Demo tại nhóm phát triển sản phẩm]]

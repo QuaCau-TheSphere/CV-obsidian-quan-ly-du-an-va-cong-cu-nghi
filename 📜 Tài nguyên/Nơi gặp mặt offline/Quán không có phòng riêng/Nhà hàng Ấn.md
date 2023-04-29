@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Không bị ồn từ bên ngoài :: 5, 5
 Nhà vệ sinh :: ✔

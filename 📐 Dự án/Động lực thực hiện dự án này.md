@@ -1,7 +1,7 @@
 ---
 Alias: Obsidian hay hơn các công cụ khác ở điểm nào
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 <sub>English below</sub>
 

@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 ```dataview
 table split(file.folder,"/")[2] as "Cách phân loại",

@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Wifi :: ✔, ✔
 Địa chỉ:: [85/38 Trần Đình Xu, Q1]

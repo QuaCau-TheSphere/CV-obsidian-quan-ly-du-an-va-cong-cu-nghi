@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 mình tìm thấy trang này hay. Người viết là giảng viên và có vẻ chú trọng đến sự bao quát hơn là giới thiệu kỹ thuật nói chung. Mình đọc bài giới thiệu về .NET thấy hiểu ra nhiều thứ.
 > Hiện nay, số lượng tài liệu lập trình C# rất nhiều. Mỗi tài liệu có hướng tiếp cận riêng. Tuy nhiên, các tài liệu tốt nhất đều viết bằng tiếng Anh. Trên mạng Internet bạn cũng có thể dễ dàng tìm thấy rất nhiều nội dung hướng dẫn học lập trình C# tiếng Việt. Tuy nhiên, chúng thường là những blog post hoặc series bài khá rời rạc. Việc tự học theo các website hoặc blog như vậy khá khó khăn và thiếu bài bản.

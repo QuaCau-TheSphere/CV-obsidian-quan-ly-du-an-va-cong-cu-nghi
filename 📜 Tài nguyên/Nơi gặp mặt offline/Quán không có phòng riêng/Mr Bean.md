@@ -1,6 +1,6 @@
 ---
 dg-publish: True
-share: [ True, true ]
+share: true
 ---
 Địa chỉ:: [276 Cô Bắc, Q1]
 Giá:: 30k-50k

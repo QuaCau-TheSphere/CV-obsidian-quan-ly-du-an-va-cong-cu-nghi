@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái/Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0.md",
+                "file": "asd.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "cc75ee6cd70d4dca",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái/Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0.md",
+                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái/Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0.md",
+                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái/Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0.md"
+                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md"
               }
             }
           }
@@ -169,12 +183,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "515d2129120be1ff",
+  "active": "cc75ee6cd70d4dca",
   "lastOpenFiles": [
+    "```dataviewList aliaswhere alias```.md",
+    "asd.md",
+    "📐 Dự án/Tài liệu/Tại sao không làm kiểu wiki.md",
+    "📐 Dự án/Tài liệu/Lợi ích của việc tải vault về hơn là đọc trên web.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+    "📐 Dự án/Tài liệu/So sánh với các dự án khác.md",
+    "📐 Dự án/Tài liệu/Tại sao phải tải về.md",
+    "🌟 BẮT ĐẦU Ở ĐÂY.md",
+    "Giới thiệu vault.md",
+    "📐 Dự án/4 Các bên liên quan/Loại đối tượng/Theo mức độ tham gia/Người đóng góp nội dung.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái/Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0.md",
+    "📐 Dự án/6 Kế hoạch/Kế hoạch tổng.md",
+    "TeX.txt",
+    "📐 Dự án/5 Giả thuyết/Việc phải nói chuyện nhu cầu của nhau là mệt mỏi.md",
     "Thiết lập/test.py~",
     "📐 Dự án/Động lực thực hiện dự án này.md",
-    "Giới thiệu vault.md",
-    "🌟 BẮT ĐẦU Ở ĐÂY.md",
     "📐 Dự án/📐 Dự án.md",
     "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
     "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động.md",
@@ -187,17 +213,7 @@
     "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Nền kinh tế hậu khan hiếm.md",
     "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Nếu bạn thấy được ý nghĩa trong công việc bạn làm thì bạn sẽ không lo lắng về người dùng chùa.md",
     "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Chi phí chuyển đổi sang năng lượng xanh không đơn giản.md",
-    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Cái được đem ra toàn cầu hoá là luật.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Sách kinh tế.md",
-    "README.md",
-    "Thiết lập/Templates/Bài học.md",
-    "Thiết lập/Templates/Phiếu phỏng vấn.md",
-    "Thiết lập/Templates/Thành phẩm.md",
-    "Thiết lập/Templates/Thành quả.md",
     "Thiết lập/Ảnh/Open another vault.png",
-    "📐 Dự án/2 Thành quả mong muốn/Người dùng liên thông dữ liệu/40% người tham gia biết dùng Git.md",
-    "Thiết lập/Templates/Ý tưởng.md",
-    "Thiết lập/Templates/Vấn đề.md",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Phân loại, phi tuyến",
     "~syncthing~Sự kiện chỉ thông báo về sự thay đổi chứ không kỳ vọng một chương trình phản ứng với nó.md.tmp",
@@ -207,8 +223,6 @@
     "test.py",
     "Trang chủ.canvas",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Lập luận",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Ẩn dụ",
     "Thiết lập/Excalidraw/Drawing 2023-04-12 13.38.23.excalidraw.png",
     "Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
     "Untitled.canvas"
