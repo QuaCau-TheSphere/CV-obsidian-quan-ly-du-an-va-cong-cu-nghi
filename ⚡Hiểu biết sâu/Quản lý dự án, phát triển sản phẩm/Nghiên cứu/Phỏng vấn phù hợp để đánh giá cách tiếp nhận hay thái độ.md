@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 Ví dụ nhiều người hay chê một ai đó là hát không hay, nhưng vẫn theo dõi và xem hết các MV của người đó mỗi khi ra mắt.
 
 Một mục tiêu nghiên cứu ví dụ là `Kiểm tra cách khách hàng tiếp nhận ý tưởng về sản phẩm`. Mục tiêu này dành cho sản phẩm chưa ra đời, hoặc ít nhất là khách hàng chưa biết tới. Các câu hỏi nghiên cứu có thể là:

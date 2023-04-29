@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: true
+---
 [[Não con người thay đổi rất chậm]]
 Vì trong khi công nghệ thường thay đổi nhanh chóng, mọi người thay đổi rất chậm
 Hoặc như Jakob Nielsen đã nói một cách khéo léo:

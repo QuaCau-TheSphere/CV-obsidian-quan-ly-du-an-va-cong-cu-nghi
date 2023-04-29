@@ -8,72 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e3c62082d66ddfef",
+            "id": "515d2129120be1ff",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Giới thiệu vault.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0a3d9c0efacc7fe1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "a4c803e58ee5056a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Môi trường nghĩ, nhận thức tăng cường.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "da8e86296f3a1dbf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "🌟 BẮT ĐẦU Ở ĐÂY.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c6d148cc7555d077",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Máy không mệt khi phát sự kiện cũng như lắng nghe sự kiện.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái/Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,8 +57,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "\"<% tp.file.cursor() %>\"",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -139,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Máy không mệt khi phát sự kiện cũng như lắng nghe sự kiện.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái/Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Máy không mệt khi phát sự kiện cũng như lắng nghe sự kiện.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái/Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Máy không mệt khi phát sự kiện cũng như lắng nghe sự kiện.md"
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái/Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0.md"
               }
             }
           }
@@ -210,60 +157,60 @@
     "hiddenItems": {
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "open-vscode:VSCode": false,
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "digitalgarden:Digital Garden Publication Center": false,
       "daily-notes:Open today's daily note": true,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "homepage:Open homepage": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "digitalgarden:Digital Garden Publication Center": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "c6d148cc7555d077",
+  "active": "515d2129120be1ff",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Real-time collaboration isn't necessary in most cases, but asynchronous collaboration.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Máy không mệt khi phát sự kiện cũng như lắng nghe sự kiện.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Sự kiện chỉ thông báo về sự thay đổi chứ không kỳ vọng một chương trình phản ứng với nó.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Event-driven architecture.md",
-    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/📐 Dự án hỗ trợ người mới học Obsidian.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/Lợi ích của việc tải vault về hơn là đọc trên web.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Dictionaries are useful for fast lookups by key, lists are useful for ordered sequences of items, and objects are useful for representing things with properties and behaviors.md",
+    "Thiết lập/test.py~",
+    "📐 Dự án/Động lực thực hiện dự án này.md",
+    "Giới thiệu vault.md",
     "🌟 BẮT ĐẦU Ở ĐÂY.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Phân loại, phi tuyến/Tư duy phi tuyến.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng/Hoán dụ giúp ta vẽ được những thứ trừu tượng.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng/Siêu vật là những vật mà ta khi ta chạm vào những vị trí khác nhau của nó thì không thấy sự liên quan giữa chúng, làm ta nghĩ chúng là những vật khác nhau.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng/Đối tượng (hay vật) là cách ta mô phỏng thể giới.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng/Sử dụng nhiều ẩn dụ khác nhau sẽ cho ta thấy đối tượng tốt hơn.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Mọi thứ luôn nằm ở chỗ cuối cùng bạn tìm thấy nó.md",
+    "📐 Dự án/📐 Dự án.md",
+    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
+    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động.md",
+    "Thiết lập/Gõ tắt.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Lập luận/Càng mất nhiều ta càng học nhiều.md",
+    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Tiền làm người sở hữu tưởng rằng mình độc lập.md",
+    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Tiền được lưu ở dạng vật chất, nhưng nhu cầu là một trạng thái của con người.md",
+    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Năm 1990 UNDP gắn phát triển vào phát triển con người.md",
+    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Nền kinh tế chăm sóc.md",
+    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Nền kinh tế hậu khan hiếm.md",
+    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Nếu bạn thấy được ý nghĩa trong công việc bạn làm thì bạn sẽ không lo lắng về người dùng chùa.md",
+    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Chi phí chuyển đổi sang năng lượng xanh không đơn giản.md",
+    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Cái được đem ra toàn cầu hoá là luật.md",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Sách kinh tế.md",
+    "README.md",
+    "Thiết lập/Templates/Bài học.md",
+    "Thiết lập/Templates/Phiếu phỏng vấn.md",
+    "Thiết lập/Templates/Thành phẩm.md",
+    "Thiết lập/Templates/Thành quả.md",
+    "Thiết lập/Ảnh/Open another vault.png",
+    "📐 Dự án/2 Thành quả mong muốn/Người dùng liên thông dữ liệu/40% người tham gia biết dùng Git.md",
+    "Thiết lập/Templates/Ý tưởng.md",
+    "Thiết lập/Templates/Vấn đề.md",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Phân loại, phi tuyến",
     "~syncthing~Sự kiện chỉ thông báo về sự thay đổi chứ không kỳ vọng một chương trình phản ứng với nó.md.tmp",
     "~syncthing~Tair veef thì có gì hơn là đọc trên web.md.tmp",
     "~syncthing~Giới thiệu vault.md.tmp",
-    "Giới thiệu vault.md",
     "Thiết lập/test.py",
     "test.py",
     "Trang chủ.canvas",
-    "📐 Dự án hỗ trợ người mới học Obsidian/6 Kế hoạch/Kế hoạch tổng.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/Động lực.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/Introduction.md",
-    "📜 Tài nguyên/📜 Tài nguyên.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/2 Thành quả mong muốn/3 người có 1 năm kinh nghiệm trong lĩnh vực phi lợi nhuận nhận phỏng vấn.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/Theo tính năng của plugin.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/5 Giả thuyết/5 Giả thuyết.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/Các khái niệm/Quản lý dự án.md",
-    "📐 Dự án hỗ trợ người mới học Obsidian/Tài liệu/Các khái niệm/Tự học.md",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Lập luận",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Ẩn dụ",
     "Thiết lập/Excalidraw/Drawing 2023-04-12 13.38.23.excalidraw.png",
     "Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
-    "Untitled.canvas",
-    "Thiết lập/Ảnh/Open another vault.png"
+    "Untitled.canvas"
   ]
 }

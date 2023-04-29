@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: true
+---
 Các yếu tố tạo ra kinh tế mới
 - Biến đổi công nghệ
 - Biến đổi khí hậu

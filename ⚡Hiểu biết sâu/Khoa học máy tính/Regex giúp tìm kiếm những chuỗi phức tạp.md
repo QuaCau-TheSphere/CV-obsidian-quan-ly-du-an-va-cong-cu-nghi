@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 # Tạo query DQL từ danh sách các key
 Do that in several steps. 
 1) `^.*$` ⇒ `$& as "$&"`

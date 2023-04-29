@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 [The Complete Guide to PowerShell Punctuation - Simple Talk](https://www.red-gate.com/simple-talk/sysadmin/powershell/the-complete-guide-to-powershell-punctuation/)
 # Tạo nhiều folder
 ```PowerShell
@@ -21,6 +25,7 @@ Get-ChildItem *.md -recurse | Where-Object {$_.name -cmatch '^2[A-Z]'}  | Rename
 ```
 - `-cmatch`: match có case sensitive
 # Tìm và thay chuỗi hàng loạt
+VScode nhiều khi không tìm hết được do tên file dài quá
 ```PowerShell
 Get-ChildItem *.md -recurse | ForEach-Object { (Get-Content $_).Replace('Kết quả cần có::','Thành quả cần có::') | Set-Content $_ } 
 ```

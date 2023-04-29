@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 # [Đồ thị mạng lưới 100+ niềm tin](https://github.com/QuaCau-TheSphere/belief-network) 
 
 # [Linking Your Thinking](https://notes.linkingyourthinking.com) 

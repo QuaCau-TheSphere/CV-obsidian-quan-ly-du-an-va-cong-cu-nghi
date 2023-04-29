@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 [[Obsidian không gọi vốn để theo đúng định hướng của mình]] 
 
 
@@ -15,4 +19,3 @@ action https://discord.gg/obsidianmd
 color blue
 ```
 ^button-n8na
-

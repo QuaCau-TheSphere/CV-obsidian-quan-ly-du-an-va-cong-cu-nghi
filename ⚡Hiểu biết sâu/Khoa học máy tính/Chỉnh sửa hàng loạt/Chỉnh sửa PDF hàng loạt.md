@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 # Tách, nhập
 ```PowerShell
 cpdf -split '.\Tổng hợp scan.pdf' -o page%%%.pdf

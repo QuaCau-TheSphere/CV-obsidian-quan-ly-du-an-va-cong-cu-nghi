@@ -1,1 +1,5 @@
-# [[<% tp.file.cursor() %>]]➡️
+---
+dg-publish: True
+share: [ True, true ]
+---
+# [[]]➡️

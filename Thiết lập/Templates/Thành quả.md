@@ -1,9 +1,12 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 %%
 #file/thành-quả
 %%
-Trạng thái:: <% (await tp.system.suggester((item) => item, Object.keys(app.metadataCache.getTags()).filter((key) => key.includes('tt')).filter((key) => key.includes('/')))) %>
-Độ cấp thiết:: <% (await tp.system.suggester((item) => item, Object.keys(app.metadataCache.getTags()).filter((key) => key.includes('đct')))) %>
-Người chơi:: 
+Trạng thái :: <% (await tp.system.suggester((item) => item, Object.keys(app.metadataCache.getTags()).filter((key) => key.includes('tt')).filter((key) => key.includes('/')))) %>
+Độ cấp thiết :: <% (await tp.system.suggester((item) => item, Object.keys(app.metadataCache.getTags()).filter((key) => key.includes('đct')))) %>
 
 Phục vụ cho thành quả:
 ```dataview
@@ -20,4 +23,4 @@ where contains(giải-pháp-gợi-ý,[[]])
 
 Thành quả cần có:: 
 
-Thành phẩm:: 
+Thành phẩm ::

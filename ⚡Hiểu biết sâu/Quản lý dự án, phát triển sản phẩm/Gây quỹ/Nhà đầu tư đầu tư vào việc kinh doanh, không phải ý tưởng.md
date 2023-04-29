@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 - You must show them scalable and sustainable oppportunities
 - Demonstrate awareness of comprehensive business management
 - You must create confidence that you  understand boring business operations

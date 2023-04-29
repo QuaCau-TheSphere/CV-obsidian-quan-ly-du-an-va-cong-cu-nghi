@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 1.  Knowledge lives in many tools (Notion, Miro, Canny, Slack, Jira)
 2.  Discussions out of context
 3.  Customers feedback handling process is poor
@@ -6,4 +10,4 @@
 
 [Fibery End Game (product company example)](https://fibery.io/blog/fibery-end-game-product-company-example/)
 
-![](https://fibery.io/blog/knowledege-architecture-cheatsheet.png) 
+![](https://fibery.io/blog/knowledege-architecture-cheatsheet.png)

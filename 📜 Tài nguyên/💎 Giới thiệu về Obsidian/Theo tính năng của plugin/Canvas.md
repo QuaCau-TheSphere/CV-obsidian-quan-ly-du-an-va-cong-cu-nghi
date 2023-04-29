@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 # Chỉnh sửa ghi chú
 Ian Hayes
 ![](https://obsidian.md/images/canvas/canvas-ian-hayes.png) 
@@ -12,4 +16,4 @@ Sarai Rosario
 
 # Kế hoạch xây dựng
 Çağlar Ongan
-![](https://obsidian.md/images/canvas/canvas-caglar-ongan.png) 
+![](https://obsidian.md/images/canvas/canvas-caglar-ongan.png)

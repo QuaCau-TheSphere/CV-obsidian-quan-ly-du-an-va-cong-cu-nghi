@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: true
+---
 There are two reasons for that behavior:
 
 1.  Most note-taking/wiki software doesn’t have good enough tools to create, navigate, and manage connections.

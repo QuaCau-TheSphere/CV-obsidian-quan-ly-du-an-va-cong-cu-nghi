@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 Có 2 chế độ chỉnh sửa nội dung:
 - Source mode:
 - Live preview mode:

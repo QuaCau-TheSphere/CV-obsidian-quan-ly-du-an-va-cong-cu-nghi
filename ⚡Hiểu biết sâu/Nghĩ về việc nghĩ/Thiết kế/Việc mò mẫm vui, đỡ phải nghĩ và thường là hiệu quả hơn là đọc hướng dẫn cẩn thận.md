@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: true
+---
 [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
 [[Chúng ta không chọn phương án tối ưu khi chọn sai cũng chẳng hại gì]] 
 [[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]] 

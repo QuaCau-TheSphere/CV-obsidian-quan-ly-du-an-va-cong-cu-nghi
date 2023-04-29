@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: true
+---
 Việc trả tiền có thể mời những người không thích mình nhận phỏng vấn. 
 
 

@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 # Mô tả về Obsidian
 ```dataview
 List 

@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 %%
 #file/thành-phẩm
 %%
@@ -8,7 +12,7 @@ LIST
 FROM #file/thành-quả 
 WHERE contains(thành-phẩm,[[]])
 ```
-Người chơi::
+Người chơi :: 
 
 Thành quả cần có::
 Thành quả hỗ trợ::

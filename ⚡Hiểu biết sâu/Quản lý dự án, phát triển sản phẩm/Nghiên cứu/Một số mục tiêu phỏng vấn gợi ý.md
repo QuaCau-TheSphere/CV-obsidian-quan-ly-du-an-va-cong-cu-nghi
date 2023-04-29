@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 # Trước khi phát triển sản phẩm/tính năng
 
 -   Xác định xem người dùng có đang gặp vấn đề mà sản phẩm muốn giải quyết hay không và mức độ nghiêm trọng của vấn đề. (hoặc nhu cầu)

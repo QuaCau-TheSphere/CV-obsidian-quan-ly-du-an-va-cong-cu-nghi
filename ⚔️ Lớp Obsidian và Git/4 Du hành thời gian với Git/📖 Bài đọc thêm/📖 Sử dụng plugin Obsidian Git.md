@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 # Tạo token trên GitHub
 - Vào Settings  
 ![](https://lh4.googleusercontent.com/jfSIEWMiq1XC4ZctO8UZerr6UjfJuewV3XSAT43AnM_3NNplbITWkGFmVNKN-K3j4gpGAarePpCCWxSmxwiIm_ZpF0YkcgmoA1uEiXxqYb_PyxLBVmYrIszFwQkTNn6VgjVINobqE_x0sG0qB0IDMU_cxd3rIwH_FcEYzcRAbthQcyRdGiLUO1W67w)

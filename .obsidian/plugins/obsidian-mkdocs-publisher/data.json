@@ -1,0 +1,76 @@
+{
+  "github": {
+    "user": "ooker777",
+    "repo": "mkdoc-tft",
+    "branch": "main",
+    "token": "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",
+    "automaticallyMergePR": true,
+    "api": {
+      "tiersForApi": "Github Free/Pro/Team (default)",
+      "hostname": ""
+    },
+    "worflow": {
+      "customCommitMsg": "[PUBLISHER] Merge",
+      "workflowName": ""
+    }
+  },
+  "upload": {
+    "behavior": "obsidian",
+    "defaultName": "docs",
+    "rootFolder": "",
+    "yamlFolderKey": "",
+    "frontmatterTitle": {
+      "enable": false,
+      "key": "title"
+    },
+    "replaceTitle": [],
+    "replacePath": [],
+    "autoclean": {
+      "enable": false,
+      "excluded": []
+    },
+    "folderNote": {
+      "enable": true,
+      "rename": "index.md"
+    },
+    "metadataExtractorPath": ""
+  },
+  "conversion": {
+    "hardbreak": true,
+    "dataview": true,
+    "censorText": [],
+    "tags": {
+      "inline": false,
+      "exclude": [],
+      "fields": []
+    },
+    "links": {
+      "internal": false,
+      "unshared": false,
+      "wiki": false,
+      "slugify": false
+    }
+  },
+  "embed": {
+    "attachments": true,
+    "keySendFile": [],
+    "notes": false,
+    "folder": ""
+  },
+  "plugin": {
+    "shareKey": "share",
+    "fileMenu": true,
+    "editorMenu": true,
+    "excludedFolder": [
+      "Thiết lập"
+    ],
+    "copyLink": {
+      "enable": false,
+      "links": "",
+      "removePart": [],
+      "addCmd": false
+    },
+    "noticeError": false,
+    "displayModalRepoEditing": false
+  }
+}

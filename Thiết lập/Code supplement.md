@@ -1,3 +1,6 @@
+---
+share: true
+---
 # Sửa gần đây
 ```dataview
 List dateformat(file.mtime, "d MMM") 

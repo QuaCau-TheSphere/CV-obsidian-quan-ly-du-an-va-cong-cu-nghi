@@ -2,5 +2,9 @@ from pathlib import Path
 from pyomd import Notes
 from pyomd.metadata import MetadataType
 
-path_dir = Path('D:\QC supplements\Vaults\C Nhóm hỗ trợ người tự học\Obsidian và Git cho quản lý dự án')
-notes = Notes(path_dir)
+path_dir = Path('..')
+allnotes = Notes(path_dir)
+
+allnotes.metadata.add(k="share", l="true", meta_type=MetadataType.FRONTMATTER)
+allnotes.update_content()
+allnotes.write()

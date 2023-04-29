@@ -1,2 +1,0 @@
-Số bài hoàn thành
-

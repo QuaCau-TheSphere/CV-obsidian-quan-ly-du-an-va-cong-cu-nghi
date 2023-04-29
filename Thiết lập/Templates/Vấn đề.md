@@ -1,4 +1,8 @@
-Lý do:: <% tp.file.cursor() %>
+---
+dg-publish: True
+share: [ True, true ]
+---
+Lý do :: 
 
 Hệ quả của vấn đề này:
 ```dataview

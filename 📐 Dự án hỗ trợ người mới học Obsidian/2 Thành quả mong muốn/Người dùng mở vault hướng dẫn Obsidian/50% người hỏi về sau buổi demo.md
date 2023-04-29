@@ -1,1 +1,0 @@
-Thành phẩm:: [[Demo tại nhóm phát triển sản phẩm]]

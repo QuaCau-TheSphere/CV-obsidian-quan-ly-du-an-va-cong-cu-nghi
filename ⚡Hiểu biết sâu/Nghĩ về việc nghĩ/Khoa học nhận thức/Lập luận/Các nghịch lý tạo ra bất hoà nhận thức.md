@@ -1,2 +1,6 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 [[Bất hoà nhận thức giúp chúng ta hiểu sâu sắc hơn]] 
-[[Truyện cười thể hiện những nghịch lý]] 
+[[Truyện cười thể hiện những nghịch lý]]

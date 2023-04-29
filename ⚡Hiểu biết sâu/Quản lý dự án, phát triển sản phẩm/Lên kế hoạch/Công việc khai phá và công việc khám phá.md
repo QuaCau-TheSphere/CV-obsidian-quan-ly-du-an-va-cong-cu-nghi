@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 | Khía cạnh                                                           | Công việc khai phá (exploration)                                                                                                                              | Công việc khai thác (exploitation)                                                                                                                                                                                                   |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Dạng bài toán                                                       | Không dễ để mô tả nó một cách rõ ràng. Thường là một công việc vẫn còn đang làm lần đầu và chưa hoàn thành. Sự thay đổi trong quá trình làm gần như chắc chắn | Chỉ cần nói một lần là ai cũng hiểu. Là một danh sách/quy trình các tác vụ cụ thể (task), bước thực hiện (step) hoặc đơn vị công việc (unit) đã được khám phá đầy đủ và chỉ cần thực hiện. Sự thay đổi trong quá trình làm là rất ít |
@@ -11,4 +15,4 @@
 
 Trước đây có chia ra công việc cấp ban, công việc cấp tiểu ban, công việc cấp cá nhân, và  công việc thành phần, nhưng giờ bỏ.
 
-[^1]: Ví dụ: công việc khai phá A: "Đánh giá mức độ hiểu biết của thành viên với tổ chức" là hệ quả trực tiếp của Thành quả cần có M: "Các thành viên hiểu đúng tổ chức muốn đi đến đâu". Nó bao gồm 2 công việc khai phá khác: A1: "Lập bảng khảo sát TNV định kỳ" và A2: "Đánh giá sự hiệu quả của kế hoạch hành động". Nếu để A1 và A2 đính trực tiếp vào M thì cũng được, nhưng sẽ làm cây Thành quả cần có đồ sộ không cần thiết. Dù sao thì nó cũng không có cảm giác đồ sộ bằng việc (khúc này quên ý) 
+[^1]: Ví dụ: công việc khai phá A: "Đánh giá mức độ hiểu biết của thành viên với tổ chức" là hệ quả trực tiếp của Thành quả cần có M: "Các thành viên hiểu đúng tổ chức muốn đi đến đâu". Nó bao gồm 2 công việc khai phá khác: A1: "Lập bảng khảo sát TNV định kỳ" và A2: "Đánh giá sự hiệu quả của kế hoạch hành động". Nếu để A1 và A2 đính trực tiếp vào M thì cũng được, nhưng sẽ làm cây Thành quả cần có đồ sộ không cần thiết. Dù sao thì nó cũng không có cảm giác đồ sộ bằng việc (khúc này quên ý)

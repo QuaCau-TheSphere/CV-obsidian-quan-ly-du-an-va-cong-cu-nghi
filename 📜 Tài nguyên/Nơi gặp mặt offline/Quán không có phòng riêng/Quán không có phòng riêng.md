@@ -1,4 +1,7 @@
-Wifi:: ✔
-Nhà vệ sinh:: ✔
-Được nói to:: tuỳ
-Không bị ồn từ bên ngoài:: ❌
+---
+dg-publish: True
+share: [ True, true ]
+---
+Không bị ồn từ bên ngoài :: ❌, ❌
+Nhà vệ sinh :: ✔
+Được nói to :: tuỳ

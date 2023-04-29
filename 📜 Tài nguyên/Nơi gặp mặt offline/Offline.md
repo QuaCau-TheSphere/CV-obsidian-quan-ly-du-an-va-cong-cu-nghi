@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 ```dataview
 Table giá-rẻ, 
 	wifi, 

@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 | Tính năng -><br>Tên gọi      | Thành viên được truy cập       | Ngành học sử dụng  | 
 | ---------------------------- | ------------------------------ | ------------------ |
 | Mạng kết nối nhu cầu         | Người lạ                       | Khoa học phức hợp  |

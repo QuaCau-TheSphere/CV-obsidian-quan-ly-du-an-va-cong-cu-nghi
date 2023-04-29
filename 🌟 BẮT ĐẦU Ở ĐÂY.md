@@ -1,6 +1,7 @@
 ---
-dg-publish: true
-dg-home: true
+dg-publish: True
+dg-home: True
+share: [ True, true ]
 ---
 %%%%%%%%%%%%
 ╭━┳━╭━╭━╮╮
@@ -29,7 +30,12 @@ dg-home: true
 | Hmm... Tôi thấy hướng dẫn ghi là nên làm cái A này. Tại sao không phải là cái B kia?          | Why          | [[⚡Hiểu biết sâu]]           |
 
 
-[[Giới thiệu vault]] | [[Kế hoạch tổng]] | [Phản hồi](https://quảcầu.cc/khao-sat-nguoi-dung-vault-nhap-mon-obsidian/?utm_source=Vault+%C2%BB+Nh%E1%BA%ADp+m%C3%B4n+Obsidian+%C2%BB+Trang+ch%E1%BB%A7&utm_medium=Giai+%C4%91o%E1%BA%A1n+2) | [Discord](https://discord.gg/ynvxH2K7Ct) 
+| dsfsdf |     |
+| ------ | --- |
+| Sdfsdf |     |
+|        |     |
+
+[[Giới thiệu vault|Nơi này là nơi nào?]] | [Phản hồi](https://quảcầu.cc/khao-sat-nguoi-dung-vault-nhap-mon-obsidian/?utm_source=Vault+%C2%BB+Nh%E1%BA%ADp+m%C3%B4n+Obsidian+%C2%BB+Trang+ch%E1%BB%A7&utm_medium=Giai+%C4%91o%E1%BA%A1n+2) | [Discord](https://discord.gg/ynvxH2K7Ct) 
 
 <a href="https://opencollective.com/nhom-tu-hoc/donate" target="_blank">
   <img src="https://opencollective.com/webpack/donate/button@2x.png?color=blue" width=300 />

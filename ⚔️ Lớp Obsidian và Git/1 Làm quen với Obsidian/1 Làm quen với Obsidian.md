@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 Các cấp độ:
 ```dataview
 list from "⚔️ Lớp học/1 Làm quen với Obsidian" 

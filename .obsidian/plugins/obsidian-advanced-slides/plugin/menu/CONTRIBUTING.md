@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 ## Contributing
 
 ### Bug Reports

@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 [Examples of ImageMagick Usage](https://imagemagick.org/Usage/ "Examples of ImageMagick Usage")
 
 # Thêm logo hàng loạt

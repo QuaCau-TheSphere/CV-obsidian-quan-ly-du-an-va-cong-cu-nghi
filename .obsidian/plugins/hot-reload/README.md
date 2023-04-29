@@ -1,3 +1,7 @@
+---
+dg-publish: True
+share: [ True, true ]
+---
 # Hot-Reload Plugin for Obsidian.md Plugins
 
 If you develop plugins for [Obsidian.md](https://Obsidian.md/), you may be familiar with the frequent need to either restart/reload Obsidian, or else go into its plugin settings to disable and re-enable the plugin you're working on.
