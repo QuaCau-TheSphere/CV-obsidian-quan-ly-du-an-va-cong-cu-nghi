@@ -1,0 +1,10 @@
+{
+  "findText": "(.*)",
+  "replaceText": "<p>$1</p>",
+  "useRegEx": true,
+  "selOnly": true,
+  "caseInsensitive": false,
+  "processLineBreak": false,
+  "processTab": false,
+  "prefillFind": false
+}

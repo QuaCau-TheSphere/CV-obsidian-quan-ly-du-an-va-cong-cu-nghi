@@ -1,3 +1,6 @@
+---
+share: True
+---
 In the 1920s, the German psychologist Kurt Lewin was dining in a restaurant and noticed something remarkable. As one version of the story goes, Lewin realized that the waiters were able to meticulously recall specific food orders—until they’d served the food and the customer was gone. After that, they couldn’t remember any of those details at all. Lewin’s student, a Soviet psychologist named Bluma Zeigarnik, became fascinated by this phenomenon. She started working on it in her lab. In a now [classic set of experiments](https://codeblab.com/wp-content/uploads/2009/12/On-Finished-and-Unfinished-Tasks.pdf), she gave volunteers a series of tasks (assemble a cardboard box, make a figure out of clay, do some arithmetic). Then she’d interrupt them, checking to see what the volunteers actually remembered.
 
 Zeigarnik found a quirk of the human mind: When a task is unfinished, we can’t seem to stop thinking about it. We perseverate. Psychologists still argue about why; possibly it’s a kind of constant refresh to keep whatever’s pending from vanishing from our short-term memory, like putting something by the front door at night so you don’t forget to take it with you the next morning.

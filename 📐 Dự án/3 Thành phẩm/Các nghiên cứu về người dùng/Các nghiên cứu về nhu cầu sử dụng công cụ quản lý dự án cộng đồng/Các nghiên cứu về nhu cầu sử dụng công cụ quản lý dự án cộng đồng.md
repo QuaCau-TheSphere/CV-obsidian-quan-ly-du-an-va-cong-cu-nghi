@@ -1,3 +1,6 @@
+---
+share: True
+---
 %%
 #file/thành-phẩm
 %%
@@ -14,7 +17,7 @@ LIST giả-thuyết
 FROM #file/thành-quả 
 WHERE contains(thành-phẩm,[[]])
 ```
-Người chơi::
+Người chơi:: 
 Đối tượng thụ hưởng: `=this.file.inlinks.đối-tượng-thụ-hưởng`
 Thành quả cần có:: [[1 người tham gia phỏng vấn mỗi tuần]]
 Thành quả hỗ trợ:: [[3 người có 10 năm kinh nghiệm trong lĩnh vực phi lợi nhuận nhận phỏng vấn]]

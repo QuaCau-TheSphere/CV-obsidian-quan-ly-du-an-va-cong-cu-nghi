@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Niềm tin về họ:: Họ thấy Notion lag và không tự do gắn 
-Điều không chắc :: Nhu cầu của họ không cần tới Obsidian
+Điều không chắc:: Nhu cầu của họ không cần tới Obsidian

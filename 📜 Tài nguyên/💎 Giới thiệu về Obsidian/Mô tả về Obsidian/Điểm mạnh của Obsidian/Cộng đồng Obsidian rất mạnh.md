@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 [[Obsidian không gọi vốn để theo đúng định hướng của mình]] 
 

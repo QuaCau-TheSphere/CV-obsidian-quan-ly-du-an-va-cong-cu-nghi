@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Phục vụ cho thành quả:
 ```dataview

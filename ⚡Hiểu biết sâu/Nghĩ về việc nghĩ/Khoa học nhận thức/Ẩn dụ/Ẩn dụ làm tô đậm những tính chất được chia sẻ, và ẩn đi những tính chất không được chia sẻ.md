@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 ![](https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_1200/v1632316505/maggieappleton.com/essays/drawing-invisibles/frame_shrink_irt2qv.png)
 ![](https://res.cloudinary.com/dxj9qr5gj/image/upload/v1632316505/maggieappleton.com/essays/drawing-invisibles/hide-highlight_shrink_ljkonq.png) 

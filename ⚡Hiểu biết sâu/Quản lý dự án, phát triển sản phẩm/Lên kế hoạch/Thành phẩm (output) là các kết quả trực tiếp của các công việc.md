@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Ví dụ: một bản nghiên cứu, một tính năng mới, một sản phẩm mới, một trang web quảng cáo, một bài viết, một sự kiện ...
 

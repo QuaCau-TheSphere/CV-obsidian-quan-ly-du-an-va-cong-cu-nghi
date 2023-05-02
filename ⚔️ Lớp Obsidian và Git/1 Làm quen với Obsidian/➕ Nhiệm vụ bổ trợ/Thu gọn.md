@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Tính năng thu gọn văn bản là một công cụ rất mạnh để lập dàn ý và viết. Tính năng thu gọn cho phép bạn tập trung vào những gì bạn đang làm.
 

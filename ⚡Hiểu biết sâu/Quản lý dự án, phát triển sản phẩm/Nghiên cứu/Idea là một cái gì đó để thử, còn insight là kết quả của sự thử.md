@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 [[Idea với insight đều là một]]

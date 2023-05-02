@@ -1,8 +1,7 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
-Tên :: 
+Tên:: 
 Câu nói đáng nhớ::
 # Thông tin cơ bản
 # Insight 

@@ -1,3 +1,6 @@
+---
+share: True
+---
 %%
 #file/thành-phẩm
 %%
@@ -8,15 +11,10 @@ LIST
 FROM #file/thành-quả 
 WHERE contains(thành-phẩm,[[]])
 ```
-Người chơi::
+Người chơi:: 
 
 Thành quả cần có:: 3/5 người nhận phỏng vấn
 Thành quả hỗ trợ::
-
-- [ ] Phỏng vấn pqn 
-	- [ ] Xem coi pqn có chán pv hay không
-- [ ] Phỏng vấn adref 🔼 
-- [ ] Phỏng vấn duocnguyen 🔼 
 
 Thành phẩm nhỏ hơn:
 ```dataview

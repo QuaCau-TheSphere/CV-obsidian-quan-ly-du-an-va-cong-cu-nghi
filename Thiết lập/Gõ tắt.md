@@ -1,19 +1,19 @@
 ---
-share: true
+share: True
 ---
-Nhu cầu :: nc, dy, tl
-Nhu cầu dẫn tới :: ncdt, ch, mt
-Điểm mạnh :: đm, dm
+Nhu cầu:: 		nc, dy, tl
+Nhu cầu dẫn tới:: 		ncdt, ch, mt
+Điểm mạnh:: 		đm, dm
 
 Thành quả cần có:: 		tqcc
 Thành quả hỗ trợ:: 		tqht
-Thành phẩm :: tp, kn, xt
+Thành phẩm:: 		tp, kn, xt
 
-Thách thức :: tt
+Thách thức:: 		tt
 
-Lý do :: ld
+Lý do:: 		ld
 Giải pháp gợi ý:: 		gp
-Liên quan :: lq
+Liên quan:: 		lq
 
 # Code nhanh
 ## Dataview

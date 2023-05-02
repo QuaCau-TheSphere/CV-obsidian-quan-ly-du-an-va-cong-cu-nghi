@@ -1,9 +1,8 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 %%
-Trạng thái :: Chưa hoàn thành
+Trạng thái:: Chưa hoàn thành
 %%
 
 - [Teach Yourself Computer Science](https://teachyourselfcs.com/)

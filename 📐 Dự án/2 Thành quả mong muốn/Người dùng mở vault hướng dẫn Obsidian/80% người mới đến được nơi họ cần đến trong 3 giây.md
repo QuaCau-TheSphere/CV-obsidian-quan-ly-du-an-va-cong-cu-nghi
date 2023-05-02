@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 %%
 #file/thành-quả
@@ -14,4 +13,4 @@ where contains(thành-quả-cần-có,[[]]) or contains(thành-quả-hỗ-trợ,
 ```
 Thành quả cần có:: 
 
-Thành phẩm ::
+Thành phẩm::

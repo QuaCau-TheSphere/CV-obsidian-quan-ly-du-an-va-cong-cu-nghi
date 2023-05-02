@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 - You must show them scalable and sustainable oppportunities
 - Demonstrate awareness of comprehensive business management

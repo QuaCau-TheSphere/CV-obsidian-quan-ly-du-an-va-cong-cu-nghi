@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Khác gì RSS, các group đăng thông tin như của LIN?

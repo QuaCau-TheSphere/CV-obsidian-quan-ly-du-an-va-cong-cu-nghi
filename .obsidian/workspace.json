@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "515d2129120be1ff",
+            "id": "64aa8a8f3ed063c2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "asd.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cc75ee6cd70d4dca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+                "file": "🌟 Mở đầu.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -66,13 +52,13 @@
             }
           },
           {
-            "id": "3b257e3f8c2d33f3",
+            "id": "3deb5819c7cc6324",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "\"<% tp.file.cursor() %>\"",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+                "file": "🌟 Mở đầu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+                "file": "🌟 Mở đầu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md"
+                "file": "🌟 Mở đầu.md"
               }
             }
           }
@@ -171,60 +157,60 @@
     "hiddenItems": {
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "open-vscode:VSCode": false,
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "digitalgarden:Digital Garden Publication Center": false,
       "daily-notes:Open today's daily note": true,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false
     }
   },
-  "active": "cc75ee6cd70d4dca",
+  "active": "64aa8a8f3ed063c2",
   "lastOpenFiles": [
-    "```dataviewList aliaswhere alias```.md",
-    "asd.md",
-    "📐 Dự án/Tài liệu/Tại sao không làm kiểu wiki.md",
-    "📐 Dự án/Tài liệu/Lợi ích của việc tải vault về hơn là đọc trên web.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
-    "📐 Dự án/Tài liệu/So sánh với các dự án khác.md",
-    "📐 Dự án/Tài liệu/Tại sao phải tải về.md",
-    "🌟 BẮT ĐẦU Ở ĐÂY.md",
-    "Giới thiệu vault.md",
-    "📐 Dự án/4 Các bên liên quan/Loại đối tượng/Theo mức độ tham gia/Người đóng góp nội dung.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái/Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0.md",
-    "📐 Dự án/6 Kế hoạch/Kế hoạch tổng.md",
-    "TeX.txt",
-    "📐 Dự án/5 Giả thuyết/Việc phải nói chuyện nhu cầu của nhau là mệt mỏi.md",
-    "Thiết lập/test.py~",
-    "📐 Dự án/Động lực thực hiện dự án này.md",
+    "📐 Dự án/Tài liệu/Giới thiệu vault.md",
+    "🌟 Mở đầu.md",
+    "📜 Tài nguyên/📜 Tài nguyên.md",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/Theo tính năng của plugin.md",
+    "📜 Tài nguyên/Hình thức quản lý dữ liệu/Hình thức quản lý dữ liệu.md",
+    "📜 Tài nguyên/Loại hình dự án.md",
+    "📐 Dự án/Tài liệu/Tại sao lại cần tải vault về hơn là đọc trên web.md",
     "📐 Dự án/📐 Dự án.md",
-    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
-    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động.md",
-    "Thiết lập/Gõ tắt.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Lập luận/Càng mất nhiều ta càng học nhiều.md",
-    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Tiền làm người sở hữu tưởng rằng mình độc lập.md",
-    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Tiền được lưu ở dạng vật chất, nhưng nhu cầu là một trạng thái của con người.md",
-    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Năm 1990 UNDP gắn phát triển vào phát triển con người.md",
-    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Nền kinh tế chăm sóc.md",
-    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Nền kinh tế hậu khan hiếm.md",
-    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Nếu bạn thấy được ý nghĩa trong công việc bạn làm thì bạn sẽ không lo lắng về người dùng chùa.md",
-    "⚡Hiểu biết sâu/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Chi phí chuyển đổi sang năng lượng xanh không đơn giản.md",
+    "📐 Dự án/3 Thành phẩm/3 Thành phẩm.md",
+    "📐 Dự án/4 Các bên liên quan/4 Các bên liên quan.md",
+    "📐 Dự án/5 Giả thuyết/5 Giả thuyết.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi họp xây dựng kế hoạch phát triển/Các buổi họp xây dựng kế hoạch phát triển.md",
+    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Các bài viết truyền thông.md",
+    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Trên Facebook page QC.md",
+    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp/Phỏng vấn pqn.md",
+    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp.md",
+    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp/Hướng dẫn phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt.md",
+    "📐 Dự án/3 Thành phẩm/Các bài học trên vault/100% bài học có thành quả cần có.md",
+    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Bài viết về vấn đề về hệ sinh thái.md",
+    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Trên Discord Obsidian tiếng-Việt.md",
+    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Trên Discord QC.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi cố vấn riêng/Các buổi cố vấn riêng.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi cố vấn riêng/Nhóm ❝Game con bò❞/Nhóm ❝Game con bò❞.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi cố vấn riêng/Nhóm ❝Game con bò❞/Thành phẩm/Hệ thống chấm điểm cảm xúc.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi cố vấn riêng/Nhóm ❝Game con bò❞/Thành quả/75% thời gian những suy nghĩ tiêu cực không chi phối Thảo.md",
+    "Thiết lập/Excalidraw/Drawing 2023-04-12 13.38.23.excalidraw.png",
+    "Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
     "Thiết lập/Ảnh/Open another vault.png",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Ghi chú thông tin/~syncthing~Việc trì hoãn giúp đánh giá được mức độ quan trong.md.tmp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Ghi chú thông tin/~syncthing~Evergreen giúp tăng khả năng nhìn thấy được mâu thuẫn.md.tmp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/~syncthing~Đọc và viết.md.tmp",
+    "Thiết lập/Ảnh/logo.svg",
+    "Thiết lập/Script",
+    "TeX.txt",
+    "Thiết lập/test.py~",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Phân loại, phi tuyến",
     "~syncthing~Sự kiện chỉ thông báo về sự thay đổi chứ không kỳ vọng một chương trình phản ứng với nó.md.tmp",
     "~syncthing~Tair veef thì có gì hơn là đọc trên web.md.tmp",
-    "~syncthing~Giới thiệu vault.md.tmp",
-    "Thiết lập/test.py",
-    "test.py",
     "Trang chủ.canvas",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế",
-    "Thiết lập/Excalidraw/Drawing 2023-04-12 13.38.23.excalidraw.png",
-    "Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
     "Untitled.canvas"
   ]
 }

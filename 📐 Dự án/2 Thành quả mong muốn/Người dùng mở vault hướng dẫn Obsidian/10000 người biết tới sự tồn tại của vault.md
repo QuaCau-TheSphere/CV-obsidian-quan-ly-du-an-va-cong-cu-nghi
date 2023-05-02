@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Phục vụ cho thành quả:
 ```dataview
@@ -9,4 +8,4 @@ From #file/thành-quả
 where contains(thành-quả-cần-có,[[]]) or contains(thành-quả-hỗ-trợ,[[]]) 
 ```
 Thành quả hỗ trợ:: [[50% người chia sẻ vault cho bạn bè]]
-Thành phẩm :: [[Các bài viết truyền thông]]
+Thành phẩm:: [[Các bài viết truyền thông]]

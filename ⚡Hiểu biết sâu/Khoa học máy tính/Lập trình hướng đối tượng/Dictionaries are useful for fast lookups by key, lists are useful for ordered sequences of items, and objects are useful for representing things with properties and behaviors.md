@@ -1,3 +1,6 @@
+---
+share: True
+---
 In Python, an object is an instance of a class. A dictionary is a built-in data type that stores data values in key:value pairs. It is an instance of Python’s dict class1.
 
 Dictionaries are used to store data values in key:value pairs and are written with curly brackets1. They are ordered (as of Python version 3.7), changeable and do not allow duplicates1.

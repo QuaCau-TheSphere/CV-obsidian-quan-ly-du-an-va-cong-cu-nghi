@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 [Wikipedia:Contents - Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Contents "Wikipedia:Contents - Wikipedia")
 [List of lists of lists - Wikipedia](https://en.wikipedia.org/wiki/List_of_lists_of_lists "List of lists of lists - Wikipedia")

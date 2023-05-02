@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 ![](https://explainxkcd.com/wiki/images/4/4d/git.png)

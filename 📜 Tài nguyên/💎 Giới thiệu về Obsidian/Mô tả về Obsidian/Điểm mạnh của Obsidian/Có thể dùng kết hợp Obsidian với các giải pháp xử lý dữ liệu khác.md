@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 [[Obsidian cực kỳ dễ mở rộng tính năng]]
  Git:

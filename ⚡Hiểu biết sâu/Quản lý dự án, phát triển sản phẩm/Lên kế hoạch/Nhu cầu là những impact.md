@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Nhu cầu = impact = problem = why start = pain point = động lực

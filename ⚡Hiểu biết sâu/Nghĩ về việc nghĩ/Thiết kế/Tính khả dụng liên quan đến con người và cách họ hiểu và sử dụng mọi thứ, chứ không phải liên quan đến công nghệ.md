@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 [[Não con người thay đổi rất chậm]]
 Vì trong khi công nghệ thường thay đổi nhanh chóng, mọi người thay đổi rất chậm

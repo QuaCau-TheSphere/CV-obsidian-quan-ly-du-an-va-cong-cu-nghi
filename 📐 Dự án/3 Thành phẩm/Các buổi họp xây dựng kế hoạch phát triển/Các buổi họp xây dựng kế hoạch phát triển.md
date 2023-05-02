@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 %%
 #file/thành-phẩm
@@ -18,7 +17,7 @@ LIST giả-thuyết
 FROM #file/thành-quả 
 WHERE contains(thành-phẩm,[[]])
 ```
-Người chơi :: [[Nhật]], [[Nghi]], [[Thịnh]]
+Người chơi:: [[Nhật]], [[Nghi]], [[Thịnh]]
 Đối tượng thụ hưởng: `=this.file.inlinks.đối-tượng-thụ-hưởng`
 
 

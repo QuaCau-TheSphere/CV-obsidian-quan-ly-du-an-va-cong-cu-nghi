@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 But he talked about how in the very beginning when, mostly at Apple, they were starting to try and design those icons, and figure out a way to give cause, right, Apple designed the desktop metaphor right? So before that, all computers were just the command line. You know, you just don't have anywhere to start. And they designed this idea of like, okay, your computer is like your desk and the code on your thing is contained into files, just like your paper on the desk.
 
@@ -13,4 +12,4 @@ But he talked about how in the very beginning when, mostly at Apple, they were s
 [39:19] **Maggie**: What am I ejecting? They, you know, they really struggled to do that and now we take it all for granted, but that's where it becomes tacit knowledge that we don't realize that, it's just embedded in us.
 
 
-Nguồn :: [[Maggie Appleton]], [MA 12: Maggie Appleton on Embodiment Through Metaphors - Maintainers Anonymous](https://maintainersanonymous.com/metaphor/#t=37:57)
+Nguồn:: [[Maggie Appleton]], [MA 12: Maggie Appleton on Embodiment Through Metaphors - Maintainers Anonymous](https://maintainersanonymous.com/metaphor/#t=37:57)

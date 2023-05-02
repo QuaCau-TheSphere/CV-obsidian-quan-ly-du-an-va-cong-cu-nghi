@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
-Nguồn :: [[Đừng bắt tôi nghĩ]]
+Nguồn:: [[Đừng bắt tôi nghĩ]]

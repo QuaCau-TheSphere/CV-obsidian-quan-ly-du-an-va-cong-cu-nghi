@@ -1,3 +1,6 @@
+---
+share: True
+---
 %%
 #file/thành-phẩm
 %%
@@ -8,7 +11,7 @@ LIST
 FROM #file/thành-quả 
 WHERE contains(thành-phẩm,[[]])
 ```
-Người chơi::
+Người chơi:: 
 
 Thành quả cần có::
 Thành quả hỗ trợ::
@@ -19,4 +22,3 @@ List
 From #file/thành-phẩm 
 Where contains(file.folder,this.file.folder) and file.name!=this.file.name
 ```
-

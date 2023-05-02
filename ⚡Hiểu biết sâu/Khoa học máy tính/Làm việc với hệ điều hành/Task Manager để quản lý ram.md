@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 trên trình duyệt cũng có process manager
-Nguồn ::
+Nguồn::

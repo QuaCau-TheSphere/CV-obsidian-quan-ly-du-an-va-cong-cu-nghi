@@ -1,9 +1,9 @@
 {
   "github": {
-    "user": "ooker777",
-    "repo": "mkdoc-tft",
+    "user": "QuaCau-TheSphere",
+    "repo": "OPT-web-netlify",
     "branch": "main",
-    "token": "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",
+    "token": "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",
     "automaticallyMergePR": true,
     "api": {
       "tiersForApi": "Github Free/Pro/Team (default)",
@@ -26,8 +26,10 @@
     "replaceTitle": [],
     "replacePath": [],
     "autoclean": {
-      "enable": false,
-      "excluded": []
+      "enable": true,
+      "excluded": [
+        "asset"
+      ]
     },
     "folderNote": {
       "enable": true,
@@ -40,7 +42,7 @@
     "dataview": true,
     "censorText": [],
     "tags": {
-      "inline": false,
+      "inline": true,
       "exclude": [],
       "fields": []
     },

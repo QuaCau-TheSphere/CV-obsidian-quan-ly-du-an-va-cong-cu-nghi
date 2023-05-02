@@ -1,12 +1,11 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
-Không bị ồn từ bên ngoài :: ✔, ✔
-Nhà vệ sinh :: ✔
-Máy chiếu :: ✔
-Được nói to :: ✔
-Bàn phù hợp cho việc dùng laptop :: ✔
+Không bị ồn từ bên ngoài:: ✔
+Nhà vệ sinh:: ✔
+Máy chiếu:: ✔
+Được nói to:: ✔
+Bàn phù hợp cho việc dùng laptop:: ✔
 Có thể vận động cơ thể:: ✔
 
 ```dataview

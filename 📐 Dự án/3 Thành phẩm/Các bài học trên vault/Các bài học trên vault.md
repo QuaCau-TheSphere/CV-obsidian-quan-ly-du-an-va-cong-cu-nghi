@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 %%
 #file/thành-phẩm
@@ -11,10 +10,10 @@ LIST
 From #file/thành-quả
 WHERE contains(thành-phẩm,[[]])
 ```
-Người chơi :: [[Nhật]]
+Người chơi:: [[Nhật]]
 
 Thành quả cần có:: [[50% người dễ dàng tự sử dụng]]
-Thành phẩm nhỏ hơn :: [[100% bài học có thành quả cần có]]
+Thành phẩm nhỏ hơn:: [[100% bài học có thành quả cần có]]
 
 Thành phẩm nhỏ hơn:
 ```dataview

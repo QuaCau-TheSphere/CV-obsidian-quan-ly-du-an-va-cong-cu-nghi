@@ -1,7 +1,6 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Có những cái phải chạy mô hình dự báo
 
-Nguồn :: [[ABG Open Special 2023]]
+Nguồn:: [[ABG Open Special 2023]]

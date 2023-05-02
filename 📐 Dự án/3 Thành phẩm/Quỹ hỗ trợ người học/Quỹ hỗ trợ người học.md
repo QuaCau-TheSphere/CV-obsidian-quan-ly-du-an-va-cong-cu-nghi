@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 %%
 #file/thành-phẩm
@@ -11,7 +10,7 @@ LIST
 FROM #file/thành-quả 
 WHERE contains(thành-phẩm,[[]])
 ```
-Người chơi :: 
+Người chơi:: 
 
 Thành quả cần có:: [[3 nhóm chỉ cần đi học không bị mất tiền]]
 Thành quả hỗ trợ::

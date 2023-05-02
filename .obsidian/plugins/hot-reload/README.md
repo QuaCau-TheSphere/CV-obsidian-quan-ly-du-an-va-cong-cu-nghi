@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 # Hot-Reload Plugin for Obsidian.md Plugins
 

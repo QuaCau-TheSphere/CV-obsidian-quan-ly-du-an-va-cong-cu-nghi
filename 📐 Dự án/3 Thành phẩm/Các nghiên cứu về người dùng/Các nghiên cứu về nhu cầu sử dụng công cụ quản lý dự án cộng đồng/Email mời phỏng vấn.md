@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 # VOGE
 Xin chào các bạn VOGE

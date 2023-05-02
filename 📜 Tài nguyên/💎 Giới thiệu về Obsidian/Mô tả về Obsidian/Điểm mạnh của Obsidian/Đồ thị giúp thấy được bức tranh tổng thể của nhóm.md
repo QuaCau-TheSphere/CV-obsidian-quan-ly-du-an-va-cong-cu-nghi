@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Nhìn vào hình ta thấy được độ đa dạng của nhóm
 ![[Mối quan tâm chung.jpeg]]

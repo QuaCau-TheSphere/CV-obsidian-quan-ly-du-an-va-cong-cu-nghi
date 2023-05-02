@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 ![[💎 Giới thiệu về Obsidian]]

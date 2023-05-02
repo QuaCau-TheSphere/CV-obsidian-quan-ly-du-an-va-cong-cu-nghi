@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Người tham gia kênh Obsidian tiếng Việt

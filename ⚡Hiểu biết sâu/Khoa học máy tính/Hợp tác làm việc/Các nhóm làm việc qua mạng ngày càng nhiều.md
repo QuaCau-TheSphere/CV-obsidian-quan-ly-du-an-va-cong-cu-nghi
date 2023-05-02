@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 With the rise of [remote work and distributed teams](https://medium.com/@anupamr/distributed-teams-are-the-new-cloud-for-startups-14240a9822d7),
 

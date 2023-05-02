@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Groupware là phần mềm nhóm, giúp các cá nhân cộng tác trên các dự án với mục tiêu chung từ các địa điểm phân tán về mặt địa lý thông qua giao diện Internet chia sẻ như một phương tiện để giao tiếp trong nhóm[1](https://filegi.com/tech-term/groupware-3057/). Groupware có thể bao gồm hệ thống lưu trữ truy cập từ xa để lưu trữ thường xuyên sử dụng các file dữ liệu[1](https://filegi.com/tech-term/groupware-3057/).
 
@@ -11,7 +10,7 @@ Vậy Groupware và ERP có điểm khác biệt cơ bản là Groupware giúp c
 # Các cách phân loại groupware
 ## Theo không thời gian
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Cscwmatrix.jpg/703px-Cscwmatrix.jpg) 
-Nguồn :: [[Wikipedia]], [Computer-supported cooperative work](https://en.wikipedia.org/wiki/Computer-supported_cooperative_work), [[Bing AI]], [[Wikipedia]], [Collaborative software](https://en.wikipedia.org/wiki/Collaborative_software)
+Nguồn:: [[Wikipedia]], [Computer-supported cooperative work](https://en.wikipedia.org/wiki/Computer-supported_cooperative_work), [[Bing AI]], [Collaborative software](https://en.wikipedia.org/wiki/Collaborative_software)
 
 ## Theo mức độ hợp tác
 - Giao tiếp

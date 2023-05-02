@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 - Thống nhất giữa các người dùng dễ dàng
 - Đảm bảo các bên tham gia nhập dữ liệu cùng một format

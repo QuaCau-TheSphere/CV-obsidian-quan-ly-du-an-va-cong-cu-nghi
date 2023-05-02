@@ -1,4 +1,4 @@
 ---
-dg-publish: true
+share: True
 ---
 Nguồn:: [[Bing AI]]

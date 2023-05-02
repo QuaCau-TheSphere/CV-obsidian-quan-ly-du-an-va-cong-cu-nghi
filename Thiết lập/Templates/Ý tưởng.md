@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
-Nguồn :: [[ABG Open Special 2023]]
+Nguồn:: [[ABG Open Special 2023]]

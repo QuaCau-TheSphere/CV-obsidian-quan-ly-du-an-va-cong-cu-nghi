@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Ví dụ về một số câu hỏi cho ra kết quả không đáng tin cậy:
 - Bạn có tính sử dụng sản phẩm không?

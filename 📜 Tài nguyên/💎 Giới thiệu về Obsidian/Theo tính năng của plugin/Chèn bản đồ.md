@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 > [!NOTE] Plugin sử dụng: Leaflet

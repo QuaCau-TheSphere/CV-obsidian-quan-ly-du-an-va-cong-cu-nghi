@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 - Large upside opportunity through an exit, usually M&A
 - Good problem-solution set (product-market fit)

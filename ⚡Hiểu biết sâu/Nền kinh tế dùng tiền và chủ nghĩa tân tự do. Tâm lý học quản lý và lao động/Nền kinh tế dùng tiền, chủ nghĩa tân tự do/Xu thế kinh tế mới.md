@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Các yếu tố tạo ra kinh tế mới
 - Biến đổi công nghệ

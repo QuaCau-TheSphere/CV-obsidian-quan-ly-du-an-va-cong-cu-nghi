@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 %%
 #tt/chưa-hoàn-thành 
@@ -14,4 +13,4 @@ where contains(thành-quả-cần-có,[[]]) or contains(thành-quả-hỗ-trợ,
 ```
 Thành quả cần có:: [[40% người tham gia biết dùng Git]]
 
-Thành phẩm :: [[Các bài học trên vault]]
+Thành phẩm:: [[Các bài học trên vault]]

@@ -1,7 +1,3 @@
----
-dg-publish: True
-share: true
----
 %%
 #file/thành-phẩm
 %%
@@ -11,9 +7,9 @@ LIST
 FROM #file/thành-quả 
 WHERE contains(thành-phẩm,[[]])
 ```
-Người chơi :: Ngân, Thảo, Nhật, #tt/đang-làm
-Thời gian :: CN hàng tuần
-Địa điểm :: TPHCM
+Người chơi:: Ngân, Thảo, Nhật, #tt/đang-làm
+Thời gian:: CN hàng tuần
+Địa điểm:: TPHCM
 
 Thành quả cần có:: [[Thảo có cuộc sống tích cực, khoẻ mạnh]]
 Thành quả hỗ trợ:: [[Ngân học được Nodejs]]

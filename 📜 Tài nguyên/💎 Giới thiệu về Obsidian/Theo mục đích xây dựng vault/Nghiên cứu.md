@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 # [Đồ thị mạng lưới 100+ niềm tin](https://github.com/QuaCau-TheSphere/belief-network) 
 

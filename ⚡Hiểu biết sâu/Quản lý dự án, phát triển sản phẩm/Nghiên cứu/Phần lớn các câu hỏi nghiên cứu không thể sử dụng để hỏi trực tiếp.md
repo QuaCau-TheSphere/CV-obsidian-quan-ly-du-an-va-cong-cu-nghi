@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Lần gần nhất bạn làm cái này là gì?

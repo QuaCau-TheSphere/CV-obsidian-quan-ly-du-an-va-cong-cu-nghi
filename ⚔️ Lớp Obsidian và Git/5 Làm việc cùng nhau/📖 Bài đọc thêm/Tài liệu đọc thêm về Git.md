@@ -1,9 +1,8 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 %%
-Trạng thái :: Chưa hoàn thành
+Trạng thái:: Chưa hoàn thành
 %%
 - [ ] Làm các bài tập trong [Learn Git Branching](https://learngitbranching.js.org/)
 - [ ] Đọc  [Picturing Git: Conceptions and Misconceptions - BiTE Interactive](https://www.biteinteractive.com/picturing-git-conceptions-and-misconceptions/)

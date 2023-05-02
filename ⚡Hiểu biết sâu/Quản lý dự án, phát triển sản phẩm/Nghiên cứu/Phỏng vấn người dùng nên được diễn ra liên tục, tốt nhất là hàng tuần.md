@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Đặc điểm của phỏng vấn là số mẫu nhỏ, thiếu tính đại diện, nhưng bù lại cho phép bạn khám phá ra những thông tin mà các hình thức nghiên cứu quy mô không thể mang lại được, đặc biệt là các suy nghĩ và lối tư duy ẩn sau hành động của đối tượng. Vì vậy việc phỏng vấn thường xuyên sẽ cho phép bạn thường xuyên tiếp cận và ngày càng hiểu sâu sắc hơn về người dùng. 
 

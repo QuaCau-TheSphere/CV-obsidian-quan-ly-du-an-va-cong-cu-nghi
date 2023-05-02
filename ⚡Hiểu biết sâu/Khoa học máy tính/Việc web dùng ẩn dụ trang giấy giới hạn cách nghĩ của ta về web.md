@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 [Metaphors We Web By](https://maggieappleton.com/metaphors-web)

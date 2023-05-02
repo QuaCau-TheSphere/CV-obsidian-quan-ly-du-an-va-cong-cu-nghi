@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Theo những gì mình hiểu về triết học Deleuze và Guattari thì tư duy tuyến tính và tư duy phi tuyến sẽ được gọi là rễ cọc và rễ kết (rhizome). Tuy nhiên ý tưởng của họ hay ở chỗ là đưa thêm được vào các khái niệm như bản đồ (một thứ có vô số lối vào và vô số lối ra) và cao nguyên (một thứ tự ngân rung trên chính nó), mà cách nhìn của khoa học phức hợp mình thấy có vẻ không triển khai tới được. (Có lẽ là hiển nhiên, vì đó là khoa học chứ không phải triết học.) Cách nhìn này sẽ hữu ích cho những ai làm nghệ thuật hoặc các ngành nhân văn  
   

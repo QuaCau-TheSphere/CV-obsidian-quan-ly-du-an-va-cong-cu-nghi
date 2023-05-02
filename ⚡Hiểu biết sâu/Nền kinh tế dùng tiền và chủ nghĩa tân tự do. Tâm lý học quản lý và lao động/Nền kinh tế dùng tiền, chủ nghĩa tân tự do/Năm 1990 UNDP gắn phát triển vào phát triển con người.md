@@ -1,3 +1,6 @@
+---
+share: True
+---
 Quá trình chuyển đổi:
 
 | Trước đây                                | Bây giờ              |

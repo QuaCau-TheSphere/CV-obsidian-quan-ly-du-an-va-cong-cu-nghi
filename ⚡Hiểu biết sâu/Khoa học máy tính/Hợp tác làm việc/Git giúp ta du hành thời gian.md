@@ -1,5 +1,3 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
-[Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)

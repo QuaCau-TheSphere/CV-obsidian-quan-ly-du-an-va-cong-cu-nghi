@@ -1,5 +1,5 @@
 ---
-share: true
+share: True
 ---
 # Sửa gần đây
 ```dataview

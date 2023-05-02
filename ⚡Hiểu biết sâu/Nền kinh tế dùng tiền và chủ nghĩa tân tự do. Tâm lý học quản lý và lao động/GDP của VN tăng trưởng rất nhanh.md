@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 [[Bảo hộ thương mại]]
 Thế giới hắt hơi thì nhà mình sổ mũi

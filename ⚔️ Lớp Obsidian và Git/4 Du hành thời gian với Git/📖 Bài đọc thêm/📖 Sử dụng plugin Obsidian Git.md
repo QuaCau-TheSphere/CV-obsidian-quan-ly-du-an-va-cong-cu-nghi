@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 # Tạo token trên GitHub
 - Vào Settings  

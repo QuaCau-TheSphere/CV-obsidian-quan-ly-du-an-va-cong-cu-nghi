@@ -1,12 +1,11 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 %%
 #file/thành-quả
 %%
-Trạng thái :: <% (await tp.system.suggester((item) => item, Object.keys(app.metadataCache.getTags()).filter((key) => key.includes('tt')).filter((key) => key.includes('/')))) %>
-Độ cấp thiết :: <% (await tp.system.suggester((item) => item, Object.keys(app.metadataCache.getTags()).filter((key) => key.includes('đct')))) %>
+Trạng thái:: <% (await tp.system.suggester((item) => item, Object.keys(app.metadataCache.getTags()).filter((key) => key.includes('tt')).filter((key) => key.includes('/')))) %>
+Độ cấp thiết:: <% (await tp.system.suggester((item) => item, Object.keys(app.metadataCache.getTags()).filter((key) => key.includes('đct')))) %>
 
 Phục vụ cho thành quả:
 ```dataview
@@ -23,4 +22,4 @@ where contains(giải-pháp-gợi-ý,[[]])
 
 Thành quả cần có:: 
 
-Thành phẩm ::
+Thành phẩm::

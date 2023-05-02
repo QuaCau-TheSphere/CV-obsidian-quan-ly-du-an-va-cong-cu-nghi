@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Ví dụ nhiều người hay chê một ai đó là hát không hay, nhưng vẫn theo dõi và xem hết các MV của người đó mỗi khi ra mắt.
 

@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 https://notes.andymatuschak.org/z2DABWsGLkXcCuUet2scfD1duL1ZHBztwGKp
 

@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Phục vụ cho thành quả:
 ```dataview
@@ -34,7 +33,7 @@ https://github.com/QuaCau-TheSphere/Nhap-mon-Obsidian-va-Git-cho-quan-ly-du-an/g
 
 ## [2023-02-03 18:20](https://discord.com/channels/898550123007709204/898550123007709209/1070665110974107728) 
 ### GitHub
-Sau khi đăng :: 00:25, 26, 4, 1, 1, 00:25, 0
+Sau khi đăng:: 00:25, 26, 4, 1, 0
 
 ### Discord
 -

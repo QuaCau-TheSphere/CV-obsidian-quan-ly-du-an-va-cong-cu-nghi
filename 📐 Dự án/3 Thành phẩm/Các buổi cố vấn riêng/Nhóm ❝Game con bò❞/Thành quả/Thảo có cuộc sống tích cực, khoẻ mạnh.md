@@ -1,7 +1,3 @@
----
-dg-publish: True
-share: true
----
 %%
 #file/thành-quả 
 %%

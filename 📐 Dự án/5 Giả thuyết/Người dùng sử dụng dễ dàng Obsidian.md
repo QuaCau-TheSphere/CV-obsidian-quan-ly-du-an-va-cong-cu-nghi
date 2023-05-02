@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Người dùng sử dụng dễ dàng Obsidian

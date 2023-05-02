@@ -1,8 +1,7 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
-| Tính năng -><br>Tên gọi      | Thành viên được truy cập       | Ngành học sử dụng  | 
+| Tính năng →<br>Tên gọi ↓      | Thành viên được truy cập       | Ngành học sử dụng  | 
 | ---------------------------- | ------------------------------ | ------------------ |
 | Mạng kết nối nhu cầu         | Người lạ                       | Khoa học phức hợp  |
 | Liên minh, mạng lưới đối tác | Các thành viên trong mạng lưới |                    |

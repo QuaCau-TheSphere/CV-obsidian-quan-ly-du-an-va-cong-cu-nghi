@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
 [[Chúng ta không chọn phương án tối ưu khi chọn sai cũng chẳng hại gì]] 
@@ -20,5 +19,7 @@ Sự thật #2: Chúng ta không chọn phương án tối ưu, chúng ta chỉ 
 Sự thật #3: Chúng ta không tìm hiểu cách mọi thứ vận hành. Chúng ta chỉ tự mò mẫm
 - Vì nó không quan trọng với mình
 - Vì nếu ta tìm được cách nào dùng được, ta sẽ dính với cách đó
+
+Nhưng vì việc [[Đọc lướt không giúp ta tiếp thu được gì cả]], nên ta sẽ thấy nhức đầu khi bật trang mới dù ta không cảm thấy áp lực gì cả. Dễ thấy nhất khi cần ngồi nghiên cứu và ta bật rất nhiều tab
 
 Nguồn:: [[Đừng bắt tôi nghĩ]]

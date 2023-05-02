@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Trong nhiều trường hợp, kết quả phỏng vấn bị rơi vào quên lãng. Nhóm có thể đã thực hiện nhiều cuộc phỏng vấn, nhưng các kết quả phỏng vấn này không đem lại giá trị đáng kể cho hoạt động của nhóm phát triển sản phẩm.
 

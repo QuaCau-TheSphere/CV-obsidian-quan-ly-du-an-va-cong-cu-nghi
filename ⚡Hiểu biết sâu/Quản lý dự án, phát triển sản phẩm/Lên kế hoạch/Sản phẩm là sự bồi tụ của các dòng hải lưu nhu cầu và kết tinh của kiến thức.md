@@ -1,6 +1,5 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 Nó là lý do khiến mọi người bu vào. 
 

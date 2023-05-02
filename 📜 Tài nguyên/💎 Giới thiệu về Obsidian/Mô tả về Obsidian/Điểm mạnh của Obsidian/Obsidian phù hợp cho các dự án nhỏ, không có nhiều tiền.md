@@ -1,5 +1,4 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 [[Khả năng tuỳ biến của Obsidian rất cao]]

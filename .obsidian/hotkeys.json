@@ -412,5 +412,15 @@
       ],
       "key": "R"
     }
-  ]
+  ],
+  "obsidian-mkdocs-publisher:publisher-upload-all-edited-new": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "obsidian-excalidraw-plugin:save": []
 }

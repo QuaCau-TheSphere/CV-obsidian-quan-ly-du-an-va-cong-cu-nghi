@@ -1,8 +1,7 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
-Lý do :: 
+Lý do:: 
 
 Hệ quả của vấn đề này:
 ```dataview

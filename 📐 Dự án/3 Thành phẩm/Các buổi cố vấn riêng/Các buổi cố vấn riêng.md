@@ -1,11 +1,10 @@
 ---
-dg-publish: True
-share: true
+share: True
 ---
 %%
 #file/thành-phẩm
 %%
-Trạng thái :: #tt/đang-làm, [[Nhật]]
+Trạng thái:: #tt/đang-làm, [[Nhật]]
 Phục vụ cho thành quả:
 ```dataview
 LIST
