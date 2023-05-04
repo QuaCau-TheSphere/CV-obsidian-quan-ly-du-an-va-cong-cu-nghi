@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "dedd7a4ffd34c921",
+        "id": "45abb8246535384c",
         "type": "tabs",
         "children": [
           {
-            "id": "64aa8a8f3ed063c2",
+            "id": "3f5e1b2b5745e38b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌟 Mở đầu.md",
+                "file": "📐 Dự án/3 Thành phẩm/Phần mềm/Bộ cài/Hướng dẫn tải vault.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -57,13 +57,21 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"# [[]]➡️\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
+            }
+          },
+          {
+            "id": "f54af41841e62fd4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
             }
           }
         ]
@@ -86,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌟 Mở đầu.md",
+                "file": "📐 Dự án/3 Thành phẩm/Phần mềm/Bộ cài/Hướng dẫn tải vault.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌟 Mở đầu.md",
+                "file": "📐 Dự án/3 Thành phẩm/Phần mềm/Bộ cài/Hướng dẫn tải vault.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,14 +129,6 @@
             }
           },
           {
-            "id": "83a154bcdbdd86fd",
-            "type": "leaf",
-            "state": {
-              "type": "graph-analysis",
-              "state": {}
-            }
-          },
-          {
             "id": "f3a8d9b05bd946db",
             "type": "leaf",
             "state": {
@@ -142,75 +142,85 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌟 Mở đầu.md"
+                "file": "📐 Dự án/3 Thành phẩm/Phần mềm/Bộ cài/Hướng dẫn tải vault.md"
               }
             }
+          },
+          {
+            "id": "1404395a26f87e08",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
-      "open-vscode:VSCode": false,
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "daily-notes:Open today's daily note": true,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "64aa8a8f3ed063c2",
+  "active": "3f5e1b2b5745e38b",
   "lastOpenFiles": [
-    "📐 Dự án/Tài liệu/Giới thiệu vault.md",
+    "📐 Dự án/3 Thành phẩm/Phần mềm/Bộ cài/Các trục trặc có thể gặp khi cài.md",
+    "📐 Dự án/3 Thành phẩm/Phần mềm/Bộ cài/Bộ cài.md",
+    "📐 Dự án/3 Thành phẩm/Phần mềm/Bộ cài/Hướng dẫn tải vault.md",
     "🌟 Mở đầu.md",
-    "📜 Tài nguyên/📜 Tài nguyên.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/Theo tính năng của plugin.md",
-    "📜 Tài nguyên/Hình thức quản lý dữ liệu/Hình thức quản lý dữ liệu.md",
-    "📜 Tài nguyên/Loại hình dự án.md",
-    "📐 Dự án/Tài liệu/Tại sao lại cần tải vault về hơn là đọc trên web.md",
-    "📐 Dự án/📐 Dự án.md",
     "📐 Dự án/3 Thành phẩm/3 Thành phẩm.md",
-    "📐 Dự án/4 Các bên liên quan/4 Các bên liên quan.md",
-    "📐 Dự án/5 Giả thuyết/5 Giả thuyết.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi họp xây dựng kế hoạch phát triển/Các buổi họp xây dựng kế hoạch phát triển.md",
-    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Các bài viết truyền thông.md",
-    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Trên Facebook page QC.md",
-    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp/Phỏng vấn pqn.md",
-    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp.md",
-    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu lý giải lý do người dùng rời bỏ, hoặc chưa đóng góp/Các buổi phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt về cảm nhận, nhu cầu của họ về vault và lý do chưa đóng góp/Hướng dẫn phỏng vấn người tham gia tích cực trong kênh Obsidian tiếng Việt.md",
-    "📐 Dự án/3 Thành phẩm/Các bài học trên vault/100% bài học có thành quả cần có.md",
-    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Bài viết về vấn đề về hệ sinh thái.md",
-    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Trên Discord Obsidian tiếng-Việt.md",
-    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Trên Discord QC.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi cố vấn riêng/Các buổi cố vấn riêng.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi cố vấn riêng/Nhóm ❝Game con bò❞/Nhóm ❝Game con bò❞.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi cố vấn riêng/Nhóm ❝Game con bò❞/Thành phẩm/Hệ thống chấm điểm cảm xúc.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi cố vấn riêng/Nhóm ❝Game con bò❞/Thành quả/75% thời gian những suy nghĩ tiêu cực không chi phối Thảo.md",
+    "📐 Dự án/3 Thành phẩm/Phần mềm/Bộ cài",
+    "📐 Dự án/Tài liệu/Tại sao lại cần tải vault về hơn là đọc trên web？.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Dữ liệu không phải thông tin, thông tin không phải kiến thức, kiến thức không phải hiểu biết, hiểu biết không phải thông thái.md",
+    "⚔️ Lớp Obsidian và Git/5 Làm việc cùng nhau/5.3 Đẩy dữ liệu mới lên (push).md",
+    "⚔️ Lớp Obsidian và Git/5 Làm việc cùng nhau/5.2 Tải mới toàn bộ kho dữ liệu (clone).md",
+    "⚔️ Lớp Obsidian và Git/5 Làm việc cùng nhau/5.1 GitHub là gì.md",
+    "⚔️ Lớp Obsidian và Git/5 Làm việc cùng nhau/5.4 Kéo dữ liệu mới xuống (pull).md",
+    "📜 Tài nguyên/Thủ thuật máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
+    "Trang chủ.canvas",
+    "📜 Tài nguyên/Phương án dịch một số từ.md",
+    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Messenger.md",
+    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Phần mềm gọi video.md",
+    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm chat nhóm/Discord (chat nhóm).md",
+    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm chat nhóm/Untitled.md",
+    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Google Meet.md",
+    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Discord (gọi online).md",
+    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Gather.md",
+    "📜 Tài nguyên/Hình thức quản lý dữ liệu/Hình thức quản lý dữ liệu.md",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Những môi trường tư duy tốt đa phần là sản phẩm phụ của những nỗ lực giải quyết những vấn đề nghiêm túc.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Môi trường nghĩ là nơi ta có thể có những loại suy nghĩ mới, những suy nghĩ mà trước đây ta không thể hình thành.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Hành vi và phản ứng là những thứ native trong môi trường máy tính.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Học ngoại ngữ",
+    "Thiết lập/Ảnh/Ảnh/Eisenhower-Matrix-Actions-539x600.png",
+    "Thiết lập/Ảnh/Ảnh/Eisenhower-Matrix-920x1024.png",
+    "Thiết lập/Ảnh/Ảnh/Procrastinators-Matrix1-539x600.png",
+    "Thiết lập/Ảnh/Ảnh",
+    "Thiết lập/Ảnh/New folder",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Lên kế hoạch/Sắp xếp độ ưu tiên",
+    "📜 Tài nguyên/Thủ thuật máy tính",
+    "Thiết lập/Ảnh/Copy logo to dests.ps1",
+    "Thiết lập/Ảnh/logo2.png",
+    "Thiết lập/Ảnh/logo2.svg",
+    "📐 Dự án/Tài liệu/~syncthing~Tại sao lại cần tải vault về hơn là đọc trên web？.md.tmp",
+    "Thiết lập/Ảnh/logo.png",
+    "~syncthing~🌟 Mở đầu.md.tmp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/~syncthing~Nghĩ về việc nghĩ.md.tmp",
+    "Thiết lập/Ảnh/Điều gì đưa bạn đến nơi này ngày hôm nay.png",
     "Thiết lập/Excalidraw/Drawing 2023-04-12 13.38.23.excalidraw.png",
     "Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
-    "Thiết lập/Ảnh/Open another vault.png",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Ghi chú thông tin/~syncthing~Việc trì hoãn giúp đánh giá được mức độ quan trong.md.tmp",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Ghi chú thông tin/~syncthing~Evergreen giúp tăng khả năng nhìn thấy được mâu thuẫn.md.tmp",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/~syncthing~Đọc và viết.md.tmp",
-    "Thiết lập/Ảnh/logo.svg",
-    "Thiết lập/Script",
-    "TeX.txt",
-    "Thiết lập/test.py~",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Phân loại, phi tuyến",
-    "~syncthing~Sự kiện chỉ thông báo về sự thay đổi chứ không kỳ vọng một chương trình phản ứng với nó.md.tmp",
-    "~syncthing~Tair veef thì có gì hơn là đọc trên web.md.tmp",
-    "Trang chủ.canvas",
-    "Untitled.canvas"
+    "Thiết lập/Ảnh/Open another vault.png"
   ]
 }

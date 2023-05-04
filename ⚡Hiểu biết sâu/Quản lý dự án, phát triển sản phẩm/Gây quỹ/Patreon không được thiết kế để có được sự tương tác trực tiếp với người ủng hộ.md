@@ -5,4 +5,4 @@ share: True
 
 [[Patreon vận hành gần giống như một cuộc trao đổi hơn là hoàn toàn ủng hộ]] 
 
-Nguồn:: [MA 11: Maggie Appleton on Open Source as a Gift Economy - Maintainers Anonymous](https://maintainersanonymous.com/gift/#t=31:23)
+Nguồn:: [[Maggie Appleton]], [MA 11: Maggie Appleton on Open Source as a Gift Economy - Maintainers Anonymous](https://maintainersanonymous.com/gift/#t=31:23)

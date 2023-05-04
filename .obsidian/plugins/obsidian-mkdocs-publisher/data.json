@@ -3,7 +3,7 @@
     "user": "QuaCau-TheSphere",
     "repo": "OPT-web-netlify",
     "branch": "main",
-    "token": "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",
+    "token": "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",
     "automaticallyMergePR": true,
     "api": {
       "tiersForApi": "Github Free/Pro/Team (default)",
@@ -20,8 +20,8 @@
     "rootFolder": "",
     "yamlFolderKey": "",
     "frontmatterTitle": {
-      "enable": false,
-      "key": "title"
+      "enable": true,
+      "key": "filename"
     },
     "replaceTitle": [],
     "replacePath": [],
@@ -32,7 +32,7 @@
       ]
     },
     "folderNote": {
-      "enable": true,
+      "enable": false,
       "rename": "index.md"
     },
     "metadataExtractorPath": ""
@@ -47,7 +47,7 @@
       "fields": []
     },
     "links": {
-      "internal": false,
+      "internal": true,
       "unshared": false,
       "wiki": false,
       "slugify": false
@@ -57,7 +57,7 @@
     "attachments": true,
     "keySendFile": [],
     "notes": false,
-    "folder": ""
+    "folder": "docs/attachments"
   },
   "plugin": {
     "shareKey": "share",

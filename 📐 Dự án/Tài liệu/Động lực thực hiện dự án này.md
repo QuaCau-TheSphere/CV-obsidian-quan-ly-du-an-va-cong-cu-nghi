@@ -10,7 +10,7 @@ Việc tìm kiếm người hợp tác cho các dự án mới có ý tưởng �
 
 Trong những phần mềm quản lý công việc trên thị trường hiện nay, mình thấy có duy nhất Obsidian là có thể đáp ứng nhu cầu đó. Triết lý của Obsidian là:
 
-- [[Obsidian lưu dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản|Dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản]]
+- [[Obsidian lưu dữ liệu nằm trên máy của người dùng|Dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản]]
 - [[Obsidian xem liên kết là công dân hạng nhất|Liên kết là công dân hạng nhất]]
 - [[Obsidian cực kỳ dễ mở rộng tính năng|Cực kỳ dễ mở rộng tính năng]]
 
