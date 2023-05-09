@@ -1,9 +1,9 @@
 {
   "github": {
     "user": "QuaCau-TheSphere",
-    "repo": "OPT-web-netlify",
+    "repo": "quan-ly-du-an-va-cong-cu-nghi-web",
     "branch": "main",
-    "token": "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",
+    "token": "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",
     "automaticallyMergePR": true,
     "api": {
       "tiersForApi": "Github Free/Pro/Team (default)",

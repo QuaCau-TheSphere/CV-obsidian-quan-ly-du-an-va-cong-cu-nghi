@@ -17,4 +17,4 @@ where contains(thành-quả-cần-có,[[]]) or contains(thành-quả-hỗ-trợ,
 Thành quả cần có:: [[50 nhóm dự án cộng đồng tham gia các buổi học về Obsidian]]
 
 
-Thành phẩm:: [[Bài viết về vấn đề về hệ sinh thái]], [[Các buổi demo vault]], [[Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng]]
+Thành phẩm:: [[Bài viết về vấn đề về hệ sinh thái]], [[Các buổi giới thiệu vault]], [[Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng]]

@@ -14,7 +14,7 @@ Thách thức:: 		tt
 Lý do:: 		ld
 Giải pháp gợi ý:: 		gp
 Liên quan:: 		lq
-
+Câu hỏi:: 		ch
 # Code nhanh
 ## Dataview
 ```dataview\nLIST\nFROM |\nWHERE\n```		dtv

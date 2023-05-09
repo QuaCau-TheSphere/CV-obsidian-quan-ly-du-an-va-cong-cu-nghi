@@ -1,0 +1,33 @@
+---
+share: True
+title: Nơi gặp mặt offline tại TPHCM
+alias: Nơi gặp mặt offline tại TPHCM
+---
+
+> [!info] Hướng dẫn sử dụng
+> Để lọc ra được những địa điểm phù hợp với mình, bấm <kbd>Ctrl+E</kbd> để thấy phần Dataview. Ở dòng where ghi lại những tiêu chí mình cần có, xong <kbd>Ctrl+E</kbd> thêm lần nữa
+> Ví dụ:
+> `where wifi = "✔" and không-bị-ồn-từ-bên-ngoài="✔" `
+
+
+```dataview
+Table 
+	split(file.folder, "/")[3] as "Hình thức",	
+	giá-rẻ as "Giá rẻ", 
+	wifi as Wifi, 
+	nhà-vệ-sinh as "Nhà vệ sinh" , 
+	máy-chiếu as "Máy chiếu",
+	được-nói-to as "Được nói to", 
+	không-bị-ồn-từ-bên-ngoài as "Không bị ồn từ bên ngoài", 
+	bàn-đúng-kích-thước-làm-việc as "Bàn đúng kích thước làm việc", 
+	có-thể-vận-động-cơ-thể as "Có thể vận động cơ thể", 
+	nước-ngon as "Nước ngon", 
+	gần-nhà-đa-số-thành-viên as "Gần trung tâm", 
+	ở-lại-tới-23h as "Ở lại tới 23h", 
+	không-gian-tạo-cảm-hứng as "Không gian tạo cảm hứng", 
+	có-loa-mic as "Có loa mic"
+FROM "📜 Tài nguyên/Nơi gặp mặt offline/TPHCM"
+Where file.name!=split(file.folder, "/")[3]
+sort "Hình thức" 
+```
+where không-bị-ồn-từ-bên-ngoài="✔" 

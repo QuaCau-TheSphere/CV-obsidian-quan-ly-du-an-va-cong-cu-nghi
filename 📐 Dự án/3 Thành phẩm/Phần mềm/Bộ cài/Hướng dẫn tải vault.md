@@ -4,9 +4,9 @@ share: True
 Xem thêm:: [[Tại sao lại cần tải vault về hơn là đọc trên web？]]
 
 # Cài đặt tự động
-Với các bạn mới cảm thấy việc học Git thật ngộp thì bọn mình có tạo ra một bộ cài để các bạn dễ sử dụng (dành cho Windows 10 trở lên):
+Nếu bạn cảm thấy còn bỡ ngỡ với Git thì bọn mình có tạo ra bộ cài này để các bạn dễ sử dụng (dành cho Windows 10 trở lên):
 
-[Tải vault :octicons-download-16:](https://github.com/QuaCau-TheSphere/quan-ly-du-an-va-cong-cu-nghi/releases){ .md-button .md-button--primary 
+[Tải bộ cài :octicons-download-16:](https://Obsidian.Quảcầu.cc/assets/Obsidian, quản lý dự án và công cụ nghĩ.exe){ .md-button .md-button--primary }
 
 Hình ảnh bộ cài:
 ![](https://i.imgur.com/e3iB6N3l.png)

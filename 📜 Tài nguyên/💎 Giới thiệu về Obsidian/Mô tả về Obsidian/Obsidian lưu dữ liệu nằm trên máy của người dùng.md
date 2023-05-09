@@ -14,5 +14,5 @@ Ví dụ: việc để trên Google Drive buộc bạn phải lưu dưới dạn
 Tuy nhiên, [[Có sự đánh đổi giữa sự dễ dàng tuỳ biến dữ liệu của mình và sự dễ dàng hợp tác qua mạng]] 
 
 
-
+[[Việc lưu trữ dữ liệu tại máy cá nhân sẽ giúp người dùng quen thuộc hơn với việc lập trình]] 
 [[Việc trung tâm hoá việc lưu trữ dữ liệu trên máy chủ sẽ lấy đi autonomy và agency của người dùng cuối]]

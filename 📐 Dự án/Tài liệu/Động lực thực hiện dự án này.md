@@ -1,5 +1,6 @@
 ---
-Alias: Obsidian hay hơn các công cụ khác ở điểm nào
+Alias: Tại sao lại chọn là Obsidian? Biết được Obsidian rồi thì sao?
+description: Tại sao lại chọn là Obsidian? Biết được Obsidian rồi thì sao?
 share: True
 ---
 <sub>English below</sub>
@@ -25,7 +26,14 @@ Nếu mô hình này thành công, thì ta sẽ xây dựng một mạng kết n
 
 Ý tưởng [nền kinh tế không dùng tiền](https://en.wikipedia.org/wiki/Non-monetary_economy "Non-monetary economy - Wikipedia") không phải là một khái niệm mới. Một ví dụ điển hình là [Hệ thống Trao đổi Cộng đồng (Community Exchange System)](https://www.community-exchange.org/home/ "Community Exchange System | Your Talents are Your Wealth") với hơn 1200 nhóm trao đổi ở 107 nước. Tuy nhiên chưa có ở Việt Nam. 
 
+
+> [!NOTE] Bài chi tiết: [Một đám mây chim sáo](https://quảcầu.cc/mot-dam-may-chim-sao/?utm_source=Obsidian+%C2%BB+%C4%90%E1%BB%99ng+l%E1%BB%B1c+th%E1%BB%B1c+hi%E1%BB%87n+d%E1%BB%B1+%C3%A1n+n%C3%A0y&utm_medium=vault&utm_campaign=Gi%E1%BB%9Bi+thi%E1%BB%87u+web)
+
 Vấn đề hiện tại bây giờ chỉ là: có bao nhiêu nhóm dự án sẵn sàng muốn sử dụng Obsidian cho việc quản lý dự án của mình?
+
+
+# Phụ lục
+Trong ngành khoa học máy tính, [[Việc hợp tác làm việc thời gian thực với dữ liệu được lưu ở local là một bài toán khó]]. Điều đó khiến cho [[Có sự đánh đổi giữa sự tự do sử dụng dữ liệu và sự tiện lợi trong việc hợp tác|chúng ta phải đánh đổi giữa sự tự do sử dụng dữ liệu và sự tiện lợi trong việc hợp tác]]. Như có đề cập trong bài [[Động lực thực hiện dự án này]], [[Việc trung tâm hoá việc lưu trữ dữ liệu trên máy chủ sẽ lấy đi autonomy và agency của người dùng cuối]]. Xu thế hiện nay là [[Các nhóm làm việc qua mạng ngày càng nhiều]], đến nỗi khi được hỏi về app đa số mọi người sẽ chỉ nhắc đến những cloud app như Google Drive hay Notion. Nghĩa là chúng ta đã hy sinh quá nhiều sự tự chủ dữ liệu cho sự tiện lợi đến nỗi chúng ta không còn biết gì về một loạt các phần mềm khác mạnh mẽ hơn. Việc đánh mất sự tự chủ đó là lý do khiến cho chúng ta luôn cảm thấy mình mù công nghệ, và chấp nhận rằng mình sẽ chẳng hiểu gì về công nghệ cả. Đây chính là một sự bất lực học được. [[Người không học về lập trình thấy việc lập trình như làm phép thuật]], trong khi [[Lập trình viên biết lập trình chủ yếu là nhờ biết google]]. Bạn cũng biết google vậy, vậy tại sao vẫn thấy nó giống như làm phép thuật? Chúng tôi nghĩ một phần lớn là vì đã từ lâu bạn không còn cảm giác mình có sự tự chủ với dữ liệu của mình rồi. Khi bạn đã có lại được cảm giác đó, bạn sẽ thấy mình tự tin hơn về công nghệ.
 
 ---
 
@@ -79,6 +87,6 @@ It isn't news that by centralizing data storage on servers, users' ownership and
 
 So there is a tradeoff that every system designer has to face: do you want your users to gain whole control on their own data, or do you want to enable real-time collaboration? This, by far, is still one of the hard problems in computer science.
 
-However, digging deeper on the problem you will see that [[Real-time collaboration isn't necessary in most cases, but asynchronous collaboration]]. And there is an excellent tool for asynchronous collaboration for local-first data: Git.
+However, digging deeper on the problem you will see that [[Hợp tác thời gian thực không thực sự cần thiết trong đa số trường hợp. Đa số đều là hợp tác phi đồng bộ]]. And there is an excellent tool for asynchronous collaboration for local-first data: Git.
 
 So what will we do is essentially categorized as technology education: helping new-founded organizations to learn Obsidian and Git.
