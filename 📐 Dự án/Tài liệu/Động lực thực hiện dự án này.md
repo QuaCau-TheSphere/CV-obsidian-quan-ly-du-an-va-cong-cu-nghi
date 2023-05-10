@@ -1,15 +1,16 @@
 ---
-Alias: Tại sao lại chọn là Obsidian? Biết được Obsidian rồi thì sao?
-description: Tại sao lại chọn là Obsidian? Biết được Obsidian rồi thì sao?
+Alias: Tại sao lại chọn Obsidian? Biết được Obsidian rồi thì sao?
+description: Tại sao lại chọn Obsidian? Biết được Obsidian rồi thì sao?
 share: True
 ---
 <sub>English below</sub>
-
+# Liên thông dữ liệu giữa các nhóm dự án
 Việc tìm kiếm người hợp tác cho các dự án mới có ý tưởng đột phá có vẻ khó. Trong 5 năm mình tham gia vào các mạng lưới, cộng đồng phi lợi nhuận, mình cảm thấy mặc dù đã có rất rất nhiều tổ chức muốn thúc đẩy một hệ sinh thái giữa các dự án, nhưng lại chưa cảm thấy sự hiệu quả đạt đến mức tối ưu, mặc dù mình đánh giá rất cao nỗ lực và sự chuyên nghiệp của họ. Mình phải thẳng thắn nói rằng mình thất vọng rất nhiều sau các sự kiện kết nối. Mọi người có biết đến nhau, nhưng sau buổi hôm đó cũng chỉ dừng lại ở đó, không đi xa hơn được. Mình nghĩ rằng nguyên nhân quan trọng nhất là các bên **quá nhiều việc**. Mọi người không thể đi đủ sâu để tìm hiểu về nhau. Vì để có thể đi sâu thì phải tốn rất rất nhiều thời gian, mà thường tổ chức phải phát triển đủ lớn để có một người chuyên về việc kết nối, chứ công việc thì rất rất nhiều. Nếu như các tổ chức kết nối cộng đồng chủ động phân loại và tổ chức các buổi gặp gỡ cho các dự án quy mô nhỏ tương tự nhau thì rất tốt, nhưng mình không thấy được điều đó.
 
 [[Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0]]. Bạn không cần phải hỏi mà vẫn biết nhu cầu của những thành viên xung quanh, và họ không cần phải hỏi cũng biết bạn đang cần gì. Mặc dù chúng ta luôn khuyến khích đặt câu hỏi, nhưng [[Một hệ sinh thái không hoạt động bằng cách đặt câu hỏi, mà bằng cách không cần hỏi cũng biết câu trả lời là gì]]. Và các công cụ quản lý dự án hiện nay không có chức năng cung cấp thông tin của nhóm cho những nhóm khác. Chỉ khi nào nhu cầu của các bên liên quan hiện ra ngay trong kho dữ liệu của nhóm mà không cần phải hỏi họ hay thậm chí là nhập liệu, thì lúc đó chúng ta mới có thể bắt đầu nói về một hệ sinh thái mà những thành viên mới – vốn rất thiếu nhân lực – vẫn có thể hưởng lợi.
 
-Trong những phần mềm quản lý công việc trên thị trường hiện nay, mình thấy có duy nhất Obsidian là có thể đáp ứng nhu cầu đó. Triết lý của Obsidian là:
+# Tạo thói quen sử dụng dữ liệu ở local cho mọi người
+Trong những phần mềm quản lý công việc trên thị trường hiện nay, mình thấy có duy nhất Obsidian (và Git) là có thể đáp ứng nhu cầu đó. Triết lý của Obsidian là:
 
 - [[Obsidian lưu dữ liệu nằm trên máy của người dùng|Dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản]]
 - [[Obsidian xem liên kết là công dân hạng nhất|Liên kết là công dân hạng nhất]]
@@ -22,14 +23,40 @@ Các triết lý này mở ra một loạt những tính năng một dự án ph
 - [[Obsidian cực kỳ dễ mở rộng tính năng|Với plugin]], tính năng của nó có thể mở rộng theo nhu cầu và mức độ thành thạo của người dùng, khiến cho nó trở thành một [[Giàn giáo nhận thức cần phải tuỳ biến với quá trình hiểu biết của người dùng|giàn giáo nhận thức giúp giảm sự quá tải của bạn]], khiến cho nó trở thành một môi trường tư duy để tăng cường nhận thức
 - [[Có thể dùng kết hợp Obsidian với các giải pháp xử lý dữ liệu khác]], tránh tình trạng [[Việc lưu dữ liệu ở các công cụ khác nhau tạo thành các đảo thông tin|phân mảnh dữ liệu do lưu dữ liệu ở nhiều công cụ khác nhau]]
 
-Nếu mô hình này thành công, thì ta sẽ xây dựng một mạng kết nối nhu cầu, nơi mà mọi người đáp ứng nhu cầu lẫn nhau. Họ có thể làm được như vậy vì tất cả mọi thành viên đều biết nhu cầu nào đang có nhiều người có nhất, ai đang có cùng nhu cầu với ai, v.v. Các nhu cầu của họ sẽ được thoả mãn bằng việc trao đổi nhu cầu cho nhau, hoặc cùng hợp tác để tạo giải pháp chung. Khi mạng lưới này lớn hơn nữa, thì nó sẽ hoạt động như một nền kinh tế. Bởi vì các nhu cầu trong đây được đáp ứng mà không cần dùng đến tiền làm trung gian, nên nó là một nền kinh tế không dùng tiền. Nó sẽ là sự kết hợp giữa nền kinh tế nền tảng (platform economy) và nền kinh tế quà tặng (gift economy). Nó cũng có liên hệ rất mật thiết tới nền kinh tế chăm sóc (care economy).
+# Xây dựng nền kinh tế không dùng tiền
+Nếu mô hình này thành công, thì ta sẽ xây dựng một mạng kết nối nhu cầu, nơi mà mọi người đáp ứng nhu cầu lẫn nhau. Họ có thể làm được như vậy vì tất cả mọi thành viên đều biết nhu cầu nào đang có nhiều người có nhất, ai đang có cùng nhu cầu với ai, v.v. Các nhu cầu của họ sẽ được thoả mãn bằng việc trao đổi nhu cầu cho nhau, hoặc cùng hợp tác để tạo giải pháp chung. Khi mạng lưới này lớn hơn nữa, thì nó sẽ hoạt động như một nền kinh tế. Bởi vì các nhu cầu trong đây được đáp ứng mà không cần dùng đến tiền làm trung gian, nên nó là một nền kinh tế không dùng tiền. Nó sẽ là sự kết hợp giữa nền kinh tế nền tảng (platform economy) và nền kinh tế quà tặng (gift economy). Nó cũng có liên hệ rất mật thiết tới [[Nền kinh tế chăm sóc]] (care economy).
 
 Ý tưởng [nền kinh tế không dùng tiền](https://en.wikipedia.org/wiki/Non-monetary_economy "Non-monetary economy - Wikipedia") không phải là một khái niệm mới. Một ví dụ điển hình là [Hệ thống Trao đổi Cộng đồng (Community Exchange System)](https://www.community-exchange.org/home/ "Community Exchange System | Your Talents are Your Wealth") với hơn 1200 nhóm trao đổi ở 107 nước. Tuy nhiên chưa có ở Việt Nam. 
 
 
-> [!NOTE] Bài chi tiết: [Một đám mây chim sáo](https://quảcầu.cc/mot-dam-may-chim-sao/?utm_source=Obsidian+%C2%BB+%C4%90%E1%BB%99ng+l%E1%BB%B1c+th%E1%BB%B1c+hi%E1%BB%87n+d%E1%BB%B1+%C3%A1n+n%C3%A0y&utm_medium=vault&utm_campaign=Gi%E1%BB%9Bi+thi%E1%BB%87u+web)
+> [!info] Bài chi tiết: [Một đám mây chim sáo](https://quảcầu.cc/mot-dam-may-chim-sao/?utm_source=Obsidian+%C2%BB+%C4%90%E1%BB%99ng+l%E1%BB%B1c+th%E1%BB%B1c+hi%E1%BB%87n+d%E1%BB%B1+%C3%A1n+n%C3%A0y&utm_medium=vault&utm_campaign=Gi%E1%BB%9Bi+thi%E1%BB%87u+web)
 
 Vấn đề hiện tại bây giờ chỉ là: có bao nhiêu nhóm dự án sẵn sàng muốn sử dụng Obsidian cho việc quản lý dự án của mình?
+
+# Tóm lại
+
+```mermaid
+%%{init: {"flowchart": {"htmlLabels": false}} }%%
+flowchart TB
+subgraph Giai đoạn
+    a1["Tạo thói quen sử dụng\ndữ liệu ở local cho mọi người"] 
+    b1["Liên thông dữ liệu giữa các nhóm dự án"]
+    c1["Xây dựng nền kinh tế không dùng tiền"]
+    a1-->b1-->c1
+end
+
+subgraph Sản phẩm
+	a2["`Vault **Obsidian, quản lý dự án và công cụ nghĩ**`"]
+	b2["Knowledge graph"]
+	c2["Mạng kết nối nhu cầu"]
+	a2-->b2-->c2
+end
+a1-.->a2
+b1-.->b2
+c1-.->c2
+```
+
+Xem kế hoạch chi tiết ở [[📐 Dự án]]
 
 
 # Phụ lục

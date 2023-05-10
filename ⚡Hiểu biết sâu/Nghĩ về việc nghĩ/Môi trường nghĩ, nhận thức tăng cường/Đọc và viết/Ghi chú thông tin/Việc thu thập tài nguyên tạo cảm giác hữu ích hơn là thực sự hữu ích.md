@@ -1,7 +1,7 @@
 ---
 share: True
 ---
-https://notes.andymatuschak.org/z8QSUyNdq3CMK79KSnCW7QTR1MPHEFi4Q2LY8
+Nguồn:: [[Andy Matuschak]], [Collecting material feels more useful than it usually is](https://notes.andymatuschak.org/z8QSUyNdq3CMK79KSnCW7QTR1MPHEFi4Q2LY8)
 
 Accumulating tabs, saving PDFs, and making bookmarks feels like progress, but we systematically overrate its value. [Understanding requires effortful engagement](https://notes.andymatuschak.org/zX1WtJ4ouE8sjN1NgWHsGVg8ZnVfp5Kz74Vs); you are not likely to draw much understanding from a folder of barely-skimmed PDFs.
 

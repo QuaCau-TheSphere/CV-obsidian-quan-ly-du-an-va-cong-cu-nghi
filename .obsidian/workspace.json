@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình thực ra là dùng ẩn dụ.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "d5bcfee9dc96d354",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc/Nhiều thảo luận về nền kinh tế chăm sóc chỉ nói đến lợi nhuận tiềm năng của nó, chứ không để ý vào các bất bình đẳng xã hội từ việc thiếu để ý và quan tâm đến các công việc chăm sóc.md",
-                "mode": "source",
+                "file": "📐 Dự án/Tài liệu/Động lực thực hiện dự án này.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -92,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5026054382324
+    "width": 276.5026054382324,
+    "collapsed": true
   },
   "right": {
     "id": "734eab439a731eb8",
@@ -108,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc/Nhiều thảo luận về nền kinh tế chăm sóc chỉ nói đến lợi nhuận tiềm năng của nó, chứ không để ý vào các bất bình đẳng xã hội từ việc thiếu để ý và quan tâm đến các công việc chăm sóc.md",
+                "file": "📐 Dự án/Tài liệu/Động lực thực hiện dự án này.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc/Nhiều thảo luận về nền kinh tế chăm sóc chỉ nói đến lợi nhuận tiềm năng của nó, chứ không để ý vào các bất bình đẳng xã hội từ việc thiếu để ý và quan tâm đến các công việc chăm sóc.md",
+                "file": "📐 Dự án/Tài liệu/Động lực thực hiện dự án này.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc/Nhiều thảo luận về nền kinh tế chăm sóc chỉ nói đến lợi nhuận tiềm năng của nó, chứ không để ý vào các bất bình đẳng xã hội từ việc thiếu để ý và quan tâm đến các công việc chăm sóc.md"
+                "file": "📐 Dự án/Tài liệu/Động lực thực hiện dự án này.md"
               }
             }
           },
@@ -189,45 +176,45 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "d5bcfee9dc96d354",
+  "active": "0bf0a4485d9a4b64",
   "lastOpenFiles": [
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Việc trì hoãn giúp đánh giá được mức độ quan trong.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc/Nền kinh tế chăm sóc.md",
+    "📐 Dự án/Tài liệu/nền kinh tế chăm sóc.md",
+    "📐 Dự án/Tài liệu/Động lực thực hiện dự án này.md",
+    "📐 Dự án/Tài liệu/~syncthing~nền kinh tế chăm sóc.md.tmp",
     "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc/Kinh tế chăm sóc.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc/Công việc chăm sóc không lương thường vô hình trong các chính sách và ngân sách bởi vì nó không nằm trong định nghĩa và đo lường theo cách truyền thống của nền kinh tế.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc/Các công việc nấu nướng, dọn dẹp, chăm sóc trẻ em, người già và người bệnh tại gia đình thường được hiểu là công việc chăm sóc không lương.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc/Chưa có một lý thuyết chắc chắn nào về nền kinh tế chăm sóc.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc/Công việc chăm sóc không lương được gán cho là không có giá trị về kinh tế bất chấp một thực tế về những đóng góp to lớn của công việc này cho nền kinh tế và xã hội.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc/Tính trung bình, phụ nữ làm công việc chăm sóc không được trả lương nhiều hơn ít nhất hai lần rưỡi so với nam giới.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc/Nhiều thảo luận về nền kinh tế chăm sóc chỉ nói đến lợi nhuận tiềm năng của nó, chứ không để ý vào các bất bình đẳng xã hội từ việc thiếu để ý và quan tâm đến các công việc chăm sóc.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình thực ra là dùng ẩn dụ.md",
+    "📐 Dự án/Tài liệu/Tính làm gì tiếp theo？.md",
+    "📐 Dự án/Tài liệu/Mọi người hay thảo luận ở đâu？.md",
+    "📐 Dự án/Tài liệu/Những dấu mốc.md",
+    "📐 Dự án/Tài liệu/Nơi này là nơi nào？.md",
+    "📐 Dự án/Tài liệu/Tại sao lại cần tải vault về hơn là đọc trên web？.md",
+    "📐 Dự án/Tài liệu/Tôi có thể giúp gì？.md",
+    "📜 Tài nguyên/📜 Tài nguyên.md",
+    "📐 Dự án/📐 Dự án.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc/Nhiều thảo luận về nền kinh tế chăm sóc chỉ nói đến lợi nhuận tiềm năng của nó, chứ không để ý vào các bất bình đẳng xã hội từ việc thiếu để ý và quan tâm đến các công việc chăm sóc.md",
+    "📐 Dự án/Tài liệu/~syncthing~Động lực thực hiện dự án này.md.tmp",
+    "📐 Dự án/Tài liệu/~syncthing~Tính làm gì tiếp theo.md.tmp",
+    "📐 Dự án/Tài liệu/~syncthing~Nơi này là nơi nào？.md.tmp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Logo nên được thiết kế một cách độc lập với môi trường, vì nó sẽ được sử dụng ở bất kỳ môi trường nào.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Ghi chú thông tin/Việc thu thập tài nguyên tạo cảm giác hữu ích hơn là thực sự hữu ích.md",
+    "📜 Tài nguyên/Template.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Ghi chú thông tin/~syncthing~Việc thu thập tài nguyên tạo cảm giác hữu ích hơn là thực sự hữu ích.md.tmp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Đối tượng/~syncthing~Đối tượng (hay vật) là cách ta mô phỏng thể giới.md.tmp",
+    "📜 Tài nguyên/Hình thức tổ chức dữ liệu/Hình thức tổ chức dữ liệu.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Ghi chú thông tin/~syncthing~Evergreen notes biến ý tưởng trở thành đối tượng để mình thao tác.md.tmp",
+    "📜 Tài nguyên/~syncthing~Template.md.tmp",
+    "⚡Hiểu biết sâu/Ξ Nguồn/~syncthing~Sách kinh tế.md.tmp",
+    "📜 Tài nguyên/Hình thức tổ chức dữ liệu/Wiki cá nhân.md",
+    "📜 Tài nguyên/Nơi gặp mặt offline/~syncthing~Nơi gặp mặt offline.md.tmp",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc/Công việc chăm sóc không lương thường vô hình trong các chính sách và ngân sách bởi vì nó không nằm trong định nghĩa và đo lường theo cách truyền thống của nền kinh tế.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc/Các công việc nấu nướng, dọn dẹp, chăm sóc trẻ em, người già và người bệnh tại gia đình thường được hiểu là công việc chăm sóc không lương.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc/Chưa có một lý thuyết chắc chắn nào về nền kinh tế chăm sóc.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc/Công việc chăm sóc không lương được gán cho là không có giá trị về kinh tế bất chấp một thực tế về những đóng góp to lớn của công việc này cho nền kinh tế và xã hội.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc/Tính trung bình, phụ nữ làm công việc chăm sóc không được trả lương nhiều hơn ít nhất hai lần rưỡi so với nam giới.md",
     "Thiết lập/Ảnh/Pasted image 20230509215724.png",
     "Thiết lập/Gõ tắt.md",
-    "🌟 Mở đầu.md",
-    "Thiết lập/Templates/Ý tưởng.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Thời nông nghiệp, người giàu là người có nhiều ruộng đất. Thời công nghiệp, người  giàu là người có nhiều nhà máy.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình thực ra là dùng ẩn dụ.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình là một cái gì đó thâm nhập vào đời sống của chúng ta, nhưng lại gần như vô hình.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình viên biết lập trình chủ yếu là nhờ biết google.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Python/Dictionaries are useful for fast lookups by key, lists are useful for ordered sequences of items, and objects are useful for representing things with properties and behaviors.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Xu thế kinh tế mới.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Console giúp.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Python/Package, module, và library là những cái tên khác nhau cho cùng một thứ.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Python/Python không khuyến khích việc đọc kỹ đối tượng để bảo vệ tính toàn vẹn của đối tượng và giảm thiểu khả năng xảy ra lỗi.md",
-    "📜 Tài nguyên/📜 Tài nguyên.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Python",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/JavaScript",
-    "📜 Tài nguyên/Loại hình dự án.md",
-    "📜 Tài nguyên/Cách đặt URL.md",
-    "📜 Tài nguyên/Nghiên cứu/Cơ sở dữ liệu.md",
-    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm xây dựng cộng đồng/Phần mềm xây dựng cộng đồng.md",
-    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm quản lý công việc/Fibery.md",
-    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm quản lý công việc/Tana.md",
-    "📜 Tài nguyên/Nghiên cứu",
-    "📜 Tài nguyên/Nơi gặp mặt offline/TPHCM/Không gian nghệ thuật",
-    "📜 Tài nguyên/Nơi gặp mặt offline/TPHCM/Nhà riêng",
-    "📜 Tài nguyên/Nơi gặp mặt offline/Hà Nội",
-    "📜 Tài nguyên/Nơi gặp mặt offline/New folder",
-    "📜 Tài nguyên/Nơi gặp mặt offline/TPHCM/Quán không có phòng riêng ở TPHCM",
-    "📜 Tài nguyên/Nơi gặp mặt offline/TPHCM/Quán có phòng riêng ở TPHCM",
     "Trang chủ.canvas",
     "Thiết lập/Ảnh/logo.png",
     "Thiết lập/Ảnh/Ảnh/Eisenhower-Matrix-Actions-539x600.png",

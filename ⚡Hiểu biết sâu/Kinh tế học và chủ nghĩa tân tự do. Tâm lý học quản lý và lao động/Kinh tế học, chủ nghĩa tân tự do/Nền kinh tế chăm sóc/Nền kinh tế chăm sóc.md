@@ -5,6 +5,6 @@ share: True
 
 ```dataview
 LIST
-FROM "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế chăm sóc" 
+FROM "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc" 
 WHERE file.name!=this.file.name
 ```
