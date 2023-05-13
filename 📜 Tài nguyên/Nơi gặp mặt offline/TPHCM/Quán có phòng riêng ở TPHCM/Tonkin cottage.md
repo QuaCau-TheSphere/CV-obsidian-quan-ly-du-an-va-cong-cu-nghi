@@ -7,7 +7,7 @@ Có loa mic::
 Máy chiếu:: 
 Số người tối đa:: 
 Giá giữ xe:: 10k
-Không gian tạo cảm hứng:: ✔, Không giới hạn
+Không gian tạo cảm hứng:: ✔
 Liên hệ:: 
 
 Nước ngon:: ✔

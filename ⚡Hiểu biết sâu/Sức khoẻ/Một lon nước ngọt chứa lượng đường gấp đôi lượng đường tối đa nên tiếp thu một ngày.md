@@ -29,4 +29,4 @@ Mức đường sử dụng mà WHO thực sự mong muốn là thấp hơn 5%, 
   
 Giảm thịt (đỏ), giảm béo, giảm mặn, và bây giờ là giảm ngọt. Xem ra cái giá phải trả để sống lâu cũng không rẻ.  
   
-Nguồn:: [Vũ Thế Thành: Thôi đừng hảo ngọt nữa](http://thegioihoinhap.vn/song-khoe/an-toan-thuc-pham/vu-the-thanh-thoi-dung-hao-ngot-nua)
+Nguồn:: Vũ Thế Thành, [Thôi đừng hảo ngọt nữa](http://thegioihoinhap.vn/song-khoe/an-toan-thuc-pham/vu-the-thanh-thoi-dung-hao-ngot-nua)

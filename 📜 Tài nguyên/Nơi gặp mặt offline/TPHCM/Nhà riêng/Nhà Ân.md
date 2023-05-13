@@ -1,6 +1,3 @@
----
-share: True
----
 Không bị ồn từ bên ngoài:: ✔
 Nhà vệ sinh:: ✔
 Máy chiếu:: ✔

@@ -9,10 +9,10 @@ alias: Nơi gặp mặt offline tại TPHCM
 > Ví dụ:
 > `where wifi = "✔" and không-bị-ồn-từ-bên-ngoài="✔" `
 
-
+![[Quán có phòng riêng ở TPHCM]]
+# Quán có phòng riêng
 ```dataview
 Table 
-	split(file.folder, "/")[3] as "Hình thức",	
 	giá-rẻ as "Giá rẻ", 
 	wifi as Wifi, 
 	nhà-vệ-sinh as "Nhà vệ sinh" , 
@@ -26,8 +26,88 @@ Table
 	ở-lại-tới-23h as "Ở lại tới 23h", 
 	không-gian-tạo-cảm-hứng as "Không gian tạo cảm hứng", 
 	có-loa-mic as "Có loa mic"
-FROM "📜 Tài nguyên/Nơi gặp mặt offline/TPHCM"
-Where file.name!=split(file.folder, "/")[3]
+FROM "📜 Tài nguyên/Nơi gặp mặt offline/TPHCM/Quán có phòng riêng ở TPHCM"
+Where file.name!=split(file.folder, "/")[3] and file.name!="Nhà Ân" and file.name!=this.file.name
+sort "Hình thức" 
+```
+# Quán không có phòng riêng
+```dataview
+Table 
+	giá-rẻ as "Giá rẻ", 
+	wifi as Wifi, 
+	nhà-vệ-sinh as "Nhà vệ sinh" , 
+	máy-chiếu as "Máy chiếu",
+	được-nói-to as "Được nói to", 
+	không-bị-ồn-từ-bên-ngoài as "Không bị ồn từ bên ngoài", 
+	bàn-đúng-kích-thước-làm-việc as "Bàn đúng kích thước làm việc", 
+	có-thể-vận-động-cơ-thể as "Có thể vận động cơ thể", 
+	nước-ngon as "Nước ngon", 
+	gần-nhà-đa-số-thành-viên as "Gần trung tâm", 
+	ở-lại-tới-23h as "Ở lại tới 23h", 
+	không-gian-tạo-cảm-hứng as "Không gian tạo cảm hứng", 
+	có-loa-mic as "Có loa mic"
+FROM "📜 Tài nguyên/Nơi gặp mặt offline/TPHCM/Quán không có phòng riêng ở TPHCM"
+Where file.name!=split(file.folder, "/")[3] and file.name!="Nhà Ân" and file.name!=this.file.name
+sort "Hình thức" 
+```
+# Phòng họp riêng
+```dataview
+Table 
+	giá-rẻ as "Giá rẻ", 
+	wifi as Wifi, 
+	nhà-vệ-sinh as "Nhà vệ sinh" , 
+	máy-chiếu as "Máy chiếu",
+	được-nói-to as "Được nói to", 
+	không-bị-ồn-từ-bên-ngoài as "Không bị ồn từ bên ngoài", 
+	bàn-đúng-kích-thước-làm-việc as "Bàn đúng kích thước làm việc", 
+	có-thể-vận-động-cơ-thể as "Có thể vận động cơ thể", 
+	nước-ngon as "Nước ngon", 
+	gần-nhà-đa-số-thành-viên as "Gần trung tâm", 
+	ở-lại-tới-23h as "Ở lại tới 23h", 
+	không-gian-tạo-cảm-hứng as "Không gian tạo cảm hứng", 
+	có-loa-mic as "Có loa mic"
+FROM "📜 Tài nguyên/Nơi gặp mặt offline/TPHCM/Phòng họp riêng ở TPHCM"
+Where file.name!=split(file.folder, "/")[3] and file.name!="Nhà Ân" and file.name!=this.file.name
+sort "Hình thức" 
+```
+# Không gian làm việc chung
+```dataview
+Table 
+	giá-rẻ as "Giá rẻ", 
+	wifi as Wifi, 
+	nhà-vệ-sinh as "Nhà vệ sinh" , 
+	máy-chiếu as "Máy chiếu",
+	được-nói-to as "Được nói to", 
+	không-bị-ồn-từ-bên-ngoài as "Không bị ồn từ bên ngoài", 
+	bàn-đúng-kích-thước-làm-việc as "Bàn đúng kích thước làm việc", 
+	có-thể-vận-động-cơ-thể as "Có thể vận động cơ thể", 
+	nước-ngon as "Nước ngon", 
+	gần-nhà-đa-số-thành-viên as "Gần trung tâm", 
+	ở-lại-tới-23h as "Ở lại tới 23h", 
+	không-gian-tạo-cảm-hứng as "Không gian tạo cảm hứng", 
+	có-loa-mic as "Có loa mic"
+FROM "📜 Tài nguyên/Nơi gặp mặt offline/TPHCM/Không gian làm việc chung ở TPHCM"
+Where file.name!=split(file.folder, "/")[3] and file.name!="Nhà Ân" and file.name!=this.file.name
+sort "Hình thức" 
+```
+# Địa điểm công cộng
+```dataview
+Table 
+	giá-rẻ as "Giá rẻ", 
+	wifi as Wifi, 
+	nhà-vệ-sinh as "Nhà vệ sinh" , 
+	máy-chiếu as "Máy chiếu",
+	được-nói-to as "Được nói to", 
+	không-bị-ồn-từ-bên-ngoài as "Không bị ồn từ bên ngoài", 
+	bàn-đúng-kích-thước-làm-việc as "Bàn đúng kích thước làm việc", 
+	có-thể-vận-động-cơ-thể as "Có thể vận động cơ thể", 
+	nước-ngon as "Nước ngon", 
+	gần-nhà-đa-số-thành-viên as "Gần trung tâm", 
+	ở-lại-tới-23h as "Ở lại tới 23h", 
+	không-gian-tạo-cảm-hứng as "Không gian tạo cảm hứng", 
+	có-loa-mic as "Có loa mic"
+FROM "📜 Tài nguyên/Nơi gặp mặt offline/TPHCM/Địa điểm công cộng ở TPHCM"
+Where file.name!=split(file.folder, "/")[3] and file.name!="Nhà Ân" and file.name!=this.file.name
 sort "Hình thức" 
 ```
 where không-bị-ồn-từ-bên-ngoài="✔" 

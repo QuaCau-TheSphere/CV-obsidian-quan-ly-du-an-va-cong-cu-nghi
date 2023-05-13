@@ -15,6 +15,8 @@ Lý do:: 		ld
 Giải pháp gợi ý:: 		gp
 Liên quan:: 		lq
 Câu hỏi:: 		ch
+Nguồn:: 		ng
+
 # Code nhanh
 ## Dataview
 ```dataview\nLIST\nFROM |\nWHERE\n```		dtv

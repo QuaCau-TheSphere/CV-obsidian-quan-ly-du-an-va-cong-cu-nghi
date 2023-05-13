@@ -14,7 +14,10 @@ Ngược lại, vì tính chất công việc, những người có kinh
 
 Những vấn đề mà một dự án nhỏ, không có nhiều tiền và cảm thấy có quá nhiều việc sẽ có lúc cần dùng đến.
 
-Xem thêm:: [[Động lực thực hiện dự án này]], [[Tính làm gì tiếp theo？]] 
+Không phát minh lại bánh xe, cái nào người khác làm rồi mà làm hay hơn mình thì chỉ dẫn link hoặc copy
+
+Xem thêm:: [[Động lực thực hiện dự án này]]
+
 # Cách tổ chức dữ liệu
 Cách vault này tổ chức cũng giống Wikipedia, nhưng tiêu đề từng trang không phải là một chủ đề mà là một câu. Như vậy thì sự tập trung vào một ý niệm sẽ được đẩy lên cao hơn, cũng sẽ dễ làm mình thấy được sự liên kết giữa các ý lại với nhau hơn. 
 
@@ -25,17 +28,10 @@ Nhiều ghi chú trong đây sẽ không ở trạng thái hoàn thiện.
 # Các chủ đề được bàn đến trong [[⚡Hiểu biết sâu]]
 ![[Drawing 2023-04-12 13.38.23.excalidraw.png]]
 
-  
 # Cách [[⚔️ Lớp Obsidian và Git]]
 Các bài tập không chỉ được thiết kế Chỉnh từ từ để không bị ngộp, nhưng sau đó vứt đi, mà còn chính là vault của bạn trong việc quản lý dự án
 Các bài học phải đến từ serious use of learner. Nó phải giải đáp được nhu cầu có thực của riêng họ, chứ không phải chỉ là một ví dụ cho dễ hiểu xong rồi xóa đi. Bài tập được giao cho họ phải là thứ họ rồi cũng sẽ phải làm
 Bỏ qua các bước như học js bài bản
-
-Nếu đi qua hết tất cả các thử thách ở đây, bạn sẽ có được:
-- Một bản kế hoạch cho cuộc sống của mình
-- Một kho dữ liệu quản lý các dự án mình tham gia
-- Kiến thức lập trình cơ bản. Bạn sẽ tự tin với công nghệ thông tin, thấy mình có thể làm chủ được nó như thế nào
-- Sự rõ ràng hơn trong chặng đường sắp tới của mình.
 
 Vault này được khởi xướng bởi Quả Cầu.
 

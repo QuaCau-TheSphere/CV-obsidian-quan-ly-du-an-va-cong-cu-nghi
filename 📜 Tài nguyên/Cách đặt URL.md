@@ -7,3 +7,5 @@ Medium:
 - forum
 - blog
 - vault
+- chat
+- form
