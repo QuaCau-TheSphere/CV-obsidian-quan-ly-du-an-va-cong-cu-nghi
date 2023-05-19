@@ -9,7 +9,6 @@ share: True
 -   Xác định mức độ sẵn sàng trả tiền của người dùng cho một giải pháp.
 -   Xác định các yếu tố ảnh hưởng đến quá trình ra quyết định của người dùng.
 -   …
-
 # Trong quá trình phát triển sản phẩm/tính năng
 
 -   Kiểm tra cách khách hàng tiếp nhận ý tưởng về sản phẩm, tính năng, phản ứng với các thông điệp
@@ -27,3 +26,5 @@ Sau khi sản phẩm/tính năng được phát hành, có thể tiến hành ph
 -   Thu thập phản hồi về các cải tiến tiềm năng hoặc các tính năng mới cho các lần lặp lại trong tương lai
 -   Đo lường mức độ thành công của sản phẩm/tính năng dựa trên việc chấp nhận và sử dụng của người dùng
 -   Thu thập lời chứng thực hoặc câu chuyện thành công cho mục đích tiếp thị.
+
+Nguồn:: [[Hoàng Đức Minh]]

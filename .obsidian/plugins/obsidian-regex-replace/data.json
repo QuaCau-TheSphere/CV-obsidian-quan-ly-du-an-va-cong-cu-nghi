@@ -1,6 +1,6 @@
 {
-  "findText": "(.*)",
-  "replaceText": "<p>$1</p>",
+  "findText": "^",
+  "replaceText": "    ",
   "useRegEx": true,
   "selOnly": true,
   "caseInsensitive": false,

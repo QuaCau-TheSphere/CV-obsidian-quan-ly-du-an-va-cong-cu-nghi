@@ -1,4 +1,4 @@
 ---
 share: True
 ---
-Nguồn:: 
+Nguồn:: [[Tự ngẫm nghĩ]]

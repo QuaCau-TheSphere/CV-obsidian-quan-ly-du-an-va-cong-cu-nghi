@@ -3,6 +3,7 @@ share: True
 ---
 - Tên file
 - Link
-- Search
+- Search autocomplete
 - Tóm tắt chủ đề
-- Bảng xổ xong
+- Link autocomplete
+- Bảng điều hướng

@@ -18,3 +18,4 @@ action https://discord.gg/obsidianmd
 color blue
 ```
 ^button-n8na
+[[Obsidian không mạnh về quản lý công việc]]

@@ -36,3 +36,12 @@ Get-ChildItem -Force -Recurse -File -Filter "desktop.ini" | Remove-Item -force
 ```PowerShell
 New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
 ```
+
+# Thêm [[Biến môi trường giúp ta điền những giá trị lặp đi lặp lại nhanh hơn|biến môi trường]] 
+```PowerShell
+[System.Environment]::SetEnvironmentVariable('ResourceGroup','AZ_Resource_Group', 'User')
+$env:PATH += ";SomeRandomPath"
+```
+```PowerShell
+[Environment]::SetEnvironmentVariable("Path",    [Environment]::GetEnvironmentVariable("Path", [EnvironmentVariableTarget]::Machine) + ";C:\bin", [EnvironmentVariableTarget]::Machine)
+```

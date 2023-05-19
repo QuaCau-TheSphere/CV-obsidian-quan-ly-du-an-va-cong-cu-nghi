@@ -22,28 +22,7 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": true,
-  "recentFilesStore": [
-    {
-      "filepath": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Trong quá trình tập trung, sự chăm lo của người khác với những nhu cầu khác của mình sẽ trở nên vô hình và cần trở nên vô hình.md",
-      "timestamp": 1683992452810
-    },
-    {
-      "filepath": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc/Tính trung bình, phụ nữ làm công việc chăm sóc không được trả lương nhiều hơn ít nhất hai lần rưỡi so với nam giới.md",
-      "timestamp": 1683992413540
-    },
-    {
-      "filepath": "📜 Tài nguyên/Nơi gặp mặt offline/Kinh nghiệm setup khi có cả online và offline.md",
-      "timestamp": 1683991716990
-    },
-    {
-      "filepath": "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Zoom.md",
-      "timestamp": 1683991715133
-    },
-    {
-      "filepath": "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Google Meet.md",
-      "timestamp": 1683991704941
-    }
-  ],
+  "recentFilesStore": [],
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,

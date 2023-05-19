@@ -16,6 +16,7 @@ Giải pháp gợi ý:: 		gp
 Liên quan:: 		lq
 Câu hỏi:: 		ch
 Nguồn:: 		ng
+Xem thêm:: 		xt
 
 # Code nhanh
 ## Dataview

@@ -8,5 +8,5 @@ Zeigarnik found a quirk of the human mind: When a task is unfinished, we can’t
 Whatever the cause, today this is known as the Zeigarnik effect, and psychologists who study task management say it’s part of why so many of us feel perpetually frazzled by the challenge of organizing work and life. When we face all that undone stuff—emails to write, calls to return, people to contact, friends to check in on, memos to draft, children to help—it’s like being a waiter serving a hundred tables at once. If you’ve found yourself in bed at 2 am with your brain screaming at you about that thing you didn’t do, that’s a Zeigarnik moment.
 https://www.wired.com/story/to-do-apps-failed-productivity-tools/
 
-[[Những người viết những app quản lý công việc cũng cảm thấy phần mềm của họ không thể giúp quản lý công việc một cách hiệu quả được]]
+[[Những tác giả của những app quản lý công việc cũng cảm thấy app của họ không thể giúp quản lý công việc một cách hiệu quả được]]
 [[Nỗi ám ảnh với sự hiệu quả có thể đến từ nỗi sợ chết]]

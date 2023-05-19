@@ -20,6 +20,7 @@ Sự thật #3: Chúng ta không tìm hiểu cách mọi thứ vận hành. Chú
 - Vì nó không quan trọng với mình
 - Vì nếu ta tìm được cách nào dùng được, ta sẽ dính với cách đó
 
-Nhưng vì việc [[Đọc lướt không giúp ta tiếp thu được gì cả]], nên ta sẽ thấy nhức đầu khi bật trang mới dù ta không cảm thấy áp lực gì cả. Dễ thấy nhất khi cần ngồi nghiên cứu và ta bật rất nhiều tab
-
 Nguồn:: [[Đừng bắt tôi nghĩ]]
+
+Nhưng vì việc [[Đọc lướt không giúp ta tiếp thu được gì cả]], nên ta sẽ thấy nhức đầu khi bật trang mới dù ta không cảm thấy áp lực gì cả. Dễ thấy nhất khi cần ngồi nghiên cứu và ta bật rất nhiều tab
+[[Ở cấp độ thần kinh, ta không xem con người tương lai của ta là chính ta]]

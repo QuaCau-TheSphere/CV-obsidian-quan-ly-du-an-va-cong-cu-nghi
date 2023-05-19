@@ -8,16 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4746642f16a79190",
+            "id": "8cc73406bd5243b9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Trong quá trình tập trung, sự chăm lo của người khác với những nhu cầu khác của mình sẽ trở nên vô hình và cần trở nên vô hình.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "home-tab-view",
+              "state": {}
             }
           }
         ]
@@ -57,8 +52,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"vô hình\" ",
-                "matchingCase": true,
+                "query": "\"xem thêm::\" ",
+                "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
                 "extraContext": false,
@@ -94,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Trong quá trình tập trung, sự chăm lo của người khác với những nhu cầu khác của mình sẽ trở nên vô hình và cần trở nên vô hình.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Trong quá trình tập trung, sự chăm lo của người khác với những nhu cầu khác của mình sẽ trở nên vô hình và cần trở nên vô hình.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Trong quá trình tập trung, sự chăm lo của người khác với những nhu cầu khác của mình sẽ trở nên vô hình và cần trở nên vô hình.md"
-              }
+              "state": {}
             }
           },
           {
@@ -175,52 +166,52 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "4746642f16a79190",
+  "active": "8cc73406bd5243b9",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc/Tính trung bình, phụ nữ làm công việc chăm sóc không được trả lương nhiều hơn ít nhất hai lần rưỡi so với nam giới.md",
-    "📜 Tài nguyên/Nơi gặp mặt offline/Kinh nghiệm setup khi có cả online và offline.md",
-    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Zoom.md",
-    "📜 Tài nguyên/Nơi gặp mặt offline/Zoom.md",
-    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Google Meet.md",
-    "📜 Tài nguyên/Nơi gặp mặt offline/Google Meet.md",
-    "Thiết lập/Ảnh/Pasted image 20230513215627.png",
-    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Discord (gọi online).md",
-    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm chat nhóm/Gather.md",
-    "📜 Tài nguyên/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Gather.md",
-    "📜 Tài nguyên/Nơi gặp mặt offline/Gather.md",
-    "📜 Tài nguyên/Nơi gặp mặt offline/Discord.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google.md",
-    "quick.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Ghi chú thông tin/Ý tưởng nếu không ghi lại ngay sẽ quên rất nhanh.md",
-    "fhh.md",
-    "🌟 Mở đầu.md",
-    "Trang chủ.canvas",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc/Nền kinh tế chăm sóc.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình là một cái gì đó thâm nhập vào đời sống của chúng ta, nhưng lại gần như vô hình.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Sự tập trung đòi hỏi người khác phải lo cho những nhu cầu khác của mình.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Trong quá trình tập trung, sự chăm lo của người khác với những nhu cầu khác của mình sẽ trở nên vô hình và cần trở nên vô hình.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc/Với sự phát triển của AI, các ngành về chăm sóc sẽ trở thành lợi thế.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc/Sự khác biệt giữa nền kinh tế chăm sóc và các ngành dịch vụ là nó tập trung vào người yếu thế, và hệ thống hoá các khái niệm.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Xu thế kinh tế mới (2).md",
+    "📐 Dự án/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Ngân hàng trung ương quản lý được digital currency, .md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế hậu khan hiếm (2).md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Đi cùng với khái niệm bền vững là khan hiếm (2).md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Ở cấp độ thần kinh, ta không xem con người tương lai c.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Những người viết những app quản lý công việc cũng cảm thấy phần mềm của họ không thể giúp quản lý công việc một cách hiệu quả được.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Đi cùng với khái niệm bền vững là khan hiếm.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Nền kinh tế hậu khan hiếm.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Nền kinh tế chăm sóc.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do/Ngân hàng trung ương quản lý được digital currency, nhưng không phải crypto.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Nền kinh tế dùng tiền, chủ nghĩa tân tự do",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm mạnh của Obsidian/Obsidian miễn phí, không có chức năng nào phải trả tiền hay tính theo đầu người.md",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm mạnh của Obsidian/Obsidian phù hợp cho các dự án nhỏ, không có nhiều tiền.md",
     "📐 Dự án/7 Tài liệu/Hướng dẫn truyền thông.md",
-    "~syncthing~quick.md.tmp",
-    "~syncthing~fhh.md.tmp",
-    "📐 Dự án/9 Blog/Động lực thực hiện dự án này.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Sự hứng thú tạo ra sự tập trung.md",
-    "📐 Dự án/9 Blog/Sự tập trung.md",
-    "📐 Dự án/3 Thành phẩm/Phần mềm/Vault",
-    "📐 Dự án/9 Blog/~syncthing~Untitled.md.tmp",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Ghi chú thông tin/~syncthing~Untitled.md.tmp",
-    "Thiết lập/The Pandora Box",
-    "Thiết lập/add share key to YAML to all files.py",
-    "📐 Dự án/9 Blog",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/~syncthing~Nghiên cứu.md.tmp",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/~syncthing~Những vị trí tiêu đề xuất hiện.md.tmp",
+    "📐 Dự án/9 Blog/Nơi này là nơi nào？.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Phân tích xu hướng/Dữ liệu cho ta biết hành vi của một người, nhưng không nói lý do họ làm điều đó.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Phân tích xu hướng/Dữ liệu cho dự đoán tin cậy về hành vi người dùng.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Đọc mục lục một cuốn sách thì đơn giản, nhưng có thể truy xuất được điều mình cần và vận dụng nó một cách hiệu quả thì phải đọc cả cuốn sách.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Essence của một cuốn sách chính là mục lục của nó.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Phân tích xu hướng/Các mạng xã hội có những báo cáo về xu hướng của người dùng nền tảng của họ.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Khảo sát, phỏng vấn/Phỏng vấn phù hợp để hiểu lý do cho một hành vi của một người.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Khảo sát, phỏng vấn/Phỏng vấn phù hợp để đánh giá cách tiếp nhận hay thái độ.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Khảo sát, phỏng vấn/Phỏng vấn thường kém chính xác trong việc dự đoán các hành vi tương lai của người dùng.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Phân tích xu hướng",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/New folder",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Quản lý dữ liệu/Các tổ chức thường chỉ lưu trữ kiến thức mà ít khi dành nhiều sự chú ý tới kết nối chúng.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Quản lý dữ liệu",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Xác định mục tiêu",
+    "📜 Tài nguyên/Phần mềm quản lý kiến thức cá nhân",
+    "📐 Dự án/9 Blog/~syncthing~Nơi này là nơi nào？.md.tmp",
+    "📐 Dự án/3 Thành phẩm/Phần mềm/Web/~syncthing~Link rút gọn.md.tmp",
+    "📐 Dự án/9 Blog/~syncthing~Các thảo luận về nền kinh tế xanh ít đề cập đến việc giảm tải áp lực cho mọi người.md.tmp",
+    "⚡Hiểu biết sâu/Ξ Nguồn/PDF/Joshua Seiden, Outcomes Over Output, 2019.epub",
+    "Thiết lập/Ảnh/logo2.png",
+    "Thiết lập/Ảnh/Pasted image 20230513215627.png",
+    "Trang chủ.canvas",
     "Thiết lập/Ảnh/Pasted image 20230509215724.png",
     "Thiết lập/Ảnh/logo.png",
     "Thiết lập/Ảnh/Ảnh/Eisenhower-Matrix-Actions-539x600.png",
     "Thiết lập/Ảnh/Ảnh/Eisenhower-Matrix-920x1024.png",
     "Thiết lập/Ảnh/Ảnh/Procrastinators-Matrix1-539x600.png",
-    "Thiết lập/Ảnh/logo2.png",
     "Thiết lập/Ảnh/logo2.svg",
     "Thiết lập/Ảnh/Điều gì đưa bạn đến nơi này ngày hôm nay.png",
     "Thiết lập/Excalidraw/Drawing 2023-04-12 13.38.23.excalidraw.png"

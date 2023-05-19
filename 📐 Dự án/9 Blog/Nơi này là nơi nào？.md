@@ -9,6 +9,7 @@ share: True
 - Thử nghiệm một dự án mở ([[📐 Dự án]]) 
 
 Nhiều cái rất bình thường và hiển nhiên với người có kinh nghiệm, lại là những thử gây trắc trở với những người mới. Có thể ở đâu đó có những bài viết chất lượng, đậm đặc insight, nhưng nó lại không cạnh tranh nổi với các bài viết chú trọng vào SEO.
+Người tự học quản lý dự án hoặc lập trình
 
 Ngược lại, vì tính chất công việc, những người có kinh nghiệm thực tế đi quá sâu nên không có nhiều thời gian để mở rộng
 
@@ -16,23 +17,33 @@ Những vấn đề mà một dự án nhỏ, không có nhiều tiền và cả
 
 Không phát minh lại bánh xe, cái nào người khác làm rồi mà làm hay hơn mình thì chỉ dẫn link hoặc copy
 
-Xem thêm:: [[Động lực thực hiện dự án này]]
+
+Để hiểu thêm về động lực thực hiện dự án này, xem bài [[Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành]]
+
 
 # Cách tổ chức dữ liệu
 Cách vault này tổ chức cũng giống Wikipedia, nhưng tiêu đề từng trang không phải là một chủ đề mà là một câu. Như vậy thì sự tập trung vào một ý niệm sẽ được đẩy lên cao hơn, cũng sẽ dễ làm mình thấy được sự liên kết giữa các ý lại với nhau hơn. 
 
 [[Evergreen notes biến ý tưởng trở thành đối tượng để mình thao tác]]
 
-Nhiều ghi chú trong đây sẽ không ở trạng thái hoàn thiện.
+Nhiều ghi chú trong đây sẽ không ở trạng thái hoàn thiện. Thứ cần được hoàn thiện là sự liên kết giữa các trang và nội dung một số trang hay được đọc và chia sẻ nhiều.
 
 # Các chủ đề được bàn đến trong [[⚡Hiểu biết sâu]]
 ![[Drawing 2023-04-12 13.38.23.excalidraw.png]]
 
-# Cách [[⚔️ Lớp Obsidian và Git]]
-Các bài tập không chỉ được thiết kế Chỉnh từ từ để không bị ngộp, nhưng sau đó vứt đi, mà còn chính là vault của bạn trong việc quản lý dự án
+# Cách các bài học trong [[⚔️ Lớp Obsidian và Git]] được thiết kế
+Nếu bạn chưa rành về lập trình, thì khó khăn bạn gặp sẽ nhiều hơn. Vừa muốn tập trung vào ý tưởng vừa cần phải học ngôn ngữ đó.
+Các bài tập không chỉ được thiết kế để bạn nắm được cách sử dụng Obsidian và các phần mềm bổ trợ khácChỉnh từ từ để không bị ngộp, nhưng sau đó vứt đi, mà còn chính là vault của bạn trong việc quản lý dự án
 Các bài học phải đến từ serious use of learner. Nó phải giải đáp được nhu cầu có thực của riêng họ, chứ không phải chỉ là một ví dụ cho dễ hiểu xong rồi xóa đi. Bài tập được giao cho họ phải là thứ họ rồi cũng sẽ phải làm
-Bỏ qua các bước như học js bài bản
+Không học bài bản ngôn ngữ, nhưng đụng vấn đề nào cần giải thích thì sẽ giải thích, cũng như dẫn đến các tài liệu sâu hơn
+Tất nhiên, học được bài bản thì rất tốt, nhưng [[Việc mò mẫm vui, đỡ phải nghĩ và thường là hiệu quả hơn là đọc hướng dẫn cẩn thận]], [[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]]. 
+
+Để đọc được tới dòng này là cả một sự nỗ lực ở lại của bạn. Dù bạn có từng đọc bao nhiêu trang khác rồi thì 
+
+---
 
 Vault này được khởi xướng bởi Quả Cầu.
 
 Bọn mình khuyến khích bạn tải vault trực tiếp hơn là đọc trên web. [[Tại sao lại cần tải vault về hơn là đọc trên web？|Tại sao tôi lại nên làm vậy?]] 
+
+Nếu bạn có một phản hồi về một ý tưởng của vault, hoặc có nhu cầu được trao đổi 1-1, hoặc bất cứ vấn đề gì, hãy xem [[Mọi người hay thảo luận ở đâu？]]
