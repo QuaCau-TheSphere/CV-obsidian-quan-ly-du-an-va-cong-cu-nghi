@@ -22,7 +22,24 @@
   "showShortcuts": true,
   "markdownOnly": false,
   "unresolvedLinks": true,
-  "recentFilesStore": [],
+  "recentFilesStore": [
+    {
+      "filepath": "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm yếu của Obsidian/Obsidian không mạnh về quản lý công việc.md",
+      "timestamp": 1684509315863
+    },
+    {
+      "filepath": "📐 Dự án/9 Blog/Những dấu mốc.md",
+      "timestamp": 1684508641181
+    },
+    {
+      "filepath": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/The non-monetary economy, typically embedded in a monetary economy, undertakes tasks that benefit society (whether through producing services, products, or making investments) that the monetary economy does not value.md",
+      "timestamp": 1684496297990
+    },
+    {
+      "filepath": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Ngân hàng trung ương quản lý được digital currency, nhưng không phải crypto.md",
+      "timestamp": 1684496288830
+    }
+  ],
   "starredFileStore": [],
   "searchDelay": 0,
   "replaceNewTabs": true,
