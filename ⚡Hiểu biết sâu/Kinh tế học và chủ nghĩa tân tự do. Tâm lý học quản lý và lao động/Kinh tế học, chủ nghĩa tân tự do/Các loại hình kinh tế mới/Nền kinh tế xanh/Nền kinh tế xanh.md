@@ -1,6 +1,10 @@
 ---
 share: True
 ---
+![](https://www.researchgate.net/profile/Shikha-Dahiya/publication/344261566/figure/fig1/AS:963472120614930@1606721062323/Venn-diagram-depicting-various-economies-in-green-economy-adapted-from-Kardung-and.png)
+<sub>Dahiya, Shikha & Katakojwala, Ranaprathap & Ramakrishna, Seeram & Venkata Mohan, S. (2020). Biobased Products and Life Cycle Assessment in the Context of Circular Economy and Sustainability. Materials Circular Economy. 2. 7. 10.1007/s42824-020-00007-x. </sub>
+[[Để bắt kịp những công nghệ mới, thường 2 năm rà soát lại một lần]]
+[[Dần dần khái niệm kinh tế xanh được đánh đồng với tăng trưởng xanh]]
 # Lợi ích của doanh nghiệp khi tham gia kinh tế xanh
 - Nhu cầu thị trường
 	- Nhận thức của người tiêu dùng đang tăng lên

@@ -10,3 +10,5 @@ Ví dụ về một số câu hỏi cho ra kết quả không đáng tin cậy:
 
 Mặc dù phỏng vấn khó có thể dự đoán hành vi, nhưng [[Phỏng vấn phù hợp để đánh giá cách tiếp nhận hay thái độ]].
 Nguồn:: [[Hoàng Đức Minh]]
+
+[[Về mặt nhận thức, con người tương lai của chính mình không liên quan gì đến mình]]] ] 

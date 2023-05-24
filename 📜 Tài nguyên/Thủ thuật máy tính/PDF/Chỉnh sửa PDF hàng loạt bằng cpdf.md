@@ -1,7 +1,7 @@
 ---
 share: True
 ---
-# Tách, nhập
+# Tách, nhập trang
 ```PowerShell
 cpdf -split '.\Tổng hợp scan.pdf' -o page%%%.pdf
 cpdf -split-bookmarks 0 a.pdf -o file%%%.pdf

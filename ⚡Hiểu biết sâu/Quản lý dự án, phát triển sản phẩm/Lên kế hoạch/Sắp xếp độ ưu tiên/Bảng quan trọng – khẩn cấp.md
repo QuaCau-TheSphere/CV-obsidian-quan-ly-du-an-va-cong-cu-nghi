@@ -95,4 +95,4 @@ Tôi thấy rằng khi một người bỏ thời gian ra để làm một thứ
 
 I find that when someone's taking time to do something right in the present, they're a perfectionist with no ability to prioritize, whereas when someone took time to do something right in the past, they're a master artisan of great foresight.
 
-[[Ở cấp độ thần kinh, ta không xem con người tương lai của ta là chính ta]]
+[[Về mặt nhận thức, con người tương lai của chính mình không liên quan gì đến mình]]

@@ -23,4 +23,4 @@ Sự thật #3: Chúng ta không tìm hiểu cách mọi thứ vận hành. Chú
 Nguồn:: [[Đừng bắt tôi nghĩ]]
 
 Nhưng vì việc [[Đọc lướt không giúp ta tiếp thu được gì cả]], nên ta sẽ thấy nhức đầu khi bật trang mới dù ta không cảm thấy áp lực gì cả. Dễ thấy nhất khi cần ngồi nghiên cứu và ta bật rất nhiều tab
-[[Ở cấp độ thần kinh, ta không xem con người tương lai của ta là chính ta]]
+[[Về mặt nhận thức, con người tương lai của chính mình không liên quan gì đến mình]]
