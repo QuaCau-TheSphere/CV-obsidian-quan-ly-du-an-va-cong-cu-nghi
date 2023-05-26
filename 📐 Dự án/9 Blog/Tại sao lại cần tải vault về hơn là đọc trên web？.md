@@ -19,13 +19,16 @@ Ví dụ, ở trên Obsidian, bạn có thể xem được đồ thị mối li�
 Hoặc nếu đọc trên web bạn sẽ không có phần biết xem có những ghi chú nào liên kết tới trang bạn đang đọc như thế này:
 ![](https://i.imgur.com/UbXZspz.png)
 
- Xem thêm:: [[Theo tính năng của plugin|Obsidian có những tính năng nào hay?]]
+Xem thêm:: [[Theo tính năng của plugin|Obsidian có những tính năng nào hay?]]
 
 ## Thời gian chuyển trang gần như là tức thời
-Điều này giúp bạn nhanh chóng kiểm tra giả thiết các câu hỏi của bạn
+Điều này giúp bạn nhanh chóng kiểm tra giả thiết các câu hỏi của bạn.
 
-## Các file không có từ khoá `share` trên YAML
-Như các file PDF hoặc file thiết lập
+## Các file không thể hoặc không cần phải để lên web
+Ví dụ:
+- Các file PDF hoặc thu âm do không phải là định dạng markdown nên sẽ không có YAML. Mà plugin tạo web, [Mkdocs Publisher](https://obsidian-publisher.netlify.app/github%20publisher/commands/#upload "Commands - Obsidian Mkdocs Publisher") đòi hỏi phải có từ khoá `share` trong YAML thì mới đăng lên web
+- Các file trong thư mục `Thiết lập` dù ở dạng markdown nhưng việc để lên web cũng không cần thiết
+- Các file có dung lượng lớn hơn 100 MB thì GitHub không chịu nhận
 
 # Vậy bản web được sinh ra để làm gì?
 - Dễ giới thiệu cho người mới, 
@@ -33,13 +36,12 @@ Như các file PDF hoặc file thiết lập
 - ~~Tăng SEO~~  Thêm nguồn tài nguyên chất lượng cho các máy tìm kiếm như Google, Bing
 - Thêm nguồn ngữ liệu chất lượng để huấn luyện cho máy
 
-
 ## Những lỗi trên bản web 
 - Search 
 - Nếu có heading thì bị đổi trên title
 - Cache 🤡
 
-Ví dụ, những trang có dataview sẽ không chắc được cập nhật, do plugin tạo web, [Mkdocs Publisher](https://obsidian-publisher.netlify.app/github%20publisher/commands/#upload "Commands - Obsidian Mkdocs Publisher"), không thấy trang đó có sự thay đổi gì.
+Ví dụ, những trang có dataview sẽ không chắc được cập nhật, do plugin tạo web không thấy trang đó có sự thay đổi gì.
 
 Về cơ bản, **những lỗi này không được ưu tiên sửa**. Do nhiệm vụ của nó là để dễ giới thiệu cho người mới, nên khi nó đã làm xong nhiệm vụ của mình thì có lẽ nên tập trung sức lực cho những thứ khác. Để biết những thứ cần được ưu tiên hơn, bạn có thể đọc trong [[📐 Dự án]].
 

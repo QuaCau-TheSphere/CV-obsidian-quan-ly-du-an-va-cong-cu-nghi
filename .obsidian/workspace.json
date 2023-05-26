@@ -13,14 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Tài nguyên/Nơi gặp mặt offline/Kinh nghiệm setup khi có cả online và offline.md",
+                "file": "📐 Dự án/9 Blog/Tại sao lại cần tải vault về hơn là đọc trên web？.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
+          },
+          {
+            "id": "ef49ef667497bf8c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📜 Tài nguyên/Thủ thuật máy tính/PDF/Tạo mục lục cho PDF.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Tài nguyên/Nơi gặp mặt offline/Kinh nghiệm setup khi có cả online và offline.md",
+                "file": "📜 Tài nguyên/Thủ thuật máy tính/PDF/Tạo mục lục cho PDF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Tài nguyên/Nơi gặp mặt offline/Kinh nghiệm setup khi có cả online và offline.md",
+                "file": "📜 Tài nguyên/Thủ thuật máy tính/PDF/Tạo mục lục cho PDF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜 Tài nguyên/Nơi gặp mặt offline/Kinh nghiệm setup khi có cả online và offline.md"
+                "file": "📜 Tài nguyên/Thủ thuật máy tính/PDF/Tạo mục lục cho PDF.md"
               }
             }
           },
@@ -175,10 +189,19 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "8cc73406bd5243b9",
+  "active": "ef49ef667497bf8c",
   "lastOpenFiles": [
-    "Thiết lập/Gõ tắt.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/Vấn đề hay gặp khi dùng Git.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Con người dường như không được thiết kế để quá trình hỏi trở nên dễ dàng.md",
+    "📐 Dự án/9 Blog/Tại sao lại cần tải vault về hơn là đọc trên web？.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Ghi chú thông tin/Ta thường không sẵn sàng để đọc một tài liệu khi ta mới thấy nó.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái/Một hệ sinh thái không hoạt động bằng cách đặt câu hỏi, mà bằng cách không cần hỏi cũng biết câu trả lời là gì.md",
     "📜 Tài nguyên/Nơi gặp mặt offline/Kinh nghiệm setup khi có cả online và offline.md",
+    "📜 Tài nguyên/📜 Tài nguyên.md",
+    "Thiết lập/Gõ tắt.md",
     "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Kinh tế số là kinh tế dữ liệu (data-driven economy).md",
     "⚡Hiểu biết sâu/Ξ Nguồn/ABG Open Special 2023.md",
     "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Ngân hàng trung ương quản lý được digital currency, nhưng không phải crypto.md",
@@ -196,15 +219,6 @@
     "⚡Hiểu biết sâu/Khoa học dữ liệu/Numpy và Pandas.md",
     "⚡Hiểu biết sâu/Khoa học dữ liệu/Semantic web.md",
     "⚡Hiểu biết sâu/Khoa học dữ liệu/Wikipedia.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Semantic triplestore.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Python, R.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Độ tương đồng của hai vector chính là tích vô hướng vừa nó.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Cấu trúc phân cấp thường cứng nhắc và nhân tạo.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Nghiên cứu.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Nền kinh tế xanh/Nền kinh tế xanh.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Nghiên cứu/Xử lý dữ liệu.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/IBM.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/PDF/PDF.md",
     "⚡Hiểu biết sâu/Khoa học dữ liệu/~syncthing~Độ tương đồng của hai vector chính là tích vô hướng vừa nó.md.tmp",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/~syncthing~Slide nhiều chữ thì không hấp dẫn.md.tmp",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/~syncthing~Công việc làm slide ít khi nào được trả tiền.md.tmp",
