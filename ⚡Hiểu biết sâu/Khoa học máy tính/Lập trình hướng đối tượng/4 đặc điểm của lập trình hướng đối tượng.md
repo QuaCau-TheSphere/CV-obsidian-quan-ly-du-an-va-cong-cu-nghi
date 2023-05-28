@@ -1,0 +1,11 @@
+---
+share: True
+---
+- Tính trừu tượng (abstraction)
+- [[Việc đóng gói (encapsulation) giúp ta không cần quan tâm đối tượng lưu dữ liệu thế nào, mà chỉ cần quan tâm tới thuộc tính và phương thức của nó|Tính đóng gói (encapsulation)]] và che giấu dữ liệu (data hiding) 
+- Tính đa hình (polymorphism) 
+- Tính kế thừa (inheritance) 
+
+Nguồn:: Lập trình không khó, [Lập Trình Hướng Đối Tượng Là Gì?](https://blog.luyencode.net/lap-trinh-huong-doi-tuong-cpp/)
+
+![[logo3.svg]]

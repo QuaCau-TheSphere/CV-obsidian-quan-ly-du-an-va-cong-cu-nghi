@@ -26,15 +26,67 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Tài nguyên/Thủ thuật máy tính/PDF/Tạo mục lục cho PDF.md",
-                "mode": "preview",
+                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Năm 1990 UNDP gắn phát triển vào phát triển con người.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4120a8058534b690",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📜 Tài nguyên/Thủ thuật máy tính/PDF/Cách setup cho việc đọc PDF thường xuyên.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5d723d13466151ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên/Một từ có tf-idf càng lớn thì càng quan trọng.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e6b1577b594603ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Sức khoẻ/Xem điện thoại trước lúc ngủ làm khó ngủ.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ccf34e193142090e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Donations for open source lack the urgency and personal empathy that charity causes have.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -108,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Tài nguyên/Thủ thuật máy tính/PDF/Tạo mục lục cho PDF.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Donations for open source lack the urgency and personal empathy that charity causes have.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +177,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Tài nguyên/Thủ thuật máy tính/PDF/Tạo mục lục cho PDF.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Donations for open source lack the urgency and personal empathy that charity causes have.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜 Tài nguyên/Thủ thuật máy tính/PDF/Tạo mục lục cho PDF.md"
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Donations for open source lack the urgency and personal empathy that charity causes have.md"
               }
             }
           },
@@ -189,44 +241,44 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "ef49ef667497bf8c",
+  "active": "b61fdbd6be7ed6ac",
   "lastOpenFiles": [
-    "📜 Tài nguyên/Thủ thuật máy tính/Vấn đề hay gặp khi dùng Git.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/Chỉnh sửa hàng loạt/Chỉnh sửa file hàng loạt bằng PowerShell.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Con người dường như không được thiết kế để quá trình hỏi trở nên dễ dàng.md",
-    "📐 Dự án/9 Blog/Tại sao lại cần tải vault về hơn là đọc trên web？.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Ghi chú thông tin/Ta thường không sẵn sàng để đọc một tài liệu khi ta mới thấy nó.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm/Hệ sinh thái/Một hệ sinh thái không hoạt động bằng cách đặt câu hỏi, mà bằng cách không cần hỏi cũng biết câu trả lời là gì.md",
-    "📜 Tài nguyên/Nơi gặp mặt offline/Kinh nghiệm setup khi có cả online và offline.md",
+    "⚡Hiểu biết sâu/Sức khoẻ/Xem điện thoại trước lúc ngủ làm khó ngủ.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Donations for open source lack the urgency and personal empathy that charity causes have.md",
+    "⚡Hiểu biết sâu/Sức khoẻ/Bệnh văn phòng/Viêm loét dạ dày.md",
+    "⚡Hiểu biết sâu/Sức khoẻ/Bệnh văn phòng/Trĩ.md",
+    "⚡Hiểu biết sâu/Sức khoẻ/Bệnh văn phòng/Đau ngực do trào ngược dạ dày.md",
+    "⚡Hiểu biết sâu/Sức khoẻ/Bệnh văn phòng/Thoái hóa cột sống.md",
+    "⚡Hiểu biết sâu/Sức khoẻ/Công thái học/Ô nhiễm tiếng ồn.md",
+    "⚡Hiểu biết sâu/Sức khoẻ/Công thái học/Ghế sofa có hại cho cột sống.md",
+    "⚡Hiểu biết sâu/Sức khoẻ/Công thái học/Các chấn thương ở tay thường gặp.md",
+    "⚡Hiểu biết sâu/Sức khoẻ/Công thái học/Gù lưng.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên/Một từ có tf-idf càng lớn thì càng quan trọng.md",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/~syncthing~Công nghệ thông tin.md.tmp",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên/SVD ban đầu là để tìm ra một phép xoay không gian sao cho tích vô hướng của các vector không thay đổi.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên/Độ tương đồng của hai vector chính là tích vô hướng vừa nó.md",
+    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên",
     "📜 Tài nguyên/📜 Tài nguyên.md",
-    "Thiết lập/Gõ tắt.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Kinh tế số là kinh tế dữ liệu (data-driven economy).md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/ABG Open Special 2023.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Ngân hàng trung ương quản lý được digital currency, nhưng không phải crypto.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Cách setup cho việc đọc PDF thường xuyên.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/PDF/PDF.md",
+    "⚡Hiểu biết sâu/Sức khoẻ/Những lý do để khó duy trì việc ngủ sớm.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Việc mải mê làm việc đến quên cả đói cho thấy phần thưởng từ việc làm việc là đủ lớn hơn việc được ăn.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Untitled.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Năm 1990 UNDP gắn phát triển vào phát triển con người.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Nền kinh tế số/Cho vay ngang hàng.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Nền kinh tế số/Tài chính phi tập trung.md",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Tạp chí ngân hàng.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Xu thế kinh tế mới.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Nền kinh tế số/Tạp chí ngân hàng.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Nền kinh tế số",
     "📐 Dự án/9 Blog/~syncthing~Nơi này là nơi nào？.md.tmp",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Lịch sử, triết học, chính trị trong kinh tế/Người Hy Lạp cổ duy trì chế độ nô lệ.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Lịch sử, triết học, chính trị trong kinh tế/Người Hy Lạp cổ không tự hào về việc mình có việc làm.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Lịch sử, triết học, chính trị trong kinh tế/Thời WW2 Thuỵ Sỹ trung lập được vì đó là nơi tích luỹ vàng của giới tài phiệt.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Lịch sử, triết học, chính trị trong kinh tế/Hệ thống tài phiệt nắm quyền qua các ngân hàng trung ương.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Lịch sử, triết học, chính trị trong kinh tế/Thời nông nghiệp, người giàu là người có nhiều ruộng đất. Thời công nghiệp, người  giàu là người có nhiều nhà máy.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Lịch sử, triết học, chính trị trong kinh tế/Ngân hàng trung ương châu Âu nằm ở Đức.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Lịch sử, triết học, chính trị trong kinh tế/Chiến tranh tiền tệ là một khái niệm không khoa học.md",
     "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Lịch sử, triết học, chính trị trong kinh tế",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Chuyển đổi số = CNTT + Số hoá toàn diện + Dữ liệu + Đổi mới sáng tạo + Công nghệ số.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Khoa học dữ liệu.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Numpy và Pandas.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Semantic web.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Wikipedia.md",
     "⚡Hiểu biết sâu/Khoa học dữ liệu/~syncthing~Độ tương đồng của hai vector chính là tích vô hướng vừa nó.md.tmp",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/~syncthing~Slide nhiều chữ thì không hấp dẫn.md.tmp",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/~syncthing~Công việc làm slide ít khi nào được trả tiền.md.tmp",
     "📜 Tài nguyên/Thủ thuật máy tính/Untitled",
     "📜 Tài nguyên/Thủ thuật máy tính/PDF",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Nền kinh tế xanh",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/New folder",
-    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Kết nối dữ liệu với mọi người/~syncthing~Kết nối dữ liệu với mọi người.md.tmp",
     "Thiết lập/Ảnh/logo2.png",
     "Thiết lập/Ảnh/Pasted image 20230513215627.png",
     "Trang chủ.canvas",
