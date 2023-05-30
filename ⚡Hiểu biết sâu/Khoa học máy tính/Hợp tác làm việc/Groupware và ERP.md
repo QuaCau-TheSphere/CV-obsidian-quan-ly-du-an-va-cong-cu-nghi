@@ -10,7 +10,7 @@ Vậy Groupware và ERP có điểm khác biệt cơ bản là Groupware giúp c
 # Các cách phân loại groupware
 ## Theo không thời gian
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Cscwmatrix.jpg/703px-Cscwmatrix.jpg) 
-Nguồn:: [[Wikipedia]], [Computer-supported cooperative work](https://en.wikipedia.org/wiki/Computer-supported_cooperative_work), [[Bing AI]], [Collaborative software](https://en.wikipedia.org/wiki/Collaborative_software)
+Nguồn:: [[⚡Hiểu biết sâu/Ξ Nguồn/Wikipedia]], [Computer-supported cooperative work](https://en.wikipedia.org/wiki/Computer-supported_cooperative_work), [[Bing AI]], [Collaborative software](https://en.wikipedia.org/wiki/Collaborative_software)
 
 ## Theo mức độ hợp tác
 - Giao tiếp

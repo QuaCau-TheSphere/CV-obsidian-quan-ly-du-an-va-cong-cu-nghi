@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8cc73406bd5243b9",
+            "id": "cb7ed525a59a0dfe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/9 Blog/Tại sao lại cần tải vault về hơn là đọc trên web？.md",
+                "file": "📜 Tài nguyên/Thủ thuật máy tính/Tự động hoá/Tạo phím tắt bằng AutoHotKey.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "ef49ef667497bf8c",
+            "id": "b455d75e03e0e9af",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Năm 1990 UNDP gắn phát triển vào phát triển con người.md",
+                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Phương thức là hàm liên quan tới một đối tượng cụ thể.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "4120a8058534b690",
+            "id": "8a5b1c6a3a0df1ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Tài nguyên/Thủ thuật máy tính/PDF/Cách setup cho việc đọc PDF thường xuyên.md",
+                "file": "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Những công cụ nghĩ tốt đa phần là sản phẩm phụ của những nỗ lực giải quyết những vấn đề nghiêm túc.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -47,38 +47,12 @@
             }
           },
           {
-            "id": "5d723d13466151ec",
+            "id": "24aca2ed9112a628",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên/Một từ có tf-idf càng lớn thì càng quan trọng.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e6b1577b594603ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Sức khoẻ/Xem điện thoại trước lúc ngủ làm khó ngủ.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "ccf34e193142090e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Donations for open source lack the urgency and personal empathy that charity causes have.md",
+                "file": "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Tổng quan về xử lý tiếng Việt.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -86,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"xem thêm::\" ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -160,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Donations for open source lack the urgency and personal empathy that charity causes have.md",
+                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Phương thức là hàm liên quan tới một đối tượng cụ thể.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Donations for open source lack the urgency and personal empathy that charity causes have.md",
+                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Phương thức là hàm liên quan tới một đối tượng cụ thể.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Donations for open source lack the urgency and personal empathy that charity causes have.md"
+                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Phương thức là hàm liên quan tới một đối tượng cụ thể.md"
               }
             }
           },
@@ -241,54 +215,54 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "b61fdbd6be7ed6ac",
+  "active": "b455d75e03e0e9af",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Sức khoẻ/Xem điện thoại trước lúc ngủ làm khó ngủ.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Donations for open source lack the urgency and personal empathy that charity causes have.md",
-    "⚡Hiểu biết sâu/Sức khoẻ/Bệnh văn phòng/Viêm loét dạ dày.md",
-    "⚡Hiểu biết sâu/Sức khoẻ/Bệnh văn phòng/Trĩ.md",
-    "⚡Hiểu biết sâu/Sức khoẻ/Bệnh văn phòng/Đau ngực do trào ngược dạ dày.md",
-    "⚡Hiểu biết sâu/Sức khoẻ/Bệnh văn phòng/Thoái hóa cột sống.md",
-    "⚡Hiểu biết sâu/Sức khoẻ/Công thái học/Ô nhiễm tiếng ồn.md",
-    "⚡Hiểu biết sâu/Sức khoẻ/Công thái học/Ghế sofa có hại cho cột sống.md",
-    "⚡Hiểu biết sâu/Sức khoẻ/Công thái học/Các chấn thương ở tay thường gặp.md",
-    "⚡Hiểu biết sâu/Sức khoẻ/Công thái học/Gù lưng.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên/Một từ có tf-idf càng lớn thì càng quan trọng.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/~syncthing~Công nghệ thông tin.md.tmp",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên/SVD ban đầu là để tìm ra một phép xoay không gian sao cho tích vô hướng của các vector không thay đổi.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên/Độ tương đồng của hai vector chính là tích vô hướng vừa nó.md",
-    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên",
-    "📜 Tài nguyên/📜 Tài nguyên.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Cách setup cho việc đọc PDF thường xuyên.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Những công cụ nghĩ tốt đa phần là sản phẩm phụ của những nỗ lực giải quyết những vấn đề nghiêm túc.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Phương thức là hàm liên quan tới một đối tượng cụ thể.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/this, self là cách để nói một phương thức rằng hành động nó sẽ làm phải gắn lên một instance cụ thể, thứ mà bây giờ chưa được tạo ra.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/JSON là cách để biểu diễn đối tượng ra chữ.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Phương thức chỉnh sửa đối tượng.md",
+    "📐 Dự án/9 Blog/Tại sao lại cần tải vault về hơn là đọc trên web？.md",
+    "📐 Dự án/9 Blog/Nơi này là nơi nào？.md",
+    "📜 Tài nguyên/Phần mềm quản lý kiến thức cá nhân/Phần mềm quản lý kiến thức cá nhân.md",
+    "📜 Tài nguyên/Xây dựng dự án/Loại hình dự án.md",
+    "📜 Tài nguyên/Xây dựng dự án/Chưa phân loại.md",
+    "📜 Tài nguyên/Xây dựng dự án/Cách đặt URL.md",
+    "📜 Tài nguyên/Xây dựng dự án/Phần mềm làm việc nhóm (groupware)/Quản lý lập luận.md",
+    "📜 Tài nguyên/Xây dựng dự án/Nơi gặp mặt offline/Nơi gặp mặt offline.md",
+    "📜 Tài nguyên/Xây dựng dự án/Hình thức tổ chức dữ liệu/Hình thức tổ chức dữ liệu.md",
+    "📜 Tài nguyên/Xây dựng dự án/Hình thức tổ chức dữ liệu/Wiki cá nhân.md",
     "📜 Tài nguyên/Thủ thuật máy tính/PDF/PDF.md",
-    "⚡Hiểu biết sâu/Sức khoẻ/Những lý do để khó duy trì việc ngủ sớm.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Việc mải mê làm việc đến quên cả đói cho thấy phần thưởng từ việc làm việc là đủ lớn hơn việc được ăn.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Untitled.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Năm 1990 UNDP gắn phát triển vào phát triển con người.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Nền kinh tế số/Cho vay ngang hàng.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Nền kinh tế số/Tài chính phi tập trung.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tạp chí ngân hàng.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Xu thế kinh tế mới.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Nền kinh tế số/Tạp chí ngân hàng.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Nền kinh tế số",
-    "📐 Dự án/9 Blog/~syncthing~Nơi này là nơi nào？.md.tmp",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Lịch sử, triết học, chính trị trong kinh tế",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/~syncthing~Độ tương đồng của hai vector chính là tích vô hướng vừa nó.md.tmp",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/~syncthing~Slide nhiều chữ thì không hấp dẫn.md.tmp",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Thiết kế/~syncthing~Công việc làm slide ít khi nào được trả tiền.md.tmp",
-    "📜 Tài nguyên/Thủ thuật máy tính/Untitled",
-    "📜 Tài nguyên/Thủ thuật máy tính/PDF",
+    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Chỉnh sửa PDF hàng loạt bằng cpdf.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Tạo mục lục cho PDF.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Cách setup cho việc đọc PDF thường xuyên.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/Loại bỏ phiền nhiễu/Ẩn những kết quả tìm kiếm vô dụng trên Google.md",
+    "📜 Tài nguyên/Xây dựng dự án",
+    "📜 Tài nguyên/Thủ thuật máy tính/Google Drive.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/Tự động hoá/Tạo phím tắt bằng AutoHotKey.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/Vấn đề hay gặp khi dùng Git.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/Tự động hoá/Chỉnh sửa ảnh hàng loạt bằng ImageMagick.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/Loại bỏ phiền nhiễu",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Thiết kế/Slide nhiều chữ thì không hấp dẫn.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Giai đoạn lên ý tưởng thường khó khăn.md",
+    "Thiết lập/Ảnh/Made to stick/James Le.jpg",
+    "Thiết lập/Ảnh/Made to stick/Boris Divjak.jpeg",
+    "Thiết lập/Ảnh/Made to stick",
+    "Thiết lập/Ảnh/New folder",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/PDF/Truyền thông - gây quỹ/mts-made-to-stick-model.pdf",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Sắp xếp độ ưu tiên/~syncthing~Bảng quan trọng – khẩn cấp.md.tmp",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/~syncthing~Working on niche, personally-meaningful projects brings weirder, more serendipitous inbounds.md.tmp",
+    "📜 Tài nguyên/Phần mềm quản lý kiến thức cá nhân/~syncthing~Phần mềm quản lý kiến thức cá nhân.md.tmp",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên/~syncthing~Các công cụ lắng nghe xã hội có sẵn giống như một ảnh chụp màn hình nhanh về những gì đang diễn ra.md.tmp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Thiết kế/~syncthing~Slide nhiều chữ thì không hấp dẫn.md.tmp",
+    "Thiết lập/Ảnh/Ảnh procrastination/Procrastinators-Matrix1-539x600.png",
+    "Thiết lập/Ảnh/Ảnh procrastination/Eisenhower-Matrix-Actions-539x600.png",
+    "Thiết lập/Ảnh/Ảnh procrastination/Eisenhower-Matrix-920x1024.png",
     "Thiết lập/Ảnh/logo2.png",
     "Thiết lập/Ảnh/Pasted image 20230513215627.png",
     "Trang chủ.canvas",
     "Thiết lập/Ảnh/Pasted image 20230509215724.png",
     "Thiết lập/Ảnh/logo.png",
-    "Thiết lập/Ảnh/Ảnh/Eisenhower-Matrix-Actions-539x600.png",
-    "Thiết lập/Ảnh/Ảnh/Eisenhower-Matrix-920x1024.png",
-    "Thiết lập/Ảnh/Ảnh/Procrastinators-Matrix1-539x600.png",
-    "Thiết lập/Ảnh/logo2.svg",
-    "Thiết lập/Ảnh/Điều gì đưa bạn đến nơi này ngày hôm nay.png",
-    "Thiết lập/Excalidraw/Drawing 2023-04-12 13.38.23.excalidraw.png"
+    "Thiết lập/Ảnh/Ảnh/Eisenhower-Matrix-Actions-539x600.png"
   ]
 }

@@ -38,8 +38,9 @@ Ví dụ:
 
 ## Những lỗi trên bản web 
 - Search 
-- Nếu có heading thì bị đổi trên title
+- Nếu có h1 ngay đầu file thì tiêu đề sẽ là cái h1 đó
 - Cache 🤡
+- Không tự chuyển trang nên hay gặp 404
 
 Ví dụ, những trang có dataview sẽ không chắc được cập nhật, do plugin tạo web không thấy trang đó có sự thay đổi gì.
 

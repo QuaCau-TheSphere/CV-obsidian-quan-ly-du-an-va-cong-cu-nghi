@@ -31,6 +31,7 @@ Nhiều ghi chú trong đây sẽ không ở trạng thái hoàn thiện. Thứ
 # Các chủ đề được bàn đến trong [[⚡Hiểu biết sâu]]
 ![[Drawing 2023-04-12 13.38.23.excalidraw.png]]
 
+Có hơi hướng thiên về lĩnh vực phi lợi nhuận hoặc học thuật
 # Cách các bài học trong [[⚔️ Lớp Obsidian và Git]] được thiết kế
 Nếu bạn chưa rành về lập trình, thì khó khăn bạn gặp sẽ nhiều hơn. Vừa muốn tập trung vào ý tưởng vừa cần phải học ngôn ngữ đó.
 Các bài tập không chỉ được thiết kế để bạn nắm được cách sử dụng Obsidian và các phần mềm bổ trợ khácChỉnh từ từ để không bị ngộp, nhưng sau đó vứt đi, mà còn chính là vault của bạn trong việc quản lý dự án

@@ -9,7 +9,7 @@ Because you need 1 hour more staying awake in bed
 # Những lý do khó duy trì việc ngủ lúc 22h
 - Đang có một câu chuyện dang dở cần phải nói tiếp, nhất là với bạn bè lâu năm
 - Bạn bè tụ tập
-- Phim khuya hay
+- Thuật toán của youtube, netflix, instagram rất giỏi trong việc giới thiệu những sản phẩm truyền thông đủ sức cuốn hút hơn cả lợi ích của việc đi ngủ. Mà lúc nghỉ làm ra nghỉ chỉ muốn giải tri chút
 - Đi lòng vòng suy nghĩ
 - Relax after work, but only stop when knowing it's late. But after standing up, you just want to watch some tv…
 - Bên ngoài hát ồn ào
@@ -26,3 +26,5 @@ Because you need 1 hour more staying awake in bed
 
 [[Việc mải mê làm việc đến quên cả đói cho thấy phần thưởng từ việc làm việc là đủ lớn hơn việc được ăn]]
 Thường chỉ dừng khi thấy mỏi lưng, đầu hết nghĩ được gì
+[[Bảng quan trọng – khẩn cấp]]
+[[Humane tech]]

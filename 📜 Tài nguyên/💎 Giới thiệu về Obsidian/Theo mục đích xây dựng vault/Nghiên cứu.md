@@ -1,8 +1,6 @@
 ---
 share: True
 ---
-# [Đồ thị mạng lưới 100+ niềm tin](https://github.com/QuaCau-TheSphere/belief-network) 
-
 # [Linking Your Thinking](https://notes.linkingyourthinking.com) 
 
 # [Qualitative Analysis Environment](https://axle.design/an-integrated-qualitative-analysis-environment-with-obsidian) 
@@ -10,3 +8,5 @@ MaxQDA, NVivo, Atlas.ti, and a variety of other apps are designed to help resear
 
 
 [The Academic Knowledge Management (AKM) system that 10x’d my research productivity | Chris Lovejoy](https://www.chrislovejoy.me/akm)
+
+Xem thêm:: [[Công cụ cho nhân văn số]]
