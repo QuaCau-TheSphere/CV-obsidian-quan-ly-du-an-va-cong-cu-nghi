@@ -9,9 +9,15 @@ Kích hoạt, kích thích, bấm cò
 Độ lì, tính kiên cường, tính đàn hồi, sự dẻo dai, sức chống chịu, sức bền, sức bật tinh thần, khả năng hồi phục, khả năng vực dậy
 
 ## Well-being 
-Thoải mái, an ổn, an lạc, an yên, an khang, khỏe mạnh, sảng khoái, hạnh phúc, phúc lợi, phúc lạc, viên mãn, sống tốt, cuộc sống tốt, chất lượng sống tốt, ổn thỏa, khỏe mạnh và hạnh phúc toàn diện, khỏe về thể chất và tinh thần, hảo thể, hảo tồn
+Vấn đề về dịch chữ well-being này lặp đi lặp lại nhiều tới mức em lưu hẳn các phương án dịch để mỗi khi ai nói tới em chỉ việc lôi ra copy:
+Thoải mái, an ổn, an lạc, an yên, an khang, khỏe mạnh, sảng khoái, hạnh phúc, phúc lợi, phúc lạc, viên mãn, sống tốt, cuộc sống tốt, chất lượng sống tốt, ổn thỏa, hảo thể, hảo tồn
+- khỏe mạnh và hạnh phúc toàn diện, 
+- khỏe về thể chất và tinh thần, 
+- niềm vui, niềm hạnh phúc, sự hài lòng, sự bằng an, thư thái, sự hân hoan
 
-https//www.facebook.com/groups/342269513147697/permalink/640981609943151/, https//www.facebook.com/giahoang.dl/posts/10223106402222016
+https://www.facebook.com/groups/342269513147697/permalink/640981609943151/
+https://www.facebook.com/giahoang.dl/posts/10223106402222016
+https://www.facebook.com/quangdong.ta/posts/pfbid07dgxaJAiqUh36gTUW5Qs7V3cr482knwMkZweVNm3yY2hpSgzPvXFoouZTKjFXocol
 
 ## Pride 
 Tự ái, tự kiêu, tự tôn, tự hào, kiêu hãnh, cao ngạo

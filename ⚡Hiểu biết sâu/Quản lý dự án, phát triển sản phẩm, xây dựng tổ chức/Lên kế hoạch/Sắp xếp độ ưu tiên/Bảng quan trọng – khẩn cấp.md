@@ -76,7 +76,7 @@ Thực tế:
 ![](https://i.imgur.com/eFOrfhD.png)
 
 # Khi nào một người sẽ ưu tiên làm?
-> Điều quan trọng thì thường hiếm khi khẩn cấp, và điều khẩn cấp thì thường hiếm khi quan trọng
+> [[Điều quan trọng thì thường hiếm khi khẩn cấp, và điều khẩn cấp thì thường hiếm khi quan trọng]]
 > — Dwight Eisenhower, tổng thống đời 34 của Mỹ
 
 Không phải cứ có ý định làm là ta sẽ làm ngay. Chúng ta có vô vàn thứ muốn làm nhưng chưa bao giờ và có lẽ sẽ không bao giờ có thời gian làm. Hai yếu tố chính ảnh hưởng đến sự ưu tiên của chúng ta là sự khẩn cấp và quan trọng. Có thể bạn đã biết về nó qua bảng này:

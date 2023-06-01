@@ -9,4 +9,4 @@ MaxQDA, NVivo, Atlas.ti, and a variety of other apps are designed to help resear
 
 [The Academic Knowledge Management (AKM) system that 10x’d my research productivity | Chris Lovejoy](https://www.chrislovejoy.me/akm)
 
-Xem thêm:: [[Công cụ cho nhân văn số]]
+Xem thêm:: [[Tài nguyên NLP và nhân văn số]]

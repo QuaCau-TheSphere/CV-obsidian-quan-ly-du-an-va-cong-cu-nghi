@@ -13,54 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Tài nguyên/Thủ thuật máy tính/Tự động hoá/Tạo phím tắt bằng AutoHotKey.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b455d75e03e0e9af",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Phương thức là hàm liên quan tới một đối tượng cụ thể.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8a5b1c6a3a0df1ba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Những công cụ nghĩ tốt đa phần là sản phẩm phụ của những nỗ lực giải quyết những vấn đề nghiêm túc.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "24aca2ed9112a628",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Tổng quan về xử lý tiếng Việt.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Học qua dự án hay học bài bản.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -97,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "2gro",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -134,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Phương thức là hàm liên quan tới một đối tượng cụ thể.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Học qua dự án hay học bài bản.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Phương thức là hàm liên quan tới một đối tượng cụ thể.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Học qua dự án hay học bài bản.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Phương thức là hàm liên quan tới một đối tượng cụ thể.md"
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Học qua dự án hay học bài bản.md"
               }
             }
           },
@@ -215,36 +175,39 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "b455d75e03e0e9af",
+  "active": "b61fdbd6be7ed6ac",
   "lastOpenFiles": [
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ sinh thái/❓Có cách nào để đánh giá giá trị networking của một chương trình trước khi tham gia không？.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Khoa học dữ liệu.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Python, R.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Numpy và Pandas.md",
+    "📜 Tài nguyên/📜 Tài nguyên.md",
+    "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Quản lý lập luận.md",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Những công cụ nghĩ tốt đa phần là sản phẩm phụ của những nỗ lực giải quyết những vấn đề nghiêm túc.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Phương thức là hàm liên quan tới một đối tượng cụ thể.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/this, self là cách để nói một phương thức rằng hành động nó sẽ làm phải gắn lên một instance cụ thể, thứ mà bây giờ chưa được tạo ra.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/JSON là cách để biểu diễn đối tượng ra chữ.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Phương thức chỉnh sửa đối tượng.md",
-    "📐 Dự án/9 Blog/Tại sao lại cần tải vault về hơn là đọc trên web？.md",
-    "📐 Dự án/9 Blog/Nơi này là nơi nào？.md",
-    "📜 Tài nguyên/Phần mềm quản lý kiến thức cá nhân/Phần mềm quản lý kiến thức cá nhân.md",
-    "📜 Tài nguyên/Xây dựng dự án/Loại hình dự án.md",
-    "📜 Tài nguyên/Xây dựng dự án/Chưa phân loại.md",
-    "📜 Tài nguyên/Xây dựng dự án/Cách đặt URL.md",
-    "📜 Tài nguyên/Xây dựng dự án/Phần mềm làm việc nhóm (groupware)/Quản lý lập luận.md",
-    "📜 Tài nguyên/Xây dựng dự án/Nơi gặp mặt offline/Nơi gặp mặt offline.md",
-    "📜 Tài nguyên/Xây dựng dự án/Hình thức tổ chức dữ liệu/Hình thức tổ chức dữ liệu.md",
-    "📜 Tài nguyên/Xây dựng dự án/Hình thức tổ chức dữ liệu/Wiki cá nhân.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/PDF/PDF.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Chỉnh sửa PDF hàng loạt bằng cpdf.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Tạo mục lục cho PDF.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Cách setup cho việc đọc PDF thường xuyên.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/Loại bỏ phiền nhiễu/Ẩn những kết quả tìm kiếm vô dụng trên Google.md",
-    "📜 Tài nguyên/Xây dựng dự án",
-    "📜 Tài nguyên/Thủ thuật máy tính/Google Drive.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/Tự động hoá/Tạo phím tắt bằng AutoHotKey.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/Vấn đề hay gặp khi dùng Git.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/Tự động hoá/Chỉnh sửa ảnh hàng loạt bằng ImageMagick.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/Loại bỏ phiền nhiễu/Ẩn kết quả tìm kiếm trên Google.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Python/Dictionary là một container chứa và thao tác với dữ liệu, trong khi JSON về bản chất dùng để mã hóa và giải mã dữ liệu.md",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Quản lý cuộc sống cá nhân.md",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Wiki chuyên ngành.md",
+    "⚔️ Lớp Obsidian và Git/⚔️ Lớp Obsidian và Git.md",
+    "⚔️ Lớp Obsidian và Git/1 Làm quen với Obsidian/1 Làm quen với Obsidian.md",
+    "⚔️ Lớp Obsidian và Git/1 Làm quen với Obsidian/1.6 Tìm hiểu tự do.md",
+    "⚔️ Lớp Obsidian và Git/2 Xây dựng dự án với plugin/2 Xây dựng dự án với plugin.md",
+    "⚔️ Lớp Obsidian và Git/2 Xây dựng dự án với plugin/2.9 Tìm hiểu tự do.md",
+    "⚔️ Lớp Obsidian và Git/4 Du hành thời gian với Git/4 Du hành thời gian với Git.md",
+    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Quản lý dữ liệu/Đánh số phiên bản.md",
+    "Untitled.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Sắp xếp độ ưu tiên/When someone's taking time to do something right in the present, they're a perfectionist with no ability to prioritize, whereas when someone took time to do something right in the past, they're a master artisan of great foresight.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Quản lý dữ liệu/Đánh số thư mục.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Quản lý dữ liệu/Cấu trúc phân cấp thường cứng nhắc và nhân tạo.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Quản lý dữ liệu/Sự sắp xếp thư mục khác nhau theo chức năng và theo sản phẩm.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Quản lý dữ liệu",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Nghĩ về việc nghĩ.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/So sánh giữa các ngôn ngữ.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên/~syncthing~tf-idf giúp xác định độ quan trọng của một từ trong một văn bản trong bộ văn bản.md.tmp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Thiết kế/~syncthing~Slide nhiều chữ thì không hấp dẫn.md.tmp",
+    "📜 Tài nguyên/Làm dự án",
     "📜 Tài nguyên/Thủ thuật máy tính/Loại bỏ phiền nhiễu",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Thiết kế/Slide nhiều chữ thì không hấp dẫn.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Giai đoạn lên ý tưởng thường khó khăn.md",
     "Thiết lập/Ảnh/Made to stick/James Le.jpg",
     "Thiết lập/Ảnh/Made to stick/Boris Divjak.jpeg",
     "Thiết lập/Ảnh/Made to stick",
@@ -252,9 +215,6 @@
     "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/PDF/Truyền thông - gây quỹ/mts-made-to-stick-model.pdf",
     "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Sắp xếp độ ưu tiên/~syncthing~Bảng quan trọng – khẩn cấp.md.tmp",
     "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/~syncthing~Working on niche, personally-meaningful projects brings weirder, more serendipitous inbounds.md.tmp",
-    "📜 Tài nguyên/Phần mềm quản lý kiến thức cá nhân/~syncthing~Phần mềm quản lý kiến thức cá nhân.md.tmp",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên/~syncthing~Các công cụ lắng nghe xã hội có sẵn giống như một ảnh chụp màn hình nhanh về những gì đang diễn ra.md.tmp",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Thiết kế/~syncthing~Slide nhiều chữ thì không hấp dẫn.md.tmp",
     "Thiết lập/Ảnh/Ảnh procrastination/Procrastinators-Matrix1-539x600.png",
     "Thiết lập/Ảnh/Ảnh procrastination/Eisenhower-Matrix-Actions-539x600.png",
     "Thiết lập/Ảnh/Ảnh procrastination/Eisenhower-Matrix-920x1024.png",
