@@ -5,3 +5,5 @@ share: True
 
 [[Phỏng vấn phù hợp để đánh giá cách tiếp nhận hay thái độ]]
 Nguồn:: [[Hoàng Đức Minh]]
+[[Tìm hiểu vào bối cảnh, không chỉ hành vi đơn lẻ]]
+[[Luôn nhìn vào hành vi, đừng chỉ nhìn vào logic của người dùng]] 

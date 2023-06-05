@@ -1,9 +1,13 @@
 ---
 share: True
 ---
-- Tên file
-- Link
+- filename
+- URL 
+- `[[]]`
 - Search autocomplete
-- Tóm tắt chủ đề
 - Link autocomplete
-- Bảng điều hướng
+- YAML title
+- Menu/navigation pane
+- <title>
+- <h1>
+- og:title

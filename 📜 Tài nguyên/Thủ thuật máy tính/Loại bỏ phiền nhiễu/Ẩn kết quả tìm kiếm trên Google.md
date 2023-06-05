@@ -1,12 +1,13 @@
 ---
 share: True
 ---
-![Google Hit Hider 1-Minute Intro - YouTube](https://youtu.be/u0431tculpg)
-Download: [Google Hit Hider by Domain](http://www.jeffersonscher.com/gm/google-hit-hider/)
 
-Các từ điển dưới đây hoặc là dùng Google dịch, hoặc là copy của từ điển mở của Hồ Ngọc Đức. Tôi block hết cho nhẹ.
+Các trang dưới đây chia thành 2 loại:
+- Từ điển copy của từ điển mở của Hồ Ngọc Đức
+- Cào web tiếng Anh rồi dùng Google dịch sang tiếng Việt để tăng SEO
+
+Tôi block hết cho nhẹ.
 ```
-example.com
 en.bab.la
 vi.glosbe.com
 glosbe.com
@@ -17,8 +18,8 @@ englishteststore.net
 chiasekienthuc24h.com
 tratu.soha.vn
 dict.vietfun.com
-www.indifferentlanguages.com
 dict.laban.vn
+www.indifferentlanguages.com
 vi.aliexpress.com
 nghialagi.net
 qastack.vn
@@ -56,3 +57,6 @@ vi.upwiki.one
 vi.eferrit.com
 hashdork.com
 ```
+# Cách dùng
+![Google Hit Hider 1-Minute Intro - YouTube](https://youtu.be/u0431tculpg)
+Download: [Google Hit Hider by Domain](http://www.jeffersonscher.com/gm/google-hit-hider/)

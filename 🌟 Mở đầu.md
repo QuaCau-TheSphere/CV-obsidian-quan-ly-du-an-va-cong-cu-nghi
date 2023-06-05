@@ -20,4 +20,4 @@ Sau khi đọc xong những điều này, hiện có những câu hỏi nào xu�
 | Hmm... Tôi thấy hướng dẫn ghi là nên làm cái A này. Tại sao không phải là cái B kia?          | Why          | [[⚡Hiểu biết sâu]]           |
 
 
-[[Nơi này là nơi nào？|Nơi này là nơi nào?]] | [[Tôi có thể giúp gì？|Tôi có thể giúp gì?]] | [[Mọi người hay thảo luận ở đâu？]]
+[[Nơi này là nơi nào？|Nơi này là nơi nào?]] | [[Mọi người hay thảo luận ở đâu？|Mọi người hay thảo luận ở đâu?]] | [[Tôi có thể giúp gì？|Tôi có thể giúp gì?]] 

@@ -38,6 +38,9 @@ Mẹo vặt, lối tắt, lối mòn kinh nghiệm dân gian
 Ẩn dụ, hình ảnh so sánh, ví von
 
 ## Insight
+Các nét nghĩa:
+- Khám phá mới mà trước đây không ai biết
+
 Cái nhìn sâu sắc, cái nhìn thấu, hiểu biết sâu sắc, hiểu biết thấu suốt, nhìn ra được cái cốt lõi, nội thị, thấu thị
 
 # Triết học

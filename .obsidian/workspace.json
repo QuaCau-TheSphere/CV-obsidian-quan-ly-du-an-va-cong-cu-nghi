@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cb7ed525a59a0dfe",
+            "id": "24d582b4f73116ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Học qua dự án hay học bài bản.md",
-                "mode": "source",
+                "file": "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Không gian làm việc chung ở TPHCM/Không gian làm việc chung ở TPHCM.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "2gro",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Học qua dự án hay học bài bản.md",
+                "file": "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Không gian làm việc chung ở TPHCM/Không gian làm việc chung ở TPHCM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Học qua dự án hay học bài bản.md",
+                "file": "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Không gian làm việc chung ở TPHCM/Không gian làm việc chung ở TPHCM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Học qua dự án hay học bài bản.md"
+                "file": "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Không gian làm việc chung ở TPHCM/Không gian làm việc chung ở TPHCM.md"
               }
             }
           },
@@ -172,49 +172,50 @@
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian42-brat:BRAT": false
+      "obsidian42-brat:BRAT": false,
+      "notion-like-tables:Create Notion-Like table": false
     }
   },
-  "active": "b61fdbd6be7ed6ac",
+  "active": "24d582b4f73116ac",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ sinh thái/❓Có cách nào để đánh giá giá trị networking của một chương trình trước khi tham gia không？.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Khoa học dữ liệu.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Python, R.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Numpy và Pandas.md",
-    "📜 Tài nguyên/📜 Tài nguyên.md",
-    "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Quản lý lập luận.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Những công cụ nghĩ tốt đa phần là sản phẩm phụ của những nỗ lực giải quyết những vấn đề nghiêm túc.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/Loại bỏ phiền nhiễu/Ẩn kết quả tìm kiếm trên Google.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/Python/Dictionary là một container chứa và thao tác với dữ liệu, trong khi JSON về bản chất dùng để mã hóa và giải mã dữ liệu.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Quản lý cuộc sống cá nhân.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Wiki chuyên ngành.md",
-    "⚔️ Lớp Obsidian và Git/⚔️ Lớp Obsidian và Git.md",
-    "⚔️ Lớp Obsidian và Git/1 Làm quen với Obsidian/1 Làm quen với Obsidian.md",
-    "⚔️ Lớp Obsidian và Git/1 Làm quen với Obsidian/1.6 Tìm hiểu tự do.md",
-    "⚔️ Lớp Obsidian và Git/2 Xây dựng dự án với plugin/2 Xây dựng dự án với plugin.md",
-    "⚔️ Lớp Obsidian và Git/2 Xây dựng dự án với plugin/2.9 Tìm hiểu tự do.md",
-    "⚔️ Lớp Obsidian và Git/4 Du hành thời gian với Git/4 Du hành thời gian với Git.md",
-    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Quản lý dữ liệu/Đánh số phiên bản.md",
-    "Untitled.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Sắp xếp độ ưu tiên/When someone's taking time to do something right in the present, they're a perfectionist with no ability to prioritize, whereas when someone took time to do something right in the past, they're a master artisan of great foresight.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Quản lý dữ liệu/Đánh số thư mục.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Quản lý dữ liệu/Cấu trúc phân cấp thường cứng nhắc và nhân tạo.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Quản lý dữ liệu/Sự sắp xếp thư mục khác nhau theo chức năng và theo sản phẩm.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Quản lý dữ liệu",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Nghĩ về việc nghĩ.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/So sánh giữa các ngôn ngữ.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Xử lý ngôn ngữ tự nhiên/~syncthing~tf-idf giúp xác định độ quan trọng của một từ trong một văn bản trong bộ văn bản.md.tmp",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Thiết kế/~syncthing~Slide nhiều chữ thì không hấp dẫn.md.tmp",
-    "📜 Tài nguyên/Làm dự án",
-    "📜 Tài nguyên/Thủ thuật máy tính/Loại bỏ phiền nhiễu",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Không gian làm việc chung ở TPHCM/Flat White.md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Không gian làm việc chung ở TPHCM/Không gian làm việc chung ở TPHCM.md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Địa điểm công cộng ở TPHCM/Sân vườn chung cư GoldView.md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Địa điểm công cộng ở TPHCM/Công viên.md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Địa điểm công cộng ở TPHCM/Địa điểm công cộng ở TPHCM.md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/TPHCM.md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp",
+    "📜 Tài nguyên/Thủ thuật máy tính/Tự động hoá/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/Hà Nội/Cái Giếng.md",
+    "📜 Tài nguyên/Làm dự án/Chưa phân loại.md",
+    "📜 Tài nguyên/Làm dự án/Cách đặt URL.md",
+    "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Phần mềm chat nhóm/Discord (chat nhóm).md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Kinh nghiệm setup khi có cả online và offline.md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Kinh nghiệm làm livestream và video.md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Các công việc tổ chức một buổi họp.md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Nơi gặp mặt offline.md",
+    "📜 Tài nguyên/Làm dự án/Hình thức tổ chức dữ liệu/Wiki cá nhân.md",
+    "📜 Tài nguyên/Làm dự án/Hình thức tổ chức dữ liệu/Hình thức tổ chức dữ liệu.md",
+    "📜 Tài nguyên/Phần mềm quản lý kiến thức cá nhân/Phần mềm quản lý kiến thức cá nhân.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Việc rút gọn cả bài thành câu tóm tắt chỉ có tác dụng khi mình hiểu dược những khái niệm quan trọng trong bài.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Đọc mục lục một cuốn sách thì đơn giản, nhưng có thể truy xuất được điều mình cần và vận dụng nó một cách hiệu quả thì phải đọc cả cuốn sách.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Essence của một cuốn sách chính là mục lục của nó.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Tạo mục lục cho PDF.md",
+    "📜 Tài nguyên/Nghiên cứu/Phương án dịch một số từ.md",
+    "📜 Tài nguyên/Làm dự án/Loại hình dự án.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Chỉnh sửa PDF hàng loạt bằng cpdf.md",
+    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Cách setup cho việc đọc PDF thường xuyên.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/~syncthing~Untitled.md.tmp",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/~syncthing~Lớp là một cái khuôn để tạo các đối tượng cho nhanh.md.tmp",
+    "⚡Hiểu biết sâu/Khoa học máy tính/~syncthing~Lập trình thực ra là dùng ẩn dụ.md.tmp",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Phân tích xu hướng/Vector",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Phân tích xu hướng/Mô hình",
+    "⚡Hiểu biết sâu/Sức khoẻ/Những lý do để khó duy trì việc ngủ sớm.md.bak",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Mục tiêu của Obsidian",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Lập luận",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/~syncthing~Untitled.md.tmp",
     "Thiết lập/Ảnh/Made to stick/James Le.jpg",
     "Thiết lập/Ảnh/Made to stick/Boris Divjak.jpeg",
-    "Thiết lập/Ảnh/Made to stick",
-    "Thiết lập/Ảnh/New folder",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/PDF/Truyền thông - gây quỹ/mts-made-to-stick-model.pdf",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Sắp xếp độ ưu tiên/~syncthing~Bảng quan trọng – khẩn cấp.md.tmp",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/~syncthing~Working on niche, personally-meaningful projects brings weirder, more serendipitous inbounds.md.tmp",
     "Thiết lập/Ảnh/Ảnh procrastination/Procrastinators-Matrix1-539x600.png",
     "Thiết lập/Ảnh/Ảnh procrastination/Eisenhower-Matrix-Actions-539x600.png",
     "Thiết lập/Ảnh/Ảnh procrastination/Eisenhower-Matrix-920x1024.png",

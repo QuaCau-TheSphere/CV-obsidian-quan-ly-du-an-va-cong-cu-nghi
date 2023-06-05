@@ -13,6 +13,7 @@ Because you need 1 hour more staying awake in bed
 - Đi lòng vòng suy nghĩ
 - Relax after work, but only stop when knowing it's late. But after standing up, you just want to watch some tv…
 - Bên ngoài hát ồn ào
+- Trăng rằm
 
 ## Liên quan đến công việc
 - [[Những công việc chưa hoàn thành sẽ ám ảnh ta (hiệu ứng Zeigarnik)]]

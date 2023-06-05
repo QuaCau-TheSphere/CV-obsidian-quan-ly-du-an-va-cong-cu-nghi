@@ -8,3 +8,5 @@ Một tổ chức đáng làm là một tổ chức tạo được động lực
 - Công việc đang tạo nên một điều gì đó **có ý nghĩa** cho mình và mọi người (meaningful)
 
 Nguồn:: [Mô hình động lực của Daniel Pink](https://www.gamehoa.org/p/dong-luc-daniel-pink)
+
+[[Một nhóm đáng tin là nhóm mà các thành viên có thể nói lên sai lầm của mình]]

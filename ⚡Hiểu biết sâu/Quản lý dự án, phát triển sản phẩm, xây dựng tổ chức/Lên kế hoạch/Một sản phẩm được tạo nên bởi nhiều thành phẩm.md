@@ -10,4 +10,6 @@ From #file/thành-phẩm
 Limit 5
 ```
 
-Mỗi một thành phẩm chính là một khía cạnh khác nhau của sản phẩm. Giống như con voi được tạo thành từ vòi, ngà, tai, thân, chân, đuôi. Các bộ phận ấy đến lượt chúng lại được cấu tạo từ những bộ phận nhỏ hơn. Cho nên, [[Thành phẩm thực chất là sản phẩm]]. Bởi vì [[Sản phẩm là một đối tượng]], nên thành phẩm cũng là đối tượng. Các đối tượng này cứ lồng vào nhau như fractal. Một lúc nào đó, khi một thành phẩm trở nên đủ phức tạp, ta có thể tách nó ra thành một sản phẩm riêng của tổ chức.
+Mỗi một thành phẩm chính là một khía cạnh khác nhau của sản phẩm. Giống như con voi được tạo thành từ vòi, ngà, tai, thân, chân, đuôi. Các bộ phận ấy đến lượt chúng lại được cấu tạo từ những bộ phận nhỏ hơn. Cho nên, [[Thành phẩm thực chất là sản phẩm]]. Bởi vì [[Sản phẩm là một vật]], nên thành phẩm cũng là một vật. Các vật này cứ lồng vào nhau như fractal. Một lúc nào đó, khi một thành phẩm trở nên đủ phức tạp, ta có thể tách nó ra thành một sản phẩm riêng của tổ chức.
+
+[[Bởi vì sản phẩm có tính quy hồi, nên người làm quản lý dự án phải có biết lập trình để có thể thao tác trên vật một cách hiệu quả]] 

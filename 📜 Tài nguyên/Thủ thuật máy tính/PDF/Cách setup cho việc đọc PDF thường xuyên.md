@@ -11,3 +11,6 @@ share: True
 | Measy RC11       |      |
 # Màn hình lớn
 19 inch là đủ
+
+# Tự động chỉnh phóng to mức page width trong Firefox
+Trong Firefox, mở `about:config`, kiếm `pdfjs.defaultZoomValue` và chỉnh giá trị là `page-width`
