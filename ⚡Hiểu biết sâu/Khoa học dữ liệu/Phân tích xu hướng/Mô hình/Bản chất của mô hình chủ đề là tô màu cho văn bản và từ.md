@@ -1,9 +1,10 @@
 ---
 share: True
 ---
-Goal: Color each word with blue, green, red
-1. Each article is as monochromatic as possible
-2. Each word is as monochromatic as possible
+1. Mỗi văn bản có càng ít màu càng tốt
+2. Mỗi từ có càng ít màu càng tốt
+
+Với mỗi từ chưa được tô màu, thuật toán Gibbs sẽ thống kê các màu đã được tô trước, sau đó chọi phi tiêu vào để lấy màu theo xác suất. Như vậy màu nào thoả điều kiện thì sẽ có xác suất to hơn, nhưng vẫn không loại trừ những cái nhỏ hơn
 
 ![1](https://i.stack.imgur.com/BfTJjm.png)
 

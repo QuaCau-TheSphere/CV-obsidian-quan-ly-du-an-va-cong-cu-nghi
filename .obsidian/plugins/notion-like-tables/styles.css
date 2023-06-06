@@ -188,16 +188,6 @@
   font-size: var(--font-ui-medium) !important;
 }
 
-/* src/react/table-app/body-cell/styles.css */
-.NLT__body-td-container {
-  display: flex;
-  width: 100%;
-  min-height: var(--nlt-cell-min-height);
-  height: 100%;
-  padding: var(--nlt-cell-spacing-x) var(--nlt-cell-spacing-y);
-  cursor: pointer;
-}
-
 /* src/react/table-app/new-row-button/styles.css */
 .NLT__new-row {
   padding: var(--nlt-spacing--md);

@@ -1,4 +1,5 @@
 ---
 share: True
 ---
-# Đánh dấu section của recording
+# Đánh dấu các phần của file thu âm 
+# Đánh dấu các phần của một recording

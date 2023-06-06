@@ -17,22 +17,25 @@ Những vấn đề mà một dự án nhỏ, không có nhiều tiền và cả
 
 Không phát minh lại bánh xe, cái nào người khác làm rồi mà làm hay hơn mình thì chỉ dẫn link hoặc copy
 
-
 Để hiểu thêm về động lực thực hiện dự án này, xem bài [[Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành]]
-
 
 # Cách tổ chức dữ liệu
 Cách vault này tổ chức cũng giống Wikipedia, nhưng tiêu đề từng trang không phải là một chủ đề mà là một câu. Như vậy thì sự tập trung vào một ý niệm sẽ được đẩy lên cao hơn, cũng sẽ dễ làm mình thấy được sự liên kết giữa các ý lại với nhau hơn. 
 
 [[Evergreen notes biến ý tưởng trở thành đối tượng để mình thao tác]]
 
-Nhiều ghi chú trong đây sẽ không ở trạng thái hoàn thiện. Thứ cần được hoàn thiện là sự liên kết giữa các trang và nội dung một số trang hay được đọc và chia sẻ nhiều.
+Giới thiệu khái niệm như trong [[Lập trình]], so sánh sự khác nhau. Vì thực chất thuật ngữ mới là thứ người mới cảm thấy loạn, rối, mất phương hướng
+
+Đa phần ghi chú trong đây đều ở trạng thái chưa hoàn thiện. Thứ cần được hoàn thiện là sự liên kết giữa các trang và nội dung một số trang hay được đọc và chia sẻ nhiều.
 
 # Các chủ đề được bàn đến trong [[⚡Hiểu biết sâu]]
 ![[Drawing 2023-04-12 13.38.23.excalidraw.png]]
 
+Có thể thấy là nó cũng quá đa dạng, và có thể bạn không cần biết hết. Nhưng tất cả những cái này bạn sẽ phải tự học, và khi dự án bạn còn nhỏ thì bạn sẽ phải cáng đáng hết tất cả những vấn đề này
+
 Có hơi hướng thiên về lĩnh vực phi lợi nhuận hoặc học thuật
-# Cách các bài học trong [[⚔️ Lớp Obsidian và Git]] được thiết kế
+
+# Cách [[⚔️ Lớp Obsidian và Git]] được thiết kế
 Nếu bạn chưa rành về lập trình, thì khó khăn bạn gặp sẽ nhiều hơn. Vừa muốn tập trung vào ý tưởng vừa cần phải học ngôn ngữ đó.
 Các bài tập không chỉ được thiết kế để bạn nắm được cách sử dụng Obsidian và các phần mềm bổ trợ khácChỉnh từ từ để không bị ngộp, nhưng sau đó vứt đi, mà còn chính là vault của bạn trong việc quản lý dự án
 Các bài học phải đến từ serious use of learner. Nó phải giải đáp được nhu cầu có thực của riêng họ, chứ không phải chỉ là một ví dụ cho dễ hiểu xong rồi xóa đi. Bài tập được giao cho họ phải là thứ họ rồi cũng sẽ phải làm

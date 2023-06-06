@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Không gian làm việc chung ở TPHCM/Không gian làm việc chung ở TPHCM.md",
-                "mode": "preview",
+                "file": "📜 Tài nguyên/Lập trình/Python/Python path.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 276.5026054382324
+    "width": 273.00446701049805
   },
   "right": {
     "id": "734eab439a731eb8",
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Không gian làm việc chung ở TPHCM/Không gian làm việc chung ở TPHCM.md",
+                "file": "📜 Tài nguyên/Lập trình/Python/Python path.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Không gian làm việc chung ở TPHCM/Không gian làm việc chung ở TPHCM.md",
+                "file": "📜 Tài nguyên/Lập trình/Python/Python path.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Không gian làm việc chung ở TPHCM/Không gian làm việc chung ở TPHCM.md"
+                "file": "📜 Tài nguyên/Lập trình/Python/Python path.md"
               }
             }
           },
@@ -169,51 +169,51 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false,
+      "dbfolder:Create a new database table": false,
       "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian42-brat:BRAT": false,
+      "homepage:Open homepage": false,
       "notion-like-tables:Create Notion-Like table": false
     }
   },
   "active": "24d582b4f73116ac",
   "lastOpenFiles": [
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Không gian làm việc chung ở TPHCM/Flat White.md",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Không gian làm việc chung ở TPHCM/Không gian làm việc chung ở TPHCM.md",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Địa điểm công cộng ở TPHCM/Sân vườn chung cư GoldView.md",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Địa điểm công cộng ở TPHCM/Công viên.md",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/Địa điểm công cộng ở TPHCM/Địa điểm công cộng ở TPHCM.md",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/TPHCM/TPHCM.md",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp",
-    "📜 Tài nguyên/Thủ thuật máy tính/Tự động hoá/Chỉnh sửa file hàng loạt bằng PowerShell.md",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp/Hà Nội/Cái Giếng.md",
-    "📜 Tài nguyên/Làm dự án/Chưa phân loại.md",
-    "📜 Tài nguyên/Làm dự án/Cách đặt URL.md",
-    "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Phần mềm chat nhóm/Discord (chat nhóm).md",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Kinh nghiệm setup khi có cả online và offline.md",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Kinh nghiệm làm livestream và video.md",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Các công việc tổ chức một buổi họp.md",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Nơi gặp mặt offline.md",
-    "📜 Tài nguyên/Làm dự án/Hình thức tổ chức dữ liệu/Wiki cá nhân.md",
-    "📜 Tài nguyên/Làm dự án/Hình thức tổ chức dữ liệu/Hình thức tổ chức dữ liệu.md",
-    "📜 Tài nguyên/Phần mềm quản lý kiến thức cá nhân/Phần mềm quản lý kiến thức cá nhân.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Việc rút gọn cả bài thành câu tóm tắt chỉ có tác dụng khi mình hiểu dược những khái niệm quan trọng trong bài.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Đọc mục lục một cuốn sách thì đơn giản, nhưng có thể truy xuất được điều mình cần và vận dụng nó một cách hiệu quả thì phải đọc cả cuốn sách.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Essence của một cuốn sách chính là mục lục của nó.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Tạo mục lục cho PDF.md",
+    "📜 Tài nguyên/Lập trình/Python/Conda/Conda là trình quản lý thư viện, không chỉ của Python mà còn của các ngôn ngữ khác.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Tự động hoá/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+    "📜 Tài nguyên/Lập trình/IDE/VS Code nhiều khi không tìm hết được do tên file dài quá.md",
+    "📜 Tài nguyên/Lập trình/Python/Python path.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Python, R.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Ontology.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Phân tích xu hướng/Gensim tập trung vào mô hình chủ đề.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Khoa học dữ liệu.md",
+    "📜 Tài nguyên/Lập trình/Lập trình.md",
+    "📜 Tài nguyên/Lập trình/Python/Việc cài phiên bản mới không xoá phiên bản cũ đi khiến cho người mới hay bị lẫn lộn phiên bản.md",
+    "📜 Tài nguyên/Lập trình/Python/Conda/Với những người chỉ cần dùng Python để làm dữ liệu chứ không lập trình, chỉ cần cài Anaconda là đủ. Không cần và không nên cài Python riêng.md",
+    "📜 Tài nguyên/Lập trình/Python/Conda/Anaconda giống như một fork Python có bổ sung thêm nhiều công cụ cho khoa học dữ liệu.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Loại bỏ những popup bằng Idontcareaboutcookies, No Thanks.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Đọc những trang thu phí bằng 12ft.io.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Chặn quảng cáo trong app Android.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Ẩn kết quả tìm kiếm trên Google.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Chặn quảng cáo trên trình duyệt.md",
     "📜 Tài nguyên/Nghiên cứu/Phương án dịch một số từ.md",
-    "📜 Tài nguyên/Làm dự án/Loại hình dự án.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Chỉnh sửa PDF hàng loạt bằng cpdf.md",
-    "📜 Tài nguyên/Thủ thuật máy tính/PDF/Cách setup cho việc đọc PDF thường xuyên.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/~syncthing~Untitled.md.tmp",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/~syncthing~Lớp là một cái khuôn để tạo các đối tượng cho nhanh.md.tmp",
-    "⚡Hiểu biết sâu/Khoa học máy tính/~syncthing~Lập trình thực ra là dùng ẩn dụ.md.tmp",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Phân tích xu hướng/Vector",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Phân tích xu hướng/Mô hình",
-    "⚡Hiểu biết sâu/Sức khoẻ/Những lý do để khó duy trì việc ngủ sớm.md.bak",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Mục tiêu của Obsidian",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Lập luận",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/~syncthing~Untitled.md.tmp",
+    "📜 Tài nguyên/Nghiên cứu/Cơ sở dữ liệu.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Phần mềm quản lý kiến thức cá nhân.md",
+    "📐 Dự án/9 Blog/Nơi này là nơi nào？.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Nghĩ về việc nghĩ.md",
+    "📜 Tài nguyên/Lập trình/Python/venv tạo môi trường ảo để tránh trường hợp chồng chéo các gói và xung đột phiên bản giữa các thư viện.md",
+    "📜 Tài nguyên/Lập trình/Python/Conda/venv chỉ tạo môi trường ảo cho phiên bản hiện tại. Miniconda tạo môi trường ảo cho nhiều phiên bản.md",
+    "📜 Tài nguyên/Lập trình/Python/Pip là chương trình quản lý package cho Python.md",
+    "📜 Tài nguyên/Lập trình/Python/Package, module, và library là những cái tên khác nhau cho cùng một thứ.md",
+    "📜 Tài nguyên/Lập trình/Python/Conda",
+    "📜 Tài nguyên/Lập trình/Web",
+    "📜 Tài nguyên/Lập trình/Windows/Terminal",
+    "📜 Tài nguyên/Lập trình/IDE",
+    "📜 Tài nguyên/Lập trình/Windows",
+    "📜 Tài nguyên/Lập trình/Python",
+    "📜 Tài nguyên/Lập trình",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Toán/Đại số tuyến tính",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Toán",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp",
     "Thiết lập/Ảnh/Made to stick/James Le.jpg",
     "Thiết lập/Ảnh/Made to stick/Boris Divjak.jpeg",
     "Thiết lập/Ảnh/Ảnh procrastination/Procrastinators-Matrix1-539x600.png",

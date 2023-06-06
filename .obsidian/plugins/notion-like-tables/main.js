@@ -2354,9 +2354,9 @@ var require_react_dom_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React42 = require_react();
+        var React44 = require_react();
         var Scheduler = require_scheduler();
-        var ReactSharedInternals = React42.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React44.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         var suppressWarning = false;
         function setSuppressWarning(newSuppressWarning) {
           {
@@ -3877,7 +3877,7 @@ var require_react_dom_development = __commonJS({
           {
             if (props.value == null) {
               if (typeof props.children === "object" && props.children !== null) {
-                React42.Children.forEach(props.children, function(child) {
+                React44.Children.forEach(props.children, function(child) {
                   if (child == null) {
                     return;
                   }
@@ -12038,7 +12038,7 @@ var require_react_dom_development = __commonJS({
           }
         }
         var fakeInternalInstance = {};
-        var emptyRefsObject = new React42.Component().refs;
+        var emptyRefsObject = new React44.Component().refs;
         var didWarnAboutStateAssignmentForComponent;
         var didWarnAboutUninitializedState;
         var didWarnAboutGetSnapshotBeforeUpdateWithoutDidUpdate;
@@ -22964,8 +22964,8 @@ var require_use_sync_external_store_shim_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React42 = require_react();
-        var ReactSharedInternals = React42.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var React44 = require_react();
+        var ReactSharedInternals = React44.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function error(format) {
           {
             {
@@ -22995,13 +22995,13 @@ var require_use_sync_external_store_shim_development = __commonJS({
           return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
-        var useState2 = React42.useState, useEffect2 = React42.useEffect, useLayoutEffect2 = React42.useLayoutEffect, useDebugValue2 = React42.useDebugValue;
+        var useState2 = React44.useState, useEffect2 = React44.useEffect, useLayoutEffect2 = React44.useLayoutEffect, useDebugValue2 = React44.useDebugValue;
         var didWarnOld18Alpha = false;
         var didWarnUncachedGetSnapshot = false;
         function useSyncExternalStore3(subscribe2, getSnapshot, getServerSnapshot) {
           {
             if (!didWarnOld18Alpha) {
-              if (React42.startTransition !== void 0) {
+              if (React44.startTransition !== void 0) {
                 didWarnOld18Alpha = true;
                 error("You are using an outdated, pre-release alpha of React 18 that does not support useSyncExternalStore. The use-sync-external-store shim will not work correctly. Upgrade to a newer pre-release.");
               }
@@ -23066,7 +23066,7 @@ var require_use_sync_external_store_shim_development = __commonJS({
         var canUseDOM2 = !!(typeof window !== "undefined" && typeof window.document !== "undefined" && typeof window.document.createElement !== "undefined");
         var isServerEnvironment = !canUseDOM2;
         var shim = isServerEnvironment ? useSyncExternalStore$1 : useSyncExternalStore3;
-        var useSyncExternalStore$2 = React42.useSyncExternalStore !== void 0 ? React42.useSyncExternalStore : shim;
+        var useSyncExternalStore$2 = React44.useSyncExternalStore !== void 0 ? React44.useSyncExternalStore : shim;
         exports.useSyncExternalStore = useSyncExternalStore$2;
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStop(new Error());
@@ -23098,14 +23098,14 @@ var require_with_selector_development = __commonJS({
         if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ !== "undefined" && typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart === "function") {
           __REACT_DEVTOOLS_GLOBAL_HOOK__.registerInternalModuleStart(new Error());
         }
-        var React42 = require_react();
+        var React44 = require_react();
         var shim = require_shim();
         function is(x2, y2) {
           return x2 === y2 && (x2 !== 0 || 1 / x2 === 1 / y2) || x2 !== x2 && y2 !== y2;
         }
         var objectIs = typeof Object.is === "function" ? Object.is : is;
         var useSyncExternalStore3 = shim.useSyncExternalStore;
-        var useRef3 = React42.useRef, useEffect2 = React42.useEffect, useMemo3 = React42.useMemo, useDebugValue2 = React42.useDebugValue;
+        var useRef3 = React44.useRef, useEffect2 = React44.useEffect, useMemo3 = React44.useMemo, useDebugValue2 = React44.useDebugValue;
         function useSyncExternalStoreWithSelector3(subscribe2, getSnapshot, getServerSnapshot, selector, isEqual) {
           var instRef = useRef3(null);
           var inst;
@@ -29079,7 +29079,7 @@ var require_react_jsx_runtime_development = __commonJS({
     if (true) {
       (function() {
         "use strict";
-        var React42 = require_react();
+        var React44 = require_react();
         var REACT_ELEMENT_TYPE = Symbol.for("react.element");
         var REACT_PORTAL_TYPE = Symbol.for("react.portal");
         var REACT_FRAGMENT_TYPE = Symbol.for("react.fragment");
@@ -29105,7 +29105,7 @@ var require_react_jsx_runtime_development = __commonJS({
           }
           return null;
         }
-        var ReactSharedInternals = React42.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+        var ReactSharedInternals = React44.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
         function error(format) {
           {
             {
@@ -31731,7 +31731,7 @@ var require_emotion_use_insertion_effect_with_fallbacks_cjs_dev = __commonJS({
   "node_modules/@emotion/use-insertion-effect-with-fallbacks/dist/emotion-use-insertion-effect-with-fallbacks.cjs.dev.js"(exports) {
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
-    var React42 = require_react();
+    var React44 = require_react();
     function _interopNamespace(e) {
       if (e && e.__esModule)
         return e;
@@ -31752,7 +31752,7 @@ var require_emotion_use_insertion_effect_with_fallbacks_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React42);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React44);
     var isBrowser = typeof document !== "undefined";
     var syncFallback = function syncFallback2(create) {
       return create();
@@ -31781,7 +31781,7 @@ var require_emotion_use_insertion_effect_with_fallbacks_cjs = __commonJS({
 var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
   "node_modules/@emotion/react/dist/emotion-element-48d2c2e4.cjs.dev.js"(exports) {
     "use strict";
-    var React42 = require_react();
+    var React44 = require_react();
     var createCache = require_emotion_cache_cjs();
     var _extends2 = require_extends();
     var weakMemoize = require_emotion_weak_memoize_cjs();
@@ -31812,7 +31812,7 @@ var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React42);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React44);
     var createCache__default = /* @__PURE__ */ _interopDefault(createCache);
     var weakMemoize__default = /* @__PURE__ */ _interopDefault(weakMemoize);
     var isBrowser = typeof document !== "undefined";
@@ -31827,18 +31827,18 @@ var require_emotion_element_48d2c2e4_cjs_dev = __commonJS({
     }
     var CacheProvider2 = EmotionCacheContext.Provider;
     var __unsafe_useEmotionCache2 = function useEmotionCache() {
-      return React42.useContext(EmotionCacheContext);
+      return React44.useContext(EmotionCacheContext);
     };
     exports.withEmotionCache = function withEmotionCache2(func) {
-      return /* @__PURE__ */ React42.forwardRef(function(props, ref) {
-        var cache = React42.useContext(EmotionCacheContext);
+      return /* @__PURE__ */ React44.forwardRef(function(props, ref) {
+        var cache = React44.useContext(EmotionCacheContext);
         return func(props, cache, ref);
       });
     };
     if (!isBrowser) {
       exports.withEmotionCache = function withEmotionCache2(func) {
         return function(props) {
-          var cache = React42.useContext(EmotionCacheContext);
+          var cache = React44.useContext(EmotionCacheContext);
           if (cache === null) {
             cache = createCache__default["default"]({
               key: "css"
@@ -32097,7 +32097,7 @@ var require_emotion_react_cjs_dev = __commonJS({
     "use strict";
     Object.defineProperty(exports, "__esModule", { value: true });
     var emotionElement = require_emotion_element_48d2c2e4_cjs_dev();
-    var React42 = require_react();
+    var React44 = require_react();
     var utils = require_emotion_utils_cjs();
     var useInsertionEffectWithFallbacks = require_emotion_use_insertion_effect_with_fallbacks_cjs();
     var serialize2 = require_emotion_serialize_cjs();
@@ -32126,7 +32126,7 @@ var require_emotion_react_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React42);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React44);
     var pkg = {
       name: "@emotion/react",
       version: "11.11.0",
@@ -32782,33 +32782,33 @@ var require_useStateManager_7748b351_cjs_dev = __commonJS({
     var _objectSpread = require_objectSpread2();
     var _slicedToArray = require_slicedToArray();
     var _objectWithoutProperties = require_objectWithoutProperties();
-    var React42 = require_react();
+    var React44 = require_react();
     var _excluded = ["defaultInputValue", "defaultMenuIsOpen", "defaultValue", "inputValue", "menuIsOpen", "onChange", "onInputChange", "onMenuClose", "onMenuOpen", "value"];
     function useStateManager(_ref) {
       var _ref$defaultInputValu = _ref.defaultInputValue, defaultInputValue = _ref$defaultInputValu === void 0 ? "" : _ref$defaultInputValu, _ref$defaultMenuIsOpe = _ref.defaultMenuIsOpen, defaultMenuIsOpen = _ref$defaultMenuIsOpe === void 0 ? false : _ref$defaultMenuIsOpe, _ref$defaultValue = _ref.defaultValue, defaultValue = _ref$defaultValue === void 0 ? null : _ref$defaultValue, propsInputValue = _ref.inputValue, propsMenuIsOpen = _ref.menuIsOpen, propsOnChange = _ref.onChange, propsOnInputChange = _ref.onInputChange, propsOnMenuClose = _ref.onMenuClose, propsOnMenuOpen = _ref.onMenuOpen, propsValue = _ref.value, restSelectProps = _objectWithoutProperties(_ref, _excluded);
-      var _useState = React42.useState(propsInputValue !== void 0 ? propsInputValue : defaultInputValue), _useState2 = _slicedToArray(_useState, 2), stateInputValue = _useState2[0], setStateInputValue = _useState2[1];
-      var _useState3 = React42.useState(propsMenuIsOpen !== void 0 ? propsMenuIsOpen : defaultMenuIsOpen), _useState4 = _slicedToArray(_useState3, 2), stateMenuIsOpen = _useState4[0], setStateMenuIsOpen = _useState4[1];
-      var _useState5 = React42.useState(propsValue !== void 0 ? propsValue : defaultValue), _useState6 = _slicedToArray(_useState5, 2), stateValue = _useState6[0], setStateValue = _useState6[1];
-      var onChange = React42.useCallback(function(value2, actionMeta) {
+      var _useState = React44.useState(propsInputValue !== void 0 ? propsInputValue : defaultInputValue), _useState2 = _slicedToArray(_useState, 2), stateInputValue = _useState2[0], setStateInputValue = _useState2[1];
+      var _useState3 = React44.useState(propsMenuIsOpen !== void 0 ? propsMenuIsOpen : defaultMenuIsOpen), _useState4 = _slicedToArray(_useState3, 2), stateMenuIsOpen = _useState4[0], setStateMenuIsOpen = _useState4[1];
+      var _useState5 = React44.useState(propsValue !== void 0 ? propsValue : defaultValue), _useState6 = _slicedToArray(_useState5, 2), stateValue = _useState6[0], setStateValue = _useState6[1];
+      var onChange = React44.useCallback(function(value2, actionMeta) {
         if (typeof propsOnChange === "function") {
           propsOnChange(value2, actionMeta);
         }
         setStateValue(value2);
       }, [propsOnChange]);
-      var onInputChange = React42.useCallback(function(value2, actionMeta) {
+      var onInputChange = React44.useCallback(function(value2, actionMeta) {
         var newValue;
         if (typeof propsOnInputChange === "function") {
           newValue = propsOnInputChange(value2, actionMeta);
         }
         setStateInputValue(newValue !== void 0 ? newValue : value2);
       }, [propsOnInputChange]);
-      var onMenuOpen = React42.useCallback(function() {
+      var onMenuOpen = React44.useCallback(function() {
         if (typeof propsOnMenuOpen === "function") {
           propsOnMenuOpen();
         }
         setStateMenuIsOpen(true);
       }, [propsOnMenuOpen]);
-      var onMenuClose = React42.useCallback(function() {
+      var onMenuClose = React44.useCallback(function() {
         if (typeof propsOnMenuClose === "function") {
           propsOnMenuClose();
         }
@@ -34761,7 +34761,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
     var _typeof2 = require_typeof();
     var _taggedTemplateLiteral = require_taggedTemplateLiteral();
     var _defineProperty2 = require_defineProperty();
-    var React42 = require_react();
+    var React44 = require_react();
     var reactDom = require_react_dom();
     var dom = require_floating_ui_dom_umd();
     var useLayoutEffect2 = require_use_isomorphic_layout_effect_browser_cjs();
@@ -35110,13 +35110,13 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
         marginTop: spacing.menuGutter
       });
     };
-    var PortalPlacementContext = /* @__PURE__ */ React42.createContext(null);
+    var PortalPlacementContext = /* @__PURE__ */ React44.createContext(null);
     var MenuPlacer = function MenuPlacer2(props) {
       var children = props.children, minMenuHeight = props.minMenuHeight, maxMenuHeight = props.maxMenuHeight, menuPlacement = props.menuPlacement, menuPosition = props.menuPosition, menuShouldScrollIntoView = props.menuShouldScrollIntoView, theme = props.theme;
-      var _ref3 = React42.useContext(PortalPlacementContext) || {}, setPortalPlacement = _ref3.setPortalPlacement;
-      var ref = React42.useRef(null);
-      var _useState = React42.useState(maxMenuHeight), _useState2 = _slicedToArray(_useState, 2), maxHeight = _useState2[0], setMaxHeight = _useState2[1];
-      var _useState3 = React42.useState(null), _useState4 = _slicedToArray(_useState3, 2), placement = _useState4[0], setPlacement = _useState4[1];
+      var _ref3 = React44.useContext(PortalPlacementContext) || {}, setPortalPlacement = _ref3.setPortalPlacement;
+      var ref = React44.useRef(null);
+      var _useState = React44.useState(maxMenuHeight), _useState2 = _slicedToArray(_useState, 2), maxHeight = _useState2[0], setMaxHeight = _useState2[1];
+      var _useState3 = React44.useState(null), _useState4 = _slicedToArray(_useState3, 2), placement = _useState4[0], setPlacement = _useState4[1];
       var controlHeight = theme.spacing.controlHeight;
       useLayoutEffect__default["default"](function() {
         var menuEl = ref.current;
@@ -35218,16 +35218,16 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
     };
     var MenuPortal = function MenuPortal2(props) {
       var appendTo = props.appendTo, children = props.children, controlElement = props.controlElement, innerProps = props.innerProps, menuPlacement = props.menuPlacement, menuPosition = props.menuPosition;
-      var menuPortalRef = React42.useRef(null);
-      var cleanupRef = React42.useRef(null);
-      var _useState5 = React42.useState(coercePlacement(menuPlacement)), _useState6 = _slicedToArray(_useState5, 2), placement = _useState6[0], setPortalPlacement = _useState6[1];
-      var portalPlacementContext = React42.useMemo(function() {
+      var menuPortalRef = React44.useRef(null);
+      var cleanupRef = React44.useRef(null);
+      var _useState5 = React44.useState(coercePlacement(menuPlacement)), _useState6 = _slicedToArray(_useState5, 2), placement = _useState6[0], setPortalPlacement = _useState6[1];
+      var portalPlacementContext = React44.useMemo(function() {
         return {
           setPortalPlacement
         };
       }, []);
-      var _useState7 = React42.useState(null), _useState8 = _slicedToArray(_useState7, 2), computedPosition = _useState8[0], setComputedPosition = _useState8[1];
-      var updateComputedPosition = React42.useCallback(function() {
+      var _useState7 = React44.useState(null), _useState8 = _slicedToArray(_useState7, 2), computedPosition = _useState8[0], setComputedPosition = _useState8[1];
+      var updateComputedPosition = React44.useCallback(function() {
         if (!controlElement)
           return;
         var rect = getBoundingClientObj(controlElement);
@@ -35243,7 +35243,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
       useLayoutEffect__default["default"](function() {
         updateComputedPosition();
       }, [updateComputedPosition]);
-      var runAutoUpdate = React42.useCallback(function() {
+      var runAutoUpdate = React44.useCallback(function() {
         if (typeof cleanupRef.current === "function") {
           cleanupRef.current();
           cleanupRef.current = null;
@@ -35257,7 +35257,7 @@ var require_index_2fe3dc33_cjs_dev = __commonJS({
       useLayoutEffect__default["default"](function() {
         runAutoUpdate();
       }, [runAutoUpdate]);
-      var setMenuPortalElement = React42.useCallback(function(menuPortalElement) {
+      var setMenuPortalElement = React44.useCallback(function(menuPortalElement) {
         menuPortalRef.current = menuPortalElement;
         runAutoUpdate();
       }, [runAutoUpdate]);
@@ -35904,7 +35904,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
     var _inherits = require_inherits();
     var _createSuper = require_createSuper();
     var _toConsumableArray = require_toConsumableArray();
-    var React42 = require_react();
+    var React44 = require_react();
     var index = require_index_2fe3dc33_cjs_dev();
     var react = require_emotion_react_cjs();
     var memoizeOne = require_memoize_one_cjs();
@@ -35932,7 +35932,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React42);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React44);
     var memoizeOne__default = /* @__PURE__ */ _interopDefault(memoizeOne);
     function _EMOTION_STRINGIFIED_CSS_ERROR__$2() {
       return "You have tried to stringify object returned from `css` function. It isn't supposed to be used directly (e.g. as value of the `className` prop), but rather handed to emotion so it can handle it (e.g. as value of `css` prop).";
@@ -36008,10 +36008,10 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
       var ariaLiveMessages = selectProps.ariaLiveMessages, getOptionLabel2 = selectProps.getOptionLabel, inputValue = selectProps.inputValue, isMulti = selectProps.isMulti, isOptionDisabled2 = selectProps.isOptionDisabled, isSearchable = selectProps.isSearchable, menuIsOpen = selectProps.menuIsOpen, options = selectProps.options, screenReaderStatus = selectProps.screenReaderStatus, tabSelectsValue = selectProps.tabSelectsValue;
       var ariaLabel = selectProps["aria-label"];
       var ariaLive = selectProps["aria-live"];
-      var messages = React42.useMemo(function() {
+      var messages = React44.useMemo(function() {
         return _objectSpread(_objectSpread({}, defaultAriaLiveMessages), ariaLiveMessages || {});
       }, [ariaLiveMessages]);
-      var ariaSelected = React42.useMemo(function() {
+      var ariaSelected = React44.useMemo(function() {
         var message = "";
         if (ariaSelection && messages.onChange) {
           var option = ariaSelection.option, selectedOptions = ariaSelection.options, removedValue = ariaSelection.removedValue, removedValues = ariaSelection.removedValues, value = ariaSelection.value;
@@ -36031,7 +36031,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         return message;
       }, [ariaSelection, messages, isOptionDisabled2, selectValue, getOptionLabel2]);
-      var ariaFocused = React42.useMemo(function() {
+      var ariaFocused = React44.useMemo(function() {
         var focusMsg = "";
         var focused = focusedOption || focusedValue;
         var isSelected = !!(focusedOption && selectValue && selectValue.includes(focusedOption));
@@ -36049,7 +36049,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         return focusMsg;
       }, [focusedOption, focusedValue, getOptionLabel2, isOptionDisabled2, messages, focusableOptions, selectValue]);
-      var ariaResults = React42.useMemo(function() {
+      var ariaResults = React44.useMemo(function() {
         var resultsMsg = "";
         if (menuIsOpen && options.length && messages.onFilter) {
           var resultsMessage = screenReaderStatus({
@@ -36062,7 +36062,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         return resultsMsg;
       }, [focusableOptions, inputValue, menuIsOpen, messages, options, screenReaderStatus]);
-      var ariaGuidance = React42.useMemo(function() {
+      var ariaGuidance = React44.useMemo(function() {
         var guidanceMsg = "";
         if (messages.guidance) {
           var context = focusedValue ? "value" : menuIsOpen ? "menu" : "input";
@@ -36078,13 +36078,13 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         return guidanceMsg;
       }, [ariaLabel, focusedOption, focusedValue, isMulti, isOptionDisabled2, isSearchable, menuIsOpen, messages, selectValue, tabSelectsValue]);
       var ariaContext = "".concat(ariaFocused, " ").concat(ariaResults, " ").concat(ariaGuidance);
-      var ScreenReaderText = react.jsx(React42.Fragment, null, react.jsx("span", {
+      var ScreenReaderText = react.jsx(React44.Fragment, null, react.jsx("span", {
         id: "aria-selection"
       }, ariaSelected), react.jsx("span", {
         id: "aria-context"
       }, ariaContext));
       var isInitialFocus = (ariaSelection === null || ariaSelection === void 0 ? void 0 : ariaSelection.action) === "initial-input-focus";
-      return react.jsx(React42.Fragment, null, react.jsx(A11yText$1, {
+      return react.jsx(React44.Fragment, null, react.jsx(A11yText$1, {
         id: id2
       }, isInitialFocus && ScreenReaderText), react.jsx(A11yText$1, {
         "aria-live": ariaLive,
@@ -36426,11 +36426,11 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
     };
     function useScrollCapture(_ref3) {
       var isEnabled = _ref3.isEnabled, onBottomArrive = _ref3.onBottomArrive, onBottomLeave = _ref3.onBottomLeave, onTopArrive = _ref3.onTopArrive, onTopLeave = _ref3.onTopLeave;
-      var isBottom = React42.useRef(false);
-      var isTop = React42.useRef(false);
-      var touchStart = React42.useRef(0);
-      var scrollTarget = React42.useRef(null);
-      var handleEventDelta = React42.useCallback(function(event, delta) {
+      var isBottom = React44.useRef(false);
+      var isTop = React44.useRef(false);
+      var touchStart = React44.useRef(0);
+      var scrollTarget = React44.useRef(null);
+      var handleEventDelta = React44.useCallback(function(event, delta) {
         if (scrollTarget.current === null)
           return;
         var _scrollTarget$current = scrollTarget.current, scrollTop = _scrollTarget$current.scrollTop, scrollHeight = _scrollTarget$current.scrollHeight, clientHeight = _scrollTarget$current.clientHeight;
@@ -36467,17 +36467,17 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
           cancelScroll(event);
         }
       }, [onBottomArrive, onBottomLeave, onTopArrive, onTopLeave]);
-      var onWheel = React42.useCallback(function(event) {
+      var onWheel = React44.useCallback(function(event) {
         handleEventDelta(event, event.deltaY);
       }, [handleEventDelta]);
-      var onTouchStart = React42.useCallback(function(event) {
+      var onTouchStart = React44.useCallback(function(event) {
         touchStart.current = event.changedTouches[0].clientY;
       }, []);
-      var onTouchMove = React42.useCallback(function(event) {
+      var onTouchMove = React44.useCallback(function(event) {
         var deltaY = touchStart.current - event.changedTouches[0].clientY;
         handleEventDelta(event, deltaY);
       }, [handleEventDelta]);
-      var startListening = React42.useCallback(function(el) {
+      var startListening = React44.useCallback(function(el) {
         if (!el)
           return;
         var notPassive = index.supportsPassiveEvents ? {
@@ -36487,14 +36487,14 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         el.addEventListener("touchstart", onTouchStart, notPassive);
         el.addEventListener("touchmove", onTouchMove, notPassive);
       }, [onTouchMove, onTouchStart, onWheel]);
-      var stopListening = React42.useCallback(function(el) {
+      var stopListening = React44.useCallback(function(el) {
         if (!el)
           return;
         el.removeEventListener("wheel", onWheel, false);
         el.removeEventListener("touchstart", onTouchStart, false);
         el.removeEventListener("touchmove", onTouchMove, false);
       }, [onTouchMove, onTouchStart, onWheel]);
-      React42.useEffect(function() {
+      React44.useEffect(function() {
         if (!isEnabled)
           return;
         var element = scrollTarget.current;
@@ -36541,9 +36541,9 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
     };
     function useScrollLock(_ref3) {
       var isEnabled = _ref3.isEnabled, _ref$accountForScroll = _ref3.accountForScrollbars, accountForScrollbars = _ref$accountForScroll === void 0 ? true : _ref$accountForScroll;
-      var originalStyles = React42.useRef({});
-      var scrollTarget = React42.useRef(null);
-      var addScrollLock = React42.useCallback(function(touchScrollTarget) {
+      var originalStyles = React44.useRef({});
+      var scrollTarget = React44.useRef(null);
+      var addScrollLock = React44.useCallback(function(touchScrollTarget) {
         if (!canUseDOM2)
           return;
         var target = document.body;
@@ -36577,7 +36577,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
         activeScrollLocks += 1;
       }, [accountForScrollbars]);
-      var removeScrollLock = React42.useCallback(function(touchScrollTarget) {
+      var removeScrollLock = React44.useCallback(function(touchScrollTarget) {
         if (!canUseDOM2)
           return;
         var target = document.body;
@@ -36599,7 +36599,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
           }
         }
       }, [accountForScrollbars]);
-      React42.useEffect(function() {
+      React44.useEffect(function() {
         if (!isEnabled)
           return;
         var element = scrollTarget.current;
@@ -36643,7 +36643,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         setScrollCaptureTarget(element);
         setScrollLockTarget(element);
       };
-      return react.jsx(React42.Fragment, null, lockEnabled && react.jsx("div", {
+      return react.jsx(React44.Fragment, null, lockEnabled && react.jsx("div", {
         onClick: blurSelectInput,
         css: _ref2$1
       }), children(targetRef));
@@ -38159,7 +38159,7 @@ var require_Select_5041a4f3_cjs_dev = __commonJS({
         }
       }]);
       return Select2;
-    }(React42.Component);
+    }(React44.Component);
     Select.defaultProps = defaultProps;
     exports.Select = Select;
     exports.createFilter = createFilter;
@@ -38178,7 +38178,7 @@ var require_react_select_cjs_dev = __commonJS({
     Object.defineProperty(exports, "__esModule", { value: true });
     var useStateManager = require_useStateManager_7748b351_cjs_dev();
     var _extends2 = require_extends();
-    var React42 = require_react();
+    var React44 = require_react();
     var Select = require_Select_5041a4f3_cjs_dev();
     var react = require_emotion_react_cjs();
     var createCache = require_emotion_cache_cjs();
@@ -38221,9 +38221,9 @@ var require_react_select_cjs_dev = __commonJS({
       n2["default"] = e;
       return Object.freeze(n2);
     }
-    var React__namespace = /* @__PURE__ */ _interopNamespace(React42);
+    var React__namespace = /* @__PURE__ */ _interopNamespace(React44);
     var createCache__default = /* @__PURE__ */ _interopDefault(createCache);
-    var StateManagedSelect = /* @__PURE__ */ React42.forwardRef(function(props, ref) {
+    var StateManagedSelect = /* @__PURE__ */ React44.forwardRef(function(props, ref) {
       var baseSelectProps = useStateManager.useStateManager(props);
       return /* @__PURE__ */ React__namespace.createElement(Select.Select, _extends2({
         ref
@@ -38232,7 +38232,7 @@ var require_react_select_cjs_dev = __commonJS({
     var StateManagedSelect$1 = StateManagedSelect;
     var NonceProvider = function(_ref) {
       var nonce = _ref.nonce, children = _ref.children, cacheKey = _ref.cacheKey;
-      var emotionCache = React42.useMemo(function() {
+      var emotionCache = React44.useMemo(function() {
         return createCache__default["default"]({
           key: cacheKey,
           nonce
@@ -45485,6 +45485,7 @@ var Color = /* @__PURE__ */ ((Color2) => {
 })(Color || {});
 var CellType = /* @__PURE__ */ ((CellType5) => {
   CellType5["TEXT"] = "text";
+  CellType5["EMBED"] = "embed";
   CellType5["FILE"] = "file";
   CellType5["NUMBER"] = "number";
   CellType5["CURRENCY"] = "currency";
@@ -45553,6 +45554,9 @@ var CSS_MEASUREMENT_PIXEL_REGEX = new RegExp(/^([1-9])([0-9]*)px$/);
 var DATE_REGEX = new RegExp(/^\d{4}\/\d{2}\/\d{2}$/);
 var CHECKBOX_REGEX = new RegExp(/^\[[x ]{0,1}\]$/);
 var CHECKBOX_CHECKED_REGEX = new RegExp(/^\[[x]\]$/);
+var URL_REGEX = new RegExp(
+  /^https?:\/\/(www\.)?[\w.-]+\.[\w.-]+(\/[\w.-]+)*(\/?(\?[\w.-]+=[\w.-]+(&[\w.-]+=[\w.-]+)*)?)?$/i
+);
 
 // src/shared/validators.ts
 var isNumber = (input) => {
@@ -45566,6 +45570,9 @@ var isCheckbox = (input) => {
 };
 var isCheckboxChecked = (input) => {
   return input.match(CHECKBOX_CHECKED_REGEX) !== null;
+};
+var isURL = (input) => {
+  return input.match(URL_REGEX) !== null;
 };
 var isGeneralFunction = (value) => {
   return Object.values(GeneralFunction).includes(value);
@@ -46157,53 +46164,6 @@ function TableBodyRow(_a) {
 // node_modules/@emotion/react/dist/emotion-react.cjs.mjs
 var import_emotion_react_cjs = __toESM(require_emotion_react_cjs(), 1);
 
-// src/shared/color.ts
-var RED_GRAPHITE_THEME = "Red Graphite";
-var findColorClassName = (isDarkMode, color) => {
-  switch (color) {
-    case "light gray" /* LIGHT_GRAY */:
-      return isDarkMode ? "NLT__light-gray--dark" : "NLT__light-gray--light";
-    case "gray" /* GRAY */:
-      return isDarkMode ? "NLT__gray--dark" : "NLT__gray--light";
-    case "brown" /* BROWN */:
-      return isDarkMode ? "NLT__brown--dark" : "NLT__brown--light";
-    case "orange" /* ORANGE */:
-      return isDarkMode ? "NLT__orange--dark" : "NLT__orange--light";
-    case "yellow" /* YELLOW */:
-      return isDarkMode ? "NLT__yellow--dark" : "NLT__yellow--light";
-    case "green" /* GREEN */:
-      return isDarkMode ? "NLT__green--dark" : "NLT__green--light";
-    case "blue" /* BLUE */:
-      return isDarkMode ? "NLT__blue--dark" : "NLT__blue--light";
-    case "purple" /* PURPLE */:
-      return isDarkMode ? "NLT__purple--dark" : "NLT__purple--light";
-    case "pink" /* PINK */:
-      return isDarkMode ? "NLT__pink--dark" : "NLT__pink--light";
-    case "red" /* RED */:
-      return isDarkMode ? "NLT__red--dark" : "NLT__red--light";
-    default:
-      return "";
-  }
-};
-var randomColor = () => {
-  const index = Math.floor(Math.random() * Object.values(Color).length);
-  return Object.values(Color)[index];
-};
-var getTableBorderColor = () => {
-  const theme = app.vault.getConfig("cssTheme");
-  if (theme === RED_GRAPHITE_THEME) {
-    return "var(--table-border-color)";
-  }
-  return "var(--background-modifier-border)";
-};
-var getTableBackgroundColor = () => {
-  const theme = app.vault.getConfig("cssTheme");
-  if (theme === RED_GRAPHITE_THEME) {
-    return "var(--table-header-background)";
-  }
-  return "var(--background-secondary)";
-};
-
 // src/react/table-app/table/table-header-cell.tsx
 function TableHeaderCell({
   columnId,
@@ -46338,19 +46298,17 @@ function TableHeaderCell({
     setTouchDropZone(null);
     removeDragHover();
   }
-  const tableBorderColor2 = getTableBorderColor();
-  const tableBackgroundColor = getTableBackgroundColor();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("th", __spreadProps(__spreadValues({
     "data-column-id": columnId,
     css: import_emotion_react_cjs.css`
-				border-bottom: 1px solid ${tableBorderColor2};
-				border-left: 1px solid ${tableBorderColor2};
+				border-bottom: 1px solid var(--table-border-color);
+				border-left: 1px solid var(--table-border-color);
 				border-right: 0;
 				padding: 0;
 				font-weight: 400;
 				overflow: visible;
 				text-align: start;
-				background-color: ${tableBackgroundColor};
+				background-color: var(--table-header-background);
 				position: sticky;
 				top: 0;
 				z-index: 1;
@@ -46636,15 +46594,16 @@ var useUUID = () => {
 };
 
 // src/react/table-app/table/index.tsx
-var tableBorderColor = getTableBorderColor();
 function Table2({ headerRows, bodyRows, footerRows }) {
   const tableRef = import_react15.default.useRef(null);
-  const didRowsChange = useCompare(bodyRows.length, false);
+  const previousRowLength = usePrevious(bodyRows.length);
   import_react15.default.useEffect(() => {
     var _a;
-    if (didRowsChange)
+    if (previousRowLength === void 0)
+      return;
+    if (previousRowLength < bodyRows.length)
       (_a = tableRef.current) == null ? void 0 : _a.scrollToIndex(bodyRows.length - 1);
-  }, [didRowsChange, bodyRows.length]);
+  }, [previousRowLength, bodyRows.length]);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableVirtuoso, {
     ref: tableRef,
     overscan: 10,
@@ -46657,6 +46616,9 @@ function Table2({ headerRows, bodyRows, footerRows }) {
     fixedHeaderContent: () => headerRows.map((row) => {
       const { id: rowId, cells } = row;
       return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("tr", {
+        css: import_emotion_react_cjs.css`
+								background-color: var(--background-secondary);
+							`,
         children: cells.map((cell, i2) => {
           const { id: cellId, columnId, content } = cell;
           return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TableHeaderCell, {
@@ -46672,6 +46634,9 @@ function Table2({ headerRows, bodyRows, footerRows }) {
         const { id: id2, content } = cell;
         return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("td", {
           className: "NLT__footer-td",
+          css: import_emotion_react_cjs.css`
+										padding: 0px;
+									`,
           children: content
         }, id2);
       })
@@ -46685,8 +46650,9 @@ function Table2({ headerRows, bodyRows, footerRows }) {
           "data-row-id": i2 === 0 ? rowId : void 0,
           css: import_emotion_react_cjs.css`
 								border-top: 0;
-								border-bottom: 1px solid ${tableBorderColor};
-								border-left: 1px solid ${tableBorderColor};
+								border-bottom: 1px solid
+									var(--table-border-color);
+								border-left: 1px solid var(--table-border-color);
 								border-right: 0;
 								padding: 0;
 								overflow: visible;
@@ -46747,7 +46713,7 @@ var Components = {
 				background-color: var(--background-primary);
 
 				& > tr:first-of-type > td {
-					border-bottom: 1px solid ${tableBorderColor};
+					border-bottom: 1px solid var(--table-border-color);
 				}
 
 				& > tr:first-of-type > td:nth-of-type(1) {
@@ -46755,11 +46721,11 @@ var Components = {
 				}
 
 				& > tr:first-of-type > td:nth-of-type(2) {
-					border-left: 1px solid ${tableBorderColor};
+					border-left: 1px solid var(--table-border-color);
 				}
 
 				& > tr:first-of-type > td:last-child {
-					border-left: 1px solid ${tableBorderColor};
+					border-left: 1px solid var(--table-border-color);
 					border-bottom: 0;
 				}
 			`
@@ -46797,6 +46763,11 @@ var getDynamicSize = (defaultValue, value) => {
 };
 var isMobileSize = () => {
   return window.innerWidth <= 480;
+};
+var hasDarkTheme = () => {
+  var _a;
+  const el = document.querySelector("body");
+  return (_a = el == null ? void 0 : el.className.includes("theme-dark")) != null ? _a : false;
 };
 
 // src/react/shared/icon/index.tsx
@@ -46938,7 +46909,6 @@ var Menu = import_react19.default.forwardRef(function Menu2({
   maxWidth = 0,
   children
 }, ref) {
-  const tableBorderColor2 = getTableBorderColor();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: isOpen && import_react_dom3.default.createPortal(
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
@@ -46961,7 +46931,8 @@ var Menu = import_react19.default.forwardRef(function Menu2({
 								max-height: ${maxHeight !== 0 ? numToPx(maxHeight) : "unset"};
 								overflow-y: ${maxHeight !== 0 ? "scroll" : "unset"};
 								background-color: var(--background-primary);
-								border: 1px solid ${tableBorderColor2};
+								border: 1px solid
+									var(--background-modifier-border);
 								box-shadow: 0 2px 8px
 									var(--background-modifier-box-shadow);
 								border-radius: 4px;
@@ -47221,10 +47192,10 @@ var RowMenu = import_react25.default.forwardRef(function RowMenu2({ id: id2, row
 var RowMenu_default = RowMenu;
 
 // src/shared/menu/hooks.ts
-var import_react27 = __toESM(require_react());
+var import_react28 = __toESM(require_react());
 
 // src/shared/menu/menu-context.tsx
-var import_react26 = __toESM(require_react());
+var import_react27 = __toESM(require_react());
 
 // src/shared/menu/focus-visible.ts
 var focusMenuElement = (menuId) => {
@@ -47304,10 +47275,117 @@ var moveFocusDown = (focusableEls, numColumns, numBodyRows, numSortedColumns, in
   return focusableEls[index + numColumns + 1];
 };
 
+// src/shared/menu/utils.ts
+var import_react26 = __toESM(require_react());
+var import_obsidian4 = require("obsidian");
+
+// src/shared/menu/constants.ts
+var MENU_SHIFT_PADDING = 5;
+
+// src/shared/menu/utils.ts
+var isTextSelected = () => {
+  const selection = window.getSelection();
+  return (selection == null ? void 0 : selection.type) === "Range";
+};
+var getElementPosition = (el) => {
+  if (el) {
+    const { top, left, width, height } = el.getBoundingClientRect();
+    return {
+      width: Math.ceil(width),
+      height: Math.ceil(height),
+      top: Math.ceil(top),
+      left: Math.ceil(left)
+    };
+  }
+  return {
+    top: 0,
+    left: 0,
+    width: 0,
+    height: 0
+  };
+};
+var useShiftMenu = (triggerRef, menuRef, isOpen, options) => {
+  import_react26.default.useEffect(() => {
+    function shiftMenuIntoView() {
+      var _a;
+      if (menuRef.current === null)
+        return;
+      if (triggerRef.current === null)
+        return;
+      const {
+        openDirection = "normal",
+        topOffset = 0,
+        leftOffset = 0
+      } = options || {};
+      const activeView = (_a = app.workspace.getActiveViewOfType(NLTView)) != null ? _a : app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
+      if (!activeView)
+        return;
+      const viewContentEl = activeView.contentEl;
+      const viewContentRect = viewContentEl.getBoundingClientRect();
+      const triggerRefRect = triggerRef.current.getBoundingClientRect();
+      const menuRect = menuRef.current.getBoundingClientRect();
+      const top = triggerRefRect.top + topOffset;
+      let left = triggerRefRect.left + leftOffset;
+      if (openDirection === "left") {
+        left = left - menuRect.width;
+      } else if (openDirection === "right") {
+        left = left + triggerRefRect.width;
+      }
+      const isMobile = import_obsidian4.Platform.isMobile;
+      let viewContentHeight = viewContentRect.height;
+      if (isMobile)
+        viewContentHeight -= 48;
+      const position = shiftElementIntoContainer(
+        {
+          top: viewContentRect.top,
+          left: viewContentRect.left,
+          width: viewContentRect.width,
+          height: viewContentHeight
+        },
+        {
+          top,
+          left,
+          width: menuRect.width,
+          height: menuRect.height
+        }
+      );
+      menuRef.current.style.top = numToPx(position.top);
+      menuRef.current.style.left = numToPx(position.left);
+    }
+    if (isOpen)
+      shiftMenuIntoView();
+  });
+};
+var useMenuTriggerPosition = () => {
+  const ref = import_react26.default.useRef(null);
+  const position = getElementPosition(ref.current);
+  return { triggerRef: ref, triggerPosition: position };
+};
+var shiftElementIntoContainer = (container, element) => {
+  let newTop = element.top;
+  let newLeft = element.left;
+  if (element.top + element.height > container.top + container.height) {
+    newTop = container.top + container.height - element.height - MENU_SHIFT_PADDING;
+  }
+  if (element.left + element.width > container.left + container.width) {
+    newLeft = container.left + container.width - element.width - MENU_SHIFT_PADDING;
+  }
+  if (element.top < container.top) {
+    newTop = container.top + MENU_SHIFT_PADDING;
+  }
+  if (element.left < container.left) {
+    newLeft = container.left + MENU_SHIFT_PADDING;
+  }
+  return {
+    top: Math.ceil(newTop),
+    left: Math.ceil(newLeft)
+  };
+};
+
 // src/shared/menu/menu-context.tsx
-var MenuContext = import_react26.default.createContext(null);
+var MenuContext = import_react27.default.createContext(null);
 var useMenuContext = () => {
-  const value = import_react26.default.useContext(MenuContext);
+  const value = import_react27.default.useContext(MenuContext);
   if (value === null) {
     throw new Error(
       "useMenu() called without a <MenuProvider /> in the tree."
@@ -47316,14 +47394,15 @@ var useMenuContext = () => {
   return value;
 };
 function MenuProvider({ children }) {
-  const [openMenus, setOpenMenus] = import_react26.default.useState([]);
   const { tableState } = useTableState();
   const { appId } = useMountContext();
-  const [menuCloseRequest, setMenuCloseRequest] = import_react26.default.useState(null);
-  const isMenuOpen = import_react26.default.useCallback(() => {
+  const [openMenus, setOpenMenus] = import_react27.default.useState([]);
+  const [menuCloseRequest, setMenuCloseRequest] = import_react27.default.useState(null);
+  const isTextHighlighted = import_react27.default.useRef(false);
+  const isMenuOpen = import_react27.default.useCallback(() => {
     return openMenus.length !== 0;
   }, [openMenus]);
-  const openMenu = import_react26.default.useCallback(
+  const openMenu = import_react27.default.useCallback(
     (menu) => {
       const canOpen = openMenus.find((m2) => m2.level < menu.level) || openMenus.length === 0;
       if (!canOpen)
@@ -47333,7 +47412,7 @@ function MenuProvider({ children }) {
     },
     [openMenus]
   );
-  function forceCloseAllMenus(shouldFocusTrigger = true) {
+  function closeAllMenus(shouldFocusTrigger = true) {
     const menu = openMenus.first();
     if (!menu)
       return;
@@ -47346,22 +47425,9 @@ function MenuProvider({ children }) {
     }
     setOpenMenus([]);
     setMenuCloseRequest(null);
+    isTextHighlighted.current = false;
   }
-  const requestCloseTopMenu = (type) => {
-    const menu = openMenus.last();
-    if (!menu)
-      return;
-    if (menu.shouldRequestOnClose) {
-      setMenuCloseRequest({
-        id: menu.id,
-        requestTime: Date.now(),
-        type
-      });
-      return;
-    }
-    closeTopMenu();
-  };
-  const closeTopMenu = import_react26.default.useCallback(
+  const closeTopMenu = import_react27.default.useCallback(
     (options) => {
       const { shouldFocusTrigger = true } = options || {};
       const menu = openMenus.last();
@@ -47376,10 +47442,28 @@ function MenuProvider({ children }) {
       }
       setOpenMenus((prev) => prev.slice(0, prev.length - 1));
       setMenuCloseRequest(null);
+      isTextHighlighted.current = false;
     },
-    [openMenus, menuCloseRequest]
+    [openMenus]
   );
-  import_react26.default.useEffect(() => {
+  const requestCloseTopMenu = import_react27.default.useCallback(
+    (type) => {
+      const menu = openMenus.last();
+      if (!menu)
+        return;
+      if (menu.shouldRequestOnClose) {
+        setMenuCloseRequest({
+          id: menu.id,
+          requestTime: Date.now(),
+          type
+        });
+        return;
+      }
+      closeTopMenu();
+    },
+    [openMenus, closeTopMenu]
+  );
+  import_react27.default.useEffect(() => {
     function handleClick(e) {
       if (isMenuOpen()) {
         const menu = openMenus.last();
@@ -47393,6 +47477,8 @@ function MenuProvider({ children }) {
         if (target.closest(`.NLT__menu[data-id="${id2}"]`))
           return;
         if (target.closest(`.NLT__focusable[data-menu-id="${id2}"]`))
+          return;
+        if (isTextHighlighted.current)
           return;
         requestCloseTopMenu("click");
       } else {
@@ -47416,6 +47502,12 @@ function MenuProvider({ children }) {
         }
       }
     }
+    function handleMouseDown() {
+      isTextHighlighted.current = false;
+    }
+    function handleSelectionChange() {
+      isTextHighlighted.current = isTextSelected();
+    }
     function handleEnterDown(e) {
       const target = e.target;
       if (isSpecialActionDown(e))
@@ -47426,6 +47518,8 @@ function MenuProvider({ children }) {
         const menu = openMenus.last();
         if (!menu)
           throw new Error("Menu is open but no menu exists");
+        if (isTextHighlighted.current)
+          return;
         requestCloseTopMenu("enter");
       } else {
         openMenuFromFocusedTrigger();
@@ -47449,9 +47543,7 @@ function MenuProvider({ children }) {
       const focusedEl = document.activeElement;
       if (!focusedEl)
         return;
-      const tableEl = document.querySelector(
-        `.NLT__app[data-id="${appId}"]`
-      );
+      const tableEl = focusedEl.closest(`.NLT__app[data-id="${appId}"]`);
       if (!tableEl)
         throw new Error("Table el not found");
       const focusableEls = tableEl.querySelectorAll(".NLT__focusable");
@@ -47524,18 +47616,30 @@ function MenuProvider({ children }) {
     }
     eventSystem.addEventListener("click", handleClick, 2);
     eventSystem.addEventListener("keydown", handleKeyDown);
+    eventSystem.addEventListener("mousedown", handleMouseDown);
+    eventSystem.addEventListener("selectionchange", handleSelectionChange);
     return () => {
       eventSystem.removeEventListener("click", handleClick);
       eventSystem.removeEventListener("keydown", handleKeyDown);
+      eventSystem.removeEventListener("mousedown", handleMouseDown);
+      eventSystem.removeEventListener("mouseup", handleSelectionChange);
     };
-  }, [isMenuOpen, closeTopMenu, openMenu, openMenus, appId, tableState]);
+  }, [
+    isMenuOpen,
+    closeTopMenu,
+    openMenu,
+    requestCloseTopMenu,
+    openMenus,
+    appId,
+    tableState
+  ]);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(MenuContext.Provider, {
     value: {
       openMenus,
       openMenu,
       menuCloseRequest,
       closeTopMenu,
-      forceCloseAllMenus
+      closeAllMenus
     },
     children
   });
@@ -47544,17 +47648,17 @@ function MenuProvider({ children }) {
 // src/shared/menu/hooks.ts
 var useMenu = (level, options) => {
   const { shouldRequestOnClose = false } = options || {};
-  const [id2] = import_react27.default.useState("m" + v4_default());
-  const menuRef = import_react27.default.useRef(null);
+  const [id2] = import_react28.default.useState("m" + v4_default());
+  const menuRef = import_react28.default.useRef(null);
   const {
     openMenus,
     openMenu,
     closeTopMenu,
     menuCloseRequest,
-    forceCloseAllMenus
+    closeAllMenus
   } = useMenuContext();
   const isOpen = openMenus.find((menu2) => menu2.id === id2) ? true : false;
-  const menu = import_react27.default.useMemo(() => {
+  const menu = import_react28.default.useMemo(() => {
     return { id: id2, level, shouldRequestOnClose };
   }, [id2, level, shouldRequestOnClose]);
   return {
@@ -47564,106 +47668,7 @@ var useMenu = (level, options) => {
     menuCloseRequest: (menuCloseRequest == null ? void 0 : menuCloseRequest.id) === id2 ? menuCloseRequest : null,
     openMenu,
     closeTopMenu,
-    forceCloseAllMenus
-  };
-};
-
-// src/shared/menu/utils.ts
-var import_react28 = __toESM(require_react());
-var import_obsidian4 = require("obsidian");
-var getElementPosition = (el) => {
-  if (el) {
-    const { top, left, width, height } = el.getBoundingClientRect();
-    return {
-      width: Math.ceil(width),
-      height: Math.ceil(height),
-      top: Math.ceil(top),
-      left: Math.ceil(left)
-    };
-  }
-  return {
-    top: 0,
-    left: 0,
-    width: 0,
-    height: 0
-  };
-};
-var useShiftMenu = (triggerRef, menuRef, isOpen, options) => {
-  import_react28.default.useEffect(() => {
-    function shiftMenuIntoView() {
-      var _a;
-      if (menuRef.current === null)
-        return;
-      if (triggerRef.current === null)
-        return;
-      const {
-        openDirection = "normal",
-        topOffset = 0,
-        leftOffset = 0
-      } = options || {};
-      const activeView = (_a = app.workspace.getActiveViewOfType(NLTView)) != null ? _a : app.workspace.getActiveViewOfType(import_obsidian4.MarkdownView);
-      if (!activeView)
-        return;
-      const viewContentEl = activeView.contentEl;
-      const viewContentRect = viewContentEl.getBoundingClientRect();
-      const triggerRefRect = triggerRef.current.getBoundingClientRect();
-      const menuRect = menuRef.current.getBoundingClientRect();
-      const top = triggerRefRect.top + topOffset;
-      let left = triggerRefRect.left + leftOffset;
-      if (openDirection === "left") {
-        left = left - menuRect.width;
-      } else if (openDirection === "right") {
-        left = left + triggerRefRect.width;
-      }
-      const isMobile = import_obsidian4.Platform.isMobile;
-      let viewContentHeight = viewContentRect.height;
-      if (isMobile)
-        viewContentHeight -= 48;
-      const position = shiftElementIntoContainer(
-        {
-          top: viewContentRect.top,
-          left: viewContentRect.left,
-          width: viewContentRect.width,
-          height: viewContentHeight
-        },
-        {
-          top,
-          left,
-          width: menuRect.width,
-          height: menuRect.height
-        }
-      );
-      menuRef.current.style.top = numToPx(position.top);
-      menuRef.current.style.left = numToPx(position.left);
-    }
-    if (isOpen)
-      shiftMenuIntoView();
-  });
-};
-var useMenuTriggerPosition = () => {
-  const ref = import_react28.default.useRef(null);
-  const position = getElementPosition(ref.current);
-  return { triggerRef: ref, triggerPosition: position };
-};
-var PADDING_OFFSET = 5;
-var shiftElementIntoContainer = (container, element) => {
-  let newTop = element.top;
-  let newLeft = element.left;
-  if (element.top + element.height > container.top + container.height) {
-    newTop = container.top + container.height - element.height - PADDING_OFFSET;
-  }
-  if (element.left + element.width > container.left + container.width) {
-    newLeft = container.left + container.width - element.width - PADDING_OFFSET;
-  }
-  if (element.top < container.top) {
-    newTop = container.top + PADDING_OFFSET;
-  }
-  if (element.left < container.left) {
-    newLeft = container.left + PADDING_OFFSET;
-  }
-  return {
-    top: Math.ceil(newTop),
-    left: Math.ceil(newLeft)
+    closeAllMenus
   };
 };
 
@@ -48946,6 +48951,8 @@ var getDisplayNameForCellType = (type) => {
   switch (type) {
     case "text" /* TEXT */:
       return "Text";
+    case "embed" /* EMBED */:
+      return "Embed";
     case "file" /* FILE */:
       return "File";
     case "number" /* NUMBER */:
@@ -49199,12 +49206,14 @@ var getTimeCellContent = (dateTime, format) => {
     return unixTimeToDateTimeString(dateTime, format);
   return "";
 };
-var getCheckboxContent = (markdown, shouldEscapeMarkdown) => {
-  if (shouldEscapeMarkdown) {
-    if (isCheckboxChecked(markdown))
-      return "true";
-    return "false";
-  }
+var getCheckboxContent = (markdown) => {
+  if (isCheckboxChecked(markdown))
+    return "true";
+  return "false";
+};
+var getEmbedContent = (markdown) => {
+  if (isURL(markdown))
+    return `![](${markdown})`;
   return markdown;
 };
 var getCurrencyCellContent = (value, currencyType) => {
@@ -49212,14 +49221,16 @@ var getCurrencyCellContent = (value, currencyType) => {
     return stringToCurrencyString(value, currencyType);
   return value;
 };
-var getCellContent = (column, row, cell, shouldEscapeMarkdown) => {
+var getCellContent = (column, row, cell) => {
   switch (column.type) {
     case "text" /* TEXT */:
     case "file" /* FILE */:
     case "number" /* NUMBER */:
       return cell.markdown;
+    case "embed" /* EMBED */:
+      return getEmbedContent(cell.markdown);
     case "checkbox" /* CHECKBOX */:
-      return getCheckboxContent(cell.markdown, shouldEscapeMarkdown);
+      return getCheckboxContent(cell.markdown);
     case "currency" /* CURRENCY */:
       return getCurrencyCellContent(cell.markdown, column.currencyType);
     case "tag" /* TAG */:
@@ -49231,6 +49242,8 @@ var getCellContent = (column, row, cell, shouldEscapeMarkdown) => {
       return getTimeCellContent(row.creationTime, column.dateFormat);
     case "last-edited-time" /* LAST_EDITED_TIME */:
       return getTimeCellContent(row.lastEditedTime, column.dateFormat);
+    default:
+      throw new Error("Unsupported cell type");
   }
 };
 
@@ -49326,7 +49339,7 @@ var countUnique = (bodyRows, columnCells, columnTags, cellType, dateFormat) => {
       cellType,
       dateFormat
     );
-    return cellValues.map((value) => hashString(value));
+    return cellValues.filter((value) => value !== "").map((value) => hashString(value));
   }).flat(1);
   const uniqueHashes = new Set(hashes);
   return uniqueHashes.size;
@@ -49345,7 +49358,7 @@ var percentNotEmpty = (columnCells, cellType) => {
   return normalized + "%";
 };
 var getCellValues = (bodyRow, cell, columnTags, cellType, dateFormat) => {
-  if (cellType === "text" /* TEXT */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "checkbox" /* CHECKBOX */ || cellType === "file" /* FILE */) {
+  if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "checkbox" /* CHECKBOX */ || cellType === "file" /* FILE */) {
     return [cell.markdown];
   } else if (cellType === "date" /* DATE */) {
     if (cell.dateTime)
@@ -49367,7 +49380,7 @@ var getCellValues = (bodyRow, cell, columnTags, cellType, dateFormat) => {
   }
 };
 var countCellValues = (cell, cellType) => {
-  if (cellType === "text" /* TEXT */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "file" /* FILE */) {
+  if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "file" /* FILE */) {
     return cell.markdown === "" ? 0 : 1;
   } else if (cellType === "date" /* DATE */) {
     return cell.dateTime == null ? 0 : 1;
@@ -49382,7 +49395,7 @@ var countCellValues = (cell, cellType) => {
   }
 };
 var isCellContentEmpty = (cell, cellType) => {
-  if (cellType === "text" /* TEXT */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "file" /* FILE */) {
+  if (cellType === "text" /* TEXT */ || cellType === "embed" /* EMBED */ || cellType === "number" /* NUMBER */ || cellType === "currency" /* CURRENCY */ || cellType === "file" /* FILE */) {
     return cell.markdown === "";
   } else if (cellType === "date" /* DATE */) {
     return cell.dateTime == null;
@@ -49538,14 +49551,14 @@ function FunctionCell({
 }
 
 // src/react/table-app/body-cell/index.tsx
-var import_react69 = __toESM(require_react());
+var import_react72 = __toESM(require_react());
 var import_obsidian6 = require("obsidian");
 
-// src/shared/markdown/hooks.ts
+// src/shared/render/hooks.ts
 var import_react45 = __toESM(require_react());
 var import_obsidian5 = require("obsidian");
 
-// src/shared/markdown/embed.ts
+// src/shared/render/embed.ts
 var handleLinkClick = (event) => {
   const targetEl = event.target;
   const closestAnchor = targetEl.tagName === "A" ? targetEl : targetEl.closest("a");
@@ -49561,7 +49574,7 @@ var handleLinkClick = (event) => {
   }
 };
 
-// src/shared/markdown/utils.ts
+// src/shared/render/utils.ts
 var replaceNewLinesWithBr = (markdown) => {
   const lines = markdown.split("\n");
   let updated = "";
@@ -49575,7 +49588,7 @@ var replaceNewLinesWithBr = (markdown) => {
   return updated;
 };
 
-// src/shared/markdown/hooks.ts
+// src/shared/render/hooks.ts
 var useRenderMarkdown = (markdown, shouldWrapOverflow) => {
   const { leaf } = useMountContext();
   const containerRef = import_react45.default.useRef(null);
@@ -49593,17 +49606,21 @@ var useRenderMarkdown = (markdown, shouldWrapOverflow) => {
     function renderMarkdown() {
       return __async(this, null, function* () {
         const div = document.body.createDiv();
-        div.classList.add("markdown-rendered");
+        div.style.height = "100%";
+        div.style.width = "100%";
+        const view = leaf.view;
+        if (view instanceof NLTView)
+          div.classList.add("markdown-rendered");
         div.detach();
         try {
           const updated = replaceNewLinesWithBr(markdown);
-          const view = leaf.view;
-          if (view instanceof import_obsidian5.MarkdownView || view instanceof NLTView) {
+          const view2 = leaf.view;
+          if (view2 instanceof import_obsidian5.MarkdownView || view2 instanceof NLTView) {
             yield import_obsidian5.MarkdownRenderer.renderMarkdown(
               updated,
               div,
-              view.file.path,
-              view
+              view2.file.path,
+              view2
             );
             const embeds = div.querySelectorAll(".internal-link");
             embeds.forEach((embed) => {
@@ -49613,15 +49630,16 @@ var useRenderMarkdown = (markdown, shouldWrapOverflow) => {
                 return;
               const destination = app.metadataCache.getFirstLinkpathDest(
                 href,
-                view.file.path
+                view2.file.path
               );
               if (!destination)
                 embed.classList.add("is-unresolved");
               el.addEventListener("mouseover", (e) => {
+                e.stopPropagation();
                 app.workspace.trigger("hover-link", {
                   event: e,
                   source: NOTION_LIKE_TABLES_VIEW,
-                  hoverParent: view.containerEl,
+                  hoverParent: view2.containerEl,
                   targetEl: el,
                   linktext: href,
                   sourcePath: el.href
@@ -49697,6 +49715,38 @@ function TextCell({ markdown, shouldWrapOverflow }) {
     })
   });
 }
+
+// src/shared/color.ts
+var findColorClassName = (isDarkMode, color) => {
+  switch (color) {
+    case "light gray" /* LIGHT_GRAY */:
+      return isDarkMode ? "NLT__light-gray--dark" : "NLT__light-gray--light";
+    case "gray" /* GRAY */:
+      return isDarkMode ? "NLT__gray--dark" : "NLT__gray--light";
+    case "brown" /* BROWN */:
+      return isDarkMode ? "NLT__brown--dark" : "NLT__brown--light";
+    case "orange" /* ORANGE */:
+      return isDarkMode ? "NLT__orange--dark" : "NLT__orange--light";
+    case "yellow" /* YELLOW */:
+      return isDarkMode ? "NLT__yellow--dark" : "NLT__yellow--light";
+    case "green" /* GREEN */:
+      return isDarkMode ? "NLT__green--dark" : "NLT__green--light";
+    case "blue" /* BLUE */:
+      return isDarkMode ? "NLT__blue--dark" : "NLT__blue--light";
+    case "purple" /* PURPLE */:
+      return isDarkMode ? "NLT__purple--dark" : "NLT__purple--light";
+    case "pink" /* PINK */:
+      return isDarkMode ? "NLT__pink--dark" : "NLT__pink--light";
+    case "red" /* RED */:
+      return isDarkMode ? "NLT__red--dark" : "NLT__red--light";
+    default:
+      return "";
+  }
+};
+var randomColor = () => {
+  const index = Math.floor(Math.random() * Object.values(Color).length);
+  return Object.values(Color)[index];
+};
 
 // src/react/shared/tag/index.tsx
 function Tag6({
@@ -49840,7 +49890,13 @@ function NumberCellEdit({
       onChange(localValue);
       onMenuClose();
     }
-  }, [localValue, hasCloseRequestTimeChanged, menuCloseRequest, onMenuClose]);
+  }, [
+    localValue,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose,
+    onChange
+  ]);
   function handleChange(inputValue, setSelectionToLength = false) {
     if (!isValidNumberInput(inputValue))
       return;
@@ -49872,7 +49928,7 @@ var import_react56 = __toESM(require_react());
 // src/react/shared/suggest-menu/suggest-menu.tsx
 var import_react55 = __toESM(require_react());
 
-// src/react/shared/suggest-menu/suggest-menu-context.tsx
+// src/react/shared/suggest-menu/suggest-menu-content.tsx
 var import_react53 = __toESM(require_react());
 var import_fuzzysort = __toESM(require_fuzzysort());
 
@@ -50002,7 +50058,7 @@ var removeClosingBracket = (previousValue, value, selectionStart) => {
   }
   return value;
 };
-var findUniqueStrings = (arr) => {
+var filterUniqueStrings = (arr) => {
   const frequencyMap = /* @__PURE__ */ new Map();
   arr.forEach((string) => {
     frequencyMap.set(string, (frequencyMap.get(string) || 0) + 1);
@@ -50016,7 +50072,7 @@ var findUniqueStrings = (arr) => {
   return uniqueStrings;
 };
 
-// src/react/shared/suggest-menu/suggest-menu-context.tsx
+// src/react/shared/suggest-menu/suggest-menu-content.tsx
 function SuggestMenuContent({
   showInput,
   filterValue,
@@ -50082,16 +50138,14 @@ function SuggestMenuContent({
     return () => eventSystem.removeEventListener("keydown", handleKeyDown);
   }, [filteredFiles.length]);
   const fileNames = filteredFiles.map((file) => file.name);
-  const uniqueFileNames = findUniqueStrings(fileNames);
-  const tableBackgroundColor = getTableBackgroundColor();
-  const tableBorderColor2 = getTableBorderColor();
+  const uniqueFileNames = filterUniqueStrings(fileNames);
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
     className: "NLT__suggest-menu",
     children: [
       showInput && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
         css: import_emotion_react_cjs.css`
-						background-color: ${tableBackgroundColor};
-						border-bottom: 1px solid ${tableBorderColor2};
+						background-color: var(--background-secondary);
+						border-bottom: 1px solid var(--table-border-color);
 						padding: 4px 10px;
 					`,
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
@@ -50156,6 +50210,35 @@ var SuggestMenu = import_react55.default.forwardRef(
 );
 var suggest_menu_default = SuggestMenu;
 
+// src/shared/link/link-utils.ts
+var getBasename = (filePath) => {
+  const fileName = stripDirectory(filePath);
+  return stripFileExtension(fileName);
+};
+var stripFileExtension = (filePath) => {
+  return filePath.substring(0, filePath.lastIndexOf("."));
+};
+var stripDirectory = (filePath) => {
+  return filePath.substring(filePath.lastIndexOf("/") + 1);
+};
+var isMarkdownFile = (extension) => {
+  return extension === "md";
+};
+var getWikiLinkText = (fileInfo, isFileNameUnique) => {
+  const { basename, name, path, extension } = fileInfo;
+  let text = basename;
+  if (!isMarkdownFile(extension)) {
+    text = name;
+    if (!isFileNameUnique)
+      text = `${path}|${basename}`;
+  } else {
+    const pathWithoutExtension = stripFileExtension(path);
+    if (!isFileNameUnique)
+      text = `${pathWithoutExtension}|${basename}`;
+  }
+  return text;
+};
+
 // src/react/table-app/text-cell-edit/index.tsx
 function TextCellEdit({
   shouldWrapOverflow,
@@ -50165,14 +50248,7 @@ function TextCellEdit({
   onMenuClose
 }) {
   var _a;
-  const {
-    menu,
-    isMenuOpen,
-    menuRef,
-    openMenu,
-    forceCloseAllMenus,
-    closeTopMenu
-  } = useMenu(1 /* TWO */);
+  const { menu, isMenuOpen, menuRef, openMenu, closeAllMenus, closeTopMenu } = useMenu(1 /* TWO */);
   const { triggerRef, triggerPosition } = useMenuTriggerPosition();
   useShiftMenu(triggerRef, menuRef, isMenuOpen, {
     topOffset: 35
@@ -50189,7 +50265,13 @@ function TextCellEdit({
       onChange(localValue);
       onMenuClose();
     }
-  }, [localValue, hasCloseRequestTimeChanged, menuCloseRequest, onMenuClose]);
+  }, [
+    localValue,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose,
+    onChange
+  ]);
   function handleKeyDown(e) {
     const el = e.target;
     if (e.key === "Enter") {
@@ -50232,11 +50314,7 @@ function TextCellEdit({
   }
   function handleSuggestItemClick(file, isFileNameUnique) {
     if (file) {
-      let fileName = file.basename;
-      if (file.extension !== "md")
-        fileName = file.name;
-      if (!isFileNameUnique)
-        fileName = `${file.path}|${fileName}`;
+      const fileName = getWikiLinkText(file, isFileNameUnique);
       const newValue = doubleBracketsInnerReplace(
         localValue,
         previousSelectionStart,
@@ -50244,7 +50322,7 @@ function TextCellEdit({
       );
       onChange(newValue);
     }
-    forceCloseAllMenus();
+    closeAllMenus();
   }
   const overflowStyle = useOverflow(shouldWrapOverflow);
   const filterValue = (_a = getFilterValue(localValue, previousSelectionStart)) != null ? _a : "";
@@ -50288,16 +50366,14 @@ function MenuHeader({
 }) {
   const inputRef = import_react58.default.useRef(null);
   function handleInputChange(value) {
-    if (value.match(/^\s+$/))
+    if (value.match(/^\s/))
       return;
     onInputValueChange(value);
   }
-  const tableBackgroundColor = getTableBackgroundColor();
-  const tableBorderColor2 = getTableBorderColor();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
     css: import_emotion_react_cjs.css`
-				background-color: ${tableBackgroundColor};
-				border-bottom: 1px solid ${tableBorderColor2};
+				background-color: var(--background-secondary);
+				border-bottom: 1px solid var(--table-border-color);
 				padding: 4px 10px;
 			`,
     children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Wrap, {
@@ -50466,8 +50542,8 @@ function SelectableTag({
   const { triggerRef, triggerPosition } = useMenuTriggerPosition();
   useShiftMenu(triggerRef, menuRef, isMenuOpen, {
     openDirection: "right",
-    leftOffset: 25,
-    topOffset: -50
+    leftOffset: -55,
+    topOffset: -100
   });
   function handleColorChange(color2) {
     onColorChange(id2, color2);
@@ -50603,13 +50679,9 @@ function TagCellEdit({
   import_react63.default.useEffect(() => {
     if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
       if (menuCloseRequest.type === "enter") {
-        if (!inputValue.match(/^\s$/)) {
-          const shouldAddTag = columnTags.find(
-            (tag) => tag.markdown === inputValue
-          ) === void 0;
-          if (shouldAddTag)
-            handleTagAdd(inputValue, newTagColor);
-        }
+        const shouldAddTag = columnTags.find((tag) => tag.markdown === inputValue) === void 0;
+        if (shouldAddTag)
+          handleTagAdd(inputValue, newTagColor);
       }
       onMenuClose();
     }
@@ -50727,12 +50799,20 @@ function DateCellEdit({
     }
     if (hasCloseRequestTimeChanged && menuCloseRequest !== null)
       validateInput();
-  }, [hasCloseRequestTimeChanged, localValue, menuCloseRequest, dateFormat]);
+  }, [
+    value,
+    hasCloseRequestTimeChanged,
+    localValue,
+    menuCloseRequest,
+    dateFormat,
+    onDateTimeChange,
+    onMenuClose
+  ]);
   import_react65.default.useEffect(() => {
     if (closeTime !== 0) {
       onMenuClose();
     }
-  }, [closeTime]);
+  }, [closeTime, onMenuClose]);
   function handleDateFormatChange(value2) {
     onDateFormatChange(value2);
     closeTopMenu();
@@ -50741,8 +50821,6 @@ function DateCellEdit({
     onDateTimeChange(null);
     onMenuClose();
   }
-  const tableBackgroundColor = getTableBackgroundColor();
-  const tableBorderColor2 = getTableBorderColor();
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(import_emotion_react_jsx_runtime_cjs.Fragment, {
     children: [
       /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
@@ -50759,9 +50837,9 @@ function DateCellEdit({
                 css: import_emotion_react_cjs.css`
 								width: 100%;
 								height: 100%;
-								border: 1px solid ${tableBorderColor2};
+								border: 1px solid var(--table-border-color);
 								padding: 5px;
-								background-color: ${tableBackgroundColor};
+								background-color: var(--background-secondary);
 							`,
                 ref: inputRef,
                 "aria-invalid": isInputInvalid,
@@ -50878,7 +50956,13 @@ function CurrencyCellEdit({
       onChange(localValue);
       onMenuClose();
     }
-  }, [localValue, hasCloseRequestTimeChanged, menuCloseRequest, onMenuClose]);
+  }, [
+    localValue,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose,
+    onChange
+  ]);
   function handleChange(inputValue, setSelectionToLength = false) {
     if (!isValidNumberInput(inputValue))
       return;
@@ -50948,6 +51032,117 @@ function FileCellEdit({ onChange, onMenuClose }) {
   });
 }
 
+// src/react/table-app/embed-cell/index.tsx
+function EmbedCell({ markdown }) {
+  let externalLinkMarkdown = "";
+  let isValidURL = false;
+  if (markdown !== "") {
+    if (isURL(markdown)) {
+      isValidURL = true;
+      externalLinkMarkdown = getEmbedContent(markdown);
+    } else {
+      externalLinkMarkdown = "Invalid URL";
+    }
+  }
+  const { containerRef, markdownRef, appendOrReplaceFirstChild: appendOrReplaceFirstChild2 } = useRenderMarkdown(externalLinkMarkdown, false);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "NLT__embed-cell",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				height: 100%;
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+      css: import_emotion_react_cjs.css`
+					width: 100%;
+					aspect-ratio: ${isValidURL ? "16/9" : "unset"};
+
+					iframe {
+						width: 100%;
+						height: 100%;
+					}
+
+					p {
+						width: 100%;
+						height: 100%;
+						margin: 0px;
+					}
+				`,
+      ref: (node) => {
+        containerRef.current = node;
+        appendOrReplaceFirstChild2(node, markdownRef.current);
+      }
+    })
+  });
+}
+
+// src/react/table-app/embed-cell-edit/index.tsx
+var import_react70 = __toESM(require_react());
+var textAreaStyle = import_emotion_react_cjs.css`
+	width: 100%;
+	height: 100%;
+	border: 0 !important;
+	overflow: hidden;
+	padding: var(--nlt-cell-spacing-x) var(--nlt-cell-spacing-y);
+	resize: none;
+	font-size: var(--font-ui-medium) !important;
+`;
+function EmbedCellEdit({
+  shouldWrapOverflow,
+  menuCloseRequest,
+  value,
+  onChange,
+  onMenuClose
+}) {
+  const [localValue, setLocalValue] = import_react70.default.useState(value);
+  const inputRef = import_react70.default.useRef(null);
+  const { setPreviousSelectionStart } = useInputSelection(
+    inputRef,
+    localValue
+  );
+  const hasCloseRequestTimeChanged = useCompare(
+    menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
+  );
+  import_react70.default.useEffect(() => {
+    if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
+      onChange(localValue);
+      onMenuClose();
+    }
+  }, [
+    localValue,
+    hasCloseRequestTimeChanged,
+    menuCloseRequest,
+    onMenuClose,
+    onChange
+  ]);
+  function handleTextareaChange(e) {
+    const inputValue = e.target.value;
+    if (inputRef.current) {
+      const inputEl = inputRef.current;
+      if (inputEl.selectionStart)
+        setPreviousSelectionStart(inputEl.selectionStart);
+    }
+    setLocalValue(inputValue);
+  }
+  const overflowStyle = useOverflow(shouldWrapOverflow);
+  return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("div", {
+    className: "NLT__embed-cell-edit",
+    css: import_emotion_react_cjs.css`
+				width: 100%;
+				height: 100%;
+			`,
+    children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("textarea", {
+      autoFocus: true,
+      css: import_emotion_react_cjs.css`
+					${textAreaStyle}
+					${overflowStyle}
+				`,
+      ref: inputRef,
+      value: localValue,
+      onChange: handleTextareaChange
+    })
+  });
+}
+
 // src/react/table-app/body-cell/index.tsx
 function BodyCell6({
   cellId,
@@ -50974,7 +51169,7 @@ function BodyCell6({
   onDateTimeChange,
   onTagAdd
 }) {
-  const shouldRequestOnClose = columnType === "text" /* TEXT */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */;
+  const shouldRequestOnClose = columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */ || columnType === "date" /* DATE */;
   const {
     menu,
     isMenuOpen,
@@ -50989,7 +51184,7 @@ function BodyCell6({
   useShiftMenu(triggerRef, menuRef, isMenuOpen);
   const { doCommand } = useTableState();
   const didIsMenuOpenChange = useCompare(isMenuOpen, false);
-  import_react69.default.useEffect(() => {
+  import_react72.default.useEffect(() => {
     if (didIsMenuOpenChange) {
       if (!isMenuOpen) {
         doCommand(new RowSortCommand());
@@ -51015,7 +51210,7 @@ function BodyCell6({
     }
   }
   function handleBackspaceDown() {
-    if (columnType === "text" /* TEXT */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "file" /* FILE */) {
+    if (columnType === "text" /* TEXT */ || columnType === "embed" /* EMBED */ || columnType === "number" /* NUMBER */ || columnType === "currency" /* CURRENCY */ || columnType === "file" /* FILE */) {
       onContentChange(cellId, rowId, "");
     } else if (columnType === "date" /* DATE */) {
       onDateTimeChange(cellId, rowId, null);
@@ -51044,11 +51239,13 @@ function BodyCell6({
     openMenu(menu);
   }
   function handleTagAdd(markdown2, color) {
+    if (markdown2 === "")
+      return;
     onTagAdd(
       cellId,
       columnId,
       rowId,
-      markdown2,
+      markdown2.trim(),
       color,
       columnType === "multi-tag" /* MULTI_TAG */
     );
@@ -51065,28 +51262,25 @@ function BodyCell6({
   function handleTagClick(tagId) {
     onTagClick(cellId, rowId, tagId, columnType === "multi-tag" /* MULTI_TAG */);
   }
-  function handleTextInputChange(value) {
-    onContentChange(cellId, rowId, value);
-  }
-  function handleFileInputChange(value) {
-    onContentChange(cellId, rowId, value);
-  }
-  function handleNumberInputChange(value) {
-    onContentChange(cellId, rowId, value);
-  }
+  const handleInputChange = import_react72.default.useCallback(
+    (value) => {
+      onContentChange(cellId, rowId, value);
+    },
+    [cellId, rowId, onContentChange]
+  );
   function handleCheckboxChange(value) {
-    onContentChange(cellId, rowId, value);
-  }
-  function handleCurrencyChange(value) {
     onContentChange(cellId, rowId, value);
   }
   function handleDateFormatChange(value) {
     onDateFormatChange(columnId, value);
   }
-  function handleDateTimeChange(value) {
-    onDateTimeChange(cellId, rowId, value);
-  }
-  const handleMenuClose = import_react69.default.useCallback(() => {
+  const handleDateTimeChange = import_react72.default.useCallback(
+    (value) => {
+      onDateTimeChange(cellId, rowId, value);
+    },
+    [cellId, rowId, onDateTimeChange]
+  );
+  const handleMenuClose = import_react72.default.useCallback(() => {
     closeTopMenu();
   }, [closeTopMenu]);
   const { width: measuredWidth, height: measuredHeight } = triggerPosition;
@@ -51119,6 +51313,15 @@ function BodyCell6({
         children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)("div", {
           ref: triggerRef,
           onContextMenu: handleCellContextClick,
+          css: import_emotion_react_cjs.css`
+						display: flex;
+						width: 100%;
+						height: 100%;
+						min-height: var(--nlt-cell-min-height);
+						padding: var(--nlt-cell-spacing-x)
+							var(--nlt-cell-spacing-y);
+						cursor: pointer;
+					`,
           className,
           style: {
             width
@@ -51127,6 +51330,9 @@ function BodyCell6({
             columnType === "text" /* TEXT */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TextCell, {
               markdown,
               shouldWrapOverflow
+            }),
+            columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(EmbedCell, {
+              markdown
             }),
             columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(FileCell, {
               markdown,
@@ -51183,17 +51389,24 @@ function BodyCell6({
             menuCloseRequest,
             shouldWrapOverflow,
             value: markdown,
-            onChange: handleTextInputChange,
+            onChange: handleInputChange,
+            onMenuClose: handleMenuClose
+          }),
+          columnType === "embed" /* EMBED */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(EmbedCellEdit, {
+            menuCloseRequest,
+            shouldWrapOverflow,
+            value: markdown,
+            onChange: handleInputChange,
             onMenuClose: handleMenuClose
           }),
           columnType === "file" /* FILE */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(FileCellEdit, {
-            onChange: handleFileInputChange,
+            onChange: handleInputChange,
             onMenuClose: handleMenuClose
           }),
           columnType === "number" /* NUMBER */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(NumberCellEdit, {
             menuCloseRequest,
             value: markdown,
-            onChange: handleNumberInputChange,
+            onChange: handleInputChange,
             onMenuClose: handleMenuClose
           }),
           (columnType === "tag" /* TAG */ || columnType === "multi-tag" /* MULTI_TAG */) && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(TagCellEdit, {
@@ -51218,7 +51431,7 @@ function BodyCell6({
           columnType === "currency" /* CURRENCY */ && /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)(CurrencyCellEdit, {
             menuCloseRequest,
             value: markdown,
-            onChange: handleCurrencyChange,
+            onChange: handleInputChange,
             onMenuClose: handleMenuClose
           })
         ]
@@ -51253,10 +51466,10 @@ function NewColumnButton({ onClick }) {
 }
 
 // src/react/table-app/header-cell/index.tsx
-var import_react76 = __toESM(require_react());
+var import_react80 = __toESM(require_react());
 
 // src/react/table-app/header-cell-edit/index.tsx
-var import_react72 = __toESM(require_react());
+var import_react76 = __toESM(require_react());
 
 // src/react/table-app/header-cell-edit/submenu.tsx
 function Submenu({ title, children, onBackClick }) {
@@ -51332,6 +51545,8 @@ var getIconIdForCellType = (type) => {
   switch (type) {
     case "text" /* TEXT */:
       return "text";
+    case "embed" /* EMBED */:
+      return "link";
     case "file" /* FILE */:
       return "file";
     case "number" /* NUMBER */:
@@ -51374,7 +51589,7 @@ function TypeSubmenu({
 }
 
 // src/react/table-app/header-cell-edit/base-menu.tsx
-var import_react71 = __toESM(require_react());
+var import_react75 = __toESM(require_react());
 function BaseMenu({
   shouldWrapOverflow,
   columnName,
@@ -51388,7 +51603,7 @@ function BaseMenu({
   onDeleteClick,
   onColumnNameChange
 }) {
-  const inputRef = import_react71.default.useRef(null);
+  const inputRef = import_react75.default.useRef(null);
   const { setPreviousSelectionStart } = useInputSelection(
     inputRef,
     columnName
@@ -51403,8 +51618,6 @@ function BaseMenu({
     }
     onColumnNameChange(inputValue);
   }
-  const tableBackgroundColor = getTableBackgroundColor();
-  const tableBorderColor2 = getTableBorderColor();
   const hasOptions = columnType === "date" /* DATE */ || columnType === "currency" /* CURRENCY */ || columnType === "last-edited-time" /* LAST_EDITED_TIME */ || columnType === "creation-time" /* CREATION_TIME */;
   return /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsxs)(Stack, {
     spacing: "sm",
@@ -51420,8 +51633,8 @@ function BaseMenu({
             children: /* @__PURE__ */ (0, import_emotion_react_jsx_runtime_cjs.jsx)("input", {
               autoFocus: true,
               css: import_emotion_react_cjs.css`
-							background-color: ${tableBackgroundColor};
-							border: 1px solid ${tableBorderColor2};
+							background-color: var(--background-secondary);
+							border: 1px solid var(--table-border-color);
 							padding: 4px 10px;
 							font-size: 0.95rem;
 							width: 100%;
@@ -51530,7 +51743,7 @@ function DateFormatSubmenu({
 }
 
 // src/react/table-app/header-cell-edit/index.tsx
-var HeaderMenu = import_react72.default.forwardRef(function HeaderMenu2({
+var HeaderMenu = import_react76.default.forwardRef(function HeaderMenu2({
   isOpen,
   id: id2,
   top,
@@ -51554,18 +51767,19 @@ var HeaderMenu = import_react72.default.forwardRef(function HeaderMenu2({
   onCurrencyChange,
   onDateFormatChange
 }, ref) {
-  const [submenu, setSubmenu] = (0, import_react72.useState)(null);
-  const [localValue, setLocalValue] = (0, import_react72.useState)(markdown);
+  const [submenu, setSubmenu] = (0, import_react76.useState)(null);
+  const [localValue, setLocalValue] = (0, import_react76.useState)(markdown);
   const hasCloseRequestTimeChanged = useCompare(
     menuCloseRequest == null ? void 0 : menuCloseRequest.requestTime
   );
-  import_react72.default.useEffect(() => {
+  import_react76.default.useEffect(() => {
     if (hasCloseRequestTimeChanged && menuCloseRequest !== null) {
       if (submenu === null)
         onNameChange(cellId, localValue);
       onMenuClose();
     }
   }, [
+    cellId,
     hasCloseRequestTimeChanged,
     menuCloseRequest,
     submenu,
@@ -51656,10 +51870,10 @@ var HeaderMenu = import_react72.default.forwardRef(function HeaderMenu2({
 var header_cell_edit_default = HeaderMenu;
 
 // src/react/table-app/header-cell/use-column-resize.ts
-var import_react74 = __toESM(require_react());
+var import_react78 = __toESM(require_react());
 var useColumnResize = (columnId, onMove) => {
   const { setResizingColumnId } = useTableState();
-  const mouseDownX = (0, import_react74.useRef)(0);
+  const mouseDownX = (0, import_react78.useRef)(0);
   function handleMouseMove(e) {
     const dist = e.pageX - mouseDownX.current;
     onMove(dist);
@@ -51793,12 +52007,12 @@ function HeaderCell2({
   const { triggerPosition, triggerRef } = useMenuTriggerPosition();
   useShiftMenu(triggerRef, menuRef, isMenuOpen);
   const [forceUpdateTime, forceUpdate] = useForceUpdate();
-  import_react76.default.useEffect(() => {
+  import_react80.default.useEffect(() => {
     if (width === "unset")
       forceUpdate();
   }, [width, forceUpdate]);
   const shouldUpdateWidth = useCompare(forceUpdateTime, false);
-  import_react76.default.useEffect(() => {
+  import_react80.default.useEffect(() => {
     if (shouldUpdateWidth) {
       const newWidth = numToPx(triggerPosition.width);
       onWidthChange(columnId, newWidth);
@@ -51904,10 +52118,11 @@ function HeaderCell2({
 }
 
 // src/data/constants.ts
-var CURRENT_PLUGIN_VERSION = "6.15.1";
+var CURRENT_PLUGIN_VERSION = "6.16.0";
 var DEFAULT_TABLE_NAME = "Untitled";
 var TABLE_EXTENSION = "table";
-var EXTENSION_REGEX = new RegExp("\\.[a-z]*$");
+var EXTENSION_REGEX = new RegExp(/\.[a-z]*$/);
+var WIKI_LINK_REGEX = new RegExp(/\[\[([^|\]]+)(?:\|([\w-]+))?\]\]/g);
 
 // src/data/table-state-factory.ts
 var createColumn = (options) => {
@@ -52169,6 +52384,7 @@ var doesCellMatch = (cell, columnMap, rowMap, cellTags, searchText) => {
   const { lastEditedTime, creationTime } = row;
   switch (type) {
     case "text" /* TEXT */:
+    case "embed" /* EMBED */:
     case "file" /* FILE */:
     case "number" /* NUMBER */:
     case "checkbox" /* CHECKBOX */:
@@ -52219,7 +52435,7 @@ var matchLastEditedTimeCell = (lastEditedTime, dateFormat, searchText) => {
 };
 
 // src/shared/table-state/use-column.ts
-var import_react78 = __toESM(require_react());
+var import_react82 = __toESM(require_react());
 
 // src/shared/events.ts
 var obsidianEvent = (name) => {
@@ -52818,14 +53034,14 @@ var ColumnTypeUpdateCommand = class extends TableStateCommand {
 };
 
 // src/shared/event-system/utils.ts
-var isEventForThisApp = (appId, isClickEvent = false) => {
+var isEventForThisApp = (appId, allowOutsideEvents = false) => {
   const activeEl = document.activeElement;
   if (!activeEl)
     return false;
   const appEl = activeEl.closest(".NLT__app");
   if (appEl)
     return appEl.getAttribute("data-id") === appId;
-  if (isClickEvent)
+  if (allowOutsideEvents)
     return true;
   const menuEl = activeEl.closest(".NLT__menu");
   if (menuEl) {
@@ -52847,7 +53063,7 @@ var useColumn = () => {
   const logger = useLogger();
   const { doCommand } = useTableState();
   const { appId } = useMountContext();
-  import_react78.default.useEffect(() => {
+  import_react82.default.useEffect(() => {
     function handleColumnAddEvent() {
       if (isEventForThisApp(appId)) {
         logger("handleColumnAddEvent");
@@ -52988,7 +53204,7 @@ var useColumn = () => {
 };
 
 // src/shared/table-state/use-row.ts
-var import_react79 = __toESM(require_react());
+var import_react83 = __toESM(require_react());
 
 // src/shared/commands/row-add-command.ts
 var RowAddCommand = class extends TableStateCommand {
@@ -53103,7 +53319,7 @@ var useRow = () => {
   const logger = useLogger();
   const { doCommand } = useTableState();
   const { appId } = useMountContext();
-  import_react79.default.useEffect(() => {
+  import_react83.default.useEffect(() => {
     function handleRowAddEvent() {
       if (isEventForThisApp(appId))
         doCommand(new RowAddCommand());
@@ -53262,6 +53478,7 @@ var CellHeaderUpdateCommand = class extends TableStateCommand {
 };
 
 // src/shared/table-state/use-cell.ts
+var import_react84 = __toESM(require_react());
 var useCell = () => {
   const logger = useLogger();
   const { doCommand } = useTableState();
@@ -53272,22 +53489,32 @@ var useCell = () => {
     });
     doCommand(new CellHeaderUpdateCommand(cellId, "markdown", value));
   }
-  function handleBodyCellContentChange(cellId, rowId, value) {
-    logger("handleCellContentChange", {
-      cellId,
-      rowId,
-      markdown: value
-    });
-    doCommand(new CellBodyUpdateCommand(cellId, rowId, "markdown", value));
-  }
-  function handleCellDateTimeChange(cellId, rowId, value) {
-    logger("handleCellContentChange", {
-      cellId,
-      rowId,
-      dateTime: value
-    });
-    doCommand(new CellBodyUpdateCommand(cellId, rowId, "dateTime", value));
-  }
+  const handleBodyCellContentChange = import_react84.default.useCallback(
+    (cellId, rowId, value) => {
+      logger("handleCellContentChange", {
+        cellId,
+        rowId,
+        markdown: value
+      });
+      doCommand(
+        new CellBodyUpdateCommand(cellId, rowId, "markdown", value)
+      );
+    },
+    [logger, doCommand]
+  );
+  const handleCellDateTimeChange = import_react84.default.useCallback(
+    (cellId, rowId, value) => {
+      logger("handleCellContentChange", {
+        cellId,
+        rowId,
+        dateTime: value
+      });
+      doCommand(
+        new CellBodyUpdateCommand(cellId, rowId, "dateTime", value)
+      );
+    },
+    [logger, doCommand]
+  );
   return {
     handleHeaderCellContentChange,
     handleBodyCellContentChange,
@@ -53825,33 +54052,52 @@ var useTag = () => {
 };
 
 // src/shared/event-system/hooks.ts
-var import_react80 = __toESM(require_react());
+var import_react85 = __toESM(require_react());
 var useEventSystem = () => {
   const { appId, leaf } = useMountContext();
-  import_react80.default.useEffect(() => {
+  import_react85.default.useEffect(() => {
+    function handleMouseUp(e) {
+      if (isEventForThisApp(appId))
+        eventSystem.dispatchEvent("mouseup", e);
+    }
+    function handleMouseDown(e) {
+      if (isEventForThisApp(appId))
+        eventSystem.dispatchEvent("mousedown", e);
+    }
     function handleKeyDown(e) {
       if (isEventForThisApp(appId))
         eventSystem.dispatchEvent("keydown", e);
     }
-    document.addEventListener("keydown", handleKeyDown);
-    return () => document.removeEventListener("keydown", handleKeyDown);
-  }, [appId]);
-  import_react80.default.useEffect(() => {
     function handleClick(e) {
       if (isEventForThisApp(appId, true))
         eventSystem.dispatchEvent("click", e);
     }
+    function handleSelectionChange(e) {
+      if (isEventForThisApp(appId))
+        eventSystem.dispatchEvent("selectionchange", e);
+    }
     if (leaf.view instanceof NLTView)
       document.addEventListener("click", handleClick);
+    document.addEventListener("keydown", handleKeyDown);
+    document.addEventListener("mousedown", handleMouseDown);
+    document.addEventListener("mouseup", handleMouseUp);
+    document.addEventListener("selectionchange", handleSelectionChange);
     return () => {
       if (leaf.view instanceof NLTView)
         document.removeEventListener("click", handleClick);
+      document.removeEventListener("keydown", handleKeyDown);
+      document.removeEventListener("mousedown", handleMouseDown);
+      document.removeEventListener("mouseup", handleMouseUp);
+      document.removeEventListener(
+        "selectionchange",
+        handleSelectionChange
+      );
     };
   }, [leaf, appId]);
 };
 
 // src/shared/export/hooks.ts
-var import_react81 = __toESM(require_react());
+var import_react86 = __toESM(require_react());
 
 // src/shared/export/download-utils.ts
 var import_obsidian7 = require("obsidian");
@@ -53901,7 +54147,7 @@ var import_papaparse = __toESM(require_papaparse_min());
 var serializeHeaderCells = (cells) => {
   return cells.map((cell) => cell.markdown);
 };
-var serializeBodyCells = (columns, rows, cells, shouldEscapeMarkdown) => {
+var serializeBodyCells = (columns, rows, cells) => {
   return rows.map((row) => {
     const rowCells = cells.filter((cell) => cell.rowId === row.id);
     return rowCells.map((cell) => {
@@ -53910,25 +54156,24 @@ var serializeBodyCells = (columns, rows, cells, shouldEscapeMarkdown) => {
       );
       if (!column)
         throw new ColumNotFoundError(cell.columnId);
-      return getCellContent(column, row, cell, shouldEscapeMarkdown);
+      return getCellContent(column, row, cell);
     });
   });
 };
-var tableStateToArray = (tableState, shouldEscapeMarkdown) => {
+var tableStateToArray = (tableState) => {
   const { headerCells, bodyCells, bodyRows, columns } = tableState.model;
   const serializedHeaderCells = serializeHeaderCells(headerCells);
   const serializedBodyCells = serializeBodyCells(
     columns,
     bodyRows,
-    bodyCells,
-    shouldEscapeMarkdown
+    bodyCells
   );
   return [serializedHeaderCells, ...serializedBodyCells];
 };
 
 // src/shared/export/export-to-csv.tsx
 var exportToCSV = (tableState) => {
-  const arr = tableStateToArray(tableState, true);
+  const arr = tableStateToArray(tableState);
   return import_papaparse.default.unparse(arr);
 };
 
@@ -54072,7 +54317,7 @@ function toAlignment(value) {
 
 // src/shared/export/export-to-markdown.tsx
 var exportToMarkdown = (tableState) => {
-  const arr = tableStateToArray(tableState, false);
+  const arr = tableStateToArray(tableState);
   return markdownTable(arr);
 };
 
@@ -54080,7 +54325,7 @@ var exportToMarkdown = (tableState) => {
 var useExportEvents = (state) => {
   const { filePath } = useMountContext();
   const { appId } = useMountContext();
-  import_react81.default.useEffect(() => {
+  import_react86.default.useEffect(() => {
     function handleDownloadCSV() {
       if (isEventForThisApp(appId)) {
         setTimeout(() => {
@@ -54111,7 +54356,7 @@ var useExportEvents = (state) => {
       app.workspace.off(EVENT_DOWNLOAD_CSV, handleDownloadCSV);
       app.workspace.off(EVENT_DOWNLOAD_MARKDOWN, handleDownloadMarkdown);
     };
-  }, [filePath, state]);
+  }, [filePath, state, appId]);
 };
 
 // src/react/table-app/index.tsx
@@ -54758,7 +55003,7 @@ var import_obsidian10 = require("obsidian");
 var import_client = __toESM(require_client());
 
 // src/react/export-app/index.tsx
-var import_react85 = __toESM(require_react());
+var import_react90 = __toESM(require_react());
 
 // src/react/export-app/export-type-select.tsx
 function ExportTypeSelect({ value, onChange }) {
@@ -54804,7 +55049,7 @@ function ContentTextArea({ value }) {
 // src/react/export-app/index.tsx
 var import_obsidian9 = require("obsidian");
 function ExportApp({ tableState, filePath }) {
-  const [exportType, setExportType] = import_react85.default.useState(
+  const [exportType, setExportType] = import_react90.default.useState(
     "Select an option" /* UNSELECTED */
   );
   function handleCopyClick(value) {
@@ -54915,7 +55160,7 @@ var NLTView = class extends import_obsidian11.TextFileView {
   constructor(leaf) {
     super(leaf);
     this.handleRefreshEvent = (filePath, sourceAppId, state) => {
-      if (this.appId !== sourceAppId && filePath == this.file.path) {
+      if (this.appId !== sourceAppId && filePath === this.file.path) {
         const serialized = serializeTableState(state);
         this.setViewData(serialized, true);
       }
@@ -55018,7 +55263,6 @@ var import_obsidian12 = require("obsidian");
 var import_obsidian13 = require("obsidian");
 
 // src/data/utils.ts
-var WIKI_LINK_REGEX = new RegExp(/\[\[([^|\]]+)(?:\|([\w-]+))?\]\]/g);
 var splitFileExtension = (filePath) => {
   if (filePath.match(EXTENSION_REGEX)) {
     const periodIndex = filePath.lastIndexOf(".");
@@ -55029,11 +55273,17 @@ var splitFileExtension = (filePath) => {
   }
   return null;
 };
-var updateWikiLinks = (markdown, oldFilePath, newFilePath) => {
-  return markdown.replace(WIKI_LINK_REGEX, (match, fileName, alias) => {
-    const fileNameWithExtension = fileName.endsWith(".md") ? fileName : fileName + ".md";
-    if (fileNameWithExtension === oldFilePath)
-      return `[[${newFilePath}${alias ? "|" + alias : ""}]]`;
+var updateLinkReferences = (markdown, updatedFileInfo, oldPath, isFileNameUnique) => {
+  return markdown.replace(WIKI_LINK_REGEX, (match, path) => {
+    let comparePath = oldPath;
+    if (!path.includes("/"))
+      comparePath = stripDirectory(comparePath);
+    if (!path.match(EXTENSION_REGEX))
+      comparePath = stripFileExtension(comparePath);
+    if (comparePath === path) {
+      const linkText = getWikiLinkText(updatedFileInfo, isFileNameUnique);
+      return `[[${linkText}]]`;
+    }
     return match;
   });
 };
@@ -55287,20 +55537,81 @@ var NLTPlugin = class extends import_obsidian15.Plugin {
       this.registerEmbeddedView();
       this.registerCommands();
       this.registerEvents();
-      this.app.vault.on(
-        "rename",
-        (updatedFile, oldPath) => __async(this, null, function* () {
-          const tableFiles = this.app.vault.getFiles().filter((file) => file.extension === TABLE_EXTENSION);
+    });
+  }
+  registerEmbeddedView() {
+    this.registerEditorExtension(nltEmbeddedPlugin);
+  }
+  newTableFile(contextMenuFolderPath, embedded) {
+    return __async(this, null, function* () {
+      let folderPath = "";
+      if (contextMenuFolderPath) {
+        folderPath = contextMenuFolderPath;
+      } else if (this.settings.createAtObsidianAttachmentFolder) {
+        folderPath = this.app.vault.getConfig(
+          "attachmentFolderPath"
+        );
+      } else {
+        folderPath = this.settings.customFolderForNewTables;
+      }
+      const filePath = yield createTableFile({
+        folderPath,
+        useActiveFileNameAndTimestamp: this.settings.nameWithActiveFileNameAndTimestamp
+      });
+      if (embedded)
+        return filePath;
+      yield app.workspace.getLeaf(true).setViewState({
+        type: NOTION_LIKE_TABLES_VIEW,
+        active: true,
+        state: { file: filePath }
+      });
+    });
+  }
+  registerEvents() {
+    this.registerEvent(
+      this.app.workspace.on("css-change", () => {
+        const isDark = hasDarkTheme();
+        store.dispatch(setDarkMode(isDark));
+      })
+    );
+    this.registerEvent(
+      this.app.workspace.on("file-menu", (menu, file) => {
+        if (file instanceof import_obsidian15.TFolder) {
+          menu.addItem((item) => {
+            item.setTitle("New Notion-Like table").setIcon("document").onClick(() => __async(this, null, function* () {
+              yield this.newTableFile(file.path);
+            }));
+          });
+        }
+      })
+    );
+    this.app.vault.on(
+      "rename",
+      (file, oldPath) => __async(this, null, function* () {
+        if (file instanceof import_obsidian15.TFile) {
+          const files = this.app.vault.getFiles();
+          const uniqueFileNames = filterUniqueStrings(
+            files.map((file2) => file2.name)
+          );
+          const isUniqueFileName = uniqueFileNames.includes(
+            file.name
+          );
+          const tableFiles = files.filter(
+            (file2) => file2.extension === TABLE_EXTENSION
+          );
           for (let i2 = 0; i2 < tableFiles.length; i2++) {
             const tableFile = tableFiles[i2];
-            const content = yield tableFile.vault.read(tableFiles[i2]);
+            const content = yield tableFile.vault.read(
+              tableFiles[i2]
+            );
             const deserializedState = deserializeTableState(content);
             const newState = structuredClone(deserializedState);
             newState.model.bodyCells.forEach((cell) => {
-              const updatedMarkdown = updateWikiLinks(
+              const updatedMarkdown = updateLinkReferences(
                 cell.markdown,
+                file,
                 oldPath,
-                updatedFile.path
+                isUniqueFileName
               );
               cell.markdown = updatedMarkdown;
             });
@@ -55318,72 +55629,14 @@ var NLTPlugin = class extends import_obsidian15.Plugin {
               );
             }
           }
-        })
-      );
-      this.app.workspace.onLayoutReady(() => {
-        this.checkForDarkMode();
-        this.checkForDebug();
-      });
-    });
-  }
-  registerEmbeddedView() {
-    this.registerEditorExtension(nltEmbeddedPlugin);
-  }
-  newTableFile(contextMenuFolderPath) {
-    return __async(this, null, function* () {
-      let folderPath = "";
-      if (contextMenuFolderPath) {
-        folderPath = contextMenuFolderPath;
-      } else if (this.settings.createAtObsidianAttachmentFolder) {
-        folderPath = this.app.vault.getConfig(
-          "attachmentFolderPath"
-        );
-      } else {
-        folderPath = this.settings.customFolderForNewTables;
-      }
-      const filePath = yield createTableFile({
-        folderPath,
-        useActiveFileNameAndTimestamp: this.settings.nameWithActiveFileNameAndTimestamp
-      });
-      yield app.workspace.getLeaf(true).setViewState({
-        type: NOTION_LIKE_TABLES_VIEW,
-        active: true,
-        state: { file: filePath }
-      });
-    });
-  }
-  checkForDebug() {
-    store.dispatch(setDebugMode(this.settings.shouldDebug));
-  }
-  checkForDarkMode() {
-    let hasDarkTheme = false;
-    const el = document.querySelector("body");
-    if (el)
-      hasDarkTheme = el.className.includes("theme-dark");
-    store.dispatch(setDarkMode(hasDarkTheme));
-  }
-  registerEvents() {
-    this.registerEvent(
-      this.app.workspace.on("css-change", () => {
-        this.checkForDarkMode();
-        const view = this.app.workspace.getActiveViewOfType(NLTView);
-        if (view) {
-          const data = view.getViewData();
-          view.setViewData(data, true);
         }
       })
     );
-    this.registerEvent(
-      this.app.workspace.on("file-menu", (menu, file) => {
-        if (file instanceof import_obsidian15.TFolder) {
-          menu.addItem((item) => {
-            item.setTitle("New Notion-Like table").setIcon("document").onClick(() => __async(this, null, function* () {
-              yield this.newTableFile(file.path);
-            }));
-          });
-        }
-      })
-    );
+    this.app.workspace.onLayoutReady(() => {
+      const isDark = hasDarkTheme();
+      store.dispatch(setDarkMode(isDark));
+      store.dispatch(setDebugMode(this.settings.shouldDebug));
+    });
   }
   registerCommands() {
     this.addCommand({
@@ -55392,6 +55645,25 @@ var NLTPlugin = class extends import_obsidian15.Plugin {
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "=" }],
       callback: () => __async(this, null, function* () {
         yield this.newTableFile(null);
+      })
+    });
+    this.addCommand({
+      id: "nlt-create-table-and-embed",
+      name: "Create table and embed it into current file",
+      hotkeys: [{ modifiers: ["Mod", "Shift"], key: "+" }],
+      editorCallback: (editor) => __async(this, null, function* () {
+        const filePath = yield this.newTableFile(null, true);
+        if (!filePath)
+          return;
+        const useMarkdownLinks = this.app.vault.getConfig(
+          "useMarkdownLinks"
+        );
+        const linkText = useMarkdownLinks ? `![${getBasename(filePath)}](${encodeURI(filePath)})` : `![[${filePath}]]`;
+        editor.replaceRange(linkText, editor.getCursor());
+        editor.setCursor(
+          editor.getCursor().line,
+          editor.getCursor().ch + linkText.length
+        );
       })
     });
     this.addCommand({

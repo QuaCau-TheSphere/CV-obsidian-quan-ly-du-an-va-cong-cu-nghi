@@ -72,7 +72,8 @@ var import_obsidian3 = __toModule(require("obsidian"));
 // src/settings.ts
 var defaultSettings = {
   timestampFormat: "YY-MM-DD hh:mm:ss",
-  csvDelimiter: ","
+  csvDelimiter: ",",
+  fineGrainedDurations: true
 };
 
 // src/settings-tab.ts
@@ -103,17 +104,27 @@ var SimpleTimeTrackerSettingsTab = class extends import_obsidian.PluginSettingTa
         yield this.plugin.saveSettings();
       }));
     });
+    new import_obsidian.Setting(this.containerEl).setName("Fine-Grained Durations").setDesc("Whether durations should include days, months and years. If this is disabled, additional time units will be displayed as part of the hours.").addToggle((t) => {
+      t.setValue(this.plugin.settings.fineGrainedDurations);
+      t.onChange((v) => __async(this, null, function* () {
+        this.plugin.settings.fineGrainedDurations = v;
+        yield this.plugin.saveSettings();
+      }));
+    });
     this.containerEl.createEl("hr");
     this.containerEl.createEl("p", { text: "If you like this plugin and want to support its development, you can do so through my website by clicking this fancy image!" });
-    this.containerEl.createEl("a", { href: "https://ellpeck.de/support" }).createEl("img", { attr: { src: "https://ellpeck.de/res/generalsupport.png" }, cls: "simple-time-tracker-support" });
+    this.containerEl.createEl("a", { href: "https://ellpeck.de/support" }).createEl("img", {
+      attr: { src: "https://ellpeck.de/res/generalsupport.png" },
+      cls: "simple-time-tracker-support"
+    });
   }
 };
 
 // src/tracker.ts
 var import_obsidian2 = __toModule(require("obsidian"));
-function saveTracker(tracker, app, section) {
+function saveTracker(tracker, app, fileName, section) {
   return __async(this, null, function* () {
-    let file = app.workspace.getActiveFile();
+    let file = app.vault.getAbstractFileByPath(fileName);
     if (!file)
       return;
     let content = yield app.vault.read(file);
@@ -136,7 +147,7 @@ function loadTracker(json) {
   }
   return { entries: [] };
 }
-function displayTracker(tracker, element, getSectionInfo, settings) {
+function displayTracker(tracker, element, file, getSectionInfo, settings) {
   let running = isRunning(tracker);
   let btn = new import_obsidian2.ButtonComponent(element).setClass("clickable-icon").setIcon(`lucide-${running ? "stop" : "play"}-circle`).setTooltip(running ? "End" : "Start").onClick(() => __async(this, null, function* () {
     if (running) {
@@ -144,7 +155,7 @@ function displayTracker(tracker, element, getSectionInfo, settings) {
     } else {
       startNewEntry(tracker, newSegmentNameBox.getValue());
     }
-    yield saveTracker(tracker, this.app, getSectionInfo());
+    yield saveTracker(tracker, this.app, file, getSectionInfo());
   }));
   btn.buttonEl.addClass("simple-time-tracker-btn");
   let newSegmentNameBox = new import_obsidian2.TextComponent(element).setPlaceholder("Segment name").setDisabled(running);
@@ -160,18 +171,18 @@ function displayTracker(tracker, element, getSectionInfo, settings) {
     let table = element.createEl("table", { cls: "simple-time-tracker-table" });
     table.createEl("tr").append(createEl("th", { text: "Segment" }), createEl("th", { text: "Start time" }), createEl("th", { text: "End time" }), createEl("th", { text: "Duration" }), createEl("th"));
     for (let entry of tracker.entries)
-      addEditableTableRow(tracker, entry, table, newSegmentNameBox, running, getSectionInfo, settings, 0);
+      addEditableTableRow(tracker, entry, table, newSegmentNameBox, running, file, getSectionInfo, settings, 0);
     let buttons = element.createEl("div", { cls: "simple-time-tracker-bottom" });
     new import_obsidian2.ButtonComponent(buttons).setButtonText("Copy as table").onClick(() => navigator.clipboard.writeText(createMarkdownTable(tracker, settings)));
     new import_obsidian2.ButtonComponent(buttons).setButtonText("Copy as CSV").onClick(() => navigator.clipboard.writeText(createCsv(tracker, settings)));
   }
-  setCountdownValues(tracker, current, total, currentDiv);
+  setCountdownValues(tracker, current, total, currentDiv, settings);
   let intervalId = window.setInterval(() => {
     if (!element.isConnected) {
       window.clearInterval(intervalId);
       return;
     }
-    setCountdownValues(tracker, current, total, currentDiv);
+    setCountdownValues(tracker, current, total, currentDiv, settings);
   }, 1e3);
 }
 function startSubEntry(entry, name) {
@@ -243,30 +254,36 @@ function getTotalDuration(entries) {
     ret += getDuration(entry);
   return ret;
 }
-function setCountdownValues(tracker, current, total, currentDiv) {
+function setCountdownValues(tracker, current, total, currentDiv, settings) {
   let running = getRunningEntry(tracker.entries);
   if (running && !running.endTime) {
-    current.setText(formatDuration(getDuration(running)));
+    current.setText(formatDuration(getDuration(running), settings));
     currentDiv.hidden = false;
   } else {
     currentDiv.hidden = true;
   }
-  total.setText(formatDuration(getTotalDuration(tracker.entries)));
+  total.setText(formatDuration(getTotalDuration(tracker.entries), settings));
 }
 function formatTimestamp(timestamp, settings) {
   return import_obsidian2.moment.unix(timestamp).format(settings.timestampFormat);
 }
-function formatDuration(totalTime) {
-  let duration = import_obsidian2.moment.duration(totalTime);
+function formatDuration(totalTime, settings) {
   let ret = "";
-  if (duration.years() > 0)
-    ret += duration.years() + "y ";
-  if (duration.months() > 0)
-    ret += duration.months() + "m ";
-  if (duration.days() > 0)
-    ret += duration.days() + "d ";
-  if (duration.hours() > 0)
-    ret += duration.hours() + "h ";
+  let duration = import_obsidian2.moment.duration(totalTime);
+  let hours;
+  if (settings.fineGrainedDurations) {
+    if (duration.years() > 0)
+      ret += duration.years() + "y ";
+    if (duration.months() > 0)
+      ret += duration.months() + "M ";
+    if (duration.days() > 0)
+      ret += duration.days() + "d ";
+    hours = duration.hours();
+  } else {
+    hours = Math.floor(duration.asHours());
+  }
+  if (hours > 0)
+    ret += hours + "h ";
   if (duration.minutes() > 0)
     ret += duration.minutes() + "m ";
   ret += duration.seconds() + "s";
@@ -276,16 +293,16 @@ function createMarkdownTable(tracker, settings) {
   let table = [["Segment", "Start time", "End time", "Duration"]];
   for (let entry of tracker.entries)
     table.push(...createTableSection(entry, settings));
-  table.push(["**Total**", "", "", `**${formatDuration(getTotalDuration(tracker.entries))}**`]);
+  table.push(["**Total**", "", "", `**${formatDuration(getTotalDuration(tracker.entries), settings)}**`]);
   let ret = "";
   let widths = Array.from(Array(4).keys()).map((i) => Math.max(...table.map((a) => a[i].length)));
   for (let r = 0; r < table.length; r++) {
     if (r == 1)
-      ret += Array.from(Array(4).keys()).map((i) => "-".repeat(widths[i])).join(" | ") + "\n";
+      ret += "| " + Array.from(Array(4).keys()).map((i) => "-".repeat(widths[i])).join(" | ") + " |\n";
     let row = [];
     for (let i = 0; i < 4; i++)
       row.push(table[r][i].padEnd(widths[i], " "));
-    ret += row.join(" | ") + "\n";
+    ret += "| " + row.join(" | ") + " |\n";
   }
   return ret;
 }
@@ -302,7 +319,7 @@ function createTableSection(entry, settings) {
     entry.name,
     entry.startTime ? formatTimestamp(entry.startTime, settings) : "",
     entry.endTime ? formatTimestamp(entry.endTime, settings) : "",
-    entry.endTime || entry.subEntries ? formatDuration(getDuration(entry)) : ""
+    entry.endTime || entry.subEntries ? formatDuration(getDuration(entry), settings) : ""
   ]];
   if (entry.subEntries) {
     for (let sub of entry.subEntries)
@@ -310,7 +327,7 @@ function createTableSection(entry, settings) {
   }
   return ret;
 }
-function addEditableTableRow(tracker, entry, table, newSegmentNameBox, running, getSectionInfo, settings, indent) {
+function addEditableTableRow(tracker, entry, table, newSegmentNameBox, running, file, getSectionInfo, settings, indent) {
   let row = table.createEl("tr");
   let name = row.createEl("td");
   let namePar = name.createEl("span", { text: entry.name });
@@ -319,12 +336,12 @@ function addEditableTableRow(tracker, entry, table, newSegmentNameBox, running, 
   nameBox.inputEl.hidden = true;
   row.createEl("td", { text: entry.startTime ? formatTimestamp(entry.startTime, settings) : "" });
   row.createEl("td", { text: entry.endTime ? formatTimestamp(entry.endTime, settings) : "" });
-  row.createEl("td", { text: entry.endTime || entry.subEntries ? formatDuration(getDuration(entry)) : "" });
+  row.createEl("td", { text: entry.endTime || entry.subEntries ? formatDuration(getDuration(entry), settings) : "" });
   let entryButtons = row.createEl("td");
   if (!running) {
     new import_obsidian2.ButtonComponent(entryButtons).setClass("clickable-icon").setIcon(`lucide-play`).setTooltip("Continue").onClick(() => __async(this, null, function* () {
       startSubEntry(entry, newSegmentNameBox.getValue());
-      yield saveTracker(tracker, this.app, getSectionInfo());
+      yield saveTracker(tracker, this.app, file, getSectionInfo());
     }));
   }
   let editButton = new import_obsidian2.ButtonComponent(entryButtons).setClass("clickable-icon").setTooltip("Edit").setIcon("lucide-pencil").onClick(() => __async(this, null, function* () {
@@ -335,7 +352,7 @@ function addEditableTableRow(tracker, entry, table, newSegmentNameBox, running, 
       if (nameBox.getValue()) {
         entry.name = nameBox.getValue();
         namePar.setText(entry.name);
-        yield saveTracker(tracker, this.app, getSectionInfo());
+        yield saveTracker(tracker, this.app, file, getSectionInfo());
       }
     } else {
       namePar.hidden = true;
@@ -346,11 +363,11 @@ function addEditableTableRow(tracker, entry, table, newSegmentNameBox, running, 
   }));
   new import_obsidian2.ButtonComponent(entryButtons).setClass("clickable-icon").setTooltip("Remove").setIcon("lucide-trash").onClick(() => __async(this, null, function* () {
     removeEntry(tracker.entries, entry);
-    yield saveTracker(tracker, this.app, getSectionInfo());
+    yield saveTracker(tracker, this.app, file, getSectionInfo());
   }));
   if (entry.subEntries) {
     for (let sub of entry.subEntries)
-      addEditableTableRow(tracker, sub, table, newSegmentNameBox, running, getSectionInfo, settings, indent + 1);
+      addEditableTableRow(tracker, sub, table, newSegmentNameBox, running, file, getSectionInfo, settings, indent + 1);
   }
 }
 
@@ -363,7 +380,7 @@ var SimpleTimeTrackerPlugin = class extends import_obsidian3.Plugin {
       this.registerMarkdownCodeBlockProcessor("simple-time-tracker", (s, e, i) => {
         let tracker = loadTracker(s);
         e.empty();
-        displayTracker(tracker, e, () => i.getSectionInfo(e), this.settings);
+        displayTracker(tracker, e, i.sourcePath, () => i.getSectionInfo(e), this.settings);
       });
       this.addCommand({
         id: `insert`,
