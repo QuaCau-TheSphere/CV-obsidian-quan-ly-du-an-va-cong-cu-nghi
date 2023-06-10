@@ -1,8 +1,8 @@
 {
-  "findText": "(\\d)\\.",
-  "replaceText": "($1)",
+  "findText": "^\\d\\. _.*\\n",
+  "replaceText": "",
   "useRegEx": true,
-  "selOnly": true,
+  "selOnly": false,
   "caseInsensitive": false,
   "processLineBreak": false,
   "processTab": false,

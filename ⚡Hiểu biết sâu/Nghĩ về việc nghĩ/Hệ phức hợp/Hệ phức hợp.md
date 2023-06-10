@@ -1,7 +1,7 @@
 ---
 share: True
 ---
-Chủ đề:: [[Sự tự tổ chức]]
+Chủ đề:: [[Sự tự tổ chức sự tạo mẫu hình một cách phi tuyến]]
 - Theo lý thuyết mạng lưới: có độ kết nối cao 
 - theo lý thuyết tiến hóa: hệ bắt đầu từ đơn giản sau đó có sự chuyên môn hóa và kết hợp lẫn nhau
 # Hệ mở

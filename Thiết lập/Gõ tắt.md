@@ -8,11 +8,12 @@ Nhu cầu dẫn tới:: 		ncdt, ch, mt
 Thành quả cần có:: 		tqcc
 Thành quả hỗ trợ:: 		tqht
 Thành phẩm:: 		tp, kn, xt
+Giải pháp gợi ý:: 		gp
 
 Thách thức:: 		tt
 
+Khái niệm:: 		kn
 Lý do:: 		ld
-Giải pháp gợi ý:: 		gp
 Liên quan:: 		lq
 Câu hỏi:: 		ch
 Nguồn:: 		ng

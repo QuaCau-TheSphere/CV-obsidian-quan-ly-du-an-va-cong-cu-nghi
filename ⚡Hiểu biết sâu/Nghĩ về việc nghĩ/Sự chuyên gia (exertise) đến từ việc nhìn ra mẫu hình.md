@@ -2,6 +2,7 @@
 share: True
 description: 3 yếu tố để một người trở thành chuyên gia":" (1) Dành nhiều thời gian tập luyện, (2) Quy luật trong lĩnh vực đó không thay đổi theo thời gian, (3) Nhận được sự phản hồi nhanh chóng cho những gì mình làm
 ---
+Khái niệm:: [[Mẫu hình (pattern)]]
 Theo Daniel Kahneman, nhà kinh tế học và tâm lý học đoạt giải Nobel Kinh tế, thì để một người trở thành chuyên gia trong một lĩnh vực nào đó (ví dụ ở đây là tài chính), thì cần hội đủ 3 yếu tố sau:
 
 • Dành nhiều thời gian tập luyện

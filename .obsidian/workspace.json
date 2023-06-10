@@ -8,12 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "24d582b4f73116ac",
+            "id": "89e4108befce31c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Tài nguyên/Lập trình/Python/Python path.md",
+                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Mẫu hình (pattern).md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c82dd5739d417ad2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Hệ phức hợp/Sự tự tổ chức sự tạo mẫu hình một cách phi tuyến.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -74,7 +87,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -94,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Tài nguyên/Lập trình/Python/Python path.md",
+                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Mẫu hình (pattern).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Tài nguyên/Lập trình/Python/Python path.md",
+                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Mẫu hình (pattern).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜 Tài nguyên/Lập trình/Python/Python path.md"
+                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Mẫu hình (pattern).md"
               }
             }
           },
@@ -173,47 +187,48 @@
       "templater-obsidian:Templater": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
-      "notion-like-tables:Create Notion-Like table": false
+      "notion-like-tables:Create Notion-Like table": false,
+      "obsidian42-brat:BRAT": false
     }
   },
-  "active": "24d582b4f73116ac",
+  "active": "89e4108befce31c5",
   "lastOpenFiles": [
-    "📜 Tài nguyên/Lập trình/Python/Conda/Conda là trình quản lý thư viện, không chỉ của Python mà còn của các ngôn ngữ khác.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Tự động hoá/Chỉnh sửa file hàng loạt bằng PowerShell.md",
-    "📜 Tài nguyên/Lập trình/IDE/VS Code nhiều khi không tìm hết được do tên file dài quá.md",
-    "📜 Tài nguyên/Lập trình/Python/Python path.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Python, R.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Ontology.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Phân tích xu hướng/Gensim tập trung vào mô hình chủ đề.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Khoa học dữ liệu.md",
-    "📜 Tài nguyên/Lập trình/Lập trình.md",
-    "📜 Tài nguyên/Lập trình/Python/Việc cài phiên bản mới không xoá phiên bản cũ đi khiến cho người mới hay bị lẫn lộn phiên bản.md",
-    "📜 Tài nguyên/Lập trình/Python/Conda/Với những người chỉ cần dùng Python để làm dữ liệu chứ không lập trình, chỉ cần cài Anaconda là đủ. Không cần và không nên cài Python riêng.md",
-    "📜 Tài nguyên/Lập trình/Python/Conda/Anaconda giống như một fork Python có bổ sung thêm nhiều công cụ cho khoa học dữ liệu.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Loại bỏ những popup bằng Idontcareaboutcookies, No Thanks.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Đọc những trang thu phí bằng 12ft.io.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Chặn quảng cáo trong app Android.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Ẩn kết quả tìm kiếm trên Google.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Chặn quảng cáo trên trình duyệt.md",
-    "📜 Tài nguyên/Nghiên cứu/Phương án dịch một số từ.md",
-    "📜 Tài nguyên/Nghiên cứu/Cơ sở dữ liệu.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Phần mềm quản lý kiến thức cá nhân.md",
-    "📐 Dự án/9 Blog/Nơi này là nơi nào？.md",
     "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Nghĩ về việc nghĩ.md",
-    "📜 Tài nguyên/Lập trình/Python/venv tạo môi trường ảo để tránh trường hợp chồng chéo các gói và xung đột phiên bản giữa các thư viện.md",
-    "📜 Tài nguyên/Lập trình/Python/Conda/venv chỉ tạo môi trường ảo cho phiên bản hiện tại. Miniconda tạo môi trường ảo cho nhiều phiên bản.md",
-    "📜 Tài nguyên/Lập trình/Python/Pip là chương trình quản lý package cho Python.md",
-    "📜 Tài nguyên/Lập trình/Python/Package, module, và library là những cái tên khác nhau cho cùng một thứ.md",
-    "📜 Tài nguyên/Lập trình/Python/Conda",
-    "📜 Tài nguyên/Lập trình/Web",
-    "📜 Tài nguyên/Lập trình/Windows/Terminal",
-    "📜 Tài nguyên/Lập trình/IDE",
-    "📜 Tài nguyên/Lập trình/Windows",
-    "📜 Tài nguyên/Lập trình/Python",
-    "📜 Tài nguyên/Lập trình",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Toán/Đại số tuyến tính",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Toán",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Địa điểm gặp mặt trực tiếp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Môi trường nghĩ, nhận thức tăng cường.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Tự động hoá/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+    "Untitled.md",
+    "Test sync.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Mẫu hình (pattern).md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Sự chuyên gia (exertise) đến từ việc nhìn ra mẫu hình.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Trực giác là việc nhìn ra mẫu hình không hơn không kém.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Việc nhìn ra mẫu hình cần những kiến thức có cấu trúc được lưu trong trí nhớ dài hạn.md",
+    "Thiết lập/Gõ tắt.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đồ thị giúp ta thấy được mẫu hình.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Hệ phức hợp/Sự tự tổ chức sự tạo mẫu hình một cách phi tuyến.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Hệ phức hợp/Vòng lặp dương giúp củng cố tình trạng hiện tại, tránh sự tác động từ bên ngoài, tự bảo tồn chính nó.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Hệ phức hợp/Muốn phát triển thì vào vòng lặp dương. Muốn bền vững thì vào vòng lặp âm.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Hệ phức hợp/Sự tự tổ chức là không tránh khỏi nhưng không dự báo trước được.md",
+    "⚔️ Lớp Obsidian và Git/⚔️ Lớp Obsidian và Git.md",
+    "📜 Tài nguyên/Làm dự án/Truyền thông/Quảng cáo trên Facebook.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Chuẩn hoá dữ liệu.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Thành quả quan trọng hơn thành phẩm.md",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/CORE Econ.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Powerful medium enables powerful representations.md",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Bret Victor.md",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Media for Thinking the Unthinkable.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Cách để AI không bị ảo giác là kêu nó viết query cho Wikidata.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Khoa học dữ liệu.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Event-driven architecture.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/~syncthing~4a7eb5182aa77daf4e21609fd9af422e4fe819a5c7af5c6bf609f65048fe4b85.tmp",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/~syncthing~9ae0237c8d7a52a118e8023305ec207406463461bdb9ef7c71943544b97c1b1e.tmp",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/~syncthing~Phương thức phải gắn lên một vật thể cụ thể nào đó để có tác dụng.md.tmp",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/~syncthing~Thay vì ta thao túng trực tiếp dữ liệu, ta điều khiển vật thể qua phần giao tiếp của nó với bên ngoài.md.tmp",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/~syncthing~Phương thức cho ta biết mình có thể làm gì với vật thể đó.md.tmp",
+    "📜 Tài nguyên/Lập trình/Untitled",
+    "📜 Tài nguyên/Làm dự án/Truyền thông",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Gọn vốn đầu tư",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Gọi vốn cộng đồng",
     "Thiết lập/Ảnh/Made to stick/James Le.jpg",
     "Thiết lập/Ảnh/Made to stick/Boris Divjak.jpeg",
     "Thiết lập/Ảnh/Ảnh procrastination/Procrastinators-Matrix1-539x600.png",

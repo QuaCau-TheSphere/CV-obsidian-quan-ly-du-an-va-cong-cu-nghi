@@ -1,4 +1,4 @@
 ---
 share: True
 ---
-[[Trên Android khoảng trắng ở cuối tên file sẽ được giữ, còn Windows thì không]] 
+[[Dấu cách ở cuối tên file sẽ được giữ trên Android, còn Windows thì không]] 

@@ -12,4 +12,6 @@ Output là sản phẩm nhỏ hơn
 Những outcome nào liên quan đến nhau thì sẽ là để phục vụ cho một outcome lớn hơn
 Tầm nhìn chắc là outcome tổng
 
-https://herbig.co/product-discovery/#
+[Product Discovery: A Practical Guide for Product Teams (Updated)](https://herbig.co/product-discovery/#)
+
+![Theodore Levitt quote: People don't want quarter-inch drills. They want quarter-inch holes.](https://www.azquotes.com/picture-quotes/quote-people-don-t-want-quarter-inch-drills-they-want-quarter-inch-holes-theodore-levitt-71-2-0244.jpg)

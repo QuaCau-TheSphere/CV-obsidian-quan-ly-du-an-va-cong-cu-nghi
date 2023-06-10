@@ -1,1 +1,27 @@
-{}
+{
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "livePreview": false,
+  "trashOption": "local",
+  "newFileLocation": "current",
+  "mobileToolbarCommands": [
+    "templater-obsidian:insert-templater",
+    "editor:insert-wikilink",
+    "obsidian-editor-shortcuts:duplicateLine",
+    "obsidian-editor-shortcuts:deleteLine",
+    "editor:undo",
+    "editor:redo",
+    "editor:swap-line-down",
+    "editor:swap-line-up",
+    "editor:move-caret-up",
+    "editor:move-caret-down",
+    "editor:move-caret-left",
+    "editor:move-caret-right",
+    "editor:attach-file",
+    "editor:cycle-list-checklist",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:toggle-keyboard",
+    "editor:configure-toolbar"
+  ]
+}

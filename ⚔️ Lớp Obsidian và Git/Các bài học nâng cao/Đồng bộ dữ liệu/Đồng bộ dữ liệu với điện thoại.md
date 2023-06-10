@@ -13,4 +13,4 @@ c. **Nếu không được:** Bấm vào nút <kbd>Add Remote Device</kbd> và d
 >1. **Tạo một thư mục riêng trước khi đồng bộ**, nếu không sẽ bị tràn file ra ngoài. Xem chi tiết: [[Tạo thư mục mới khi chọn nơi để sync ở Android]] 
 >2. **Đảm bảo thư mục đó sau này không phải di chuyển sang chỗ khác.** Vì sau khi nhấn accept thì Syncthing sẽ không cho đổi sang thư mục khác. Nếu muốn đổi thì phải xóa đi làm lại từ đầu nếu muốn tiếp tục đồng bộ
 
-Xem thêm:: [[📖 Khi nào thì nên dùng Syncthing？Khi nào thì nên dùng Git？]]
+Xem thêm:: [[Syncthing dành cho đồng bộ dữ liệu giữa các thiết bị của cùng một người. Git chuyên cho việc hợp tác làm việc giữa nhiều người]]

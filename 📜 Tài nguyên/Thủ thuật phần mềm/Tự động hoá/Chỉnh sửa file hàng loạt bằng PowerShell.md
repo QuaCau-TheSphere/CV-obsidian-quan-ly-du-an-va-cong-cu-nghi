@@ -32,10 +32,11 @@ Get-ChildItem *.md -recurse | ForEach-Object { (Get-Content $_).Replace('Kết q
 ```PowerShell
 Get-ChildItem -Force -Recurse -File -Filter "desktop.ini" | Remove-Item -force
 ```
-# [Tắt giới hạn số ký tự tối đa cho đường dẫn](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell#enable-long-paths-in-windows-10-version-1607-and-later "Maximum Path Length Limitation - Win32 apps | Microsoft Learn")
+# Tắt giới hạn số ký tự tối đa cho đường dẫn
 ```PowerShell
 New-ItemProperty -Path "HKLM:\SYSTEM\CurrentControlSet\Control\FileSystem" -Name "LongPathsEnabled" -Value 1 -PropertyType DWORD -Force
 ```
+[Maximum Path Length Limitation - Win32 apps | Microsoft Learn](https://learn.microsoft.com/en-us/windows/win32/fileio/maximum-file-path-limitation?tabs=powershell#enable-long-paths-in-windows-10-version-1607-and-later)
 
 # Thêm [[Biến môi trường giúp ta điền những giá trị lặp đi lặp lại nhanh hơn|biến môi trường]] 
 ```PowerShell

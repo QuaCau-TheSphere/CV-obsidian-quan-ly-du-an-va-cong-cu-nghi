@@ -9,6 +9,7 @@ Chăm sóc là hoạt động căn bản trong xã hội loài người
 
 ```dataview
 LIST
-FROM "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Nền kinh tế chăm sóc" 
+FROM "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Nền kinh tế chăm sóc" 
 WHERE file.name!=this.file.name
 ```
+
