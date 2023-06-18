@@ -6,7 +6,7 @@ Table
 	giới-hạn-của-bản-miễn-phí as "Giới hạn của bản miễn phí",
 	giới-hạn-về-mặt-công-nghệ as "Giới hạn về mặt công nghệ",
 	ưu-điểm as "Ưu điểm"
-from "9 Tài liệu khác/92 Các chọn lựa/Nơi gặp mặt/Online" 
+from "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video" 
 Where file.name!=this.file.name
 Sort giới-hạn-của-bản-miễn-phí 
 ```

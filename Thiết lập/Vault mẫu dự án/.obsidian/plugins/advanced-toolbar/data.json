@@ -1,0 +1,34 @@
+{
+  "rowHeight": 48,
+  "rowCount": 2,
+  "spacing": 0,
+  "buttonWidth": 48,
+  "columnLayout": false,
+  "alwaysShowToolbar": true,
+  "mappedIcons": [
+    {
+      "commandID": "metaedit:metaEditRun",
+      "iconID": "sheets-in-box"
+    },
+    {
+      "commandID": "obsidian-editor-shortcuts:deleteLine",
+      "iconID": "minus"
+    },
+    {
+      "commandID": "templater-obsidian:insert-templater",
+      "iconID": "layout-list"
+    },
+    {
+      "commandID": "obsidian-editor-shortcuts:duplicateLine",
+      "iconID": "plus"
+    },
+    {
+      "commandID": "obsidian-another-quick-switcher:search-command_recommended-search",
+      "iconID": "file-search"
+    }
+  ],
+  "allowStylingOfAllActions": false,
+  "tooltips": false,
+  "heightOffset": 0,
+  "debugging": false
+}

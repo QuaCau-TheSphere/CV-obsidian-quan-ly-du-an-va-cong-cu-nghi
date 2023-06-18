@@ -1,0 +1,67 @@
+{
+  "ProgressProperties": {
+    "enabled": false,
+    "properties": [
+      {
+        "name": "",
+        "type": "Total Tasks"
+      }
+    ]
+  },
+  "IgnoredProperties": {
+    "enabled": true,
+    "properties": [
+      "Công việc thành phần",
+      "Cấp độ công việc",
+      "Câu hỏi",
+      "Chủ đề",
+      "Tài nguyên",
+      "Thành quả cần có",
+      "next",
+      "- [ ] [est"
+    ]
+  },
+  "AutoProperties": {
+    "enabled": true,
+    "properties": [
+      {
+        "name": "Nội dung",
+        "choices": [
+          "định nghĩa",
+          "câu hỏi",
+          "câu trả lời",
+          "thảo luận chung"
+        ]
+      },
+      {
+        "name": "Hỏi trong nhóm",
+        "choices": [
+          "Đã lên lịch",
+          "Đã hỏi xong"
+        ]
+      },
+      {
+        "name": "Alias",
+        "choices": [
+          ""
+        ]
+      }
+    ]
+  },
+  "EditMode": {
+    "mode": "Some Multi",
+    "properties": [
+      "Giai đoạn trong tư duy thiết kế",
+      "Nội dung",
+      "Ban",
+      "Tính chất công việc"
+    ]
+  },
+  "KanbanHelper": {
+    "enabled": true,
+    "boards": []
+  },
+  "UIElements": {
+    "enabled": true
+  }
+}

@@ -47,4 +47,4 @@ task
 where file.inlinks.độ-cấp-thiết and !fullyCompleted
 ```
 
-[[Gõ tắt]]
+[[Thiết lập/Gõ tắt]]
