@@ -8,32 +8,72 @@
         "type": "tabs",
         "children": [
           {
-            "id": "89e4108befce31c5",
+            "id": "1033f0ca5f4bf971",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Mẫu hình (pattern).md",
-                "mode": "preview",
+                "file": "📜 Tài nguyên/Làm dự án/Web/Web tĩnh/Mkdocs giúp dựng một web tĩnh từ các file markdown.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "c82dd5739d417ad2",
+            "id": "324bb5055b7815db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Hệ phức hợp/Sự tự tổ chức sự tạo mẫu hình một cách phi tuyến.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/Dữ liệu có thể là ngôn ngữ mà tất cả mọi người đều hiểu.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "8238a4680b604b99",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📜 Tài nguyên/Nghiên cứu/Nhân văn số/WhatEvery1Says/Collection là những sản phẩm đầu ra, bao gồm các mô hình chủ đề và minh hoạ tương tác có thể dùng trực tiếp.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "50dc0c8dba63281c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Phần mềm gọi video.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3cad741453a6610e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Năng lực liên quan đến khả năng phân tích và trực giác.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -87,8 +127,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -108,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Mẫu hình (pattern).md",
+                "file": "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Phần mềm gọi video.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Mẫu hình (pattern).md",
+                "file": "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Phần mềm gọi video.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +195,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Mẫu hình (pattern).md"
+                "file": "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Phần mềm gọi video/Phần mềm gọi video.md"
               }
             }
           },
@@ -191,44 +230,47 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "89e4108befce31c5",
+  "active": "50dc0c8dba63281c",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Nghĩ về việc nghĩ.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Môi trường nghĩ, nhận thức tăng cường.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Tự động hoá/Chỉnh sửa file hàng loạt bằng PowerShell.md",
-    "Untitled.md",
-    "Test sync.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Mẫu hình (pattern).md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Sự chuyên gia (exertise) đến từ việc nhìn ra mẫu hình.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Trực giác là việc nhìn ra mẫu hình không hơn không kém.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Việc nhìn ra mẫu hình cần những kiến thức có cấu trúc được lưu trong trí nhớ dài hạn.md",
-    "Thiết lập/Gõ tắt.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đồ thị giúp ta thấy được mẫu hình.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Hệ phức hợp/Sự tự tổ chức sự tạo mẫu hình một cách phi tuyến.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Hệ phức hợp/Vòng lặp dương giúp củng cố tình trạng hiện tại, tránh sự tác động từ bên ngoài, tự bảo tồn chính nó.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Hệ phức hợp/Muốn phát triển thì vào vòng lặp dương. Muốn bền vững thì vào vòng lặp âm.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Hệ phức hợp/Sự tự tổ chức là không tránh khỏi nhưng không dự báo trước được.md",
-    "⚔️ Lớp Obsidian và Git/⚔️ Lớp Obsidian và Git.md",
-    "📜 Tài nguyên/Làm dự án/Truyền thông/Quảng cáo trên Facebook.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Chuẩn hoá dữ liệu.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Thành quả quan trọng hơn thành phẩm.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/CORE Econ.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Powerful medium enables powerful representations.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Bret Victor.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Media for Thinking the Unthinkable.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Cách để AI không bị ảo giác là kêu nó viết query cho Wikidata.md",
+    "📜 Tài nguyên/Nghiên cứu/Nghiên cứu.md",
+    "📜 Tài nguyên/Nghiên cứu/Cơ sở dữ liệu.md",
+    "📜 Tài nguyên/Lập trình/Lập trình.md",
+    "📜 Tài nguyên/Lập trình/Công nghệ thông tin.md",
+    "📜 Tài nguyên/📜 Tài nguyên.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Chặn quảng cáo trong app Android.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Chặn quảng cáo trên trình duyệt.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Ẩn kết quả tìm kiếm rác trên Google.md",
+    "📜 Tài nguyên/Nghiên cứu/Phương án dịch một số từ.md",
+    "📜 Tài nguyên/Nghiên cứu/Nhân văn số/Tài nguyên NLP và nhân văn số.md",
+    "📜 Tài nguyên/Nghiên cứu/Nhân văn số/WhatEvery1Says/Diễn giải.md",
+    "📜 Tài nguyên/Nghiên cứu/Nhân văn số/WhatEvery1Says/Collection là những sản phẩm đầu ra, bao gồm các mô hình chủ đề và minh hoạ tương tác có thể dùng trực tiếp.md",
+    "📜 Tài nguyên/Nghiên cứu/Nhân văn số/WhatEvery1Says/Code chạy trên Linux hoặc WSL.md",
+    "📜 Tài nguyên/Lập trình/tuhocict.md",
+    "📜 Tài nguyên/Lập trình/Sự khác biệt giữa Windows và Linux.md",
+    "📜 Tài nguyên/Lập trình/Regex giúp tìm kiếm những chuỗi phức tạp.md",
+    "📜 Tài nguyên/Lập trình/IDE/IDE.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Xóa bloatware trên Windows, Android.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Đọc những trang thu phí bằng 12ft.io.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Loại bỏ những popup bằng Idontcareaboutcookies, No Thanks.md",
+    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
+    "📜 Tài nguyên/Nghiên cứu/Nhân văn số/WhatEvery1Says",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Phân tích xu hướng/Phân tích xu hướng.md",
     "⚡Hiểu biết sâu/Khoa học dữ liệu/Khoa học dữ liệu.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Event-driven architecture.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/~syncthing~4a7eb5182aa77daf4e21609fd9af422e4fe819a5c7af5c6bf609f65048fe4b85.tmp",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/~syncthing~9ae0237c8d7a52a118e8023305ec207406463461bdb9ef7c71943544b97c1b1e.tmp",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/~syncthing~Phương thức phải gắn lên một vật thể cụ thể nào đó để có tác dụng.md.tmp",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/~syncthing~Thay vì ta thao túng trực tiếp dữ liệu, ta điều khiển vật thể qua phần giao tiếp của nó với bên ngoài.md.tmp",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình hướng đối tượng/~syncthing~Phương thức cho ta biết mình có thể làm gì với vật thể đó.md.tmp",
-    "📜 Tài nguyên/Lập trình/Untitled",
-    "📜 Tài nguyên/Làm dự án/Truyền thông",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Gọn vốn đầu tư",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Gọi vốn cộng đồng",
+    "📜 Tài nguyên/Nghiên cứu/Nhân văn số",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Chơi game.md",
+    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Mạng kết nối nhu cầu.md",
+    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Python/~syncthing~__init__.py nói cho Python biết folder chứa nó là một package.md.tmp",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng, quản lý nhóm/~syncthing~Việc có quá nhiều ý kiến làm ta thấy loạn.md.tmp",
+    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình",
+    "laapjtr",
+    "~syncthing~hhnvh.md.tmp",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/~syncthing~Bộ não được thiết kế để loại bỏ mối nguy hiểm ngay bây giờ, không phải trong tương lai.md.tmp",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Sắp xếp độ ưu tiên/~syncthing~59e62bb65ace36723872d4ab56c0c91fdd8ed046eec438f8e32470d9c5322538.tmp",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/~syncthing~Mọi thành quả mong muốn đều chứa trong mình những giả thuyết.md.tmp",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm.png",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (neato).png",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (dot).png",
     "Thiết lập/Ảnh/Made to stick/James Le.jpg",
     "Thiết lập/Ảnh/Made to stick/Boris Divjak.jpeg",
     "Thiết lập/Ảnh/Ảnh procrastination/Procrastinators-Matrix1-539x600.png",
@@ -236,9 +278,6 @@
     "Thiết lập/Ảnh/Ảnh procrastination/Eisenhower-Matrix-920x1024.png",
     "Thiết lập/Ảnh/logo2.png",
     "Thiết lập/Ảnh/Pasted image 20230513215627.png",
-    "Trang chủ.canvas",
-    "Thiết lập/Ảnh/Pasted image 20230509215724.png",
-    "Thiết lập/Ảnh/logo.png",
-    "Thiết lập/Ảnh/Ảnh/Eisenhower-Matrix-Actions-539x600.png"
+    "Trang chủ.canvas"
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "VSCode",
+      "code": "code",
+      "arguments": "",
+      "showInMenu": true
+    }
+  ],
+  "sysexpInFileMenu": true
+}

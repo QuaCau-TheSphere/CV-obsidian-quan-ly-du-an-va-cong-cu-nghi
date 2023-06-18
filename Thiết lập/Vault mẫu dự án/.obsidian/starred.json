@@ -1,0 +1,54 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "00.1 Lịch họp hằng tuần",
+      "path": "00.1 Lịch họp hằng tuần.md"
+    },
+    {
+      "type": "file",
+      "title": "00.0 Bản đồ trong QC",
+      "path": "00.0 Bảng chỉ đường.md"
+    },
+    {
+      "type": "file",
+      "title": "Các dự án thành phần",
+      "path": "2 Thành quả cần có/Các sản phẩm hướng tới/Các sản phẩm hướng tới.md"
+    },
+    {
+      "type": "file",
+      "title": "7 Công việc",
+      "path": "7 Công việc/7 Công việc.md"
+    },
+    {
+      "type": "file",
+      "title": "00.2 Kế hoạch tổng thể",
+      "path": "00.2 Kế hoạch tổng thể.md"
+    },
+    {
+      "type": "file",
+      "title": "Tò mò thử, hứng thú, mong muốn, ý định, động lực nội sinh, ưu tiên, sẵn sàng, cam kết, gắn bó, trách nhiệm",
+      "path": "3 Kiến thức, câu hỏi/31 Khái niệm, chủ đề/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/Tò mò thử, hứng thú, mong muốn, ý định, động lực nội sinh, đam mê, ưu tiên, sẵn sàng, cam kết, gắn bó, trách nhiệm.md"
+    },
+    {
+      "type": "file",
+      "title": "Danh sách người đăng ký",
+      "path": "2 Sản phẩm và Thành quả cần có/26 Các buổi nói chuyện, thuyết trình, dã ngoại/1022 Bước chân - Phước Bình/Danh sách người đăng ký.md"
+    },
+    {
+      "type": "file",
+      "title": "93.01 Đồ thị nội hàm các khái niệm",
+      "path": "3 Kiến thức, câu hỏi/31 Khái niệm, chủ đề/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm.md"
+    },
+    {
+      "type": "file",
+      "title": "Cấu trúc thư mục",
+      "path": "9 Tài liệu khác/91 Tính năng của vault/Theo thành phần/Cấu trúc thư mục.md"
+    },
+    {
+      "type": "file",
+      "title": "Ý đồ thiết kế thư mục",
+      "path": "2 Kỹ năng, thử thách, mức độ thành thạo/21 Hiểu Quả Cầu/Kỹ năng nhỏ hơn/Sử dụng dữ liệu của Quả Cầu/Ý đồ thiết kế thư mục.md"
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 ---
 share: True
 ---
+[[PowerShell là một ngôn ngữ shell]]
 [The Complete Guide to PowerShell Punctuation - Simple Talk](https://www.red-gate.com/simple-talk/sysadmin/powershell/the-complete-guide-to-powershell-punctuation/)
 # Tạo nhiều folder
 ```PowerShell
@@ -45,4 +46,26 @@ $env:PATH += ";SomeRandomPath"
 ```
 ```PowerShell
 [Environment]::SetEnvironmentVariable("Path",    [Environment]::GetEnvironmentVariable("Path", [EnvironmentVariableTarget]::Machine) + ";C:\bin", [EnvironmentVariableTarget]::Machine)
+```
+# sfd
+```PowerShell
+$sourcePath = “F:\New folder”  
+$destinationPath = “E:\New folder”  
+$files = Get-ChildItem -Path $sourcePath -Recurse -Filter “*.*”  
+foreach($file in $files){  
+	$sourcePathFile = $file.FullName  
+	$destinationPathFile = $file.FullName.Replace($sourcePath, $destinationPath)  
+	$exists = Test-Path $destinationPathFile  
+	if(!$exists){  
+	$dir = Split-Path -parent $destinationPathFile  
+	if (!(Test-Path($dir))) { New-Item -ItemType directory -Path $dir }  
+	Copy-Item -Path $sourcePathFile -Destination $destinationPathFile -Recurse -Force  
+	}  
+	else{  
+		$isFile = Test-Path -Path $destinationPathFile -PathType Leaf  
+	if(!$isFile){  
+		Copy-Item -Path $sourcePathFile -Destination $destinationPathFile -Recurse -Force  
+	}  
+	}  
+}
 ```

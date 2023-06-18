@@ -1,4 +1,19 @@
 {
+  "targetLanguage": {
+    "text": "Vietnamese",
+    "code": "vi"
+  },
+  "apiType": {
+    "text": "Builtin",
+    "value": "0"
+  },
+  "translateApiUrl": "https://api.cognitive.microsofttranslator.com/translate?api-version=3.0",
+  "maxCharacters": 2000,
+  "token": "",
+  "region": {
+    "text": "Global",
+    "code": "global"
+  },
   "defaultLanguage": {
     "text": "Vietnamese",
     "code": "vi"

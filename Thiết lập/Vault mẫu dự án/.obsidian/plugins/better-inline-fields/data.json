@@ -1,0 +1,117 @@
+{
+  "autocomplete": [
+    {
+      "field": "Nhu cầu của đối tượng",
+      "folder": "1 Nhu cầu/12 Nhu cầu của mọi người"
+    },
+    {
+      "field": "Nhu cầu dẫn tới",
+      "folder": "1 Nhu cầu/11 Nhu cầu của Quả Cầu"
+    },
+    {
+      "field": "Nhu cầu của mình về đối tượng",
+      "folder": "1 Nhu cầu/11 Nhu cầu của Quả Cầu/Nhu cầu của Quả Cầu về mọi người"
+    },
+    {
+      "field": "Kỹ năng",
+      "folder": "2 Kỹ năng, thử thách, mức độ thành thạo"
+    },
+    {
+      "field": "Chủ đề",
+      "folder": "3 Kiến thức, câu hỏi/31 Khái niệm, chủ đề"
+    },
+    {
+      "field": "❓",
+      "folder": "3 Kiến thức, câu hỏi/32 Câu hỏi"
+    },
+    {
+      "field": "Thành quả cần có",
+      "folder": "4 Sản phẩm, thành quả mong muốn (các vùng đất)"
+    },
+    {
+      "field": "Thành quả hỗ trợ",
+      "folder": "4 Sản phẩm, thành quả mong muốn (các vùng đất)"
+    },
+    {
+      "field": "Thành phẩm nhỏ hơn",
+      "folder": "4 Sản phẩm, thành quả mong muốn (các vùng đất)"
+    },
+    {
+      "field": "Hướng tới loại đối tượng",
+      "folder": "6 Các bên liên quan (NPC)/Cá nhân/61 Loại đối tượng (loại nhân vật)"
+    },
+    {
+      "field": "Đối tượng thụ hưởng",
+      "folder": "6 Các bên liên quan (NPC)/Cá nhân/61 Loại đối tượng (loại nhân vật)"
+    },
+    {
+      "field": "Loại đối tượng",
+      "folder": "6 Các bên liên quan (NPC)/Cá nhân/61 Loại đối tượng (loại nhân vật)"
+    },
+    {
+      "field": "Điều đối tượng thấy ở QC",
+      "folder": "6 Các bên liên quan (NPC)/Cá nhân/62 Điều đối tượng thấy ở QC"
+    },
+    {
+      "field": "Mô hình",
+      "folder": "6 Các bên liên quan (NPC)/Tổ chức/66 Mô hình"
+    },
+    {
+      "field": "Loại sứ mệnh",
+      "folder": "6 Các bên liên quan (NPC)/Tổ chức/67 Loại sứ mệnh, nội dung chủ đạo"
+    },
+    {
+      "field": "Loại sản phẩm",
+      "folder": "6 Các bên liên quan (NPC)/Tổ chức/68 Loại sản phẩm"
+    },
+    {
+      "field": "Điểm yếu",
+      "folder": "5 SWOT, giá trị cốt lõi/51 Điểm yếu - thách thức"
+    },
+    {
+      "field": "Lý do",
+      "folder": "5 SWOT, giá trị cốt lõi"
+    },
+    {
+      "field": "Hoạt động",
+      "folder": "7 Công việc"
+    },
+    {
+      "field": "Công việc thành phần",
+      "folder": "7 Công việc"
+    },
+    {
+      "field": "next",
+      "folder": "7 Công việc"
+    },
+    {
+      "field": "Là vấn đề cho hoạt động",
+      "folder": "7 Công việc"
+    },
+    {
+      "field": "Công việc",
+      "folder": "7 Công việc"
+    },
+    {
+      "field": "Người chơi",
+      "folder": "8 Tổ chức/82 Thành viên (Người chơi)"
+    },
+    {
+      "field": "Hình thức tham gia",
+      "folder": "8 Tổ chức/63 Hình thức tham gia (Loại nhân vật)"
+    },
+    {
+      "field": "Tiếp theo",
+      "folder": "6 Các bên liên quan (NPC)/Hành trình người dùng"
+    },
+    {
+      "field": "Hướng đến thời gian",
+      "folder": "8 Tổ chức/81 Kế hoạch"
+    },
+    {
+      "field": "Thành phẩm",
+      "folder": "4 Sản phẩm, thành quả mong muốn (các vùng đất)"
+    }
+  ],
+  "regexpTrigger": "/"
+}
