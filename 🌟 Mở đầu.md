@@ -15,9 +15,10 @@ Sau khi đọc xong những điều này, hiện có những câu hỏi nào xu�
 
 | Câu hỏi của bạn                                                                               | Loại câu hỏi | Nơi cho câu trả lời           |
 | --------------------------------------------------------------------------------------------- | ------------ | ----------------------------- |
-| Obsidian có gì hay?                                                                           | What         | [[💎 Giới thiệu về Obsidian]] |
-| OK tôi thấy Obsidian cũng thú vị. Tôi ứng dụng nó vào công việc của tôi thế nào cho hiệu quả? | How          | [[⚔️ Lớp Obsidian và Git]]    |
+| Obsidian có gì hay? Nó giúp ích gì trong việc tư duy, hệ thống kiến thức, hoặc quản lý dự án? | What         | [[💎 Giới thiệu về Obsidian]] |
+| OK tôi thấy Obsidian cũng thú vị. Làm sao để tôi thành thạo nó?                               | How          | [[⚔️ Lớp Obsidian và Git]]    |
 | Hmm... Tôi thấy hướng dẫn ghi là nên làm cái A này. Tại sao không phải là cái B kia?          | Why          | [[⚡Hiểu biết sâu]]           |
+
 
 
 [[Nơi này là nơi nào？|Nơi này là nơi nào?]] | [[Mọi người hay thảo luận ở đâu？|Mọi người hay thảo luận ở đâu?]] | [[Tôi có thể giúp gì？|Tôi có thể giúp gì?]] 

@@ -1,0 +1,136 @@
+{
+  "strategy": "default",
+  "cedictPath": "./cedict_ts.u8",
+  "matchStrategy": "prefix",
+  "fuzzyMatch": true,
+  "maxNumberOfSuggestions": 255,
+  "maxNumberOfWordsAsPhrase": 1,
+  "minNumberOfCharactersTriggered": 2,
+  "minNumberOfWordsTriggeredPhrase": 1,
+  "complementAutomatically": true,
+  "delayMilliSeconds": 0,
+  "disableSuggestionsDuringImeOn": false,
+  "insertAfterCompletion": false,
+  "firstCharactersDisableSuggestions": ":/^",
+  "useCommonPrefixCompletionOfSuggestion": false,
+  "patternsToSuppressTrigger": [
+    "^~~~.*",
+    "^```.*"
+  ],
+  "showMatchStrategy": false,
+  "showComplementAutomatically": false,
+  "showIndexingStatus": false,
+  "descriptionOnSuggestion": "Short",
+  "selectSuggestionKeys": "Enter",
+  "additionalCycleThroughSuggestionsKeys": "Tab, Shift+Tab",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "None",
+  "propagateEsc": false,
+  "enableCurrentFileComplement": false,
+  "currentFileMinNumberOfCharacters": 0,
+  "onlyComplementEnglishOnCurrentFileComplement": false,
+  "enableCurrentVaultComplement": false,
+  "currentVaultMinNumberOfCharacters": 0,
+  "includeCurrentVaultPathPrefixPatterns": "",
+  "excludeCurrentVaultPathPrefixPatterns": "",
+  "includeCurrentVaultOnlyFilesUnderCurrentDirectory": false,
+  "enableCustomDictionaryComplement": true,
+  "customDictionaryPaths": "Thiết lập/Gõ tắt.md",
+  "columnDelimiter": "Tab",
+  "customDictionaryWordRegexPattern": "",
+  "delimiterToHideSuggestion": "",
+  "delimiterToDivideSuggestionsForDisplayFromInsertion": "",
+  "caretLocationSymbolAfterComplement": "|",
+  "displayedTextSuffix": " => ...",
+  "enableInternalLinkComplement": false,
+  "suggestInternalLinkWithAlias": false,
+  "excludeInternalLinkPathPrefixPatterns": "",
+  "updateInternalLinksOnSave": true,
+  "insertAliasTransformedFromDisplayedInternalLink": {
+    "enabled": false,
+    "beforeRegExp": "",
+    "after": ""
+  },
+  "enableFrontMatterComplement": true,
+  "frontMatterComplementMatchStrategy": "inherit",
+  "insertCommaAfterFrontMatterCompletion": true,
+  "intelligentSuggestionPrioritization": {
+    "maxDaysToKeepHistory": 30,
+    "maxNumberOfHistoryToKeep": 0
+  },
+  "showLogAboutPerformanceInConsole": true,
+  "selectionHistoryTree": {
+    "Chủ đề::": {
+      "Chủ đề::": {
+        "customDictionary": {
+          "count": 4,
+          "lastUpdated": 1677992146002
+        }
+      }
+    },
+    "tqcc": {
+      "Thành quả cần có:: ": {
+        "customDictionary": {
+          "count": 7,
+          "lastUpdated": 1677300778223
+        }
+      }
+    },
+    "ncdt": {
+      "Nhu cầu dẫn tới::": {
+        "customDictionary": {
+          "count": 3,
+          "lastUpdated": 1677300791292
+        }
+      }
+    },
+    "xt": {
+      "Tài liệu::": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1677294956536
+        }
+      }
+    },
+    "mmflowchart": {
+      "```mermaid\nflowchart TB\n    c1-->a2\n    subgraph one\n    a1-->a2\n    end\n    subgraph two\n    b1-->b2\n    end\n    subgraph three\n    c1-->c2\n    end\n```": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1677300664478
+        }
+      }
+    },
+    "cv": {
+      "Công việc:: ": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1677300752675
+        }
+      }
+    },
+    "tp": {
+      "Thành phẩm:: ": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1677300769319
+        }
+      }
+    },
+    "Tính chất công việc:: #tc-☕Chỉnênlàmkhigặpmặttrựctiếp, #tc-🥳Tươngtácnhiềuvớiloàingười, #tc-💬Họpthườngxuyên, #tc-🔁Côngviệclặplại, #tc-🔁Kếtquảthayđổithườngxuyên, #tc-🗣️Nóinhiều, #tc-💻Khôngphảicắmmặtvàomáytính": {
+      "Tính chất công việc:: #tc-☕Chỉnênlàmkhigặpmặttrựctiếp, #tc-🥳Tươngtácnhiềuvớiloàingười, #tc-💬Họpthườngxuyên, #tc-🔁Côngviệclặplại, #tc-🔁Kếtquảthayđổithườngxuyên, #tc-🗣️Nóinhiều, #tc-💻Khôngphảicắmmặtvàomáytính": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1677304561032
+        }
+      }
+    },
+    "Đi chung::": {
+      "Đi chung::": {
+        "customDictionary": {
+          "count": 1,
+          "lastUpdated": 1679128273571
+        }
+      }
+    }
+  }
+}

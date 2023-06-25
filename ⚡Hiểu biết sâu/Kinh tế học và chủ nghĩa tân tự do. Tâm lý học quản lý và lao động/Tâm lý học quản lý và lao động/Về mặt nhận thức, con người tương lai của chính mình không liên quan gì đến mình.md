@@ -10,3 +10,4 @@ To make things worse, we’re even less able to make thoughtful, future-oriented
 Nguồn:: [Why You Procrastinate (It Has Nothing to Do With Self-Control)](https://www.nytimes.com/2019/03/25/smarter-living/why-you-procrastinate-it-has-nothing-to-do-with-self-control.html)
 
 [[Chúng ta thường nhìn hiện tại và tương lai bằng những khái niệm học trong quá khứ]]
+[[Phản hồi và sự giúp đỡ trả lại là những thứ xa xỉ với người được giúp]]

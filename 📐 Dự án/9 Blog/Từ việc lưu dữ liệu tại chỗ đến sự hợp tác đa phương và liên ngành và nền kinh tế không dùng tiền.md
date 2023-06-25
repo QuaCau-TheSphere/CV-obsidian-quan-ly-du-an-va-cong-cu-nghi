@@ -1,5 +1,5 @@
 ---
-Alias: Động lực dự án này là gì? Tại sao lại chọn Obsidian? 
+Alias: Động lực dự án này là gì? Tại sao lại chọn Obsidian? Sứ mệnh
 description: Động lực dự án này là gì? Tại sao lại chọn Obsidian? 
 share: True
 ---
@@ -18,7 +18,7 @@ Trong những phần mềm quản lý công việc trên thị trường hiện 
 
 Các triết lý này mở ra một loạt những tính năng một dự án phát triển cộng đồng muốn có. Ví dụ như:
 - Thành viên cộng đồng có thể đóng góp những **hiểu biết sâu sắc, nhu cầu và các dữ liệu khác một cách thụ động** vào kho dữ liệu chung. Họ không cần quan tâm (quá nhiều) vào kho dữ liệu chung mà vẫn có thể làm nó phong phú hơn, chỉ bằng việc tập trung vào việc tự quản lý dự án của mình. Sự đóng góp của họ chỉ là sản phẩm phụ của việc họ tập trung vào mình.
-- [[Đồ thị giúp thấy được bức tranh tổng thể của nhóm]]: điều gì nhiều người quan tâm nhất? Ai có cùng nhu cầu với ai?
+- [[Đồ thị giúp thấy được bức tranh tổng thể]]: điều gì nhiều người quan tâm nhất? Ai có cùng nhu cầu với ai?
 - [[Obsidian miễn phí, không có chức năng nào phải trả tiền hay tính theo đầu người|Hoàn toàn miễn phí, không có chức năng nào phải trả tiền hay tính theo đầu người]]. [[Obsidian phù hợp cho các dự án nhỏ, không có nhiều tiền|Phù hợp khi bạn cần những chức năng nâng cao hoặc khi đội ngũ mở rộng mà không có nhiều tiền]]
 - [[Obsidian cực kỳ dễ mở rộng tính năng|Với plugin]], tính năng của nó có thể mở rộng theo nhu cầu và mức độ thành thạo của người dùng, khiến cho nó trở thành một [[Giàn giáo nhận thức cần phải tuỳ biến với quá trình hiểu biết của người dùng|giàn giáo nhận thức giúp giảm sự quá tải của bạn]], khiến cho nó trở thành một môi trường tư duy để tăng cường nhận thức
 - [[Có thể dùng kết hợp Obsidian với các giải pháp xử lý dữ liệu khác]], tránh tình trạng [[Việc lưu dữ liệu ở các công cụ khác nhau tạo thành các đảo thông tin|phân mảnh dữ liệu do lưu dữ liệu ở nhiều công cụ khác nhau]]
@@ -42,7 +42,7 @@ Nếu mô hình này thành công, thì ta sẽ xây dựng một mạng kết n
 Ý tưởng [nền kinh tế không dùng tiền](https://en.wikipedia.org/wiki/Non-monetary_economy "Non-monetary economy - Wikipedia") không phải là một khái niệm mới. Một ví dụ điển hình là [Hệ thống Trao đổi Cộng đồng (Community Exchange System)](https://www.community-exchange.org/home/ "Community Exchange System | Your Talents are Your Wealth") với hơn 1200 nhóm trao đổi ở 107 nước. Tuy nhiên chưa có ở Việt Nam. 
 
 
-> [!info] Bài chi tiết: [Một đám mây chim sáo](https://quảcầu.cc/mot-dam-may-chim-sao/?utm_source=Obsidian+%C2%BB+%C4%90%E1%BB%99ng+l%E1%BB%B1c+th%E1%BB%B1c+hi%E1%BB%87n+d%E1%BB%B1+%C3%A1n+n%C3%A0y&utm_medium=vault&utm_campaign=Gi%E1%BB%9Bi+thi%E1%BB%87u+web)
+> [!info] Bài chi tiết: [Một đám mây chim sáo](https://quảcầu.cc/mot-dam-may-chim-sao/?utm_source=CV+%C2%BB+T%E1%BB%AB+vi%E1%BB%87c+l%C6%B0u+d%E1%BB%AF+li%E1%BB%87u+t%E1%BA%A1i+ch%E1%BB%97+%C4%91%E1%BA%BFn+s%E1%BB%B1+h%E1%BB%A3p+t%C3%A1c+%C4%91a+ph%C6%B0%C6%A1ng+v%C3%A0+li%C3%AAn+ng%C3%A0nh+v%C3%A0+n%E1%BB%81n+kinh+t%E1%BA%BF+kh%C3%B4ng+d%C3%B9ng+ti%E1%BB%81n&utm_medium=M%E1%BB%99t+%C4%91%C3%A1m+m%C3%A2y+chim+s%C3%A1o&utm_campaign=Giai+%C4%91o%E1%BA%A1n+2)
 
 Vấn đề hiện tại bây giờ chỉ là: có bao nhiêu nhóm dự án sẵn sàng muốn sử dụng Obsidian cho việc quản lý dự án của mình?
 

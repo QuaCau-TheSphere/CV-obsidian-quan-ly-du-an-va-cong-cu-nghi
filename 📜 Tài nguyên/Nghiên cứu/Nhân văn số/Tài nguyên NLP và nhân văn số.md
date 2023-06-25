@@ -6,7 +6,8 @@ Giới thiệu về nhân văn số (digital humanities)
 Nhiều dự án nhăn văn số rồi, nên chỉ tập trung vào các tài liệu giúp hướng dẫn một người 
 [Nhân văn số thức: Một lát cắt của xã hội toàn cầu - Tạp chí Tia sáng](https://tiasang.com.vn/khoa-hoc-cong-nghe/nhan-van-so-thuc-mot-lat-cat-cua-xa-hoi-toan-cau-11139/)
 # Sản phẩm
-## [Đồ thị mạng lưới 100+ niềm tin](https://github.com/QuaCau-TheSphere/belief-network) 
+## [Đồ thị mạng lưới 100+ niềm tin](https://xn--qucu-hr5aza.cc/phan-tich-mot-mang-luoi-100-niem-tin/?utm_source=CV+%C2%BB+T%C3%A0i+nguy%C3%AAn+NLP+v%C3%A0+nh%C3%A2n+v%C4%83n+s%E1%BB%91&utm_medium=Ph%C3%A2n+t%C3%ADch+m%E1%BB%99t+m%E1%BA%A1ng+l%C6%B0%E1%BB%9Bi+100%2B+ni%E1%BB%81m+tin&utm_campaign=Giai+%C4%91o%E1%BA%A1n+2) 
+![[Đồ thị 100+ niềm tin.gif]]
 
 ## [Heurist Network](https://heuristnetwork.org/): quản lý cơ sở dữ liệu mã nguồn mở 
 ![Video](https://www.youtube.com/watch?v=wuh9SRtE8eE&width=640&height=480)

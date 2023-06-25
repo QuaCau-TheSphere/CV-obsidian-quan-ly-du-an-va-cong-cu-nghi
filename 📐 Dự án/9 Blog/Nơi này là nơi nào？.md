@@ -29,7 +29,7 @@ Giới thiệu khái niệm như trong [[Lập trình]], so sánh sự khác nha
 Đa phần ghi chú trong đây đều ở trạng thái chưa hoàn thiện. Thứ cần được hoàn thiện là sự liên kết giữa các trang và nội dung một số trang hay được đọc và chia sẻ nhiều.
 
 # Các chủ đề được bàn đến trong [[⚡Hiểu biết sâu]]
-![[Drawing 2023-04-12 13.38.23.excalidraw.png]]
+![[Các lĩnh vực trong vault.png]]
 
 Có thể thấy là nó cũng quá đa dạng, và có thể bạn không cần biết hết. Nhưng tất cả những cái này bạn sẽ phải tự học, và khi dự án bạn còn nhỏ thì bạn sẽ phải cáng đáng hết tất cả những vấn đề này
 
