@@ -10,7 +10,7 @@ Thành quả hỗ trợ:: 		tqht
 Thành phẩm:: 		tp, kn, xt
 Giải pháp gợi ý:: 		gp
 
-Thách thức:: 		tt
+Thách thức:: 		tt, kk
 
 Khái niệm:: 		kn
 Lý do:: 		ld

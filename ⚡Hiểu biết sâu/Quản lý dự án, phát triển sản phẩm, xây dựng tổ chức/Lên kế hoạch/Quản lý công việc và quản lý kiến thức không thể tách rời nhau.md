@@ -2,4 +2,6 @@
 share: True
 ---
 [[Insight through making]] 
-[Augmenting Organizational Intelligence](https://fibery.io/blog/augmenting-organizational-intelligence/)
+Nguồn:: [Augmenting Organizational Intelligence](https://fibery.io/blog/augmenting-organizational-intelligence/)
+
+Thách thức:: [[Obsidian không mạnh về quản lý công việc]]

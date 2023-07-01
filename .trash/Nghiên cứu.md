@@ -1,5 +1,5 @@
 ```dataview
 LIST
-FROM "📜 Tài nguyên/Nghiên cứu" 
+FROM "Nghiên cứu" 
 WHERE file.name!=this.file.name
 ```

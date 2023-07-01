@@ -6,7 +6,7 @@ share: True
 
 [[Package và library là những cái tên khác nhau cho cùng một thứ]]
 
-[[Pip là chương trình quản lý gói của Python]]
+[[Pip là chương trình quản lý package của Python]]
 
 [[Với những người chỉ cần dùng Python để làm dữ liệu chứ không lập trình, chỉ cần cài Anaconda là đủ. Không cần và không nên cài Python riêng]]
 

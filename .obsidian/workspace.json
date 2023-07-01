@@ -4,11 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "c7969acd5d0cacd8",
+        "id": "1ef1595f43674268",
         "type": "tabs",
         "children": [
           {
-            "id": "aca1138230d1da16",
+            "id": "651a3eadc5fa0ee5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Nên cài Google tag trong Google Tag Manager thay vì cài trực tiếp trên web hoặc qua plugin.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e877d92e6494d5a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +33,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -177,39 +191,45 @@
       "obsidian42-brat:BRAT": false
     }
   },
-  "active": "aca1138230d1da16",
+  "active": "e877d92e6494d5a9",
   "lastOpenFiles": [
-    "📜 Tài nguyên/Nghiên cứu/Bản đồ lập luận.md",
-    "🌟 Mở đầu.md",
-    "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Phần mềm quản lý công việc/Phần mềm quản lý kiến thức cá nhân.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng, quản lý nhóm/CRM tập trung vào tăng sale, ERP tập trung vào cắt giảm chi phí.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/Quảng cáo trên Internet khác hẳn quảng cáo trên các phương tiện ở chỗ người tiêu dùng có thể tương tác với quảng cáo.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
     "📜 Tài nguyên/📜 Tài nguyên.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/Theo tính năng của plugin.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/4. Trình bày thông tin/Tạo bảng.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/3. Truy xuất thông tin/Vẽ đồ thị.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/3. Truy xuất thông tin",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/Viết bình luận.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/4. Trình bày thông tin",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/1. Ghi chú thông tin",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/2. Hệ thống hoá thông tin",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/Các buổi hội thảo.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Chơi game.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Quản lý mối quan hệ.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm mạnh của Obsidian/Đồ thị giúp thấy được bức tranh tổng thể.md",
-    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Nghiên cứu.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Obsidian lưu dữ liệu ở định dạng đơn giản.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm yếu của Obsidian/Untitled.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/Việc gặp người mới sẽ phải thường xuyên kể về động lực làm dự án mình hoài.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/Việc có được khách hàng mới có thể tốn kém hơn từ 5 đến 25 lần so với việc giữ chân một khách hàng hiện có.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng, quản lý nhóm/Sociocracy.md",
-    "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Obsidian lưu dữ liệu nằm trên máy của người dùng.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hợp tác làm việc/Bạn có quyền chỉnh sửa dữ liệu của mình dưới bất kỳ hình thức nào.md",
+    "⚔️ Lớp Obsidian và Git/⚔️ Lớp Obsidian và Git.md",
+    "⚔️ Lớp Obsidian và Git/💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Thủ thuật phần mềm.md",
+    "📜 Tài nguyên/Làm dự án/Làm dự án.md",
+    "📜 Tài nguyên/Nghiên cứu/Nghiên cứu.md",
+    "⚔️ Lớp Obsidian và Git/1 Làm quen với Obsidian/1 Làm quen với Obsidian.md",
+    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Một Google tag có thể có nhiều tag ID.md",
+    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Google tag (global site tag, gtag) là một mã JS để gửi dữ liệu đến cho Google Analytics và Google Ad.md",
+    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Nên cài Google tag trong Google Tag Manager thay vì cài trực tiếp trên web hoặc qua plugin.md",
+    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Cách đặt URL.md",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Google Support.md",
+    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Google Tag Manager/Data layer variable là.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/Web analytics/Các URL dài có thể là organic traffic chứ không phải direct traffic.md",
     "📐 Dự án/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/Các buổi cà phê bạn bè chủ yếu là thu hút người chưa biết về dự án thông qua cá tính của mình.md",
-    "📜 Tài nguyên/Làm dự án/Web/Web động/~syncthing~Untitled.md.tmp",
+    "📐 Dự án/9 Blog/Nơi này là nơi nào？.md",
+    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Google Tag Manager/gtag và tag trong GTM là khác nhau.md",
+    "🌟 Mở đầu.md",
+    "còn những gì tôi không biết là tôi không biết.md",
+    "📜 Tài nguyên/Lập trình/Lập trình.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Vấn đề hay gặp khi dùng Git.md",
+    "📜 Tài nguyên/Nghiên cứu/Quản lý kiến thức và lập luận/Bản đồ lập luận.md",
+    "📜 Tài nguyên/Nghiên cứu/Quản lý kiến thức và lập luận/Quản lý kiến thức cá nhân.md",
+    "📜 Tài nguyên/Nghiên cứu/Quản lý kiến thức và lập luận/Tổng quan tài liệu.md",
+    "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Tìm công cụ phù hợp.md",
+    "📜 Tài nguyên/Nghiên cứu/Cơ sở dữ liệu.md",
+    "📜 Tài nguyên/Nghiên cứu/Quản lý kiến thức và lập luận",
+    "📜 Tài nguyên/Nghiên cứu/Dịch",
+    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics",
+    "~syncthing~còn những gì tôi không biết là tôi không biết.md.tmp",
+    "📜 Tài nguyên/Làm dự án/Truyền thông/~syncthing~Google Analytics.md.tmp",
+    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Google Tag Manager",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Công việc",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Tầm nhìn, sứ mệnh, sản phẩm",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Kinh tế học",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Môi trường nghĩ, nhận thức tăng cường",
+    "Thiết lập/Excalidraw/Các nét nghĩa của Philanthropy.svg",
     "Thiết lập/Ảnh/Philanthropy/Thiện nguyện dựa trên tri thức + X.png",
     "Thiết lập/Ảnh/Philanthropy/Từ thiện + X.png",
     "Thiết lập/Ảnh/Philanthropy/Nhân ái + phúc thiện + thiện nguyện + từ thiện.png",
@@ -217,14 +237,8 @@
     "Thiết lập/Ảnh/Philanthropy/Nhân ái + phúc thiện + thiện nguyện.png",
     "Thiết lập/Ảnh/Philanthropy/Nhân ái + phúc thiện.png",
     "Thiết lập/Ảnh/Philanthropy/Nhân ái.png",
-    "Thiết lập/Ảnh/Philanthropy/Nhân ái",
-    "Thiết lập/Excalidraw/Các nét nghĩa của Philanthropy.svg",
     "Thiết lập/Ảnh/Philanthropy/Các nét nghĩa.png",
-    "Thiết lập/Ảnh/Philanthropy",
-    "Thiết lập/Ảnh/New folder",
     "Thiết lập/Excalidraw/Các nét nghĩa của Philanthropy.png",
-    "📜 Tài nguyên/Nghiên cứu/Nhân văn số/WhatEvery1Says",
-    "📜 Tài nguyên/Nghiên cứu/Nhân văn số",
     "Trang chủ.canvas"
   ]
 }
