@@ -5,7 +5,7 @@ Sự mạnh mẽ của cộng đồng Obsidian và những triết lý của nó
 
 Còn những hướng đi nào mà họ chưa vét cạn? AI? Knowledge graph? Tại sao không có ai đó viết một [[Fibery]] mà cũng lưu dữ liệu tại chỗ và ở định dạng đơn giản nhất như cách mà Obsidian đang làm? [[A problem well stated is half solved]]. Nhưng họ lại không dư dả thời gian để nghiên cứu vấn đề một cách rốt ráo, dù rất có thể đáp án có sẵn hết rồi.
 
-Nguồn:: [[Tự ngẫm nghĩ]]
+Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 
 Câu hỏi:: Tại sao plaintext lại không phù hợp cho quản lý công việc/tạo cấu trúc phân cấp? Các doanh nghiệp sử dụng knowledge graph xây dựng ERP của họ thế nào?
 Câu hỏi:: Có thể sử dụng kèm Obsidian với một RDBMS được không?

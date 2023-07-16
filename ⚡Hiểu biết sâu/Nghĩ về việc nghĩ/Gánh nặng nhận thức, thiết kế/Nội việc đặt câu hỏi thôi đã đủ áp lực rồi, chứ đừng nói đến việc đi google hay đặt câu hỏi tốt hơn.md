@@ -30,6 +30,6 @@ Tức là giải pháp tối ưu thì không khả thi, còn giải pháp khả 
 
 Nếu đến cả tín hiệu trong cơ thể còn trở nên không quan trọng, thì bạn làm gì có cửa nào để đi google nữa. Nói cách khác, việc được hỏi những câu hỏi có thể google phát là ra hoá ra quan trọng hơn chúng ta tưởng nhiều. Việc hỏi những câu như vậy giờ đây thể hiện ý thức biết chăm sóc cho sức khỏe tinh thần của bản thân. Môi trường làm việc nào biết yêu quý vùng vỏ não trước trán của nhân viên, môi trường đó sẽ là nơi có năng suất lao động cao hơn hẳn.
 
-Nguồn:: [[Tự ngẫm nghĩ]]
+Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 [[Việc mò mẫm vui, đỡ phải nghĩ và thường là hiệu quả hơn là đọc hướng dẫn cẩn thận]]
 [[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]] 

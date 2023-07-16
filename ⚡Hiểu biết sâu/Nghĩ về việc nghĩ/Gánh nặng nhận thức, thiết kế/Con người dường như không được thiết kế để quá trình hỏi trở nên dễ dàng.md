@@ -10,4 +10,4 @@ share: True
 - Trả lời dài quá thì tốn thời gian của mình
 
 Nó cũng tương tự như [[Slide nhiều chữ thì không hấp dẫn]] 
-Nguồn:: [[Tự ngẫm nghĩ]]
+Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]

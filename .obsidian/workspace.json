@@ -8,33 +8,46 @@
         "type": "tabs",
         "children": [
           {
-            "id": "651a3eadc5fa0ee5",
+            "id": "7933597ba0d59480",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Nên cài Google tag trong Google Tag Manager thay vì cài trực tiếp trên web hoặc qua plugin.md",
-                "mode": "preview",
+                "file": "📜 Tài nguyên/Lập trình/IDE (VS Code)/package.json.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "e877d92e6494d5a9",
+            "id": "fc4c82536fba1682",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "🌟 Mở đầu.md",
-                "mode": "preview",
+                "file": "📜 Tài nguyên/Lập trình/Debug/Debug.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6831c4e4a25c1d69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/callback.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -71,7 +84,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "group by",
+                "query": "ncase",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "🌟 Mở đầu.md",
+                "file": "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/callback.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "🌟 Mở đầu.md",
+                "file": "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/callback.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +169,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "🌟 Mở đầu.md"
+                "file": "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/callback.md"
               }
             }
           },
@@ -185,50 +198,50 @@
       "command-palette:Open command palette": false,
       "dbfolder:Create a new database table": false,
       "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "homepage:Open homepage": false,
-      "notion-like-tables:Create Notion-Like table": false,
-      "obsidian42-brat:BRAT": false
+      "notion-like-tables:Create Notion-Like table": false
     }
   },
-  "active": "e877d92e6494d5a9",
+  "active": "b61fdbd6be7ed6ac",
   "lastOpenFiles": [
-    "📜 Tài nguyên/📜 Tài nguyên.md",
-    "⚔️ Lớp Obsidian và Git/⚔️ Lớp Obsidian và Git.md",
-    "⚔️ Lớp Obsidian và Git/💎 Giới thiệu về Obsidian/💎 Giới thiệu về Obsidian.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Thủ thuật phần mềm.md",
-    "📜 Tài nguyên/Làm dự án/Làm dự án.md",
-    "📜 Tài nguyên/Nghiên cứu/Nghiên cứu.md",
-    "⚔️ Lớp Obsidian và Git/1 Làm quen với Obsidian/1 Làm quen với Obsidian.md",
-    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Một Google tag có thể có nhiều tag ID.md",
-    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Google tag (global site tag, gtag) là một mã JS để gửi dữ liệu đến cho Google Analytics và Google Ad.md",
-    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Nên cài Google tag trong Google Tag Manager thay vì cài trực tiếp trên web hoặc qua plugin.md",
-    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Cách đặt URL.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Google Support.md",
-    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Google Tag Manager/Data layer variable là.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/Web analytics/Các URL dài có thể là organic traffic chứ không phải direct traffic.md",
-    "📐 Dự án/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền.md",
-    "📐 Dự án/9 Blog/Nơi này là nơi nào？.md",
-    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Google Tag Manager/gtag và tag trong GTM là khác nhau.md",
-    "🌟 Mở đầu.md",
-    "còn những gì tôi không biết là tôi không biết.md",
+    "📜 Tài nguyên/Lập trình/Debug/Debug.md",
+    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/callback.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Khoa học máy tính.md",
+    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
+    "📜 Tài nguyên/Lập trình/Debug/Untitled.md",
+    "📜 Tài nguyên/Lập trình/IDE (VS Code)/Video hướng dẫn.md",
+    "📜 Tài nguyên/Lập trình/IDE (VS Code)/Phím tắt cho VS Code.md",
+    "📜 Tài nguyên/Lập trình/IDE (VS Code)/Untitled.md",
+    "📜 Tài nguyên/Lập trình/IDE (VS Code)/package.json.md",
+    "📜 Tài nguyên/Lập trình/IDE (VS Code)/IDE.md",
+    "Thiết lập/Templates/Ý tưởng.md",
+    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/JavaScript/Jest",
+    "📜 Tài nguyên/Lập trình/Debug/Debugger.md",
+    "📜 Tài nguyên/Lập trình/Debug/Việc chia các lệnh trong kịch bản thành các hàm nhỏ hơn sẽ giúp dễ bắt lỗi hơn.md",
+    "📜 Tài nguyên/Lập trình/Debug/Unit test.md",
+    "📜 Tài nguyên/Lập trình/IDE (VS Code)/VS Code nhiều khi không tìm hết được do tên file dài quá.md",
+    "📜 Tài nguyên/Lập trình/IDE (VS Code)/Dùng snippet để viết tắt code.md",
+    "📜 Tài nguyên/Lập trình/IDE (VS Code)/VS Code/VS Code.md",
     "📜 Tài nguyên/Lập trình/Lập trình.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Vấn đề hay gặp khi dùng Git.md",
-    "📜 Tài nguyên/Nghiên cứu/Quản lý kiến thức và lập luận/Bản đồ lập luận.md",
-    "📜 Tài nguyên/Nghiên cứu/Quản lý kiến thức và lập luận/Quản lý kiến thức cá nhân.md",
-    "📜 Tài nguyên/Nghiên cứu/Quản lý kiến thức và lập luận/Tổng quan tài liệu.md",
-    "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Tìm công cụ phù hợp.md",
-    "📜 Tài nguyên/Nghiên cứu/Cơ sở dữ liệu.md",
-    "📜 Tài nguyên/Nghiên cứu/Quản lý kiến thức và lập luận",
-    "📜 Tài nguyên/Nghiên cứu/Dịch",
-    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics",
-    "~syncthing~còn những gì tôi không biết là tôi không biết.md.tmp",
-    "📜 Tài nguyên/Làm dự án/Truyền thông/~syncthing~Google Analytics.md.tmp",
-    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Google Tag Manager",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Công việc",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Lên kế hoạch/Tầm nhìn, sứ mệnh, sản phẩm",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Kinh tế học",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Môi trường nghĩ, nhận thức tăng cường",
+    "📜 Tài nguyên/Nghiên cứu/Nghiên cứu.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Thủ thuật phần mềm.md",
+    "📜 Tài nguyên/Lập trình/Debug/Dùng logpoint thay cho console.log() khi debug.md",
+    "📜 Tài nguyên/Làm dự án/Quản lý quỹ/Quản lý tài chính bằng tiếng Việt tự nhiên trên Fibery.md",
+    "📐 Dự án/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền.md",
+    "📐 Dự án/9 Blog/tiếng.md",
+    "⚔️ Lớp Obsidian và Git/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/4. Trình bày thông tin/Kết nối dữ liệu với Trello, Notion, Discord.md",
+    "⚔️ Lớp Obsidian và Git/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Đơn vị nhỏ nhất của Obsidian là file, không phải block.md",
+    "📜 Tài nguyên/Lập trình/Debug",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Nghiên cứu, tìm ý tưởng/Kiểm định giả thuyết/~syncthing~Có quá nhiều điều cần kiểm chứng nhưng dù muốn đi tìm cũng không ai chịu dành thời gian để trả lời.md.tmp",
+    "~syncthing~cố gắng tái tạo lại ý đồ của người viết lúc tạo ra đoạn code đó.md.tmp",
+    "📜 Tài nguyên/Lập trình/Regex và Unicode/Xử lý Unicode",
+    "📜 Tài nguyên/Lập trình/Regex và Unicode/Lý thuyết Unicode",
+    "📜 Tài nguyên/Lập trình/IDE/Untitled",
+    "📜 Tài nguyên/Lập trình/Path",
+    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Untitled",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Quản lý phiên bản bằng Git",
     "Thiết lập/Excalidraw/Các nét nghĩa của Philanthropy.svg",
     "Thiết lập/Ảnh/Philanthropy/Thiện nguyện dựa trên tri thức + X.png",
     "Thiết lập/Ảnh/Philanthropy/Từ thiện + X.png",

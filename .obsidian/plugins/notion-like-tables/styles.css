@@ -1,44 +1,8 @@
-/* src/react/shared/button/styles.css */
-.NLT__button {
-  display: flex;
-  align-items: center;
-  padding: 4px 6px !important;
-  white-space: nowrap;
-  color: var(--text-normal);
-  margin-right: 0;
-  cursor: pointer;
-  width: unset;
-}
-.NLT__button--link {
-  color: var(--link-color);
-  text-decoration-line: var(--link-decoration);
-  cursor: var(--cursor-link);
-  background-color: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
-}
-.NLT__button--link:hover {
-  box-shadow: var(--input-shadow) !important;
-}
-.NLT__button--icon {
-  background-color: transparent !important;
-  box-shadow: none !important;
-}
-.NLT__button--icon:hover {
-  box-shadow: var(--input-shadow) !important;
-}
-.NLT__button--simple {
-  padding: 0;
-  height: 1px;
-}
-.NLT__button--simple:hover {
-  box-shadow: none !important;
-}
-
 /* src/react/shared/text/styles.css */
 .NLT__p {
   white-space: nowrap;
   margin: 0;
+  color: var(--text-normal);
 }
 .NLT__text-muted {
   color: var(--text-muted);
@@ -48,14 +12,6 @@
 }
 .NLT__text-semibold {
   font-weight: var(--font-semibold);
-}
-
-/* src/react/shared/menu-item/styles.css */
-.NLT__menu-item {
-  display: flex;
-  align-items: center;
-  padding: var(--nlt-spacing--sm) var(--nlt-spacing--lg);
-  width: 100%;
 }
 
 /* src/react/shared/switch/styles.css */
@@ -91,25 +47,6 @@
   box-shadow: none !important;
 }
 
-/* src/react/table-app/function-cell/styles.css */
-.NLT__function-cell {
-  display: flex;
-  justify-content: flex-end;
-  cursor: pointer;
-  overflow: hidden;
-  padding: var(--nlt-cell-spacing-x) var(--nlt-cell-spacing-y);
-}
-
-/* src/react/shared/tag/styles.css */
-.NLT__tag {
-  display: flex;
-  align-items: center;
-  border-radius: 8px;
-  padding: var(--nlt-spacing--xs) var(--nlt-spacing--md);
-  width: max-content;
-  color: var(--text-normal);
-}
-
 /* src/react/table-app/tag-cell/styles.css */
 .NLT__tag-cell {
   width: 100%;
@@ -119,30 +56,6 @@
 .NLT__number-cell {
   width: 100%;
   text-align: right;
-}
-
-/* src/react/table-app/number-cell-edit/styles.css */
-.NLT__number-cell-edit input {
-  text-align: right;
-  width: 100%;
-  height: 100%;
-  border: 0;
-  font-size: var(--font-ui-medium) !important;
-}
-
-/* src/react/table-app/text-cell-edit/styles.css */
-.NLT__text-cell-edit {
-  width: 100%;
-  height: 100%;
-}
-.NLT__text-cell-edit textarea {
-  width: 100%;
-  height: 100%;
-  border: 0 !important;
-  overflow: hidden;
-  padding: var(--nlt-cell-spacing-x) var(--nlt-cell-spacing-y);
-  resize: none;
-  font-size: var(--font-ui-medium) !important;
 }
 
 /* src/react/table-app/tag-color-menu/components/color-item/styles.css */
@@ -161,12 +74,6 @@
 
 /* src/react/table-app/tag-color-menu/styles.css */
 
-/* src/react/table-app/date-cell-edit/styles.css */
-.NLT__date-cell-edit input[aria-invalid=true] {
-  outline: 2px solid var(--background-modifier-error);
-  outline-offset: -2px;
-}
-
 /* src/react/table-app/multi-tag-cell/styles.css */
 .NLT__multi-tag-cell {
   display: flex;
@@ -177,15 +84,6 @@
 .NLT__currency-cell {
   width: 100%;
   text-align: right;
-}
-
-/* src/react/table-app/currency-cell-edit/styles.css */
-.NLT__currency-cell-edit input {
-  text-align: right;
-  width: 100%;
-  height: 100%;
-  border: 0;
-  font-size: var(--font-ui-medium) !important;
 }
 
 /* src/react/table-app/new-row-button/styles.css */
@@ -276,6 +174,12 @@
 .NLT__red--dark {
   background-color: hsl(8, 35%, 30%);
 }
+.NLT__app ::-webkit-scrollbar {
+  display: none;
+}
+.NLT__menu ::-webkit-scrollbar {
+  display: none;
+}
 .NLT__selectable {
   cursor: pointer;
 }
@@ -288,25 +192,30 @@
 .workspace-leaf-content[data-type=notion-like-tables] .view-content {
   padding: 0;
 }
-.NLT__app {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  height: 100%;
+.NLT__app button,
+.NLT__menu button {
+  background-color: unset;
+  box-shadow: unset;
 }
 .NLT__default-cursor {
   cursor: default !important;
 }
-.NLT__focusable:focus-visible {
-  outline: 2px solid var(--color-accent);
-  outline-offset: -2px;
-}
+.NLT__focusable:focus-visible,
 .NLT__focus-visible {
-  outline: 2px solid var(--color-accent);
+  outline: 2px solid var(--color-accent) !important;
+  outline-offset: -2px !important;
+}
+.NLT__focusable--inverted:focus-visible {
+  outline: 2px solid var(--text-on-accent-inverted);
+  outline-offset: 0px;
+}
+.NLT__blur--cell {
+  outline: 2px solid var(--background-modifier-border-focus) !important;
   outline-offset: -2px;
 }
-.NLT__button:not(.NLT__button--icon):focus-visible {
-  outline-offset: 0;
+.NLT__blur {
+  outline: 2px solid var(--color-accent) !important;
+  outline-offset: -2px;
 }
 .NLT__tr--drag-over {
   border-bottom: 1px solid var(--color-accent) !important;

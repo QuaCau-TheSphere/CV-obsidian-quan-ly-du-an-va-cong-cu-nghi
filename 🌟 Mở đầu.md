@@ -16,7 +16,7 @@ Sau khi đọc xong những điều này, hiện có những câu hỏi nào xu�
 | Câu hỏi của bạn                                                                               | Loại câu hỏi | Nơi cho câu trả lời           |
 | --------------------------------------------------------------------------------------------- | ------------ | ----------------------------- |
 | Obsidian có gì hay? Nó giúp ích gì trong việc tư duy, hệ thống kiến thức, hoặc quản lý dự án? | What         | [[💎 Giới thiệu về Obsidian]] |
-| Tôi cần thành thạo thêm những công việc gì để dự án của tôi được trôi chảy?                   | How          | [[📜 Tài nguyên]]             |
+| Tôi cần thành thạo thêm những công cụ gì để dự án của tôi được trôi chảy?                     | How          | [[📜 Tài nguyên]]             |
 | Hmm, bản chất của những vấn đề này là gì? Còn những gì tôi không biết là tôi không biết?      | Why          | [[⚡Hiểu biết sâu]]           |
 
 

@@ -479,7 +479,7 @@ function smartEquals(text, query, isNormalizeAccentsDiacritics) {
   ) === normalize(query, isNormalizeAccentsDiacritics);
 }
 function excludeFormat(text) {
-  return text.replace(/\[\[([^\]]+)]]/g, "$1").replace(/\[([^\]]+)]\(https?[^)]+\)/g, "$1").replace(/\[([^\]]+)]/g, "$1").replace(/`([^`]+)`/g, "$1").replace(/~~([^~]+)~~/g, "$1").replace(/==([^=]+)==/g, "$1").replace(/\*\*([^*]+)\*\*/g, "$1").replace(/\*([^*]+)\*/g, "$1").replace(/__([^_]+)__/g, "$1").replace(/_([^_]+)_/g, "$1").replace(/<[^>]+>([^<]+)<\/[^>]+>/g, "$1");
+  return text.replace(/\[\[[^\]]+\|(.*?)]]/g, "$1").replace(/\[\[([^\]]+)]]/g, "$1").replace(/\[([^\]]+)]\(https?[^)]+\)/g, "$1").replace(/\[([^\]]+)]/g, "$1").replace(/`([^`]+)`/g, "$1").replace(/~~([^~]+)~~/g, "$1").replace(/==([^=]+)==/g, "$1").replace(/\*\*([^*]+)\*\*/g, "$1").replace(/\*([^*]+)\*/g, "$1").replace(/__([^_]+)__/g, "$1").replace(/_([^_]+)_/g, "$1").replace(/<[^>]+>([^<]+)<\/[^>]+>/g, "$1");
 }
 function smartCommaSplit(text) {
   return text.split(",").filter((x) => x);
@@ -553,6 +553,9 @@ function smartMicroFuzzy(text, query, isNormalizeAccentsDiacritics) {
     excludeSpace(normalize(text, isNormalizeAccentsDiacritics)),
     excludeSpace(normalize(query, isNormalizeAccentsDiacritics))
   );
+}
+function trimLineByEllipsis(text, max) {
+  return text.length > max * 2 ? `${text.slice(0, max)} ... ${text.slice(text.length - max)}` : text;
 }
 
 // src/errors.ts
@@ -877,6 +880,7 @@ var createDefaultHotkeys = () => ({
     "insert all to editor": [{ modifiers: ["Alt", "Shift"], key: "Enter" }],
     "show backlinks": [{ modifiers: ["Mod"], key: "h" }],
     "show links": [{ modifiers: ["Mod"], key: "l" }],
+    "show all results": [{ modifiers: ["Shift", "Alt"], key: "a" }],
     "navigate forward": [{ modifiers: ["Alt"], key: "ArrowRight" }],
     "navigate back": [{ modifiers: ["Alt"], key: "ArrowLeft" }],
     dismiss: [{ modifiers: [], key: "Escape" }]
@@ -1161,6 +1165,8 @@ var DEFAULT_SETTINGS = {
   searchCommands: createPreSettingSearchCommands(),
   autoPreviewInFloatingHeaderSearch: true,
   ripgrepCommand: "rg",
+  grepExtensions: ["md"],
+  maxDisplayLengthAroundMatchedWord: 64,
   moveFileExcludePrefixPathPatterns: [],
   showLogAboutPerformanceInConsole: false,
   showFuzzyMatchScore: false
@@ -1632,6 +1638,20 @@ ${invalidValues.map((x) => `- ${x}`).join("\n")}
         await this.plugin.saveSettings();
       })
     );
+    new import_obsidian2.Setting(containerEl).setName("Extensions").addText(
+      (tc) => tc.setPlaceholder("(ex: md,html,css)").setValue(this.plugin.settings.grepExtensions.join(",")).onChange(async (value) => {
+        this.plugin.settings.grepExtensions = smartCommaSplit(value);
+        await this.plugin.saveSettings();
+      })
+    );
+    new import_obsidian2.Setting(containerEl).setName("Max display length around matched word").setDesc(
+      "Maximum display character count before or after the matched word."
+    ).addSlider(
+      (sc) => sc.setLimits(1, 255, 1).setValue(this.plugin.settings.maxDisplayLengthAroundMatchedWord).setDynamicTooltip().onChange(async (value) => {
+        this.plugin.settings.maxDisplayLengthAroundMatchedWord = value;
+        await this.plugin.saveSettings();
+      })
+    );
   }
   addMoveSettings(containerEl) {
     containerEl.createEl("h3", { text: "\u{1F4C1} Move file to another folder" });
@@ -1860,10 +1880,7 @@ var AppHelper = class {
       active: false
     });
   }
-  getMarkdownFileByPath(path) {
-    if (!path.endsWith(".md")) {
-      return null;
-    }
+  getFileByPath(path) {
     const abstractFile = this.unsafeApp.vault.getAbstractFileByPath(path);
     if (!abstractFile) {
       return null;
@@ -2373,19 +2390,30 @@ function createMetaDiv(args) {
     metaDiv.appendChild(scoreDiv);
   }
   if (options.showFrontMatter && Object.keys(frontMatter).length > 0) {
-    const frontMatterDiv = createDiv({
+    const frontMattersDiv = createDiv({
       cls: "another-quick-switcher__item__meta"
     });
     Object.entries(frontMatter).forEach(([key, value]) => {
-      const frontMatterSpan = createSpan({
+      const frontMatterDiv = createDiv({
         cls: "another-quick-switcher__item__meta__front_matter",
         title: `${key}: ${value}`
       });
-      frontMatterSpan.insertAdjacentHTML("beforeend", FRONT_MATTER);
-      frontMatterSpan.appendText(`${key}: ${value}`);
-      frontMatterDiv.appendChild(frontMatterSpan);
+      frontMatterDiv.insertAdjacentHTML("beforeend", FRONT_MATTER);
+      frontMatterDiv.createSpan({
+        cls: "another-quick-switcher__item__meta__front_matter__key",
+        title: key,
+        text: key
+      });
+      [value].flat().forEach((v) => {
+        frontMatterDiv.createSpan({
+          cls: "another-quick-switcher__item__meta__front_matter__value",
+          title: v.toString(),
+          text: v.toString()
+        });
+      });
+      frontMattersDiv.appendChild(frontMatterDiv);
     });
-    metaDiv.appendChild(frontMatterDiv);
+    metaDiv.appendChild(frontMattersDiv);
   }
   return metaDiv;
 }
@@ -2819,14 +2847,11 @@ var AnotherQuickSwitcherModal = class extends import_obsidian4.SuggestModal {
       )
     );
     this.countInputEl = createDiv({
-      text: `${Math.min(
-        items.length,
-        this.settings.maxNumberOfSuggestions
-      )} / ${items.length}`,
+      text: `${Math.min(items.length, this.limit)} / ${items.length}`,
       cls: "another-quick-switcher__status__count-input"
     });
     this.inputEl.before(this.countInputEl);
-    return items.slice(0, this.settings.maxNumberOfSuggestions).map((x, order) => ({ ...x, order }));
+    return items.slice(0, this.limit).map((x, order) => ({ ...x, order }));
   }
   renderInputComponent() {
     var _a, _b, _c, _d;
@@ -3231,6 +3256,10 @@ var AnotherQuickSwitcherModal = class extends import_obsidian4.SuggestModal {
     });
     this.registerKeys("show backlinks", () => {
       navigateLinks(createDefaultBacklinkSearchCommand());
+    });
+    this.registerKeys("show all results", () => {
+      this.limit = Number.MAX_SAFE_INTEGER;
+      this.inputEl.dispatchEvent(new Event("input"));
     });
     const navigate = (index) => {
       const history = this.navigationHistories[index];
@@ -3836,8 +3865,7 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
     const rgResults = await rg(
       this.settings.ripgrepCommand,
       ...[
-        "-t",
-        "md",
+        ...this.settings.grepExtensions.flatMap((x) => ["-t", x]),
         hasCapitalLetter ? "" : "-i",
         "--",
         query,
@@ -3847,7 +3875,7 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
     const items = rgResults.map((x) => {
       return {
         order: -1,
-        file: this.appHelper.getMarkdownFileByPath(
+        file: this.appHelper.getFileByPath(
           normalizePath(x.data.path.text).replace(
             this.vaultRootPath + "/",
             ""
@@ -3893,8 +3921,19 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
           "another-quick-switcher__item__title",
           "another-quick-switcher__grep__item__title_entry"
         ],
-        text: item.file.basename
+        text: item.file.basename,
+        attr: {
+          extension: item.file.extension
+        }
       });
+      const isExcalidraw = item.file.basename.endsWith(".excalidraw");
+      if (item.file.extension !== "md" || isExcalidraw) {
+        const extDiv = createDiv({
+          cls: "another-quick-switcher__item__extension",
+          text: isExcalidraw ? "excalidraw" : item.file.extension
+        });
+        titleDiv.appendChild(extDiv);
+      }
       entryDiv.appendChild(titleDiv);
       itemDiv.appendChild(entryDiv);
       if (this.settings.showDirectory) {
@@ -3919,8 +3958,12 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
     let restLine = item.line;
     item.submatches.forEach((x) => {
       const i = restLine.indexOf(x.match.text);
+      const before = restLine.slice(0, i);
       descriptionDiv.createSpan({
-        text: restLine.slice(0, i)
+        text: trimLineByEllipsis(
+          before,
+          this.settings.maxDisplayLengthAroundMatchedWord
+        )
       });
       descriptionDiv.createSpan({
         text: x.match.text,
@@ -3929,7 +3972,10 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
       restLine = restLine.slice(i + x.match.text.length);
     });
     descriptionDiv.createSpan({
-      text: restLine
+      text: trimLineByEllipsis(
+        restLine,
+        this.settings.maxDisplayLengthAroundMatchedWord
+      )
     });
     if (item.order < 9) {
       const hotKeyGuide = createSpan({

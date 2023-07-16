@@ -1,5 +1,5 @@
 ---
 share: True
 ---
-Nguồn:: [[Tự ngẫm nghĩ]]
+Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 [[Sự tập trung đòi hỏi người khác phải lo cho những nhu cầu khác của mình]] 
