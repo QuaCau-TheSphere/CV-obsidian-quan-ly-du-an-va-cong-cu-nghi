@@ -44,4 +44,4 @@ e === f           // true
 "abc" == new String("abc")    // true
 "abc" === new String("abc")   // false
 ```
-Nguồn:: [[Stack Overflow]], [Which equals operator (== vs ===) should be used in JavaScript comparisons?](https://stackoverflow.com/a/359509/3416774)
+Nguồn:: [[⚡Hiểu biết sâu/Ξ Nguồn/Stack Overflow]], [Which equals operator (== vs ===) should be used in JavaScript comparisons?](https://stackoverflow.com/a/359509/3416774)

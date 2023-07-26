@@ -9,4 +9,4 @@ share: True
     make
     sudo make install
     ```
-Nguồn:: [[Stack Overflow]], [Why do texts with non-ASCII characters have right padding?](https://stackoverflow.com/a/76630218/3416774)
+Nguồn:: [[⚡Hiểu biết sâu/Ξ Nguồn/Stack Overflow]], [Why do texts with non-ASCII characters have right padding?](https://stackoverflow.com/a/76630218/3416774)

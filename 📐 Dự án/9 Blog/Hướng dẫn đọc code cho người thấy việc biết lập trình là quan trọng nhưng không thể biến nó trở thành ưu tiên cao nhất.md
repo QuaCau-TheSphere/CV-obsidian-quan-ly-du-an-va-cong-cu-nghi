@@ -12,8 +12,14 @@ Vàààààààà đến một ngày bạn có một bài toán thực sự cầ
 Nhưng thực sự là bạn không thể thong thả để làm được. Bạn biết là việc học thì sẽ mất thời gian, và nếu nó cần phải mất nhiều thời gian thì bạn cũng phải chịu thôi nhưng bạn vẫn cảm thấy mình cần phải . Cái trạng thái đó không phải là cái trạng thái phù hợp cho việc học, nhưng the brain is funny.
 
 Việc nhảy ngang như vậy làm cho không một tài liệu hướng dẫn nào theo kịp bạn. Vì muốn hướng dẫn bạn thì phải áng chừng được trình độ bạn đang ở đâu. Và một code product thì người ta không kỳ vọng rằng phải giải thích tất cả những thứ căn bản
-
- nói gì, bạn muốn biết phải bắt đầu google từ đâu, nhưng 
+[[❓ Học code bằng việc debug product code sẽ nhanh hơn]]
+Nó là cách học qua bắt chước
+Git blame
+Hướng dẫn đọc hiểu code cho người rất lờ mờ về code
+Biết được cách debug là sẽ dần dần biết cách bắt chước
+Làm trên code sản phẩm là sát sườn nhất
+cố gắng tái tạo lại ý đồ của người viết lúc tạo ra đoạn code đó
+nói gì, bạn muốn biết phải bắt đầu google từ đâu, nhưng 
 
 Một số thứ sẽ giúp bạn hiểu code nói gì:
 - Biết thao tác với IDE,
@@ -36,3 +42,5 @@ Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 function hàm(biến1, biến2) {
 }
 ```
+
+[[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và hiểu tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu]]

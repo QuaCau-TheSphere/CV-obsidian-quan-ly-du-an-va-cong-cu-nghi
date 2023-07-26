@@ -4,8 +4,8 @@ share: True
 Loại:: [[Quán có phòng riêng ở TPHCM]], [[Quán không có phòng riêng ở TPHCM]]
 Địa chỉ:: [91 Lý Tự Trọng, Bến Thành, Q1]
 Có loa mic:: 
-Máy chiếu:: 
-Số người tối đa:: 
+Máy chiếu:: ✔
+Số người tối đa:: 30 người
 Giá giữ xe:: 10k
 Không gian tạo cảm hứng:: ✔
 Liên hệ:: [Tonkin Cottage Cafe | Ho Chi Minh City](https://www.facebook.com/tonkincottage91ltt)

@@ -1,6 +1,7 @@
 ---
 share: True
 ---
+`=[[Obsidian có thể tạo biến tại bất cứ vị trí nào trong ghi chú]].a`
 - Thống nhất giữa các người dùng dễ dàng
 - Đảm bảo các bên tham gia nhập dữ liệu cùng một format
 - Số biến có hạn, nhưng nhất quán

@@ -20,3 +20,4 @@ Trạng thái:: Chưa hoàn thành
 # Tài liệu
 [Oh Shit, Git!?!](https://ohshitgit.com/)
 [Oh shit, git!](https://wizardzines.com/zines/oh-shit-git/)
+[6 Interactive Resources to Learn Git](https://www.makeuseof.com/git-learn-interactive-resources/)

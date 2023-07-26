@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"type":"text","text":"","id":"cc2ad34f3343e7f6","x":-280,"y":-160,"width":250,"height":60,"color":"2"},
+		{"type":"file","file":"⚔️ Lớp Obsidian và Git/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm mạnh của Obsidian/Obsidian có thể tạo biến tại bất cứ vị trí nào trong ghi chú.md","id":"d0edb58ddae4b228","x":-340,"y":120,"width":400,"height":400},
+		{"type":"file","file":"⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/PDF/A SURVEY OF STAKEHOLDER VISUALIZATION APPROACHES.pdf","id":"fa8c3c7e86fe936f","x":380,"y":-260,"width":720,"height":680},
+		{"id":"b463280c6bb39eee","x":100,"y":580,"width":302,"height":400,"type":"file","file":"Thiết lập/Ảnh/Logo/logo.png"}
+	],
+	"edges":[
+		{"id":"34e5d95ab1449fd1","fromNode":"cc2ad34f3343e7f6","fromSide":"bottom","toNode":"d0edb58ddae4b228","toSide":"top"},
+		{"id":"ee20d967cc41c9a5","fromNode":"fa8c3c7e86fe936f","fromSide":"left","toNode":"d0edb58ddae4b228","toSide":"right"},
+		{"id":"f0047a2c49ef1c32","fromNode":"fa8c3c7e86fe936f","fromSide":"bottom","toNode":"b463280c6bb39eee","toSide":"right"}
+	]
+}

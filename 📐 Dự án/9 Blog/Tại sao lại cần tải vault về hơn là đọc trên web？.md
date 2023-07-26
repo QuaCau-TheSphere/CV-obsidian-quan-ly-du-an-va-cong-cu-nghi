@@ -11,14 +11,17 @@ Bạn có thể bắt đầu có lại cảm giác đó bằng cách tải dữ 
 Về cơ bản, những thứ này có được là do [[Obsidian lưu dữ liệu nằm trên máy của người dùng]]. Đây là một số hệ quả của việc đó:
 
 ## Tất cả các phím tắt, chức năng và plugin của Obsidian, bao gồm cả những thứ bạn thiết lập riêng cho mình
-Ví dụ, ở trên Obsidian, bạn có thể xem được đồ thị mối liên hệ giữa các ghi chú trong phần [[⚡Hiểu biết sâu]]:
+Ví dụ:
+### Đồ thị mối liên hệ giữa các ghi chú trong phần [[⚡Hiểu biết sâu]]
 ![](https://i.imgur.com/gwdeLlL.png)
 
 Đồ thị này cho thấy được có những ghi chú nào nổi trội trong đây, cũng như mức độ liên kết của chúng. Bạn có thể thấy chúng rời rạc khá nhiều.
 
-Hoặc nếu đọc trên web bạn sẽ không có phần biết xem có những ghi chú nào liên kết tới trang bạn đang đọc như thế này:
+### Những trang nào liên kết tới trang đang đọc
 ![](https://i.imgur.com/UbXZspz.png)
 
+### Lịch sử phát triển 
+![](https://i.imgur.com/UyIxTHF.png)
 Xem thêm:: [[Theo tính năng của plugin|Obsidian có những tính năng nào hay?]]
 
 ## Thời gian chuyển trang gần như là tức thời

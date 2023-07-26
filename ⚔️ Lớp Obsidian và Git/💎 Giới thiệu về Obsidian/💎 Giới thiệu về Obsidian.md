@@ -5,12 +5,12 @@ share: True
 # Mục đích xây vault của bạn là gì?
 ```dataview
 List
-from "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault" 
+from "⚔️ Lớp Obsidian và Git/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault" 
 ```
 # Điểm mạnh và điểm yếu của Obsidian là gì?
 ```dataview
 List rows.file.link
-from "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Mô tả về Obsidian" 
+from "⚔️ Lớp Obsidian và Git/💎 Giới thiệu về Obsidian/Mô tả về Obsidian" 
 Where !contains(file.name,"⭐" )
 group by split(file.folder,"/")[3] 
 ```
@@ -18,6 +18,6 @@ group by split(file.folder,"/")[3]
 # Có thể làm những trò gì trên Obsidian?
 ```dataview
 List rows.file.link
-from "📜 Tài nguyên/💎 Giới thiệu về Obsidian/Theo tính năng của plugin" 
+from "⚔️ Lớp Obsidian và Git/💎 Giới thiệu về Obsidian/Theo tính năng của plugin" 
 group by split(split(file.folder,"/")[3], "\.")[1] 
 ```

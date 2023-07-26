@@ -8,4 +8,4 @@ input = input + ' '
 var regex = new RegExp(word + ' ', 'gi');
 const test = regex.test(input)
 ```
-Nguồn:: [[Stack Overflow]], [How can I use Unicode-aware regular expressions in JavaScript?](https://stackoverflow.com/a/52205643/3416774)
+Nguồn:: [[⚡Hiểu biết sâu/Ξ Nguồn/Stack Overflow]], [How can I use Unicode-aware regular expressions in JavaScript?](https://stackoverflow.com/a/52205643/3416774)

@@ -47,6 +47,9 @@ Không ai đến với lập trình vì muốn lập trình cả, mà l
 Lao ngay vào code trong product thì hổng kiến thức do nhiều chỗ viết tắt cho dễ đọc, dễ quản lý. Học từ từ thì thấy lãng phí thời gian.
 Để đọc được tới dòng này là cả một sự nỗ lực ở lại của bạn. Dù bạn có từng đọc bao nhiêu trang khác rồi thì 
 
+## [[📜 Tài nguyên]]
+Chỉ ghi lại những thứ mất nhiều thời gian để nhận ra. Cái nào dễ thấy thì ko ghi 
+
 ---
 
 Vault này được khởi xướng bởi Quả Cầu.

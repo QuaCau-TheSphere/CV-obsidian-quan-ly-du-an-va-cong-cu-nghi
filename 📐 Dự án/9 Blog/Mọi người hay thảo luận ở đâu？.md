@@ -15,3 +15,4 @@ Lâu lâu sẽ có những buổi gặp mặt, với chủ đề có thể là:
 Thời gian diễn ra và hình thức gặp mặt sẽ tuỳ thuộc vào sự thống nhất của những người tham gia. 
 
 Nếu bạn có một phản hồi về một ý tưởng của vault, hoặc có nhu cầu được trao đổi 1-1, hoặc bất cứ vấn đề gì, hãy cho mọi người biết bằng việc nhắn trên các kênh liên lạc đó nhé.
+

@@ -1,5 +1,5 @@
 ---
-Alias: Động lực dự án này là gì? Tại sao lại chọn Obsidian? Sứ mệnh
+Alias: Động lực dự án, Tại sao lại chọn Obsidian, Sứ mệnh
 description: Động lực dự án này là gì? Tại sao lại chọn Obsidian? 
 share: True
 ---
@@ -18,9 +18,9 @@ Trong những phần mềm quản lý công việc trên thị trường hiện 
 
 Các triết lý này mở ra một loạt những tính năng một dự án phát triển cộng đồng muốn có. Ví dụ như:
 - Thành viên cộng đồng có thể đóng góp những **hiểu biết sâu sắc, nhu cầu và các dữ liệu khác một cách thụ động** vào kho dữ liệu chung. Họ không cần quan tâm (quá nhiều) vào kho dữ liệu chung mà vẫn có thể làm nó phong phú hơn, chỉ bằng việc tập trung vào việc tự quản lý dự án của mình. Sự đóng góp của họ chỉ là sản phẩm phụ của việc họ tập trung vào mình.
-- [[Đồ thị giúp thấy được bức tranh tổng thể]]: điều gì nhiều người quan tâm nhất? Ai có cùng nhu cầu với ai?
+- [[Đồ thị giúp thấy được bức tranh tổng thể]]: điều gì nhiều người quan tâm nhất? Ai có cùng nhu cầu với ai? Để ý rằng [[Sự chuyên gia (expertise) đến từ việc nhìn ra mẫu hình]], [[Trực giác là việc nhìn ra mẫu hình không hơn không kém]], và [[Đồ thị giúp ta thấy được mẫu hình]]
 - [[Obsidian miễn phí, không có chức năng nào phải trả tiền hay tính theo đầu người|Hoàn toàn miễn phí, không có chức năng nào phải trả tiền hay tính theo đầu người]]. [[Obsidian phù hợp cho các dự án nhỏ, không có nhiều tiền|Phù hợp khi bạn cần những chức năng nâng cao hoặc khi đội ngũ mở rộng mà không có nhiều tiền]]
-- [[Obsidian cực kỳ dễ mở rộng tính năng|Với plugin]], tính năng của nó có thể mở rộng theo nhu cầu và mức độ thành thạo của người dùng, khiến cho nó trở thành một [[Giàn giáo nhận thức cần phải tuỳ biến với quá trình hiểu biết của người dùng|giàn giáo nhận thức giúp giảm sự quá tải của bạn]], khiến cho nó trở thành một môi trường tư duy để tăng cường nhận thức
+- [[Obsidian cực kỳ dễ mở rộng tính năng|Với plugin]], tính năng của nó có thể mở rộng theo nhu cầu và mức độ thành thạo của người dùng, khiến cho nó trở thành một [[Giàn giáo nhận thức cần phải tuỳ biến với quá trình hiểu biết của người dùng|giàn giáo nhận thức giúp giảm sự quá tải của bạn]], khiến cho nó trở thành một môi trường tư duy để tăng cường nhận thức (augmenting cognition)
 - [[Có thể dùng kết hợp Obsidian với các giải pháp xử lý dữ liệu khác]], tránh tình trạng [[Việc lưu dữ liệu ở các công cụ khác nhau tạo thành các đảo thông tin|phân mảnh dữ liệu do lưu dữ liệu ở nhiều công cụ khác nhau]]
 
 Năm 2015, để giải quyết những thách thức phát triển lớn mà thế giới phải đối mặt, Liên Hợp Quốc đã đề ra **17 Mục tiêu Phát triển Bền vững (SDG)**. Đó là động lực để các quốc gia hướng tới:

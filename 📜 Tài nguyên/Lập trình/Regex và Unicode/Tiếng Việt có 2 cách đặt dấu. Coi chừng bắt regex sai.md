@@ -2,8 +2,10 @@
 share: True
 ---
 - Quy tắc kiểu cũ có phần căn cứ trên nhãn quan, giữ vị trí dấu ở giữa hay gần giữa mỗi từ cho cân bằng. VD: `hòa`
-- Quy tắc "kiểu mới" căn cứ trên [ngữ âm học](https://vi.wikipedia.org/wiki/Ng%E1%BB%AF_%C3%A2m_h%E1%BB%8Dc "Ngữ âm học") muốn đối chiếu chữ và âm. VD `hoà`
+- Quy tắc kiểu mới căn cứ trên [ngữ âm học](https://vi.wikipedia.org/wiki/Ng%E1%BB%AF_%C3%A2m_h%E1%BB%8Dc "Ngữ âm học") muốn đối chiếu chữ và âm. VD `hoà`
+
 Nguồn:: [[Wikipedia]], [Quy tắc đặt dấu thanh trong chữ quốc ngữ – Wikipedia tiếng Việt](https://vi.wikipedia.org/wiki/Quy_t%E1%BA%AFc_%C4%91%E1%BA%B7t_d%E1%BA%A5u_thanh_trong_ch%E1%BB%AF_qu%E1%BB%91c_ng%E1%BB%AF)
+
 Quy tắc cũ chỉ khác với quy tắc mới ở những từ không có phụ âm cuối. Nếu có phụ âm cuối thì giống như nhau
 # Câu lệnh Regex để bắt lỗi đặt dấu thanh trong tiếng Việt
 

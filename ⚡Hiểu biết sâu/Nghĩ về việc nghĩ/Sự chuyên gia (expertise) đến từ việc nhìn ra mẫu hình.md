@@ -14,6 +14,7 @@ Nếu một lĩnh vực nào mà kết quả chủ yếu dựa vào xác suất 
 Nguồn:: Veritasium, The 4 things it takes to be an expert: https://www.youtube.com/watch?v=5eW6Eagr9XA
 [[Trực giác là việc nhìn ra mẫu hình không hơn không kém]] 
 [[Chuyên nghiệp (professional) và chuyên gia (expertise) là hai vấn đề khác nhau]] 
+[[Thang đo năng lực dựa trên việc có thể đưa ra phân tích và trực giác đúng hay không]]
 
 Nguồn:: [[Veritasium]], ![The 4 things it takes to be an expert - YouTube](https://www.youtube.com/watch?v=5eW6Eagr9XA)
 ![Daniel Kahneman - The Ingredients for Expert Intuition - Insights for Entrepreneurs - Amazon - YouTube](https://www.youtube.com/watch?v=ksopQLMQsq8)
