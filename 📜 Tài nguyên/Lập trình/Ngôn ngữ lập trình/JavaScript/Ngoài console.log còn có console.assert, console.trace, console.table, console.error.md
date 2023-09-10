@@ -156,3 +156,23 @@ Sau bài viết này hi vọng các ban biết thêm về sức mạnh của `co
 
 [https://developer.mozilla.org/en-US/docs/Web/API/Console/timeLog](https://developer.mozilla.org/en-US/docs/Web/API/Console/timeLog) [https://www.freecodecamp.org/news/how-you-can-improve-your-workflow-using-the-javascript-console-bdd7823a9472/](https://www.freecodecamp.org/news/how-you-can-improve-your-workflow-using-the-javascript-console-bdd7823a9472/) [https://medium.com/better-programming/boost-your-javascript-debugging-skills-with-these-console-tricks-ab984c70298a](https://medium.com/better-programming/boost-your-javascript-debugging-skills-with-these-console-tricks-ab984c70298a)
 Nguồn:: [Nâng cao kỹ năng debug trong Javascript bằng Console](https://viblo.asia/p/nang-cao-ky-nang-debug-trong-javascript-bang-console-3P0lPEEp5ox)
+
+
+I) Insert meaningful log message automatically
+
+Two steps:
+
+- Selecting or hovering the variable which is the subject of the debugging (Manual selection will always take over the hover selection)
+    
+- Pressing ctrl + alt + L (Windows) or ctrl + option + L (Mac)
+    
+
+The log message will be inserted in the next line relative to the selected variable like this:
+
+console.log("SelectedVariableEnclosingClassName -> SelectedVariableEnclosingFunctionName -> SelectedVariable", SelectedVariable)
+
+![alt text](https://image.ibb.co/dysw7p/insert_log_message.gif)
+
+Multiple cursor support:
+
+![alt text](https://i.ibb.co/Jk2pmRG/tcl-multiple-selections.gif "Multiple cursor support")

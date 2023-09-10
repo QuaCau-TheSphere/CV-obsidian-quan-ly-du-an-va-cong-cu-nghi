@@ -18,7 +18,7 @@ Liên quan:: 		lq
 Câu hỏi:: 		ch
 Nguồn:: 		ng
 Xem thêm:: 		xt
-
+Mâu thuẫn với:: 		mtv
 # Code nhanh
 ## Dataview
 ```dataview\nLIST\nFROM |\nWHERE\n```		dtv

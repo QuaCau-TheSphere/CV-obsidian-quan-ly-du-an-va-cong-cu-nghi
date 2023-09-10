@@ -1,5 +1,5 @@
 ---
-share: True
+share: true
 ---
 ```dataview
 LIST

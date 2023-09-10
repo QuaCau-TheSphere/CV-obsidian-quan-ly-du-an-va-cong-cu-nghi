@@ -10,6 +10,7 @@ Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 Câu hỏi:: Tại sao plaintext lại không phù hợp cho quản lý công việc/tạo cấu trúc phân cấp? Các doanh nghiệp sử dụng knowledge graph xây dựng ERP của họ thế nào?
 Câu hỏi:: Có thể sử dụng kèm Obsidian với một RDBMS được không?
 
-TLDR:: [[Cộng đồng Obsidian rất mạnh]], nhưng [[Obsidian không mạnh về quản lý công việc]], vì [[Việc quản lý công việc thường cần một cấu trúc]] và [[Obsidian khó tạo liên kết hai chiều được|liên kết hai chiều]], trong khi [[Obsidian lưu dữ liệu ở định dạng đơn giản]]. Việc này tạo ra bất hoà nhận thức ở người dùng về một công cụ tất cả trong một, và [[Bất hoà nhận thức giúp chúng ta hiểu sâu sắc hơn]]. Cũng lưu ý rằng [[Những tác giả của những app quản lý công việc cũng cảm thấy app của họ không thể giúp quản lý công việc một cách hiệu quả được]]
+TLDR:: [[Cộng đồng Obsidian rất mạnh]], nhưng [[Obsidian không mạnh về quản lý công việc]], vì [[Việc quản lý công việc thường cần một cấu trúc]] và [[Obsidian khó tạo liên kết hai chiều được|liên kết hai chiều]], trong khi [[Obsidian lưu dữ liệu ở định dạng đơn giản]]. Việc này tạo ra bất hoà nhận thức ở người dùng về một công cụ tất cả trong một. Dù quả thật là [[Bất hoà nhận thức giúp chúng ta hiểu sâu sắc hơn]], thì bế tắc vẫn cứ là bế tắc. Cũng lưu ý rằng [[Những tác giả của những app quản lý công việc cũng cảm thấy app của họ không thể giúp quản lý công việc một cách hiệu quả được]]
 
 Xem thêm:: [[Công việc khai phá và công việc khám phá]]
+[[Nhược điểm của Obsidian và Fibery]]

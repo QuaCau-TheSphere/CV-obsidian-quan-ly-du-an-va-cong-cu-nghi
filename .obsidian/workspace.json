@@ -4,45 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "871615d0ba08b0e8",
+        "id": "e78598e66ac4ddbe",
         "type": "tabs",
         "children": [
           {
-            "id": "fbbf4c769489ccd6",
+            "id": "b2bab28a69a64cd9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Các bài học nâng cao.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c5963430ed3292bc",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
-            }
-          },
-          {
-            "id": "b5d556885af93d1f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/Khái niệm cơ bản/Vật thể/Vật thể được tạo nên bởi những thuộc tính.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Khi app có nhiều tính năng thì sẽ không biết một người dùng không vào là vì họ không tìm thấy tính năng họ cần hay là vì họ không biết app có tính năng họ cần.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -79,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "các buổi chia sẻ kỹ năng",
+                "query": "distill",
                 "matchingCase": false,
                 "explainSearch": true,
                 "collapseAll": true,
@@ -96,7 +74,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -116,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/Khái niệm cơ bản/Vật thể/Vật thể được tạo nên bởi những thuộc tính.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Khi app có nhiều tính năng thì sẽ không biết một người dùng không vào là vì họ không tìm thấy tính năng họ cần hay là vì họ không biết app có tính năng họ cần.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/Khái niệm cơ bản/Vật thể/Vật thể được tạo nên bởi những thuộc tính.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Khi app có nhiều tính năng thì sẽ không biết một người dùng không vào là vì họ không tìm thấy tính năng họ cần hay là vì họ không biết app có tính năng họ cần.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/Khái niệm cơ bản/Vật thể/Vật thể được tạo nên bởi những thuộc tính.md"
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Khi app có nhiều tính năng thì sẽ không biết một người dùng không vào là vì họ không tìm thấy tính năng họ cần hay là vì họ không biết app có tính năng họ cần.md"
               }
             }
           },
@@ -190,45 +169,45 @@
       "notion-like-tables:Create Notion-Like table": false
     }
   },
-  "active": "b5d556885af93d1f",
+  "active": "b2bab28a69a64cd9",
   "lastOpenFiles": [
-    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/Khái niệm cơ bản/Vật thể/Dùng class khi ta có logic nghiệp vụ thực sự cần được implement để thực thi. Dùng interface để tạo ràng buộc kiểu cho biến.md",
-    "📐 Dự án/9 Blog/Tại sao lại cần tải vault về hơn là đọc trên web？.md",
-    "📐 Dự án/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và hiểu tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và hiểu tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu.md",
-    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/4 đặc điểm của lập trình hướng vật thể.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi cố vấn riêng/Các buổi cố vấn riêng.md",
-    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/JavaScript/TypeScript/Khi mới chuyển từ JS sang thì nên bật noImplicitAny.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Sự chuyên gia (expertise) đến từ việc nhìn ra mẫu hình.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi hỗ trợ học lập trình/~syncthing~Các buổi hỗ trợ học lập trình.md.tmp",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Viblo.md",
-    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/Khái niệm cơ bản/Vật thể/Vật thể được tạo nên bởi những thuộc tính.md",
-    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/Lập trình hướng vật thể.md",
-    "📜 Tài nguyên/Lập trình/Lập trình.md",
-    "📜 Tài nguyên/Nghiên cứu/Nghiên cứu.md",
+    "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Phần mềm quản lý công việc/Nhược điểm của Obsidian và Fibery.md",
+    "⚔️ Lớp Obsidian và Git/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm yếu của Obsidian/Obsidian không mạnh về quản lý công việc.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Quy trình xử lý dữ liệu cho PKM và phát triển sản phẩm là giống nhau, nhưng từ dữ liệu ra insight rồi làm gì với insight đó là khác nhau.md",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Kendy.md",
+    "📜 Tài nguyên/Những chương trình khác nhau sẽ gọi thư mục tổng bằng những cái tên khác nhau.md",
     "📜 Tài nguyên/📜 Tài nguyên.md",
-    "⚔️ Lớp Obsidian và Git/⚔️ Lớp Obsidian và Git.md",
-    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/JavaScript/TypeScript/tsconfig.md",
-    "⚔️ Lớp Obsidian và Git/Các bài học nâng cao/Các bài học nâng cao.md",
-    "⚡Hiểu biết sâu/Sức khoẻ/Không nên dùng chai nước nhiều lần.md",
-    "📐 Dự án/9 Blog/Hướng dẫn đọc code cho người thấy việc biết lập trình là quan trọng nhưng không thể biến nó trở thành ưu tiên cao nhất.md",
-    "📜 Tài nguyên/Làm dự án/Quản lý quỹ/Quản lý tài chính bằng tiếng Việt tự nhiên trên Fibery.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Người mới lập trình thường chỉ biết muốn biết làm sao để code chạy được. Người có kinh nghiệm còn quan tâm đến tính dễ bảo trì, mở rộng và bắt lỗi của code.md",
-    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lịch sử phát triển và triết lý ngôn ngữ/Lịch sử phát triển của JavaScript.md",
-    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/JavaScript/strick mode là chế độ code nghiêm ngặt, nó bắt buộc lập trình viên phải tuân thủ theo quy tắc mà javascript đưa ra.md",
-    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/JavaScript/TypeScript/void dùng cho hàm không cần trả kết quả nào.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/Web analytics/Sản phẩm là web thì medium chỉ có social, referral, forum, blog, chat, form.md",
-    "📐 Dự án/7 Tài liệu/Hướng dẫn truyền thông.md",
-    "📐 Dự án/9 Blog/~syncthing~Nơi này là nơi nào？.md.tmp",
-    "📜 Tài nguyên/Nghiên cứu/Xử lý ngôn ngữ tự nhiên",
-    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/Khái niệm cơ bản",
-    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/Lập trình hướng vật thể/Nguyên lý",
-    "📜 Tài nguyên/Lập trình/Tài nguyên hỗ trợ/Tiếng Anh",
-    "📜 Tài nguyên/Lập trình/Tài nguyên hỗ trợ/Tiếng Việt",
-    "📜 Tài nguyên/Lập trình/Tài nguyên hỗ trợ",
-    "⚔️ Lớp Obsidian và Git/3 Cộng đồng Obsidian",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Khảo sát, phỏng vấn người dùng/Phỏng vấn thường kém chính xác trong việc dự đoán các hành vi tương lai của người dùng.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Sắp xếp độ ưu tiên/Ý tưởng sinh ra không theo độ khẩn cấp.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Sắp xếp độ ưu tiên/Số lượng vấn đề tìm ra trong 1 buổi có thể nhiều hơn số lượng vấn đề có thể giải quyết trong 1 tháng.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Khảo sát, phỏng vấn người dùng/Người có nhu cầu thường để lại ấn tượng nhiều, nhưng số lượng không nhiều trong thị trường.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức/Công việc/Áp lực giết chết sự sáng tạo.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức/Công việc/Vấn đề chỉ được phát hiện ra khi đến khâu triển khai ý tưởng.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức/Công việc/Vì tôi không biết làm nên không được giao, nhưng vì không được giao nên càng không biết làm.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức/Công việc/Sau 2 tuần nên cập nhật những cái mới.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức/Công việc/Dự án chủ yếu là các công việc khám phá. Chương trình chủ yếu là các công việc khai phá.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức/Công việc/Công việc sẽ được gắn ở khắp nơi.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức/Công việc/Công việc khai phá và công việc khám phá.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức/Công việc/Các chỉ số đo lường thu nhập.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức/Công việc",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Khảo sát, phỏng vấn người dùng/Khi phỏng vấn hãy hỏi cả về hành vi, đừng chỉ hỏi về lý do họ làm điều đó.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Kiểm định giả thuyết/Đừng chạy theo tính năng, mà hãy xác định vấn đề cần ưu tiên giải quyết và nhanh chóng kiểm tra các giả thuyết.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Công việc/Vì tôi không biết làm nên không được giao, nhưng vì không được giao nên càng không biết làm.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Đặc điểm của quy trình phát triển sản phẩm truyền thống là bước nghiên cứu xem ý tưởng có đúng không luôn đến sau việc nghĩ ra được ý tưởng đó trước.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Làm sản phẩm thiên về cảm giác, làm tăng trưởng thiên về dữ liệu.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Công việc/Vấn đề chỉ được phát hiện ra khi đến khâu triển khai ý tưởng.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Khảo sát, phỏng vấn người dùng/Kết quả phỏng vấn phải actionable.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Khảo sát, phỏng vấn người dùng/Hãy hỏi người dùng họ cần sản phẩm này để làm gì.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Khảo sát, phỏng vấn người dùng",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Kiểm định giả thuyết",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức/Tầm nhìn, sứ mệnh, sản phẩm",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Sắp xếp độ ưu tiên",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Công việc",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Nghiên cứu, tìm ý tưởng/Khảo sát, phỏng vấn người dùng",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Nghiên cứu, tìm ý tưởng/Các bên liên quan, bối cảnh cạnh tranh",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm",
     "Untitled.canvas",
-    "📜 Tài nguyên/Lập trình/Ngôn ngữ lập trình/JavaScript/Untitled",
     "Thiết lập/Excalidraw/Các nét nghĩa của Philanthropy.svg",
     "Thiết lập/Ảnh/Philanthropy/Thiện nguyện dựa trên tri thức + X.png",
     "Thiết lập/Ảnh/Philanthropy/Từ thiện + X.png",

@@ -44,11 +44,13 @@ Không học bài bản ngôn ngữ, nhưng đụng vấn đề nào cần
 Tất nhiên, học được bài bản thì rất tốt, nhưng [[Việc mò mẫm vui, đỡ phải nghĩ và thường là hiệu quả hơn là đọc hướng dẫn cẩn thận]], [[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]]. 
 Không ai đến với lập trình vì muốn lập trình cả, mà là vì họ cần giải quyết vấn đề khác, mà vấn đề đó cần lập trình
 
+## [[📜 Tài nguyên]]
+
 Lao ngay vào code trong product thì hổng kiến thức do nhiều chỗ viết tắt cho dễ đọc, dễ quản lý. Học từ từ thì thấy lãng phí thời gian.
 Để đọc được tới dòng này là cả một sự nỗ lực ở lại của bạn. Dù bạn có từng đọc bao nhiêu trang khác rồi thì 
-
-## [[📜 Tài nguyên]]
 Chỉ ghi lại những thứ mất nhiều thời gian để nhận ra. Cái nào dễ thấy thì ko ghi 
+- muốn nhưng google được là có thì không ghi. Khi nào bị bug rồi mới phát hiện ra một cái gì đó mà không thấy ai nói gì thì mới ghi
+- Nếu cản trở sự đọc hiểu mà phải google thì cũng ghi ra 
 
 ---
 

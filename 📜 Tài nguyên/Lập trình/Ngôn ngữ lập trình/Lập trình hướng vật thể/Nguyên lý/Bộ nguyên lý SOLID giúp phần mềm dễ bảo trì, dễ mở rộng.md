@@ -11,7 +11,7 @@ Khi học lập trình hướng đối tượng (Object-Oriented Programming, OO
 
 SOLID, ở khía cạnh khác, lại là các _nguyên lý thiết kế_ trong OOP. Hiểu một cách đơn giản, các nguyên lý của OOP mô tả cách thức hoạt động, còn các nguyên lý SOLID mô tả cách thức vận dụng của OOP trong lập trình thực tế.
 
-Việc tuân thủ theo SOLID giúp thiết kế (và code) phần mềm dễ đọc, dễ test, uyển chuyển, dễ bảo trì. Bạn nên hiểu rằng khâu code phần mềm chỉ chiếm khoảng 1/3 thời gian. Còn lại là dành cho khâu bảo trì (như thêm bớt chức năng, fix lỗi). SOLID giúp ích cực lớn cho khâu này.
+Việc tuân thủ theo SOLID giúp thiết kế (và code) phần mềm dễ đọc, dễ test, uyển chuyển, dễ bảo trì. Bạn nên hiểu rằng [[Code phần mềm chỉ chiếm khoảng 1 phần 3 thời gian, còn lại là dành cho bảo trì (thêm bớt chức năng, fix lỗi, v.v.)|khâu code phần mềm chỉ chiếm khoảng 13 thời gian. Còn lại là dành cho khâu bảo trì (như thêm bớt chức năng, fix lỗi)]]. SOLID giúp ích cực lớn cho khâu này.
 
 Các nguyên lý SOLID khá khó tiêu đối với sinh viên hay thậm chí đối với lập trình viên mới vào nghề. Các [chương trình đào tạo đại học](https://tuhocict.com/xay-dung-chuong-trinh-tu-dao-tao-cong-nghe-thong-tin/) cũng thường chỉ dạy code và công nghệ chứ không chú trọng về cách vận dụng. Vì vậy, việc tự học các vấn đề này là vô cùng quan trọng đối với sinh viên theo các hướng/chuyên ngành liên quan đến phát triển ứng dụng. Việc hiểu và vận dụng SOLID cũng có thể được dùng để đo sự tiến bộ của bạn trên con đường lập trình viên.
 

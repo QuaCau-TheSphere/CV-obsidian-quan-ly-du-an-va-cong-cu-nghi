@@ -5,3 +5,5 @@ share: True
 [[venv chỉ tạo môi trường ảo cho phiên bản hiện tại. Miniconda tạo môi trường ảo cho nhiều phiên bản]] 
 
 ![Hướng dẫn Tạo Virtual Environment trong Python - YouTube](https://youtu.be/jOUUqDGogAo)
+
+![](https://explainxkcd.com/wiki/images/c/cb/python_environment.png) 

@@ -5,6 +5,6 @@ share: True
 | ----------------- | --------- |
 | Obsidian          | Vault     |
 | Git               | Repo      |
-| Visual Studio     | Project   |
 | VS Code           | Workspace |
+| Visual Studio     | Project   |
 | Python/JavaScript | Module    |

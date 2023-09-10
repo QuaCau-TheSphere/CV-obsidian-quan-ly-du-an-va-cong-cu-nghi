@@ -27,4 +27,7 @@ Sau khi sản phẩm/tính năng được phát hành, có thể tiến hành ph
 - Đo lường mức độ thành công của sản phẩm/tính năng dựa trên việc chấp nhận và sử dụng của người dùng
 - Thu thập lời chứng thực hoặc câu chuyện thành công cho mục đích tiếp thị.
 
-Nguồn: Hoàng Đức Minh
+Nguồn:: [[Hoàng Đức Minh]]
+
+[[Một số mục tiêu phỏng vấn gợi ý]]
+[[Các nghiên cứu có thể có cùng một mục tiêu nghiên cứu, nhưng khác nhau về câu hỏi nghiên cứu]]. [[Phần lớn các câu hỏi nghiên cứu không thể sử dụng để hỏi trực tiếp]]. [[] ] 
