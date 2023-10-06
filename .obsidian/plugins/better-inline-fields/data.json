@@ -31,6 +31,10 @@
     {
       "field": "Nguồn",
       "folder": "⚡Hiểu biết sâu/Ξ Nguồn"
+    },
+    {
+      "field": "Khái niệm",
+      "folder": "⚡Hiểu biết sâu/Ξ Khái niệm"
     }
   ],
   "regexpTrigger": "/"

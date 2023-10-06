@@ -10,6 +10,6 @@
   "filterUsingDescription": false,
   "initializeAfterPluginChanges": true,
   "reloadAfterPluginChanges": false,
-  "disabledStates": "{\"plugins\":[[\"obsidian-leaflet-plugin\",\"obsidian-git\",\"notion-like-tables\",\"note-refactor-obsidian\",\"nldates-obsidian\",\"multi-column-markdown\",\"obsidian-mind-map\",\"metadata-menu\",\"language-translator\",\"mrj-jump-to-link\",\"obsidian-icon-folder\",\"homepage\",\"obsidian-heading-shifter\",\"global-search-and-replace\",\"folder-note-plugin\",\"obsidian-excalidraw-plugin\",\"dataview\",\"obsidian-editor-shortcuts\",\"buttons\",\"better-inline-fields\",\"obsidian-banners\",\"obsidian-auto-link-title\",\"obsidian-another-quick-switcher\",\"table-editor-obsidian\",\"advanced-toolbar\"]]}",
-  "snapshots": "{\"plugins\":[\"obsidian-leaflet-plugin\",\"obsidian-git\",\"notion-like-tables\",\"note-refactor-obsidian\",\"nldates-obsidian\",\"multi-column-markdown\",\"obsidian-mind-map\",\"metadata-menu\",\"language-translator\",\"mrj-jump-to-link\",\"obsidian-icon-folder\",\"homepage\",\"obsidian-heading-shifter\",\"global-search-and-replace\",\"folder-note-plugin\",\"obsidian-excalidraw-plugin\",\"dataview\",\"obsidian-editor-shortcuts\",\"buttons\",\"better-inline-fields\",\"obsidian-banners\",\"obsidian-auto-link-title\",\"obsidian-another-quick-switcher\",\"table-editor-obsidian\",\"advanced-toolbar\"]}"
+  "disabledStates": "{\"plugins\":[[\"obsidian-leaflet-plugin\",\"obsidian-icon-folder\",\"homepage\",\"obsidian-excalidraw-plugin\",\"notion-like-tables\"]]}",
+  "snapshots": "{\"plugins\":[\"obsidian-leaflet-plugin\",\"obsidian-icon-folder\",\"homepage\",\"obsidian-excalidraw-plugin\",\"notion-like-tables\"]}"
 }

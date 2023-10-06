@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-25T10:54
+updated: 2023-09-12T16:20
 ---
 # Mục tiêu
 Đây là một vault Obsidian dành riêng cho người Việt với mục tiêu:
@@ -51,6 +53,9 @@ Lao ngay vào code trong product thì hổng kiến thức do nhiều chô
 Chỉ ghi lại những thứ mất nhiều thời gian để nhận ra. Cái nào dễ thấy thì ko ghi 
 - muốn nhưng google được là có thì không ghi. Khi nào bị bug rồi mới phát hiện ra một cái gì đó mà không thấy ai nói gì thì mới ghi
 - Nếu cản trở sự đọc hiểu mà phải google thì cũng ghi ra 
+
+
+Nguồn đánh dấu những cái ở trên nó. Trang nào không có nguồn là trang đó tự nghĩ. Chữ nguồn nhiều khi cũng ko đúng. Một số cái là copy hoàn toàn. Một số cái là nắm bắt ý ghi lại. Với để ở đâu cũng khó, vì có những cái tự tổng hợp lại thì chỉ nên để là tham khảo. Nhưng cái này ko được ưu tiên
 
 ---
 

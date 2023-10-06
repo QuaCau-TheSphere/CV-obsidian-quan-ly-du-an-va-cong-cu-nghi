@@ -1,11 +1,14 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-09-11T00:56
 ---
 ```dataview
-LIST
+LIST file.cday
 FROM [[]]
+sort file.cday desc
 ```
-
+![https://youtu.be/hz86dVIrjIA](https://youtu.be/hz86dVIrjIA "https://youtu.be/hz86dVIrjIA")
 Trên mạng có rất nhiều tài liệu: 
 
 Hậu quả của sự đa dạng là khó có tiêu chuẩn thống nhất 
