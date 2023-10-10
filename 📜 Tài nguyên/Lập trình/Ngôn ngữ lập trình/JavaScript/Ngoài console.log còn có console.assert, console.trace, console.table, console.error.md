@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-10T15:25
+updated: 2023-10-06T16:09
 ---
 Một trong những cách đơn giản nhất để debug Javascript code đó chính là hiện ra kết quả qua câu lệnh `console.log`. Mặc dù nó vẫn hoạt động, tuy nhiên đó không phải là cách tối ưu cho mọi việc. Trong bài viết này mình sẽ giới thiệu với các bạn những chức năng khác mà console javascript có thể làm được
 

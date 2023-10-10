@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-09-25T21:07
+updated: 2023-10-06T16:09
 ---
 # B1: nhập gia
 # B2: từ người lạ đến thân quen

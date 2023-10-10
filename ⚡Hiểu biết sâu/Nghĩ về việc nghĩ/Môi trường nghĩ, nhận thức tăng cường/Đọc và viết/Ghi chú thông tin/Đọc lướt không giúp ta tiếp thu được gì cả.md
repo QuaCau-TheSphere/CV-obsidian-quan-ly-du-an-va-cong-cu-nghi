@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T12:09
+updated: 2023-10-06T16:09
 ---
 [[Việc đọc là sự gặp gỡ, giao thoa của thế giới của văn bản và thế giới của người đọc]]
 

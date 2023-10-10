@@ -1,33 +1,20 @@
 {
   "main": {
-    "id": "72fe83f2e5f98bef",
+    "id": "831d85164d01ca88",
     "type": "split",
     "children": [
       {
-        "id": "e78598e66ac4ddbe",
+        "id": "3940c27ebd703284",
         "type": "tabs",
         "children": [
           {
-            "id": "f0d859efef0bcbea",
+            "id": "5d91214f68641432",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Tính một chiều của dân học diễn giải nằm ở chỗ chỉ diễn giải văn hóa bản địa chứ không diễn giải văn hóa của nhà nghiên cứu.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "eb1cc8b2d8d99c75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/9 Blog/Về chữ Nguồn.md",
-                "mode": "source",
+                "file": "📜 Tài nguyên/📜 Tài nguyên.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -39,15 +26,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "f117ad8354462ed9",
+    "id": "200797c3ceecf6b6",
     "type": "split",
     "children": [
       {
-        "id": "84a972c3d7c5fb1f",
+        "id": "1fc05884ff0e58cd",
         "type": "tabs",
         "children": [
           {
-            "id": "b61fdbd6be7ed6ac",
+            "id": "8df4115b70014980",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -57,58 +44,49 @@
             }
           },
           {
-            "id": "d9434025c7697633",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
-          },
-          {
-            "id": "3deb5819c7cc6324",
+            "id": "4c148c657008221a",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "\"James Clifford, Về Tính Uy Quyền của Khảo tả Dân Tộc Học\"",
+                "query": "",
                 "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": true,
+                "explainSearch": false,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
           },
           {
-            "id": "f54af41841e62fd4",
+            "id": "2ed5a115d7403bff",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 273.00446701049805
+    "width": 300
   },
   "right": {
-    "id": "734eab439a731eb8",
+    "id": "c337a3ea5e852bbb",
     "type": "split",
     "children": [
       {
-        "id": "0d5928f4a90070ab",
+        "id": "68c978a776f01070",
         "type": "tabs",
         "children": [
           {
-            "id": "a922dbc5fdb96d64",
+            "id": "69b629f2ddf0bd4a",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Tính một chiều của dân học diễn giải nằm ở chỗ chỉ diễn giải văn hóa bản địa chứ không diễn giải văn hóa của nhà nghiên cứu.md",
+                "file": "📜 Tài nguyên/📜 Tài nguyên.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,19 +98,19 @@
             }
           },
           {
-            "id": "9c91a3489796088b",
+            "id": "324e889c539d5364",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Tính một chiều của dân học diễn giải nằm ở chỗ chỉ diễn giải văn hóa bản địa chứ không diễn giải văn hóa của nhà nghiên cứu.md",
+                "file": "📜 Tài nguyên/📜 Tài nguyên.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "ae454b007f2f5822",
+            "id": "a10401d29c8d2ca0",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -143,90 +121,61 @@
             }
           },
           {
-            "id": "29106ec7950dc883",
+            "id": "f810395d29380df6",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Tính một chiều của dân học diễn giải nằm ở chỗ chỉ diễn giải văn hóa bản địa chứ không diễn giải văn hóa của nhà nghiên cứu.md"
+                "file": "📜 Tài nguyên/📜 Tài nguyên.md"
               }
-            }
-          },
-          {
-            "id": "1404395a26f87e08",
-            "type": "leaf",
-            "state": {
-              "type": "git-history-view",
-              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 283,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "daily-notes:Open today's daily note": true,
+      "dbfolder:Create a new database table": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false,
-      "dbfolder:Create a new database table": false,
-      "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "3deb5819c7cc6324",
+  "active": "5d91214f68641432",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Thông diễn học bắt nguồn từ việc chú giải kinh thánh.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông/The Ethics of Influence Government in the Age of Behavioral Science by Cass R. Sunstein (z-lib.org).pdf",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Vận động nguồn lực/Vận-động-Nguồn-lực-Day2.pdf",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Vận động nguồn lực/Van-dong-nguon-luc.pdf",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Vận động nguồn lực/Tìm kiếm và tiếp cận nhà tài trợ tiềm năng.pdf",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Vận động nguồn lực/gay-quy-cho-hoat-dong-phat-trien..pdf",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Vận động nguồn lực/BOOKLET-FUNDRAISING_final_Jan17.pdf",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông/mts-made-to-stick-model.pdf",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông/DabneySchmitt-Xac-dinh-tiep-can-nha-tai-tro-26Feb14_VN.pdf",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông/Chien-luoc-truyen-thong-VRN-2013-2020.pdf",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông/2019_Book_SocialMarketingInAction.pdf",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Hermes vốn chỉ là người đưa thư chứ không giải thích, diễn giải gì cả.md",
     "📐 Dự án/9 Blog/Về chữ Nguồn.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Chú giải ban đầu là để hiểu lời của thượng đế, nhưng sau đó lại biến thành người có góc nhìn của thượng đế.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Khi nhà nghiên cứu xem mình là người đọc và chú giải văn bản, họ bóc tách các lớp để tạo ra một văn bản mới. Khi họ xem mình là đưa thư, họ kết nối những văn bản để tạo ra văn bản mới.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Người đọc là người chú giải.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Diễn giải, đọc.md",
-    "⚔️ Lớp Obsidian và Git/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Văn bản thuần là dạng tổ chức dữ liệu đơn giản nhất.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Đối thoại, đa thanh/Từ chống chủ quan đến liên chủ thể.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Đối thoại, đa thanh/Cộng đồng là tác giả của nghiên cứu, nhà nhân học chỉ là người mang thông điệp của cộng đồng đi đối thoại.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Việc đọc là sự gặp gỡ, giao thoa của thế giới của văn bản và thế giới của người đọc.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Thông diễn học bắt nguồn từ việc chú giải kinh thánh.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Để có thể diễn giải thì việc tiên quyết là phải văn bản hoá, nghĩa là tách những hành vi, câu nói, niềm tin, lễ nghi, truyền thống, v.v. ra khỏi diễn ngôn.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Việc đọc là sự gặp gỡ, giao thoa của thế giới của văn bản và thế giới của người đọc.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Văn hoá là một tập hợp các văn bản.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Tính một chiều của dân học diễn giải nằm ở chỗ chỉ diễn giải văn hóa bản địa chứ không diễn giải văn hóa của nhà nghiên cứu.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Sự kiểm soát của người bản xứ đối với những kiến thức có được trong quá trình thực địa là khá đáng kể, và thậm chí là có tính quyết định.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Những từ sử dụng trong viết lách điền dã nhân học không thể được coi là một độc thoại.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Người làm nhân học kết nối với lý thuyết nhiều hơn, còn nhà báo tường thuật sự kiện nhiều hơn.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Mỗi xã hội chứa đựng những cách diễn giải của riêng nó. Công việc của nhà nhân học là học cách bước vào những cách diễn giải đó.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Không giống như diễn ngôn, văn bản có thể dịch chuyển được.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Khi nhà nghiên cứu chú giải văn bản, họ kiến tạo ra đồng tác giả cho mình.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Khi người quan sát có sự kết nối với nhân vật nào, thì những nhân vật khác sẽ.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Diễn giải văn bản không phải là sự đối thoại do nó không phụ thuộc vào việc có mặt của người nói.md",
-    "Untitled.canvas",
-    "Thiết lập/Excalidraw/Các nét nghĩa của Philanthropy.svg",
-    "Thiết lập/Ảnh/Philanthropy/Thiện nguyện dựa trên tri thức + X.png",
-    "Thiết lập/Ảnh/Philanthropy/Từ thiện + X.png",
-    "Thiết lập/Ảnh/Philanthropy/Nhân ái + phúc thiện + thiện nguyện + từ thiện.png",
-    "Thiết lập/Ảnh/Philanthropy/Từ thiện.png",
-    "Thiết lập/Ảnh/Philanthropy/Nhân ái + phúc thiện + thiện nguyện.png",
-    "Thiết lập/Ảnh/Philanthropy/Nhân ái + phúc thiện.png",
-    "Thiết lập/Ảnh/Philanthropy/Nhân ái.png",
-    "Thiết lập/Ảnh/Philanthropy/Các nét nghĩa.png",
-    "Thiết lập/Excalidraw/Các nét nghĩa của Philanthropy.png",
-    "Trang chủ.canvas"
+    "📐 Dự án/9 Blog/Từ việc hỗ trợ Kendy đến Patreon và tâm lý của con người về tiền.md",
+    "📐 Dự án/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền.md",
+    "📐 Dự án/9 Blog/Tôi có thể giúp gì？.md",
+    "📐 Dự án/9 Blog/Tại sao lại cần tải vault về hơn là đọc trên web？.md",
+    "📐 Dự án/9 Blog/Nơi này là nơi nào？.md",
+    "📐 Dự án/9 Blog/Những dấu mốc.md",
+    "📐 Dự án/9 Blog/Mọi người hay thảo luận ở đâu？.md",
+    "📐 Dự án/9 Blog/Khác biệt giữa cộng đồng Obsidian tiếng Việt ở Facebook và Discord.md",
+    "📐 Dự án/9 Blog/Hướng dẫn đọc code cho người thấy việc biết lập trình là quan trọng nhưng không thể biến nó trở thành ưu tiên cao nhất.md",
+    "📐 Dự án/3 Thành phẩm/3 Thành phẩm.md",
+    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
+    "📐 Dự án/3 Thành phẩm/Trấn Kỳ/Kế hoạch giúp Kendy.md",
+    "📐 Dự án/3 Thành phẩm/Trấn Kỳ/Lý do viết Trấn Kỳ.md",
+    "📐 Dự án/3 Thành phẩm/Phần mềm/Bộ cài/Hướng dẫn tải vault.md",
+    "📐 Dự án/3 Thành phẩm/Phần mềm/Bộ cài/Bộ cài.md",
+    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về sản phẩm/Các nghiên cứu về sản phẩm.md",
+    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về người dùng.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi họp xây dựng kế hoạch phát triển/Các buổi họp xây dựng kế hoạch phát triển.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi giới thiệu vault/Các buổi giới thiệu vault.md",
+    "📐 Dự án/3 Thành phẩm/Trấn Kỳ/Thành quả mong muốn/Mỗi tuần có 3 người chia sẻ trang.md",
+    "📐 Dự án/3 Thành phẩm/Trấn Kỳ/Thành quả mong muốn/Mỗi tuần có 2 người mua hàng.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/Khảo sát người có nhu cầu học lập trình.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/Khảo sát người muốn tham gia nhóm học lập trình.md",
+    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Các bài viết truyền thông.md"
   ]
 }

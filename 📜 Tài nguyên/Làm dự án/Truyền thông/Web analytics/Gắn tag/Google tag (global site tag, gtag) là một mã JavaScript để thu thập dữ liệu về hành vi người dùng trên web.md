@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-01T17:55
+updated: 2023-10-06T16:09
 ---
 Mã JavaScript đó có dạng thế này:
 ```js

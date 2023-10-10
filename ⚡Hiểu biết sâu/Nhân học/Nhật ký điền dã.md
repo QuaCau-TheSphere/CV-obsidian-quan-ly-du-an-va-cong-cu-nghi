@@ -1,21 +1,22 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-10-04T21:40
+updated: 2023-10-09T20:52
 ---
 [[Tổng hợp thông tin]]
 
 8h sáng hơn ngày 1/10/2023, tôi đã thấy Huy đứng trước hẻm 133 Quang Trung, Gò Vấp, TP.HCM. Hai chúng tôi là những học viên của Viện Đời sống Xã hội đang làm bài tập quan sát tham dự một gia đình để kể lại câu chuyện cuộc đời của các nhân vật. Do lúc tôi đến thì cũng hơi trễ giờ nên tôi không kịp quan sát không gian ở ngoài và trong hẻm lắm. Có lẽ Huy đã có thời gian để làm tốt hơn tôi. Khi gửi xe xong thì tôi liền hối hả chạy vào nhà nhân vật. Thứ đập vào mắt tôi đầu tiên là một con chó lông vàng bị cột ngay trước cửa. Mặt nó cũng hơi nhiều lông; cấu hình mặt của nó trông vừa ngộ ngộ vừa hiền hiền. Khi tôi đến nó không hề sủa tôi mà lại ra ngửi rất nhiều như thể tôi là người trong nhà vậy. Tôi muốn dành thêm thời gian cho nó vì thấy nó thân thiện và cũng vì muốn quan sát cái mặt ngồ ngộ của nó, nhưng cũng không thể quá mải mê nhìn nó được vì nhà có nhiều thành viên khác. Tôi thấy mắt mình sao mà lộn xộn và ngột ngạt: một người phụ nữ chừng 50 tuổi, tóc xoăn, hơi mập đang rối rít kêu bọn tôi vào nhà, một người đàn ông cởi trần đang ngồi trên ghế xếp, một anh trai và một chị gái mập mạp đang loay hoay chuẩn bị đi ra ở vùng không gian đi lại duy nhất đang bị chèn ép bởi một khối chữ nhật khổng lồ màu đen ngòm ở bên phải, và chừng ba cái xe máy ở bên trái. Cái khối đen ngòm ấy phải nhìn kỹ thì mới nhận ra đó là một cái tủ lạnh. Ba bốn con mèo đang nhỏng đuôi lởn vởn gần cửa, trong khi con chó thì vẫn chưa thôi nhảy lên người tôi. Tôi đã bước vào gia đình cô Yến như vậy đấy.
-
 ## Cô Yến
 Lúc cưới chú Sang thì hai vợ chồng cô có qua nhà ba má chồng ở để dễ chăm sóc ông bà. Nhưng lúc đó không hiểu sao má chồng thì lại thấy giống như có âm mưu muốn chiếm tài sản. Tuy vậy bà chỉ nói với con dâu chứ không nói với con trai. Cô Yến có nói với chú Sang nhưng chú lại không tin, lại cho là cô đặt điều. Cô rất buồn. Nhức nhối, nhức nhối, nhức nhối. Cô không biết tìm được cách nào để chú tự nghe được điều đó từ má mình.
 
-Cô đi chùa nhiều mà không được. Lúc đó em gái cô, một đạo hữu Tin Lành, có nói rằng Chúa cũng thương người ngoại đạo lắm. Nên cô cũng thử đi nhà thờ xem sao.  Cô tự nhủ là nếu hết căng thì cô nguyện theo Chúa. Vậy mà chỉ đi nhà thờ có 4 lần thì mong ước của cô được toại nguyện. Chú Sang nghe được chính má mình nói vậy, nên chú quyết định bỏ về nhà riêng để hai bên không còn xích mích nữa. Từ đó đến nay cô theo đạo cũng được 10 năm.
+Cô đi chùa nhiều mà không được. Lúc đó em gái cô, một đạo hữu Tin Lành, có nói rằng Chúa cũng thương người ngoại đạo lắm. Nên cô cũng thử đi nhà thờ xem sao.  Cô tự nhủ là nếu hết căng thì cô nguyện theo Chúa. Vậy mà chỉ đi nhà thờ có 4 lần thì mong ước của cô được toại nguyện. Chú Sang nghe được chính má mình nói vậy, nên chú quyết định bỏ về nhà riêng để hai bên không còn xích mích nữa.
+Chú chở cô ra uống nước. Đóng tiệm sớmTừ đó đến nay cô theo đạo cũng được 10 năm.
 
 Trên tường nhà có treo một bức ảnh vẽ một hoạt động của bên đạo, cũng như một biểu tượng thập giá cách điệu: một chữ `Jesus` biến tấu với chữ `S` ở giữa kéo thật dài để thành hình ảnh thập giá. Những thứ này là do chú tự đem về treo, chứ cô không làm.
 
 Cô kể, khi theo đạo rồi thì không được ăn giỗ, không được lạy. Bà nội kế của cô tuy rất thương yêu cô nhưng vẫn muốn cô lạy cho đúng nghĩa sau khi bà chết. Cô nói với bà là *không, con chỉ lạy được một lạy để trả chữ hiếu, nhưng sau đó thì con không lạy được nữa*. Vậy mà, trước khi chết 21 ngày, bà lại chấp nhận theo đạo và kêu mời mục sư đến.
 
+Lúc tôi hỏi về *vì sao cô theo đạo*
 ### Anh Vinh
 
 Lúc chúng tôi đến nhà thì anh Vinh còn đang ngủ. Lúc cả nhà ngồi ăn cơm thì anh không xuống ăn. Lúc đó tôi đã nghĩ là anh không thích gặp chúng tôi lắm.
@@ -36,3 +37,12 @@ Anh sắp cưới vợ.
 
 Khi viết bài này tôi không để lời nhân vật vào trong ngoặc kép mà chỉ in nghiêng. Tôi bắt chước ý tưởng này từ bài *Đường tới Bờ Rạ*:
 ![[Không để trích dẫn vào trong ngoặc kép mà chỉ in nghiêng làm câu văn tự nhiên hơn#^c8315f]]
+
+
+
+
+
+
+====================
+## Con chó lông vàng
+Lúc mọi người đi ngủ thì tôi thấy thương con chó bị cột quá nên 

@@ -1,3 +1,7 @@
+---
+created: 2023-07-22T20:24
+updated: 2023-10-06T16:09
+---
 ```dataview
 LIST
 FROM "Lý thuyết Unicode" 

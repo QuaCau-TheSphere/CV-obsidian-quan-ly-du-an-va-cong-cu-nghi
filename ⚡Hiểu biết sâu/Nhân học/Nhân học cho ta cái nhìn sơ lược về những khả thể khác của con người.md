@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-10-04T14:48
+updated: 2023-10-06T16:09
 ---
 Một nhà nhân học người Australia hàng đầu là Ghassan Hage, gần đây đã trình bày về vấn đề này và chỉ ra nhân học khác với các ngành khoa học khác như thế nào (Hage 2011). Ông đặt ra ba câu hỏi tương quan như sau:
 

@@ -1,3 +1,7 @@
+---
+created: 2023-07-16T17:01
+updated: 2023-10-06T16:09
+---
 # Debug trực tiếp ngay trên script
 1. Dùng console.log
 3. Dùng try...catch

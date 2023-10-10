@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 > I mean, it is, you understand where that dream comes from culturally, right? We, we've always been, so this comes back to Descartes a bit. He split the mind from the body and him and many other thinkers who came after him that they made very clear that the body was sort of our more animalistic nature.
 > 

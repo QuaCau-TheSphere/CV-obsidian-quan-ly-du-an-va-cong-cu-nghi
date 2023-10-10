@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-25T10:54
-updated: 2023-09-12T16:20
+updated: 2023-10-06T16:09
 ---
 # Mục tiêu
 Đây là một vault Obsidian dành riêng cho người Việt với mục tiêu:

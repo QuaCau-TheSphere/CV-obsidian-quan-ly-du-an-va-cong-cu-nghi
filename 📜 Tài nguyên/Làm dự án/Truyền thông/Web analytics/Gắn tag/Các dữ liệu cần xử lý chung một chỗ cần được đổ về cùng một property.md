@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-02T15:09
+updated: 2023-10-06T16:09
 ---
 Nhìn chung, bạn nên thiết lập một tài khoản cho mỗi công ty và một property cho mỗi thương hiệu hoặc đơn vị kinh doanh.
 

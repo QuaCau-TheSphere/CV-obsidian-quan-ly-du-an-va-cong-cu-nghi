@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-01T13:58
+updated: 2023-10-06T16:09
 ---
 
 [[Google tag (global site tag, gtag) là một mã JavaScript để thu thập dữ liệu về hành vi người dùng trên web]], còn [[Google Tag Manager là một trình quản lý các mã JavaScript được gắn vào web]]. Ngoài Google tag ra còn có Facebook tag, LinkedIn tag, v.v.

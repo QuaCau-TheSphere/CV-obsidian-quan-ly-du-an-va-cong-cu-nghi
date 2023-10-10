@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-06T16:04
+updated: 2023-10-06T16:09
 ---
 === là == mà không đổi kiểu (type conversion).
 

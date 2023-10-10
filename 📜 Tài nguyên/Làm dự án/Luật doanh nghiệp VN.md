@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-16T09:34
+updated: 2023-10-06T16:09
 ---
 [[Luật VN không định nghĩa doanh nghiệp, mà chỉ nói về các yếu tố tạo nên nó]]
 

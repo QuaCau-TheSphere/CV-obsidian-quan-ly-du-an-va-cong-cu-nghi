@@ -1,3 +1,7 @@
+---
+created: 2023-07-22T11:55
+updated: 2023-10-06T16:09
+---
 ## Một số lỗi thường gặp trong lập trình winform
 
 ### Viết mọi thứ vào code behind

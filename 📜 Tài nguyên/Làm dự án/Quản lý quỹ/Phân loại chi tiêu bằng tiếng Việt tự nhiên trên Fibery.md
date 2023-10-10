@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-22T20:20
+updated: 2023-10-06T16:09
 ---
 Nếu bạn là người cần:
 - [ ] Phân loại tất cả các chi tiêu của mình một cách rõ ràng. Nhắm hờ mỗi tháng chừng bao nhiêu từ là không đủ với bạn

@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-17T12:34
+updated: 2023-10-06T16:09
 ---
 Nó là cách học qua bắt chước
 Git blame

@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-06-05T12:03
+updated: 2023-10-06T16:09
 ---
 Định nghĩa:: Mô tả hoạt động kinh tế liên quan đến việc cung cấp dịch vụ chăm sóc cho những người không thể tự chăm sóc bản thân, chẳng hạn như trẻ em, người già và người khuyết tật. Nền kinh tế chăm sóc bao gồm cả công việc chăm sóc được trả lương (thực hiện bởi: y tá, nhân viên xã hội, trợ lý chăm sóc sức khỏe,…) và không được trả lương (thực hiện bởi: thành viên gia đình, bạn bè và hàng xóm)
 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-09T11:10
-updated: 2023-09-25T21:27
+updated: 2023-10-06T16:09
 ---
 Ví dụ một người nói phong cách của họ đơn giản, nhưng thời điểm họ nói điều đó họ cũng chỉ mới nghĩ ra cái khái niệm đơn giản đó. Có thể điều khiến họ mua là vì giá, vì tiện, nhưng trong đầu họ lại thấy mình mua vì phong cách, vì môi trường. Chính vì như vậy, nên [[Khi phỏng vấn hãy hỏi cả về hành vi, đừng chỉ hỏi về lý do họ làm điều đó]], dù cho [[Phỏng vấn phù hợp để hiểu lý do cho một hành vi của một người]]. Dù vậy, phỏng vấn vẫn rất nên được sử dụng vì ngoài chuyện hiểu lý do cho một hành vi của một người, [[Phỏng vấn phù hợp để đánh giá cách tiếp nhận hay thái độ|Phỏng vấn còn phù hợp để đánh giá cách tiếp nhận hay thái độ]] nữa.
 Show, don't tell

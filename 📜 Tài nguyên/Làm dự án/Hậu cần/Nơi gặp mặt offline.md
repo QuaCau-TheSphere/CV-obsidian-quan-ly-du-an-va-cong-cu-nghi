@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-06-09T12:01
+updated: 2023-10-06T16:09
 ---
 
 Ô trống: tuỳ vào địa điểm cụ thể, không nói trước được

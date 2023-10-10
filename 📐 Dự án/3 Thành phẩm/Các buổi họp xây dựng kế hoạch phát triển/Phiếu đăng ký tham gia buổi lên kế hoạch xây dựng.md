@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 Vault "Obsidian và Git cho quản lý dự án" là một sản phẩm dành riêng cho người Việt với mục tiêu hỗ trợ những ai chưa từng làm quen với Obsidian và Git cũng như kiến thức về phát triển sản phẩm có thể nhanh chóng học những ứng dụng và kiến thức này từng bước một để làm một kho dữ liệu quản lý dự án. Bạn có thể dùng vault này để tự học hoặc như một giáo án để hỗ trợ bạn bè của mình.
 

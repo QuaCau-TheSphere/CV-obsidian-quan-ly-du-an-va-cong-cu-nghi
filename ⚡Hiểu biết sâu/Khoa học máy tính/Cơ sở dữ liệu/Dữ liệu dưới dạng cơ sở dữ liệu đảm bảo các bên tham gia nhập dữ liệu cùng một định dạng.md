@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 `=[[Obsidian có thể tạo biến tại bất cứ vị trí nào trong ghi chú]].a`
 - Thống nhất giữa các người dùng dễ dàng

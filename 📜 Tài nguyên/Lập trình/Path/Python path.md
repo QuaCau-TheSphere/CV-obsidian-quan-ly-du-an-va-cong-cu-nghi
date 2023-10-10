@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-06-05T15:09
+updated: 2023-10-06T16:09
 ---
 [The full installer](https://docs.python.org/3/using/windows.html#windows-full) contains all components and is the best option for developers using Python for any kind of project.
 

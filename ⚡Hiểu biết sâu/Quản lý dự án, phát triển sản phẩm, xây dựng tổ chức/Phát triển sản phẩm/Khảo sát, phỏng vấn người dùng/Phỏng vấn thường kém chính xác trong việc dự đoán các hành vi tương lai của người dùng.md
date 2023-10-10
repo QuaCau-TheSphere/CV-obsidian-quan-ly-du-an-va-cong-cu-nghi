@@ -1,6 +1,8 @@
 ---
-share: True
+share: true
 description: Hỏi một người liệu sau này họ có làm điều này điều kia không là không chắc đúng
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 Ví dụ về một số câu hỏi cho ra kết quả không đáng tin cậy:
 - Bạn có tính sử dụng sản phẩm không?

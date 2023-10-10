@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-13T14:16
+updated: 2023-10-06T16:09
 ---
 [[Điểm mã không phải là cách để máy tính lưu ký tự]] 
 [[Mỗi điểm mã được biểu diễn dưới dạng U+XXYYYY]]. [[Các ký tự ASCII có 1 điểm mã]]. [[Không gian mã là không gian chứa tất cả các điểm mã của Unicode]]] ] 

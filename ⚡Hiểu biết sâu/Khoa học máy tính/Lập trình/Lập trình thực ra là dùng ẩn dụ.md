@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-06-03T09:36
+updated: 2023-10-06T16:09
 ---
 > Try, for a moment to imagine what “[Typescript with React](https://egghead.io/courses/use-typescript-to-develop-react-applications)" visually looks like. Or "[A Server-rendered ReactJS Application with Next.js](https://egghead.io/courses/build-a-server-rendered-reactjs-application-with-next-js)". Or the "[State Monad in JavaScript](https://egghead.io/courses/state-monad-in-javascript)"
 > 

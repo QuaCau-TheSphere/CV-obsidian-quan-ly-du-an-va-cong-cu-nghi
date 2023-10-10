@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-09-29T21:08
+updated: 2023-10-06T16:09
 ---
 [[Ta thường không sẵn sàng để đọc một tài liệu khi ta mới thấy nó]]
 

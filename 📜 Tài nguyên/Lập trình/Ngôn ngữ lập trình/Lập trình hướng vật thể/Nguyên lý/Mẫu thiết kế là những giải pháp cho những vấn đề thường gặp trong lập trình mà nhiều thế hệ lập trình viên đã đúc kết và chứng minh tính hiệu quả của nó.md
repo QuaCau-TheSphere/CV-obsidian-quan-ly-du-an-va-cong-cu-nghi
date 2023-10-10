@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-11T17:12
+updated: 2023-10-06T16:09
 ---
 Nguồn:: ![Nhập môn Design Pattern siêu tốc trong 10 phút - YouTube](https://youtu.be/eiWnblyjw58)
 Nguồn:: [Hướng dẫn tự học Design Pattern trong C# | Tự học ICT](https://tuhocict.com/huong-dan-tu-hoc-design-pattern-trong-c/)

@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 > Các công việc nấu nướng, dọn dẹp, chăm sóc trẻ em, người già và người bệnh tại gia đình  thường được hiểu là công việc chăm sóc không lương, và đó cũng là vấn đề sống còn đối với cuộc sống của con người và sự vận hành của nền kinh tế thị trường. Phụ nữ trên toàn thế giới thường làm việc nhiều hơn nam giới: [[Tính trung bình, phụ nữ làm công việc chăm sóc không được trả lương nhiều hơn ít nhất hai lần rưỡi so với nam giới]]. Điều này ngụ ý rằng  phụ nữ, đặc biệt là những nhóm phụ nữ nghèo nhất, phải chịu gấp đôi gánh nặng của cả  công việc được trả lương và công việc chăm sóc không được trả lương.
 

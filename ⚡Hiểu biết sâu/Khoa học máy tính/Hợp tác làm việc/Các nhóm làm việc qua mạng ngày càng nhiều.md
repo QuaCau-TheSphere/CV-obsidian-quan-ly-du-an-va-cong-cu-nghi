@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 With the rise of [remote work and distributed teams](https://medium.com/@anupamr/distributed-teams-are-the-new-cloud-for-startups-14240a9822d7),
 

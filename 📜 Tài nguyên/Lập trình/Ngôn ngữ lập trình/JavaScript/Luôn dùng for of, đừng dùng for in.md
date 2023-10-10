@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-05T17:25
+updated: 2023-10-06T16:09
 ---
 ```js
 let colors = ['red', 'green', 'blue'];

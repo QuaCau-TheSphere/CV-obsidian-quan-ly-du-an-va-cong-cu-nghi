@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-21T22:52
+updated: 2023-10-06T16:09
 ---
 ## Nguyên lý DIP – Dependency Inversion Principle
 

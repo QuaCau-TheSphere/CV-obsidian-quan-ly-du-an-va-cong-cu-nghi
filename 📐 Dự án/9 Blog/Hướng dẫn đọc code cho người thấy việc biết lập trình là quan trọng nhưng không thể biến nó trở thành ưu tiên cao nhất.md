@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-13T19:21
+updated: 2023-10-09T13:29
 ---
 Bạn không muốn lệ thuộc.
 
@@ -43,4 +45,4 @@ function hàm(biến1, biến2) {
 }
 ```
 
-[[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và hiểu tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu]]
+[[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu]]

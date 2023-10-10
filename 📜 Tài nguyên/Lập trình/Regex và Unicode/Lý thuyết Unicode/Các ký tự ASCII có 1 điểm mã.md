@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-06T21:27
+updated: 2023-10-06T16:09
 ---
 Ví dụ, chữ `à` có 2 code point:
 - `U+0061` cho chữ `a`

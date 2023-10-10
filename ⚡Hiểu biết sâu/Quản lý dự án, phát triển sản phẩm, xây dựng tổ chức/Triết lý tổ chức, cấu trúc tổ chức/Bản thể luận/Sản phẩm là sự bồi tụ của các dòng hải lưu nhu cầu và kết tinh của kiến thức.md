@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-09-12T18:13
+updated: 2023-10-06T16:09
 ---
 Nó là lý do khiến mọi người bu vào. 
 

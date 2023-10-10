@@ -1,6 +1,10 @@
 ---
 Alias: Danh sách tất cả các tag
-share: [ True, true ]
+share:
+  - true
+  - true
+created: 2023-06-11T18:31
+updated: 2023-10-06T16:09
 ---
 # Các mức độ trạng thái/tình trạng của công việc
 ```dataview

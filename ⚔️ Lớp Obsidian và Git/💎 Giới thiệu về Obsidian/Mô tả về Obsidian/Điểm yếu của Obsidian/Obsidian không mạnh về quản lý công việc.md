@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-03T15:57
+updated: 2023-10-07T16:16
 ---
 Sự mạnh mẽ của cộng đồng Obsidian và những triết lý của nó đã thắp lên một ngọn lửa đầy phấn khởi trong những người muốn tìm ra được một công cụ giúp quản lý tất cả những công việc trong cuộc sống của họ. Họ hiểu rất rõ rằng [[Quản lý công việc và quản lý kiến thức không thể tách rời nhau]], và họ trông đợi rằng rồi cũng sẽ có ai đó viết ra được một cái plugin quản lý công việc đáp ứng được những nhu cầu của họ, hy vọng rằng những khao khát có một nơi chứa tất cả trong một rồi cũng sẽ được giải quyết. Nhưng dù có uống bao nhiêu tin tức thì họ vẫn thấy mình còn khát. Plugin thì cứ mọc như nấm sau mưa, nhưng cái thứ duy nhất họ cần thì vẫn tăm hơi biệt tích. Càng chờ càng chán, nhưng họ cũng không sao từ bỏ hy vọng được, vì không hiểu vì lẽ gì mà một cộng đồng mạnh mẽ đến vậy lại chẳng có người có cùng vấn đề với mình. Obsidian đã tạo ra một bất hòa nhận thức kinh niên trong người họ. 
 

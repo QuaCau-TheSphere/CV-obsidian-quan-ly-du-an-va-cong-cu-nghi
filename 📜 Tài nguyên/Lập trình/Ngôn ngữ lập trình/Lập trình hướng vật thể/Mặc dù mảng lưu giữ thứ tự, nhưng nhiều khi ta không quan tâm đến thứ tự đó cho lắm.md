@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-11T15:28
+updated: 2023-10-06T16:09
 ---
 Along with all the above technical differences, I think there is a fundamental difference in the purpose and meaning of an Object and an Array.
 

@@ -1,3 +1,7 @@
+---
+created: 2023-07-22T20:32
+updated: 2023-10-06T16:09
+---
 | Ngôn ngữ            | PowerShell                                  | CMD     | AutoHotKey   | JavaScript      | Python          | SQL | Bash | LaTeX |
 | ------------------- | ------------------------------------------- | ------- | ------------ | --------------- | --------------- | --- | ---- | ----- |
 | Dấu nháy kép `"`    | Expandable string                           |         |              | Verbatim string | Verbatim string |     |      |       |

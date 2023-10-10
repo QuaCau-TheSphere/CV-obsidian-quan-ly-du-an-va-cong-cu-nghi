@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-07T16:55
+updated: 2023-10-06T16:09
 ---
 ```js
 var string = 'lorem word ipsum'

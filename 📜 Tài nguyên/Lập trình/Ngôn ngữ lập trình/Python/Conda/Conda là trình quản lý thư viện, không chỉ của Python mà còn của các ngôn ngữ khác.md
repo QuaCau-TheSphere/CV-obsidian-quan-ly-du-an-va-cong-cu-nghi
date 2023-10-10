@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-06-05T14:55
+updated: 2023-10-06T16:09
 ---
 - Các gói Pip là những thư viện Python như NumPy hoặc matplotlib
 - Các gói Conda bao gồm các thư viện Python (NumPy hoặc matplotlib), thư viện C (libjpeg), và tập tin thực thi (như trình biên dịch C, thậm chí trình thông dịch Python)

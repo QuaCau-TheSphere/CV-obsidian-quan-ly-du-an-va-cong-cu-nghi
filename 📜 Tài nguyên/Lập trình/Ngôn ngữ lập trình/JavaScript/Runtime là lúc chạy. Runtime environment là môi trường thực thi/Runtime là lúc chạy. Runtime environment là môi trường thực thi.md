@@ -1,3 +1,7 @@
+---
+created: 2023-07-22T12:07
+updated: 2023-10-06T16:09
+---
 Imagine a robot is playing a music:
 
 - The JavaScript code would be the music notes to the robot.

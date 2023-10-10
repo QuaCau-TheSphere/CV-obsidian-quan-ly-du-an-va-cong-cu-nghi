@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-11T13:21
+updated: 2023-10-06T16:09
 ---
 ### Khác với [`var`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
 

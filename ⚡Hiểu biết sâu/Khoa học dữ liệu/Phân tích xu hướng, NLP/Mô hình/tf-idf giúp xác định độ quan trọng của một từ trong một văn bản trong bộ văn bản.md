@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-31T13:32
+updated: 2023-10-06T16:09
 ---
 Trong một bộ văn bản có rất nhiều văn bản. Làm sao để xác định được độ đặc trưng của một văn bản trong đó? Thường thì ta sẽ xem những từ đặc trưng mà chỉ văn bản đó có. Những từ hiếm khi được tìm thấy trong bộ văn bản nhưng có mặt trong một văn bản cụ thể có thể quan trọng hơn.
 

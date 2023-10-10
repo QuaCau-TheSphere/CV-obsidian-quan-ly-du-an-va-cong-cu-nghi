@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-06-09T11:16
+updated: 2023-10-06T16:09
 ---
 Danh sách các repo trên GitHub có tag `nlp` và `vietnamese`
 - [undertheseanlp/underthesea](https://github.com/undertheseanlp/underthesea.git)

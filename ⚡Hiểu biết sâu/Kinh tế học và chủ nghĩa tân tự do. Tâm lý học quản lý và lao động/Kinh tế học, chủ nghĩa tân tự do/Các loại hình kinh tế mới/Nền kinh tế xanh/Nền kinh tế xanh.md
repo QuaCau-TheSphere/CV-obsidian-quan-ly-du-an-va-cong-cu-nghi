@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 ![](https://www.researchgate.net/profile/Shikha-Dahiya/publication/344261566/figure/fig1/AS:963472120614930@1606721062323/Venn-diagram-depicting-various-economies-in-green-economy-adapted-from-Kardung-and.png)
 <sub>Dahiya, Shikha & Katakojwala, Ranaprathap & Ramakrishna, Seeram & Venkata Mohan, S. (2020). Biobased Products and Life Cycle Assessment in the Context of Circular Economy and Sustainability. Materials Circular Economy. 2. 7. 10.1007/s42824-020-00007-x. </sub>

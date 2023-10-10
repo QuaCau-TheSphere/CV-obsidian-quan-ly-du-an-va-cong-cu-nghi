@@ -1,3 +1,7 @@
+---
+created: 2023-06-24T10:57
+updated: 2023-10-06T16:09
+---
 Nhu cầu của bạn là gì
 - Quản lý cuộc sống cá nhân
 - Quản lý tri thức cá nhân

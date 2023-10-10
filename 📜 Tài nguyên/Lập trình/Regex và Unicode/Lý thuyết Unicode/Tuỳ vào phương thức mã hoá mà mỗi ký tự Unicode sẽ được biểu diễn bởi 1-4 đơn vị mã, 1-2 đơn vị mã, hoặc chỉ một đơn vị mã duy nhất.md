@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-13T13:45
+updated: 2023-10-06T16:09
 ---
 | Phương thức mã hoá | Số đơn vị mã (code unit) cần để biểu diễn một ký tự bất kỳ | Số byte cần cho một đơn vị mã |
 | ------------------ | ---------------------------------------------------------- | ----------------------------- |

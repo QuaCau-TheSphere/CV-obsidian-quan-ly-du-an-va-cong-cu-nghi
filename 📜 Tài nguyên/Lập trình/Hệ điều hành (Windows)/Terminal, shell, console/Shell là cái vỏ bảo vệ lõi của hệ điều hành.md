@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 Để giao tiếp với lõi của hệ điều hành cần phải dùng tới nó. [[Terminal là cái cửa sổ để làm việc với shell]] 
 ![](https://srinisbookcom.files.wordpress.com/2020/11/bb6fa-kernel_shell.jpg) 

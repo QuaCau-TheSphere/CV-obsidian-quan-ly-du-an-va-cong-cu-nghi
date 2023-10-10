@@ -1,7 +1,9 @@
 ---
 Alias: Động lực dự án, Tại sao lại chọn Obsidian, Sứ mệnh
-description: Động lực dự án này là gì? Tại sao lại chọn Obsidian? 
-share: True
+description: Động lực dự án này là gì? Tại sao lại chọn Obsidian?
+share: true
+created: 2023-07-26T10:33
+updated: 2023-10-06T21:49
 ---
 <sub>English below</sub>
 # Vấn đề: Sự hợp tác giữa các nhóm dự án chưa đạt được hiệu quả tối ưu

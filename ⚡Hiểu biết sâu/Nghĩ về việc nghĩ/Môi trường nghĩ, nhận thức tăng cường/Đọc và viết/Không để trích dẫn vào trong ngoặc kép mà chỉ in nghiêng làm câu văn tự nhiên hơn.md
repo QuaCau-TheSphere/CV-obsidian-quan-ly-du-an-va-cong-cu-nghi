@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-10-04T21:38
+updated: 2023-10-06T16:09
 ---
 Đường tời Bờ Rạ, Andrew Hardy:
 > Dữ liệu phỏng vấn được viết nghiên chứ không phải để trong ngoặc kép, để diễn đạt sự trùng nhau trong lời văn của tôi và câu trích phỏng vấn. Điều này được thể hiện qua ngôn ngữ, qua ghi chép khi nghiên cứu thực địa và qua bản dịch của tôi. Thay vì phải tỏ ra hoàn toàn khách quan với việc tiếp cận các nguồn tài liệu của mình, tôi lại muốn miêu tả mối quan hệ của tôi với các nguồn thông tin đó.

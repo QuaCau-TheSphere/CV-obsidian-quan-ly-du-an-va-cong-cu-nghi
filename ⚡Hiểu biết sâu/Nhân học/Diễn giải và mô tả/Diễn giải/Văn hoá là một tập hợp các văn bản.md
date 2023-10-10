@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-10-06T14:20
+updated: 2023-10-06T16:09
 ---
 [[Văn bản là nơi ta đọc ra các ý nghĩa và diễn giải nó]] 
 [[Khi nhà nghiên cứu xem mình là người đọc và chú giải văn bản, họ bóc tách các lớp để tạo ra một văn bản mới. Khi họ xem mình là đưa thư, họ kết nối những văn bản để tạo ra văn bản mới]]

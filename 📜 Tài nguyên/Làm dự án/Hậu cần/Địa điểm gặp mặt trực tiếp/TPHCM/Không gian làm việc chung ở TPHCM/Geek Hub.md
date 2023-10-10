@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 Địa chỉ:: [27b/9 Nguyễn Đình Chiểu, Q1] 
 Ưu đãi giá:: 1tr4 cho 4 tiếng không gian 20 người free nước

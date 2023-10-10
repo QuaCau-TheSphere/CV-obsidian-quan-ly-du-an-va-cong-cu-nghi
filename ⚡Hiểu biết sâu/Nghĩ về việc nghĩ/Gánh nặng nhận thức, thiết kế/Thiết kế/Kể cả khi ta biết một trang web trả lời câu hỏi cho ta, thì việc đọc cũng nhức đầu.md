@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 [[Ta thường không sẵn sàng để đọc một tài liệu khi ta mới thấy nó]]
 [[Về mặt nhận thức, con người tương lai của chính mình không liên quan gì đến mình]]

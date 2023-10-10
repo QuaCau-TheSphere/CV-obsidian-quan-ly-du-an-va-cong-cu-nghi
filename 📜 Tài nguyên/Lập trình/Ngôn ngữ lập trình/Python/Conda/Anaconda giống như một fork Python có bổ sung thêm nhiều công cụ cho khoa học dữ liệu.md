@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-06-06T13:39
+updated: 2023-10-06T16:09
 ---
 Now seems like a distant memory, but there used to be a lot of issues installing the numerical stack (numpy/scipy etc.) on things like Windows. That's when Anaconda was really quite a big thing. As far as a package manager goes these days, I honestly find it quite clunky
 [Python - 2023-06-06](https://chat.stackoverflow.com/transcript/message/56414283#56414283)

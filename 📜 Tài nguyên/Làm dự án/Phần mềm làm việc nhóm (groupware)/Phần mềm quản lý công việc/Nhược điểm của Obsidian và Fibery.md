@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-09-08T21:32
+updated: 2023-10-08T20:20
 ---
 1. raw data từ user research vs highlight from literature note là như nhau
 
@@ -181,11 +183,12 @@ chính vì vậy e ko có solutions mà đủ, hay cần hay thích hợp, mà c
 
 thằng này lại có cái thằng kia thiếu, nhưng ko thằng nào muốn filled nốt cái thiếu của thằng kia
 
-mỗi thằng lại đi 1 con đường riêng biệt thằng obsidian focus canvas yaml → focus hoàn toàn vào việc input và process data đầu vào | inorge task mangement
+mỗi thằng lại đi 1 con đường riêng biệt [[Obsidian tập trung hoàn toàn vào việc nhập liệu và bỏ qua việc quản lý công việc|thằng obsidian focus canvas yaml → focus hoàn toàn vào việc input và process data đầu vào | inorge task mangement]]
 
-thằng fibery focus vào procesing data → nghĩa là distill raw data → processed data + visualize để make decision to implement (Feature) | và ko chịu focus vào việc input nhập liệu, markdown hay grapview, canvas ...
+[[Fibery tập trung vào xử lý dữ liệu để ra quyết định và không chịu tập trung vào việc nhập liệu, markdown hay graphview, canvas|thằng fibery focus vào procesing data → nghĩa là distill raw data → processed data + visualize để make decision to implement (Feature) | và ko chịu focus vào việc input nhập liệu, markdown hay grapview, canvas ...]]
 
 e ở giữa e biết kêu gì h
 
 Nguồn:: [[Kendy]]
 [[Obsidian không mạnh về quản lý công việc]]
+[[Fibery]]

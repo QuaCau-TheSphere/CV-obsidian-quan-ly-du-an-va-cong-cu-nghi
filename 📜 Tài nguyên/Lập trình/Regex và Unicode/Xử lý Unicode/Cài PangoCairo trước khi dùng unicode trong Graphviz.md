@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-06T22:07
+updated: 2023-10-06T16:09
 ---
 - Install expat library (`sudo apt install libexpat1-dev`)
 - Install pangocairo library (`sudo apt install libpango1.0-dev`)

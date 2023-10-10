@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-06-01T21:27
+updated: 2023-10-06T16:09
 ---
 JSON sẽ chuyển đổi dữ liệu thành một chuỗi byte có thể lưu trữ và truyền qua mạng, dùng để response cho API. Và ta dùng JSON khi muốn lưu dữ liệu ở phía server.
 Nguồn:: [Tìm hiểu về JSON và sự khác nhau giữa JSON và Dictionary trong Python - Python - Magestore](https://stories.magestore.com/t/tim-hi-u-v-json-va-s-khac-nhau-gi-a-json-va-dictionary-trong-python/1247#:~:text=Dictionary%20trong%20Python%20được%20hiểu,dùng%20để%20response%20cho%20API%2e)

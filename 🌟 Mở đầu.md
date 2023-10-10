@@ -1,6 +1,8 @@
 ---
-share: True
+share: true
 filename: index
+created: 2023-06-25T19:58
+updated: 2023-10-10T16:29
 ---
   
 ![[logo.svg|200]]

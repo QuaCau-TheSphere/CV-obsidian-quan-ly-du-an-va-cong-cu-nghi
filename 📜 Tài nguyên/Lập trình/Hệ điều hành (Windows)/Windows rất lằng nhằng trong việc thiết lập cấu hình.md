@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-21T21:41
+updated: 2023-10-06T16:09
 ---
 Với sự phát triển của Docker cũng như các công cụ đóng gói container khác, giờ đây việc sử dụng hệ điều hành gì không còn là vấn đề gì quá lớn. Container là một môi trường đóng gói độc lập, như một máy ảo chạy tách biệt khỏi hệ điều hành mà máy sử dụng, nên dù dùng Windows, Linux hay MacOS cũng không thành vấn đề nữa.
 

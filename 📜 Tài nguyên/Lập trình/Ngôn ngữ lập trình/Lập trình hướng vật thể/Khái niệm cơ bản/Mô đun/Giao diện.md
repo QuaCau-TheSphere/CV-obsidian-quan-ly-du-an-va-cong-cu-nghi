@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-21T22:43
+updated: 2023-10-06T16:09
 ---
 Một cách đại khái, [interface](https://tuhocict.com/lesson/cai-tien-data-acceess-su-dung-interface/) là một giao kèo giữa bên sử dụng và bên thực thi class. Cụ thể hơn, [interface](https://tuhocict.com/giai-phap-winforms-3-interface-loose-coupling/) chứa các mô tả về phương thức và thuộc tính mà bên thực thi class phải xây dựng. Bên sử dụng thì không cần quan tâm đến cách thức xây dựng này.
 

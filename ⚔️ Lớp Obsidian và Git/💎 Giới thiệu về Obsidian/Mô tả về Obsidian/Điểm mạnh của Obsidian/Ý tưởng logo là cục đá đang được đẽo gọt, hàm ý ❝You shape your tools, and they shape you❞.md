@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-06-02T12:36
+updated: 2023-10-06T16:09
 ---
 ### Sharpen your thinking
 

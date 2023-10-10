@@ -1,3 +1,7 @@
+---
+created: 2023-06-12T00:57
+updated: 2023-10-06T16:09
+---
 **Đối tượng thụ hưởng**. Họ làm gì. Họ trải qua những gì. Segmentation
 **Nhu cầu của đối tượng**. Họ muốn gì? Họ đang có những mối quan tâm nào? Thứ họ nói họ muốn nhận
 **Họ thấy gì ở dự án**. Họ nói gì về ý tưởng của QC? QC đang hiện diện thế nào trong mắt họ? Điều họ thấy ở QC. Có người biết mình làm dự án, nhưng ko biết QC là gì

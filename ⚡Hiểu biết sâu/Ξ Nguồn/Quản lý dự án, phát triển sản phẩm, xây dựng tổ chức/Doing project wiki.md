@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 ![](http://wiki.doing-projects.org/images/thumb/6/6a/Bannertop3.png/380px-Bannertop3.png) 
 Welcome to our wiki for doing projects - an online resource for managing projects, programs, and portfolios.

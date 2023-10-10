@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 
 > [!Info] Xem thêm: [Ý tưởng nền tảng dịch thuật ngữ](https://xn--qucu-hr5aza.cc/y-tuong-nen-tang-dich-thuat-ngu/?utm_source=CV+%C2%BB+Ph%C6%B0%C6%A1ng+%C3%A1n+d%E1%BB%8Bch+m%E1%BB%99t+s%E1%BB%91+t%E1%BB%AB&utm_medium=%C3%9D+t%C6%B0%E1%BB%9Fng+n%E1%BB%81n+t%E1%BA%A3ng+d%E1%BB%8Bch+thu%E1%BA%ADt+ng%E1%BB%AF&utm_campaign=Giai+%C4%91o%E1%BA%A1n+2)

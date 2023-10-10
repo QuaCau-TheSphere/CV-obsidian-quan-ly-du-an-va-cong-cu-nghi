@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-09-12T18:13
+updated: 2023-10-07T13:28
 ---
 [[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]], còn [[Thành phẩm (output) là các kết quả trực tiếp của các công việc]]. 
 

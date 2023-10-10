@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 Nguồn:: [The Academic Knowledge Management (AKM) system that 10x’d my research productivity | Chris Lovejoy](https://www.chrislovejoy.me/akm)
 

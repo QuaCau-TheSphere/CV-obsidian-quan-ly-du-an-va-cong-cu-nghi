@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-06-06T14:13
+updated: 2023-10-06T16:09
 ---
 
 | Yếu tố                   | Windows            | Android, Mac (bản chất là Linux) |

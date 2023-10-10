@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-18T20:36
-updated: 2023-10-06T14:44
+updated: 2023-10-06T16:09
 ---
 Khái niệm:: [[Diễn giải, đọc]], [[Văn bản]]
 Một cái là trình thuật, một cái là mô tả, trình thuật, đối thoại. Nhà nghi

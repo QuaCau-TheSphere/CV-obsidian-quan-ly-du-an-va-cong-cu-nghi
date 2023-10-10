@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-09-12T18:13
+updated: 2023-10-06T16:09
 ---
 [[Ta mô phỏng thế giới qua những vật thể]]
 [[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]]. [[Một sản phẩm được tạo nên bởi nhiều thành phẩm. Thứ ta gọi là sản phẩm thành phần, hoặc sản phẩm nhỏ hơn, chính là thành phẩm]]

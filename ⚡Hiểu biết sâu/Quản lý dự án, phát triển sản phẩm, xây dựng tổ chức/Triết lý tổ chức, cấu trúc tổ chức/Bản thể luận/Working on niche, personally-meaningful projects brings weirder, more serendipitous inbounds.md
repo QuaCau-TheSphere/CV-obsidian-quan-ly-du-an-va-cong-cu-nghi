@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-30T14:31
+updated: 2023-10-10T15:04
 ---
 https://notes.andymatuschak.org/z2DABWsGLkXcCuUet2scfD1duL1ZHBztwGKp
 

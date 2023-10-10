@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-08-23T15:59
+updated: 2023-10-06T16:09
 ---
 cmdlet dùng định dạng Verb-Noun (động từ - danh từ) như trong Get-Service, Stop-Service, hay Import-Csv. Phần động từ trong tên của cmdlet sẽ chỉ ra hành động được thực hiện trên danh từ. Thông thường, các cmdlet được sử dụng để lấy thông tin sẽ có động từ **Get** (lấy) trong tên, ví dụ như **Get-Process** hay **Get-Content**. Lệnh sử dụng để chỉnh sửa cái gì đó thường bắt đầu với động từ **Set**, để thêm thực thể mới vào đâu đó thì thường bắt đầu với **Add** hoặc **New**.
 

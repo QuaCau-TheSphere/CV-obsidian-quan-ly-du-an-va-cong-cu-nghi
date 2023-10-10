@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-31T13:32
+updated: 2023-10-06T16:09
 ---
 Nếu phân nào cần nhiều chữ thì có thế để vào phụ lục hoặc bài viết sâu.
 [[Lectures, as a format, are shaped as if tranmissionism were true, so lecturers mostly behave as if it were true]]

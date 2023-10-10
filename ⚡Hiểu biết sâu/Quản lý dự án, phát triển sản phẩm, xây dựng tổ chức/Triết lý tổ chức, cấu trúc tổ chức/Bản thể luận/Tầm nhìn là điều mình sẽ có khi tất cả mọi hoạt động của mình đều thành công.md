@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-30T16:20
-updated: 2023-09-12T18:43
+updated: 2023-10-06T16:09
 ---
 [[Tầm nhìn là thứ mình muốn có. Sứ mệnh là thứ mình sẽ làm. Sản phẩm là thứ mình tạo ra]]
 

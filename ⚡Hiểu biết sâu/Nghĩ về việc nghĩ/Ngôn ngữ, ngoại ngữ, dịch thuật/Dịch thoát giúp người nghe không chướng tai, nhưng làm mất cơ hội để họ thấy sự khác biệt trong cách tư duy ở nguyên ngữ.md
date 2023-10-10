@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-06-21T13:47
+updated: 2023-10-06T16:09
 ---
 “Tâm hồn của người Âu cũng khác mình, lối suy nghĩ nhìn đời của họ cũng vậy; họ lại có những dụng ngữ, ý niệm mà chúng ta không có (chẳng hạn những tiếng gentlement, honnêtre homme, bourgeois, chúng ta không thể dịch cho thật đúng được); ngược lại chúng ta cũng có những dụng ngữ, ý niệm mà họ không có (như tiếng quân tử, sĩ phu, âm dương…). Vì vậy, dịch sách Pháp, Anh chúng ta thường phải dịch thoát, đảo lên đảo xuống, thay đổi tổ chức của câu, có khi ta bắt buộc phải tìm hiểu ý của tác giả rồi quên nguyên tác đi, diễn lại ra sao cho hợp với tinh thần tiếng Việt, để những đồng bào không biết ngoại ngữ hiểu được như ta, hiểu mà không thấy bỡ ngỡ, chướng tai; dịch các sách triết, khoa học như vậy thì không có hại, dịch văn thơ mà phải theo lối đó thì cái hay trong nguyên tác mười phần mất đến sáu bảy,”
 

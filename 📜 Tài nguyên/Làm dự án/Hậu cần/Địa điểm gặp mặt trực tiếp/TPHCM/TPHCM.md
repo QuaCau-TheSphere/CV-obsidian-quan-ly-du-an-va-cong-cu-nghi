@@ -1,7 +1,9 @@
 ---
-share: True
+share: true
 title: Nơi gặp mặt offline tại TPHCM
 alias: Nơi gặp mặt offline tại TPHCM
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 
 > [!info] Hướng dẫn sử dụng

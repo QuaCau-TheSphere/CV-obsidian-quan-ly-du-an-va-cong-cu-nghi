@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-10-01T23:50
+updated: 2023-10-06T18:28
 ---
 mình nghĩ cái mà bạn đang tìm kiếm là một từ khoá. Và mình nghĩ cái từ khoá bạn đang kiếm là **công cụ nghĩ (tool for thought)**. Mình nghĩ có thể xem nó như là một bản mở rộng của khái niệm UX. Nhưng nếu chỉ kiếm trên Product Hunt thì mình nghĩ cũng chiều sâu kiến thức của những trang này cũng hạn chế, vì vốn nó chỉ tập trung vào trưng bày công cụ, chứ không phải cái ý đồ thiết kế nên các công cụ này. Mình nghĩ tốt nhất là tìm những tác giả tiên phong về vấn đề này thì sẽ có thêm nhiều hiểu biết sâu hơn. 
 

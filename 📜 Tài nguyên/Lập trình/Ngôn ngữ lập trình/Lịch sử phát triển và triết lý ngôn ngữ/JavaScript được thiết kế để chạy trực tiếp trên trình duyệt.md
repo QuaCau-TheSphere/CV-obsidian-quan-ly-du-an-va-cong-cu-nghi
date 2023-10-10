@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 JavaScript là dynamic typing, có nghĩa là một biến có thể nhận bất cứ kiểu dữ liệu nào (ví dụ integer sau đó lại gán thành string). Đây là một ưu điểm lớn với những script nhỏ (vài dòng đến vài chục dòng) vì nó giúp lập trình nhanh hơn. Nhưng với những ứng dụng lớn, có nhiều module, điều đó khiến việc xử lý dữ liệu nhiều khi rơi vào bế tắc do không biết dữ liệu của biến là gì (và nó đã bị thay đổi từ khi nào).
 

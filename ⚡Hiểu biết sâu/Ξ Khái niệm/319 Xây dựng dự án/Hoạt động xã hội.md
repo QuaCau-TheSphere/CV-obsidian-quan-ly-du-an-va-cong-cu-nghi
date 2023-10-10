@@ -1,3 +1,7 @@
+---
+created: 2023-06-12T00:57
+updated: 2023-10-06T16:09
+---
 ❓:: [[Các dự án sắp xếp thời gian thế nào？]] 
 ❓:: [[Sự mâu thuẫn về triết lý giữa các dự án]]
 Câu hỏi liên quan đến chủ đề này:

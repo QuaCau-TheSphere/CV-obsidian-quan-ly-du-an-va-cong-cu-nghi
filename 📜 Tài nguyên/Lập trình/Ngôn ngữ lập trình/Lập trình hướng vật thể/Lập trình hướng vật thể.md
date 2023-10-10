@@ -1,3 +1,7 @@
+---
+created: 2023-07-16T20:30
+updated: 2023-10-06T16:09
+---
 ```dataview
 LIST
 FROM "Lập trình hướng vật thể" 

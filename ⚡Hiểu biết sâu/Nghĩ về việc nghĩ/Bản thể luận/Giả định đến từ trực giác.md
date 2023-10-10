@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-20T14:36
-updated: 2023-09-12T18:41
+updated: 2023-10-10T16:22
 ---
 Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 [[Trực giác là việc nhìn ra mẫu hình không hơn không kém]]

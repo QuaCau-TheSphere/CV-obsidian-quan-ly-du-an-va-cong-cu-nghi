@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-06-05T15:42
+updated: 2023-10-06T16:09
 ---
 Họ đưa ra dự đoán còn tệ hơn đánh ngẫu nhiên
 [[Con người thường cố gắng tìm ra mẫu hình, kể cả khi nó không có ở đó]] 

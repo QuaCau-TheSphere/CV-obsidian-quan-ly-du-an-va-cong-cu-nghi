@@ -1,5 +1,7 @@
 ---
-share: True
+share: true
+created: 2023-07-19T23:39
+updated: 2023-10-06T16:09
 ---
 As you can see below, even though the array is logged before the mutating method is applied, the debugger still shows it as already being applied. However, its elements and properties when called specifically still return correctly:
 

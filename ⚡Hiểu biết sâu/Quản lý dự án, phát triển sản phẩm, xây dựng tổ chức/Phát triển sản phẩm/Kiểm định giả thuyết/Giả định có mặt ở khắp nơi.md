@@ -1,6 +1,6 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-09-12T18:42
+updated: 2023-10-06T16:09
 ---
 [[Giả định đến từ trực giác]]

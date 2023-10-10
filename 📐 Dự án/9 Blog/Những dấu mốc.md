@@ -1,6 +1,8 @@
 ---
 alias: lịch sử phát triển vault
-share: True
+share: true
+created: 2023-05-26T14:51
+updated: 2023-10-06T16:09
 ---
 # 2023
 - 01/05: Ra mắt phiên bản web

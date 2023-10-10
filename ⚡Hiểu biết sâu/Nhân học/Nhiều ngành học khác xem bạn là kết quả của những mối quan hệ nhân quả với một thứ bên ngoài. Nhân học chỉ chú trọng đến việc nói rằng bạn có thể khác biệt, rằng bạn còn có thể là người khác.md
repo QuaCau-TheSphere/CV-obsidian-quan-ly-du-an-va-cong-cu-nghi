@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-18T17:40
-updated: 2023-10-06T13:01
+updated: 2023-10-09T21:05
 ---
 Đưa chúng ta quay ngược dòng thời gian về với thời điểm sáng lập nên ngành nhân học như một ngành khoa học, Hage nhắc chúng ta rằng nhân học đã khởi phát là nghiên cứu về ‘tha nhân’ – người khác (other). Đấy là cội nguồn nền tảng của nhân học. Ngày nay điều này không chỉ có ngành nhân học. Giờ đây chúng ta có thể nghiên cứu mọi thứ, mọi nhóm người, hiện đại hay truyền thống, lớn, nhỏ, địa phương, toàn cầu, đô thị hay nông thôn.... Nhưng nhân học luôn phải gắn với cội nguồn của mình, với nghiên cứu về tha nhân. Đó là trái tim của nhân học. Không có nghiên cứu này sẽ không có nhân học. Tại sao? Bởi vì cái mà chúng ta học hỏi được là điều mà chúng ta sẽ mang đến với những loại nhân học khác. Cái chúng ta học được từ tha nhân là gì? Chúng ta có thể thấy bằng cách so sánh nhân học với những ngành khoa học xã hội khác. Tất cả khoa học xã hội tìm cách mang lại cho chúng ta một sự hiểu biết về xã hội và văn hoá loài người, về chúng ta – những sinh vật xã hội – là ai. Có nhiều cách khác nhau để làm điều này. Hage đưa ra 4 ví dụ:
 
