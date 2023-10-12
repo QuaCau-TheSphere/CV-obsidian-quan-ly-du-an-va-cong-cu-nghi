@@ -105,12 +105,12 @@ var HeadingShifterSettingTab = class extends import_obsidian.PluginSettingTab {
       yield this.plugin.saveSettings();
     })));
     containerEl.createEl("h3", { text: "Style to remove" });
-    containerEl.createEl("p", { text: "If this style is at the beginning of a line, remove it and make it Heading" });
-    new import_obsidian.Setting(containerEl).setName("unordered list").setDesc("-").addToggle((toggle) => toggle.setValue(this.plugin.settings.styleToRemove.ul).onChange((value) => __async(this, null, function* () {
+    containerEl.createEl("p", { text: "If this style is at the beginning of a line, replace it by a Heading:" });
+    new import_obsidian.Setting(containerEl).setName("Unordered list").setDesc("-").addToggle((toggle) => toggle.setValue(this.plugin.settings.styleToRemove.ul).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.styleToRemove.ul = value;
       yield this.plugin.saveSettings();
     })));
-    new import_obsidian.Setting(containerEl).setName("orderd list").setDesc("1., 2. ,3. ,...").addToggle((toggle) => toggle.setValue(this.plugin.settings.styleToRemove.ol).onChange((value) => __async(this, null, function* () {
+    new import_obsidian.Setting(containerEl).setName("Ordered list").setDesc("1., 2. ,3. ,...").addToggle((toggle) => toggle.setValue(this.plugin.settings.styleToRemove.ol).onChange((value) => __async(this, null, function* () {
       this.plugin.settings.styleToRemove.ol = value;
       yield this.plugin.saveSettings();
     })));

@@ -1,6 +1,8 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-10-11T11:26
 ---
-[Metaphors We Web By](https://maggieappleton.com/metaphors-web)
+Khái niệm:: [[Ẩn dụ]]
+
+Nguồn:: [[Maggie Appleton]], [Metaphors We Web By](https://maggieappleton.com/metaphors-web)

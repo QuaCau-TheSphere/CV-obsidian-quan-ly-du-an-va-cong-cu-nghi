@@ -71,7 +71,8 @@ var import_obsidian3 = __toModule(require("obsidian"));
 
 // src/settings.ts
 var defaultSettings = {
-  timestampFormat: "YY-MM-DD hh:mm:ss",
+  timestampFormat: "YY-MM-DD HH:mm:ss",
+  editableTimestampFormat: "YYYY-MM-DD HH:mm:ss",
   csvDelimiter: ",",
   fineGrainedDurations: true
 };
@@ -140,7 +141,9 @@ ${next}`;
 function loadTracker(json) {
   if (json) {
     try {
-      return JSON.parse(json);
+      let ret = JSON.parse(json);
+      fixLegacyTimestamps(ret.entries);
+      return ret;
     } catch (e) {
       console.log(`Failed to parse Tracker from ${json}`);
     }
@@ -148,6 +151,7 @@ function loadTracker(json) {
   return { entries: [] };
 }
 function displayTracker(tracker, element, file, getSectionInfo, settings) {
+  element.classList.add("simple-time-tracker-container");
   let running = isRunning(tracker);
   let btn = new import_obsidian2.ButtonComponent(element).setClass("clickable-icon").setIcon(`lucide-${running ? "stop" : "play"}-circle`).setTooltip(running ? "End" : "Start").onClick(() => __async(this, null, function* () {
     if (running) {
@@ -193,17 +197,17 @@ function startSubEntry(entry, name) {
   }
   if (!name)
     name = `Part ${entry.subEntries.length + 1}`;
-  entry.subEntries.push({ name, startTime: (0, import_obsidian2.moment)().unix(), endTime: null, subEntries: null });
+  entry.subEntries.push({ name, startTime: (0, import_obsidian2.moment)().toISOString(), endTime: null, subEntries: null });
 }
 function startNewEntry(tracker, name) {
   if (!name)
     name = `Segment ${tracker.entries.length + 1}`;
-  let entry = { name, startTime: (0, import_obsidian2.moment)().unix(), endTime: null, subEntries: null };
+  let entry = { name, startTime: (0, import_obsidian2.moment)().toISOString(), endTime: null, subEntries: null };
   tracker.entries.push(entry);
 }
 function endRunningEntry(tracker) {
   let entry = getRunningEntry(tracker.entries);
-  entry.endTime = (0, import_obsidian2.moment)().unix();
+  entry.endTime = (0, import_obsidian2.moment)().toISOString();
 }
 function removeEntry(entries, toRemove) {
   if (entries.contains(toRemove)) {
@@ -244,8 +248,8 @@ function getDuration(entry) {
   if (entry.subEntries) {
     return getTotalDuration(entry.subEntries);
   } else {
-    let endTime = entry.endTime ? import_obsidian2.moment.unix(entry.endTime) : (0, import_obsidian2.moment)();
-    return endTime.diff(import_obsidian2.moment.unix(entry.startTime));
+    let endTime = entry.endTime ? (0, import_obsidian2.moment)(entry.endTime) : (0, import_obsidian2.moment)();
+    return endTime.diff((0, import_obsidian2.moment)(entry.startTime));
   }
 }
 function getTotalDuration(entries) {
@@ -265,7 +269,13 @@ function setCountdownValues(tracker, current, total, currentDiv, settings) {
   total.setText(formatDuration(getTotalDuration(tracker.entries), settings));
 }
 function formatTimestamp(timestamp, settings) {
-  return import_obsidian2.moment.unix(timestamp).format(settings.timestampFormat);
+  return (0, import_obsidian2.moment)(timestamp).format(settings.timestampFormat);
+}
+function formatEditableTimestamp(timestamp, settings) {
+  return (0, import_obsidian2.moment)(timestamp).format(settings.editableTimestampFormat);
+}
+function unformatEditableTimestamp(formatted, settings) {
+  return (0, import_obsidian2.moment)(formatted, settings.editableTimestampFormat).toISOString();
 }
 function formatDuration(totalTime, settings) {
   let ret = "";
@@ -288,6 +298,16 @@ function formatDuration(totalTime, settings) {
     ret += duration.minutes() + "m ";
   ret += duration.seconds() + "s";
   return ret;
+}
+function fixLegacyTimestamps(entries) {
+  for (let entry of entries) {
+    if (!isNaN(+entry.startTime))
+      entry.startTime = import_obsidian2.moment.unix(+entry.startTime).toISOString();
+    if (entry.endTime && !isNaN(+entry.endTime))
+      entry.endTime = import_obsidian2.moment.unix(+entry.endTime).toISOString();
+    if (entry.subEntries)
+      fixLegacyTimestamps(entry.subEntries);
+  }
 }
 function createMarkdownTable(tracker, settings) {
   let table = [["Segment", "Start time", "End time", "Duration"]];
@@ -327,15 +347,64 @@ function createTableSection(entry, settings) {
   }
   return ret;
 }
+var EditableField = class {
+  constructor(row, indent, value) {
+    this.cell = row.createEl("td");
+    this.label = this.cell.createEl("span", { text: value });
+    this.label.style.marginLeft = `${indent}em`;
+    this.box = new import_obsidian2.TextComponent(this.cell).setValue(value);
+    this.box.inputEl.classList.add("simple-time-tracker-input");
+    this.box.inputEl.hide();
+  }
+  editing() {
+    return this.label.hidden;
+  }
+  beginEdit(value) {
+    this.label.hidden = true;
+    this.box.setValue(value);
+    this.box.inputEl.show();
+  }
+  endEdit() {
+    const value = this.box.getValue();
+    this.label.setText(value);
+    this.box.inputEl.hide();
+    this.label.hidden = false;
+    return value;
+  }
+};
+var EditableTimestampField = class extends EditableField {
+  constructor(row, indent, value, settings) {
+    super(row, indent, value ? formatTimestamp(value, settings) : "");
+    this.settings = settings;
+  }
+  beginEdit(value) {
+    super.beginEdit(value ? formatEditableTimestamp(value, this.settings) : "");
+  }
+  endEdit() {
+    const value = this.box.getValue();
+    let displayValue = value;
+    if (value) {
+      const timestamp = unformatEditableTimestamp(value, this.settings);
+      displayValue = formatTimestamp(timestamp, this.settings);
+    }
+    this.label.setText(displayValue);
+    this.box.inputEl.hide();
+    this.label.hidden = false;
+    return value;
+  }
+  getTimestamp() {
+    if (this.box.getValue()) {
+      return unformatEditableTimestamp(this.box.getValue(), this.settings);
+    } else {
+      return null;
+    }
+  }
+};
 function addEditableTableRow(tracker, entry, table, newSegmentNameBox, running, file, getSectionInfo, settings, indent) {
   let row = table.createEl("tr");
-  let name = row.createEl("td");
-  let namePar = name.createEl("span", { text: entry.name });
-  namePar.style.marginLeft = `${indent}em`;
-  let nameBox = new import_obsidian2.TextComponent(name).setValue(entry.name);
-  nameBox.inputEl.hidden = true;
-  row.createEl("td", { text: entry.startTime ? formatTimestamp(entry.startTime, settings) : "" });
-  row.createEl("td", { text: entry.endTime ? formatTimestamp(entry.endTime, settings) : "" });
+  let nameField = new EditableField(row, indent, entry.name);
+  let startField = new EditableTimestampField(row, indent, entry.startTime, settings);
+  let endField = new EditableTimestampField(row, indent, entry.endTime, settings);
   row.createEl("td", { text: entry.endTime || entry.subEntries ? formatDuration(getDuration(entry), settings) : "" });
   let entryButtons = row.createEl("td");
   if (!running) {
@@ -345,19 +414,18 @@ function addEditableTableRow(tracker, entry, table, newSegmentNameBox, running, 
     }));
   }
   let editButton = new import_obsidian2.ButtonComponent(entryButtons).setClass("clickable-icon").setTooltip("Edit").setIcon("lucide-pencil").onClick(() => __async(this, null, function* () {
-    if (namePar.hidden) {
-      namePar.hidden = false;
-      nameBox.inputEl.hidden = true;
+    if (nameField.editing()) {
+      entry.name = nameField.endEdit();
+      startField.endEdit();
+      entry.startTime = startField.getTimestamp();
+      endField.endEdit();
+      entry.endTime = endField.getTimestamp();
+      yield saveTracker(tracker, this.app, file, getSectionInfo());
       editButton.setIcon("lucide-pencil");
-      if (nameBox.getValue()) {
-        entry.name = nameBox.getValue();
-        namePar.setText(entry.name);
-        yield saveTracker(tracker, this.app, file, getSectionInfo());
-      }
     } else {
-      namePar.hidden = true;
-      nameBox.inputEl.hidden = false;
-      nameBox.setValue(entry.name);
+      nameField.beginEdit(entry.name);
+      startField.beginEdit(entry.startTime);
+      endField.beginEdit(entry.endTime);
       editButton.setIcon("lucide-check");
     }
   }));

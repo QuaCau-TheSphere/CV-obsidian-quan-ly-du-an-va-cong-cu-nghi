@@ -1,8 +1,15 @@
 ---
 share: true
 created: 2023-06-03T09:36
-updated: 2023-10-06T16:09
+updated: 2023-10-11T11:38
 ---
+Khái niệm:: [[Ẩn dụ]]
+
+Lý do:: [[Chúng ta sống bằng ẩn dụ]]
+[[Ta mô phỏng thế giới qua những vật thể]]
+
+---
+
 > Try, for a moment to imagine what “[Typescript with React](https://egghead.io/courses/use-typescript-to-develop-react-applications)" visually looks like. Or "[A Server-rendered ReactJS Application with Next.js](https://egghead.io/courses/build-a-server-rendered-reactjs-application-with-next-js)". Or the "[State Monad in JavaScript](https://egghead.io/courses/state-monad-in-javascript)"
 > 
 > Not exactly a vivid picture in your mind, right?
@@ -19,3 +26,4 @@ updated: 2023-10-06T16:09
 > Funnily enough, it also fits our definition of a metaphor. _Programming is just a giant stack of metaphors._ Each layer of the metaphorical stack moves us further away from machine world, and closer to human world.
 
 Nguồn:: [[Maggie Appleton]], [How to Draw Invisible Programming Concepts: Part I](https://maggieappleton.com/drawinginvisibles1)
+

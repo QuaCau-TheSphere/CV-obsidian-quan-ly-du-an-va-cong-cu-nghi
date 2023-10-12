@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Tài nguyên/📜 Tài nguyên.md",
-                "mode": "preview",
+                "file": "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c337a3ea5e852bbb",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Tài nguyên/📜 Tài nguyên.md",
+                "file": "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Tài nguyên/📜 Tài nguyên.md",
+                "file": "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜 Tài nguyên/📜 Tài nguyên.md"
+                "file": "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ.md"
               }
             }
           }
@@ -139,43 +140,45 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "dbfolder:Create a new database table": false,
-      "templater-obsidian:Templater": false,
-      "obsidian42-brat:BRAT": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "notion-like-tables:Create loom": false,
+      "dbfolder:Create a new database table": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "obsidian42-brat:BRAT": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "5d91214f68641432",
   "lastOpenFiles": [
-    "📐 Dự án/9 Blog/Về chữ Nguồn.md",
-    "📐 Dự án/9 Blog/Từ việc hỗ trợ Kendy đến Patreon và tâm lý của con người về tiền.md",
-    "📐 Dự án/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền.md",
-    "📐 Dự án/9 Blog/Tôi có thể giúp gì？.md",
-    "📐 Dự án/9 Blog/Tại sao lại cần tải vault về hơn là đọc trên web？.md",
-    "📐 Dự án/9 Blog/Nơi này là nơi nào？.md",
-    "📐 Dự án/9 Blog/Những dấu mốc.md",
-    "📐 Dự án/9 Blog/Mọi người hay thảo luận ở đâu？.md",
-    "📐 Dự án/9 Blog/Khác biệt giữa cộng đồng Obsidian tiếng Việt ở Facebook và Discord.md",
-    "📐 Dự án/9 Blog/Hướng dẫn đọc code cho người thấy việc biết lập trình là quan trọng nhưng không thể biến nó trở thành ưu tiên cao nhất.md",
-    "📐 Dự án/3 Thành phẩm/3 Thành phẩm.md",
-    "⚡Hiểu biết sâu/⚡Hiểu biết sâu.md",
-    "📐 Dự án/3 Thành phẩm/Trấn Kỳ/Kế hoạch giúp Kendy.md",
+    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Uy quyền diễn giải loại bỏ các quá trình đối thoại. Uy quyền đối thoại hoàn toàn che dấu đi tiến trình văn bản hóa.md",
+    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Sự kiểm soát của người bản xứ đối với những kiến thức có được trong quá trình thực địa là khá đáng kể, và thậm chí là có tính quyết định.md",
+    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ.md",
+    "⚡Hiểu biết sâu/Nhân học/Nhiều ngành học xem con người là kết quả của những thứ bên ngoài trong mối quan hệ nhân quả. Nhân học chỉ chú trọng đến việc nói rằng bạn có thể khác biệt, rằng bạn còn có thể là người khác.md",
+    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Khi nhà nghiên cứu xem mình là người đọc và chú giải văn bản, họ bóc tách các lớp để tạo ra một văn bản mới. Khi họ xem mình là đưa thư, họ kết nối những văn bản để tạo ra văn bản mới.md",
+    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Người làm nhân học kết nối với lý thuyết nhiều hơn, còn nhà báo tường thuật sự kiện nhiều hơn.md",
+    "⚡Hiểu biết sâu/Nhân học/Nhân học cho ta cái nhìn sơ lược về những khả thể khác của con người.md",
+    "⚡Hiểu biết sâu/Nhân học/Nhân học là triết học trong xã hội.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Kể cả khi AI có thể làm mất việc, thì những ngành khác cũng sẽ tạo ra nhiều loại việc khác.md",
     "📐 Dự án/3 Thành phẩm/Trấn Kỳ/Lý do viết Trấn Kỳ.md",
-    "📐 Dự án/3 Thành phẩm/Phần mềm/Bộ cài/Hướng dẫn tải vault.md",
-    "📐 Dự án/3 Thành phẩm/Phần mềm/Bộ cài/Bộ cài.md",
-    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về sản phẩm/Các nghiên cứu về sản phẩm.md",
-    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về người dùng.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi họp xây dựng kế hoạch phát triển/Các buổi họp xây dựng kế hoạch phát triển.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi giới thiệu vault/Các buổi giới thiệu vault.md",
-    "📐 Dự án/3 Thành phẩm/Trấn Kỳ/Thành quả mong muốn/Mỗi tuần có 3 người chia sẻ trang.md",
-    "📐 Dự án/3 Thành phẩm/Trấn Kỳ/Thành quả mong muốn/Mỗi tuần có 2 người mua hàng.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/Khảo sát người có nhu cầu học lập trình.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/Khảo sát người muốn tham gia nhóm học lập trình.md",
-    "📐 Dự án/3 Thành phẩm/Các bài viết truyền thông/Các bài viết truyền thông.md"
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức/Công việc/Công việc khai phá và công việc khai thác.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Công việc khai phá chính là quản lý kiến thức.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/Quản lý dự án/Công việc.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/Quản trị kiến thức.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/Quản lý công việc.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quản lý công việc và quản lý kiến thức không thể tách rời nhau.md",
+    "] ] , trong khi [[Quản lý công việc và quản lý kiến thức không thể tách rời nhau.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/Thoả mãn, vui, thoải mái.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/Thước đo, kết quả mong muốn.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/Tò mò thử, hứng thú, mong muốn, ý định, động lực nội sinh, đam mê, ưu tiên, sẵn sàng, cam kết, gắn bó, trách nhiệm.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/Vấn đề của QC, thứ người ngoài thấy ở QC.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93 Thống nhất nội hàm, khái niệm.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Ưu tiên.md",
+    "🌟 Mở đầu.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Tự động hoá/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+    "Untitled.md"
   ]
 }

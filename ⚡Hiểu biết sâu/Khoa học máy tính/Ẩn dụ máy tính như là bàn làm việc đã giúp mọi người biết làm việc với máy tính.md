@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-08T16:26
+updated: 2023-10-11T11:27
 ---
+Khái niệm:: [[Ẩn dụ]]
 But he talked about how in the very beginning when, mostly at Apple, they were starting to try and design those icons, and figure out a way to give cause, right, Apple designed the desktop metaphor right? So before that, all computers were just the command line. You know, you just don't have anywhere to start. And they designed this idea of like, okay, your computer is like your desk and the code on your thing is contained into files, just like your paper on the desk.
 
 [38:34] **Maggie**: And everything about the way we use modern computers is framed around this, this desktop metaphor. I found his name, **Tim Rohrer**. I can't say that. Anyway, he wrote a lot of wonderful papers about the history of internet metaphors and digital metaphors.

@@ -403,6 +403,7 @@ var import_state = __toModule(require("@codemirror/state"));
 var TRUE_VALUE = ":: true";
 var FALSE_VALUE = ":: false";
 var TOGGLE_CLASSNAME = "bif-boolean-toggle";
+var FIELD_REGEX = /.*::\s*(true|false)/g;
 var CheckboxWidget = class extends import_view.WidgetType {
   constructor(checked) {
     super();
@@ -434,27 +435,34 @@ function getIndicesOf(text, search) {
   }
   return indices;
 }
-function createDecorator(index, kind, from, replace) {
+function createDecorator(index, kind, from, checkboxPosition, leftStart) {
+  if (checkboxPosition === "none")
+    return null;
   let deco;
-  if (replace) {
+  if (checkboxPosition === "replace") {
     deco = import_view.Decoration.replace({
       widget: new CheckboxWidget(kind)
     });
   } else {
     deco = import_view.Decoration.widget({
-      widget: new CheckboxWidget(kind),
-      side: 1
+      widget: new CheckboxWidget(kind)
     });
   }
   const fromIndex = from + index + 3;
   const toIndex = fromIndex - 3 + (kind ? TRUE_VALUE.length : FALSE_VALUE.length);
-  if (replace) {
+  if (checkboxPosition === "replace") {
     return [deco, fromIndex, toIndex];
   } else {
-    return [deco, toIndex, toIndex];
+    if (checkboxPosition === "left" && leftStart !== void 0) {
+      1;
+      return [deco, from + leftStart, from + leftStart];
+    } else if (checkboxPosition === "right") {
+      return [deco, toIndex, toIndex];
+    }
   }
+  return null;
 }
-function addDecoratorsForLine(line, from, builder, shouldReplace) {
+function addDecoratorsForLine(line, from, builder, checkboxPosition) {
   const trueIndices = getIndicesOf(line, TRUE_VALUE).map((index) => ({
     index,
     kind: true
@@ -465,58 +473,80 @@ function addDecoratorsForLine(line, from, builder, shouldReplace) {
   }));
   const allIndices = trueIndices.concat(falseIndices).sort(({ index: indexA }, { index: indexB }) => indexA - indexB);
   allIndices.forEach(({ kind, index }) => {
-    const decoratorInfo = createDecorator(index, kind, from, shouldReplace);
+    let leftStart;
+    if (checkboxPosition === "left") {
+      leftStart = getStartOfLineIndex(line);
+    }
+    const decoratorInfo = createDecorator(index, kind, from, checkboxPosition, leftStart);
     if (!decoratorInfo)
       return;
     const [decorator, fromIndex, toIndex] = decoratorInfo;
     builder.add(fromIndex, toIndex, decorator);
   });
 }
-function getCheckboxDecorators(view) {
+function getStartOfLineIndex(line) {
+  const trimmedLine = line.trim();
+  const isBulletPoint = trimmedLine.startsWith("- ");
+  const startIndex = isBulletPoint ? 2 : 0;
+  return line.indexOf(trimmedLine) + startIndex;
+}
+function getCheckboxDecorators(view, checkboxPosition) {
   const builder = new import_state.RangeSetBuilder();
   for (const { from, to } of view.visibleRanges) {
     const startLine = view.state.doc.lineAt(from);
     const endLine = view.state.doc.lineAt(to);
     for (const lineNumber of (0, import_range.default)(startLine.number, endLine.number)) {
       const line = view.state.doc.line(lineNumber);
-      addDecoratorsForLine(line.text, line.from, builder, false);
+      addDecoratorsForLine(line.text, line.from, builder, checkboxPosition);
     }
   }
   return builder.finish();
 }
-var toggleBoolean = (view, pos) => {
-  const before = view.state.doc.sliceString(Math.max(0, pos - 5), pos);
+var toggleBoolean = (view, pos, checkboxPosition) => {
+  let to;
+  if (checkboxPosition === "left" || checkboxPosition === "replace") {
+    const line = view.state.doc.lineAt(pos);
+    const match = line.text.match(FIELD_REGEX);
+    if (!match)
+      return false;
+    to = line.from + match[0].length;
+  } else {
+    to = pos;
+  }
+  const valueText = view.state.doc.sliceString(Math.max(0, to - 5), to);
   let changes;
-  if (before === "false") {
-    changes = { from: pos - 5, to: pos, insert: "true" };
-  } else if (before.endsWith("true")) {
-    changes = { from: pos - 4, to: pos, insert: "false" };
+  if (valueText === "false") {
+    changes = { from: to - 5, to, insert: "true" };
+  } else if (valueText.endsWith("true")) {
+    changes = { from: to - 4, to, insert: "false" };
   } else {
     return false;
   }
   view.dispatch({ changes });
   return true;
 };
-var checkboxPlugin = import_view.ViewPlugin.fromClass(class {
-  constructor(view) {
-    this.decorations = getCheckboxDecorators(view);
-  }
-  update(update) {
-    if (update.docChanged || update.viewportChanged || update.selectionSet)
-      this.decorations = getCheckboxDecorators(update.view);
-  }
-}, {
-  decorations: (value) => value.decorations,
-  eventHandlers: {
-    mousedown: (e, view) => {
-      const target = e.target;
-      if (target && target.nodeName === "INPUT" && target.classList.contains(TOGGLE_CLASSNAME)) {
-        return toggleBoolean(view, view.posAtDOM(target));
-      }
-      return false;
+var checkboxPlugin = (checkboxPosition) => {
+  return import_view.ViewPlugin.fromClass(class {
+    constructor(view) {
+      this.decorations = getCheckboxDecorators(view, checkboxPosition);
     }
-  }
-});
+    update(update) {
+      if (update.docChanged || update.viewportChanged || update.selectionSet)
+        this.decorations = getCheckboxDecorators(update.view, checkboxPosition);
+    }
+  }, {
+    decorations: (value) => value.decorations,
+    eventHandlers: {
+      mousedown: (e, view) => {
+        const target = e.target;
+        if (target && target.nodeName === "INPUT" && target.classList.contains(TOGGLE_CLASSNAME)) {
+          return toggleBoolean(view, view.posAtDOM(target), checkboxPosition);
+        }
+        return false;
+      }
+    }
+  });
+};
 
 // src/settings/BetterInlineFieldsSettingTab.ts
 var import_obsidian3 = __toModule(require("obsidian"));
@@ -2240,6 +2270,9 @@ var FolderSuggest = class extends TextInputSuggest {
 };
 
 // src/settings/BetterInlineFieldsSettingTab.ts
+function isCheckboxPosition(newValue) {
+  return ["left", "right", "replace", "none"].includes(newValue);
+}
 var BetterInlineFieldsSettingTab = class extends import_obsidian3.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
@@ -2258,6 +2291,19 @@ var BetterInlineFieldsSettingTab = class extends import_obsidian3.PluginSettingT
       });
       return;
     }
+    new import_obsidian3.Setting(this.containerEl).setName("Boolean inline field checkbox position").setDesc('Position of the checkbox for inline boolean fields (eg. "value:: true" and "[[value:: true]]"). Reload Obisidian for the change to take effect.').addDropdown((dropdown) => {
+      dropdown.addOption("left", "Beginning of line");
+      dropdown.addOption("right", "After value");
+      dropdown.addOption("replace", "Replace value");
+      dropdown.addOption("none", "None");
+      dropdown.setValue(this.plugin.settings.checkboxPosition);
+      dropdown.onChange(async (newValue) => {
+        if (!isCheckboxPosition(newValue))
+          return;
+        this.plugin.settings.checkboxPosition = newValue;
+        await this.plugin.saveSettings();
+      });
+    });
     new import_obsidian3.Setting(this.containerEl).setName("Autocompletion Regexp Trigger").setDesc("Character that triggers regexp search in autocompletion (needs to be at start)").addText((text) => text.setPlaceholder("/").setValue(this.plugin.settings.regexpTrigger).onChange((newValue) => {
       this.plugin.settings.regexpTrigger = newValue;
       this.plugin.saveSettings();
@@ -2428,7 +2474,7 @@ var PagesEditSuggest = class extends import_obsidian4.EditorSuggest {
 };
 
 // src/main.ts
-var DEFAULT_SETTINGS = { autocomplete: [], regexpTrigger: "/" };
+var DEFAULT_SETTINGS = { autocomplete: [], regexpTrigger: "/", checkboxPosition: "right" };
 var BetterInlineFieldsPlugin = class extends import_obsidian5.Plugin {
   constructor() {
     super(...arguments);
@@ -2442,7 +2488,8 @@ var BetterInlineFieldsPlugin = class extends import_obsidian5.Plugin {
   }
   async onload() {
     await this.loadSettings();
-    this.registerEditorExtension(checkboxPlugin);
+    const extension = checkboxPlugin(this.settings.checkboxPosition);
+    this.registerEditorExtension(extension);
     this.addSettingTab(new BetterInlineFieldsSettingTab(this.app, this));
     this.registerEditorSuggest(new PagesEditSuggest(this.app, this));
   }

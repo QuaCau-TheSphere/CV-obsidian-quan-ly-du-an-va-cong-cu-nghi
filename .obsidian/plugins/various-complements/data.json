@@ -3,6 +3,7 @@
   "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "prefix",
   "fuzzyMatch": true,
+  "minFuzzyMatchScore": 0.5,
   "matchingWithoutEmoji": true,
   "treatAccentDiacriticsAsAlphabeticCharacters": false,
   "maxNumberOfSuggestions": 255,
@@ -14,19 +15,47 @@
   "disableSuggestionsDuringImeOn": false,
   "insertAfterCompletion": false,
   "firstCharactersDisableSuggestions": ":/^",
-  "useCommonPrefixCompletionOfSuggestion": false,
   "patternsToSuppressTrigger": [
     "^~~~.*",
     "^```.*"
   ],
-  "showMatchStrategy": false,
+  "noAutoFocusUntilCycle": false,
+  "showMatchStrategy": true,
   "showComplementAutomatically": false,
   "showIndexingStatus": false,
   "descriptionOnSuggestion": "Short",
-  "selectSuggestionKeys": "Enter",
-  "additionalCycleThroughSuggestionsKeys": "Tab, Shift+Tab",
-  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
-  "openSourceFileKey": "None",
+  "hotkeys": {
+    "select": [
+      {
+        "modifiers": [],
+        "key": "Enter"
+      }
+    ],
+    "up": [
+      {
+        "modifiers": [],
+        "key": "ArrowUp"
+      }
+    ],
+    "down": [
+      {
+        "modifiers": [],
+        "key": "ArrowDown"
+      }
+    ],
+    "select 1st": [],
+    "select 2nd": [],
+    "select 3rd": [],
+    "select 4th": [],
+    "select 5th": [],
+    "select 6th": [],
+    "select 7th": [],
+    "select 8th": [],
+    "select 9th": [],
+    "open": [],
+    "completion": [],
+    "insert as text": []
+  },
   "propagateEsc": false,
   "enableCurrentFileComplement": false,
   "currentFileMinNumberOfCharacters": 0,
@@ -53,63 +82,22 @@
     "beforeRegExp": "",
     "after": ""
   },
+  "frontMatterKeyForExclusionInternalLink": "",
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": true,
   "intelligentSuggestionPrioritization": {
+    "enabled": true,
+    "historyFilePath": "",
     "maxDaysToKeepHistory": 30,
     "maxNumberOfHistoryToKeep": 0
   },
   "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": true,
-  "selectionHistoryTree": {
-    "Giải pháp gợi ý:: ": {
-      "Giải pháp gợi ý:: ": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1681190160625
-        }
-      }
-    },
-    "Lý do:: ": {
-      "Lý do:: ": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1681190494994
-        }
-      }
-    },
-    "```dataview\nLIST\nFROM |\nWHERE\n```": {
-      "```dataview\nLIST\nFROM |\nWHERE\n```": {
-        "customDictionary": {
-          "count": 2,
-          "lastUpdated": 1682778155628
-        }
-      }
-    },
-    "Câu hỏi:: ": {
-      "Câu hỏi:: ": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1681711394749
-        }
-      }
-    },
-    "Xem thêm:: ": {
-      "Xem thêm:: ": {
-        "customDictionary": {
-          "count": 1,
-          "lastUpdated": 1682321685580
-        }
-      }
-    },
-    "Lý do :: ld": {
-      "Lý do :: ld": {
-        "customDictionary": {
-          "count": 2,
-          "lastUpdated": 1682860727068
-        }
-      }
-    }
-  }
+  "selectionHistoryTree": {},
+  "useCommonPrefixCompletionOfSuggestion": false,
+  "selectSuggestionKeys": "Enter",
+  "additionalCycleThroughSuggestionsKeys": "Tab, Shift+Tab",
+  "disableUpDownKeysForCycleThroughSuggestionsKeys": false,
+  "openSourceFileKey": "None"
 }

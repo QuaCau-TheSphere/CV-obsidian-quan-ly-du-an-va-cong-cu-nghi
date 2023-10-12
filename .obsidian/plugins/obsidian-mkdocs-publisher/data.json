@@ -1,0 +1,112 @@
+{
+  "github": {
+    "branch": "main",
+    "automaticallyMergePR": true,
+    "api": {
+      "tiersForApi": "Github Free/Pro/Team (default)",
+      "hostname": ""
+    },
+    "otherRepo": [
+      {
+        "smartKey": "test",
+        "branch": "main",
+        "automaticallyMergePR": true,
+        "api": {
+          "tiersForApi": "Github Free/Pro/Team (default)",
+          "hostname": ""
+        },
+        "createShortcuts": false,
+        "shareKey": "share",
+        "copyLink": {
+          "links": "https://www.mara-li.fr/",
+          "removePart": []
+        },
+        "workflow": {
+          "name": "",
+          "commitMessage": "[skip netlify] PUBLISHER"
+        }
+      }
+    ],
+    "workflow": {
+      "name": "",
+      "commitMessage": "[skip netlify] PUBLISHER"
+    },
+    "repo": "CW-obsidian-quan-ly-du-an-va-cong-cu-nghi",
+    "user": "QuaCau-TheSphere",
+    "verifiedRepo": true
+  },
+  "upload": {
+    "behavior": "obsidian",
+    "subFolder": "",
+    "defaultName": "docs",
+    "rootFolder": "docs",
+    "yamlFolderKey": "category",
+    "frontmatterTitle": {
+      "enable": true,
+      "key": "filename"
+    },
+    "replaceTitle": [],
+    "autoclean": {
+      "enable": true,
+      "excluded": [
+        "docs/assets/js",
+        "docs/assets/meta",
+        "docs/assets/css",
+        "tags.md",
+        "graph.md"
+      ]
+    },
+    "folderNote": {
+      "enable": false,
+      "rename": "index.md"
+    },
+    "metadataExtractorPath": "",
+    "replacePath": []
+  },
+  "conversion": {
+    "hardbreak": false,
+    "dataview": true,
+    "censorText": [
+      {
+        "entry": "10. PROJECT/ETERNITY/Wiki/Personnages",
+        "replace": "",
+        "after": true
+      }
+    ],
+    "tags": {
+      "inline": true,
+      "exclude": [],
+      "fields": []
+    },
+    "links": {
+      "internal": true,
+      "unshared": false,
+      "wiki": false
+    }
+  },
+  "embed": {
+    "attachments": true,
+    "keySendFile": [
+      "image"
+    ],
+    "notes": true,
+    "folder": "docs/assets/attachments"
+  },
+  "plugin": {
+    "shareKey": "share",
+    "fileMenu": false,
+    "editorMenu": false,
+    "excludedFolder": [
+      "Thiết lập"
+    ],
+    "copyLink": {
+      "enable": false,
+      "links": "",
+      "removePart": [],
+      "addCmd": false
+    },
+    "noticeError": false,
+    "displayModalRepoEditing": true,
+    "migrated": true
+  }
+}

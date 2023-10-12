@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-11T13:35
-updated: 2023-10-06T16:09
+updated: 2023-10-11T11:35
 ---
 Classifying is a central activity in object-oriented programming and distinguishes it from procedural programming. Traditional logic, initiated by Aristotle, assigns classification to our first activity in reasoning, whereby we come to know what a thing is. Such a grasp of the thing's whatness is the foundation for all further reasoning about it.
 

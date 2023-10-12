@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-12T16:39
-updated: 2023-10-10T17:06
+updated: 2023-10-12T12:18
 ---
 ## Tại sao lại viết chương trình này?
 Đây là nhu cầu của Kendy, và bọn mình giúp được gì thì giúp. Xem thêm bài [[Từ việc hỗ trợ Kendy đến Patreon và tâm lý của con người về tiền]]. 
@@ -10,7 +10,7 @@ Nhưng sau đó, nó còn phục vụ một mong muốn khác của bọn mình 
 
 Trong cái thời đại của 4.0 này, [[Lập trình là một cái gì đó thâm nhập vào đời sống của chúng ta, nhưng lại gần như vô hình]]. Thật là một nghịch lý khi một mặt [[Lập trình viên biết lập trình chủ yếu là nhờ biết google]] — tức là lập trình viên cũng đâu có năng lực gì khác mọi người đâu, ai chăm google thì lên tay thôi— nhưng mặt khác [[Người không học về lập trình thấy việc lập trình như làm phép thuật]]. Khi một người cảm thấy mình mù công nghệ, và chấp nhận rằng mình sẽ chẳng hiểu gì về công nghệ cả, thì họ đang có một sự bất lực học được.
 
-Bằng việc [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu|đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu]], bọn mình hy vọng rằng bạn thấy rằng việc lập trình không chỉ là code sao cho máy chạy đúng ý mình mà còn là cách ta dự phần vào việc hiểu và kiến trúc lên thế giới này. Bọn mình hy vọng rằng việc bạn thấy mình tự tin hơn về lập trình cũng sẽ góp phần giúp Kendy.
+Bằng việc [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu|đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu]], bọn mình hy vọng rằng bạn thấy rằng việc lập trình không chỉ là code sao cho máy chạy đúng ý mình mà còn là [[Lập trình thực ra là dùng ẩn dụ|cách ta dự phần vào việc hiểu và kiến trúc lên thế giới này]]. Bọn mình hy vọng rằng việc bạn thấy mình tự tin hơn về lập trình cũng sẽ góp phần giúp Kendy.
 
 ##  Nếu cần phân loại thu chi thì tại sao không sử dụng các phần mềm quản lý tài chính cá nhân?
 Các phần mềm quản lý tài chính cá nhân như Misa hay Money Lover có giao diện thân thiện hơn chương trình này nhiều. Momo hay ZaloPay còn có chức năng thu chi cho nhóm.
@@ -30,9 +30,13 @@ Các phần mềm hoạch định tài nguyên doanh nghiệp ([enterprise resou
 ### Dùng các ERP được dựng sẵn không đáp ứng được nhu cầu tuỳ chỉnh theo đúng luồng làm việc, suy nghĩ
 ![[Dùng ERP dựng sẵn.png]]
 
-Các sản phẩm ERP tất nhiên cũng đã có nghiên cứu để đáp ứng nhu cầu đa số rồi, và tất nhiên là cũng có thể thiết lập thêm. Tuy nhiên, cũng giống như các phần mềm quản lý tài chính cá nhân được nói ở trên, dữ liệu được lưu trong đây vẫn bị cô lập. Các sản phẩm này được thiết kể để chỉ tập trung vào việc quản lý công việc, quản lý dự án chứ không phải là quản lý kiến thức, trong khi [[Quản lý công việc và quản lý kiến thức không thể tách rời nhau]].
+Có hai loại công việc: [[Công việc khai phá và công việc khai thác]]. Công việc khai phá (exploration) là những công việc mà nếu ta chưa làm xong thì cũng không chắc lắm kết quả trông như thế nào, còn công việc khai thác (exploitation) là những công việc chưa làm cũng biết chính xác kết quả trông như thế nào. Công việc khai phá sử dụng dạng tư duy phi tuyến, và hợp với kiểu dữ liệu phi cấu trúc. Còn công việc khai thác sử dụng dạng tư duy tuyến tính, và hợp với kiểu dữ liệu có cấu trúc.
 
-Thật ra cái gọi là chi phí thấp ở đây chỉ là miễn phí trong một số ngày, một số tính năng hoặc đầu người. Nhưng thường thì có trả tiền để mở khoá tính năng thì những tính năng đó cũng không hướng đến việc trở thành một nơi để quản lý tất cả mọi thứ.
+Bởi vì [[Công việc khai phá chính là quản lý kiến thức]], cho nên [[Quản lý công việc và quản lý kiến thức không thể tách rời nhau]]. Đây là thứ mà các ERP dựng sẵn này không đáp ứng được. Chúng tất nhiên cũng đã có nghiên cứu để đáp ứng nhu cầu đa số rồi, và tất nhiên là người dùng cũng có thể tuỳ chỉnh ở một mức độ nào đó. Tuy nhiên, cũng giống như các phần mềm quản lý tài chính cá nhân được nói ở trên, dữ liệu được lưu trong đây vẫn bị cô lập. Chúng chỉ tập trung vào việc quản lý công việc chứ việc quản lý kiến thức bị phớt lờ. 
+
+(Bản chất sâu xa của việc này là vì thứ Kendy cần không chỉ là một ERP, mà thực chất phải là một [[Giàn giáo nhận thức cần phải tuỳ biến với quá trình hiểu biết của người dùng|một giàn giáo nhận thức]].) 
+
+Chưa kể, cái gọi là chi phí thấp ở đây chỉ là miễn phí trong một số ngày, một số tính năng hoặc đầu người. Nhưng thường thì có trả tiền để dùng thì những tính năng đó cũng không hướng đến việc trở thành một nơi để quản lý tất cả mọi thứ.
 
 ### Tự xây dựng ERP tốn rất nhiều thời gian
 ![[Tự xây dựng ERP.png]]
@@ -67,11 +71,18 @@ Trình trạng tương tự khi Kendy sử dụng Fibery. Không thể nói là 
 
 Xem thêm:: [[Nhược điểm của Obsidian và Fibery]]
 
-##  Nếu đã chấp nhận hỗ trợ miễn phí rồi, thì sao không dùng trên một ERP đàng hoàng luôn?
-Do Kendy đã sắp xếp mọi thứ trên Fibery, nên sẽ bị chi phối bởi những gì Fibery cho. Hiện tại vẫn còn cần làm những thứ khác. 
+##  Nếu đã chấp nhận hỗ trợ Kendy miễn phí rồi, thì sao không dùng một ERP đàng hoàng luôn?
+Do Kendy đã có nhiều thiết lập rất nhiều thứ trên Fibery rồi, nên giờ mà phải đập đi xây lại thì sợ tốn nhiều thời gian hơn. Kendy cảm thấy vẫn cần ưu tiên nhiều thứ khác hơn là giải quyết sự khó chịu vô cùng này của mình.
 
 ##  Tại sao không dùng ChatGPT, Bing AI hay Bard?
 Hiện nay bọn mình vẫn chưa thấy kết quả của tụi nó là đáng tin cậy.
+
+## Tại sao không làm một trang web riêng cho chương trình
+Vì mục tiêu của bọn mình không phải là để mọi người sử dụng chương trình này, mà là để tạo ra [[Giàn giáo nhận thức cần phải tuỳ biến với quá trình hiểu biết của người dùng|một giàn giáo nhận thức]] cho những người cần phải tự học lập trình. Có rất nhiều sản phẩm có trang web riêng, nhưng bọn mình chưa thấy một trang nào đi từ hướng dẫn người chưa biết gì từ những bước rất nhỏ nhặt cả. Tất cả đều mặc định người đọc đã có một kiến thức nhất định về lập trình. Bọn mình muốn làm nhiều hơn thế.
+
+
+
+
 
 
 [Comprehensive review of text-mining applications in finance | Financial Innovation | Full Text](https://jfin-swufe.springeropen.com/articles/10.1186/s40854-020-00205-1#citeas)
