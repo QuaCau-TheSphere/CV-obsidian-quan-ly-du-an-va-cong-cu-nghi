@@ -1,4 +1,8 @@
 {
   "alwaysUpdateLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "showInlineTitle": true,
+  "newFileLocation": "current",
+  "livePreview": false,
+  "propertiesInDocument": "source"
 }

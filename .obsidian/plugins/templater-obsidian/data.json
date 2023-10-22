@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "Thiết lập/Templates",
+  "templates_folder": "Ξ Thiết lập/Templates",
   "templates_pairs": [
     [
       "",
@@ -16,22 +16,23 @@
   "folder_templates": [
     {
       "folder": "⚔️ Lớp học",
-      "template": "Thiết lập/Templates/Bài học.md"
+      "template": "Ξ Thiết lập/Templates/Bài học.md"
     },
     {
       "folder": "📐 Dự án hỗ trợ người mới học Obsidian/2 Thành quả mong muốn",
-      "template": "Thiết lập/Templates/Thành quả.md"
+      "template": "Ξ Thiết lập/Templates/Thành quả.md"
     },
     {
       "folder": "📐 Dự án hỗ trợ người mới học Obsidian/3 Thành phẩm",
-      "template": "Thiết lập/Templates/Thành phẩm.md"
+      "template": "Ξ Thiết lập/Templates/Thành phẩm.md"
     },
     {
       "folder": "/",
-      "template": "Thiết lập/Templates/Ý tưởng.md"
+      "template": "Ξ Thiết lập/Templates/Ý tưởng.md"
     }
   ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     ""
   ],

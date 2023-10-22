@@ -1,0 +1,123 @@
+{
+  "templates": {
+    "common": {
+      "main": "title",
+      "fallback": "fallback_title"
+    },
+    "explorer": {
+      "main": null,
+      "fallback": null
+    },
+    "explorer:sort": {
+      "main": null,
+      "fallback": null
+    },
+    "graph": {
+      "main": null,
+      "fallback": null
+    },
+    "header": {
+      "main": null,
+      "fallback": null
+    },
+    "starred": {
+      "main": null,
+      "fallback": null
+    },
+    "search": {
+      "main": null,
+      "fallback": null
+    },
+    "tab": {
+      "main": null,
+      "fallback": null
+    },
+    "alias": {
+      "main": null,
+      "fallback": null
+    },
+    "suggest": {
+      "main": null,
+      "fallback": null
+    },
+    "inlineTitle": {
+      "main": null,
+      "fallback": null
+    },
+    "canvas": {
+      "main": null,
+      "fallback": null
+    },
+    "backlink": {
+      "main": null,
+      "fallback": null
+    },
+    "noteLink": {
+      "main": null,
+      "fallback": null
+    }
+  },
+  "rules": {
+    "paths": {
+      "mode": "black",
+      "values": []
+    },
+    "delimiter": {
+      "enabled": false,
+      "value": ""
+    }
+  },
+  "debug": false,
+  "boot": {
+    "delay": 1000
+  },
+  "features": {
+    "alias": {
+      "enabled": true,
+      "strategy": "ensure",
+      "validator": "fr"
+    },
+    "explorer": {
+      "enabled": true
+    },
+    "explorer:sort": {
+      "enabled": true
+    },
+    "tab": {
+      "enabled": false
+    },
+    "header": {
+      "enabled": true
+    },
+    "graph": {
+      "enabled": true
+    },
+    "starred": {
+      "enabled": true
+    },
+    "search": {
+      "enabled": true
+    },
+    "suggest": {
+      "enabled": true
+    },
+    "inlineTitle": {
+      "enabled": true
+    },
+    "canvas": {
+      "enabled": true
+    },
+    "backlink": {
+      "enabled": true
+    },
+    "noteLink": {
+      "enabled": true,
+      "approval": true,
+      "strategy": "onlyEmpty"
+    }
+  },
+  "processor": {
+    "args": [],
+    "type": null
+  }
+}

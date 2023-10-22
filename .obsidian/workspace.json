@@ -8,19 +8,59 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5d91214f68641432",
+            "id": "69474447ecc3c4f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ.md",
+                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Kế hoạch giúp Kendy.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2edff1e566ca63b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Lý do viết Trấn Kỳ.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "258cc08b8c13f472",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9f26259083c0deae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/❓Tìm sự bàn tán trước hay chuẩn bị cho sự bàn tán trước.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -49,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "icse20",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/❓Tìm sự bàn tán trước hay chuẩn bị cho sự bàn tán trước.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/❓Tìm sự bàn tán trước hay chuẩn bị cho sự bàn tán trước.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ.md"
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/❓Tìm sự bàn tán trước hay chuẩn bị cho sự bàn tán trước.md"
               }
             }
           }
@@ -152,33 +192,45 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5d91214f68641432",
+  "active": "9f26259083c0deae",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Uy quyền diễn giải loại bỏ các quá trình đối thoại. Uy quyền đối thoại hoàn toàn che dấu đi tiến trình văn bản hóa.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Sự kiểm soát của người bản xứ đối với những kiến thức có được trong quá trình thực địa là khá đáng kể, và thậm chí là có tính quyết định.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ.md",
-    "⚡Hiểu biết sâu/Nhân học/Nhiều ngành học xem con người là kết quả của những thứ bên ngoài trong mối quan hệ nhân quả. Nhân học chỉ chú trọng đến việc nói rằng bạn có thể khác biệt, rằng bạn còn có thể là người khác.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Khi nhà nghiên cứu xem mình là người đọc và chú giải văn bản, họ bóc tách các lớp để tạo ra một văn bản mới. Khi họ xem mình là đưa thư, họ kết nối những văn bản để tạo ra văn bản mới.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Người làm nhân học kết nối với lý thuyết nhiều hơn, còn nhà báo tường thuật sự kiện nhiều hơn.md",
-    "⚡Hiểu biết sâu/Nhân học/Nhân học cho ta cái nhìn sơ lược về những khả thể khác của con người.md",
-    "⚡Hiểu biết sâu/Nhân học/Nhân học là triết học trong xã hội.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Các loại hình kinh tế mới/Kể cả khi AI có thể làm mất việc, thì những ngành khác cũng sẽ tạo ra nhiều loại việc khác.md",
-    "📐 Dự án/3 Thành phẩm/Trấn Kỳ/Lý do viết Trấn Kỳ.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Triết lý tổ chức, cấu trúc tổ chức/Công việc/Công việc khai phá và công việc khai thác.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Công việc khai phá chính là quản lý kiến thức.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/Quản lý dự án/Công việc.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/Quản trị kiến thức.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/Quản lý công việc.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quản lý công việc và quản lý kiến thức không thể tách rời nhau.md",
-    "] ] , trong khi [[Quản lý công việc và quản lý kiến thức không thể tách rời nhau.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/Thoả mãn, vui, thoải mái.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/Thước đo, kết quả mong muốn.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/Tò mò thử, hứng thú, mong muốn, ý định, động lực nội sinh, đam mê, ưu tiên, sẵn sàng, cam kết, gắn bó, trách nhiệm.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/Vấn đề của QC, thứ người ngoài thấy ở QC.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93 Thống nhất nội hàm, khái niệm.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Ưu tiên.md",
-    "🌟 Mở đầu.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Tự động hoá/Chỉnh sửa file hàng loạt bằng PowerShell.md",
-    "Untitled.md"
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/❓Tìm sự bàn tán trước hay chuẩn bị cho sự bàn tán trước.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/Các bài truyền thông.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Hmm…Because…So now....md",
+    "⚡Hiểu biết sâu/Nhân học/Nhân học.md",
+    "⚡Hiểu biết sâu/Nhân học/Điền dã/Quá tập trung vào tình tiết mà bỏ qua bối cảnh thì sẽ thành góc nhìn thượng đế.md",
+    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Ý nghĩa và biểu tượng/Không trực tiếp nói đồ vật được dùng để làm gì, mà mô tả sao cho người đọc tự liên hệ được tới chức năng của nó.md",
+    "⚡Hiểu biết sâu/Nhân học/Untitled.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Viết làm suy nghĩ không còn là vô hình.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Viết cho phép ta nghĩ về sự nghĩ.md",
+    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Khi nhà nghiên cứu chú giải văn bản, họ kiến tạo ra đồng tác giả cho mình.md",
+    "📜 Tài nguyên/Nghiên cứu/Nhân văn số/Tài nguyên NLP và nhân văn số.md",
+    "📐 Dự án/6 Kế hoạch/Kế hoạch phát triển dự án.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Kế hoạch giúp Kendy.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Lý do viết Trấn Kỳ.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Từ việc hỗ trợ Kendy đến Patreon và tâm lý của con người về tiền.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Vấn đề về bán hàng.md",
+    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình/Ngành kỹ thuật phần mềm không thể viết nên một phần mềm để tạo bản thiết kế cho chính ngành của mình.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/Việc chi tiền làm tâm lý con người bị đau.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/Tiền làm thay đổi mối quan hệ từ việc đáp ứng nhu cầu lẫn nhau sang trao đổi hàng hoá.md",
+    "📐 Dự án/3 Thành phẩm/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Thật khó để nghe thấy chính mình nghĩ.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/Kế hoạch phát triển Trấn Kỳ.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 40 người chia sẻ Trấn Kỳ công khai.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/2 Thành quả mong muốn",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/9 Blog",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy",
+    "📐 Dự án/3 Thành phẩm/Quỹ hỗ trợ người học/Quỹ hỗ trợ người học.md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Nơi gặp mặt trực tiếp/Theo loại hình",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố",
+    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Google Analytics",
+    "Ξ Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
+    "Ξ Thiết lập/Ảnh/logo2.png",
+    "Ξ Thiết lập/Excalidraw/Các lĩnh vực trong vault.png",
+    "📐 Dự án/3 Thành phẩm/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/Thành quả mong muốn"
   ]
 }

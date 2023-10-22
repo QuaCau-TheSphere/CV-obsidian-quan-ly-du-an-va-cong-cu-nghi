@@ -1,10 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-10-06T16:09
+updated: 2023-10-12T20:20
 ---
 Khái niệm:: [[Diễn giải, đọc]], [[Văn bản]]
-[[Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ]] 
+[[Sự kiến tạo cuộc đá gà ở Bali thành một văn bản]] 
 
 Một bước quan trọng thứ hai trong phân tích của Ricoeur chính là việc ông mô tả quá trình chuyển đổi từ “diễn ngôn” sang văn bản. Diễn ngôn, theo định nghĩa kinh điển của Benveniste, là một phương thức giao tiếp mà trong đó bao giờ cũng có một chủ thể nói chuyện và có một tình huống giao tiếp cụ thể31 Diễn ngôn được đánh dấu bởi các đại từ nhân xưng (được nói ra hoặc ngầm chỉ) như “Tôi” và “Anh/Chị”, và bởi những từ nặng tính quy chiếu về không gian và thời gian diễn ngôn (deictic indicators) như “đó”, “đây” và “hiện nay” vv...vốn đánh dấu giây phút hiện tại ngay lúc diễn ngôn chứ không phải là cái gì sau lúc diễn ngôn. [Với những từ này- NHĐ] Diễn ngôn bao giờ cũng gắn kết với một tình huống cụ thể [lúc diễn ngôn] mà trong đó một chủ thể tận dụng những nguồn lực của ngôn ngữ để đối thoại. Ricoeur cho rằng diễn ngôn không thể được hiểu theo nhiều cách khác nhau như cách mà văn bản được “đọc” [theo nhiều cách khác nhau] bởi những người đọc. Để có thể hiểu diễn ngôn thì chính anh “phải có mặt ở đó”, khi có sự có mặt của chủ thể đang thực hiện diễn ngôn. Để diễn ngôn trở thành văn bản, nó phải trở nên “đôc lập”, theo cách mô tả của Ricoeur, hoàn toàn tách rời khỏi những lời nói cụ thể hoặc chủ đích của tác giả. [Nói khác đi- NHĐ] Diễn giải [văn bản] không còn phải là sự đối thoại. Nó không phụ thuộc vào việc có mặt một người nói. 
 

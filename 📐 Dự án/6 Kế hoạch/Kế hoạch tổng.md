@@ -2,7 +2,7 @@
 alias: Khi nào thì có thể nói là thành công
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-10-22T16:20
 ---
 Nhu cầu:: các nhóm liên thông dữ liệu với nhau, Quả Cầu có thêm người quan tâm
 
@@ -49,4 +49,4 @@ task
 where file.inlinks.độ-cấp-thiết and !fullyCompleted
 ```
 
-[[Thiết lập/Gõ tắt]]
+[[Gõ tắt]]

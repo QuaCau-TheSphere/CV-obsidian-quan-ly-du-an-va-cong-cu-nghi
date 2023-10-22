@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-10-21T00:30
 ---
 [[Chơi là sự thử nghiệm các kỹ năng mới học trong những môi trường mới]]
 
@@ -16,3 +16,7 @@ Nếu bạn xem xét điều này từ góc độ tiến hóa, hành vi này có
 Tuy nhiên, bộ não chúng ta chưa bao giờ tiến hóa đủ để đối phó với các trò chơi hiện đại. Các vòng tương tác được tinh chỉnh rồi kết hợp với nhau chỉ để giải trí mà không bao giờ thực sự dẫn đến một kỹ năng trong thế giới thực. Với trẻ con, chơi giống như một vụ hack lớn.
 
 Nguồn:: [Từ Giả kim thuật đến Khoa học Thiết kế trò chơi](https://www.gamehoa.org/p/tu-gia-kim-thuat-den-khoa-hoc-tro-choi?publication_id=174112&isFreemail=true "Từ Giả kim thuật đến Khoa học Thiết kế trò chơi")
+
+[[Chúng ta đi tìm hạnh phúc trên những máy chạy bộ]] 
+[[Về mặt nhận thức, con người tương lai của chính mình không liên quan gì đến mình]]
+[[Đa số các dự án game hoá chỉ tập trung vào kích thích có điểm, chứ không tập trung vào bản đồ]] 

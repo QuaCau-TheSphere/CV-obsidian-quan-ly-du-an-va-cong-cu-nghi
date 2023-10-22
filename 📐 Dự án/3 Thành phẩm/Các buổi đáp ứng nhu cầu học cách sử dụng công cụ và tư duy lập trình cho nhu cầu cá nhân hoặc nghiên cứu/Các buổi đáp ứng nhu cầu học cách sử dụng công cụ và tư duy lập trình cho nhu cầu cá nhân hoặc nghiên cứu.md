@@ -1,13 +1,13 @@
 ---
 share: true
 created: 2023-07-26T15:55
-updated: 2023-10-09T15:20
+updated: 2023-10-22T14:14
 ---
 %%
 #file/thành-phẩm/bài-viết 
 %%
 
-Tiêu đề của bài là *`=[[]].file.name`*. Nó gồm có 3 phần:
+Tiêu đề của bài gồm có 3 phần:
 - Các buổi đáp ứng nhu cầu học
 - cách sử dụng công cụ và tư duy lập trình
 - cho nhu cầu cá nhân hoặc nghiên cứu
@@ -17,32 +17,30 @@ Chúng ta hãy nói thêm về những ý này.
 ## Đáp ứng nhu cầu học không đồng nhất với giảng bài
 Bởi vì những buổi này để đáp ứng nhu cầu của người tham gia, nên tất cả sẽ cùng thảo luận với nhau để đạt mục tiêu của mình. Trong những cuộc thảo luận mở như vậy, bất kỳ ai cũng có thể hỏi, và ai trả lời được thì trả lời. Có thể sẽ có một ai đó biết nhiều câu trả lời hơn những người còn lại, nhưng điều đó là không quan trọng. Việc được hỏi cũng sẽ đảm bảo rằng ai cũng hiểu được vấn đề, và họ có đủ thời gian để tiếp thu và nghiền ngẫm trước khi tiếp tục nội dung khác. Những người khác khi giải thích cho họ thì cũng sẽ hiểu sâu hơn, vì cách học tốt nhất là dạy.
 
-Những tài nguyên bạn biết được bạn sẽ có không gian để chia sẻ và mọi người sẽ cùng bàn luận. Sẽ càng tốt nếu bạn đang có sẵn một dự án và cần biết cách áp dụng kiến thức đó vào dự án của mình thế nào. Chính vì như vậy, nên cho dù ban đầu nó có một mục tiêu được định trước, nhưng việc thảo luận sẽ luôn làm nảy nở những mục tiêu mới. Nếu bạn cảm thấy mục tiêu ban đầu của mình không còn là mục tiêu của những người khác thì sẽ tách ra. Có thể nói hai ý sau (sử dụng công cụ và hiểu tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu) chỉ là cái cớ để đến gặp nhau. 
+Những tài nguyên bạn biết được bạn sẽ có không gian để chia sẻ và mọi người sẽ cùng bàn luận. Sẽ càng tốt nếu bạn đang có sẵn một dự án và cần biết cách áp dụng kiến thức đó vào dự án của mình thế nào. Chính vì như vậy, nên cho dù ban đầu nó có một mục tiêu được định trước, nhưng việc thảo luận sẽ luôn làm nảy nở những mục tiêu mới. Nếu bạn cảm thấy mục tiêu ban đầu của mình không còn là mục tiêu của những người khác thì sẽ tách ra.
 
-|                                                   | Nhóm tự học | Lớp học trả tiền                | Chuỗi video | Cộng đồng thảo luận             |
-| ------------------------------------------------- | ----------- | ------------------------------- | ----------- | ------------------------------- |
-| Ví dụ                                             |             | Các lớp học chính quy, workshop | CS50        | Stack Overflow, Discord         |
-| Được trả lời ngay lập tức                         | ✔           | ✔                               | ❌          | ❌ (nhưng thường là cũng nhanh) |
-| Không đòi hỏi phải tìm hiểu trước khi đặt câu hỏi | ✔           | ✔                               | ❌          | ✔                               |
-| Có thể xem lại sau                                | ✔           | ✔                               | ✔           | ✔                               |
-| Đáp ứng nhu cầu của người tham gia                | ✔           | ✔                               | ✔           | ✔                               |
-| Khi cần là có ngay                                | ❌          | ❌                              | ✔           | ✔                                |
-
-## Cách sử dụng công cụ và tư duy lập trình không đồng nhất với kiến thức lập trình
-Các lớp học lập trình có rất nhiều. Họ cũng rất tâm huyết và nhiều kiến thức hơn mình. Bọn mình còn phải đi học họ thì bọn mình không nghĩ bạn cần phải tìm đến bọn mình vì điều đó. 
-Có nền tảng thì tốt, nhưng nếu bạn muốn bắt đầu từ nền tảng trước thì 
-Sẽ cần phải nói về kiến thức lập trình, nhưng đó không phải trọng tâm chính
-
-[[Người mới lập trình thường hỏi nên dùng cú pháp, thư viện, hay ngôn ngữ nào. Lập trình viên nhiều kinh nghiệm thường tập trung vào các khái niệm trừu tượng]]
-[[Người mới lập trình thường chỉ biết muốn biết làm sao để code chạy được. Người có kinh nghiệm còn quan tâm đến tính dễ bảo trì, mở rộng và bắt lỗi của code]]. Nhưng muốn có kinh nghiệm thì phải code nhiều, mà bạn thì không thấy mình phải code nhiều 
-Cân bằng giữa hệ sinh thái và những công cụ mới .
-
-[[❓ Học code bằng việc debug product code sẽ nhanh hơn]]
 ## Giải quyết nhu cầu cá nhân hoặc nghiên cứu không đồng nhất với kiếm tiền bằng lập trình
-Các buổi này được tạo ra để giúp bạn tự chủ về công nghệ, để bạn có thể giải quyết bài toán của mình. Bạn còn rất nhiều công việc, và lập trình là một công cụ quan trọng để làm được việc. Nhưng lại không phải là bài toán quan trọng nhất. [[Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google]]. [[Bỏ công đi học lập trình thì không đáng, nhưng không biết thì sẽ rất lệ thuộc vào người khác]]. Thế nên, dù bạn không muốn nước đến chân mới nhảy, nhưng bạn cũng biết rằng nước mà không đến chân thì bạn sẽ không thể nhảy. Nơi đây chỉ là nơi để mọi người cùng nhảy với nhau khi nước chưa đến chân mà thôi (hoặc có thể là có những người nước đến chân luôn rồi).
+Các buổi này được tạo ra để giúp bạn tự chủ về công nghệ, để bạn có thể giải quyết bài toán của mình. Bạn còn rất nhiều công việc, và lập trình là một công cụ quan trọng để làm được việc, nhưng lại không phải là bài toán quan trọng nhất. [[Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google]], bỏi vì [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]. Thế nên, dù bạn không muốn nước đến chân mới nhảy, nhưng bạn cũng biết rằng nước mà không đến chân thì bạn sẽ không thể nhảy. Nơi đây chỉ là nơi để mọi người cùng nhảy với nhau khi nước chưa đến chân mà thôi (hoặc có thể là có những người nước đến chân luôn rồi).
 
 Nếu từ các buổi này bạn có thể kiếm thêm được tiền thì bọn mình mừng cho bạn, nhưng đó không phải là điều bọn mình đang hướng đến.
 
+## Cách sử dụng công cụ và tư duy lập trình không đồng nhất với kiến thức lập trình căn bản
+Bởi vì nhóm muốn hướng đến những người đang cần học lập trình cho một nhu cầu rõ ràng nào đó, nên nội dung cũng sẽ chú trọng đến tính "làm được việc" hơn là đảm bảo bạn sẽ có một nền tảng vững chắc. Tất nhiên có nền tảng thì rất tốt, và trong quá trình thảo luận thì chắc chắn cũng phải giải thích những thứ nền tảng, nhưng chúng sẽ được cá nhân hoá vào mục tiêu của riêng bạn. Nếu bạn muốn bắt đầu từ nền tảng trước thì có lẽ nên đi học các lớp học lập trình. Những lớp như vậy có rất nhiều, và cũng rất nhiều giảng viên tâm huyết và nhiều kiến thức hơn bọn mình. Bọn mình còn phải đi học họ thì bọn mình không nghĩ bạn cần phải tìm đến bọn mình.
+
+Bảng này so sánh những tính năng của các mô hình học tập khác nhau để bạn lựa chọn cho phù hợp:
+
+| Tính năng                                           | Nhóm tự học | Lớp học trả tiền                | Chuỗi video | Cộng đồng thảo luận                        |
+| --------------------------------------------------- | ----------- | ------------------------------- | ----------- | ------------------------------------------ |
+| Ví dụ                                               | Nhóm này    | Các lớp học chính quy, workshop | CS50        | Stack Overflow, Discord của phần mềm       |
+| Không đòi hỏi phải nghiên cứu trước khi đặt câu hỏi | ✔           | ✔                               | ❌          | ❌                                         |
+| Câu hỏi được giải đáp tức thời                      | ✔           | ✔                               | ❌          | ❌ (nhưng thời gian chờ thường cũng nhanh) |
+| Có thể xem lại sau                                  | ✔           | ✔                               | ✔           | ✔                                          |
+| Nội dung được cá nhân hoá                           | ✔           | ❌                              | ❌          | ✔                                          |
+| Khi cần là có ngay                                  | ❌          | ❌                              | ✔           | ✔                                          |
+| Trình độ người hướng dẫn cao                        | ❌          | ✔                               | ✔           | ✔                                          |
+
+Xem thêm:: [[Người mới lập trình thường hỏi nên dùng cú pháp, thư viện, hay ngôn ngữ nào. Lập trình viên nhiều kinh nghiệm thường tập trung vào các khái niệm trừu tượng]]
+[[Người mới lập trình thường chỉ biết muốn biết làm sao để code chạy được. Người có kinh nghiệm còn quan tâm đến tính dễ bảo trì, mở rộng và bắt lỗi của code]].[[❓ Học code bằng việc debug product code sẽ nhanh hơn]]
 # Mục tiêu
 - Hiểu được một số khái niệm của ngôn ngữ hướng vật thể: object, method, array, for, if, import, function, type, interface
 - Nắm được cách làm việc với:
@@ -82,7 +80,7 @@ FROM #file/thành-quả
 WHERE contains(thành-phẩm,[[]])
 ```
 
-Thành quả cần có::
+Thành quả cần có:: [[Mỗi tuần có 60 người tham gia các buổi học lập trình]]
 Thành quả hỗ trợ::
 
 Thành phẩm nhỏ hơn:

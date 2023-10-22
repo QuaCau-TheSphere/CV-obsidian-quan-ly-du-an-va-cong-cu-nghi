@@ -57,7 +57,7 @@
       ]
     },
     "folderNote": {
-      "enable": false,
+      "enable": true,
       "rename": "index.md"
     },
     "metadataExtractorPath": "",
@@ -81,7 +81,7 @@
     "links": {
       "internal": true,
       "unshared": false,
-      "wiki": false
+      "wiki": true
     }
   },
   "embed": {
@@ -97,7 +97,7 @@
     "fileMenu": false,
     "editorMenu": false,
     "excludedFolder": [
-      "Thiết lập"
+      "Ξ Thiết lập"
     ],
     "copyLink": {
       "enable": false,
@@ -107,6 +107,8 @@
     },
     "noticeError": false,
     "displayModalRepoEditing": true,
-    "migrated": true
-  }
+    "migrated": true,
+    "dev": true
+  },
+  "tabsID": "plugin-settings"
 }

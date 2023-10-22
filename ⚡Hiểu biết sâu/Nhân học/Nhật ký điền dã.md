@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-10-09T20:52
+updated: 2023-10-12T22:18
 ---
 [[Tổng hợp thông tin]]
 
@@ -36,7 +36,7 @@ Anh sắp cưới vợ.
 ---
 
 Khi viết bài này tôi không để lời nhân vật vào trong ngoặc kép mà chỉ in nghiêng. Tôi bắt chước ý tưởng này từ bài *Đường tới Bờ Rạ*:
-![[Không để trích dẫn vào trong ngoặc kép mà chỉ in nghiêng làm câu văn tự nhiên hơn#^c8315f]]
+![[In nghiêng câu trích dẫn thay vì để vào trong ngoặc kép làm câu văn tự nhiên hơn#^c8315f]]
 
 
 

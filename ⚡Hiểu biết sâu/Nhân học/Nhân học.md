@@ -1,0 +1,19 @@
+---
+created: 2023-10-12T22:30
+updated: 2023-10-22T17:29
+share: true
+filename: index
+title: Nhân học
+---
+Khi tôi biết tin Viện SocialLife mở lớp nhân học, tôi rất háo hức tham gia. Ban đầu tôi chỉ chú trọng đến phần lý thuyết mà không quan trọng phần kỹ năng viết nghiên cứu lắm, vì nghĩ rằng mình không có ý định làm nhà nhân học chuyên nghiệp. Nhưng bài đọc [[James Clifford, Về Tính Uy Quyền của Khảo tả Dân Tộc Học|*Về Tính Uy Quyền của Khảo tả Dân Tộc Học* của James Clifford]] đã làm tôi hiểu được rằng [[Quá trình điền dã từ đầu đến cuối luôn bị chi phối bởi việc viết lách|quá trình điền dã từ đầu đến cuối luôn bị chi phối bởi việc viết lách]]. Điều đó không chỉ làm thay đổi quan niệm của tôi về những bài học sắp tới, mà còn kết nối sâu sắc tới một mối quan tâm khác của tôi là nghiên cứu về các công cụ và môi trường nơi sự nghĩ được diễn ra. Hai lĩnh vực này đều cùng bàn về việc viết, về vấn đề văn bản, về trải nghiệm của con người, nhưng chúng lại đi đến những kết luận khác nhau. Lấy ví dụ, ở chủ đề viết, một trong những kết luận của nhà nghiên cứu môi trường nghĩ Andy Matuschak là bởi vì [[Viết làm suy nghĩ không còn là vô hình|việc viết làm những suy nghĩ của ta không còn là vô hình]], nên [[Viết cho phép ta nghĩ về sự nghĩ|nó cho phép ta nghĩ về sự nghĩ]]. Có thể nói [[Sự phát minh của việc viết phát minh ra việc lập luận|sự phát minh của việc viết phát minh ra việc lập luận]]. Hoặc ở chủ đề văn bản, trong khi [[Để có thể diễn giải thì việc tiên quyết là phải văn bản hoá, nghĩa là tách những hành vi, câu nói, niềm tin, lễ nghi, truyền thống, v.v. ra khỏi diễn ngôn|các nhà nhân học quan tâm đến việc những thực tại đã bị văn bản hoá như thế nào]], thì [[Một văn bản không phải chỉ để truyền đạt thông tin hay hiểu biết, mà còn nên trở thành một sân chơi cho người đọc khám phá|các nhà nghiên cứu về môi trường nghĩ quan tâm đến việc làm thế nào để một văn bản không phải chỉ để truyền đạt thông tin hay hiểu biết, mà còn trở thành một sân chơi cho người đọc khám phá]].
+
+Ngay buổi học đầu tiên, tôi hiểu rằng [[Nhân học chỉ chú trọng đến việc nói rằng bạn có thể khác biệt, rằng bạn còn có thể là người khác|điều khiến nhân học khác biệt với những ngành khác là ở chỗ trong khi nhiều ngành học xem con người là kết quả của những thứ bên ngoài trong mối quan hệ nhân quả, thì thứ nhân học chú trọng đến chỉ là việc nói rằng bạn có thể khác biệt, rằng bạn còn có thể là người khác]]. Buổi điền dã là một cơ hội để tôi cảm nhận rõ ràng hơn ý tưởng này. Tôi bắt đầu để ý hơn vào việc quan sát đồ vật, vì [[Mỗi một đồ vật, hành vi đều là ẩn dụ của một biểu tượng văn hoá|mỗi một đồ vật, hành vi đều là ẩn dụ của một biểu tượng văn hoá]]. Và qua buổi sửa bài tập viết, tôi đã có thêm một cách lý giải cho việc phong cách viết của mình sẽ làm nhiều người thấy rất tâm đắc nhưng cũng làm nhiều người thấy dội. Đó là vì tôi hay bị cuốn vào việc tạo tình tiết cho văn bản. Việc [[Hãy cài cắm các chi tiết|cài cắm các chi tiết]], [[Không trực tiếp nói đồ vật được dùng để làm gì, mà mô tả sao cho người đọc tự liên hệ được tới chức năng của nó|không trực tiếp nói đồ vật được dùng để làm gì, mà mô tả sao cho người đọc tự liên hệ được tới chức năng của nó]] sẽ tạo sự cuốn hút ở người đọc, nhưng nếu [[Quá tập trung vào tình tiết mà bỏ qua bối cảnh thì sẽ thành góc nhìn thượng đế|quá tập trung vào tình tiết mà bỏ qua bối cảnh thì sẽ thành góc nhìn thượng đế]]. Lớp học đã làm tôi để ý đến khái niệm tình tiết này, chứ từ trước đến nay tôi không hề nghĩ gì về nó. Tôi đã sống trong tình tiết mà không biết gì về tình tiết như vậy đấy.
+
+Nếu muốn, bạn có thể đọc những ghi chú của tôi trong quá trình học hoặc những nguồn tham khảo cho các ý tưởng trên tại đây: https://quacau.space/oh5n
+
+```dataview
+LIST rows.file.link
+FROM "⚡Hiểu biết sâu/Nhân học" 
+WHERE file.name!=this.file.name
+Group by split(file.folder, "/" )[2] 
+```

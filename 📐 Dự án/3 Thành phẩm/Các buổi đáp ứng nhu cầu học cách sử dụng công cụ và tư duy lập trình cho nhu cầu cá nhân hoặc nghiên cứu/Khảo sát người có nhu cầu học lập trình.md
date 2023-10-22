@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-27T23:16
-updated: 2023-10-10T17:07
+updated: 2023-10-13T13:37
 ---
 %%
 #file/thành-phẩm/bài-viết 
@@ -25,11 +25,3 @@ From #file/thành-phẩm
 Where contains(file.folder,this.file.folder) and file.name!=this.file.name
 ```
    
-- [ ] Tự động hoá các công việc lặp đi lặp lại
-- [ ] Truy vấn và khai thác dữ liệu
-- [ ] Tạo đồ thị
-- [ ] Lập web cá nhân, quản lý phiên bản
-- [ ] Quản lý và chia sẻ kiến thức
-- [ ] Tạo web dự án
-- [ ] Quản lý tài chính cá nhân, hiểu dân dev nói gì
-- [ ] Nghiên cứu cộng đồng mạng, nắm bắt xu hướng, nhân văn số

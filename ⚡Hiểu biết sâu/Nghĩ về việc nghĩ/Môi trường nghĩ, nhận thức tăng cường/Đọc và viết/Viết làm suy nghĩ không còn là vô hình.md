@@ -1,6 +1,6 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-10-22T16:46
 ---
-[[Viết cho phép bạn nghĩ về sự nghĩ]]
+[[Viết cho phép ta nghĩ về sự nghĩ]]

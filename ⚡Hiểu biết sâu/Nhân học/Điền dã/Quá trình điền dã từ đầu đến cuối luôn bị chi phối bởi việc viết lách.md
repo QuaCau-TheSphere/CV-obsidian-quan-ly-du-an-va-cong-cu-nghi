@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-24T22:38
-updated: 2023-10-06T16:09
+updated: 2023-10-21T00:46
 ---
 Nếu điền dã dân tộc học đem lại những diễn giải văn hóa thông qua những trải nghiệm nghiên cứu có chiều sâu thì bằng cách nào mà những trải nghiệm đầy sóng gió của nghiên cứu có thể được chuyển hóa hành những bản báo cáo đầy tính uy quyền? Và bằng cách nào mà những cuộc va chạm xuyên văn hóa, chứa đầy những ngôn từ, và thường thấm đẫm mầu sắc của những quan hệ quyền lực cũng như mục tiêu cá nhân của cả hai bên tham gia lại có thể được khoanh tròn thành những báo cáo tương đối đầy đủ về một “thế giới khác” và chỉ bởi một tác giả?
 
@@ -10,6 +10,6 @@ Nếu điền dã dân tộc học đem lại những diễn giải văn hóa th
 Nguồn:: [[James Clifford, Về Tính Uy Quyền của Khảo tả Dân Tộc Học]]
 [[Các bước thực hiện điền dã]] 
 
-[[Viết cho phép bạn nghĩ về sự nghĩ]]. [[Viết làm suy nghĩ không còn là vô hình]]
+[[Viết cho phép ta nghĩ về sự nghĩ]]. [[Viết làm suy nghĩ không còn là vô hình]]
 [[Sự phát minh của việc viết phát minh ra việc lập luận]] 
 [[Giấy và bút không thể hiện hành vi của hệ thống đang được nghiên cứu]]

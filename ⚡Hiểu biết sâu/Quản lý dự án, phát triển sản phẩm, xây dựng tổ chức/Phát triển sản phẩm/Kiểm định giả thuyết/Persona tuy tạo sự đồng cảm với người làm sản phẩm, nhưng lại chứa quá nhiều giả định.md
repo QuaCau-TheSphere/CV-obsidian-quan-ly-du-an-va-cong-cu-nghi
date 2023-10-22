@@ -1,7 +1,8 @@
 ---
 share: true
 created: 2023-06-10T13:39
-updated: 2023-10-06T16:09
+updated: 2023-10-16T23:03
+alias: chân dung khách hàng
 ---
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*lwr2g0HvLOVr5IPVNoYxLg.png) 
 

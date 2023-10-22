@@ -1,6 +1,6 @@
 {
-  "findText": "\\n",
-  "replaceText": " ",
+  "findText": "^:: (.*):: $",
+  "replaceText": "$1",
   "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": false,

@@ -1,11 +1,11 @@
 ---
 share: true
 created: 2023-07-25T10:54
-updated: 2023-10-06T16:09
+updated: 2023-10-17T17:23
 ---
 # Mục tiêu
 Đây là một vault Obsidian dành riêng cho người Việt với mục tiêu:
-- Hỗ trợ những ai chưa từng làm quen với Obsidian và Git cũng như kiến thức về phát triển sản phẩm có thể nhanh chóng học những ứng dụng và kiến thức này từng bước một để làm một kho dữ liệu quản lý dự án. Bạn có thể dùng vault này để tự học hoặc như một giáo án để hỗ trợ bạn bè của mình ([[⚔️ Lớp Obsidian và Git]]) 
+- Hỗ trợ những ai chưa từng làm quen với Obsidian và Git cũng như kiến thức về phát triển sản phẩm có thể nhanh chóng học những ứng dụng và kiến thức này từng bước một để làm một kho dữ liệu quản lý dự án. Bạn có thể dùng vault này để tự học hoặc như một giáo án để hỗ trợ bạn bè của mình ([[⚔️ Hướng dẫn Obsidian và Git]]) 
 - Thu thập những hiểu biết sâu (insight) mà những người đang tự học quản lý dự án nhiều khi cũng lờ mờ nhận ra nhưng không có ai ở ngay đó để đẩy vấn đề đi xa hơn, hoặc chưa biết diễn giải làm sao. còn những người mới học thì thấy quá tải, nhức đầu vì những lời khuyên, bài viết trên mạng dù hay đến mấy cũng rời rạc.  ([[⚡Hiểu biết sâu]]) 
 - Tổng hợp những nguồn tài nguyên hay, đặc biệt cho những nhóm dự án chưa có nhiều kinh nghiệm và quá thiếu người. Hướng tới phát triển bền vững ([[📜 Tài nguyên]])  
 - Thử nghiệm một dự án mở ([[📐 Dự án]]) 
@@ -38,7 +38,7 @@ Có thể thấy là nó cũng quá đa dạng, và có thể bạn không cần
 
 Có hơi hướng thiên về lĩnh vực phi lợi nhuận hoặc học thuật
 
-# Cách [[⚔️ Lớp Obsidian và Git]] được thiết kế
+# Cách [[⚔️ Hướng dẫn Obsidian và Git]] được thiết kế
 Nếu bạn chưa rành về lập trình, thì khó khăn bạn gặp sẽ nhiều hơn. Vừa muốn tập trung vào ý tưởng vừa cần phải học ngôn ngữ đó.
 Các bài tập không chỉ được thiết kế để bạn nắm được cách sử dụng Obsidian và các phần mềm bổ trợ khácChỉnh từ từ để không bị ngộp, nhưng sau đó vứt đi, mà còn chính là vault của bạn trong việc quản lý dự án
 Các bài học phải đến từ serious use of learner. Nó phải giải đáp được nhu cầu có thực của riêng họ, chứ không phải chỉ là một ví dụ cho dễ hiểu xong rồi xóa đi. Bài tập được giao cho họ phải là thứ họ rồi cũng sẽ phải làm
