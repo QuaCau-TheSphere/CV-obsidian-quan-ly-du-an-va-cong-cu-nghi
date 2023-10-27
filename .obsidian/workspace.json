@@ -8,25 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "69474447ecc3c4f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Vấn đề về bán hàng.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
             "id": "bba217093ef676e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Sắp xếp độ ưu tiên/Vấn đề ngắn hạn hay dài hạn không quan trọng, quan trọng là làm cái này mà phải nghĩ về cái khác thì sẽ nhức đầu.md",
-                "mode": "source",
+                "file": "📐 Dự án/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
+                "mode": "preview",
                 "source": true
               }
             }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Vấn đề về bán hàng.md",
+                "file": "📐 Dự án/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Vấn đề về bán hàng.md",
+                "file": "📐 Dự án/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Vấn đề về bán hàng.md"
+                "file": "📐 Dự án/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md"
               }
             }
           }
@@ -162,44 +150,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "69474447ecc3c4f0",
+  "active": "8df4115b70014980",
   "lastOpenFiles": [
-    "⚔️ Hướng dẫn Obsidian và Git/Các bài học nâng cao/Viết plugin/📖 Nodejs và Electron.md",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Vấn đề về bán hàng.md",
-    "⚔️ Hướng dẫn Obsidian và Git/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Chơi game.md",
-    "⚔️ Hướng dẫn Obsidian và Git/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm mạnh của Obsidian/Obsidian miễn phí, không có chức năng nào phải trả tiền hay tính theo đầu người.md",
-    "⚔️ Hướng dẫn Obsidian và Git/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm mạnh của Obsidian/Cộng đồng Obsidian rất mạnh.md",
-    "⚔️ Hướng dẫn Obsidian và Git/5 Làm việc cùng nhau/5.3 Đẩy dữ liệu mới lên (push).md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Nghiên cứu, tìm ý tưởng/Một số ví dụ về mục tiêu nghiên cứu.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Kế hoạch giúp Kendy.md",
+    "📐 Dự án/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/3 Thành phẩm/Các bài viết truyền thông/Giới thiệu TK.md",
+    "📐 Dự án/Vault/9 Blog/Khác biệt giữa cộng đồng Obsidian tiếng Việt ở Facebook và Discord.md",
+    "📐 Dự án/📐 Dự án.md",
     "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Sắp xếp độ ưu tiên/Vấn đề ngắn hạn hay dài hạn không quan trọng, quan trọng là làm cái này mà phải nghĩ về cái khác thì sẽ nhức đầu.md",
-    "⚔️ Hướng dẫn Obsidian và Git/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Wiki chuyên ngành.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Quản lý phiên bản bằng Git/Vấn đề hay gặp khi dùng Git.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Web/FB purity giúp giảm rác Facebook.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Web",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Hệ điều hành",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Từ việc hỗ trợ Kendy đến Patreon và tâm lý của con người về tiền.md",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Lý do viết Trấn Kỳ.md",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Lý do chọn mức giá này.md",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Kế hoạch giúp Kendy.md",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/Kế hoạch phỏng vấn người dùng Trấn Kỳ.md",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 40 người chia sẻ Trấn Kỳ công khai.md",
-    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về sản phẩm/Các nghiên cứu về sản phẩm.md",
-    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Email mời phỏng vấn.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Kendy.md",
-    "📜 Tài nguyên/Nghiên cứu/Dịch/Từ cách một từ được đổ nghĩa đến việc dịch khái niệm philanthropy sang tiếng Việt.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Môi trường nghĩ, nhận thức tăng cường/Andy Matuschak.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/Quản lý dự án/Điều đối tượng thấy.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/Quản lý dự án/Điều kiện cần.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/Xây dựng nhóm nòng cốt.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/Web analytics",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Tối ưu hoá",
-    "📜 Tài nguyên/Làm dự án/Luật pháp",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/2 Thành quả mong muốn",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/9 Blog",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Từ việc hỗ trợ Kendy đến Patreon và tâm lý của con người về tiền.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Vấn đề về bán hàng.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Lý do viết Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Lý do chọn mức giá này.md",
+    "📐 Dự án/Trấn Kỳ/3 Thành phẩm/Các bài viết truyền thông",
+    "📐 Dự án/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 40 người chia sẻ Trấn Kỳ công khai.md",
+    "📐 Dự án/Trấn Kỳ/Kế hoạch phỏng vấn người dùng Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog",
+    "📐 Dự án/Trấn Kỳ/3 Thành phẩm",
+    "📐 Dự án/Trấn Kỳ/2 Thành quả mong muốn",
+    "📐 Dự án/Trấn Kỳ",
+    "📐 Dự án/Hỗ trợ Kendy/Kế hoạch phỏng vấn người dùng Trấn Kỳ.md",
+    "📐 Dự án/Hỗ trợ Kendy/2 Thành quả mong muốn/Mỗi tuần có 40 người chia sẻ Trấn Kỳ công khai.md",
+    "📐 Dự án/Hỗ trợ Kendy/2 Thành quả mong muốn/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
+    "📐 Dự án/Hỗ trợ Kendy/2 Thành quả mong muốn",
+    "📐 Dự án/Vault/9 Blog/Về chữ Nguồn.md",
+    "📐 Dự án/Vault/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền.md",
+    "📐 Dự án/Vault/9 Blog/Mọi người hay thảo luận ở đâu？.md",
+    "📐 Dự án/Vault/9 Blog/Tại sao lại cần tải vault về hơn là đọc trên web？.md",
+    "📐 Dự án/Vault/9 Blog/Tôi có thể giúp gì？.md",
+    "📐 Dự án/Vault/9 Blog/Những dấu mốc.md",
+    "📐 Dự án/Vault/9 Blog/Nơi này là nơi nào？.md",
+    "📐 Dự án/Vault/9 Blog/Các vấn đề về tiền.md",
+    "📐 Dự án/Vault/9 Blog/Dự án này cần những gì để phát triển.md",
+    "📐 Dự án/Vault/9 Blog",
+    "📐 Dự án/Vault/7 Tài liệu/Các khái niệm/Tự học.md",
+    "📐 Dự án/Vault/7 Tài liệu/Các khái niệm/Quản lý dự án.md",
+    "📐 Dự án/Vault/7 Tài liệu/Các khái niệm",
+    "📐 Dự án/Vault/7 Tài liệu/Các chỉ số",
+    "📐 Dự án/Vault/7 Tài liệu",
     "Ξ Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
     "Ξ Thiết lập/Ảnh/logo2.png",
     "Ξ Thiết lập/Excalidraw/Các lĩnh vực trong vault.png"
