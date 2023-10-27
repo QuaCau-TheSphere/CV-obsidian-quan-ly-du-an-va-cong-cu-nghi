@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-10-27T18:59
 ---
 Quyển sách _4000 tuần: quản lý thời gian cho kẻ tất tử_ bàn về chuyện càng say mê với những công cụ giúp tiết kiệm thời gian, chúng ta lại càng cảm thấy thiếu thời gian hơn. Ví dụ như chúng ta sáng tạo ra máy giặt, lò vi sóng, thang máy, v.v. là để tiết kiệm thời gian hơn. Thế nên, theo đúng logic, thì hẳn sống ở thời kỳ đồ đá sẽ khiến bạn phát điên vì stress, còn sống ở TP.HCM hay HN thì phải cực kì thảnh thơi nhàn hạ. Thế nhưng thực tế lại ngược lại: tất cả những thứ chúng ta tạo ra để tiết kiệm thời gian lại càng khiến chúng ta cảm thấy mình thiếu thời gian hơn. Bạn cảm thấy mất kiên nhẫn khi lò vi sóng mất tới hai phút để quay xong món ăn, hoặc khi website bạn truy cập tải lâu hơn 250 mili giây. Nhưng nếu đó là nồi bánh chưng hay là thư tay thì chẳng bao giờ bạn cảm thấy thế.
 

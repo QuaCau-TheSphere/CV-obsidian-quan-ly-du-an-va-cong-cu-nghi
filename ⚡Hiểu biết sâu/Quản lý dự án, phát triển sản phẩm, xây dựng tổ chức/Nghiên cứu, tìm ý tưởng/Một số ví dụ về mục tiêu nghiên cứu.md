@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-10-26T23:59
 ---
 # Trước khi phát triển sản phẩm/tính năng
 
@@ -12,7 +12,7 @@ updated: 2023-10-06T16:09
 - Xác định các yếu tố ảnh hưởng đến quá trình ra quyết định của người dùng.
 - …
 
-# Trong quá trình phát triển sản phẩm/tính 
+# Trong quá trình phát triển sản phẩm/tính năng
 
 - Kiểm tra cách khách hàng tiếp nhận ý tưởng về sản phẩm, tính năng, phản ứng với các thông điệp
 - Đánh giá khả năng chấp nhận của khách hàng với sản phẩm hoặc tính năng, kiểm tra mức giá
@@ -32,4 +32,4 @@ Sau khi sản phẩm/tính năng được phát hành, có thể tiến hành ph
 Nguồn:: [[Hoàng Đức Minh]]
 
 [[Một số mục tiêu phỏng vấn gợi ý]]
-[[Các nghiên cứu có thể có cùng một mục tiêu nghiên cứu, nhưng khác nhau về câu hỏi nghiên cứu]]. [[Phần lớn các câu hỏi nghiên cứu không thể sử dụng để hỏi trực tiếp]]. [[] ] 
+[[Các nghiên cứu có thể có cùng một mục tiêu nghiên cứu, nhưng khác nhau về câu hỏi nghiên cứu]]. [[Phần lớn các câu hỏi nghiên cứu không thể sử dụng để hỏi trực tiếp]]. 

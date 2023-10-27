@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-10-27T18:59
 ---
 [[Phỏng vấn thường kém chính xác trong việc dự đoán các hành vi tương lai của người dùng]]. [[Dữ liệu cho ta biết hành vi của một người, nhưng không nói lý do họ làm điều đó]]. 
 

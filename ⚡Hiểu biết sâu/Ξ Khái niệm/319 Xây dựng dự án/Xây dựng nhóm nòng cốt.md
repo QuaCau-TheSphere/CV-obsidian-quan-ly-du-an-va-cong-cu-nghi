@@ -3,7 +3,7 @@ alias: coreteam, core team, thành viên nòng cốt
 Nội dung:
   - thảo luận chung
 created: 2023-06-12T00:57
-updated: 2023-10-06T16:09
+updated: 2023-10-27T18:59
 ---
 
 Câu hỏi liên quan đến chủ đề này:

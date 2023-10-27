@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-10-27T19:22
 ---
 # [Obsidian TTRPG Tutorials](https://obsidianttrpgtutorials.com/Obsidian+TTRPG+Tutorials/Obsidian+TTRPG+Tutorials "Obsidian TTRPG Tutorials - Obsidian TTRPG Tutorials")
 ![[DnD.webp]]

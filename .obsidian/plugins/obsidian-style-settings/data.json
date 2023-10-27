@@ -1,4 +1,6 @@
 {
   "catppuccin-theme-settings@@catppuccin-theme-accents": "ctp-accent-sapphire",
-  "quick-explorer@@qe-hide-breadcrumbs": true
+  "quick-explorer@@qe-hide-breadcrumbs": true,
+  "anuppuccin-theme-settings@@anuppuccin-light-theme-accents": "ctp-accent-light-sapphire",
+  "catppuccin-heading-settings@@ctp-h2": "var(--ctp-accent)"
 }

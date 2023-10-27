@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-30T13:05
-updated: 2023-10-06T16:09
+updated: 2023-10-27T18:59
 ---
 Google Analytics thường xác định visits thuộc về nguồn traffic nào dựa vào referrer, tuy nhiên vì một lý do nào đó mà referrer này lại bị mất dẫn đến việc các traffic đó sẽ bị xếp loại vào direct traffic. Vậy bao nhiêu organic traffic hiện đang bị tính vào direct traffic? Một nghiên cứu được tiến hành bởi Gene McKenna – Product Manager của Groupon đã cho thấy rằng có thể có tới [60% direct traffic của bạn hiện tại là organic](http://searchengineland.com/60-direct-traffic-actually-seo-195415). Con số đó có thể chỉ là trong trường hợp của Groupon, một trang deal / e-commerce, tùy theo tình trạng website của bạn như thế nào, số lượng organic traffic của bạn bị lẫn trong direct traffic có thể nằm trong khoản 20% – 80%.
 

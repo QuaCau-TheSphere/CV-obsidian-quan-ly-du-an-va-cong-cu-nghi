@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-12T16:39
-updated: 2023-10-22T14:51
+updated: 2023-10-27T00:56
 ---
 %%
 #file/thành-phẩm/bài-viết 
@@ -15,7 +15,7 @@ Trong cái thời đại của 4.0 này, [[Lập trình là một cái gì đó 
 
 Bằng việc [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu|đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu]], bọn mình hy vọng rằng bạn thấy rằng việc lập trình không chỉ là code sao cho máy chạy đúng ý mình mà còn là [[Lập trình thực ra là dùng ẩn dụ|cách ta dự phần vào việc hiểu và kiến trúc lên thế giới này]]. Bọn mình hy vọng rằng việc bạn thấy mình tự tin hơn về lập trình cũng sẽ góp phần giúp Kendy.
 
-##  Nếu cần phân loại thu chi thì tại sao không sử dụng các phần mềm quản lý tài chính cá nhân?
+## Nếu cần phân loại thu chi thì tại sao không sử dụng các phần mềm quản lý tài chính cá nhân?
 Các phần mềm quản lý tài chính cá nhân như Misa hay Money Lover có giao diện thân thiện hơn chương trình này nhiều. Momo hay ZaloPay còn có chức năng thu chi cho nhóm.
 
 Vấn đề là chúng đều yêu cầu bạn **phải phân loại ngay lúc nhập dữ liệu**, trong khi điều này lấy thời gian của bạn. Lúc bạn đi chợ mua đồ mà lại bắt bạn phân loại từng cái thì không biết tới bao giờ. Vào lúc nhập liệu bạn chỉ muốn viết ra thật nhanh, và não bạn nghĩ ra từ nào thì phải cho bạn viết đúng từ đó.
@@ -24,7 +24,7 @@ Ngoài ra, **dữ liệu được lưu trong những phần mềm đó bị cô 
 
 Điều này cũng có nghĩa là, nếu bạn không thấy mình có những vấn đề này thì bạn không cần phải dùng chương trình này.
 
-##  Liệu các phần mềm hoạch định tài nguyên doanh nghiệp (ERP) có giải quyết được vấn đề đảo thông tin này không?
+## Liệu các phần mềm hoạch định tài nguyên doanh nghiệp (ERP) có giải quyết được vấn đề đảo thông tin này không?
 Các phần mềm hoạch định tài nguyên doanh nghiệp ([enterprise resource planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning "Enterprise resource planning - Wikipedia"), ERP) sẽ có những mô đun chuyên về quản lý tài chính. Tuy nhiên, với Kendy điều đó là không đủ. Đây là những yêu cầu cho một phần mềm quản trị mà Kendy cần. Thiếu một trong 3 đều không được:
 - [ ] Có khả năng tuỳ chỉnh theo đúng luồng làm việc, suy nghĩ của mình
 - [ ] Không phải dành quá nhiều thời gian để xây dựng hệ thống đó
@@ -47,7 +47,7 @@ Có các phần mềm ERP mã nguồn mở như Odoo, và bạn có thể tự m
 
 Cũng không phải là Kendy không muốn học để tự xây dựng hệ thống cho mình, mà là kiếm lòi mắt cũng không thấy được người thực sự muốn chia sẻ. Theo trải nghiệm của Kendy khi hỏi trên các diễn đàn của Odoo, thì người trả lời thực ra chỉ muốn báo giá chứ không thực sự muốn chỉ. Vì dù là mã nguồn mở thì họ cũng xác định tập khách hàng của mình là doanh nghiệp.
 
-### Chi phí thuê lập trình viên là quá cao
+### Chi phí thuê lập trình viên để tự xây dựng ERP là quá cao
 ![[Thuê lập trình viên.png]]
 Nếu thuê lập trình viên thì thực sự không có tiền để thuê, và nếu có tiền thì cũng rất lệ thuộc vào họ. Việc xây dựng hệ thống là việc sửa mỗi lần một chút. Kendy không có đủ tiền cho quá nhiều lần điều chỉnh lắt nhắt như vậy.
 
@@ -73,6 +73,7 @@ Thật ra, việc đánh đổi giữa sự đơn giản (simplicity) và khả 
 Phải nói là điểm bán hàng độc nhất (unique selling point) của Fibery là sự đặt trọng tâm vào ý tưởng [[Quản lý công việc và quản lý kiến thức không thể tách rời nhau]] mà những ERP khác không làm được. Nhưng rốt cuộc thì **nó vẫn là một sản phẩm dựng sẵn**. Việc Kendy sử dụng nó là vì từ đầu Kendy đã ở trong tình trạng phải xây dựng hệ thống quản lý càng sớm càng tốt, và không có ai có thể hỗ trợ giải đáp các vấn đề về lập trình. Không thể nói nó là giải pháp tạm đủ, mà nó là sự thoả hiệp đỡ tệ hại nhất trong hoàn cảnh hiện tại. Con đường này là con đường bất đắc dĩ lắm mới phải đi. 
 
 Xem thêm:: [[Nhược điểm của Obsidian và Fibery]]
+Ngay tại trang chủ, Fibery đã tự giới thiệu bản thân là "If you've outgrown Jira, Notion, Airtable, and ClickUp — and are ready to replace them". Tức là nó hiểu rất rõ 
 
 ##  Nếu đã chấp nhận hỗ trợ Kendy miễn phí rồi, thì sao không dùng một ERP đàng hoàng luôn?
 Do Kendy đã có nhiều thiết lập rất nhiều thứ trên Fibery rồi, nên giờ mà phải đập đi xây lại thì sợ tốn nhiều thời gian hơn là ráng xài giải pháp chắp vá này tiếp. Kendy cảm thấy vẫn cần ưu tiên nhiều thứ khác hơn là giải quyết sự khó chịu vô cùng này của mình.
@@ -82,13 +83,20 @@ Hiện nay bọn mình vẫn chưa thấy kết quả của tụi nó là đáng
 
 Xem thêm:: [[AI là định dạng ảnh mờ của web]]
 
-## Chương trình đã xử lý ngôn ngữ tự nhiên (natural language processing —NLP) như thế nào?
-Thực ra nó chỉ là bắt regex qua một tệp khai báo từ khoá trước của người dùng thôi chứ không làm nhúng từ hay gắn nhãn qua thống kê. Như vậy thì sẽ đảm bảo kết quả ra đúng cách phân loại người dùng định nghĩa. Bọn mình không biết là làm vậy có đúng với cách mà NLP được định nghĩa hay không, nhưng đứng ở phía góc độ người dùng thì chắc nó cũng là tự nhiên. Hơn nữa, nó cũng vận dụng các khái niệm hay sử dụng trong NLP để xây dựng mô hình như chiều, khối dữ liệu, và tensor. 
+## Chương trình đã xử lý ngôn ngữ tự nhiên (natural language processing — NLP) như thế nào?
+Thực ra nó chỉ là bắt regex qua một tệp khai báo từ khoá trước của người dùng thôi chứ không làm nhúng từ hay gắn nhãn qua thống kê. Như vậy thì sẽ đảm bảo kết quả ra đúng cách phân loại người dùng định nghĩa. Các khái niệm hay sử dụng trong NLP để xây dựng mô hình như chiều, khối dữ liệu, và tensor cũng được sử dụng. 
 
 ## Tại sao không làm một trang web riêng cho chương trình mà lại để nó trộn lẫn với các nội dung khác?
+Ban đầu, nó vốn là vì khi viết bài này thì sẽ có nhiều liên kết ở trong vault này, còn viết hướng dẫn sử dụng thì lại có nhiều liên kết ở vault kia,
+Việc để các bài viết rải ra ở các website khác nhau cũng là vì mỗi bài sẽ có nhiều nội dung liên quan trực tiếp tới website đó. Hiện tại bọn mình chưa có thời gian để đảm bảo liên kết trỏ đúng
+
+Nhưng bởi vì buộc phải chấp nhận lý do đó, bọn mình bắt đầu khám phá ra được lý do sâu hơn
 Vì mục tiêu của bọn mình là để tạo ra [[Giàn giáo nhận thức cần phải tuỳ biến với quá trình hiểu biết của người dùng|một giàn giáo nhận thức]] cho những người cần phải tự học lập trình. Có rất nhiều sản phẩm có landing page riêng, nhưng bọn mình chưa thấy một trang nào hướng dẫn người chưa biết gì từ những bước rất nhỏ nhặt cả. Tất cả đều mặc định người đọc đã có một kiến thức nhất định về lập trình. Bọn mình muốn làm nhiều hơn thế.
 
-Việc để các bài viết rải ra ở các website khác nhau cũng là vì mỗi bài sẽ có nhiều nội dung liên quan trực tiếp tới website đó. Hiện tại bọn mình chưa có thời gian để đảm bảo liên kết trỏ đúng
+Trấn Kỳ là một sản phẩm. [[Sản phẩm là một vật thể]]. Để phát triển được nó, người ta phải nhận được nhiều hơn những thứ nó có thể cho đi. Nhìn nó bằng nhiều lăng kính khác nhau.
+[[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]]
+Đỉnh cao là mỗi người đều thấy khác nhau
+Để mọi người đều cùng có thể nhìn thấy nó, để nó có thể chạm đến bất cứ đâu, trước hết cần phân rã nó, làm cho nó hoà tan
 
 | Nội dung                                                                                                                                                                                                                                                                                                                                                                                                      | Nơi lưu trữ chính                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
@@ -103,6 +111,3 @@ Việc để các bài viết rải ra ở các website khác nhau cũng là vì
 ## Một số link hữu ích
 - [Obsidian to Fibery - Questions - n8n](https://community.n8n.io/t/obsidian-to-fibery/29084 "Obsidian to Fibery - Questions - n8n")
 - [icoxfog417/awesome-financial-nlp: Researches for Natural Language Processing for Financial Domain](https://github.com/icoxfog417/awesome-financial-nlp "icoxfog417/awesome-financial-nlp: Researches for Natural Language Processing for Financial Domain")
-
-
- 

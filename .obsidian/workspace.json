@@ -13,54 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Kế hoạch giúp Kendy.md",
+                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Vấn đề về bán hàng.md",
                 "mode": "source",
-                "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "2edff1e566ca63b6",
+            "id": "bba217093ef676e2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Lý do viết Trấn Kỳ.md",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Sắp xếp độ ưu tiên/Vấn đề ngắn hạn hay dài hạn không quan trọng, quan trọng là làm cái này mà phải nghĩ về cái khác thì sẽ nhức đầu.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "258cc08b8c13f472",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9f26259083c0deae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/❓Tìm sự bàn tán trước hay chuẩn bị cho sự bàn tán trước.md",
-                "mode": "source",
-                "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,8 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c337a3ea5e852bbb",
@@ -127,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/❓Tìm sự bàn tán trước hay chuẩn bị cho sự bàn tán trước.md",
+                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Vấn đề về bán hàng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/❓Tìm sự bàn tán trước hay chuẩn bị cho sự bàn tán trước.md",
+                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Vấn đề về bán hàng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/❓Tìm sự bàn tán trước hay chuẩn bị cho sự bàn tán trước.md"
+                "file": "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Vấn đề về bán hàng.md"
               }
             }
           }
@@ -180,57 +150,58 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false,
       "notion-like-tables:Create loom": false,
       "dbfolder:Create a new database table": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "command-palette:Open command palette": false
     }
   },
-  "active": "9f26259083c0deae",
+  "active": "69474447ecc3c4f0",
   "lastOpenFiles": [
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/❓Tìm sự bàn tán trước hay chuẩn bị cho sự bàn tán trước.md",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/Các bài truyền thông.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Hmm…Because…So now....md",
-    "⚡Hiểu biết sâu/Nhân học/Nhân học.md",
-    "⚡Hiểu biết sâu/Nhân học/Điền dã/Quá tập trung vào tình tiết mà bỏ qua bối cảnh thì sẽ thành góc nhìn thượng đế.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Ý nghĩa và biểu tượng/Không trực tiếp nói đồ vật được dùng để làm gì, mà mô tả sao cho người đọc tự liên hệ được tới chức năng của nó.md",
-    "⚡Hiểu biết sâu/Nhân học/Untitled.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Viết làm suy nghĩ không còn là vô hình.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Viết cho phép ta nghĩ về sự nghĩ.md",
-    "⚡Hiểu biết sâu/Nhân học/Diễn giải và mô tả/Diễn giải/Khi nhà nghiên cứu chú giải văn bản, họ kiến tạo ra đồng tác giả cho mình.md",
-    "📜 Tài nguyên/Nghiên cứu/Nhân văn số/Tài nguyên NLP và nhân văn số.md",
-    "📐 Dự án/6 Kế hoạch/Kế hoạch phát triển dự án.md",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Kế hoạch giúp Kendy.md",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Lý do viết Trấn Kỳ.md",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Từ việc hỗ trợ Kendy đến Patreon và tâm lý của con người về tiền.md",
+    "⚔️ Hướng dẫn Obsidian và Git/Các bài học nâng cao/Viết plugin/📖 Nodejs và Electron.md",
     "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Vấn đề về bán hàng.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Lập trình/Ngành kỹ thuật phần mềm không thể viết nên một phần mềm để tạo bản thiết kế cho chính ngành của mình.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/Việc chi tiền làm tâm lý con người bị đau.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/Tiền làm thay đổi mối quan hệ từ việc đáp ứng nhu cầu lẫn nhau sang trao đổi hàng hoá.md",
-    "📐 Dự án/3 Thành phẩm/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Thật khó để nghe thấy chính mình nghĩ.md",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/Kế hoạch phát triển Trấn Kỳ.md",
+    "⚔️ Hướng dẫn Obsidian và Git/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Chơi game.md",
+    "⚔️ Hướng dẫn Obsidian và Git/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm mạnh của Obsidian/Obsidian miễn phí, không có chức năng nào phải trả tiền hay tính theo đầu người.md",
+    "⚔️ Hướng dẫn Obsidian và Git/💎 Giới thiệu về Obsidian/Mô tả về Obsidian/Điểm mạnh của Obsidian/Cộng đồng Obsidian rất mạnh.md",
+    "⚔️ Hướng dẫn Obsidian và Git/5 Làm việc cùng nhau/5.3 Đẩy dữ liệu mới lên (push).md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Nghiên cứu, tìm ý tưởng/Một số ví dụ về mục tiêu nghiên cứu.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Sắp xếp độ ưu tiên/Vấn đề ngắn hạn hay dài hạn không quan trọng, quan trọng là làm cái này mà phải nghĩ về cái khác thì sẽ nhức đầu.md",
+    "⚔️ Hướng dẫn Obsidian và Git/💎 Giới thiệu về Obsidian/Theo mục đích xây dựng vault/Wiki chuyên ngành.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Quản lý phiên bản bằng Git/Vấn đề hay gặp khi dùng Git.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Web/FB purity giúp giảm rác Facebook.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Web",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Loại bỏ phiền nhiễu, vượt rào cản/Hệ điều hành",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Từ việc hỗ trợ Kendy đến Patreon và tâm lý của con người về tiền.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Lý do viết Trấn Kỳ.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Lý do chọn mức giá này.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog/Kế hoạch giúp Kendy.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/Kế hoạch phỏng vấn người dùng Trấn Kỳ.md",
+    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
     "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/2 Thành quả mong muốn/Mỗi tuần có 40 người chia sẻ Trấn Kỳ công khai.md",
+    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về sản phẩm/Các nghiên cứu về sản phẩm.md",
+    "📐 Dự án/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Email mời phỏng vấn.md",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Kendy.md",
+    "📜 Tài nguyên/Nghiên cứu/Dịch/Từ cách một từ được đổ nghĩa đến việc dịch khái niệm philanthropy sang tiếng Việt.md",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Môi trường nghĩ, nhận thức tăng cường/Andy Matuschak.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/Quản lý dự án/Điều đối tượng thấy.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/Quản lý dự án/Điều kiện cần.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/319 Xây dựng dự án/Xây dựng nhóm nòng cốt.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Truyền thông, xây dựng cộng đồng/Web analytics",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Tối ưu hoá",
+    "📜 Tài nguyên/Làm dự án/Luật pháp",
     "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/2 Thành quả mong muốn",
     "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/9 Blog",
     "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm",
     "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/3 Thành phẩm/Trấn Kỳ/9 Blog",
-    "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy/Mỗi tuần có 300 người bấm vào Trấn Kỳ.md",
     "📐 Dự án/3 Thành phẩm/Hỗ trợ Kendy",
-    "📐 Dự án/3 Thành phẩm/Quỹ hỗ trợ người học/Quỹ hỗ trợ người học.md",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Nơi gặp mặt trực tiếp/Theo loại hình",
-    "📜 Tài nguyên/Làm dự án/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố",
-    "📜 Tài nguyên/Làm dự án/Truyền thông/Web analytics/Google Analytics",
     "Ξ Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
     "Ξ Thiết lập/Ảnh/logo2.png",
-    "Ξ Thiết lập/Excalidraw/Các lĩnh vực trong vault.png",
-    "📐 Dự án/3 Thành phẩm/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/Thành quả mong muốn"
+    "Ξ Thiết lập/Excalidraw/Các lĩnh vực trong vault.png"
   ]
 }

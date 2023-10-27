@@ -1,5 +1,5 @@
 {
-  "strategy": "default",
+  "strategy": "english-only",
   "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "prefix",
   "fuzzyMatch": false,
@@ -57,7 +57,7 @@
     "insert as text": []
   },
   "propagateEsc": false,
-  "enableCurrentFileComplement": true,
+  "enableCurrentFileComplement": false,
   "currentFileMinNumberOfCharacters": 0,
   "onlyComplementEnglishOnCurrentFileComplement": false,
   "enableCurrentVaultComplement": false,
@@ -93,6 +93,6 @@
     "maxNumberOfHistoryToKeep": 0
   },
   "disableOnMobile": false,
-  "showLogAboutPerformanceInConsole": false,
+  "showLogAboutPerformanceInConsole": true,
   "selectionHistoryTree": {}
 }

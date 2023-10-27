@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-13T17:32
+updated: 2023-10-25T01:09
 ---
 [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
 [[Chúng ta không chọn phương án tối ưu khi chọn sai cũng chẳng hại gì]] 
@@ -23,6 +23,8 @@ Sự thật #3: Chúng ta không tìm hiểu cách mọi thứ vận hành. Chú
 - Vì nếu ta tìm được cách nào dùng được, ta sẽ dính với cách đó
 
 Nguồn:: [[Đừng bắt tôi nghĩ]]
+[[Chơi là sự thử nghiệm các kỹ năng mới học trong những môi trường mới]]
+[[Người chơi chuyển từ kỹ năng này sang kỹ năng khác ngay cả khi họ chỉ có một khái niệm mơ hồ về đích đến cuối cùng]]
+[[Người chơi sẽ theo đuổi kỹ năng mới với giá trị tiềm năng trong phạm vi dự đoán]]
 
-Nhưng vì việc [[Đọc lướt không giúp ta tiếp thu được gì cả]], nên ta sẽ thấy nhức đầu khi bật trang mới dù ta không cảm thấy áp lực gì cả. Dễ thấy nhất khi cần ngồi nghiên cứu và ta bật rất nhiều tab
-[[Về mặt nhận thức, con người tương lai của chính mình không liên quan gì đến mình]]
+Nhưng vì việc [[Đọc lướt không giúp ta tiếp thu được gì cả]], nên ta sẽ thấy nhức đầu khi bật trang mới dù ta không cảm thấy áp lực gì cả. Dễ thấy nhất khi cần ngồi nghiên cứu và ta bật rất nhiều tab. [[Vấn đề của việc đọc lướt không phải vì nó có khả năng thành công cao, mà là vì khi mình đã kết luận là khả năng thành công không cao rồi, thì sự chuyển trạng thái sang thực sự đọc cẩn thận không suôn sẻ và tự nhiên]] 
