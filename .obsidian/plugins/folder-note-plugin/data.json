@@ -5,5 +5,5 @@
   "folderNoteKey": "ctrl",
   "folderNoteAutoRename": true,
   "folderDelete2Note": false,
-  "folderNoteStrInit": "---\nshare: true\n---\n\n```dataview\nLIST\nFROM \"{{FOLDER_NAME}}\" \nWHERE file.name!=this.file.name\nWhere file.name=split(file.folder, \"/\")[1]\n```"
+  "folderNoteStrInit": "---\nshare: true\n---\n\n```dataview\nLIST rows.file.link\nFROM \"{{FOLDER_NAME}}\" \nWHERE file.name!=this.file.name\nGROUP BY split(file.folder, \"/\")[2]\n```"
 }

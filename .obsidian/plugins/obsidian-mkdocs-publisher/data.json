@@ -81,7 +81,8 @@
     "links": {
       "internal": true,
       "unshared": false,
-      "wiki": true
+      "wiki": true,
+      "slugify": true
     }
   },
   "embed": {
@@ -110,5 +111,5 @@
     "migrated": true,
     "dev": true
   },
-  "tabsID": "upload-configuration"
+  "tabsID": "help"
 }

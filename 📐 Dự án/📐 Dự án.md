@@ -1,6 +1,10 @@
 ---
 share: true
-created: 2023-06-08T12:08
-updated: 2023-10-07T21:13
+created: 2023-10-27T22:16
+updated: 2023-10-27T22:20
 ---
-![[Quý II – 2023]]
+
+# Mục tiêu tháng 11/2023: 
+Nhu cầu:: [[Kendy giải quyết được vấn đề trả lãi]] 
+Thành quả cần có:: [[Mỗi tuần có 300 người bấm vào Trấn Kỳ]]
+
