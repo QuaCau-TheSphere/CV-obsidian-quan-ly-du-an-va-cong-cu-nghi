@@ -1,0 +1,8 @@
+{
+  "folderNotePref": 1,
+  "deleteOutsideNoteWithFolder": false,
+  "indexName": "_about_",
+  "autoRename": true,
+  "folderNoteTemplate": "---\nshare: true\n---\n\n```dataview\nLIST rows.file.link\nFROM \"{{FOLDER_PATH}}\" \nWHERE file.name!=this.file.name\nGROUP BY split(file.folder, \"/\")[2]\n```",
+  "logLevel": 4
+}

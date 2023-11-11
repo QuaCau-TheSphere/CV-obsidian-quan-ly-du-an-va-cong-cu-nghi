@@ -33,7 +33,8 @@
     },
     "repo": "CW-obsidian-quan-ly-du-an-va-cong-cu-nghi",
     "user": "QuaCau-TheSphere",
-    "verifiedRepo": true
+    "verifiedRepo": true,
+    "rateLimit": 4359
   },
   "upload": {
     "behavior": "obsidian",

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-26T10:33
-updated: 2023-10-06T16:09
+updated: 2023-11-08T18:22
 ---
 Khái niệm:: [[Mẫu hình (pattern)]]
 [[Sự chuyên gia (expertise) đến từ việc nhìn ra mẫu hình]]
@@ -9,3 +9,4 @@ Khái niệm:: [[Mẫu hình (pattern)]]
 Nguồn:: Daniel Kahneman, Tư duy nhanh và chậm
 
 [[Thay vì suy luận để đi tới kết luận, chúng ta thường dùng kết luận để suy luận]]
+[[Trực giác là việc đi tới kết luận mà không thông qua suy luận]] 

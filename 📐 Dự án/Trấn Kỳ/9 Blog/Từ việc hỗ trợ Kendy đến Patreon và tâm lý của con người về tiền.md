@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-07T19:36
-updated: 2023-10-27T21:29
+updated: 2023-11-07T16:02
 ---
 %%
 #file/thành-phẩm/bài-viết 
@@ -80,7 +80,7 @@ Bọn mình cũng sẽ áp dụng như thế.
 
 Chưa dừng lại ở đó, [[cảm xúc không chỉ khiến ta nhớ tốt hơn, mà còn điều hướng những suy nghĩ tự động]]. Thế nên là, mặc dù có thể khi đọc bài này trong bạn cũng có mong muốn giúp đỡ, nhưng chỉ cần nghĩ đến bước tiếp theo của việc giúp đỡ là mở tài khoản ngân hàng thì tim bạn lại nhói đau. Bạn sẽ phải chiến đấu với cái cảm giác vô lý đó, và việc đó cũng mệt mỏi. Nên bọn mình muốn không chỉ là khơi gợi lòng trắc ẩn ở trong bạn, mà là muốn bạn nhìn thẳng vào cảm giác mất mát giả tạo đó. Bọn mình muốn các bạn hiểu rằng các bạn không đóng góp tiền gì cả. Giả sử như số tiền bạn định cho bằng 3 tiếng lao động của bạn. Thì 3 tiếng đó chính là số thời gian bạn cùng với Kendy tạo ra những điều có ý nghĩa cho cả hai, để cả hai cùng phát triển. 
 
-Nhưng hay hơn cả, là có một cách thức để trao đổi nhu cầu mà không dùng tới tiền ngay từ đầu. Những thảo luận về [nền kinh tế không dùng tiền](https://en.wikipedia.org/wiki/Non-monetary_economy) đã có từ lâu, và công nghệ để đáp ứng nó cũng có từ lâu. Quả Cầu đang thử xây dựng mô hình này dựa trên Obsidian. Để biết thêm chi tiết xem tại [[Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền]]
+Nhưng hay hơn cả, là có một cách thức để trao đổi nhu cầu mà không dùng tới tiền ngay từ đầu. Những thảo luận về [nền kinh tế không dùng tiền](https://en.wikipedia.org/wiki/Non-monetary_economy) đã có từ lâu, và công nghệ để đáp ứng nó cũng có từ lâu. Quả Cầu đang thử xây dựng mô hình này dựa trên Obsidian. Để biết thêm chi tiết xem tại [[📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền]]
 
 Làm cho chính bạn không còn cần đến tiền nữa. Vì khi
 

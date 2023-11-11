@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-10-31T01:44
 ---
 ownership in the sense of user agency, autonomy, and control over data. You should be able to copy and modify data in any way, write down any thought, and no company should restrict what you are allowed to do.
 

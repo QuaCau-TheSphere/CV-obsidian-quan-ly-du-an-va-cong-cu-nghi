@@ -1,10 +1,20 @@
 ---
 share: true
 created: 2023-09-12T16:39
-updated: 2023-10-27T22:32
+updated: 2023-11-08T13:21
 ---
 %%
 #file/thành-phẩm/bài-viết 
+# Tại sao không sử dụng cơ sở dữ liệu (Excel, SQL) 
+Ban đầu, nó vốn là vì khi viết bài này thì sẽ có nhiều liên kết ở trong vault này, còn viết hướng dẫn sử dụng thì lại có nhiều liên kết ở vault kia,
+Việc để các bài viết rải ra ở các website khác nhau cũng là vì mỗi bài sẽ có nhiều nội dung liên quan trực tiếp tới website đó. Hiện tại bọn mình chưa có thời gian để đảm bảo liên kết trỏ đúng
+
+Nhưng bởi vì buộc phải chấp nhận lý do đó, bọn mình bắt đầu khám phá ra được lý do sâu hơn
+
+Trấn Kỳ là một sản phẩm. [[Sản phẩm là một vật thể]]. [[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]]. Để nó được đón nhận, người ta phải nhận được nhiều hơn những thứ nó có thể cho đi. Nhìn nó bằng nhiều lăng kính khác nhau.
+Đỉnh cao là mỗi người đều thấy khác nhau
+Để mọi người đều cùng có thể nhìn thấy nó, để nó có thể chạm đến bất cứ đâu, trước hết cần phân rã nó, làm cho nó hoà tan
+Thả bạn vào một nơi bất kỳ trên thành phố. Như bạn thấy, nơi này còn nhiều chỗ chưa được xây dựng, giống như một thành phố còn nhiều bãi đất hoang
 %%
 ## Tại sao lại viết chương trình này?
 Đây là nhu cầu của Kendy, và bọn mình giúp được gì thì giúp. Xem thêm bài [[Từ việc hỗ trợ Kendy đến Patreon và tâm lý của con người về tiền]]. 
@@ -80,26 +90,26 @@ Xem thêm:: [[Nhược điểm của Obsidian và Fibery]]
 ##  Nếu đã chấp nhận hỗ trợ Kendy miễn phí rồi, thì sao không dùng một ERP đàng hoàng luôn?
 Do Kendy đã có nhiều thiết lập rất nhiều thứ trên Fibery rồi, nên giờ mà phải đập đi xây lại thì sợ tốn nhiều thời gian hơn là ráng xài giải pháp chắp vá này tiếp. Kendy cảm thấy vẫn cần ưu tiên nhiều thứ khác hơn là giải quyết sự khó chịu vô cùng này của mình.
 
+## Chương trình đã xử lý ngôn ngữ tự nhiên (natural language processing — NLP) như thế nào?
+- Dạng bài toán: **nhận dạng tên thực thể (named entity recognition)**, là bài toán con của bài toán **rút trích thông tin (information extraction)** 
+- Hướng tiếp cận: **từ điển (dictionary)**, là hướng nhỏ hơn của tiếp cận **dựa trên quy tắc (rule-based)**
+- Kỹ thuật tách từ: hoàn toàn dựa trên khai báo của người dùng
+
+Từ khối dữ liệu đầu vào, chương trình xử lý để ra khối dữ liệu đầu ra. Xem thêm [Mô hình xử lý dữ liệu](https://lậptrình.quảcầu.cc/%F0%9F%91%8FTr%E1%BA%A5n%20K%E1%BB%B3/H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20s%E1%BB%AD%20d%E1%BB%A5ng%20Tr%E1%BA%A5n%20K%E1%BB%B3/3.%20Hi%E1%BB%83u%20code%20n%C3%B3i%20g%C3%AC/3.1%20M%C3%B4%20h%C3%ACnh%20x%E1%BB%AD%20l%C3%BD%20d%E1%BB%AF%20li%E1%BB%87u/?utm_source=CW+Obsidian%2C+qu%E1%BA%A3n+l%C3%BD+d%E1%BB%B1+%C3%A1n+v%C3%A0+c%C3%B4ng+c%E1%BB%A5+ngh%C4%A9+%C2%BB+L%C3%BD+do+vi%E1%BA%BFt+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=vault&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3&utm_content=th%C3%A0nh+ph%E1%BA%A9m).
+
 ##  Tại sao không dùng ChatGPT, Bing AI hay Bard để phân loại thông tin? 
-Hiện nay bọn mình vẫn chưa thấy kết quả của tụi nó là đáng tin cậy hoặc tiện lợi để sử dụng với số lượng câu nhập lớn. Hơn nữa muốn dùng được chúng thì phải có mạng. 
+Lý do quan trọng nhất là **kết quả không đáng tin cậy**. Các mô hình ngôn ngữ dựa trên thống kê không đảm bảo việc gắn nhãn sẽ luôn theo đúng hệ thống phân loại có sẵn trong đầu người dùng. Nếu đã phải định nghĩa hệ thống phân loại đó rồi thì không cần phải dùng đến chúng nữa.
 
 Xem thêm:: [[AI là định dạng ảnh mờ của web]]
 
-## Chương trình đã xử lý ngôn ngữ tự nhiên (natural language processing — NLP) như thế nào?
-Thực ra nó chỉ là bắt regex qua một tệp khai báo từ khoá trước của người dùng thôi chứ không làm nhúng từ hay gắn nhãn qua thống kê. Như vậy thì sẽ đảm bảo kết quả ra đúng cách phân loại người dùng định nghĩa. Các khái niệm hay sử dụng trong NLP để xây dựng mô hình như chiều, khối dữ liệu, và tensor cũng được sử dụng. 
+Các lý do khác:
+- Chậm
+- Cần có mạng
+- Phải gửi thông tin ra ngoài
+- Dùng số lượng lớn thì phải tốn tiền
 
 ## Tại sao không làm một trang web riêng cho chương trình mà lại để nó trộn lẫn với các nội dung khác?
 Vì mục tiêu của bọn mình là để tạo ra [[Giàn giáo nhận thức cần phải tuỳ biến với quá trình hiểu biết của người dùng|một giàn giáo nhận thức]] cho những người cần phải tự học lập trình. Có rất nhiều sản phẩm có landing page riêng, nhưng bọn mình chưa thấy một trang nào hướng dẫn người chưa biết gì từ những bước rất nhỏ nhặt cả. Tất cả đều mặc định người đọc đã có một kiến thức nhất định về lập trình. Bọn mình muốn làm nhiều hơn thế.
-%%
-Ban đầu, nó vốn là vì khi viết bài này thì sẽ có nhiều liên kết ở trong vault này, còn viết hướng dẫn sử dụng thì lại có nhiều liên kết ở vault kia,
-Việc để các bài viết rải ra ở các website khác nhau cũng là vì mỗi bài sẽ có nhiều nội dung liên quan trực tiếp tới website đó. Hiện tại bọn mình chưa có thời gian để đảm bảo liên kết trỏ đúng
-
-Nhưng bởi vì buộc phải chấp nhận lý do đó, bọn mình bắt đầu khám phá ra được lý do sâu hơn
-
-Trấn Kỳ là một sản phẩm. [[Sản phẩm là một vật thể]]. [[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]]. Để nó được đón nhận, người ta phải nhận được nhiều hơn những thứ nó có thể cho đi. Nhìn nó bằng nhiều lăng kính khác nhau.
-Đỉnh cao là mỗi người đều thấy khác nhau
-Để mọi người đều cùng có thể nhìn thấy nó, để nó có thể chạm đến bất cứ đâu, trước hết cần phân rã nó, làm cho nó hoà tan
-%%
 
 | Nội dung                                                                                                                                                                                                                                                                                                                                                                                                      | Nơi lưu trữ chính                       |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
@@ -107,9 +117,10 @@ Trấn Kỳ là một sản phẩm. [[Sản phẩm là một vật thể]]. [[S�
 | [Hướng dẫn sử dụng Trấn Kỳ](https://lậptrình.quảcầu.cc/%F0%9F%91%8FTr%E1%BA%A5n%20K%E1%BB%B3/H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20s%E1%BB%AD%20d%E1%BB%A5ng%20Tr%E1%BA%A5n%20K%E1%BB%B3/?utm_source=CW+Obsidian%2C+qu%E1%BA%A3n+l%C3%BD+d%E1%BB%B1+%C3%A1n+v%C3%A0+c%C3%B4ng+c%E1%BB%A5+ngh%C4%A9+%C2%BB+L%C3%BD+do+vi%E1%BA%BFt+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=vault&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3) | Tiếp thị số, xử lý dữ liệu và lập trình |
 | [[Lý do viết Trấn Kỳ]]                                                                                                                                                                                                                                                                                                                                                                                        | Obsidian, quản lý dự án và công cụ nghĩ |
 | [[Kế hoạch giúp Kendy]]                                                                                                                                                                                                                                                                                                                                                                                       | Obsidian, quản lý dự án và công cụ nghĩ |
-| [[Mỗi tuần có 300 người bấm vào Trấn Kỳ\|Kế hoạch phát triển Trấn Kỳ]]                                                                                                                                                                                                                                                                                                                                        | Obsidian, quản lý dự án và công cụ nghĩ |
-| [[Hỏi đáp về việc bán Trấn Kỳ]]                                                                                                                                                                                                                                                                                                                                                                                        | Obsidian, quản lý dự án và công cụ nghĩ |
+| [[Kế hoạch phát triển Trấn Kỳ]]                                                                                                                                                                                                                                                                                                                                                                               | Obsidian, quản lý dự án và công cụ nghĩ |
+| [[Hỏi đáp về việc bán Trấn Kỳ]]                                                                                                                                                                                                                                                                                                                                                                               | Obsidian, quản lý dự án và công cụ nghĩ |
 
+[[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]]
 Xem thêm:: [[Người dùng bấm bao nhiêu lần cũng được, miễn là tự tin mình đang đi đúng hướng]]
 
 ## Một số link hữu ích

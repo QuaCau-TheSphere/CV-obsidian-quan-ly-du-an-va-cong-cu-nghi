@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-11-08T17:13
 ---
 ```dataview
 LIST file.cday
@@ -29,7 +29,7 @@ Product phải là người
 [[1 nghiên cứu 20 ngày khác với 4 nghiên cứu 5 ngày]]. ROI khác nhau
 ![](https://i.imgur.com/lE5pZFO.png)
 
-[[Nghiên cứu người dùng không nên là một bước, mà nên là một hoạt động]]
+[[Nghiên cứu người dùng không nên là một bước, mà nên là một hoạt động diễn ra liên tục]]
 ![](https://images.prismic.io/superpupertest/38b1e49d-80e7-43e5-b92c-4ba4971eb35b_Frame+2541.png?auto=compress,format)  
 
 Các cách để nghiên cứu người dùng:

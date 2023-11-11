@@ -3,7 +3,7 @@
   "rowCount": 2,
   "spacing": 0,
   "buttonWidth": 48,
-  "columnLayout": false,
+  "columnLayout": true,
   "alwaysShowToolbar": true,
   "mappedIcons": [
     {
@@ -11,16 +11,16 @@
       "iconID": "minus"
     },
     {
-      "commandID": "obsidian-editor-shortcuts:duplicateLine",
-      "iconID": "plus"
+      "commandID": "templater-obsidian:insert-templater",
+      "iconID": "layout-list"
     },
     {
-      "commandID": "templater-obsidian:insert-templater",
-      "iconID": "file-text"
+      "commandID": "obsidian-editor-shortcuts:duplicateLine",
+      "iconID": "plus"
     }
   ],
   "allowStylingOfAllActions": false,
   "tooltips": false,
-  "heightOffset": 0,
+  "heightOffset": 12,
   "debugging": false
 }

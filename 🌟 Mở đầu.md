@@ -1,8 +1,10 @@
 ---
 share: true
 filename: index
+alias:
+  - C Obsidian, quản lý dự án và công cụ nghĩ
 created: 2023-06-25T19:58
-updated: 2023-10-10T16:29
+updated: 2023-11-01T22:43
 ---
   
 ![[logo.svg|200]]

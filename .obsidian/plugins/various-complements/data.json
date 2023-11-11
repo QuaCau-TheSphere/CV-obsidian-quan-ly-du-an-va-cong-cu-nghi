@@ -1,5 +1,5 @@
 {
-  "strategy": "english-only",
+  "strategy": "default",
   "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "prefix",
   "fuzzyMatch": false,
@@ -8,17 +8,18 @@
   "treatAccentDiacriticsAsAlphabeticCharacters": false,
   "maxNumberOfSuggestions": 5,
   "maxNumberOfWordsAsPhrase": 3,
-  "minNumberOfCharactersTriggered": 0,
+  "minNumberOfCharactersTriggered": 2,
   "minNumberOfWordsTriggeredPhrase": 1,
   "complementAutomatically": true,
   "delayMilliSeconds": 0,
   "disableSuggestionsDuringImeOn": false,
-  "insertAfterCompletion": true,
+  "insertAfterCompletion": false,
   "firstCharactersDisableSuggestions": ":/^",
   "patternsToSuppressTrigger": [
     "^~~~.*",
     "^```.*"
   ],
+  "phrasePatternsToSuppressTrigger": [],
   "noAutoFocusUntilCycle": false,
   "showMatchStrategy": true,
   "showComplementAutomatically": true,

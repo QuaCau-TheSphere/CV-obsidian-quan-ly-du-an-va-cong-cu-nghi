@@ -240,15 +240,6 @@
     }
   ],
   "switcher:open": [],
-  "obsidian-regex-replace:obsidian-regex-replace": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "H"
-    }
-  ],
   "editor:save-file": [],
   "templater-obsidian:create-new-note-from-template": [],
   "templater-obsidian:jump-to-next-cursor-location": [],
@@ -422,5 +413,22 @@
     }
   ],
   "obsidian-excalidraw-plugin:insert-link-to-element": [],
-  "obsidian-excalidraw-plugin:save": []
+  "obsidian-excalidraw-plugin:save": [],
+  "global-search-and-replace:search-and-replace": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "H"
+    }
+  ],
+  "obsidian-regex-replace:obsidian-regex-replace": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
+  ]
 }

@@ -11,7 +11,6 @@
   "dataview",
   "dbfolder",
   "obsidian-divide-and-conquer",
-  "folder-note-plugin",
   "obsidian-mkdocs-publisher",
   "global-search-and-replace",
   "obsidian-heading-shifter",
@@ -37,5 +36,10 @@
   "obsidian-contextual-typography",
   "obsidian-snippet-downloader",
   "style-importer",
-  "obsidian-theme-design-utilities"
+  "obsidian-theme-design-utilities",
+  "copy-url-in-preview",
+  "folder-note-core",
+  "folder-note-plugin",
+  "file-diff",
+  "better-word-count"
 ]

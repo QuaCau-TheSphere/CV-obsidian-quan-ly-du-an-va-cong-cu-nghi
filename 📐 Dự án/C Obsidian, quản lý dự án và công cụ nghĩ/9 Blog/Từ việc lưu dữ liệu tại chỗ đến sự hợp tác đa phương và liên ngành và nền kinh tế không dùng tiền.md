@@ -3,15 +3,17 @@ Alias: Động lực dự án, Tại sao lại chọn Obsidian, Sứ mệnh
 description: Động lực dự án này là gì? Tại sao lại chọn Obsidian?
 share: true
 created: 2023-07-26T10:33
-updated: 2023-10-28T11:50
+updated: 2023-11-07T16:01
 ---
 <sub>English below</sub>
+
+
 # Vấn đề: Sự hợp tác giữa các nhóm dự án chưa đạt được hiệu quả tối ưu
 Việc tìm kiếm người hợp tác cho các dự án mới có ý tưởng đột phá có vẻ khó. Trong 5 năm mình tham gia vào các mạng lưới, cộng đồng phi lợi nhuận, mình cảm thấy mặc dù đã có rất rất nhiều tổ chức muốn thúc đẩy một hệ sinh thái giữa các dự án, nhưng lại chưa cảm thấy sự hiệu quả đạt đến mức tối ưu, mặc dù mình đánh giá rất cao nỗ lực và sự chuyên nghiệp của họ. Mình phải thẳng thắn nói rằng mình thất vọng rất nhiều sau các sự kiện kết nối. Mọi người có biết đến nhau, nhưng sau buổi hôm đó cũng chỉ dừng lại ở đó, không đi xa hơn được. Mình nghĩ rằng nguyên nhân quan trọng nhất là các bên **quá nhiều việc**. Mọi người không thể đi đủ sâu để tìm hiểu về nhau. Vì để có thể đi sâu thì phải tốn rất rất nhiều thời gian, mà thường tổ chức phải phát triển đủ lớn để có một người chuyên về việc kết nối, chứ công việc thì rất rất nhiều. Nếu như các tổ chức kết nối cộng đồng chủ động phân loại và tổ chức các buổi gặp gỡ cho các dự án quy mô nhỏ tương tự nhau thì rất tốt, nhưng mình không thấy được điều đó.
 
 [[Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0]]. Bạn không cần phải hỏi mà vẫn biết nhu cầu của những thành viên xung quanh, và họ không cần phải hỏi cũng biết bạn đang cần gì. Mặc dù chúng ta luôn khuyến khích đặt câu hỏi, nhưng [[Một hệ sinh thái không hoạt động bằng cách đặt câu hỏi, mà bằng cách không cần hỏi cũng biết câu trả lời là gì]]. Và các công cụ quản lý dự án hiện nay không có chức năng cung cấp thông tin của nhóm cho những nhóm khác. Chỉ khi nào nhu cầu của các bên liên quan hiện ra ngay trong kho dữ liệu của nhóm mà không cần phải hỏi họ hay thậm chí là nhập liệu, thì lúc đó chúng ta mới có thể bắt đầu nói về một hệ sinh thái mà những thành viên mới – vốn rất thiếu nhân lực – vẫn có thể hưởng lợi.
 
-# Sứ mạng: Tạo thói quen sử dụng dữ liệu ở local cho mọi người
+# Hướng giải quyết: Tạo thói quen sử dụng dữ liệu ở local cho mọi người
 Trong những phần mềm quản lý công việc trên thị trường hiện nay, mình thấy có duy nhất Obsidian (và Git) là có thể đáp ứng nhu cầu đó. Triết lý của Obsidian là:
 
 - [[Obsidian lưu dữ liệu nằm trên máy của người dùng|Dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản]]
@@ -131,3 +133,5 @@ So there is a tradeoff that every system designer has to face: do you want your 
 However, digging deeper on the problem you will see that [[Hợp tác thời gian thực không thực sự cần thiết trong đa số trường hợp. Đa số đều là hợp tác phi đồng bộ]]. And there is an excellent tool for asynchronous collaboration for local-first data: Git.
 
 So what will we do is essentially categorized as technology education: helping new-founded organizations to learn Obsidian and Git.
+
+[Browse Companies](https://www.partnerbase.com/app/search/?utmCampaign=Partnerbase+Welcome+Email&utmMedium=email&hsmi=214590202&utmContent=214590202&utmSource=hs_automation&country=Vietnam&sort=partnerbase_score|desc&limit=200)

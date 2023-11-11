@@ -1,12 +1,17 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-27T21:28
+updated: 2023-11-07T11:56
+alias:
+  - Kế hoạch tổ chức các buổi hướng dẫn sử dụng Trấn Kỳ
+  - Tổ chức các buổi hướng dẫn người dùng sử dụng Trấn Kỳ
 ---
+Vào Discord của Quả Cầu, mục Trấn Kỳ để hẹn lịch. 
 %%
 #file/thành-phẩm
 %%
 
+[[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu]]
 Phục vụ cho thành quả:
 ```dataview
 LIST

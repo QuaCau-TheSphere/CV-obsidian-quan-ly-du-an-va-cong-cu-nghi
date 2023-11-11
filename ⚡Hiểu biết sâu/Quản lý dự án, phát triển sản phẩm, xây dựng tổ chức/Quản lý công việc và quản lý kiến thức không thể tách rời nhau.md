@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-12T12:12
+updated: 2023-11-04T12:54
 ---
 Lý do:: [[Công việc khai phá chính là quản lý kiến thức]] 
 [[❓Quản lý cuộc sống có phải là quản lý dự án？Công việc và cuộc sống có phải là không thể tách rời nhau？]]

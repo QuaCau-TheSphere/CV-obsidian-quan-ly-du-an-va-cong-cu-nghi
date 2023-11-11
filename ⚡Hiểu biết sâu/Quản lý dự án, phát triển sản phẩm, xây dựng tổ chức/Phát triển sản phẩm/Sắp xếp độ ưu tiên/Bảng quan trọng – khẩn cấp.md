@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-30T14:31
-updated: 2023-10-27T18:15
+updated: 2023-11-04T16:03
 ---
 ![[Eisenhower-Matrix-920x1024.png|300]]
 ![[Eisenhower-Matrix-Actions-539x600.png|300]]
@@ -98,3 +98,6 @@ Tôi thấy rằng khi một người bỏ thời gian ra để làm một thứ
 I find that when someone's taking time to do something right in the present, they're a perfectionist with no ability to prioritize, whereas when someone took time to do something right in the past, they're a master artisan of great foresight.
 
 [[Về mặt nhận thức, con người tương lai của chính mình không liên quan gì đến mình]]
+[[Không có giải pháp nào cho người sáng lập để giải quyết sự quá tải ngoài những lời khuyên chung chung]]
+[[Việc mải mê làm việc đến quên cả đói cho thấy phần thưởng từ việc làm việc là đủ lớn hơn việc được ăn]] 
+[[Vấn đề ngắn hạn hay dài hạn không quan trọng, quan trọng là làm cái này mà phải nghĩ về cái khác thì sẽ nhức đầu]] 

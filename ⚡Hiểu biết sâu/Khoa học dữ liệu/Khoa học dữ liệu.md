@@ -1,6 +1,12 @@
 ---
 share: true
-created: 2023-05-29T18:59
-updated: 2023-10-27T18:59
+created: 2023-10-31T01:39
+updated: 2023-10-31T01:39
 ---
-Nguồn:: [[Phạm Đình Khánh]], [Mô hình Word2Vec](https://phamdinhkhanh.github.io/2019/04/29/ModelWord2Vec.html)
+
+```dataview
+LIST rows.file.link
+FROM "⚡Hiểu biết sâu/Khoa học dữ liệu" 
+WHERE file.name!=this.file.name
+GROUP BY split(file.folder, "/")[2]
+```

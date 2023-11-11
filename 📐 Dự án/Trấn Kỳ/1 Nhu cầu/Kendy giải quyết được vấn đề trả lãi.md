@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-12T16:37
-updated: 2023-10-27T21:28
+updated: 2023-10-31T21:16
 ---
 %%
 #file/thành-quả
@@ -21,13 +21,3 @@ Là giải pháp cho vấn đề:
 List 
 where contains(giải-pháp-gợi-ý,[[]]) 
 ```
-
-Thành quả cần có:: Mỗi tháng thu được 40tr
- → Mỗi tuần thu được 10tr = 2 đơn hàng
- → Mỗi tuần có 30 người bấm vào trang lấy code
- → Mỗi tuần có 300 người bấm vào Trấn Kỳ
- → Mỗi tuần có 10 người chia sẻ trang
- → Mỗi tuần có 15 người có nhu cầu sử dụng Trấn Kỳ thấy bạn bè mình cũng cần dùng nó 
-Thành quả cần có:: [[Mỗi tuần có 60 người tham gia các buổi học lập trình]]
-
-Thành phẩm::

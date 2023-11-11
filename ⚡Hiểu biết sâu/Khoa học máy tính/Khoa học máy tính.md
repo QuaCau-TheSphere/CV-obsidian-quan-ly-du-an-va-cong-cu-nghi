@@ -1,6 +1,12 @@
 ---
 share: true
-created: 2023-06-27T13:40
-updated: 2023-10-08T16:25
+created: 2023-10-31T01:39
+updated: 2023-10-31T01:39
 ---
-Nguồn::
+
+```dataview
+LIST rows.file.link
+FROM "⚡Hiểu biết sâu/Khoa học máy tính" 
+WHERE file.name!=this.file.name
+GROUP BY split(file.folder, "/")[2]
+```

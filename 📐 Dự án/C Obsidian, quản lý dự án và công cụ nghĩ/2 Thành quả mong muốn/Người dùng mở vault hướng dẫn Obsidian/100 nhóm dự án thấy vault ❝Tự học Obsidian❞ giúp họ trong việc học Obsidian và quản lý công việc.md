@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-27T21:28
+updated: 2023-11-08T01:18
 ---
 %%
 #file/thành-quả
@@ -21,6 +21,6 @@ Thành quả hỗ trợ:: [[50% người chia sẻ vault cho bạn bè]]
 Thành quả hỗ trợ:: [[50% người dễ dàng tự sử dụng]]
 Thành quả hỗ trợ:: [[50% người thấy được sự khác biệt với những phần mềm khác và ý nghĩa của sự khác biệt đó]]
 
-Thành phẩm:: [[Các bài học trên vault]], [[Các buổi cố vấn riêng]], [[Các bài viết truyền thông]]
+Thành phẩm:: [[Các bài học trên vault]], [[Các buổi cố vấn riêng]], [[Truyền thông|Các bài viết truyền thông về Trấn Kỳ]]
 
 Điểm yếu:: [[Có sự đánh đổi giữa sự tự do sử dụng dữ liệu và sự tiện lợi trong việc hợp tác]]
