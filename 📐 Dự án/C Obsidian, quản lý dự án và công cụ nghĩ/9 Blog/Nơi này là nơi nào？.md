@@ -19,6 +19,7 @@ Những vấn đề mà một dự án nhỏ, không có nhiều tiền và cả
 
 Không phát minh lại bánh xe, cái nào người khác làm rồi mà làm hay hơn mình thì chỉ dẫn link hoặc copy
 
+Là nơi để mọi người biết được thêm về các chuyên ngành khác, tránh việc phân mảnh kiến thức
 Để hiểu thêm về động lực thực hiện dự án này, xem bài [[📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền]]
 
 # Cách tổ chức dữ liệu

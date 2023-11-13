@@ -8,20 +8,20 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d5d7c302a3ac7321",
+            "id": "1a4ecd34089ff8fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại thu chi (ngắn).md",
-                "mode": "source",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "1a4ecd34089ff8fb",
+            "id": "c507b3ca13b1cc50",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,33 +34,19 @@
             }
           },
           {
-            "id": "00b60eeba0ad1fbe",
+            "id": "94553d3d94b335a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Duy Phong.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Câu hỏi phỏng vấn.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
-          },
-          {
-            "id": "8af8df4f598f5c8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/3 Thành phẩm/Truyền thông/Email gửi Hanoi Grapevine.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Duy Phong.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Duy Phong.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Duy Phong.md"
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md"
               }
             }
           }
@@ -191,49 +177,50 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "00b60eeba0ad1fbe",
+  "active": "1a4ecd34089ff8fb",
   "lastOpenFiles": [
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Kết quả/Duy Phong.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Câu hỏi phỏng vấn.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Email mời phỏng vấn.md",
     "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Mục tiêu và câu hỏi nghiên cứu người cần phân loại tự động.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Duy Phong.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nghiên cứu người dùng.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động",
-    "⚡Hiểu biết sâu/Nhân học/Điền dã/❓Nếu họ bận mình chỉ có thể hẹn họ ra cà phê thì thời gian họ có thể dành cho mình cũng chỉ có thể là 1, 2 tiếng. Như vậy thì cũng đâu khác gì phỏng vấn.md",
-    "⚡Hiểu biết sâu/Nhân học/Điền dã/❓Để một quan sát có chất lượng thì cần bao nhiêu thời gian ở cùng cộng đồng.md",
-    "⚡Hiểu biết sâu/Nhân học/Điền dã/❓Nếu trước khi xin làm nghiên cứu mình họ đã có sự không thoải mái với mình rồi thì sao.md",
-    "⚡Hiểu biết sâu/Nhân học/Điền dã/❓Quá trình xây dựng sự tin tưởng như thế nào, khi mình không có cơ hội để làm giống như họ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Lời mời tham gia phỏng vấn về nhu cầu phân loại dữ liệu của bạn.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Mục tiêu và câu hỏi nghiên cứu người đọc các bài về Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Truyền thông.md",
-    "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/3 Thành phẩm/Truyền thông/Email gửi Hanoi Grapevine.md",
-    "📐 Dự án/Công cụ cho hệ sinh thái",
-    "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Câu hỏi phỏng vấn.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Mục tiêu và câu hỏi nghiên cứu người đọc các bài về Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại câu nhập (ngắn).md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại câu nhập.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch phát triển Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Hỏi đáp về việc bán Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại thu chi (ngắn).md",
+    "⚡Hiểu biết sâu/Nhân học/Untitled.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Lý do viết Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Học qua dự án hay học bài bản.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Công việc/❓Quản lý cuộc sống có phải là quản lý dự án？Công việc và cuộc sống có phải là không thể tách rời nhau？.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Công việc/Insight through making.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Thành lập dự án.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng/Chỉ nên nghĩ về viral khi đã có một lượng người thực sự sử dụng sản phẩm của mình.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng/Startup = tăng trưởng.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng/Tăng trưởng của thị trường quan trọng hơn tăng trưởng doanh số.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng/Tăng trưởng là khoảng cách giữa chuyển đổi và rời bỏ.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng/Tỉ lệ quay lại là thứ quan trọng nhất trong tăng trưởng.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Đa số startup không chết vì cạnh tranh với đối thủ, mà vì không có người dùng sản phẩm của mình.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập nhóm/Tăng trưởng",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập nhóm",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Startup/Tăng trưởng",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quản lý dữ liệu/Cơ sở dữ liệu",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quản lý dữ liệu/Hợp tác làm việc",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quản lý dữ liệu",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Xin quỹ nghiên cứu",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/New folder",
     "Ξ Thiết lập/Ảnh/Pasted image 20231111155831.png",
     "Ξ Thiết lập/Ảnh/Pasted image 20231111161912.png",
-    "📜 Tài nguyên/Nghiên cứu/Nhân văn số/Tài nguyên NLP và nhân văn số.md",
-    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Facebook page QC.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Nghiên cứu, tìm ý tưởng/Người dùng/❓Với những người mà mình biết sẽ có cố gắng tìm hiểu mình, mình nên tiếp tục cho họ thấy mình có những thứ họ cần, hay là cho họ thấy mình là như thế nào.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Nghiên cứu, tìm ý tưởng/Người dùng/Khảo sát, phỏng vấn người dùng/❓Với những người mà mình biết sẽ có cố gắng tìm hiểu mình, mình nên tiếp tục cho họ thấy mình có những thứ họ cần, hay là cho họ thấy mình là như thế nào.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Nghiên cứu, tìm ý tưởng/Người dùng/Khảo sát, phỏng vấn người dùng/❓Khảo sát để lọc ứng viên phỏng vấn khác gì khảo sát để xác nhận phát hiện mới từ phỏng vấn trên quy mô lớn.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Nghiên cứu, tìm ý tưởng/Người dùng/Khảo sát, phỏng vấn người dùng/❓Có nên đưa câu hỏi trước cho người tham gia phỏng vấn biết trước không. Có nên cho họ coi kết quả ghi chú của mình không.md",
-    "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/3 Thành phẩm/Truyền thông/Các bài viết truyền thông.md",
-    "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/3 Thành phẩm/Truyền thông/Bài viết về vấn đề về hệ sinh thái.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Phỏng vấn/Hanoi Grapevine.md",
-    "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/3 Thành phẩm/Truyền thông/❓Với những người mà mình biết sẽ có cố gắng tìm hiểu mình, mình nên tiếp tục cho họ thấy mình có những thứ họ cần, hay là cho họ thấy mình là như thế nào.md",
-    "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/3 Thành phẩm/Truyền thông/❓Khảo sát để lọc ứng viên phỏng vấn khác gì khảo sát để xác nhận phát hiện mới từ phỏng vấn trên quy mô lớn.md",
-    "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/3 Thành phẩm/Truyền thông/❓Có nên đưa câu hỏi trước cho người tham gia phỏng vấn biết trước không. Có nên cho họ coi kết quả ghi chú của mình không.md",
-    "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/3 Thành phẩm/Truyền thông",
-    "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/3 Thành phẩm/New folder",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại câu nhập.md",
     "Ξ Thiết lập/Ảnh/Pasted image 20231110141124.png",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Nghiên cứu, tìm ý tưởng/Người dùng",
     "Ξ Thiết lập/Ảnh/Pasted image 20231109153144.png",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Truyền thông",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm",
     "Ξ Thiết lập/Ảnh/Trấn Kỳ/Keep to FIbery.png",
     "Ξ Thiết lập/Ảnh/1 lwr2g0HvLOVr5IPVNoYxLg.webp",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Quan niệm, thái độ, hành vi của người dùng",
-    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Kênh chat",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/~syncthing~d633b82be849c5d84e3a169a2252c713624c720cbda1224c8a9918650029013d.tmp",
     "Ξ Thiết lập/Ảnh/growth.png",
     "Ξ Thiết lập/Ảnh/ERP/Nhu cầu của người làm kinh doanh cá nhân.svg",
     "Ξ Thiết lập/Ảnh/Trấn Kỳ/keep.jpg",

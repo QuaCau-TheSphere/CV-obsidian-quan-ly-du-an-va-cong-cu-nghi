@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-06T17:04
+updated: 2023-11-12T15:59
 cssClasses: wide-table
 alias:
   - Hỏi đáp về việc bán Trấn Kỳ
@@ -64,7 +64,12 @@ Vì từ đầu chỉ là những người đang có dự án để làm rồi m
 
 Điều đó cũng có nghĩa là, mặc dù cả người thuê và người nhận có thể lên những chợ thuê ngoài để rao tin, nhưng họ không có lý do gì để làm điều đó. Trấn Kỳ sẽ là nơi tốt nhất để họ tìm thấy được nhau. Trong hệ sinh thái này, những người thuê sẽ phải cạnh tranh với nhau bằng lợi ích họ có thể cho người nhận, chứ không phải người nhận phải cạnh tranh với nhau bằng mức giá.
 
-# Còn những người thụ hưởng nào khác?
+# Trấn Kỳ khác các đối thủ cạnh tranh chỗ nào?
+- Những người muốn nhập liệu bằng những phương thức của mình cũng có thể tham gia
+- Những người muốn phân loại những thứ không phải là chi tiêu cũng có thể tham gia
+- Những người không có nhu cầu phân loại cũng có những lý do khác để tham gia
+
+# Những lý do để người không có nhu cầu phân loại tham gia là gì?
 Những người thỉnh thoảng cũng thấy ức chế, khó chịu khi phải phân loại thủ công ngay lúc nhập liệu, nhưng sự khó chịu đó chưa đủ dồn nén để làm tất cả mọi thứ trong khả năng để có Trấn Kỳ là những người dùng tiềm năng. Họ đủ quan tâm để hỏi bọn mình một vài thứ, đủ hứng thú để đọc các bài viết liên quan (như bài này), và... hết. Những bài viết đó đã thoả mãn được nhu cầu của họ; [[Sau khi nhu cầu được giải quyết xong ta sẽ nghĩ ngay tới việc giải quyết vấn đề tiếp theo|sau khi nhu cầu được giải quyết xong họ sẽ nghĩ ngay tới việc giải quyết vấn đề tiếp theo đang nảy ra trong đầu họ]]. [[Việc giúp đỡ người đã giúp mình không đủ khẩn cấp hoặc nhiều cảm hứng bằng việc giải quyết vấn đề tiếp theo, hoặc đủ cảm hứng bằng việc cải tiến giải pháp hiện có|Những thứ đó khẩn cấp hoặc nhiều cảm hứng hơn.]]
 
 Nhưng nếu sản phẩm này còn có thể giúp họ nhiều hơn thế, thì họ sẽ thấy việc tham gia có lý hơn. Đây là những cách giúp tạo ra lý do đó cho họ:

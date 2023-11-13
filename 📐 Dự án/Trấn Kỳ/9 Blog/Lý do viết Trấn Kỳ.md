@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-12T16:39
-updated: 2023-11-08T13:21
+updated: 2023-11-12T15:59
 ---
 %%
 #file/thành-phẩm/bài-viết 
@@ -97,7 +97,7 @@ Do Kendy đã có nhiều thiết lập rất nhiều thứ trên Fibery rồi, 
 
 Từ khối dữ liệu đầu vào, chương trình xử lý để ra khối dữ liệu đầu ra. Xem thêm [Mô hình xử lý dữ liệu](https://lậptrình.quảcầu.cc/%F0%9F%91%8FTr%E1%BA%A5n%20K%E1%BB%B3/H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20s%E1%BB%AD%20d%E1%BB%A5ng%20Tr%E1%BA%A5n%20K%E1%BB%B3/3.%20Hi%E1%BB%83u%20code%20n%C3%B3i%20g%C3%AC/3.1%20M%C3%B4%20h%C3%ACnh%20x%E1%BB%AD%20l%C3%BD%20d%E1%BB%AF%20li%E1%BB%87u/?utm_source=CW+Obsidian%2C+qu%E1%BA%A3n+l%C3%BD+d%E1%BB%B1+%C3%A1n+v%C3%A0+c%C3%B4ng+c%E1%BB%A5+ngh%C4%A9+%C2%BB+L%C3%BD+do+vi%E1%BA%BFt+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=vault&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3&utm_content=th%C3%A0nh+ph%E1%BA%A9m).
 
-##  Tại sao không dùng ChatGPT, Bing AI hay Bard để phân loại thông tin? 
+##  Tại sao không dùng ChatGPT để phân loại thông tin? 
 Lý do quan trọng nhất là **kết quả không đáng tin cậy**. Các mô hình ngôn ngữ dựa trên thống kê không đảm bảo việc gắn nhãn sẽ luôn theo đúng hệ thống phân loại có sẵn trong đầu người dùng. Nếu đã phải định nghĩa hệ thống phân loại đó rồi thì không cần phải dùng đến chúng nữa.
 
 Xem thêm:: [[AI là định dạng ảnh mờ của web]]

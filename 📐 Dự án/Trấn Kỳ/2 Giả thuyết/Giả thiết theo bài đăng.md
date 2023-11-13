@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-08T16:58
+updated: 2023-11-12T16:02
 ---
 # Giới thiệu Trấn Kỳ
 - Thấy nó giúp tiết kiệm thời gian của mình
@@ -33,3 +33,4 @@ updated: 2023-11-08T16:58
 - Chủ động nhắn tin
 
 # Hướng dẫn sử dụng
+- Thực sự muốn hướng dẫn mình học chứ không che dấu gì cả

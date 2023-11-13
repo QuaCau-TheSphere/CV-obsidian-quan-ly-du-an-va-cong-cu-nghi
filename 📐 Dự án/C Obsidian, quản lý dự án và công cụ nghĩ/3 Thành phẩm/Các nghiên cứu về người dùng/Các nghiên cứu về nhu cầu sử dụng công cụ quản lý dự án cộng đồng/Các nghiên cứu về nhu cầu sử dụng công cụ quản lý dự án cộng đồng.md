@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-27T21:28
+updated: 2023-11-12T16:43
 ---
 %%
 #file/thành-phẩm
@@ -27,7 +27,7 @@ Thành quả hỗ trợ:: [[3 người có 1 năm kinh nghiệm trong lĩnh vự
 
 - [x] [[Bài đăng kêu gọi phỏng vấn]] ✅ 2023-03-15
 - [ ] Hoàn thành [[Hướng dẫn phỏng vấn người muốn xây dựng cộng đồng hoặc mạng lưới]]
-- [ ] [[Email mời phỏng vấn]]
+- [ ] [[📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/3 Thành phẩm/Các nghiên cứu về người dùng/Các nghiên cứu về nhu cầu sử dụng công cụ quản lý dự án cộng đồng/Email mời phỏng vấn]]
 	- [ ] SNPO
 	- [ ] VOGE
 	- [ ] 
