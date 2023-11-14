@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-13T15:46
+updated: 2023-11-14T16:08
 ---
 # Hành vi phân loại
 ## Trong tháng vừa qua bạn đã phân loại dữ liệu bao nhiêu lần?
@@ -18,8 +18,41 @@ Có hẳn một con NAS để chứa dữ liệu. Dữ liệu tải về một �
 ## Bao lâu bạn làm việc đó một lần?
 Có thể nói là mỗi ngày
 ## Sau khi phân loại xong thì bạn làm những gì tiếp theo?
+có cơ hội thì lan toả, có dự án thì tốt. Như Wikipedia chả tuyển ai cả, lan toả dần dần thôi 
+tổng hợp các nguồn, mua cái này cái kia ở đâu
 ## Nếu không làm thì tại sao?
 ## Bạn có thể phân loại mẫu được không?
+### Notion
+Chưa làm các bước xem lại. Ko có tag, original description, comment
+có ảnh trên account
+
+timeline các vid ăn khớp với nhau thế nào
+dân tộc học, viết các tiểu tự sự
+fb, insta,tiktok
+
+sau này chọn lọc một vid bất kỳ như làm giám tuyển
+
+
+The greate libreary là NAS của em
+
+Các sách scan
+capture xong thì sẽ lưu vào NAS
+chia về kho nào thì 
+
+ý tưởng nên có hoàn cảnh ra đời
+
+cái nào nặng quá và chưa cần lấy lại ngay thì vứt tạm vào đây
+
+tìm lại những độc thoại tự sự, context được sinh ra trong các lời thoại này
+
+packaging là đóng gói kỹ năng lại để đưa cho người ta, xong đưa lên curius
+### Logseq
+tam đoạn luận. Nếu muốn kiếm trên metadata thì ở dươis
+
+Wikipedia thì chỉ chọn lọc những cái significance, còn mình làm tiểu tự sự 
+
+evereen note: mở 2 khung, với whiteboard, rồi  như code có frontend
+## Có thể cho mình tiếp cận dữ liệu của bạn được không?
 
 # Việc phải phân loại dữ liệu thủ công đã ảnh hưởng đến những việc ở cấp độ cao hơn như lập kế hoạch, sáng tạo nội dung như thế nào?
 ## Mỗi lần phân loại tốn bao nhiêu thời gian?
@@ -40,6 +73,25 @@ có muốn theo tree, nhưng cũng muốn theo graph
 ### Tức là việc phân loại ảnh hưởng đến những việc ở cấp độ cao hơn như lập kế hoạch, sáng tạo nội dung?
 việc phân loại chủ yếu là để cho người khác xem, chứ không phải là cho bản thân. Nếu không được thì chỉ tốn thời gian cho việc đào tạo người mới khi không cho bạn tài liệu để tham khảo được mà phải tự giải thích từ đầu đến cuối. Và việc này là vấn đề ở tương lai. Nếu muốn phát triển bản thân, làm những thứ lớn hơn, đi du học thì sẽ quan trọng.
 
+Như người bình thường có thể quên thì cũng được, 
+có một con bé hỏi về hành vi ngôn ngữ, nhưng tra bằng Wikipedia thì vẫn có nhưng không đủ, nhưng ít liên quan hoặc khó áp dụng bằng sách. Nên em nhận ra là thay vì summary thì nên có dẫn chứng ngắn gọn. Cách em ứng dụng lý thuyết của mình, ví dụ cách dùng, để có thể có hình dung
+
+câu hỏi về một chị của em, tại sao việt nam bỏ kinh tế bao cấp. Nhưng nếu tra thì ko có ra thẳng vấn đề mà lại cố gắng trả lời đầy đủ. Người . Google tra các page, và muốn lên thì nó phải tổng hợp. Không làm từ góc độ người học hoặc toạ đàm mà từ góc đọ tra thông itn
+
+chatgpt ko trả lời như một nhà giáo dục
+
+Khác biệt với Wikipedia: chỉ tổng hợp kiến thức cơ bản, sơ khai, ko có nói về việc mình liên tưởng, hình dung 
+tầm 1 2 năm nữa có trên mấy nghìn note thì sẽ có các evergreen note. 
+
+exchange data
+
+chưa chia sẻ nhiều. Có người hỏi muốn được chỉ notion
+làm một vid gì đó để họ hiểu
+họ cần ví dụ, dễ hiểu, navigate.
+
+viết notion là ăn liền, cho mọi người
+Nhược điểm: database trình bày rất nhiều, ko có sort, 
+không muốn thử
 ## Bạn cảm thấy như thế nào vào thời điểm đó?
 Bất tiện. Làm chầm chậm thì cũng hay, nhưng ko làm quy mô lớn được.
 
@@ -72,8 +124,10 @@ cấu trúc dữ liệu, làm nhiều hơn mấy cái download. Cũng ko cần q
 nguồn đủ tốt để 
 có nhiều cái cũng bỏ dở. Có một số task mang tính thời sự 
 mới chỉ biết nhiều về cách lấy tài liệu
-đang theo course [Hacker101](https://www.hacker101.com/ "Home | Hacker101")
+đang theo course [Hacker101](https://www.hacker101.com/ "Home | Hacker101"). Cũng bỏ được vài tuần, cũng chưa có định hướng. Cơ sở dữ liệu thì cần hơn.
 bị hook vào một cái lỗi mà mất 3 ngày liên tục, nhưng sau đó bỏ mấy tuần
+nghĩ rằng thuyết trình thì đủ rồi, còn chuyên sâu thì không
+vấn đề về chương trình học hơn là thời gian
 
 ## Điều gì sẽ giúp bạn làm điều đó?
 

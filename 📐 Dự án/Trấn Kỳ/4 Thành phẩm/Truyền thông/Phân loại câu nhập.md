@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-13T15:27
+updated: 2023-11-13T22:18
 ---
-F+G+%C2%BB+C%E1%BB%99ng%20%C4%91%E1%BB%93ng%20FOSS%20Vi%E1%BB%87t%20Nam
+F+G+%C2%BB+Data%20Science%20%26%20Big%20Data%20Vietnam
 # [Phân loại câu nhập bằng tiếng Việt tự nhiên](https://lậptrình.quảcầu.cc/%F0%9F%91%8Ftr%E1%BA%A5n%20k%E1%BB%B3/?utm_source=F+G+%C2%BB+Launch&utm_medium=social&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3&utm_content=ti%C3%AAu+%C4%91%E1%BB%81) 
 Bạn có cảm thấy chán nản, mất năng lượng vì phải tốn quá nhiều thời gian để phân loại chi tiêu cũng như các loại dữ liệu khác không? Nay đã có Trấn Kỳ. Nếu bạn là người cần phân loại tất cả các chi tiêu của mình một cách rõ ràng (việc nhắm hờ mỗi tháng chi chừng bao nhiêu tiền là không đủ với bạn), và bạn cần một chương trình:
 
@@ -115,7 +115,7 @@ Việc có thể nhập liệu từ Google Keep sẽ giúp cho bạn có thể n
 # Các tính năng hỗ trợ khác (a.k.a. yêu cầu phi chức năng)
 
 * **Viết cho người Việt** nên:
-  • Xử lý được từ ghép và [các cách đặt dấu thanh khác nhau](https://lậptrình.quảcầu.cc/%F0%9F%93%9C%20L%E1%BA%ADp%20tr%C3%ACnh/Regex%2C%20Unicode%2C%20ti%E1%BA%BFng%20Vi%E1%BB%87t%2C%20emoji/Regex/Ti%E1%BA%BFng%20Vi%E1%BB%87t%20c%C3%B3%202%20c%C3%A1ch%20%C4%91%E1%BA%B7t%20d%E1%BA%A5u/?utm_source=F+G+%C2%BB+C%E1%BB%99ng%20%C4%91%E1%BB%93ng%20FOSS%20Vi%E1%BB%87t%20Nam+%C2%BB+Gi%E1%BB%9Bi+thi%E1%BB%87u+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=social&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3)
+  • Xử lý được từ ghép và [các cách đặt dấu thanh khác nhau](https://lậptrình.quảcầu.cc/%F0%9F%93%9C%20L%E1%BA%ADp%20tr%C3%ACnh/Regex%2C%20Unicode%2C%20ti%E1%BA%BFng%20Vi%E1%BB%87t%2C%20emoji/Regex/Ti%E1%BA%BFng%20Vi%E1%BB%87t%20c%C3%B3%202%20c%C3%A1ch%20%C4%91%E1%BA%B7t%20d%E1%BA%A5u/?utm_source=F+G+%C2%BB+Data%20Science%20%26%20Big%20Data%20Vietnam+%C2%BB+Gi%E1%BB%9Bi+thi%E1%BB%87u+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=social&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3)
   • Tên biến, tên hàm hoàn toàn bằng tiếng Việt
 * **Viết cho người cần sử dụng trên các webapp khác** như Fibery, Google Sheet nên:
   • Chỉ sử dụng JavaScript thuần
@@ -143,7 +143,7 @@ Thật ra, chương trình này không hẳn nên được đặt tên là "Phâ
 
 Bạn muốn đọc gì tiếp theo?
 
-[Tải Trấn Kỳ](https://lậptrình.quảcầu.cc/%F0%9F%91%8FTr%E1%BA%A5n%20K%E1%BB%B3/H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20s%E1%BB%AD%20d%E1%BB%A5ng%20Tr%E1%BA%A5n%20K%E1%BB%B3/1.%20C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20s%E1%BB%AD%20d%E1%BB%A5ng%20nhanh/1.2%20L%E1%BA%A5y%20code/?utm_source=F+G+%C2%BB+C%E1%BB%99ng%20%C4%91%E1%BB%93ng%20FOSS%20Vi%E1%BB%87t%20Nam+%C2%BB+Gi%E1%BB%9Bi+thi%E1%BB%87u+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=social&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3) | [Lý do viết Trấn Kỳ](https://obsidian.quảcầu.cc/%F0%9F%93%90%20d%E1%BB%B1%20%C3%A1n/tr%E1%BA%A5n%20k%E1%BB%B3/9%20blog/l%C3%BD%20do%20vi%E1%BA%BFt%20tr%E1%BA%A5n%20k%E1%BB%B3/?utm_source=F+G+%C2%BB+C%E1%BB%99ng%20%C4%91%E1%BB%93ng%20FOSS%20Vi%E1%BB%87t%20Nam+%C2%BB+Gi%E1%BB%9Bi+thi%E1%BB%87u+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=social&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3) | [Hướng dẫn sử dụng Trấn Kỳ](https://lậptrình.quảcầu.cc/%F0%9F%91%8Ftr%E1%BA%A5n%20k%E1%BB%B3%2Fh%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20s%E1%BB%AD%20d%E1%BB%A5ng%20tr%E1%BA%A5n%20k%E1%BB%B3%2F?utm_source=F+G+%C2%BB+C%E1%BB%99ng%20%C4%91%E1%BB%93ng%20FOSS%20Vi%E1%BB%87t%20Nam+%C2%BB+Gi%E1%BB%9Bi+thi%E1%BB%87u+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=social&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3)
+[Tải Trấn Kỳ](https://lậptrình.quảcầu.cc/%F0%9F%91%8FTr%E1%BA%A5n%20K%E1%BB%B3/H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20s%E1%BB%AD%20d%E1%BB%A5ng%20Tr%E1%BA%A5n%20K%E1%BB%B3/1.%20C%C3%A0i%20%C4%91%E1%BA%B7t%20v%C3%A0%20s%E1%BB%AD%20d%E1%BB%A5ng%20nhanh/1.2%20L%E1%BA%A5y%20code/?utm_source=F+G+%C2%BB+Data%20Science%20%26%20Big%20Data%20Vietnam+%C2%BB+Gi%E1%BB%9Bi+thi%E1%BB%87u+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=social&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3) | [Lý do viết Trấn Kỳ](https://obsidian.quảcầu.cc/%F0%9F%93%90%20d%E1%BB%B1%20%C3%A1n/tr%E1%BA%A5n%20k%E1%BB%B3/9%20blog/l%C3%BD%20do%20vi%E1%BA%BFt%20tr%E1%BA%A5n%20k%E1%BB%B3/?utm_source=F+G+%C2%BB+Data%20Science%20%26%20Big%20Data%20Vietnam+%C2%BB+Gi%E1%BB%9Bi+thi%E1%BB%87u+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=social&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3) | [Hướng dẫn sử dụng Trấn Kỳ](https://lậptrình.quảcầu.cc/%F0%9F%91%8Ftr%E1%BA%A5n%20k%E1%BB%B3%2Fh%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20s%E1%BB%AD%20d%E1%BB%A5ng%20tr%E1%BA%A5n%20k%E1%BB%B3%2F?utm_source=F+G+%C2%BB+Data%20Science%20%26%20Big%20Data%20Vietnam+%C2%BB+Gi%E1%BB%9Bi+thi%E1%BB%87u+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=social&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3)
 
 https://www.facebook.com/quacau.sphere/posts/pfbid072iAT8Y3zdAP5L7VGiHkmxjxQfPapaozK8fpr64nQ4uVyaKerhv2j4uqd8KMWipvl
 
@@ -154,3 +154,4 @@ https://www.facebook.com/quacau.sphere/posts/pfbid072iAT8Y3zdAP5L7VGiHkmxjxQfPap
 ---
 [[10-11]] Đăng trên [[Dạy Nhau Học]] 
 [[10-11]] Đăng trên [[Tự học Data]] 
+[[13-11]] chờ duyệt [Cộng đồng FOSS Việt Nam](https://www.facebook.com/groups/fossvietnam/?__cft__[0]=AZVmMHpHWot4eQZeXt99FWS_auP15vxtV4mZgPuiKbd-PT3tyNgckHNjSp5flPs50wj-eSt1aRYBTjj0_rKMi5wsWUD3NAHJ1WLUZlnFWJRN1e8vQYgROT7vMVj3dMOuvBSxElxHr9Z4pRa4DoFFAQrZliRfduIlz4BItJPAqZYnPg&__tn__=-UC%2CP-R)

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-11T21:31
-updated: 2023-10-06T16:09
+updated: 2023-11-13T22:00
 ---
 Lý do:: [[Sự kiểm soát của người bản xứ đối với những kiến thức có được trong quá trình thực địa là khá đáng kể, và thậm chí là có tính quyết định]]
 Lý do:: [[Quá trình nghiên cứu nói chung là một sự thương thảo diễn ra liên tục]] 
@@ -17,3 +17,4 @@ Thời kỳ đầu nhà nhân học là người chú giải rất quyền uy. "
 [[Mỗi xã hội chứa đựng những cách diễn giải của riêng nó. Công việc của nhà nhân học là học cách bước vào những cách diễn giải đó]] 
 
 Nguồn:: [[Nguyễn Đức Lộc]]
+[[Các dự án xã hội không tập trung vào việc đối thoại với người bên cạnh mình]]

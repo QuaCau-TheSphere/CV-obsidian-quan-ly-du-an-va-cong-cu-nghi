@@ -8,33 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1a4ecd34089ff8fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c507b3ca13b1cc50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Mục tiêu và câu hỏi nghiên cứu người cần phân loại tự động.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "94553d3d94b335a3",
+            "id": "af8a1e8dc7d106f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -45,8 +19,35 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "c90cbe00c67ad012",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Duy Phong.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "c8ea55dc8f37682e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/Trấn Kỳ/9 Blog/Lời mời xây dựng một startup để làm những việc một người bạn sẽ làm.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c337a3ea5e852bbb",
@@ -112,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Duy Phong.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Duy Phong.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md"
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Duy Phong.md"
               }
             }
           }
@@ -177,34 +179,34 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "1a4ecd34089ff8fb",
+  "active": "c90cbe00c67ad012",
   "lastOpenFiles": [
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Câu hỏi phỏng vấn.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Duy Phong.md",
     "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Kết quả/Duy Phong.md",
     "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Câu hỏi phỏng vấn.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Email mời phỏng vấn.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Mục tiêu và câu hỏi nghiên cứu người cần phân loại tự động.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Câu hỏi phỏng vấn.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Mục tiêu và câu hỏi nghiên cứu người đọc các bài về Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại câu nhập (ngắn).md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại câu nhập.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch xây dựng cộng đồng phát triển Trấn Kỳ.md",
     "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch phát triển Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/9 Blog/Hỏi đáp về việc bán Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại thu chi (ngắn).md",
-    "⚡Hiểu biết sâu/Nhân học/Untitled.md",
-    "📐 Dự án/Trấn Kỳ/9 Blog/Lý do viết Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Lời mời xây dựng một startup để làm những việc một người bạn sẽ làm.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Khoa học dữ liệu.md",
     "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Học qua dự án hay học bài bản.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Công việc/❓Quản lý cuộc sống có phải là quản lý dự án？Công việc và cuộc sống có phải là không thể tách rời nhau？.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Công việc/Insight through making.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Thành lập dự án.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng/Chỉ nên nghĩ về viral khi đã có một lượng người thực sự sử dụng sản phẩm của mình.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng/Startup = tăng trưởng.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng/Tăng trưởng của thị trường quan trọng hơn tăng trưởng doanh số.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng/Tăng trưởng là khoảng cách giữa chuyển đổi và rời bỏ.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng/Tỉ lệ quay lại là thứ quan trọng nhất trong tăng trưởng.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Đa số startup không chết vì cạnh tranh với đối thủ, mà vì không có người dùng sản phẩm của mình.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Nghĩ về việc nghĩ.md",
+    "📜 Tài nguyên/📜 Tài nguyên.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Quản lý clipboard bằng CopyQ.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Thủ thuật phần mềm.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Google Drive.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Delightful humane design.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Tự động hoá/Chỉnh sửa ảnh hàng loạt bằng ImageMagick.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Tự động hoá/Tạo phím tắt bằng AutoHotKey.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Tự động hoá/Chỉnh sửa file hàng loạt bằng PowerShell.md",
+    "📐 Dự án/Trấn Kỳ/Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp Kendy.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch.md",
+    "📐 Dự án/Trấn Kỳ/3 Thành quả mong muốn/Mỗi tuần có 10 người tham gia phát triển Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/2 Giả thuyết/Cứ 200 engaged session ở trang lấy code thì có 1 đơn hàng.md",
+    "⚡Hiểu biết sâu/Nhân học/Viết câu chuyện cuộc đời/Ta có thể hư cấu nội tâm nhân vật dựa trên dữ liệu.md",
+    "⚡Hiểu biết sâu/Nhân học/Viết câu chuyện cuộc đời/Câu chuyện cuộc đời có khả năng bị cảm xúc của nhân vật chi phối câu chuyện.md",
+    "⚡Hiểu biết sâu/Nhân học/Viết câu chuyện cuộc đời/Niên biểu là để lên kế hoạch và nhớ các từ khoá quan trọng, còn khi viết chuyện thì viết theo từ khoá.md",
     "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng",
     "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án",
     "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập nhóm/Tăng trưởng",
