@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-11-15T20:47
 ---
 [Examples of ImageMagick Usage](https://imagemagick.org/Usage/ "Examples of ImageMagick Usage")
 

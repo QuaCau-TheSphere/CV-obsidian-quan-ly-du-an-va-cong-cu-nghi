@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-13T13:04
+updated: 2023-11-17T16:41
 ---
 [[Thành quả (outcome) là kết quả thu được do sự thay đổi về hành vi của người dùng khi tương tác với sản phẩm đã được cải tiến (hoặc sản phẩm mới)]] 
 [[Thành phẩm (output) là các kết quả trực tiếp của các công việc]]

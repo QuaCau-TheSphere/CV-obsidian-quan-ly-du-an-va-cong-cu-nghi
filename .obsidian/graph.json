@@ -1,22 +1,37 @@
 {
   "collapse-filter": false,
-  "search": "-path:\"⚡Hiểu biết sâu/Ξ Nguồn\"  ",
+  "search": "path:\"⚡Hiểu biết sâu\" -(path:\"⚡Hiểu biết sâu/Ξ Khái niệm\"  OR path:\"⚡Hiểu biết sâu/Ξ Nguồn\"  )  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
-  "colorGroups": [],
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "path:\"⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:\"⚡Hiểu biết sâu/Nghĩ về việc nghĩ\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
+      }
+    }
+  ],
   "collapse-display": false,
   "showArrow": false,
-  "textFadeMultiplier": 0,
+  "textFadeMultiplier": -1.9,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
+  "collapse-forces": false,
+  "centerStrength": 0.268848410003087,
   "repelStrength": 10,
-  "linkStrength": 1,
+  "linkStrength": 0.667983945662241,
   "linkDistance": 250,
-  "scale": 0.18462326225858136,
-  "close": false
+  "scale": 0.09392927902847031,
+  "close": true
 }

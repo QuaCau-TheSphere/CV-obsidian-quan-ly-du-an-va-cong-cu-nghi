@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-13T13:04
+updated: 2023-11-17T16:41
 ---
 Ví dụ: tăng retention rate, tăng giá trị đơn hàng mỗi lần mua, tăng frequency mua hàng
 

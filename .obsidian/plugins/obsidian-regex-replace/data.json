@@ -1,8 +1,8 @@
 {
-  "findText": "Thanh Thanh Dương.*\\n",
+  "findText": "\\t",
   "replaceText": "",
   "useRegEx": true,
-  "selOnly": false,
+  "selOnly": true,
   "caseInsensitive": false,
   "processLineBreak": false,
   "processTab": false,

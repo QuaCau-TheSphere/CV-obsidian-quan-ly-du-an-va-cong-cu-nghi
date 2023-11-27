@@ -1,14 +1,9 @@
 ---
 share: true
 created: 2023-07-26T15:55
-updated: 2023-11-09T15:52
+updated: 2023-11-17T18:20
 cssClasses: wide-table
-alias:
-  - Tổ chức các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu
 ---
-%%
-#file/thành-phẩm/bài-viết 
-%%
 
 Tiêu đề của bài gồm có 3 phần:
 - Các buổi đáp ứng nhu cầu học
@@ -44,35 +39,27 @@ Bảng này so sánh những tính năng của các mô hình học tập khác 
 | Khi cần là có ngay                                  | ❌          | ❌                              | ✔           | ✔                                          |
 | Trình độ người hướng dẫn cao                        | ❌          | ✔                               | ✔           | ✔                                          |
 
-# Nội dung dự kiến
-| Nhu cầu                                                  | Sản phẩm thực hành           | Ngôn ngữ               | Khái niệm                                  | Công cụ                                  | Khuyến khích biết trước |
-| -------------------------------------------------------- | ---------------------------- | ---------------------- | ------------------------------------------ | ---------------------------------------- | ----------------------- |
-| Quản lý tài chính cá nhân, phân loại câu nhập            | Trấn Kỳ                      | YAML                   | API, shell, CLI                            | VS Code, Fibery, Git, Python, PowerShell |                         |
-| Tự động hoá các công việc lặp đi lặp lại                 |                              | AutoHotKey, PowerShell | Path, shell, biến môi trường               | Terminal                                 |                         |
-| Truy vấn và khai thác dữ liệu                            |                              | SQL                    | Cơ sở dữ liệu                              |                                          |                         |
-| Tạo đồ thị                                               |                              | Cypher                 |                                            | Graphviz, Mermaid, Neo4j                 |                         |
-| Lập web cá nhân, quản lý phiên bản                       | Tạo web tĩnh                 | HTML                   | Web, version control, conventional commit  | Git, GitKraken, GitHub Page              |                         |
-| Quản lý và chia sẻ kiến thức                             | Obsidian và web trên netlify | Python                 | Web                                        | Obsidian, Mkdocs, Netlify                | Git, terminal           |
-| Tạo web dự án                                            | Tạo web động                 | PHP                    | Host, nameserver, CDN                      | WordPress, Cloudflare                    |                         |
-| Hiểu các kỹ thuật lập trình                              | Trấn Kỳ                      | Javascript/TypeScript  | OOP, SOLID, debug, unicode, design pattern | VS Code, Deno, Fibery                    | Git, terminal           |
-| Nghiên cứu cộng đồng mạng, nắm bắt xu hướng, nhân văn số | WE1S                         | Python                 | NLP, khối dữ liệu, API                     |                                          | Git, terminal           |
+# Một số buổi ví dụ
+| Nhu cầu                                                  | Sản phẩm thực hành                   | Ngôn ngữ               | Khái niệm                                  | Công cụ                     | Khuyến khích biết trước | Mô tả chi tiết                                                                       |
+| -------------------------------------------------------- | ------------------------------------ | ---------------------- | ------------------------------------------ | --------------------------- | ----------------------- | ------------------------------------------------------------------------------------ |
+| Quản lý tài chính cá nhân, phân loại câu nhập            | Trấn Kỳ                              | YAML                   | API, shell                                 | VS Code, terminal, Git      |                         |                                                                                      |
+| Tự động hoá các công việc lặp đi lặp lại                 | Script AutoHotKey, CopyQ, PowerShell | AutoHotKey, PowerShell | Script, path, shell, biến môi trường       | VS Code, CopyQ, Terminal    |                         |                                                                                      |
+| Truy vấn và khai thác dữ liệu                            |                                      | SQL                    | Cơ sở dữ liệu                              |                             |                         |                                                                                      |
+| Tạo đồ thị                                               |                                      | Cypher                 |                                            | Graphviz, Mermaid, Neo4j    |                         |                                                                                      |
+| Lập web cá nhân, quản lý phiên bản                       | Tạo web tĩnh                         | HTML                   | Web, version control, conventional commit  | Git, GitKraken, GitHub Page |                         |                                                                                      |
+| Quản lý và chia sẻ kiến thức                             | Obsidian và web trên netlify         | Python                 | Web                                        | Obsidian, Mkdocs, Netlify   | Git, terminal           |                                                                                      |
+| Tạo web dự án                                            | Tạo web động                         | PHP                    | Host, nameserver, CDN                      | WordPress, Cloudflare       |                         |                                                                                      |
+| Hiểu các kỹ thuật lập trình                              | Trấn Kỳ                              | Javascript/TypeScript  | OOP, SOLID, debug, unicode, design pattern | VS Code, Deno, Fibery       | Git, terminal           | [[Các buổi hướng dẫn hiểu các kỹ thuật lập trình]]{ .md-button .md-button--primary } |
+| Nghiên cứu cộng đồng mạng, nắm bắt xu hướng, nhân văn số | WE1S                                 | Python                 | NLP, khối dữ liệu, API                     |                             | Git, terminal           |                                                                                      |
 
-Các buổi này là một phần của [Các buổi chia sẻ kỹ năng miễn phí với nhau](https://xn--qucu-hr5aza.cc/cac-buoi-chia-se-ky-nang-mien-phi-voi-nhau/?utm_source=CV+%C2%BB+Obsidian%2C+qu%E1%BA%A3n+l%C3%BD+d%E1%BB%B1+%C3%A1n+v%C3%A0+c%C3%B4ng+c%E1%BB%A5+ngh%C4%A9&utm_medium=C%C3%A1c+bu%E1%BB%95i+chia+s%E1%BA%BB+k%E1%BB%B9+n%C4%83ng+mi%E1%BB%85n+ph%C3%AD+v%E1%BB%9Bi+nhau&utm_campaign=Giai+%C4%91o%E1%BA%A1n+2&utm_term=%C4%90%E1%BB%8Dc+b%C3%A0i+vi%E1%BA%BFt+tr%C3%AAn+web). Để tham gia mời bạn vào kênh "Công cụ và tư duy lập trình" trên [Discord của Quả Cầu](https://discord.gg/jWTk4EHFK2){ .md-button .md-button--primary }
-![](https://i.imgur.com/zu450xg.png)
+# Cách thức hoạt động
+Người có nhu cầu học sẽ vào kênh "Công cụ và tư duy lập trình" trên [Discord của Quả Cầu](https://discord.gg/jWTk4EHFK2){ .md-button .md-button--primary } để đặt vấn đề. Người sẵn sàng hướng dẫn sẽ báo lại khung thời gian rảnh của họ. 
+![](https://i.imgur.com/zu450xg.png).
 
-# Kết quả đầu ra
-- Biết được người ta nói cái gì khi google 
-- Biết cách dùng github
+Khi là người khởi xướng, bạn có thể chọn những người bạn cảm thấy muốn tham gia học cùng nhất. Những người đã hiểu nhau từ trước khi học sẽ nhanh và hiệu quả hơn. Nhóm bạn tự thoả thuận những khung thời gian có thể học chung.
 
-# Mục tiêu
-- Hiểu được một số khái niệm của ngôn ngữ hướng vật thể: object, method, array, for, if, import, function, type, interface
-- Nắm được cách làm việc với:
-	- Git
-	- Terminal
-	- IDE:
-		- Hiểu được IDE đang cố gắng nói cho mình cái gì
-- Nắm được các kỹ năng đọc code product:
-	- Hiểu được cấu trúc một dự án
-	- Hiểu một số nguyên tắc viết code để dễ bảo trì, mở rộng tính năng
-	- Biết một số kỹ thuật debug: console.log, debugger, unit test 
+Vì những buổi này là để đáp ứng nhu cầu của bạn, nên **giá của nó do bạn quyết định**. Với những giá trị bạn nhận được từ các buổi này, thì bạn nghĩ rằng Trấn Kỳ xứng đáng được trả bao nhiêu? *Giả sử* bạn nghĩ nó đáng 5 triệu đồng, và hiện tại việc trả trước 200.000đ không làm bạn đắn đo, thì bạn sẽ được tham gia lớp học. Phần 4.800.000đ còn lại bạn có thể trả góp sau, hoặc đổi bằng việc tham gia hỗ trợ bọn mình. Và cũng vì công sức lao động là của bạn, nên **giá của nó cũng do bạn quyết định**. Ví dụ bạn thấy rằng với mỗi công việc hỗ trợ bạn xứng đáng nhận được 1 triệu đồng. Vậy thì bạn chỉ cần làm 5 công việc, bọn mình sẽ trả lại cho bạn 200.000đ. Số tiền thu được sẽ được dùng để hỗ trợ các bạn hướng dẫn, nếu còn dư sẽ dùng để hỗ trợ Kendy. Bọn mình nghĩ làm như vậy sẽ [thú vị và ý nghĩa](https://obsidian.quảcầu.cc/%F0%9F%93%90%20d%E1%BB%B1%20%C3%A1n/tr%E1%BA%A5n%20k%E1%BB%B3/9%20blog/l%E1%BB%9Di%20m%E1%BB%9Di%20x%C3%A2y%20d%E1%BB%B1ng%20m%E1%BB%99t%20startup%20%C4%91%E1%BB%83%20l%C3%A0m%20nh%E1%BB%AFng%20vi%E1%BB%87c%20m%E1%BB%99t%20ng%C6%B0%E1%BB%9Di%20b%E1%BA%A1n%20s%E1%BA%BD%20l%C3%A0m/?utm_source=CW+Obsidian%2C+qu%E1%BA%A3n+l%C3%BD+d%E1%BB%B1+%C3%A1n+v%C3%A0+c%C3%B4ng+c%E1%BB%A5+ngh%C4%A9+%C2%BB+C%C3%A1c+bu%E1%BB%95i+%C4%91%C3%A1p+%E1%BB%A9ng+nhu+c%E1%BA%A7u+h%E1%BB%8Dc+c%C3%A1ch+s%E1%BB%AD+d%E1%BB%A5ng+c%C3%B4ng+c%E1%BB%A5+v%C3%A0+t%C6%B0+duy+l%E1%BA%ADp+tr%C3%ACnh+cho+nhu+c%E1%BA%A7u+c%C3%A1+nh%C3%A2n+ho%E1%BA%B7c+nghi%C3%AAn+c%E1%BB%A9u&utm_medium=vaul&utm_campaign=C%C3%A1c+bu%E1%BB%95i+h%C6%B0%E1%BB%9Bng+d%E1%BA%ABn+l%E1%BA%ADp+tr%C3%ACnh&utm_content=%22th%C3%BA+v%E1%BB%8B+v%C3%A0+%C3%BD+ngh%C4%A9a%22){ .md-button .md-button--primary } hơn nhiều.
 
+Các buổi này là một phần của [Các buổi chia sẻ kỹ năng miễn phí với nhau](https://xn--qucu-hr5aza.cc/cac-buoi-chia-se-ky-nang-mien-phi-voi-nhau/?utm_source=CW+%C2%BB+Obsidian%2C+qu%E1%BA%A3n+l%C3%BD+d%E1%BB%B1+%C3%A1n+v%C3%A0+c%C3%B4ng+c%E1%BB%A5+ngh%C4%A9&utm_medium=vault&utm_campaign=C%C3%A1c+bu%E1%BB%95i+h%C6%B0%E1%BB%9Bng+d%E1%BA%ABn+l%E1%BA%ADp+tr%C3%ACnh){ .md-button .md-button--primary } 
+
+[[📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Kế hoạch/Kế hoạch|Kế hoạch tổ chức]]{ .md-button .md-button--primary }

@@ -1,10 +1,17 @@
 {
   "github": {
+    "user": "QuaCau-TheSphere",
+    "repo": "CW-obsidian-quan-ly-du-an-va-cong-cu-nghi",
     "branch": "main",
     "automaticallyMergePR": true,
+    "tokenPath": "%configDir%/plugins/%pluginID%/env",
     "api": {
       "tiersForApi": "Github Free/Pro/Team (default)",
       "hostname": ""
+    },
+    "workflow": {
+      "commitMessage": "[skip netlify] PUBLISHER",
+      "name": ""
     },
     "otherRepo": [
       {
@@ -27,18 +34,11 @@
         }
       }
     ],
-    "workflow": {
-      "name": "",
-      "commitMessage": "[skip netlify] PUBLISHER"
-    },
-    "repo": "CW-obsidian-quan-ly-du-an-va-cong-cu-nghi",
-    "user": "QuaCau-TheSphere",
     "verifiedRepo": true,
     "rateLimit": 4359
   },
   "upload": {
     "behavior": "obsidian",
-    "subFolder": "",
     "defaultName": "docs",
     "rootFolder": "docs",
     "yamlFolderKey": "category",
@@ -47,6 +47,7 @@
       "key": "filename"
     },
     "replaceTitle": [],
+    "replacePath": [],
     "autoclean": {
       "enable": true,
       "excluded": [
@@ -59,10 +60,14 @@
     },
     "folderNote": {
       "enable": true,
-      "rename": "index.md"
+      "rename": "index.md",
+      "addTitle": {
+        "enable": true,
+        "key": "title"
+      }
     },
     "metadataExtractorPath": "",
-    "replacePath": []
+    "subFolder": ""
   },
   "conversion": {
     "hardbreak": false,
@@ -88,11 +93,14 @@
   },
   "embed": {
     "attachments": true,
+    "forcePushAttachments": [],
     "keySendFile": [
       "image"
     ],
     "notes": true,
-    "folder": "docs/assets/attachments"
+    "folder": "docs/assets/attachments",
+    "convertEmbedToLinks": "keep",
+    "charConvert": "->"
   },
   "plugin": {
     "shareKey": "share",
@@ -112,5 +120,5 @@
     "migrated": true,
     "dev": true
   },
-  "tabsID": "help"
+  "tabsID": "upload-configuration"
 }

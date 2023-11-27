@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-12T14:48
+updated: 2023-11-19T14:41
 ---
 Sau một thời gian loay hoay để quản lý dữ liệu cho việc phát triển sản phẩm, Trấn Kỳ
 
@@ -28,6 +28,8 @@ Thành phẩm [[Kế hoạch phát triển Trấn Kỳ]] vừa là:
   - Thành phẩm của công việc (alias: Bản kế hoạch phát triển Trấn Kỳ) 
   - Một bản báo cáo tình hình công việc (alias: ) 
 Bởi vì [[Giả định có mặt ở khắp nơi]], và vì [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]], nên [[Công việc sẽ được gắn ở khắp nơi]] 
+
+Chỉ khi nào công việc bắt đầu phức tạp thì mới tách ra thành folder riêng, còn trước đó thì vẫn để trong kế hoạch
 Ví dụ: sản phẩm `vault dạy Obsidian` có những thành phẩm sau:
 ```dataview 
 List
@@ -42,3 +44,7 @@ Quy hồi (recursive) là việc [[Một sản phẩm được tạo nên bởi 
 [[Bởi vì sản phẩm có tính quy hồi và có thể là thành phẩm chung của nhiều sản phẩm lớn hơn, nên để quản lý được nó ta phải biết lập trình]]
 
 [[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]], còn [[Thành phẩm (output) là các kết quả trực tiếp của các công việc]]. 
+
+về lý thuyết thì nên đi từ thành quả mong muốn cao nhất rồi chẻ nhỏ ra, nhưng thực tế nhiều khi mình biết mình cần công việc gì luôn mà não chưa nghĩ ra được nó dùng để kiểm định giả thiết gì
+
+[[93.01 Mục tiêu, yếu tố hỗ trợ, ý tưởng tốt hơn. Mục tiêu, sản phẩm, hoạt động, tác vụ]] [[93.01 Đồ thị nội hàm các khái niệm]]

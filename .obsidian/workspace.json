@@ -4,50 +4,50 @@
     "type": "split",
     "children": [
       {
-        "id": "3940c27ebd703284",
+        "id": "c5b253e227a5ed82",
         "type": "tabs",
         "children": [
           {
-            "id": "af8a1e8dc7d106f7",
+            "id": "2f6f521369639daf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Câu hỏi phỏng vấn.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c90cbe00c67ad012",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Duy Phong.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c8ea55dc8f37682e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/Trấn Kỳ/9 Blog/Lời mời xây dựng một startup để làm những việc một người bạn sẽ làm.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch phát triển Trấn Kỳ.md",
                 "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "abdbc24816c3d5c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Quỹ/Kế hoạch kêu gọi đầu tư.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f2ad60813cd71c84",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -97,8 +97,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c337a3ea5e852bbb",
@@ -114,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Duy Phong.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Duy Phong.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Duy Phong.md"
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md"
               }
             }
           }
@@ -168,55 +167,55 @@
   "left-ribbon": {
     "hiddenItems": {
       "dbfolder:Create a new database table": false,
-      "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
+      "templater-obsidian:Templater": false,
+      "obsidian42-brat:BRAT": false,
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "c90cbe00c67ad012",
+  "active": "f2ad60813cd71c84",
   "lastOpenFiles": [
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Câu hỏi phỏng vấn.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với các bài viết/Duy Phong.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Kết quả/Duy Phong.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Câu hỏi phỏng vấn.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch xây dựng cộng đồng phát triển Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch phát triển Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/9 Blog/Lời mời xây dựng một startup để làm những việc một người bạn sẽ làm.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Khoa học dữ liệu.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Nghĩ về việc nghĩ.md",
-    "📜 Tài nguyên/📜 Tài nguyên.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Quản lý clipboard bằng CopyQ.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Thủ thuật phần mềm.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Google Drive.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Delightful humane design.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Tự động hoá/Chỉnh sửa ảnh hàng loạt bằng ImageMagick.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Tự động hoá/Tạo phím tắt bằng AutoHotKey.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Tự động hoá/Chỉnh sửa file hàng loạt bằng PowerShell.md",
-    "📐 Dự án/Trấn Kỳ/Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp Kendy.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch.md",
-    "📐 Dự án/Trấn Kỳ/3 Thành quả mong muốn/Mỗi tuần có 10 người tham gia phát triển Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/2 Giả thuyết/Cứ 200 engaged session ở trang lấy code thì có 1 đơn hàng.md",
-    "⚡Hiểu biết sâu/Nhân học/Viết câu chuyện cuộc đời/Ta có thể hư cấu nội tâm nhân vật dựa trên dữ liệu.md",
-    "⚡Hiểu biết sâu/Nhân học/Viết câu chuyện cuộc đời/Câu chuyện cuộc đời có khả năng bị cảm xúc của nhân vật chi phối câu chuyện.md",
-    "⚡Hiểu biết sâu/Nhân học/Viết câu chuyện cuộc đời/Niên biểu là để lên kế hoạch và nhớ các từ khoá quan trọng, còn khi viết chuyện thì viết theo từ khoá.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Tăng trưởng",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập nhóm/Tăng trưởng",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập nhóm",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Startup/Tăng trưởng",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quản lý dữ liệu/Cơ sở dữ liệu",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quản lý dữ liệu/Hợp tác làm việc",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quản lý dữ liệu",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/Xin quỹ nghiên cứu",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Gây quỹ/New folder",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Quỹ/Điều nhà đầu tư quan tâm và điều muốn nhà đầu tư quan tâm.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng/Người dùng nói thích một chức năng không có nghĩa là họ sẽ bỏ những sản phẩm khác để đến với chức năng của mình.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng/Sự tiêu cực của người dùng là cơ hội làm dự án.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng/Con người nhiều khi không nói dối mà chỉ đang lý tưởng hoá bản thân.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng/Người dùng thường không nói không với những tính năng mới.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng/Người có nhu cầu thường để lại ấn tượng nhiều, nhưng số lượng không nhiều trong thị trường.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng/Con người không muốn mâu thuẫn với những điều mình nói ra.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Chọn người phỏng vấn/Việc chọn đối tượng phỏng vấn phụ thuộc vào việc giả định của mình liên quan đến hành vi nào.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Chọn người phỏng vấn/Nên phỏng vấn một tập người dùng nhiều lần, nhưng không nên một người nhiều lần.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Chọn người phỏng vấn/Nên phỏng vấn cả những người không nằm trong nhóm đối tượng mục tiêu của mình.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Chọn người phỏng vấn/Người thích mình thường có nhu cầu khác về sản phẩm so với người không thích mình.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Chọn người phỏng vấn/Người dùng dịch vụ của mình thường phản hồi những thứ họ chấp nhận được. Người dùng dịch vụ của đối thủ thường phản hồi những thứ họ không chấp nhận được.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Web analytics đã thay đổi trong nhiều năm qua.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Social về bản chất là referral, nhưng được tách ra để phân tích sâu hơn.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Một số medium cho blog là social, referral, forum, blog, chat, form.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Dự án là sản phẩm.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Dữ liệu từ phân tích web chỉ nói người dùng ngừng đọc ở đâu, chứ không nói cho ta biết vấn đề là gì, không nói cho ta biết ta nên đi đâu.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Các URL dài có thể là organic traffic chứ không phải direct traffic.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Các organic branded traffic nên được xem như là direct traffic.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Chiến dịch là sản phẩm.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/❓Người dùng thấy không hiểu ý đồ của mình và giải thích nhiều vì nghĩ là mình không hiểu.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/❓Có nên đưa câu hỏi trước cho người tham gia phỏng vấn biết trước không. Có nên cho họ coi kết quả ghi chú của mình không.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/❓Có nên yêu cầu người tham gia phỏng vấn phải đọc trước cái gì không.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/❓Có nên phỏng vấn một người nhiều lần để vét cạn suy nghĩ của họ về các giả thiết của mình.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Việc phỏng vấn làm ta mệt và muốn nghỉ ngơi, nhưng ta vẫn phải tiếp tục làm.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Chọn người phỏng vấn",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Persona, câu chuyện người dùng",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Khảo sát",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Các bên liên quan, bối cảnh cạnh tranh",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng",
     "Ξ Thiết lập/Ảnh/Pasted image 20231111155831.png",
     "Ξ Thiết lập/Ảnh/Pasted image 20231111161912.png",
     "Ξ Thiết lập/Ảnh/Pasted image 20231110141124.png",

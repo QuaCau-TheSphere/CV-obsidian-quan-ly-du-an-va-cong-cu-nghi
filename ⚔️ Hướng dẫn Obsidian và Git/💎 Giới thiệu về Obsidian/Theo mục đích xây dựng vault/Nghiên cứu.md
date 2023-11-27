@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-29T18:39
-updated: 2023-10-06T16:09
+updated: 2023-11-16T22:48
 ---
 # [Linking Your Thinking](https://notes.linkingyourthinking.com) 
 

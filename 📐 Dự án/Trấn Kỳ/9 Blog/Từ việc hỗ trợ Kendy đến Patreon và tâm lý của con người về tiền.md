@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-07T19:36
-updated: 2023-11-07T16:02
+updated: 2023-11-25T12:41
 ---
 %%
 #file/thành-phẩm/bài-viết 
@@ -76,7 +76,7 @@ Bọn mình cũng sẽ áp dụng như thế.
 <sub>Nếu đối tượng quyên góp tiền cho bạn không phải cá nhân mà là doanh nghiệp, hãy đọc bài viết này của Hà Lemmy: [Chiến dịch CSR hài lòng nhất?](https://halemmy.medium.com/chiến-dịch-csr-hài-lòng-nhất-ef0501337970)</sub>
 
 # ...đến tâm lý của con người về tiền
-[[Tiền có nhiệm vụ làm trung gian cho việc trao đổi nhu cầu]]. Vấn đề là [[Tiền được lưu ở dạng vật chất, nhưng nhu cầu là một trạng thái tinh thần|nó là một hình thức vật chất, còn nhu cầu là một trạng thái tinh thần]]. Việc chuyển đổi một trạng thái tinh thần sang một hình thức vật chất như này phải nói là rất rất tiện, nhưng một nhược điểm của nó là [[việc chi tiền làm tâm lý con người bị đau]]. Vì [[cảm giác mất mát là cảm giác tiêu cực]]. Có một thí nghiệm cho thấy con người thà không bị mất $100 còn hơn có được thêm $150. Trong khi đó, [[Cảm giác đáp ứng nhu cầu người khác là cảm giác tích cực|cảm giác đáp ứng nhu cầu người khác lại là cảm giác tích cực]]. [[Sự giúp đỡ người khác làm con người cảm thấy cuộc sống có ý nghĩa]]. Thật thú vị khi thấy một công cụ được sinh ra để chúng ta có thể hợp tác trên quy mô lớn hơn là tiền lại [[Tiền tạo cảm giác phải cạnh tranh để có tài nguyên hơn là hợp tác để có nhiều tài nguyên hơn|tạo cảm giác phải cạnh tranh để có tài nguyên hơn là hợp tác để có nhiều tài nguyên hơn]].
+[[Tiền có nhiệm vụ làm trung gian cho việc trao đổi nhu cầu]]. Vấn đề là [[Tiền được lưu ở dạng vật chất, nhưng nhu cầu là một trạng thái tinh thần|nó là một hình thức vật chất, còn nhu cầu là một trạng thái tinh thần]]. Việc chuyển đổi một trạng thái tinh thần sang một hình thức vật chất như này phải nói là rất rất tiện, nhưng một nhược điểm của nó là [[Việc mất tiền làm tâm lý con người bị đau dù có thể nó vô lý]]. Vì [[cảm giác mất mát là cảm giác tiêu cực]]. Có một thí nghiệm cho thấy con người thà không bị mất $100 còn hơn có được thêm $150. Trong khi đó, [[Cảm giác đáp ứng nhu cầu người khác là cảm giác tích cực|cảm giác đáp ứng nhu cầu người khác lại là cảm giác tích cực]]. [[Sự giúp đỡ người khác làm con người cảm thấy cuộc sống có ý nghĩa]]. Thật thú vị khi thấy một công cụ được sinh ra để chúng ta có thể hợp tác trên quy mô lớn hơn là tiền lại [[Tiền tạo cảm giác phải cạnh tranh để có tài nguyên hơn là hợp tác để có nhiều tài nguyên hơn|tạo cảm giác phải cạnh tranh để có tài nguyên hơn là hợp tác để có nhiều tài nguyên hơn]].
 
 Chưa dừng lại ở đó, [[cảm xúc không chỉ khiến ta nhớ tốt hơn, mà còn điều hướng những suy nghĩ tự động]]. Thế nên là, mặc dù có thể khi đọc bài này trong bạn cũng có mong muốn giúp đỡ, nhưng chỉ cần nghĩ đến bước tiếp theo của việc giúp đỡ là mở tài khoản ngân hàng thì tim bạn lại nhói đau. Bạn sẽ phải chiến đấu với cái cảm giác vô lý đó, và việc đó cũng mệt mỏi. Nên bọn mình muốn không chỉ là khơi gợi lòng trắc ẩn ở trong bạn, mà là muốn bạn nhìn thẳng vào cảm giác mất mát giả tạo đó. Bọn mình muốn các bạn hiểu rằng các bạn không đóng góp tiền gì cả. Giả sử như số tiền bạn định cho bằng 3 tiếng lao động của bạn. Thì 3 tiếng đó chính là số thời gian bạn cùng với Kendy tạo ra những điều có ý nghĩa cho cả hai, để cả hai cùng phát triển. 
 

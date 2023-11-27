@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-13T15:46
+updated: 2023-11-17T17:30
 ---
 # Hành vi phân loại
 ## Bạn có thể phân loại mẫu được không?
@@ -26,7 +26,7 @@ updated: 2023-11-13T15:46
 ## Nếu là AI thì sao?
 ## Bạn nghĩ giá của nó nên như thế nào?
 ## Giả sử như bây giờ bạn đã có giải pháp đó luôn rồi, thì bạn có dành thời gian để áp dụng nó ngay không?
-	- Điều gì quan trọng hơn cả việc đấy?
+### Điều gì quan trọng hơn cả việc đấy?
 
 # Nhu cầu học lập trình
 ## Bạn có thấy mình cần biết lập trình không?
