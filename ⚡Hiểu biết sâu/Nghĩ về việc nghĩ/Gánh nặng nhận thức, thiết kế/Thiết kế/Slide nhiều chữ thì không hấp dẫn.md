@@ -1,10 +1,10 @@
 ---
 share: true
 created: 2023-05-31T13:32
-updated: 2023-10-06T16:09
+updated: 2023-11-28T13:24
 ---
 Nếu phân nào cần nhiều chữ thì có thế để vào phụ lục hoặc bài viết sâu.
-[[Lectures, as a format, are shaped as if tranmissionism were true, so lecturers mostly behave as if it were true]]
+[[Sách và bài giảng là những môi trường được thiết kế như thể người học hiểu hết hoàn toàn trong một lần tiếp thu, kể cả khi tác giả và giảng viên cũng không thực sự nghĩ vậy]]
 
 Để ít chữ mà trình bày được những vấn đề phức tạp đòi hỏi người làm phải:
 - Nắm rất tốt bản chất, các quy luật của vấn đề

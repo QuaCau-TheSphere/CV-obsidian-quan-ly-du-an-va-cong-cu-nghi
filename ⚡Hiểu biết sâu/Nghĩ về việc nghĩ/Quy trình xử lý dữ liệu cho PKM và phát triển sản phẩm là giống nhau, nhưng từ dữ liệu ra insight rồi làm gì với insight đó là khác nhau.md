@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-10T01:11
-updated: 2023-10-06T16:09
+updated: 2023-11-28T10:40
 ---
 với 1 raw data ⇄ 1 highlight (author word) e sẽ có 1 hypothesis (own word) ⇄ pre-insight (đây chính là atomic note ⇄ 1 position cần em embed các luận cứ để support hoặc reject ▀ càng nhiều luận cứ thì pre-insight này dần chuyển sang insight ⇄ permanent note) và khác với user research, pkm càng đẻ nhiều permanent note ▄ forever càng tốt thì e càng có nhiều library riêng để build evergreen thing
 
@@ -19,5 +19,3 @@ trình tự Zettelkasten vs product discovery/delivery là như nhau
 Pattern chung của tụi nó là chiết xuất thông tin, đều processing raw data → useful data. Nhưng đến milestone useful data thì nó phân nhánh. 1 thằng thì cần expand insights → càng nhiều evergreen càng tốt. 1 thằng cần narrow insights → chắt lọc build prioritize feature
 
 Nguồn:: [[Kendy]]
-
-[[] ] 

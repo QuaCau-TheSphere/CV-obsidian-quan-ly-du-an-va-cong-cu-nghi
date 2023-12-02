@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-12-01T19:35
 ---
 [[Ta thường không sẵn sàng để đọc một tài liệu khi ta mới thấy nó]]
 
@@ -38,3 +38,5 @@ Often a good compromise is to use spaced repetition to cheaply internalize a few
 [Kidd, A. (1994). The marks are on the knowledge worker. Proceedings of the SIGCHI Conference on Human Factors in Computing Systems, 186–191](https://notes.andymatuschak.org/zcvfLrDy5Fc5V2gX6CTUVqxPnW55psKEEGQ)
 
 > The marks which can make a difference to their organisations are on the knowledge workers not on the pieces of paper. This is what it means to inform - to change the form of a person or a device such that they act differently (ideally more effectively) on their environment.
+
+[[Hiểu biết không chỉ để mình làm một cái gì đó, mà còn để mình không làm một cái gì đó]]. [[Hiểu biết sâu làm ta thấy khoái cảm]]. [[Sự trì hoãn giúp giảm những hệ quả không lường trước được]]

@@ -1,6 +1,6 @@
 ---
 created: 2023-09-05T16:17
-updated: 2023-11-20T21:22
+updated: 2023-11-29T20:43
 ---
 ổn hơn underthesea hầu như là miss tùm lum, cấu trúc hơi là lạ. 2 năm gần đây thì ko dùng,
 crawl thông tin tuyển dụng 
@@ -69,3 +69,71 @@ tutor: python cơ bản và python cho DA
 - 40 technique, 60 kinh tế
 
 Không khởi xướng thì nghĩ mình ko đủ khả năng định hướng, thấy cái nhỏ nào giúp được thì có thể giúp
+
+
+# Tiếp nhận của họ khi đọc [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu]]
+- Họ đã biết tới bài này thế nào?
+- Điều gì khiến họ quyết định bấm vào đọc?
+- Họ thấy tiêu đề thế nào?
+- Họ đã đọc như thế nào?
+- Họ hiểu bài này nói về cái gì?
+- Họ đánh giá thế nào về những điều bài này nói?
+	- [ ] Thấy nó giúp tiết kiệm thời gian của mình?
+- Điều gì khiến họ thấy ấn tượng nhất? 
+- Họ ngừng đọc ở đâu?
+- Vì sao họ ngừng đọc?
+- Họ nghĩ ai là người sẽ quan tâm bài này?
+- Vì sao họ chưa chia sẻ bài này đến cho những người đó?
+
+
+Lý do viết Trấn kỳ
+
+thảo luận với nhau quá rộng. Lớp học ngắn ngày tạo phần mềm quản lý bán hàng bằng ggsheet, đơn giản và hoàn thiện. Buổi 2 người trình bày các case cá nhân, thuận tiện hơn trong việc mọi người thảo luận. Nếu ko có chuẩn bị trước thì rất là khó. Nếu trong buổi học 
+
+sau khi lướt xuống thì lại thấy hợp Lý do:: kiểm soát các câu hỏi liên quan trước
+
+các buổi học chưa rõ cách triển khai thế nào
+
+Các link còn lại thì đọc swo qua thôi
+nếu được giới thiệu thì sẽ hứng thú đọc. Nó chứa nhiều từ ngữ mình ko hiểu đc.. Nếu em nói là ý nghĩa thì đọc hết. Có vài đoạn thấy tối nghĩa với người khác.
+
+Các buổi này được tạo...nước đến chân. Sợ người ta không đọc hết
+
+muốn chia sẻ cho những bạn học chung kỹ năng với em. Thấy chưa triển khai nên chưa chia sẻ.. Khoảng 5-10 bạn. 
+chia sẻ cho những người cần học những kỹ năng cụ thể này.
+lớp học python free TA với người thầy tương đối có tâm
+có quá nhiều vị trí, mình không hỗ trợ được kỹ năng đó. Cả 2 người cùng học mù mới nhau thì sẽ có vấn đề về quảng cáo nửa vời.
+Trước có chia sẻ cái code gym. Trong discord có 20-30 người tham gia, chỉ có 1 người đc GMAT. Dù nó không gây ra thiệt hại gì cả thì nó cũng khó 
+
+cách để khám phá kỹ hơn thì phải tham gia trước
+
+Các kỹ năng khá nhiều. Anh là người tổ chức thì biết khoảng 80% kỹ năng. Em cũng là người tìm hiểu nhiều kỹ năng, còn có thể giảng bài về SQL hay Python bằng kỹ năng sư phạm thì nó ko dễ.
+
+Dùng rồi, giảng lại chậm mà người ta vẫn không hiểu
+
+Link trông rất không uy tín
+
+ko có nút nào muốn bấm vào về mặt thiết kế, thấy nghiệp dư 
+
+các link ko cung cấp nhiều thông tin, nghĩ là lỗi thiết kế chứ ko phải là link để bấm vào. Làm html nhiều nên việc quên để link mà vẫn có tooltip là bình htuongw
+
+Đọc 3 chấm đầu tiên là thấy đủ ko cần phải biết điều gì. Chung và rộng và nếu đọc thì dài và không cần thiết. Thấy giống cho newbiew
+
+Lời mời xây dựng, từ việc hỗ trợ kendy ko để lại ấn tượng. 
+
+Có hứng thú như
+
+tham gia bằng cách chuẩn bị tầm 30 cái, làm tutor trong lớp
+
+nghĩ rằng phải giảng cơ bản, và cái đó thì phải có kỹ năng sư phạm.
+
+Nếu người tổ chức không giảng chuyên nghiệp, chỉ ai hỏi thì trả lời thì ko hay. Phải có việc giảng bài hoặc tóm tắt để thu hút, nếu chỉ quăng thì chẳng bao giờ thèm đọc. Việc giảng bài sẽ tạo ra nền tảng chung
+Chuyên môn có định nghĩa khác, trình độ thấp có 
+VD: ETL với DE rất quan trọng, DA thì sao cũng được.
+
+link quá dài, người ta sẽ thấy rất là cẩn thận, còn phải kiểm tra lại là có phải đúng là người mình biết hay không
+
+thấy gắn link vào giữa thì là thủ thuật tâm lý, đọc thì cũng có bổ ích nhưng không đáng
+
+thấy những người ta chia sẻ thì không bằng. Muốn học kỹ năng gì thì vào coursera. Chỉ tham gia những buổi mà mình biết người trong đó và kỹ năng trong đó mình cần
+Những link này rất là đại trà

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-29T12:50
-updated: 2023-10-13T17:35
+updated: 2023-12-02T10:37
 ---
 Sự tập trung của chúng ta chỉ có một khoảng nhất định, và ta sẽ chỉ có thể làm thứ quan trọng nhất. Nếu ta ráng làm cái khác, thì một cơn nhức đầu sẽ kéo thôi thúc ta nhanh chóng bỏ cuộc để quay trở lại làm điều dang dở. Bạn có thể trải nghiệm cơn nhức đầu này mỗi khi đang tập trung làm một việc gì đó mà có tiếng điện thoại reo.
 
@@ -36,3 +36,4 @@ Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 [[Việc mò mẫm vui, đỡ phải nghĩ và thường là hiệu quả hơn là đọc hướng dẫn cẩn thận]]
 [[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]] 
 [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
+[[Một hệ sinh thái không hoạt động bằng cách đặt câu hỏi, mà bằng cách không cần hỏi cũng biết câu trả lời là gì]]

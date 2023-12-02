@@ -4,29 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "c5b253e227a5ed82",
+        "id": "a2dde2ee96639c05",
         "type": "tabs",
         "children": [
           {
-            "id": "2f6f521369639daf",
+            "id": "1a3d2b731a8b7a52",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch phát triển Trấn Kỳ.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "abdbc24816c3d5c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Quỹ/Kế hoạch kêu gọi đầu tư.md",
+                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Con người phản ứng mãnh liệt nhất khi bị đụng đến điểm đau.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,12 +21,38 @@
             }
           },
           {
-            "id": "f2ad60813cd71c84",
+            "id": "63a4e593109ece48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "eb9ce53e08861f74",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Giúp đỡ nhau/Sự hợp tác xã hội của ta hướng đến việc chia việc để cùng tạo ra sản phẩm chung, chứ không giúp đỡ qua lại.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "5f393589fdb96eb5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quỹ, gọi vốn/Gọn vốn đầu tư/Định giá.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -47,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -76,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "icse20",
+                "query": "Khách hàng sẽ nhớ đến mình nếu như mình có thể tạo được satisfaction of emotion, nhưng họ chỉ làm tnv hoặc góp tiền cho mình khi họ cần đảm bảo một cái gì đấy?",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -113,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md"
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md"
               }
             }
           }
@@ -178,53 +191,53 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "f2ad60813cd71c84",
+  "active": "63a4e593109ece48",
   "lastOpenFiles": [
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Quỹ/Điều nhà đầu tư quan tâm và điều muốn nhà đầu tư quan tâm.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng/Người dùng nói thích một chức năng không có nghĩa là họ sẽ bỏ những sản phẩm khác để đến với chức năng của mình.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng/Sự tiêu cực của người dùng là cơ hội làm dự án.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng/Con người nhiều khi không nói dối mà chỉ đang lý tưởng hoá bản thân.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng/Người dùng thường không nói không với những tính năng mới.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng/Người có nhu cầu thường để lại ấn tượng nhiều, nhưng số lượng không nhiều trong thị trường.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng/Con người không muốn mâu thuẫn với những điều mình nói ra.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Chọn người phỏng vấn/Việc chọn đối tượng phỏng vấn phụ thuộc vào việc giả định của mình liên quan đến hành vi nào.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Chọn người phỏng vấn/Nên phỏng vấn một tập người dùng nhiều lần, nhưng không nên một người nhiều lần.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Chọn người phỏng vấn/Nên phỏng vấn cả những người không nằm trong nhóm đối tượng mục tiêu của mình.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Chọn người phỏng vấn/Người thích mình thường có nhu cầu khác về sản phẩm so với người không thích mình.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Chọn người phỏng vấn/Người dùng dịch vụ của mình thường phản hồi những thứ họ chấp nhận được. Người dùng dịch vụ của đối thủ thường phản hồi những thứ họ không chấp nhận được.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Web analytics đã thay đổi trong nhiều năm qua.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Social về bản chất là referral, nhưng được tách ra để phân tích sâu hơn.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Một số medium cho blog là social, referral, forum, blog, chat, form.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Dự án là sản phẩm.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Dữ liệu từ phân tích web chỉ nói người dùng ngừng đọc ở đâu, chứ không nói cho ta biết vấn đề là gì, không nói cho ta biết ta nên đi đâu.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Các URL dài có thể là organic traffic chứ không phải direct traffic.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Các organic branded traffic nên được xem như là direct traffic.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics/Chiến dịch là sản phẩm.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/❓Người dùng thấy không hiểu ý đồ của mình và giải thích nhiều vì nghĩ là mình không hiểu.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/❓Có nên đưa câu hỏi trước cho người tham gia phỏng vấn biết trước không. Có nên cho họ coi kết quả ghi chú của mình không.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/❓Có nên yêu cầu người tham gia phỏng vấn phải đọc trước cái gì không.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/❓Có nên phỏng vấn một người nhiều lần để vét cạn suy nghĩ của họ về các giả thiết của mình.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Việc phỏng vấn làm ta mệt và muốn nghỉ ngơi, nhưng ta vẫn phải tiếp tục làm.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Hành vi người dùng",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Chọn người phỏng vấn",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng/Web analytics",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Persona, câu chuyện người dùng",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Khảo sát",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Phân tích xu hướng",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Các bên liên quan, bối cảnh cạnh tranh",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng",
+    "📐 Dự án/Trấn Kỳ/Kanban.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Việc dùng game hoá để giải thích có một bất lợi là các công ty làm game tập trung vào việc tạo ra game có tính giải trí hơn là việc giải thích.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Game hoá/Đa số các dự án game hoá chỉ tập trung vào cạnh tranh thi đua, chứ không tập trung vào bản đồ.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Việc rút gọn cả bài thành câu tóm tắt chỉ có tác dụng khi mình hiểu dược những khái niệm quan trọng trong bài.md",
+    "⚡Hiểu biết sâu/Khoa học dữ liệu/Trình bày dữ liệu/Bỏ hết những thông tin thừa khi làm đồ thị.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Giúp đỡ nhau/Sự hợp tác xã hội của ta hướng đến việc chia việc để cùng tạo ra sản phẩm chung, chứ không giúp đỡ qua lại.md",
+    "⚡Hiểu biết sâu/Cộng đồng, hệ sinh thái, hệ phức hợp/Hệ sinh thái/Một hệ sinh thái không hoạt động bằng cách đặt câu hỏi, mà bằng cách không cần hỏi cũng biết câu trả lời là gì.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Giúp đỡ nhau/Sự tập trung đòi hỏi người khác phải lo cho những nhu cầu khác của mình.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Giúp đỡ nhau/Sự tập trung đòi hỏi người khác phải giúp đỡ mình.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Sự tập trung làm ta không thấy được bức tranh tổng thể.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng, quản lý nhóm/Nhìn thấy được người kia đang làm gì làm tăng sự tin tưởng đối với họ.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Nội việc đặt câu hỏi thôi đã đủ áp lực rồi, chứ đừng nói đến việc đi google hay đặt câu hỏi tốt hơn.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Bản chất của việc hợp tác xã hội không nằm ở mỗi chuyện làm nhẹ gánh nặng của nhau, mà còn là chuyện sắp xếp làm sao để có thể đẩy gánh nặng sang cho nhau mà không ai cảm thấy áy náy.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Việc chất vấn quan điểm của mình dễ dàng hơn nhiều khi có ai đó nói ra sự chất vấn đó.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Thật khó để nghe thấy sự nghĩ của chính mình.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Kiểm định giả thuyết/Có quá nhiều điều cần kiểm chứng nhưng dù muốn đi tìm cũng không ai chịu dành thời gian để trả lời.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Kiểm định giả thuyết/Để có thể thiết kế một giải pháp một cách nhanh chóng và tự tin, ta cần được thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Giúp đỡ nhau/Phản hồi và sự giúp đỡ trả lại là những thứ xa xỉ với người được giúp.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng, quản lý nhóm/Tìm người làm/Tìm được người cùng muốn làm chung với mình và đủ rảnh là rất khó.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/Tiền là một động lực ngoại sinh cực kỳ tốt.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/Tiền đơn giản hoá quá trình đáp ứng nhu cầu.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/Tiền có nhiệm vụ làm trung gian cho việc trao đổi nhu cầu.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Có sự chênh lệch về sự thoải mái trong việc hỏi và việc trả lời.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Suy luận/Càng mất nhiều ta càng học nhiều.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/~syncthing~Những thứ khẩn cấp thường không phải là những thứ thú vị.md.tmp",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quỹ, gọi vốn/~syncthing~Người cho tiền thấy mình đáng được cho tiền nhất khi không thấy mình cần tiền.md.tmp",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quỹ, gọi vốn/~syncthing~Có những cái ta cần làm trước khi ta thấy cần làm.md.tmp",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Lên kế hoạch/~syncthing~2e3868100764f901e8df21366da14aff441715b0380ac330d79baa1e9313d519.tmp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/~syncthing~Sự chuyên gia (expertise) đến từ việc nhìn ra mẫu hình.md.tmp",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/~syncthing~Tiền là một động lực ngoại sinh cực kỳ tốt.md.tmp",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Giúp đỡ nhau/~syncthing~Sự tập trung đòi hỏi người khác phải giúp đỡ mình.md.tmp",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/~syncthing~ESG.md.tmp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Vật thể/~syncthing~91cbc733279c3f5308a0827ca3387c3c352e5d899443a6ba43fcea2faf7708c4.tmp",
+    "Ξ Thiết lập/Ảnh/Người giàu nghĩ gì về quan điểm tiền không mua được hạnh phúc.jpg",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Chủ nghĩa tân tự do",
+    "Ξ Thiết lập/Ảnh/Pasted image 20231128203124.png",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm.png",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (neato).png",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (dot).png",
     "Ξ Thiết lập/Ảnh/Pasted image 20231111155831.png",
     "Ξ Thiết lập/Ảnh/Pasted image 20231111161912.png",
     "Ξ Thiết lập/Ảnh/Pasted image 20231110141124.png",
     "Ξ Thiết lập/Ảnh/Pasted image 20231109153144.png",
-    "Ξ Thiết lập/Ảnh/Trấn Kỳ/Keep to FIbery.png",
-    "Ξ Thiết lập/Ảnh/1 lwr2g0HvLOVr5IPVNoYxLg.webp",
-    "Ξ Thiết lập/Ảnh/growth.png",
-    "Ξ Thiết lập/Ảnh/ERP/Nhu cầu của người làm kinh doanh cá nhân.svg",
-    "Ξ Thiết lập/Ảnh/Trấn Kỳ/keep.jpg",
-    "Ξ Thiết lập/Ảnh/Trấn Kỳ/Keep to FIbery.svg"
+    "Ξ Thiết lập/Ảnh/Trấn Kỳ/Keep to FIbery.png"
   ]
 }

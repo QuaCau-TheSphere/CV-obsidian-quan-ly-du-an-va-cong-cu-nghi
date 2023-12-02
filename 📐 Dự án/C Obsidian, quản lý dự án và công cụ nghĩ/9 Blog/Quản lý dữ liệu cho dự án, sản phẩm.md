@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-19T14:41
+updated: 2023-11-30T14:40
 ---
 Sau một thời gian loay hoay để quản lý dữ liệu cho việc phát triển sản phẩm, Trấn Kỳ
 
@@ -37,7 +37,7 @@ From #file/thành-phẩm
 Limit 5
 ```
 
-Mỗi một thành phẩm chính là một khía cạnh khác nhau của sản phẩm. Giống như con voi được tạo thành từ vòi, ngà, tai, thân, chân, đuôi. Các bộ phận ấy đến lượt chúng lại được cấu tạo từ những bộ phận nhỏ hơn. Cho nên, thành phẩm thực chất là sản phẩm. Bởi vì [[Sản phẩm là một vật thể]], nên thành phẩm cũng là một vật thể. Các vật thể này cứ lồng vào nhau như fractal. Một lúc nào đó, khi một thành phẩm trở nên đủ phức tạp, ta có thể tách nó ra thành một sản phẩm riêng của tổ chức.
+Mỗi một thành phẩm chính là một khía cạnh khác nhau của sản phẩm. Giống như con voi được tạo thành từ vòi, ngà, tai, thân, chân, đuôi. Các bộ phận ấy đến lượt chúng lại được cấu tạo từ những bộ phận nhỏ hơn. Cho nên, thành phẩm thực chất là sản phẩm. Bởi vì [[Sản phẩm là vật thể]], nên thành phẩm cũng là một vật thể. Các vật thể này cứ lồng vào nhau như fractal. Một lúc nào đó, khi một thành phẩm trở nên đủ phức tạp, ta có thể tách nó ra thành một sản phẩm riêng của tổ chức.
 
 Quy hồi (recursive) là việc [[Một sản phẩm được tạo nên bởi nhiều thành phẩm. Thứ ta gọi là sản phẩm thành phần, hoặc sản phẩm nhỏ hơn, chính là thành phẩm|một sản phẩm được tạo nên bởi nhiều sản phẩm nhỏ hơn]]
 
@@ -45,6 +45,11 @@ Quy hồi (recursive) là việc [[Một sản phẩm được tạo nên bởi 
 
 [[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]], còn [[Thành phẩm (output) là các kết quả trực tiếp của các công việc]]. 
 
-về lý thuyết thì nên đi từ thành quả mong muốn cao nhất rồi chẻ nhỏ ra, nhưng thực tế nhiều khi mình biết mình cần công việc gì luôn mà não chưa nghĩ ra được nó dùng để kiểm định giả thiết gì
+Oái oăm là, mặc dù về lý thuyết thì ta biết là nên đi từ thành quả mong muốn cao nhất rồi chẻ nhỏ ra, và phải luôn gắn giả thiết vào thành quả mong muốn đó, nhưng thực tế nhiều khi mình biết mình cần công việc gì luôn mà não chưa nghĩ ra được nó dùng để kiểm định giả thiết gì, và thành quả mong muốn ra sao. Thường đó là công việc nghiên cứu một cái gì đó, vì [[Thành quả mong muốn và giả định của một công việc tìm hiểu một vấn đề nào đó là chính nó|thành quả mong muốn và giả định của nó là chính nó]]. Cho nên, vào lúc chưa nghĩ ra thì để dưới dạng list, khi nghĩ ra rồi thì mới chuyển sang dạng bảng.
+
+Ví dụ, lúc mới lên kế hoạch [[Đi năn nỉ]], thì phải hiểu được quan điểm về cho tiền của người cho vay tiền (chủ nợ) nói riêng và người giàu/nhà tư bản nói chung. Bạn hãy cho tôi biết thành quả mong muốn và giả định của nó là gì, nếu không phải là lặp lại câu vừa rồi?
+
+Chưa hiểu được cái này thì không làm được gì cả.
+
 
 [[93.01 Mục tiêu, yếu tố hỗ trợ, ý tưởng tốt hơn. Mục tiêu, sản phẩm, hoạt động, tác vụ]] [[93.01 Đồ thị nội hàm các khái niệm]]

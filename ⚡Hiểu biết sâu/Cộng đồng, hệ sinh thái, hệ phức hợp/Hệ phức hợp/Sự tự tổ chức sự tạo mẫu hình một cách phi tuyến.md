@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-12-01T19:45
 ---
 Khái niệm:: [[Mẫu hình (pattern)]]
 
@@ -21,3 +21,6 @@ Load balancing is an emergent phenomena of self-organization through negative fe
 # Vòng lặp phản hồi
 [[Vòng lặp dương giúp củng cố tình trạng hiện tại, tránh sự tác động từ bên ngoài, tự bảo tồn chính nó]]
 [[Muốn phát triển thì vào vòng lặp dương. Muốn bền vững thì vào vòng lặp âm]]
+
+
+[[Con người cố gắng nhìn ra mẫu hình, kể cả khi đó chỉ là sự ngẫu nhiên]] 

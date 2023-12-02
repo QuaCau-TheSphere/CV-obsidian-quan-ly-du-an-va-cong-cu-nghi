@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-09T23:40
-updated: 2023-10-06T16:09
+updated: 2023-11-28T13:07
 ---
 Đây là quy trình phát triển sản phẩm truyền thống:
 ![](https://i.imgur.com/UVkZGQo.png)
@@ -12,7 +12,7 @@ Làm được theo quy trình này thì cũng rất tốt, nhưng thực tế th
 3. Có test thì chỉ test kỹ thuật mà thôi, chứ không có user
 4. Promote với launch thì chỉ âm thầm launch. Có quảng bá thì cũng không biết ai đọc được. [[Sản phẩm ra mắt 10 năm rồi cũng có thể không biết gì về người dùng]]
 
-Kết quả của việc này là [[Vấn đề chỉ được phát hiện ra khi đến khâu triển khai ý tưởng]]
+Kết quả của việc này là [[Nhiều khi vấn đề chỉ được phát hiện ra khi đến khâu triển khai ý tưởng]]
 
 Nguồn:: [[Hoàng Đức Minh]]
 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-10-11T11:26
+updated: 2023-11-29T13:42
 ---
 Khái niệm:: [[Ẩn dụ]]
 
@@ -16,3 +16,5 @@ Lý do:: [[Ẩn dụ là nền tảng của mọi suy nghĩ và lập luận]]
 
 [[Hoán dụ giúp ta vẽ được những thứ trừu tượng]]
 [[Các ẩn dụ tri nhận cơ bản dựa trên mối tương quan của cơ thể và xung quanh]] 
+
+Này vui đấy: [Science Communication Using Analogy | Metamia](http://www.metamia.com/)

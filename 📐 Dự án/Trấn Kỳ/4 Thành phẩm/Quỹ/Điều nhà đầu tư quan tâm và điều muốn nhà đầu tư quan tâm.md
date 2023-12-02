@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-27T22:27
+updated: 2023-12-01T14:30
 ---
 # Điều nhà đầu tư quan tâm
 ## Trấn Kỳ là gì
@@ -63,7 +63,7 @@ Về trung bình, 4/5 người đã làm việc với nhau hơn 2 năm cùng Qu�
 # Điều muốn nhà đầu tư quan tâm
 ## Trấn Kỳ được sinh ra là để giúp Kendy
 Giúp đỡ Kendy là điều kiện tiên quyết để nhóm xem xét đề nghị đầu tư của bạn. Bạn không cần phải quan tâm đến Kendy, chỉ cần nhóm thấy được đề nghị đầu tư của bạn có lợi nhất cho Kendy thì nhóm sẽ đồng ý.
-[[Lý do viết Trấn Kỳ]], [[Kế hoạch giúp Kendy]]
+[[Lý do viết Trấn Kỳ]], [[Kế hoạch giúp đỡ người đang kiệt quệ vì nợ]]
 
 ## [[Người dùng hài lòng với chất lượng sản phẩm, không phải tốc độ làm ra nó]] 
 - [[Đa số startup không chết vì cạnh tranh với đối thủ, mà vì không có người dùng sản phẩm của mình]]

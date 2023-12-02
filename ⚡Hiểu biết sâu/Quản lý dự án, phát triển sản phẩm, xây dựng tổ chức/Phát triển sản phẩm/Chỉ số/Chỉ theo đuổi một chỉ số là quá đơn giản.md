@@ -1,13 +1,14 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-26T21:35
+updated: 2023-12-01T19:22
 ---
 Nguồn:: [Don’t measure your product using a north star metric](https://kashishhora.com/dont-measure-your-product-using-a-north-star-metric/)
 Mâu thuẫn với:: [[Sự đơn giản ép ta phải làm nó cực kỳ tốt]]
 
 [[Phân tích quyết định đa tiêu chí (MCDA) là phương pháp để tìm điểm đánh đổi tối ưu nhất]]
-
+[[Hiểu biết không chỉ để mình làm một cái gì đó, mà còn để mình không làm một cái gì đó]]
+[[Con người sẽ theo đuổi kỹ năng mới với giá trị tiềm năng trong phạm vi dự đoán]]
 
 ---
 Stop treating “north star metrics” like the end-all be-all metric and accept the fact that there is no one metric that summarizes your entire product. **Products and users are complex and can’t be summed up by a single “north star” metric.**

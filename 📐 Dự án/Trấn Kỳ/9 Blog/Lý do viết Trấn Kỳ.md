@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-12T16:39
-updated: 2023-11-12T15:59
+updated: 2023-12-01T14:30
 ---
 %%
 #file/thành-phẩm/bài-viết 
@@ -11,7 +11,7 @@ Việc để các bài viết rải ra ở các website khác nhau cũng là vì
 
 Nhưng bởi vì buộc phải chấp nhận lý do đó, bọn mình bắt đầu khám phá ra được lý do sâu hơn
 
-Trấn Kỳ là một sản phẩm. [[Sản phẩm là một vật thể]]. [[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]]. Để nó được đón nhận, người ta phải nhận được nhiều hơn những thứ nó có thể cho đi. Nhìn nó bằng nhiều lăng kính khác nhau.
+Trấn Kỳ là một sản phẩm. [[Sản phẩm là vật thể]]. [[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]]. Để nó được đón nhận, người ta phải nhận được nhiều hơn những thứ nó có thể cho đi. Nhìn nó bằng nhiều lăng kính khác nhau.
 Đỉnh cao là mỗi người đều thấy khác nhau
 Để mọi người đều cùng có thể nhìn thấy nó, để nó có thể chạm đến bất cứ đâu, trước hết cần phân rã nó, làm cho nó hoà tan
 Thả bạn vào một nơi bất kỳ trên thành phố. Như bạn thấy, nơi này còn nhiều chỗ chưa được xây dựng, giống như một thành phố còn nhiều bãi đất hoang
@@ -116,7 +116,7 @@ Vì mục tiêu của bọn mình là để tạo ra [[Giàn giáo nhận thức
 | [Giới thiệu về Trấn Kỳ](https://lậptrình.quảcầu.cc/%F0%9F%91%8FTr%E1%BA%A5n%20K%E1%BB%B3/?utm_source=CW+Obsidian%2C+qu%E1%BA%A3n+l%C3%BD+d%E1%BB%B1+%C3%A1n+v%C3%A0+c%C3%B4ng+c%E1%BB%A5+ngh%C4%A9+%C2%BB+L%C3%BD+do+vi%E1%BA%BFt+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=vault&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3)                                                                                              | Tiếp thị số, xử lý dữ liệu và lập trình |
 | [Hướng dẫn sử dụng Trấn Kỳ](https://lậptrình.quảcầu.cc/%F0%9F%91%8FTr%E1%BA%A5n%20K%E1%BB%B3/H%C6%B0%E1%BB%9Bng%20d%E1%BA%ABn%20s%E1%BB%AD%20d%E1%BB%A5ng%20Tr%E1%BA%A5n%20K%E1%BB%B3/?utm_source=CW+Obsidian%2C+qu%E1%BA%A3n+l%C3%BD+d%E1%BB%B1+%C3%A1n+v%C3%A0+c%C3%B4ng+c%E1%BB%A5+ngh%C4%A9+%C2%BB+L%C3%BD+do+vi%E1%BA%BFt+Tr%E1%BA%A5n+K%E1%BB%B3&utm_medium=vault&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3) | Tiếp thị số, xử lý dữ liệu và lập trình |
 | [[Lý do viết Trấn Kỳ]]                                                                                                                                                                                                                                                                                                                                                                                        | Obsidian, quản lý dự án và công cụ nghĩ |
-| [[Kế hoạch giúp Kendy]]                                                                                                                                                                                                                                                                                                                                                                                       | Obsidian, quản lý dự án và công cụ nghĩ |
+| [[Kế hoạch giúp đỡ người đang kiệt quệ vì nợ]]                                                                                                                                                                                                                                                                                                                                                                                       | Obsidian, quản lý dự án và công cụ nghĩ |
 | [[Kế hoạch phát triển Trấn Kỳ]]                                                                                                                                                                                                                                                                                                                                                                               | Obsidian, quản lý dự án và công cụ nghĩ |
 | [[Hỏi đáp về việc bán Trấn Kỳ]]                                                                                                                                                                                                                                                                                                                                                                               | Obsidian, quản lý dự án và công cụ nghĩ |
 

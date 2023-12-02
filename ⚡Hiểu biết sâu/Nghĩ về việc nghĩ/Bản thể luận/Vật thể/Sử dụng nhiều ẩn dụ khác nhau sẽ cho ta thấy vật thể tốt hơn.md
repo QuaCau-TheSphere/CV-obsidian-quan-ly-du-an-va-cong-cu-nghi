@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-27T18:59
+updated: 2023-12-01T19:00
 ---
 Khái niệm:: [[Ẩn dụ]]
 Đây là một cặp câu "đối" nhau giữa Poincaré (một nhà toán học lớn) và một nhà thơ vô danh, cũng liên quan đến chủ đề khoa học - nghệ thuật:

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2023-11-28T15:23
 ---
 > Các rào cản chính làm cản trở mối quan hệ đối tác giữa các tổ chức xã hội và doanh nghiệp: từ góc độ doanh nghiệp, các rào cản này bao gồm: (1) thiếu minh bạch và trách nhiệm giải trình, (2) năng lực yếu kém/không đủ, bao gồm cả năng lực truyền thông, và (3) các doanh nghiệp không tiếp cận được với các tổ chức xã hội có đủ khả năng và điều kiện; trong khi các tổ chức xã hội cho rằng các rào cản chính bao gồm: (1) không cùng cách tiếp cận; (2) doanh nghiệp và/hoặc khối phi lợi nhuận chưa nhận thức đủ về các mục tiêu PTBV; (3) doanh nghiệp “tập trung quá mức” vào mục đích truyền thông/marketing.
 >
