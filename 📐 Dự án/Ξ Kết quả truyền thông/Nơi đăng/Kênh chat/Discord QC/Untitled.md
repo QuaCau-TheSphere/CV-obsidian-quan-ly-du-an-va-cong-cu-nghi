@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-16T23:48
+updated: 2023-12-03T13:40
 ---
 # [[06-11]]
 20:21: đăng [[Lời mời xây dựng một startup]]. Số lượng thành viên: 128

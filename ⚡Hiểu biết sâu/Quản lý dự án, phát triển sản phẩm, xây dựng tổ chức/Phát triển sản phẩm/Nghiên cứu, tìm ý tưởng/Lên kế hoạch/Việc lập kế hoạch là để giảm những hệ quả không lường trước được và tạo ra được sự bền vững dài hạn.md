@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-01T19:13
+updated: 2023-12-03T17:17
 ---
 Khái niệm:: [[Kế hoạch]], [[Bền vững, dài hạn]]
 
@@ -12,3 +12,5 @@ Nguồn::
 [[A problem well stated is half solved]]
 [[Việc bàn kế hoạch sẽ có nhiều chủ đề đâm ngang mà cũng phải bàn cho rốt ráo]]
 [[Khả năng tạo ra được bền vững nằm ở việc có thấy được siêu vật hay không]]
+[[Có những vấn đề lúc cần nói ra thì không không nghĩ ra nhưng vẫn cảm thấy chưa vét cạn]]
+[[Giả định có mặt ở khắp nơi]]. [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]

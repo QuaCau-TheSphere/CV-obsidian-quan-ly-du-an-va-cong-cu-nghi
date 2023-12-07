@@ -1,6 +1,6 @@
 ---
 created: 2023-05-26T14:51
-updated: 2023-11-23T16:06
+updated: 2023-12-02T19:09
 ---
 Nhu cầu:: 		nc, dy, tl
 Nhu cầu dẫn tới:: 		ncdt, ch, mt
@@ -21,6 +21,10 @@ Nguồn:: 		ng
 Xem thêm:: 		xt
 Mâu thuẫn với:: 		mtv
 # Code nhanh
+## Bảng
+| Thành quả mong muốn | Giả thiết | Công việc |\n| ------------------- | --------- | --------- |		tqmm
+
+
 ## Dataview
 ```dataview\nLIST\nFROM |\nWHERE\n```		dtv
 Các note cũng nói về chủ đề này:\n```dataview \nList\nWhere contains(file.name,split(this.file.name," \(")[0]) and file.path!=this.file.path\n```		cungchude

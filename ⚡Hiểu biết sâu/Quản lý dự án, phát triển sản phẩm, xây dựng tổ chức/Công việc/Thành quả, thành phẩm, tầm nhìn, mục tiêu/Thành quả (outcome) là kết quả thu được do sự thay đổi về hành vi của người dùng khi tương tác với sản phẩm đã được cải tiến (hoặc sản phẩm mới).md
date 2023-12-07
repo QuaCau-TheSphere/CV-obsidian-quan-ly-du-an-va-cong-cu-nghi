@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-17T16:41
+updated: 2023-12-06T23:40
 ---
 Ví dụ: tăng retention rate, tăng giá trị đơn hàng mỗi lần mua, tăng frequency mua hàng
 
@@ -10,6 +10,7 @@ Ví dụ: tăng retention rate, tăng giá trị đơn hàng mỗi lần mua, t�
 
 Nguồn:: [[Hoàng Đức Minh]]
 
-[[Nhu cầu = impact = vấn đề = điểm đau = động lực = lý do bắt đầu]]
+[[❓Nhu cầu = impact = vấn đề = điểm đau = động lực = lý do bắt đầu]]
 [[Tầm nhìn = thành quả lớn nhất]]
 [[Đổi những câu hỏi chất vấn giả định của một thành quả về dạng khẳng định thì ta sẽ có những thành quả mong muốn thành phần]]
+[[❓Tại sao không gọi thẳng là kết quả từ sự thay đổi hành vi của người dùng？Dùng thành quả dễ gây nhầm lẫn cho người chưa biết]] 

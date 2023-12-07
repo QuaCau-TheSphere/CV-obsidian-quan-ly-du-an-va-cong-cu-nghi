@@ -1,13 +1,14 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-13T13:10
+updated: 2023-12-06T16:34
 ---
 Lý do:: [[Công việc khai phá chính là quản lý kiến thức]] 
-[[❓Quản lý cuộc sống có phải là quản lý dự án？Công việc và cuộc sống có phải là không thể tách rời nhau？]]
+[[Công việc và cuộc sống không thể tách rời nhau]]
 
 [[Công việc khai phá và công việc khai thác]]
 [[Insight through making]] 
+[[Ý tưởng sinh ra không theo độ khẩn cấp]]
 Thách thức:: [[Obsidian không mạnh về quản lý công việc]]
 
 ---

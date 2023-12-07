@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1a3d2b731a8b7a52",
+            "id": "84177b7429e67b6d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Con người phản ứng mãnh liệt nhất khi bị đụng đến điểm đau.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Đội ngũ/Nhật.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,39 +21,26 @@
             }
           },
           {
-            "id": "63a4e593109ece48",
+            "id": "55486af4cfe0e550",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
-                "mode": "source",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Chiến lược/Kế hoạch phát triển Trấn Kỳ.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "eb9ce53e08861f74",
+            "id": "898776582b11a6f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Giúp đỡ nhau/Sự hợp tác xã hội của ta hướng đến việc chia việc để cùng tạo ra sản phẩm chung, chứ không giúp đỡ qua lại.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5f393589fdb96eb5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quỹ, gọi vốn/Gọn vốn đầu tư/Định giá.md",
-                "mode": "source",
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Phỏng vấn.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
@@ -110,7 +97,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c337a3ea5e852bbb",
@@ -126,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Chiến lược/Kế hoạch phát triển Trấn Kỳ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Chiến lược/Kế hoạch phát triển Trấn Kỳ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md"
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Chiến lược/Kế hoạch phát triển Trấn Kỳ.md"
               }
             }
           }
@@ -191,45 +179,45 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "63a4e593109ece48",
+  "active": "55486af4cfe0e550",
   "lastOpenFiles": [
-    "📐 Dự án/Trấn Kỳ/Kanban.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Việc dùng game hoá để giải thích có một bất lợi là các công ty làm game tập trung vào việc tạo ra game có tính giải trí hơn là việc giải thích.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Game hoá/Đa số các dự án game hoá chỉ tập trung vào cạnh tranh thi đua, chứ không tập trung vào bản đồ.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Việc rút gọn cả bài thành câu tóm tắt chỉ có tác dụng khi mình hiểu dược những khái niệm quan trọng trong bài.md",
-    "⚡Hiểu biết sâu/Khoa học dữ liệu/Trình bày dữ liệu/Bỏ hết những thông tin thừa khi làm đồ thị.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Giúp đỡ nhau/Sự hợp tác xã hội của ta hướng đến việc chia việc để cùng tạo ra sản phẩm chung, chứ không giúp đỡ qua lại.md",
-    "⚡Hiểu biết sâu/Cộng đồng, hệ sinh thái, hệ phức hợp/Hệ sinh thái/Một hệ sinh thái không hoạt động bằng cách đặt câu hỏi, mà bằng cách không cần hỏi cũng biết câu trả lời là gì.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Giúp đỡ nhau/Sự tập trung đòi hỏi người khác phải lo cho những nhu cầu khác của mình.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Giúp đỡ nhau/Sự tập trung đòi hỏi người khác phải giúp đỡ mình.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/Sự tập trung làm ta không thấy được bức tranh tổng thể.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng, quản lý nhóm/Nhìn thấy được người kia đang làm gì làm tăng sự tin tưởng đối với họ.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Nội việc đặt câu hỏi thôi đã đủ áp lực rồi, chứ đừng nói đến việc đi google hay đặt câu hỏi tốt hơn.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Bản chất của việc hợp tác xã hội không nằm ở mỗi chuyện làm nhẹ gánh nặng của nhau, mà còn là chuyện sắp xếp làm sao để có thể đẩy gánh nặng sang cho nhau mà không ai cảm thấy áy náy.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Việc chất vấn quan điểm của mình dễ dàng hơn nhiều khi có ai đó nói ra sự chất vấn đó.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Thật khó để nghe thấy sự nghĩ của chính mình.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Kiểm định giả thuyết/Có quá nhiều điều cần kiểm chứng nhưng dù muốn đi tìm cũng không ai chịu dành thời gian để trả lời.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Kiểm định giả thuyết/Để có thể thiết kế một giải pháp một cách nhanh chóng và tự tin, ta cần được thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Giúp đỡ nhau/Phản hồi và sự giúp đỡ trả lại là những thứ xa xỉ với người được giúp.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng, quản lý nhóm/Tìm người làm/Tìm được người cùng muốn làm chung với mình và đủ rảnh là rất khó.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/Tiền là một động lực ngoại sinh cực kỳ tốt.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/Tiền đơn giản hoá quá trình đáp ứng nhu cầu.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/Tiền có nhiệm vụ làm trung gian cho việc trao đổi nhu cầu.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Có sự chênh lệch về sự thoải mái trong việc hỏi và việc trả lời.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Suy luận/Càng mất nhiều ta càng học nhiều.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Kỹ năng, động lực/~syncthing~Những thứ khẩn cấp thường không phải là những thứ thú vị.md.tmp",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quỹ, gọi vốn/~syncthing~Người cho tiền thấy mình đáng được cho tiền nhất khi không thấy mình cần tiền.md.tmp",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quỹ, gọi vốn/~syncthing~Có những cái ta cần làm trước khi ta thấy cần làm.md.tmp",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Lên kế hoạch/~syncthing~2e3868100764f901e8df21366da14aff441715b0380ac330d79baa1e9313d519.tmp",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/~syncthing~Sự chuyên gia (expertise) đến từ việc nhìn ra mẫu hình.md.tmp",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Chiến lược/Tiêu chí.md",
+    "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/3 Thành phẩm/Phần mềm/Bộ cài/Hướng dẫn tải vault.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Tìm nguồn có thể cho mượn 100tr trong vài tháng để không phải đảo nợ.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Hỏi những người có kinh nghiệm trong lĩnh vực tài chính hoặc công tác xã hội.md",
+    "📐 Dự án/Trấn Kỳ/2 Giả thuyết/Giả thiết về điều người dùng nhận được.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Lời mời xây dựng một startup để làm những việc một người bạn sẽ làm.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Xác định tập khách hàng tiềm năng.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu phân loại tự động/Kết quả/Duy Phong.md",
+    "⚡Hiểu biết sâu/Nhân học/Nhật ký điền dã.md",
+    "⚡Hiểu biết sâu/Nhân học/Nhân học chỉ chú trọng đến việc nói rằng bạn có thể khác biệt, rằng bạn còn có thể là người khác.md",
+    "⚡Hiểu biết sâu/Nhân học/Nhân học.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Quỹ/Nhà đầu tư/J.D. Everest.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Phỏng vấn.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Nghiên cứu, tìm ý tưởng.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Công việc/Thành quả, thành phẩm, tầm nhìn, mục tiêu/Thành quả (outcome) là kết quả thu được do sự thay đổi về hành vi của người dùng khi tương tác với sản phẩm đã được cải tiến (hoặc sản phẩm mới).md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Phần lớn các câu hỏi nghiên cứu không thể sử dụng để hỏi trực tiếp.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Đội ngũ/Nhật.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Chỉ số/Phân tích quyết định đa tiêu chí (MCDA) là phương pháp để tìm điểm đánh đổi tối ưu nhất.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Công việc/Thành quả, thành phẩm, tầm nhìn, mục tiêu/Working on niche, personally-meaningful projects brings weirder, more serendipitous inbounds.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Đội ngũ/Mai Quang.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Đội ngũ/Thịnh.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Chiến lược/Kế hoạch phát triển Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Xây dựng mô hình kinh doanh một người.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Startup/~syncthing~Làm người sáng lập có hại cho việc cân bằng cuộc sống.md.tmp",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/~syncthing~Tiền là cách để biến việc đáp ứng nhu cầu của người khác thành vấn đề cần giải quyết.md.tmp",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Tối ưu hoá/~syncthing~Những công việc chưa hoàn thành sẽ ám ảnh ta (hiệu ứng Zeigarnik).md.tmp",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/~syncthing~Kế hoạch giúp đỡ người đang kiệt quệ vì nợ.md.tmp",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/~syncthing~Kế hoạch giúp đỡ người đang kiệt quệ vì nợ.sync-conflict-20231206-172208-DJQJHQJ.md.tmp",
     "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/~syncthing~Tiền là một động lực ngoại sinh cực kỳ tốt.md.tmp",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Giúp đỡ nhau/~syncthing~Sự tập trung đòi hỏi người khác phải giúp đỡ mình.md.tmp",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/~syncthing~ESG.md.tmp",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Vật thể/~syncthing~91cbc733279c3f5308a0827ca3387c3c352e5d899443a6ba43fcea2faf7708c4.tmp",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Chỉ số/~syncthing~7fb5f3391e5ff0019f5f5fbaefdcbec3f14010d982cdbf9c07c781dcfdce482b.tmp",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Tâm lý học quản lý và lao động/Môi trường làm việc",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/Suy luận/~syncthing~Đuối lý không nhất thiết là thấy thuyết phục hoàn toàn.md.tmp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/~syncthing~A problem well stated is half solved.md.tmp",
     "Ξ Thiết lập/Ảnh/Người giàu nghĩ gì về quan điểm tiền không mua được hạnh phúc.jpg",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Chủ nghĩa tân tự do",
     "Ξ Thiết lập/Ảnh/Pasted image 20231128203124.png",
     "⚡Hiểu biết sâu/Ξ Khái niệm/Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm.png",
     "⚡Hiểu biết sâu/Ξ Khái niệm/Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (neato).png",

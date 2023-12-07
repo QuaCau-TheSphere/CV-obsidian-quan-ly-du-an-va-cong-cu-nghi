@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-27T21:17
+updated: 2023-12-03T13:39
 ---
 # Vì sao anh muốn phát triển nó? Tại sao thấy nó tiềm năng?
 Nhu cầu tiềm năng là rất lớn. Viết trong giấy ... thôi khỏi làm
@@ -45,3 +45,7 @@ founder: đánh giá, đưa ra quyết định tốt được >< emotional (anh 
 - Anh đã đầu tư bao nhiêu dự án rồi?
 - Có những dự án nào anh quyết định không đầu tư? Tại sao?
 - Có muốn nhận nhiều % hơn để đổi lấy một hợp đồng cho vay tốt
+
+
+- Muốn biết thêm về kế hoạch thì cứ ở trong nhóm
+- Muốn hỗ trợ đóng góp thì khi nào rảnh thì tham gia

@@ -2,7 +2,7 @@
 share: true
 created: 2023-10-30T14:29
 alias: jdeverest
-updated: 2023-11-26T22:17
+updated: 2023-12-07T11:40
 ---
 # Buổi gặp 1
 ## Nội dung chính
@@ -87,3 +87,4 @@ Chúng ta cũng đầu tư thời gian vào cho nhau rồi. Bây giờ mà lại
 - [ ] Anh đã đầu tư vào startup tech nào rồi?
 - [ ] Điều gì ngăn anh không tham gia rồi ăn cắp code?
 - [ ] Rốt cuộc hình thức của mình là gì? Vì bọn anh không đầu tư tiền mà đầu tư công sức, lại còn quyết định cả kế hoạch thì đó là coreteam luôn rồi? Nếu như bọn em không ra quyết định được thì thực chất bọn em chỉ là thuê ngoài của tụi anh thôi?
+

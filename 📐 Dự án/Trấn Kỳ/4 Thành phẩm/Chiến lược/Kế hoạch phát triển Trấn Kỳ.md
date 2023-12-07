@@ -1,9 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-28T15:54
+updated: 2023-12-07T09:59
 aliases:
   - Phát triển Trấn Kỳ
+  - Chiến lược phát triển Trấn Kỳ
   - Lên kế hoạch phát triển Trấn Kỳ
   - Xác định cơ hội và giải pháp
 cssClass: wide-table
@@ -11,6 +12,7 @@ alias: Khái niệm
 ---
 Thành quả cần có:: [[Lợi nhuận mỗi tuần 10tr]]
 
+- Mỗi tháng làm việc hiệu quả cho một bên
 
 # A. Chiến lược cho Trấn Kỳ cạnh tranh trên thị trường
 1. Quan điểm: Dùng Trấn Kỳ như một con tốt để đem lại cơ hội hợp tác với anh Quang, có thêm nguồn lực đội ngũ và tài chính
@@ -53,9 +55,12 @@ Mỗi tuần có 20 người trả tiền
 | [[Mỗi tuần có 10 người tham gia phát triển Trấn Kỳ]]   |                                                                                       | [[Kế hoạch xây dựng cộng đồng phát triển Trấn Kỳ\|Xây dựng cộng đồng phát triển Trấn Kỳ]]                              |
 
 # Phương án 2: tạo cộng đồng
-| Thành quả mong muốn                | Giả thiết                       | Công việc                                                                                                                                                                                                                            |
-| ---------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [[Lợi nhuận mỗi tuần 10tr]] | [[Cứ 20 người học thì có 500k]] | [[Kế hoạch phát triển Trấn Kỳ\|Phát triển Trấn Kỳ]]                                                                                                                                                                                  |
-| [[Mỗi tuần có 450 người học]]      |                                 | [[📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Kế hoạch/Kế hoạch\|Tổ chức các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình]] |
+- Có hệ sinh thái 
+- Có nguồn lực thay thế
+
+| Thành quả mong muốn           | Giả thiết                       | Công việc                                                                                                                                                                                                                            |
+| ----------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [[Lợi nhuận mỗi tuần 10tr]]   | [[Cứ 20 người học thì có 500k]] | [[Kế hoạch phát triển Trấn Kỳ\|Phát triển Trấn Kỳ]]                                                                                                                                                                                  |
+| [[Mỗi tuần có 450 người học]] |                                 | [[📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Kế hoạch/Kế hoạch\|Tổ chức các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình]] |
 
 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-01T14:33
+updated: 2023-12-06T21:58
 alias:
   - Tạo lợi nhuận từ Trấn Kỳ
   - Mô hình kinh doanh
@@ -9,16 +9,14 @@ alias:
 ---
 
 # Phương án 1: thu tiền từ người dùng
-| Thành quả mong muốn                    | Giả thiết                       | Công việc                                           |
-| -------------------------------------- | ------------------------------- | --------------------------------------------------- |
-| [[Mỗi tháng có lợi nhuận 40tr để trả lãi]] |                                 |                                                     |
-| [[Lợi nhuận mỗi tuần 10tr]]     | [[Cứ 20 người học thì có 500k]] | [[Kế hoạch phát triển Trấn Kỳ\|Phát triển Trấn Kỳ]] |
+| Thành quả mong muốn                                                         | Giả thiết                       | Công việc                                           |
+| --------------------------------------------------------------------------- | ------------------------------- | --------------------------------------------------- |
+| [[Mỗi tháng có lợi nhuận 40tr để trả lãi]]<br>→ [[Lợi nhuận mỗi tuần 10tr]] | [[Cứ 20 người học thì có 500k]] | [[Kế hoạch phát triển Trấn Kỳ\|Phát triển Trấn Kỳ]] |
 
 # Phương án 2: gây quỹ từ nhà đầu tư
-| Thành quả mong muốn                    | Giả thiết                                       | Công việc                                   |
-| -------------------------------------- | ----------------------------------------------- | ------------------------------------------- |
-| [[Mỗi tháng có lợi nhuận 40tr để trả lãi]] |                                                 |                                             |
-| [[Một khoản đầu tư 120tr cho 3 tháng]] | Đến lúc có được điều này thì Kendy vẫn còn sống | [[Kế hoạch gây quỹ|Kêu gọi đầu tư]] |
+| Thành quả mong muốn                                                                    | Giả thiết                                       | Công việc                            |
+| -------------------------------------------------------------------------------------- | ----------------------------------------------- | ------------------------------------ |
+| [[Mỗi tháng có lợi nhuận 40tr để trả lãi]]<br>→ [[Một khoản đầu tư 120tr cho 3 tháng]] | Đến lúc có được điều này thì Kendy vẫn còn sống | [[Kế hoạch gây quỹ\|Kêu gọi đầu tư]] |
 
 # SaaS: tính theo số lượng giao dịch hoặc plugin
 Đối tượng:: Người bận rộn không có thời gian phân loại dữ liệu nhưng cần có báo cáo chi tiết
