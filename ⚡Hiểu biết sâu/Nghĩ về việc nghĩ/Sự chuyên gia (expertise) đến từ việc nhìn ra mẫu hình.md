@@ -2,7 +2,7 @@
 share: true
 description: 3 yếu tố để một người trở thành chuyên gia":" (1) Dành nhiều thời gian tập luyện, (2) Quy luật trong lĩnh vực đó không thay đổi theo thời gian, (3) Nhận được sự phản hồi nhanh chóng cho những gì mình làm
 created: 2023-07-26T10:33
-updated: 2023-12-06T15:06
+updated: 2023-12-09T11:53
 ---
 Khái niệm:: [[Mẫu hình (pattern)]], [[Chuyên gia]]
 Để một người trở thành chuyên gia trong một lĩnh vực nào đó (ví dụ ở đây là tài chính), thì cần hội đủ 4 yếu tố sau:
@@ -20,3 +20,4 @@ Nguồn:: [[Veritasium]], ![The 4 things it takes to be an expert - YouTube](htt
 [[Trực giác là việc nhìn ra mẫu hình không hơn không kém]] 
 [[Chuyên nghiệp (professional) và chuyên gia (expertise) là hai vấn đề khác nhau]] 
 [[Thang đo năng lực dựa trên việc có thể đưa ra phân tích và trực giác đúng hay không]]
+[[Để có thể thiết kế một giải pháp một cách nhanh chóng và tự tin, ta cần được thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra]]

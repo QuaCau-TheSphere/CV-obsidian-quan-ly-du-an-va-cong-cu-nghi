@@ -15,7 +15,7 @@ updated: 2023-11-30T10:17
 Từ đó lên kế hoạch để thuyết phục họ cân nhắc lùi thời hạn nợ.
 
 Về cơ bản, bạn sẽ là một nhà [[Nhân học|nhân học]] hoặc công tác xã hội trong lĩnh vực tài chính.
-
+OINST
 Nếu muốn, họ có thể quy đổi phần nợ thành một hình thức đầu tư vào Trấn Kỳ. Lợi nhuận thu được sẽ được trả lại cho họ theo hình thức lãi hoặc cổ phần. Họ sẽ có được tất cả các quyền lợi khác của nhà đầu tư (VD: lời cảm ơn, cơ hội mở rộng mạng lưới với các ngân hàng, nhà đầu tư khác).
 
 - Họ chắc hẳn nghe được những câu như "tiền bạc không làm ta hạnh phúc". Điều nào khiến họ muốn hạnh phúc?

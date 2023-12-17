@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-07T13:28
+updated: 2023-12-07T13:51
 ---
 > [!info] [[Tại sao lại cần tải vault về hơn là đọc trên web？]]
 
@@ -25,7 +25,8 @@ Xem thêm:: [[Các trục trặc có thể gặp khi cài]]
 
 # Cài đặt thủ công
 ## B1. Mở PowerShell với quyền admin
-https://st.quantrimang.com/photos/image/2018/07/09/cach-mo-powershell-nang-cao-trong-windows-10-5.jpg
+Bấm <kbd>Win+X</kbd> và chọn `Windows PowerShell (Terminal)`
+![](https://st.quantrimang.com/photos/image/2018/07/09/cach-mo-powershell-nang-cao-trong-windows-10-5.jpg) 
 
 ## B2. Nhập lần lượt các lệnh sau
 ```PowerShell

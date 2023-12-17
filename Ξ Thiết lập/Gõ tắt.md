@@ -1,6 +1,6 @@
 ---
 created: 2023-05-26T14:51
-updated: 2023-12-02T19:09
+updated: 2023-12-10T15:50
 ---
 Nhu cầu:: 		nc, dy, tl
 Nhu cầu dẫn tới:: 		ncdt, ch, mt
@@ -23,7 +23,8 @@ Mâu thuẫn với:: 		mtv
 # Code nhanh
 ## Bảng
 | Thành quả mong muốn | Giả thiết | Công việc |\n| ------------------- | --------- | --------- |		tqmm
-
+|Công việc| Thành quả mong muốn | Giả thiết |\n| ------------------- | --------- | --------- |		cv
+| Giải pháp gợi ý | Hành vi cần đạt được | Giả thiết | Công việc |\n| --------------- | -------------------- | --------- | --------- |		gp
 
 ## Dataview
 ```dataview\nLIST\nFROM |\nWHERE\n```		dtv

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-24T22:07
+updated: 2023-12-13T17:16
 alias:
   - Một startup làm những việc một người bạn sẽ làm
 ---
@@ -16,13 +16,13 @@ Trong thời gian qua bọn mình đã viết [Trấn Kỳ](https://lậptrình.
 
 - [[Kế hoạch phát triển Trấn Kỳ|Lên kế hoạch phát triển]]{ .md-button .md-button--primary }
 - [[Truyền thông]]{ .md-button .md-button--primary }
-- [[Nghiên cứu người dùng]]{ .md-button .md-button--primary }
+- [[Người cần kỷ luật tài chính]]{ .md-button .md-button--primary }
 - [[Kế hoạch xây dựng cộng đồng phát triển Trấn Kỳ|Xây dựng cộng đồng phát triển Trấn Kỳ]]{ .md-button .md-button--primary }
 - [[Kế hoạch tổ chức các buổi hướng dẫn sử dụng Trấn Kỳ|Tổ chức các buổi hướng dẫn người dùng sử dụng Trấn Kỳ]]{ .md-button .md-button--primary }
 # Tôi có lợi gì khi tham gia?
 Nhận làm bất cứ công việc nào bạn sẽ được nhận link tải Trấn Kỳ.
 
-Ngoài ra, tuỳ thuộc vào việc bạn là ai mà bạn sẽ nhận được những lợi ích khác nhau. Xem chi tiết ở bài này: [[Giả thiết về điều người dùng nhận được]]{ .md-button .md-button--primary }
+Ngoài ra, tuỳ thuộc vào việc bạn là ai mà bạn sẽ nhận được những lợi ích khác nhau. Xem chi tiết ở bài này: [[Giả thiết về giá trị của Trấn Kỳ]]{ .md-button .md-button--primary }
 
 ```mermaid
 gantt

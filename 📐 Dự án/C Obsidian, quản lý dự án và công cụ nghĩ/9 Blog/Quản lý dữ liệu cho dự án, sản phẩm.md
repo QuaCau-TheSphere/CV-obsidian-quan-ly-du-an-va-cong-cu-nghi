@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-30T14:40
+updated: 2023-12-10T15:51
 ---
 Sau một thời gian loay hoay để quản lý dữ liệu cho việc phát triển sản phẩm, Trấn Kỳ
 
@@ -53,3 +53,8 @@ Chưa hiểu được cái này thì không làm được gì cả.
 
 
 [[93.01 Mục tiêu, yếu tố hỗ trợ, ý tưởng tốt hơn. Mục tiêu, sản phẩm, hoạt động, tác vụ]] [[93.01 Đồ thị nội hàm các khái niệm]]
+
+[[Giải pháp gợi ý chính là thành phẩm]]
+
+| Giải pháp gợi ý | Hành vi cần đạt được | Giả thiết | Công việc |
+| --------------- | -------------------- | --------- | --------- |
