@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-04T14:04
-updated: 2023-12-13T20:28
+updated: 2023-12-24T20:46
 alias:
   - Kế hoạch giúp Kendy
 ---
@@ -24,20 +24,23 @@ alias:
 Ngân hàng cũng chẳng muốn lấy nhà, xã hội đen cũng chẳng muốn giết, chỉ hù thôi chứ nếu biết nói chuyện thì họ cũng nương. Xã hội đen dễ chơi hơn ngân hàng. Khi thoả thuận thì lập giấy
 
 nên nói chuyện với ngân hàng
-cần biết cụ thể mỗi tháng bao nhiêu lãi
+cần biết cụ thể mỗi tháng bao nhiêu lãi. Khó khăn: 
+- khi đang bị áp lực trả nợ thì cũng không có thời gian để nói cho người khác biết tình hình nợ của mình 
+- không muốn cho người khác biết tình hình nợ vì sợ bị nghĩ là mình vòi tiền
 
 # Phương án 2: kinh doanh
 | Giải pháp gợi ý                                                                     | Hành vi cần đạt được                                                                                                                         | Giả thiết                                                  | Công việc                                                                        |
 | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------- |
 | [[Mỗi tháng có lợi nhuận 40tr để trả lãi]]                                          | Nhiều người bỏ tiền ra mua                                                                                                                   | Có thể làm được hết tất cả mọi việc chỉ bằng một người     | [[Xây dựng mô hình kinh doanh một người]]                                        |
-| Tìm được một nhà đầu tư quan tâm đến giải pháp khắc phục việc giúp đỡ người phá sản | Nhà đầu tư thấy được những sản phẩm giúp đỡ người lương thiện kiệt quệ vì nợ cũng là những cơ hội gia nhập những thị trường chưa ai đụng tới | [[Giả thiết về thị trường của nền kinh tế phi chính thức]] | [[Hỏi những người có kinh nghiệm trong lĩnh vực tài chính hoặc công tác xã hội]] |
+| Tìm được một nhà đầu tư quan tâm đến giải pháp khắc phục việc giúp đỡ người phá sản | Nhà đầu tư thấy được những sản phẩm giúp đỡ người lương thiện kiệt quệ vì nợ cũng là những cơ hội gia nhập những thị trường chưa ai đụng tới | [[Giả thiết về thị trường của nền kinh tế phi chính thức]] | [[Các câu hỏi về việc thành lập quỹ tín dụng, nền kinh tế phi chính thức, bản chất CSR của doanh nghiệp và tâm lý con người về tiền]] |
 
 # Phương án 3: kiếm tiền từ các sản phẩm sinh ra từ việc hỗ trợ họ
-| Giải pháp gợi ý                                                                     | Hành vi cần đạt được                                                                                                                         | Giả thiết                                                  | Công việc                                                                        |
-| ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| [[Kế hoạch tạo lợi nhuận từ Trấn Kỳ\|Tạo lợi nhuận từ Trấn Kỳ]]                     | Nhiều người bỏ tiền ra mua                                                                                                                   | [[Giả thiết về giá trị của Trấn Kỳ]]                       | [[Kế hoạch tạo lợi nhuận từ Trấn Kỳ\|Tạo lợi nhuận từ Trấn Kỳ]]                  |
-| Tìm được một nhà đầu tư quan tâm đến giải pháp khắc phục việc giúp đỡ người phá sản | Nhà đầu tư thấy được những sản phẩm giúp đỡ người lương thiện kiệt quệ vì nợ cũng là những cơ hội gia nhập những thị trường chưa ai đụng tới | [[Giả thiết về thị trường của nền kinh tế phi chính thức]] | [[Hỏi những người có kinh nghiệm trong lĩnh vực tài chính hoặc công tác xã hội]] |
-
+| Giải pháp gợi ý                                                                     | Hành vi cần đạt được                                                                                                                         | Giả thiết                                                                            | Công việc                                                                                                                             |
+| ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Kế hoạch tạo lợi nhuận từ Trấn Kỳ\|Tạo lợi nhuận từ Trấn Kỳ]]                     | Nhiều người bỏ tiền ra mua                                                                                                                   | [[Giả thiết về giá trị của Trấn Kỳ]], [[Giả thiết về khả năng vận hành Trấn Kỳ]]     | [[Kế hoạch tạo lợi nhuận từ Trấn Kỳ\|Tạo lợi nhuận từ Trấn Kỳ]]                                                                       |
+| [[Kế hoạch tạo lợi nhuận từ Trấn Kỳ 2\|Tạo lợi nhuận từ Trấn Kỳ 2]]                 | Nhiều người bỏ tiền ra mua                                                                                                                   | [[Giả thiết về giá trị của Trấn Kỳ 2]], [[Giả thiết về khả năng vận hành Trấn Kỳ 2]] | [[Kế hoạch tạo lợi nhuận từ Trấn Kỳ 2\|Tạo lợi nhuận từ Trấn Kỳ 2]]                                                                   |
+| Tìm được một nhà đầu tư quan tâm đến giải pháp khắc phục việc giúp đỡ người phá sản | Nhà đầu tư thấy được những sản phẩm giúp đỡ người lương thiện kiệt quệ vì nợ cũng là những cơ hội gia nhập những thị trường chưa ai đụng tới | [[Giả thiết về thị trường của nền kinh tế phi chính thức]]                           | [[Các câu hỏi về việc thành lập quỹ tín dụng, nền kinh tế phi chính thức, bản chất CSR của doanh nghiệp và tâm lý con người về tiền]] |
+| Chạy quảng cáo trong lúc không có thời gian tập trung                               |                                                                                                                                              |                                                                                      |                                                                                                                                       |
 # Phương án 4: giảm tiền cho các nhu cầu sống khác
 | Giải pháp gợi ý                        | Hành vi cần đạt được                                                                       | Giả thiết                                                                          | Công việc                                                          |
 | -------------------------------------- | ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------ |

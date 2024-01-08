@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-27T22:26
+updated: 2023-12-20T22:35
 ---
 # Trước khi phát triển sản phẩm/tính năng
 
@@ -25,6 +25,7 @@ Sau khi sản phẩm/tính năng được phát hành, có thể tiến hành ph
 - Hiểu cách người dùng đang sử dụng sản phẩm/tính năng trong cuộc sống hàng ngày của họ
 - Đo lường sự hài lòng của người dùng và xác định các lĩnh vực cần cải thiện
 - Lý giải lý do người dùng rời bỏ hoặc lý do người dùng ở lại
+- Lý giải hành vi tương tác của họ trên mạng xã hội (tại sao like, khi nào like, tại sao ko like) 
 - Thu thập phản hồi về các cải tiến tiềm năng hoặc các tính năng mới cho các lần lặp lại trong tương lai
 - Đo lường mức độ thành công của sản phẩm/tính năng dựa trên việc chấp nhận và sử dụng của người dùng
 - Thu thập lời chứng thực hoặc câu chuyện thành công cho mục đích tiếp thị.

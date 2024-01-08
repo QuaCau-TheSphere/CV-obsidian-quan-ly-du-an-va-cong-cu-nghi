@@ -1,6 +1,7 @@
 ---
 created: 2023-09-05T16:17
-updated: 2023-11-10T14:06
+updated: 2023-12-31T15:06
+share: true
 ---
 # [[29-10]]
 20:41 [[Phân loại thu chi (ngắn)]] https://www.facebook.com/groups/launchpad/posts/24057146677233710) được đăng
@@ -23,3 +24,6 @@ updated: 2023-11-10T14:06
 14:45 68 react
 123 người vào trang giới thiệu thì 14 người vào trang lấy code. Tỉ lệ 11%
 ![](https://i.imgur.com/VMXcM7h.png) 
+
+# [[29-12]]
+Pending  [[Bàn làm việc Google Calendar]] https://www.facebook.com/groups/153841081324271/pending_posts/24463825066565867/

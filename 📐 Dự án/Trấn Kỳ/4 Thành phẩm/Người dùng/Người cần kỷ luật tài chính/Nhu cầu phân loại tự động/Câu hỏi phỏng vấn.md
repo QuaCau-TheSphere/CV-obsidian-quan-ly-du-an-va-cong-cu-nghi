@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-17T17:30
+updated: 2023-12-20T22:31
 ---
+[[Mục tiêu và câu hỏi nghiên cứu người cần phân loại tự động]]
 # Hành vi phân loại
 ## Bạn có thể phân loại mẫu được không?
 ## Trong tháng vừa qua bạn đã phân loại dữ liệu bao nhiêu lần?

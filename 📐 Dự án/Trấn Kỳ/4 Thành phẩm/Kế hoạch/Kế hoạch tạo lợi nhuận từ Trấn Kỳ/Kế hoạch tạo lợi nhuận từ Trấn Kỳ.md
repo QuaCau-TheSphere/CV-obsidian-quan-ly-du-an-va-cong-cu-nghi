@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-13T17:16
+updated: 2023-12-30T21:13
 alias:
   - Tạo lợi nhuận từ Trấn Kỳ
   - Mô hình kinh doanh
@@ -17,7 +17,7 @@ alias:
 
 | Thành quả mong muốn                                                         | Giả thiết                       | Công việc                                           |
 | --------------------------------------------------------------------------- | ------------------------------- | --------------------------------------------------- |
-| [[Mỗi tháng có lợi nhuận 40tr để trả lãi]]<br>→ [[Lợi nhuận mỗi tuần 10tr]] | [[Cứ 20 người học thì có 500k]] | [[Kế hoạch phát triển Trấn Kỳ\|Phát triển Trấn Kỳ]] |
+| [[Mỗi tháng có lợi nhuận 40tr để trả lãi]]<br>→ [[Lợi nhuận mỗi tuần 4tr]] | [[Cứ 20 người học thì có 500k]] | [[Kế hoạch phát triển Trấn Kỳ\|Phát triển Trấn Kỳ]] |
 
 # SaaS: tính theo số lượng giao dịch hoặc plugin
 Đối tượng:: Người bận rộn không có thời gian phân loại dữ liệu nhưng cần có báo cáo chi tiết

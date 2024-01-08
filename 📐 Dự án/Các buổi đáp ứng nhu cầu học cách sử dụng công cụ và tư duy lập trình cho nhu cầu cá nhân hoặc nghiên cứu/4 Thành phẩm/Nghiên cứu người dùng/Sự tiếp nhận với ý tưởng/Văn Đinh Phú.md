@@ -1,6 +1,6 @@
 ---
 created: 2023-09-05T16:17
-updated: 2023-11-29T20:43
+updated: 2023-12-26T18:36
 ---
 ổn hơn underthesea hầu như là miss tùm lum, cấu trúc hơi là lạ. 2 năm gần đây thì ko dùng,
 crawl thông tin tuyển dụng 
@@ -90,11 +90,11 @@ Lý do viết Trấn kỳ
 
 thảo luận với nhau quá rộng. Lớp học ngắn ngày tạo phần mềm quản lý bán hàng bằng ggsheet, đơn giản và hoàn thiện. Buổi 2 người trình bày các case cá nhân, thuận tiện hơn trong việc mọi người thảo luận. Nếu ko có chuẩn bị trước thì rất là khó. Nếu trong buổi học 
 
-sau khi lướt xuống thì lại thấy hợp Lý do:: kiểm soát các câu hỏi liên quan trước
+sau khi lướt xuống thì lại thấy hợp lý kiểm soát các câu hỏi liên quan trước
 
 các buổi học chưa rõ cách triển khai thế nào
 
-Các link còn lại thì đọc swo qua thôi
+Các link còn lại thì đọc sơ qua thôi
 nếu được giới thiệu thì sẽ hứng thú đọc. Nó chứa nhiều từ ngữ mình ko hiểu đc.. Nếu em nói là ý nghĩa thì đọc hết. Có vài đoạn thấy tối nghĩa với người khác.
 
 Các buổi này được tạo...nước đến chân. Sợ người ta không đọc hết
@@ -118,7 +118,6 @@ ko có nút nào muốn bấm vào về mặt thiết kế, thấy nghiệp dư
 các link ko cung cấp nhiều thông tin, nghĩ là lỗi thiết kế chứ ko phải là link để bấm vào. Làm html nhiều nên việc quên để link mà vẫn có tooltip là bình htuongw
 
 Đọc 3 chấm đầu tiên là thấy đủ ko cần phải biết điều gì. Chung và rộng và nếu đọc thì dài và không cần thiết. Thấy giống cho newbiew
-
 Lời mời xây dựng, từ việc hỗ trợ kendy ko để lại ấn tượng. 
 
 Có hứng thú như

@@ -4,7 +4,7 @@ filename: index
 alias:
   - C Obsidian, quản lý dự án và công cụ nghĩ
 created: 2023-06-25T19:58
-updated: 2023-11-01T22:43
+updated: 2023-12-30T20:46
 ---
   
 ![[logo.svg|200]]
@@ -25,4 +25,4 @@ Sau khi đọc xong những điều này, hiện có những câu hỏi nào xu�
 
 
 
-[[Nơi này là nơi nào？|Nơi này là nơi nào?]] | [[Mọi người hay thảo luận ở đâu？|Mọi người hay thảo luận ở đâu?]] | [[Tôi có thể giúp gì？|Tôi có thể giúp gì?]] 
+[[Nơi này là nơi nào？|Nơi này là nơi nào?]] | [[Mọi người hay thảo luận ở đâu？|Mọi người hay thảo luận ở đâu?]] | [[Tôi có thể giúp gì|Tôi có thể giúp gì?]] 

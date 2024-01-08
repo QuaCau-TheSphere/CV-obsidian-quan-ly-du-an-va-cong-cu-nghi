@@ -1,10 +1,11 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-10T15:58
+updated: 2023-12-19T19:54
 ---
 Giới thiệu về nhân văn số (digital humanities) 
 [[Nhân văn số sử dụng mô hình chủ đề rất nhiều]]
+[[Topic modelling trong NLP dùng cho máy và cần tập dữ liệu lớn. Còn thematic analysis thì dành cho người, nhấn mạnh vào yếu tố thị giác]]
 Nhiều dự án nhăn văn số rồi, nên chỉ tập trung vào các tài liệu giúp hướng dẫn một người 
 [Nhân văn số thức: Một lát cắt của xã hội toàn cầu - Tạp chí Tia sáng](https://tiasang.com.vn/khoa-hoc-cong-nghe/nhan-van-so-thuc-mot-lat-cat-cua-xa-hoi-toan-cau-11139/)
 # Sản phẩm

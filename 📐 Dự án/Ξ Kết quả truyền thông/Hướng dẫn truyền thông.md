@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-07T16:02
+updated: 2023-12-25T19:53
 ---
 Nếu bạn có thời gian thì làm, còn không thì cũng không sao.
 
 # Nội dung giới thiệu
-Giới thiệu chung thì có thể dựa vào [[📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền]], đặc biệt là phần [[📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền#Liên thông dữ liệu giữa các nhóm dự án|Liên thông dữ liệu giữa các nhóm dự án]], hoặc có thể điều chỉnh tuỳ vào [[4 Các bên liên quan]]
+Giới thiệu chung thì có thể dựa vào [[Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền]], đặc biệt là phần [[Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền#Liên thông dữ liệu giữa các nhóm dự án|Liên thông dữ liệu giữa các nhóm dự án]], hoặc có thể điều chỉnh tuỳ vào [[4 Các bên liên quan]]
 
 # Link
 Trước tiên bạn cần hiểu mã UTM là gì. Bài chi tiết: [Hướng Dẫn Tạo Mã UTM Nhằm Đo Lường Chính Xác Mức Độ Hiệu Quả Các Chiến Dịch Quảng Cáo - A1 DigiHub](https://a1digihub.com/huong-dan-tao-ma-utm-nham-do-luong-chinh-xac-muc-do-hieu-qua-cac-chien-dich-quang-cao/)
@@ -42,7 +42,7 @@ Trước tiên bạn cần hiểu mã UTM là gì. Bài chi tiết: [Hướng D�
 - **Campaign medium:** `social`
 - **Campaign name:** `Giới thiệu vault`
 
-### Chia sẻ trang [[📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền]] khi bình luận về bài DEF trong nhóm ABC trên Facebook
+### Chia sẻ trang [[Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền]] khi bình luận về bài DEF trong nhóm ABC trên Facebook
 - **Campaing source:** `F G » ABC » DEF`
 - **Campaign medium:** `social`
 - **Campaign name:** `Nói về sự hợp tác`
@@ -57,7 +57,7 @@ Trước tiên bạn cần hiểu mã UTM là gì. Bài chi tiết: [Hướng D�
 - **Campaign medium:** `chat`
 - **Campaign name:** `Bàn luận hiểu biết`
 
-### Chia sẻ trang [[📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền]] trong phiếu đăng ký tham gia chương trình ABC
+### Chia sẻ trang [[Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền]] trong phiếu đăng ký tham gia chương trình ABC
 - **Campaing source:** `ABC`
 - **Campaign medium:** `form`
 - **Campaign name:** `Nói về sự hợp tác`

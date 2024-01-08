@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-09T11:53
+updated: 2023-12-19T22:53
 ---
 Nguồn:: [[Bret Victor]], [Up and Down the Ladder of Abstraction](http://worrydream.com/LadderOfAbstraction/)
 
@@ -12,3 +12,5 @@ Nguồn:: [[Bret Victor]], [Up and Down the Ladder of Abstraction](http://worryd
 [[Giả định có mặt ở khắp nơi]]. [[Giả định đến từ trực giác]]
 [[Thang đo năng lực dựa trên việc có thể đưa ra phân tích và trực giác đúng hay không]]
 [[Sự chuyên gia (expertise) đến từ việc nhìn ra mẫu hình]]
+
+[[Ghi chú thì linh hoạt, nhưng tĩnh. App thì cứng nhắc, nhưng động]]

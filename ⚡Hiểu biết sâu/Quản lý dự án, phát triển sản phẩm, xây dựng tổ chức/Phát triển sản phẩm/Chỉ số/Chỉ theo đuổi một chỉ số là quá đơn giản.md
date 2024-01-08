@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-01T19:22
+updated: 2024-01-01T15:04
 ---
+Khái niệm:: [[Đơn giản]]
 Nguồn:: [Don’t measure your product using a north star metric](https://kashishhora.com/dont-measure-your-product-using-a-north-star-metric/)
 Mâu thuẫn với:: [[Sự đơn giản ép ta phải làm nó cực kỳ tốt]]
 

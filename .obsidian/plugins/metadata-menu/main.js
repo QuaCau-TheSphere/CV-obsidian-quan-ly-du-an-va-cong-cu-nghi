@@ -32,13 +32,13 @@ module.exports = __toCommonJS(main_exports);
 window.DEBUG = false;
 
 // main.ts
-var import_obsidian75 = require("obsidian");
+var import_obsidian83 = require("obsidian");
 
 // src/commands/paletteCommands.ts
-var import_obsidian53 = require("obsidian");
+var import_obsidian59 = require("obsidian");
 
 // src/components/NoteFields.ts
-var import_obsidian52 = require("obsidian");
+var import_obsidian58 = require("obsidian");
 
 // node_modules/crypto-random-string/core.js
 var urlSafeCharacters = [..."abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-._~"];
@@ -174,10 +174,10 @@ var browser_default = createStringGenerator(specialRandomBytes, getRandomValues)
 var cryptoRandomStringAsync = createAsyncStringGenerator(specialRandomBytes, getRandomValues);
 
 // src/fields/fieldManagers/InputField.ts
-var import_obsidian26 = require("obsidian");
+var import_obsidian34 = require("obsidian");
 
 // src/modals/fields/InputModal.ts
-var import_obsidian25 = require("obsidian");
+var import_obsidian33 = require("obsidian");
 
 // src/note/note.ts
 var import_obsidian = require("obsidian");
@@ -269,9 +269,15 @@ var bulletListLookupTypes = [
   "LinksBulletList" /* LinksBulletList */,
   "CustomBulletList" /* CustomBulletList */
 ];
+var statusIcon = {
+  "mayHaveChanged": "refresh-ccw",
+  "error": "file-warning",
+  "upToDate": "file-check",
+  "changed": "refresh-ccw"
+};
 
 // src/utils/parser.ts
-var genericFieldRegex = "(?<inQuote>>*(\\s+)?)?(?<inList>- )?(?<preSpacer>(\\s+)?)?(?<startStyle>[_\\*~`]*)(?<attribute>[0-9\\w\\p{Letter}\\p{Emoji_Presentation}][-0-9\\w\\p{Letter}\\p{Emoji_Presentation}\\s]*)(?<endStyle>[_\\*~`]*)(?<beforeSeparatorSpacer>\\s*)";
+var genericFieldRegex = "(?<inQuote>>*(\\s+)?)?(?<inList>- )?(?<preSpacer>(\\s+)?)?(?<startStyle>[_\\*~`]*)(?<attribute>[-\\w\\p{Letter}\\p{Emoji_Presentation}\\s]*)(?<endStyle>[_\\*~`]*)(?<beforeSeparatorSpacer>\\s*)";
 var fullLineRegex = new RegExp(`^\\s*${genericFieldRegex}::\\s*(?<values>.*)?`, "u");
 var inSentenceRegexBrackets = new RegExp(`\\[${genericFieldRegex}::\\s*(?<values>[^\\]]+)?\\]`, "gu");
 var inSentenceRegexPar = new RegExp(`\\(${genericFieldRegex}::\\s*(?<values>[^\\)]+)?\\)`, "gu");
@@ -307,7 +313,7 @@ var decodeLink = (value) => {
   return value ? value.replace(/€ù/gu, "[[").replace(/ù€/gu, "]]") : value;
 };
 var frontMatterLineField = (line) => {
-  const frontMatterRegex = new RegExp(/(?<indentation>\s*)(?<list>-\s)?(?<attribute>[0-9\w\p{Letter}\p{Emoji_Presentation}][-0-9\w\p{Letter}\p{Emoji_Presentation}\s]*[^\s])(?<beforeSeparatorSpacer>\s*):(?<afterSeparatorSpacer>\s*)(?<values>.*)/u);
+  const frontMatterRegex = new RegExp(/(?<indentation>\s*)(?<list>-\s)?(?<attribute>[-\w\p{Letter}\p{Emoji_Presentation}\s]*[^\s])(?<beforeSeparatorSpacer>\s*):(?<afterSeparatorSpacer>\s*)(?<values>.*)/u);
   const fR = line.match(frontMatterRegex);
   if (fR == null ? void 0 : fR.groups) {
     return {
@@ -436,40 +442,13 @@ var ExistingField = class {
   isRoot() {
     return this.indexedId === this.indexedPath;
   }
-  static async getExistingFieldsFromIndexForFilePath(plugin, file, indexedPath) {
-    const existingFields = [];
-    const iEFields = await plugin.indexDB.fieldsValues.getElementsForFilePath(file.path);
-    iEFields.forEach((iEF) => {
-      const field = Field_default.getFieldFromId(plugin, iEF.fieldId, iEF.fileClassName);
-      const value = iEF.value;
-      const indexedId = iEF.indexedId;
-      const indexedPath2 = iEF.indexedPath;
-      if (field)
-        existingFields.push(new ExistingField(field, value, indexedId, indexedPath2));
-    });
-    return existingFields;
-  }
-  static async getExistingFieldFromIndexForIndexedPath(plugin, file, indexedPath) {
-    const iEFields = await plugin.indexDB.fieldsValues.getElementsForFilePath(file.path);
-    const iEF = iEFields == null ? void 0 : iEFields.find((iEF2) => !indexedPath || iEF2.indexedPath === indexedPath);
-    if (iEF) {
-      const field = Field_default.getFieldFromId(plugin, iEF.fieldId, iEF.fileClassName);
-      const value = iEF.value;
-      const indexedId = iEF.indexedId;
-      const indexedPath2 = iEF.indexedPath;
-      if (field)
-        return new ExistingField(field, value, indexedId, indexedPath2);
-    }
-    return;
-  }
   async getChildrenFields(plugin, file) {
     if (!Array.isArray(this.value))
       return [];
     const items = [];
     await Promise.all(this.value.map(async (value, index) => {
-      var _a;
       const upperPath = `${this.indexedPath}[${index}]`;
-      const eFields = (_a = await ExistingField.getExistingFieldsFromIndexForFilePath(plugin, file)) == null ? void 0 : _a.filter((eF) => eF.indexedPath && Field_default.upperPath(eF.indexedPath) === upperPath);
+      const eFields = (await Note.getExistingFields(plugin, file)).filter((eF) => eF.indexedPath && Field_default.upperPath(eF.indexedPath) === upperPath);
       items.push({
         fields: eFields,
         indexInList: index,
@@ -477,53 +456,6 @@ var ExistingField = class {
       });
     }));
     return items;
-  }
-  static buildPayload(note, indexedEF, putPayload, delPayload) {
-    const f = note.file;
-    note.existingFields.forEach((eF) => {
-      const id = `${f.path}____${eF.indexedPath}`;
-      putPayload.push({
-        id,
-        filePath: f.path,
-        fieldName: eF.field.name,
-        fieldType: eF.field.type,
-        fieldId: eF.field.id,
-        fileClassName: eF.field.fileClassName,
-        indexedPath: eF.indexedPath || eF.field.id,
-        indexedId: eF.indexedId,
-        value: eF.value,
-        time: f.stat.mtime
-      });
-    });
-    const noteEF = note.existingFields.map((_eF) => _eF.indexedPath);
-    const fileIndexedEF = indexedEF.filter((eF) => eF.filePath === f.path);
-    fileIndexedEF.forEach((eF) => {
-      if (!noteEF.includes(eF.indexedPath)) {
-        delPayload.push(`${f.path}____${eF.indexedPath}`);
-      }
-    });
-  }
-  static async indexFieldsValues(plugin, changedFiles = []) {
-    var _a, _b;
-    plugin.indexStatus.setState("indexing");
-    const putPayload = [];
-    const delPayload = [];
-    const lastUpdate = (_a = await plugin.indexDB.updates.getElement("fieldsValues") || void 0) == null ? void 0 : _a.value;
-    const indexedEF = await plugin.indexDB.fieldsValues.getElement("all") || [];
-    const files = plugin.fieldIndex.indexableFiles().filter((_f) => {
-      const lastChangeInFields = plugin.fieldIndex.filesFieldsLastChange.get(_f.path);
-      return !lastChangeInFields || !lastUpdate || lastChangeInFields >= lastUpdate || _f.stat.mtime > lastUpdate;
-    }).filter((_f) => !changedFiles.length || changedFiles.map((cF) => cF.path).includes(_f.path));
-    let start2 = Date.now();
-    await Promise.all(files.map(async (f) => {
-      const note = await Note.buildNote(plugin, f);
-      ExistingField.buildPayload(note, indexedEF, putPayload, delPayload);
-    }));
-    await plugin.indexDB.fieldsValues.bulkEditElements(putPayload);
-    await plugin.indexDB.fieldsValues.bulkRemoveElements(delPayload);
-    await ((_b = plugin.indexDB.updates) == null ? void 0 : _b.update("fieldsValues"));
-    DEBUG && console.log("indexed VALUES for ", files.length, "files in ", (Date.now() - start2) / 1e3, "s");
-    plugin.indexStatus.setState("indexed");
   }
 };
 
@@ -576,7 +508,7 @@ var LineNode = class {
       return `${"  ".repeat(level + 1 + shift)}- ${value}`;
     };
     this.removeIndentedListItems = () => {
-      if (!this.field || !(this.field.type === "JSON" /* JSON */ || this.field.type === "YAML" /* YAML */ || this.field.type === "Lookup" /* Lookup */ || this.field.type === "Multi" /* Multi */ || this.field.type === "MultiFile" /* MultiFile */))
+      if (!this.field || !(this.field.type === "JSON" /* JSON */ || this.field.type === "YAML" /* YAML */ || this.field.type === "Lookup" /* Lookup */ || this.field.type === "Multi" /* Multi */ || this.field.type === "MultiFile" /* MultiFile */ || this.field.type === "Canvas" /* Canvas */ || this.field.type === "CanvasGroup" /* CanvasGroup */ || this.field.type === "CanvasGroupLink" /* CanvasGroupLink */))
         return;
       if (this.line.position === "inline" && this.field.type !== "Lookup" /* Lookup */)
         return;
@@ -618,6 +550,7 @@ var LineNode = class {
     }
   }
   defineExistingFieldsAndValues(parsedContent) {
+    var _a;
     const frontmatter = this.line.note.frontmatter || {};
     const field = this.field;
     switch (this.line.position) {
@@ -639,7 +572,22 @@ var LineNode = class {
           }
           for (const field2 of this.line.note.fields) {
             if (yamlAttr === field2.name) {
-              this.indexedId = field2.id;
+              let indexedId = field2.id;
+              if (this.line.parentLine) {
+                const parentNode = this.line.parentLine.nodes[0];
+                const parentField = parentNode.field;
+                if (parentField) {
+                  const parentIndexedId = (_a = this.line.note.existingFields.find((eF) => eF.field.id === parentField.id)) == null ? void 0 : _a.indexedId;
+                  indexedId = `${parentIndexedId}____${field2.id}` || field2.id;
+                } else {
+                  indexedId = field2.id;
+                }
+              } else {
+                indexedId = field2.id;
+              }
+              if (field2.path && indexedId !== `${field2.path}____${field2.id}`)
+                continue;
+              this.indexedId = indexedId;
               const existingField = new ExistingField(field2, this.value, this.indexedId);
               if (field2.path) {
                 const parentLine = this.line.parentLine;
@@ -674,7 +622,7 @@ var LineNode = class {
                 } else {
                   break;
                 }
-              } else {
+              } else if (field2.id === indexedId) {
                 this.field = field2;
                 this.indexedPath = this.field.getIndexedPath(this);
                 this.value = frontmatter[field2.name];
@@ -791,6 +739,10 @@ var Line = class {
     this.insertLineInNote();
   }
   buildNodes() {
+    if (!(this.position === "yaml") && this.plugin.settings.frontmatterOnly) {
+      new LineNode(this.plugin, this, this.rawContent);
+      return;
+    }
     if (this.note.codeBlocksLines.includes(this.number))
       this.shouldParse = false;
     if (!(this.position === "yaml") && !this.note.prefixedLines.includes(this.number) && !this.note.inlineFieldsLines.includes(this.number))
@@ -940,7 +892,11 @@ ${"  ".repeat(indentationLevel + 1)}`;
           case "MultiFile" /* MultiFile */:
             return this.renderMultiFields(rawValue, (item) => `"${item}"`);
           case "Canvas" /* Canvas */:
-            return this.renderMultiFields(rawValue, (item) => item ? `${item}` : "");
+            return this.renderMultiFields(rawValue, (item) => item ? `"${item}"` : "");
+          case "CanvasGroup" /* CanvasGroup */:
+            return this.renderMultiFields(rawValue, (item) => this.renderValueString(item, type, indentationLevel));
+          case "CanvasGroupLink" /* CanvasGroupLink */:
+            return this.renderMultiFields(rawValue, (item) => item ? `"${item}"` : "");
           case void 0:
             if ([...ReservedMultiAttributes, this.plugin.settings.fileClassAlias].includes(field.name)) {
               return this.renderMultiFields(rawValue, (item) => `${item}`);
@@ -1004,6 +960,8 @@ ${"  ".repeat(indentationLevel + 1)}`;
         }
       }
       if (!inFrontmatter) {
+        if (this.plugin.settings.frontmatterOnly)
+          break;
         if (rawLine.startsWith("```")) {
           this.codeBlocksLines.push(i);
           previousLineIsCode = !previousLineIsCode;
@@ -1178,6 +1136,14 @@ ${"  ".repeat(indentationLevel + 1)}`;
     await note.build();
     return note;
   }
+  static async getExistingFields(plugin, file) {
+    const note = await Note.buildNote(plugin, file);
+    return note.existingFields;
+  }
+  static async getExistingFieldForIndexedPath(plugin, file, indexedPath) {
+    const eFs = await Note.getExistingFields(plugin, file);
+    return eFs.find((eF) => eF.indexedPath === indexedPath);
+  }
 };
 
 // src/utils/fileUtils.ts
@@ -1256,7 +1222,7 @@ var cleanActions = (container, actionClass) => {
 };
 
 // src/modals/BaseModal.ts
-var import_obsidian24 = require("obsidian");
+var import_obsidian32 = require("obsidian");
 
 // src/fields/FieldManager.ts
 var import_obsidian7 = require("obsidian");
@@ -1264,48 +1230,135 @@ var import_obsidian7 = require("obsidian");
 // src/modals/insertFieldSuggestModal.ts
 var import_obsidian4 = require("obsidian");
 
-// src/modals/AddNewFieldModal.ts
+// src/commands/insertMissingFields.ts
+async function insertMissingFields(plugin, fileOrFilePath, lineNumber, asList = false, asBlockquote = false, fileClassName, indexedPath) {
+  var _a;
+  const file = getFileFromFileOrPath(plugin, fileOrFilePath);
+  const note = await Note.buildNote(plugin, file);
+  const f = plugin.fieldIndex;
+  const fields = f.filesFields.get(file.path);
+  const filteredClassFields = fileClassName ? ((_a = plugin.fieldIndex.fileClassesFields.get(fileClassName)) == null ? void 0 : _a.filter((field) => field.fileClassName === fileClassName)) || void 0 : void 0;
+  const fieldsToInsert = [];
+  if (!indexedPath) {
+    fields == null ? void 0 : fields.filter((field) => field.isRoot() && !note.existingFields.map((_f) => _f.field.id).includes(field.id)).filter((field) => filteredClassFields ? filteredClassFields.map((f2) => f2.id).includes(field.id) : true).forEach((field) => {
+      fieldsToInsert.push({ id: field.id, payload: { value: "" } });
+    });
+  } else {
+    const { id, index } = Field_default.getIdAndIndex(indexedPath == null ? void 0 : indexedPath.split("____").last());
+    const existingFields = note.existingFields.filter((_f) => {
+      var _a2;
+      const upperIndexedIdsInPath = (_a2 = _f.indexedPath) == null ? void 0 : _a2.split("____");
+      upperIndexedIdsInPath == null ? void 0 : upperIndexedIdsInPath.pop();
+      return (upperIndexedIdsInPath == null ? void 0 : upperIndexedIdsInPath.join("____")) === indexedPath;
+    });
+    const missingFields = (note == null ? void 0 : note.fields.filter((_f) => {
+      var _a2;
+      return ((_a2 = _f.getFirstAncestor()) == null ? void 0 : _a2.id) === id;
+    }).filter((_f) => !existingFields.map((eF) => eF.field.id).includes(_f.id))) || [];
+    missingFields.forEach((field) => {
+      fieldsToInsert.push({ id: `${indexedPath}____${field.id}`, payload: { value: "" } });
+    });
+  }
+  if (fieldsToInsert.length)
+    await postValues(plugin, fieldsToInsert, file, lineNumber, asList, asBlockquote);
+}
+
+// src/modals/chooseSectionModal.ts
 var import_obsidian3 = require("obsidian");
-var AddNewFieldModal = class extends import_obsidian3.Modal {
-  constructor(plugin, lineNumber, file) {
+var chooseSectionModal = class extends import_obsidian3.SuggestModal {
+  constructor(plugin, file, onSelect) {
     super(plugin.app);
     this.plugin = plugin;
-    this.lineNumber = lineNumber;
     this.file = file;
+    this.onSelect = onSelect;
+    this.addAsListItem = false;
+    this.addAsComment = false;
+    this.addAtEndOfFrontMatter = false;
+    this.onSelect = onSelect;
     this.containerEl.addClass("metadata-menu");
+    this.resultContainerEl.addClass("sections");
   }
   onOpen() {
-    this.titleEl.setText("Insert new field");
-    const nameContainer = this.contentEl.createDiv({ cls: "field-container" });
-    nameContainer.createDiv({ text: "Field name: ", cls: "label" });
-    const nameInput = new import_obsidian3.TextComponent(nameContainer);
-    nameInput.inputEl.addClass("with-label");
-    nameInput.inputEl.addClass("full-width");
-    const valueContainer = this.contentEl.createDiv({ cls: "field-container" });
-    valueContainer.createDiv({ text: "Field value: ", cls: "label" });
-    const valueInput = new import_obsidian3.TextComponent(valueContainer);
-    valueInput.inputEl.addClass("with-label");
-    valueInput.inputEl.addClass("full-width");
-    cleanActions(this.contentEl, ".footer-actions");
-    const footerButtons = this.contentEl.createDiv({
-      cls: "footer-actions"
+    super.onOpen();
+    const inputContainer = this.containerEl.createDiv({ cls: "suggester-input" });
+    inputContainer.appendChild(this.inputEl);
+    this.containerEl.find(".prompt").prepend(inputContainer);
+    const addAsListItemBtn = new import_obsidian3.ButtonComponent(inputContainer);
+    addAsListItemBtn.setIcon("list");
+    addAsListItemBtn.onClick(() => {
+      if (this.addAsListItem) {
+        addAsListItemBtn.removeCta();
+        this.addAsListItem = false;
+      } else {
+        addAsListItemBtn.setCta();
+        this.addAsListItem = true;
+      }
     });
-    footerButtons.createDiv({ cls: "spacer" });
-    const saveButton = new import_obsidian3.ButtonComponent(footerButtons);
-    saveButton.setIcon("checkmark");
-    saveButton.onClick(async () => {
-      await postValues(this.plugin, [{ id: `new-field-${nameInput.getValue()}`, payload: { value: valueInput.getValue() } }], this.file, this.lineNumber);
+    addAsListItemBtn.setDisabled(this.addAtEndOfFrontMatter);
+    addAsListItemBtn.setTooltip("Add this field as a list item");
+    const addAsCommentItemBtn = new import_obsidian3.ButtonComponent(inputContainer);
+    addAsCommentItemBtn.setIcon("message-square");
+    addAsCommentItemBtn.onClick(() => {
+      if (this.addAsComment) {
+        addAsCommentItemBtn.removeCta();
+        this.addAsComment = false;
+      } else {
+        addAsCommentItemBtn.setCta();
+        this.addAsComment = true;
+      }
+    });
+    addAsCommentItemBtn.setDisabled(this.addAtEndOfFrontMatter);
+    addAsCommentItemBtn.setTooltip("Add this field as a comment item");
+    const addAtEndOfFrontMatterBtn = new import_obsidian3.ButtonComponent(inputContainer);
+    addAtEndOfFrontMatterBtn.setIcon("list-end");
+    addAtEndOfFrontMatterBtn.onClick(() => {
+      this.onSelect(-1, false, false);
       this.close();
     });
-    const cancelButton = new import_obsidian3.ButtonComponent(footerButtons);
-    cancelButton.setIcon("cross");
-    cancelButton.onClick(() => {
-      this.close();
+    addAtEndOfFrontMatterBtn.setTooltip("Add this field at the end of the frontmatter");
+  }
+  async getSuggestions(query) {
+    const content = await this.plugin.app.vault.read(this.file);
+    const suggestions = [{
+      lineNumber: -1,
+      lineText: "----------Add on top of the file--------"
+    }];
+    content.split("\n").forEach((lineContent, i) => {
+      if (lineContent.toLowerCase().includes(query.toLowerCase())) {
+        suggestions.push({
+          lineNumber: i,
+          lineText: lineContent.substring(0, 57) + (lineContent.length < 57 ? "" : "...")
+        });
+      }
     });
+    return suggestions;
+  }
+  renderSuggestion(value, el) {
+    el.addClass("item");
+    const container = el.createDiv({ cls: "line" });
+    container.createDiv({ text: `${value.lineNumber + 1}`, cls: "lineNumber" });
+    container.createDiv({ text: value.lineText, cls: "lineText" });
+  }
+  onChooseSuggestion(item, evt) {
+    this.onSelect(
+      item.lineNumber == -1 ? 0 : item.lineNumber,
+      this.addAsListItem,
+      this.addAsComment
+    );
   }
 };
 
 // src/modals/insertFieldSuggestModal.ts
+var defaulOptions = [
+  {
+    actionLabel: "Insert missing fields in frontmatter",
+    icon: "align-vertical-space-around"
+  },
+  {
+    actionLabel: "Insert missing fields at section",
+    icon: "enter"
+  }
+];
 var InsertFieldSuggestModal = class extends import_obsidian4.FuzzySuggestModal {
   // a modal to insert field at root level
   constructor(plugin, file, lineNumber, asList = false, asBlockquote = false) {
@@ -1321,13 +1374,13 @@ var InsertFieldSuggestModal = class extends import_obsidian4.FuzzySuggestModal {
     var _a, _b, _c;
     const { start: start2, end: end2 } = ((_a = this.plugin.app.metadataCache.getFileCache(this.file)) == null ? void 0 : _a.frontmatterPosition) || {};
     if (start2 && end2 && start2.line <= this.lineNumber && end2.line >= this.lineNumber || this.lineNumber === -1) {
-      return [{ actionLabel: "++New++" }].concat(
+      return defaulOptions.concat(
         ((_b = this.plugin.fieldIndex.filesFields.get(this.file.path)) == null ? void 0 : _b.filter((_f) => _f.isRoot()).map((field) => {
           return { actionLabel: field.name, type: field.type };
         })) || []
       );
     } else {
-      return [{ actionLabel: "++New++" }].concat(
+      return defaulOptions.concat(
         ((_c = this.plugin.fieldIndex.filesFields.get(this.file.path)) == null ? void 0 : _c.filter((_f) => _f.isRoot() && !frontmatterOnlyTypes.includes(_f.type)).filter((_f) => !objectTypes2.includes(_f.type)).map((field) => {
           return { actionLabel: field.name, type: field.type };
         })) || []
@@ -1340,7 +1393,7 @@ var InsertFieldSuggestModal = class extends import_obsidian4.FuzzySuggestModal {
   renderSuggestion(item, el) {
     el.addClass("value-container");
     const iconContainer = el.createDiv({ cls: "icon-container" });
-    item.item.type ? (0, import_obsidian4.setIcon)(iconContainer, FieldIcon[item.item.type]) : (0, import_obsidian4.setIcon)(iconContainer, "plus-with-circle");
+    item.item.type ? (0, import_obsidian4.setIcon)(iconContainer, FieldIcon[item.item.type]) : (0, import_obsidian4.setIcon)(iconContainer, item.item.icon || "plus-with-circle");
     el.createDiv({ text: item.item.actionLabel });
     el.createDiv({ cls: "spacer" });
     if (item.item.type)
@@ -1348,16 +1401,26 @@ var InsertFieldSuggestModal = class extends import_obsidian4.FuzzySuggestModal {
   }
   async onChooseItem(item, evt) {
     var _a;
-    if (item.actionLabel === "++New++") {
-      const newFieldModal = new AddNewFieldModal(this.plugin, this.lineNumber, this.file);
-      newFieldModal.open();
-      this.close();
+    if (item.actionLabel === "Insert missing fields in frontmatter") {
+      insertMissingFields(this.plugin, this.file.path, -1);
+    } else if (item.actionLabel === "Insert missing fields at section") {
+      new chooseSectionModal(
+        this.plugin,
+        this.file,
+        (lineNumber, asList, asBlockquote) => insertMissingFields(
+          this.plugin,
+          this.file.path,
+          lineNumber,
+          asList,
+          asBlockquote
+        )
+      ).open();
     } else {
       const field = (_a = this.plugin.fieldIndex.filesFields.get(this.file.path)) == null ? void 0 : _a.find((field2) => field2.name === item.actionLabel);
       if (field) {
         if (objectTypes2.includes(field.type)) {
           await postValues(this.plugin, [{ id: field.id, payload: { value: "" } }], this.file);
-          const eF = await ExistingField.getExistingFieldFromIndexForIndexedPath(this.plugin, this.file, field.id);
+          const eF = await Note.getExistingFieldForIndexedPath(this.plugin, this.file, field.id);
           const fieldManager = new FieldManager[field.type](this.plugin, field);
           fieldManager.createAndOpenFieldModal(this.file, field.name, eF, field.id, void 0, void 0, void 0, void 0);
         } else {
@@ -1727,6 +1790,7 @@ can't be modified once saved`);
       ;
       if (this.addCommand) {
         this.field.command = this.command;
+        addInsertFieldCommand(this.plugin, this.command, this.field, this.field.fileClassName);
       } else {
         delete this.field.command;
       }
@@ -1735,7 +1799,7 @@ can't be modified once saved`);
       } else {
         delete this.field.display;
       }
-      await this.onSave();
+      this.onSave();
       this.close();
     });
   }
@@ -1814,14 +1878,19 @@ var DEFAULT_SETTINGS = {
   enableFileExplorer: true,
   enableSearch: true,
   enableProperties: true,
-  buttonIcon: "clipboard-list",
   tableViewMaxRecords: 20,
   frontmatterListDisplay: "asArray" /* asArray */,
   fileClassExcludedFolders: [],
   showIndexingStatusInStatusBar: true,
   fileIndexingExcludedFolders: [],
   fileIndexingExcludedExtensions: [".excalidraw.md"],
-  fileIndexingExcludedRegex: []
+  fileIndexingExcludedRegex: [],
+  frontmatterOnly: false,
+  showFileClassSelectInModal: true,
+  chooseFileClassAtFileCreation: false,
+  autoInsertFieldsAtFileClassInsertion: false,
+  fileClassIcon: "package",
+  isAutoCalculationEnabled: true
 };
 var incrementVersion = (plugin) => {
   const currentVersion = plugin.settings.settingsVersion;
@@ -1953,7 +2022,7 @@ var FieldManager2 = class {
     }
     ;
     if (this.field.fileClassName) {
-      const fields = (_a = this.plugin.fieldIndex.fileClassesFields.get(this.field.fileClassName)) == null ? void 0 : _a.filter((_f) => _f.path === this.field.path && _f.id !== this.field.id);
+      const fields = (_a = this.plugin.fieldIndex.fileClassesFields.get(this.field.fileClassName)) == null ? void 0 : _a.filter((_f) => _f.path === this.field.path && _f.id !== this.field.id && _f.fileClassName === this.field.fileClassName);
       if (fields == null ? void 0 : fields.map((_f) => _f.name).includes(this.field.name)) {
         FieldSettingsModal.setValidationError(
           textInput,
@@ -2051,7 +2120,7 @@ var FieldManager2 = class {
 };
 
 // src/fields/fieldManagers/ObjectField.ts
-var import_obsidian22 = require("obsidian");
+var import_obsidian30 = require("obsidian");
 
 // src/options/FieldCommandSuggestModal.ts
 var import_obsidian8 = require("obsidian");
@@ -2084,40 +2153,7 @@ var FieldCommandSuggestModal = class extends import_obsidian8.FuzzySuggestModal 
 };
 
 // src/options/OptionsList.ts
-var import_obsidian21 = require("obsidian");
-
-// src/commands/insertMissingFields.ts
-async function insertMissingFields(plugin, fileOrFilePath, lineNumber, asList = false, asBlockquote = false, fileClassName, indexedPath) {
-  var _a;
-  const file = getFileFromFileOrPath(plugin, fileOrFilePath);
-  const note = await Note.buildNote(plugin, file);
-  const f = plugin.fieldIndex;
-  const fields = f.filesFields.get(file.path);
-  const filteredClassFields = fileClassName ? ((_a = plugin.fieldIndex.fileClassesFields.get(fileClassName)) == null ? void 0 : _a.filter((field) => field.fileClassName === fileClassName)) || void 0 : void 0;
-  const fieldsToInsert = [];
-  if (!indexedPath) {
-    fields == null ? void 0 : fields.filter((field) => field.isRoot() && !note.existingFields.map((_f) => _f.field.id).includes(field.id)).filter((field) => filteredClassFields ? filteredClassFields.map((f2) => f2.id).includes(field.id) : true).forEach((field) => {
-      fieldsToInsert.push({ id: field.id, payload: { value: "" } });
-    });
-  } else {
-    const { id, index } = Field_default.getIdAndIndex(indexedPath == null ? void 0 : indexedPath.split("____").last());
-    const existingFields = note.existingFields.filter((_f) => {
-      var _a2;
-      const upperIndexedIdsInPath = (_a2 = _f.indexedPath) == null ? void 0 : _a2.split("____");
-      upperIndexedIdsInPath == null ? void 0 : upperIndexedIdsInPath.pop();
-      return (upperIndexedIdsInPath == null ? void 0 : upperIndexedIdsInPath.join("____")) === indexedPath;
-    });
-    const missingFields = (note == null ? void 0 : note.fields.filter((_f) => {
-      var _a2;
-      return ((_a2 = _f.getFirstAncestor()) == null ? void 0 : _a2.id) === id;
-    }).filter((_f) => !existingFields.map((eF) => eF.field.id).includes(_f.id))) || [];
-    missingFields.forEach((field) => {
-      fieldsToInsert.push({ id: `${indexedPath}____${field.id}`, payload: { value: "" } });
-    });
-  }
-  if (fieldsToInsert.length)
-    await postValues(plugin, fieldsToInsert, file, lineNumber, asList, asBlockquote);
-}
+var import_obsidian29 = require("obsidian");
 
 // src/fileClass/fileClassAttribute.ts
 var FileClassAttribute = class {
@@ -2133,6 +2169,11 @@ var FileClassAttribute = class {
     this.display = display;
     this.style = style;
     this.path = path;
+  }
+  getLevel() {
+    if (!this.path)
+      return 0;
+    return this.path.split("____").length;
   }
   getField() {
     var _a;
@@ -2195,12 +2236,13 @@ var AddFileClassToFileModal = class extends import_obsidian9.SuggestModal {
     this.file = file;
   }
   getSuggestions(query) {
-    return [...this.plugin.fieldIndex.fileClassesName.keys()].filter(
+    const fileClasses = [...this.plugin.fieldIndex.fileClassesName.keys()].filter(
       (fileClassName) => {
         var _a;
         return !((_a = this.plugin.fieldIndex.filesFileClasses.get(this.file.path)) == null ? void 0 : _a.map((fileClass) => fileClass.name).includes(fileClassName));
       }
     ).filter((fileClassName) => fileClassName.toLocaleLowerCase().contains(query.toLowerCase())).sort();
+    return fileClasses;
   }
   renderSuggestion(value, el) {
     el.setText(value);
@@ -2213,6 +2255,9 @@ var AddFileClassToFileModal = class extends import_obsidian9.SuggestModal {
     const currentFileClasses = this.plugin.fieldIndex.filesFileClasses.get(this.file.path);
     const newValue = currentFileClasses ? [...currentFileClasses.map((fc) => fc.name), value].join(", ") : value;
     await postValues(this.plugin, [{ id: `fileclass-field-${fileClassAlias}`, payload: { value: newValue } }], this.file, -1);
+    if (this.plugin.settings.autoInsertFieldsAtFileClassInsertion) {
+      insertMissingFields(this.plugin, this.file, -1);
+    }
   }
 };
 var FileClass = class {
@@ -2251,7 +2296,7 @@ var FileClass = class {
     const tagNames = FileClass.getTagNamesFromFrontMatter(_tagNames);
     const filesPaths = FileClass.getFilesPathsFromFrontMatter(_filesPaths);
     const bookmarksGroups = FileClass.getBookmarksGroupsFromFrontMatter(_bookmarksGroups);
-    const icon = typeof _icon === "string" ? _icon : this.plugin.settings.buttonIcon;
+    const icon = typeof _icon === "string" ? _icon : this.plugin.settings.fileClassIcon;
     const savedViews = _savedViews || [];
     const favoriteView = typeof _favoriteView === "string" && _favoriteView !== "" ? _favoriteView : null;
     return new FileClassOptions(limit, icon, parent, excludes, tagNames, mapWithTag, filesPaths, bookmarksGroups, savedViews, favoriteView);
@@ -2294,7 +2339,7 @@ var FileClass = class {
         ;
       }
     });
-    return icon || "package";
+    return icon || this.plugin.settings.fileClassIcon;
   }
   async missingFieldsForFileClass(file) {
     var _a;
@@ -2302,6 +2347,13 @@ var FileClass = class {
     const currentFieldsIds = note.existingFields.map((_f) => _f.field.id);
     const missingFields = this && file ? !((_a = this.plugin.fieldIndex.fileClassesFields.get(this.name)) == null ? void 0 : _a.map((f) => f.id).every((id) => currentFieldsIds.includes(id))) : false;
     return missingFields;
+  }
+  getViewChildren(name) {
+    var _a, _b;
+    if (!name)
+      return [];
+    const childrenNames = ((_b = (_a = this.getFileClassOptions().savedViews) == null ? void 0 : _a.find((_view) => _view.name === name)) == null ? void 0 : _b.children) || [];
+    return this.getChildren().filter((c) => childrenNames.includes(c.name));
   }
   static getFileClassAttributes(plugin, fileClass, excludes) {
     var _a, _b;
@@ -2418,6 +2470,23 @@ var FileClass = class {
       });
     });
     await this.incrementVersion();
+  }
+  getChildren() {
+    const childrenNames = [];
+    [...this.plugin.fieldIndex.fileClassesAncestors].forEach(([_fName, ancestors]) => {
+      if (ancestors.includes(this.name)) {
+        const path = [...ancestors.slice(0, ancestors.indexOf(this.name)).reverse(), _fName];
+        const fileClass = this.plugin.fieldIndex.fileClassesName.get(_fName);
+        if (fileClass) {
+          childrenNames.push({
+            name: _fName,
+            path,
+            fileClass
+          });
+        }
+      }
+    });
+    return childrenNames;
   }
   async updateAttribute(newType, newName, newOptions, attr, newCommand, newDisplay, newStyle, newPath) {
     const fileClass = attr ? this.plugin.fieldIndex.fileClassesName.get(attr.fileClassName) : this;
@@ -2633,102 +2702,17 @@ function legacyGenuineKeys(dvFile) {
   return genuineKeys2;
 }
 
-// src/modals/chooseSectionModal.ts
-var import_obsidian11 = require("obsidian");
-var chooseSectionModal = class extends import_obsidian11.SuggestModal {
-  constructor(plugin, file, onSelect) {
-    super(plugin.app);
-    this.plugin = plugin;
-    this.file = file;
-    this.onSelect = onSelect;
-    this.addAsListItem = false;
-    this.addAsComment = false;
-    this.addAtEndOfFrontMatter = false;
-    this.onSelect = onSelect;
-    this.containerEl.addClass("metadata-menu");
-    this.resultContainerEl.addClass("sections");
-  }
-  onOpen() {
-    super.onOpen();
-    const inputContainer = this.containerEl.createDiv({ cls: "suggester-input" });
-    inputContainer.appendChild(this.inputEl);
-    this.containerEl.find(".prompt").prepend(inputContainer);
-    const addAsListItemBtn = new import_obsidian11.ButtonComponent(inputContainer);
-    addAsListItemBtn.setIcon("list");
-    addAsListItemBtn.onClick(() => {
-      if (this.addAsListItem) {
-        addAsListItemBtn.removeCta();
-        this.addAsListItem = false;
-      } else {
-        addAsListItemBtn.setCta();
-        this.addAsListItem = true;
-      }
-    });
-    addAsListItemBtn.setDisabled(this.addAtEndOfFrontMatter);
-    addAsListItemBtn.setTooltip("Add this field as a list item");
-    const addAsCommentItemBtn = new import_obsidian11.ButtonComponent(inputContainer);
-    addAsCommentItemBtn.setIcon("message-square");
-    addAsCommentItemBtn.onClick(() => {
-      if (this.addAsComment) {
-        addAsCommentItemBtn.removeCta();
-        this.addAsComment = false;
-      } else {
-        addAsCommentItemBtn.setCta();
-        this.addAsComment = true;
-      }
-    });
-    addAsCommentItemBtn.setDisabled(this.addAtEndOfFrontMatter);
-    addAsCommentItemBtn.setTooltip("Add this field as a comment item");
-    const addAtEndOfFrontMatterBtn = new import_obsidian11.ButtonComponent(inputContainer);
-    addAtEndOfFrontMatterBtn.setIcon("list-end");
-    addAtEndOfFrontMatterBtn.onClick(() => {
-      this.onSelect(-1, false, false);
-      this.close();
-    });
-    addAtEndOfFrontMatterBtn.setTooltip("Add this field at the end of the frontmatter");
-  }
-  async getSuggestions(query) {
-    const content = await this.plugin.app.vault.read(this.file);
-    const suggestions = [{
-      lineNumber: -1,
-      lineText: "----------Add on top of the file--------"
-    }];
-    content.split("\n").forEach((lineContent, i) => {
-      if (lineContent.toLowerCase().includes(query.toLowerCase())) {
-        suggestions.push({
-          lineNumber: i,
-          lineText: lineContent.substring(0, 57) + (lineContent.length < 57 ? "" : "...")
-        });
-      }
-    });
-    return suggestions;
-  }
-  renderSuggestion(value, el) {
-    el.addClass("item");
-    const container = el.createDiv({ cls: "line" });
-    container.createDiv({ text: `${value.lineNumber + 1}`, cls: "lineNumber" });
-    container.createDiv({ text: value.lineText, cls: "lineText" });
-  }
-  onChooseSuggestion(item, evt) {
-    this.onSelect(
-      item.lineNumber == -1 ? 0 : item.lineNumber,
-      this.addAsListItem,
-      this.addAsComment
-    );
-  }
-};
-
 // src/options/FileClassOptionsList.ts
-var import_obsidian20 = require("obsidian");
+var import_obsidian28 = require("obsidian");
 
-// src/components/fileClassManager.ts
-var import_obsidian19 = require("obsidian");
+// src/components/FileClassViewManager.ts
+var import_obsidian27 = require("obsidian");
 
-// src/fileClass/fileClassView.ts
-var import_obsidian17 = require("obsidian");
+// src/fileClass/views/fileClassView.ts
+var import_obsidian25 = require("obsidian");
 
-// src/fileClass/fileClassFieldsView.ts
-var import_obsidian12 = require("obsidian");
+// src/fileClass/views/fileClassFieldsView.ts
+var import_obsidian11 = require("obsidian");
 
 // src/commands/removeFileClassAttribute.ts
 async function removeFileClassAttributeWithId(plugin, fileClass, id) {
@@ -2790,7 +2774,7 @@ var FileClassAttributeModal = class extends BaseSettingModal {
   }
 };
 
-// src/fileClass/fileClassFieldsView.ts
+// src/fileClass/views/fileClassFieldsView.ts
 var FileClassFieldSetting = class {
   constructor(container, fileClass, fileClassAttribute, plugin) {
     this.container = container;
@@ -2806,7 +2790,7 @@ var FileClassFieldSetting = class {
     for (let i = 0; i < level; i++) {
       const indentation = fieldNameContainer.createDiv({ cls: "indentation" });
       if (i === level - 1) {
-        (0, import_obsidian12.setIcon)(indentation, "corner-down-right");
+        (0, import_obsidian11.setIcon)(indentation, "corner-down-right");
       }
     }
     fieldNameContainer.createEl("span", { text: fCA.name, cls: "title" });
@@ -2820,7 +2804,7 @@ var FileClassFieldSetting = class {
     fieldOptionsContainer.createEl("span", { cls: "description", text: `${fCA.getOptionsString(this.plugin)}` });
   }
   addEditButton(container) {
-    const btn = new import_obsidian12.ButtonComponent(container);
+    const btn = new import_obsidian11.ButtonComponent(container);
     btn.setIcon("pencil");
     btn.setTooltip("Edit");
     btn.onClick(() => {
@@ -2833,7 +2817,7 @@ var FileClassFieldSetting = class {
     });
   }
   addDeleteButton(container) {
-    const btn = new import_obsidian12.ButtonComponent(container);
+    const btn = new import_obsidian11.ButtonComponent(container);
     btn.setIcon("trash");
     btn.setTooltip("Delete");
     btn.setClass("cell");
@@ -2854,7 +2838,7 @@ var FileClassFieldsView = class {
     const footer = this.container.createDiv({ cls: "footer" });
     const btnContainer = footer.createDiv({ cls: "cell" });
     const addBtn = btnContainer.createEl("button");
-    (0, import_obsidian12.setIcon)(addBtn, "list-plus");
+    (0, import_obsidian11.setIcon)(addBtn, "list-plus");
     addBtn.onclick = async () => {
       const fileClassAttributeModal = new FileClassAttributeModal(this.plugin, FileClass.createFileClass(this.plugin, this.fileClass.name));
       fileClassAttributeModal.open();
@@ -2864,20 +2848,44 @@ var FileClassFieldsView = class {
     this.container.replaceChildren();
     const fieldsContainer = this.container.createDiv({ cls: "fields-container" });
     const attributes = FileClass.getFileClassAttributes(this.plugin, this.fileClass);
-    attributes.sort((a, b) => {
-      const _a = a.path ? a.path + "_" : a.id;
-      const _b = b.path ? b.path + "_" : b.id;
-      return _a < _b ? -1 : 1;
-    }).forEach((attribute) => {
-      new FileClassFieldSetting(fieldsContainer, this.fileClass, attribute, this.plugin);
-    });
+    const sortedAttributes = attributes.filter((attr) => !attr.path);
+    let hasError = false;
+    while (sortedAttributes.length < attributes.length) {
+      const _initial = [...sortedAttributes];
+      sortedAttributes.forEach((sAttr, parentIndex) => {
+        var _a;
+        for (const attr of attributes) {
+          if (((_a = attr.path) == null ? void 0 : _a.split("____").last()) === sAttr.id && !sortedAttributes.includes(attr)) {
+            const parentLevel = sAttr.getLevel();
+            const parentSibling = sortedAttributes.slice(parentIndex + 1).find((oAttr) => oAttr.getLevel() <= parentLevel);
+            const parentSiblingIndex = parentSibling ? sortedAttributes.indexOf(parentSibling) : sortedAttributes.length;
+            sortedAttributes.splice(parentSiblingIndex, 0, attr);
+            break;
+          }
+        }
+      });
+      if (_initial.length === sortedAttributes.length) {
+        console.error("Impossible to restore field hierarchy, check you fileclass configuration");
+        hasError = true;
+        break;
+      }
+    }
+    if (hasError) {
+      attributes.forEach((attribute) => {
+        new FileClassFieldSetting(fieldsContainer, this.fileClass, attribute, this.plugin);
+      });
+    } else {
+      sortedAttributes.forEach((attribute) => {
+        new FileClassFieldSetting(fieldsContainer, this.fileClass, attribute, this.plugin);
+      });
+    }
     this.builAddBtn();
   }
 };
 
-// src/fileClass/fileClassSettingsView.ts
-var import_obsidian13 = require("obsidian");
-var ParentSuggestModal = class extends import_obsidian13.SuggestModal {
+// src/fileClass/views/fileClassSettingsView.ts
+var import_obsidian12 = require("obsidian");
+var ParentSuggestModal = class extends import_obsidian12.SuggestModal {
   constructor(view) {
     super(view.plugin.app);
     this.view = view;
@@ -2899,7 +2907,7 @@ var ParentSuggestModal = class extends import_obsidian13.SuggestModal {
     el.setText(value);
   }
 };
-var TagSuggestModal = class extends import_obsidian13.SuggestModal {
+var TagSuggestModal = class extends import_obsidian12.SuggestModal {
   constructor(view) {
     super(view.plugin.app);
     this.view = view;
@@ -2919,7 +2927,7 @@ var TagSuggestModal = class extends import_obsidian13.SuggestModal {
     el.setText(value);
   }
 };
-var FieldSuggestModal = class extends import_obsidian13.SuggestModal {
+var FieldSuggestModal = class extends import_obsidian12.SuggestModal {
   constructor(view) {
     super(view.plugin.app);
     this.view = view;
@@ -2949,7 +2957,7 @@ var FieldSuggestModal = class extends import_obsidian13.SuggestModal {
     el.setText(value);
   }
 };
-var PathSuggestModal = class extends import_obsidian13.SuggestModal {
+var PathSuggestModal = class extends import_obsidian12.SuggestModal {
   constructor(view) {
     super(view.plugin.app);
     this.view = view;
@@ -2960,7 +2968,7 @@ var PathSuggestModal = class extends import_obsidian13.SuggestModal {
     const folders = [];
     const lowerCaseInputStr = query.toLowerCase();
     abstractFiles.forEach((folder) => {
-      if (folder instanceof import_obsidian13.TFolder && folder.path.toLowerCase().contains(lowerCaseInputStr)) {
+      if (folder instanceof import_obsidian12.TFolder && folder.path.toLowerCase().contains(lowerCaseInputStr)) {
         folders.push(folder);
       }
     });
@@ -2977,7 +2985,7 @@ var PathSuggestModal = class extends import_obsidian13.SuggestModal {
     el.setText(value);
   }
 };
-var BookmarksGroupSuggestModal = class extends import_obsidian13.SuggestModal {
+var BookmarksGroupSuggestModal = class extends import_obsidian12.SuggestModal {
   constructor(view) {
     super(view.plugin.app);
     this.view = view;
@@ -3022,7 +3030,7 @@ var FileClassSetting = class {
   buildSetting() {
     this.container.createDiv({ text: this.label, cls: "label" });
     const toolTipBtnContainer = this.container.createDiv({ cls: "tooltip-btn" });
-    const tooltipBtn = new import_obsidian13.ButtonComponent(toolTipBtnContainer).setIcon("help-circle").setClass("tooltip-button");
+    const tooltipBtn = new import_obsidian12.ButtonComponent(toolTipBtnContainer).setIcon("help-circle").setClass("tooltip-button");
     const action = this.container.createDiv({ cls: "action" });
     this.buildOptionAndAction(action);
     const tooltip = this.container.createDiv({ cls: "tooltip-text" });
@@ -3099,14 +3107,14 @@ var FileClassSettingsView = class {
     const footer = this.container.createDiv({ cls: "footer" });
     const btnContainer = footer.createDiv({ cls: "cell" });
     this.saveBtn = btnContainer.createEl("button");
-    (0, import_obsidian13.setIcon)(this.saveBtn, "save");
+    (0, import_obsidian12.setIcon)(this.saveBtn, "save");
     this.saveBtn.onclick = async () => {
       await this.fileClass.updateOptions(this.fileClassOptions);
       this.saveBtn.removeClass("active");
     };
   }
   buildLimitComponent(action) {
-    const input = new import_obsidian13.TextComponent(action);
+    const input = new import_obsidian12.TextComponent(action);
     input.setValue(`${this.fileClassOptions.limit}`);
     input.onChange((value) => {
       this.saveBtn.addClass("active");
@@ -3114,7 +3122,7 @@ var FileClassSettingsView = class {
     });
   }
   buildMapWithTagComponent(action) {
-    const toggler = new import_obsidian13.ToggleComponent(action);
+    const toggler = new import_obsidian12.ToggleComponent(action);
     toggler.setValue(this.fileClassOptions.mapWithTag);
     toggler.onChange((value) => {
       this.saveBtn.addClass("active");
@@ -3123,27 +3131,27 @@ var FileClassSettingsView = class {
   }
   buildIconComponent(action) {
     const iconManagerContainer = action.createDiv({ cls: "icon-manager" });
-    const input = new import_obsidian13.TextComponent(iconManagerContainer);
+    const input = new import_obsidian12.TextComponent(iconManagerContainer);
     const iconContainer = iconManagerContainer.createDiv({});
     input.setValue(this.fileClassOptions.icon);
-    (0, import_obsidian13.setIcon)(iconContainer, this.fileClassOptions.icon);
+    (0, import_obsidian12.setIcon)(iconContainer, this.fileClassOptions.icon);
     input.onChange((value) => {
       this.saveBtn.addClass("active");
       this.fileClassOptions.icon = value;
-      (0, import_obsidian13.setIcon)(iconContainer, this.fileClassOptions.icon);
+      (0, import_obsidian12.setIcon)(iconContainer, this.fileClassOptions.icon);
     });
   }
   buildBindingComponent(action, boundItemsNames, suggestModal) {
     const itemsContainer = action.createDiv({ cls: "items" });
     boundItemsNames == null ? void 0 : boundItemsNames.forEach((item) => {
       const itemContainer = itemsContainer.createDiv({ cls: "item chip", text: item });
-      new import_obsidian13.ButtonComponent(itemContainer).setIcon("x-circle").setClass("item-remove").onClick(async () => {
+      new import_obsidian12.ButtonComponent(itemContainer).setIcon("x-circle").setClass("item-remove").onClick(async () => {
         boundItemsNames == null ? void 0 : boundItemsNames.remove(item);
         await this.fileClass.updateOptions(this.fileClassOptions);
       });
     });
     const addBtn = itemsContainer.createEl("button", { cls: "item add" });
-    (0, import_obsidian13.setIcon)(addBtn, "plus-circle");
+    (0, import_obsidian12.setIcon)(addBtn, "plus-circle");
     addBtn.onclick = () => {
       new suggestModal(this).open();
     };
@@ -3153,7 +3161,7 @@ var FileClassSettingsView = class {
     const fieldsContainer = action.createDiv({ cls: "items" });
     (_a = this.fileClassOptions.excludes) == null ? void 0 : _a.forEach((field) => {
       const fieldontainer = fieldsContainer.createDiv({ cls: "item chip", text: field.name });
-      new import_obsidian13.ButtonComponent(fieldontainer).setIcon("x-circle").setClass("item-remove").onClick(async () => {
+      new import_obsidian12.ButtonComponent(fieldontainer).setIcon("x-circle").setClass("item-remove").onClick(async () => {
         var _a2;
         const excludedFields = (_a2 = this.fileClassOptions.excludes) == null ? void 0 : _a2.filter((attr) => attr.name !== field.name);
         this.fileClassOptions.excludes = excludedFields;
@@ -3161,7 +3169,7 @@ var FileClassSettingsView = class {
       });
     });
     const fieldAddBtn = fieldsContainer.createEl("button", { cls: "item" });
-    (0, import_obsidian13.setIcon)(fieldAddBtn, "plus-circle");
+    (0, import_obsidian12.setIcon)(fieldAddBtn, "plus-circle");
     fieldAddBtn.onclick = () => {
       new FieldSuggestModal(this).open();
     };
@@ -3174,7 +3182,7 @@ var FileClassSettingsView = class {
     if (parent) {
       const path = this.fileClass.getClassFile().path;
       const component = this.plugin;
-      import_obsidian13.MarkdownRenderer.renderMarkdown(`[[${parent.name}]]`, parentLinkContainer, path, component);
+      import_obsidian12.MarkdownRenderer.renderMarkdown(`[[${parent.name}]]`, parentLinkContainer, path, component);
       (_a = parentLinkContainer.querySelector("a.internal-link")) == null ? void 0 : _a.addEventListener("click", (e) => {
         var _a2;
         this.plugin.app.workspace.openLinkText(
@@ -3189,33 +3197,862 @@ var FileClassSettingsView = class {
     parentManagerContainer.createDiv({ cls: "item spacer" });
     if (parent) {
       const parentRemoveBtn = parentManagerContainer.createEl("button", { cls: "item" });
-      (0, import_obsidian13.setIcon)(parentRemoveBtn, "trash");
+      (0, import_obsidian12.setIcon)(parentRemoveBtn, "trash");
       parentRemoveBtn.onclick = async () => {
         delete this.fileClassOptions.parent;
         await this.fileClass.updateOptions(this.fileClassOptions);
       };
     }
     const parentChangeBtn = parentManagerContainer.createEl("button", { cls: "item right-align" });
-    (0, import_obsidian13.setIcon)(parentChangeBtn, "edit");
+    (0, import_obsidian12.setIcon)(parentChangeBtn, "edit");
     parentChangeBtn.onclick = () => {
       new ParentSuggestModal(this).open();
     };
   }
 };
 
-// src/fileClass/fileClassTableView.ts
-var import_obsidian16 = require("obsidian");
+// src/fileClass/views/fileClassTableView.ts
+var import_obsidian24 = require("obsidian");
 
-// src/fileClass/tableViewFieldSet.ts
+// src/fileClass/views/tableViewComponents/FieldComponent.ts
+var import_obsidian20 = require("obsidian");
+
+// src/fileClass/views/tableViewComponents/RowSorterComponent.ts
 var import_obsidian14 = require("obsidian");
-var btnIcons = {
-  "asc": "chevron-up",
-  "desc": "chevron-down",
-  "left": "chevron-left",
-  "right": "chevron-right"
+
+// src/fileClass/views/tableViewComponents/OptionsPriorityModal.ts
+var import_obsidian13 = require("obsidian");
+var OptionsPriorityModal = class extends import_obsidian13.Modal {
+  constructor(plugin, fileClassFile, field, parentFieldSet, rowSorterComponent) {
+    var _a;
+    super(plugin.app);
+    this.plugin = plugin;
+    this.fileClassFile = fileClassFile;
+    this.field = field;
+    this.parentFieldSet = parentFieldSet;
+    this.rowSorterComponent = rowSorterComponent;
+    this.titleEl.setText("Set a custom order by moving the values");
+    this.containerEl.addClass("metadata-menu");
+    this.initialOrder = ((_a = this.rowSorterComponent.customOrder) == null ? void 0 : _a.length) ? this.rowSorterComponent.customOrder : this.getOptions();
+    this.orderedOptions = [...this.initialOrder];
+    this.optionsContainer = this.contentEl.createDiv({});
+    cleanActions(this.containerEl, ".footer-actions");
+    const footerActionsContainer = this.containerEl.createDiv({ cls: "footer-actions" });
+    this.buildFooterActions(footerActionsContainer);
+  }
+  onOpen() {
+    this.buildOrderedOptions();
+  }
+  getOptions() {
+    if (this.field === "file") {
+      return [];
+    } else {
+      const field = this.field;
+      switch (field.type) {
+        case "Boolean" /* Boolean */: {
+          return ["true", "false"];
+        }
+        case "Multi" /* Multi */:
+        case "Select" /* Select */: {
+          const fieldManager = new FieldManager[field.type](this.plugin, field);
+          return fieldManager.getOptionsList();
+        }
+        case "MultiFile" /* MultiFile */:
+        case "File" /* File */: {
+          const sortingMethod = new Function("a", "b", `return ${field.options.customSorting}`) || function(a, b) {
+            return a.basename < b.basename ? -1 : 1;
+          };
+          try {
+            const fileManager = new FieldManager[field.type](this.plugin, field);
+            return fileManager.getFiles().sort(sortingMethod).map((item) => item.basename.trim().replace(/\[\[|\]\]/g, ""));
+          } catch (error) {
+            return [];
+          }
+        }
+        case "Lookup" /* Lookup */: {
+          const _values = [...this.plugin.fieldIndex.fileLookupFieldLastValue.entries()].filter(([fieldId, lookupFiles]) => {
+            return fieldId.endsWith(`__related__${this.parentFieldSet.fileClass.name}___${field.name}`) && lookupFiles !== "";
+          }).map(([fieldId, lookupFiles]) => lookupFiles).join(",");
+          return [...new Set(
+            _values.split(",").map((item) => item.trim().replace(/\[\[|\]\]/g, ""))
+          )];
+        }
+        default:
+          return [];
+      }
+    }
+  }
+  renderOption(option, index) {
+    const optionContainer = this.optionsContainer.createDiv({ cls: "suggestion-item value-container" });
+    const swapElements = (array, index1, index2) => {
+      array[index1] = array.splice(index2, 1, array[index1])[0];
+    };
+    const buildPrioBtn = (direction) => {
+      const btn = new import_obsidian13.ButtonComponent(optionContainer);
+      btn.setIcon(btnIcons[direction]);
+      btn.setClass("small");
+      btn.setDisabled(
+        index === 0 && direction === "asc" || index === this.orderedOptions.length && direction === "desc"
+      );
+      btn.onClick(() => {
+        if (direction === "asc") {
+          swapElements(this.orderedOptions, index - 1, index);
+        } else {
+          swapElements(this.orderedOptions, index, index + 1);
+        }
+        this.buildOrderedOptions();
+      });
+      return btn;
+    };
+    buildPrioBtn("asc");
+    buildPrioBtn("desc");
+    const labelContainer = optionContainer.createDiv({ cls: "label" });
+    labelContainer.setText(option);
+  }
+  buildOrderedOptions() {
+    this.optionsContainer.replaceChildren();
+    this.orderedOptions.forEach((option, index) => this.renderOption(option, index));
+  }
+  updateCustomOrder(newOrder) {
+    this.rowSorterComponent.customOrder = newOrder;
+    this.rowSorterComponent.toggleRowSorterButtonsState("asc");
+    this.parentFieldSet.tableView.update();
+    this.parentFieldSet.tableView.saveViewBtn.setCta();
+  }
+  buildConfirm(footerActionsContainer) {
+    const infoContainer = footerActionsContainer.createDiv({ cls: "info" });
+    infoContainer.setText("Alt+Enter to save");
+    this.confirmButton = new import_obsidian13.ButtonComponent(footerActionsContainer);
+    this.confirmButton.setIcon("checkmark");
+    this.confirmButton.onClick(() => {
+      this.updateCustomOrder(this.orderedOptions);
+      this.close();
+    });
+  }
+  buildFooterActions(footerActionsContainer) {
+    footerActionsContainer.createDiv({ cls: "spacer" });
+    this.buildConfirm(footerActionsContainer);
+    const cancelButton = new import_obsidian13.ButtonComponent(footerActionsContainer);
+    cancelButton.setIcon("cross");
+    cancelButton.onClick(() => this.close());
+    cancelButton.setTooltip("Cancel");
+    const refreshButton = new import_obsidian13.ButtonComponent(footerActionsContainer);
+    refreshButton.setIcon("refresh-ccw");
+    refreshButton.setTooltip("Cancel changes");
+    refreshButton.onClick(async () => {
+      this.orderedOptions = this.rowSorterComponent.customOrder || this.getOptions();
+      this.buildOrderedOptions();
+      this.confirmButton.removeCta();
+    });
+    const resetButton = new import_obsidian13.ButtonComponent(footerActionsContainer);
+    resetButton.setIcon("eraser");
+    resetButton.setTooltip("Reset initial ordering");
+    resetButton.onClick(async () => {
+      this.orderedOptions = this.getOptions();
+      this.rowSorterComponent.toggleRowSorterButtonsState(void 0);
+      this.buildOrderedOptions();
+      this.confirmButton.setCta();
+    });
+    this.modalEl.appendChild(footerActionsContainer);
+  }
 };
-var Field = class {
-  constructor(container, parentFieldSet, name, label, columnPosition, rowPriority, isColumnHidden = false, rowSortingDirection = void 0, query = "") {
+
+// src/fileClass/views/tableViewComponents/RowSorterComponent.ts
+var RowSorterComponent = class {
+  constructor(parentFieldset, fileClass, fieldContainer, name, direction, priority, customOrder) {
+    this.parentFieldset = parentFieldset;
+    this.fileClass = fileClass;
+    this.fieldContainer = fieldContainer;
+    this.name = name;
+    this.direction = direction;
+    this.priority = priority;
+    this.customOrder = customOrder;
+    this.buildSorterBtn = (direction) => {
+      const btn = new import_obsidian14.ButtonComponent(this.fieldContainer);
+      btn.setIcon(btnIcons[direction]);
+      btn.onClick(() => {
+        this.toggleRowSorterButtonsState(direction);
+        this.parentFieldset.tableView.update();
+        this.parentFieldset.tableView.saveViewBtn.setCta();
+      });
+      return btn;
+    };
+    this.id = `${this.fileClass}____${this.name}`;
+    this.ascBtn = this.buildSorterBtn("asc");
+    this.descBtn = this.buildSorterBtn("desc");
+    this.customOrderBtn = new import_obsidian14.ButtonComponent(fieldContainer);
+    this.customOrderBtn.setIcon("list-ordered");
+    this.customOrderBtn.onClick(() => {
+      var _a;
+      const plugin = this.parentFieldset.plugin;
+      const fileClass2 = this.parentFieldset.fileClass;
+      const fileClassFile = fileClass2.getClassFile();
+      const field = (_a = plugin.fieldIndex.fileClassesFields.get(fileClass2.name)) == null ? void 0 : _a.find((f) => f.isRoot() && f.name === this.name);
+      new OptionsPriorityModal(plugin, fileClassFile, field || "file", this.parentFieldset, this).open();
+    });
+  }
+  toggleRowSorterButtonsState(direction) {
+    var _a;
+    this.direction = this.direction === direction ? void 0 : direction;
+    switch (this.direction) {
+      case void 0:
+        this.ascBtn.buttonEl.removeClass("active");
+        this.descBtn.buttonEl.removeClass("active");
+        break;
+      case "asc":
+        this.ascBtn.buttonEl.addClass("active");
+        this.descBtn.buttonEl.removeClass("active");
+        break;
+      case "desc":
+        this.ascBtn.buttonEl.removeClass("active");
+        this.descBtn.buttonEl.addClass("active");
+        break;
+    }
+    if (!this.direction) {
+      this.changeRowSorterPriority(void 0);
+    } else {
+      if (!this.priority) {
+        const newPriority = this.getMaxRowSorterPriority() + 1;
+        this.changeRowSorterPriority(newPriority);
+      }
+    }
+    if (!((_a = this.customOrder) == null ? void 0 : _a.length)) {
+      this.customOrderBtn.buttonEl.removeClass("active");
+    } else {
+      this.customOrderBtn.buttonEl.addClass("active");
+    }
+  }
+  changeRowSorterPriority(priority) {
+    const currentPriority = this.priority;
+    Object.keys(this.parentFieldset.rowSorters).forEach((_id) => {
+      const field = this.parentFieldset.fieldComponents.find((f) => f.id === _id);
+      const sorter = this.parentFieldset.rowSorters[_id];
+      if (_id == this.id) {
+        sorter.priority = !currentPriority ? priority : void 0;
+        field.priorityLabelContainer.textContent = sorter.priority ? `(${sorter.priority})` : "";
+      } else if (currentPriority && sorter.priority && !priority && sorter.priority > currentPriority) {
+        sorter.priority = sorter.priority - 1;
+        field.priorityLabelContainer.textContent = `(${sorter.priority})`;
+      }
+    });
+  }
+  getMaxRowSorterPriority() {
+    return Object.values(this.parentFieldset.rowSorters).reduce((intermediateMax, currentSorter) => Math.max(intermediateMax, currentSorter.priority || 0), 0);
+  }
+};
+
+// src/fileClass/views/tableViewComponents/FilterComponent.ts
+var import_obsidian19 = require("obsidian");
+
+// src/fileClass/views/tableViewComponents/OptionsMultiSelectModal.ts
+var import_obsidian17 = require("obsidian");
+
+// src/fields/fieldManagers/AbstractFileBasedField.ts
+var import_obsidian15 = require("obsidian");
+var convertDataviewArrayOfLinkToArrayOfPath = (arr) => {
+  return arr.reduce((acc, cur) => {
+    if (!cur || !cur.path)
+      return acc;
+    return [...acc, cur.path];
+  }, []);
+};
+var getFiles = (plugin, field, dvQueryString, currentFile) => {
+  const getResults = (api) => {
+    try {
+      return new Function("dv", "current", `return ${dvQueryString}`)(api, currentFile ? api.page(currentFile.path) : void 0);
+    } catch (error) {
+      new import_obsidian15.Notice(`Wrong query for field <${field.name}>
+check your settings`, 3e3);
+    }
+  };
+  const dataview = plugin.app.plugins.plugins["dataview"];
+  if (dvQueryString && (dataview == null ? void 0 : dataview.settings.enableDataviewJs) && (dataview == null ? void 0 : dataview.settings.enableInlineDataviewJs)) {
+    try {
+      let results = getResults(dataview.api);
+      if (!results)
+        return [];
+      if (Array.isArray(results.values)) {
+        results = results.values;
+      }
+      const filesPath = results.reduce((a, v) => {
+        if (!v)
+          return a;
+        if (v.path)
+          return [...a, v.path];
+        if (v.file)
+          return [...a, v.file.path];
+        if (Array.isArray(v))
+          return [...a, ...convertDataviewArrayOfLinkToArrayOfPath(v)];
+        return a;
+      }, []);
+      return plugin.app.vault.getMarkdownFiles().filter((f) => filesPath.includes(f.path));
+    } catch (error) {
+      throw error;
+    }
+  } else {
+    return plugin.app.vault.getMarkdownFiles();
+  }
+};
+var AbstractFileBasedField = class extends FieldManager2 {
+  constructor(plugin, field, type) {
+    super(plugin, field, type);
+    this.getFiles = (currentFile) => getFiles(this.plugin, this.field, this.field.options.dvQueryString, currentFile);
+  }
+  async buildAndOpenModal(file, indexedPath) {
+    const eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, indexedPath);
+    const modal = this.modalFactory(this.plugin, file, this.field, eF, indexedPath);
+    modal.open();
+  }
+  addFieldOption(file, location, indexedPath) {
+    const name = this.field.name;
+    const action = async () => await this.buildAndOpenModal(file, indexedPath);
+    if (AbstractFileBasedField.isSuggest(location)) {
+      location.options.push({
+        id: `update_${name}`,
+        actionLabel: `<span>Update <b>${name}</b></span>`,
+        action,
+        icon: FieldIcon["File" /* File */]
+      });
+    } else if (AbstractFileBasedField.isFieldOptions(location)) {
+      location.addOption(FieldIcon["File" /* File */], action, `Update ${name}'s value`);
+    }
+    ;
+  }
+  createFileContainer(container) {
+    const dvQueryStringTopContainer = container.createDiv({ cls: "vstacked" });
+    dvQueryStringTopContainer.createEl("span", { text: "Dataview Query (optional)", cls: "field-option" });
+    const dvQueryStringContainer = dvQueryStringTopContainer.createDiv({ cls: "field-container" });
+    this.dvQueryString = new import_obsidian15.TextAreaComponent(dvQueryStringContainer);
+    this.dvQueryString.inputEl.cols = 50;
+    this.dvQueryString.inputEl.rows = 4;
+    this.dvQueryString.setValue(this.field.options.dvQueryString || "");
+    this.dvQueryString.inputEl.addClass("full-width");
+    this.dvQueryString.onChange((value) => {
+      this.field.options.dvQueryString = value;
+      FieldSettingsModal.removeValidationError(this.dvQueryString);
+    });
+    const customeRenderingTopContainer = container.createDiv({ cls: "vstacked" });
+    customeRenderingTopContainer.createEl("span", { text: "Alias" });
+    customeRenderingTopContainer.createEl("span", { text: "Personalise the rendering of your links' aliases with a function returning a string (<page> object is available)", cls: "sub-text" });
+    customeRenderingTopContainer.createEl("code", {
+      text: `function(page) { return <function using "page">; }`
+    });
+    const customeRenderingContainer = customeRenderingTopContainer.createDiv({ cls: "field-container" });
+    const customRendering = new import_obsidian15.TextAreaComponent(customeRenderingContainer);
+    customRendering.inputEl.cols = 50;
+    customRendering.inputEl.rows = 4;
+    customRendering.inputEl.addClass("full-width");
+    customRendering.setValue(this.field.options.customRendering || "");
+    customRendering.setPlaceholder('Javascript string, the "page" (dataview page type) variable is available\nexample 1: page.file.name\nexample 2: `${page.file.name} of gender ${page.gender}`');
+    customRendering.onChange((value) => {
+      this.field.options.customRendering = value;
+      FieldSettingsModal.removeValidationError(customRendering);
+    });
+    const customSortingTopContainer = container.createDiv({ cls: "vstacked" });
+    customSortingTopContainer.createEl("span", { text: "Sorting order" });
+    customSortingTopContainer.createEl("span", { text: "Personalise the sorting order of your links with a instruction taking 2 files (a, b) and returning -1, 0 or 1", cls: "sub-text" });
+    customSortingTopContainer.createEl("code", {
+      text: `(a: TFile, b: TFile): number`
+    });
+    const customSortingContainer = customSortingTopContainer.createDiv({ cls: "field-container" });
+    const customSorting = new import_obsidian15.TextAreaComponent(customSortingContainer);
+    customSorting.inputEl.cols = 50;
+    customSorting.inputEl.rows = 4;
+    customSorting.inputEl.addClass("full-width");
+    customSorting.setValue(this.field.options.customSorting || "");
+    customSorting.setPlaceholder("Javascript instruction, (a: TFile, b: TFile): number\nexample 1 (alphabetical order): a.basename < b.basename ? 1 : -1 \nexample 2 (creation time newer to older): b.stat.ctime - b.stat.ctime");
+    customSorting.onChange((value) => {
+      this.field.options.customSorting = value;
+      FieldSettingsModal.removeValidationError(customSorting);
+    });
+  }
+  createSettingContainer(parentContainer, plugin, location) {
+    this.createFileContainer(parentContainer);
+  }
+  getOptionsStr() {
+    return this.field.options.dvQueryString || "";
+  }
+  validateOptions() {
+    return true;
+  }
+  createAndOpenFieldModal(file, selectedFieldName, eF, indexedPath, lineNumber, asList, asBlockquote, previousModal) {
+    const fieldModal = this.modalFactory(this.plugin, file, this.field, eF, indexedPath, lineNumber, asList, asBlockquote, previousModal);
+    fieldModal.titleEl.setText(`Enter value for ${selectedFieldName}`);
+    fieldModal.open();
+  }
+  createDvField(dv, p, fieldContainer, attrs = {}) {
+    var _a;
+    attrs.cls = "value-container";
+    fieldContainer.appendChild(dv.el("span", p[this.field.name] || "", attrs));
+    const searchBtn = fieldContainer.createEl("button");
+    (0, import_obsidian15.setIcon)(searchBtn, FieldIcon["File" /* File */]);
+    const spacer = fieldContainer.createEl("div", { cls: "spacer-1" });
+    const file = this.plugin.app.vault.getAbstractFileByPath(p["file"]["path"]);
+    if (file instanceof import_obsidian15.TFile && file.extension == "md") {
+      searchBtn.onclick = async () => await this.buildAndOpenModal(file);
+    } else {
+      searchBtn.onclick = async () => {
+      };
+    }
+    if (!((_a = attrs == null ? void 0 : attrs.options) == null ? void 0 : _a.alwaysOn)) {
+      searchBtn.hide();
+      spacer.show();
+      fieldContainer.onmouseover = () => {
+        searchBtn.show();
+        spacer.hide();
+      };
+      fieldContainer.onmouseout = () => {
+        searchBtn.hide();
+        spacer.show();
+      };
+    }
+  }
+};
+
+// src/modals/fields/SingleFileModal.ts
+var import_obsidian16 = require("obsidian");
+var FileFuzzySuggester = class extends import_obsidian16.FuzzySuggestModal {
+  constructor(plugin, file, field, eF, indexedPath, lineNumber = -1, asList = false, asBlockquote = false, previousModal) {
+    var _a;
+    super(plugin.app);
+    this.plugin = plugin;
+    this.file = file;
+    this.field = field;
+    this.eF = eF;
+    this.indexedPath = indexedPath;
+    this.lineNumber = lineNumber;
+    this.asList = asList;
+    this.asBlockquote = asBlockquote;
+    this.previousModal = previousModal;
+    const initialValueObject = ((_a = this.eF) == null ? void 0 : _a.value) || "";
+    const link = getLink(initialValueObject, this.file);
+    if (link) {
+      const file2 = this.plugin.app.vault.getAbstractFileByPath(link.path);
+      if (file2 instanceof import_obsidian16.TFile)
+        this.selectedFile = file2;
+    }
+    this.containerEl.addClass("metadata-menu");
+  }
+  onClose() {
+    var _a;
+    (_a = this.previousModal) == null ? void 0 : _a.open();
+  }
+  getItems() {
+    const sortingMethod = new Function("a", "b", `return ${this.field.options.customSorting}`) || function(a, b) {
+      return a.basename < b.basename ? -1 : 1;
+    };
+    try {
+      const fileManager = new FieldManager[this.field.type](this.plugin, this.field);
+      return fileManager.getFiles(this.file).sort(sortingMethod);
+    } catch (error) {
+      this.close();
+      throw error;
+    }
+  }
+  getItemText(item) {
+    return item.basename;
+  }
+  renderSuggestion(value, el) {
+    var _a, _b;
+    const dvApi = (_a = this.plugin.app.plugins.plugins.dataview) == null ? void 0 : _a.api;
+    if (dvApi && this.field.options.customRendering) {
+      const suggestionContainer = el.createDiv({ cls: "item-with-add-on" });
+      suggestionContainer.createDiv({
+        text: new Function("page", `return ${this.field.options.customRendering}`)(dvApi.page(value.item.path))
+      });
+      const filePath = suggestionContainer.createDiv({ cls: "add-on" });
+      filePath.setText(value.item.path);
+    } else {
+      el.setText(value.item.basename);
+    }
+    el.addClass("value-container");
+    const spacer = this.containerEl.createDiv({ cls: "spacer" });
+    el.appendChild(spacer);
+    if (((_b = this.selectedFile) == null ? void 0 : _b.path) === value.item.path) {
+      el.addClass("value-checked");
+      const iconContainer = el.createDiv({ cls: "icon-container" });
+      (0, import_obsidian16.setIcon)(iconContainer, "check-circle");
+    }
+    this.inputEl.focus();
+  }
+  async onChooseItem(item) {
+    var _a, _b;
+    const dvApi = (_a = this.plugin.app.plugins.plugins.dataview) == null ? void 0 : _a.api;
+    let alias = void 0;
+    if (dvApi && this.field.options.customRendering) {
+      alias = new Function("page", `return ${this.field.options.customRendering}`)(dvApi.page(item.path));
+    }
+    const value = FileField.buildMarkDownLink(this.plugin, this.file, item.basename, void 0, alias);
+    await postValues(this.plugin, [{ id: this.indexedPath || this.field.id, payload: { value } }], this.file, this.lineNumber, this.asList, this.asBlockquote);
+    (_b = this.previousModal) == null ? void 0 : _b.open();
+  }
+};
+
+// src/fields/fieldManagers/FileField.ts
+var FileField = class extends AbstractFileBasedField {
+  constructor(plugin, field) {
+    super(plugin, field, "File" /* File */);
+  }
+  modalFactory(plugin, file, field, eF, indexedPath, lineNumber = -1, asList = false, asBlockquote = false, previousModal) {
+    return new FileFuzzySuggester(plugin, file, field, eF, indexedPath, lineNumber, asList, asBlockquote, previousModal);
+  }
+  displayValue(container, file, value, onClicked) {
+    const link = getLink(value, file);
+    if (link == null ? void 0 : link.path) {
+      const linkText = link.path.split("/").last() || "";
+      const linkEl = container.createEl("a", { text: linkText.replace(/(.*).md/, "$1") });
+      linkEl.onclick = () => {
+        this.plugin.app.workspace.openLinkText(link.path, file.path, true);
+        onClicked();
+      };
+    } else {
+      container.createDiv({ text: value });
+    }
+    container.createDiv();
+  }
+};
+
+// src/fileClass/views/tableViewComponents/OptionsMultiSelectModal.ts
+var fieldStates = /* @__PURE__ */ ((fieldStates2) => {
+  fieldStates2["__empty__"] = "__empty__";
+  fieldStates2["__notEmpty__"] = "__notEmpty__";
+  fieldStates2["__notFound__"] = "__notFound__";
+  fieldStates2["__existing__"] = "__existing__";
+  return fieldStates2;
+})(fieldStates || {});
+var displayValue = {
+  __empty__: "Empty Fields",
+  __notEmpty__: "Not Empty Fields",
+  __notFound__: "Not Found Fields",
+  __existing__: "Existing Fields"
+};
+var displayIcon = {
+  __empty__: "box-select",
+  __notEmpty__: "plus-square",
+  __notFound__: "x-circle",
+  __existing__: "circle-dot"
+};
+var OptionsMultiSelectModal = class extends import_obsidian17.SuggestModal {
+  constructor(plugin, fileClassFile, field, parentFieldSet) {
+    super(plugin.app);
+    this.plugin = plugin;
+    this.fileClassFile = fileClassFile;
+    this.field = field;
+    this.parentFieldSet = parentFieldSet;
+    this.containerEl.addClass("metadata-menu");
+    const inputContainer = this.containerEl.createDiv({ cls: "suggester-input" });
+    inputContainer.appendChild(this.inputEl);
+    this.containerEl.find(".prompt").prepend(inputContainer);
+    cleanActions(this.containerEl, ".footer-actions");
+    const footerActionsContainer = this.containerEl.createDiv({ cls: "footer-actions" });
+    this.buildFooterActions(footerActionsContainer);
+    const id = this.field === "file" ? "file" : `${this.fileClassFile.basename.replace(/.md$/, "")}____${this.field.name}`;
+    this.input = this.parentFieldSet.filters[id].filter;
+    const initialOptions = this.input.getValue();
+    if (initialOptions) {
+      if (Array.isArray(initialOptions)) {
+        this.selectedOptions = initialOptions.map((item) => {
+          const link = getLink(item, fileClassFile);
+          if (link) {
+            return FileField.buildMarkDownLink(this.plugin, fileClassFile, link.path);
+          } else {
+            return item.toString();
+          }
+        });
+        this.selectedOptions = initialOptions.map((item) => item.toString());
+      } else if (typeof initialOptions === "string" && initialOptions.toString().startsWith("[[")) {
+        this.selectedOptions = initialOptions.split(",").map((item) => item.trim());
+      } else {
+        const link = getLink(initialOptions, fileClassFile);
+        if (link) {
+          this.selectedOptions = [`[[${link.path.replace(".md", "")}]]`];
+        } else if (typeof initialOptions === "string") {
+          this.selectedOptions = initialOptions.toString().replace(/^\[(.*)\]$/, "$1").split(",").map((item) => item.trim());
+        }
+      }
+    } else {
+      this.selectedOptions = [];
+    }
+    this.containerEl.onkeydown = async (e) => {
+      if (e.key == "Enter" && e.altKey) {
+        await this.replaceValues();
+        this.close();
+      }
+    };
+  }
+  getSuggestions(query) {
+    if (this.field === "file") {
+      return [];
+    } else {
+      const commonStates = Object.keys(fieldStates);
+      const field = this.field;
+      switch (field.type) {
+        case "Boolean" /* Boolean */: {
+          return [...commonStates, "true", "false"];
+        }
+        case "Multi" /* Multi */:
+        case "Select" /* Select */: {
+          const fieldManager = new FieldManager[field.type](this.plugin, this.field);
+          const values = fieldManager.getOptionsList().filter((o) => String(o).toLowerCase().includes(query.toLowerCase()));
+          return [...commonStates, ...values];
+        }
+        case "MultiFile" /* MultiFile */:
+        case "File" /* File */: {
+          const sortingMethod = new Function("a", "b", `return ${field.options.customSorting}`) || function(a, b) {
+            return a.basename < b.basename ? -1 : 1;
+          };
+          try {
+            const fileManager = new FieldManager[field.type](this.plugin, this.field);
+            const values = fileManager.getFiles().sort(sortingMethod).map((item) => item.basename.trim().replace(/\[\[|\]\]/g, "")).filter((o) => String(o).toLowerCase().includes(query.toLowerCase()));
+            return ["__empty__", "__notEmpty__", ...values];
+          } catch (error) {
+            return [];
+          }
+        }
+        case "Lookup" /* Lookup */: {
+          const _values = [...this.plugin.fieldIndex.fileLookupFieldLastValue.entries()].filter(([fieldId, lookupFiles]) => {
+            return fieldId.endsWith(`__related__${this.fileClassFile.basename}___${this.field.name}`) && lookupFiles !== "";
+          }).map(([fieldId, lookupFiles]) => lookupFiles).join(",");
+          const values = [...new Set(
+            _values.split(",").map((item) => item.trim().replace(/\[\[|\]\]/g, "")).filter((o) => String(o).toLowerCase().includes(query.toLowerCase()))
+          )];
+          return [...commonStates, ...values];
+        }
+        default:
+          return [...commonStates];
+      }
+    }
+  }
+  buildFooterActions(footerActionsContainer) {
+    footerActionsContainer.createDiv({ cls: "spacer" });
+    this.buildConfirm(footerActionsContainer);
+    const cancelButton = new import_obsidian17.ButtonComponent(footerActionsContainer);
+    cancelButton.setIcon("cross");
+    cancelButton.onClick(() => this.close());
+    cancelButton.setTooltip("Cancel");
+    const clearButton = new import_obsidian17.ButtonComponent(footerActionsContainer);
+    clearButton.setIcon("filter-x");
+    clearButton.setTooltip("Clear filtered value(s)");
+    clearButton.onClick(async () => {
+      this.input.setValue("");
+      this.parentFieldSet.tableView.update();
+      this.parentFieldSet.tableView.saveViewBtn.setCta();
+      this.close();
+    });
+    clearButton.buttonEl.addClass("danger");
+    this.modalEl.appendChild(footerActionsContainer);
+  }
+  buildConfirm(footerActionsContainer) {
+    const infoContainer = footerActionsContainer.createDiv({ cls: "info" });
+    infoContainer.setText("Alt+Enter to save");
+    const confirmButton = new import_obsidian17.ButtonComponent(footerActionsContainer);
+    confirmButton.setIcon("checkmark");
+    confirmButton.onClick(async () => {
+      await this.replaceValues();
+      this.close();
+    });
+  }
+  async replaceValues() {
+    const options2 = this.selectedOptions;
+    this.input.inputEl.value = options2.join(", ");
+    this.parentFieldSet.tableView.update();
+    this.parentFieldSet.tableView.saveViewBtn.setCta();
+    this.close();
+  }
+  renderSelected() {
+    const chooser = this.chooser;
+    const suggestions = chooser.suggestions;
+    const values = chooser.values;
+    suggestions.forEach((s, i) => {
+      if (this.selectedOptions.includes(values[i].toString())) {
+        s.addClass("value-checked");
+        if (s.querySelectorAll(".icon-container").length == 0) {
+          const iconContainer = s.createDiv({ cls: "icon-container" });
+          (0, import_obsidian17.setIcon)(iconContainer, "check-circle");
+        }
+      } else {
+        s.removeClass("value-checked");
+        s.querySelectorAll(".icon-container").forEach((icon) => icon.remove());
+      }
+    });
+  }
+  renderSuggestion(value, el) {
+    const labelContainer = el.createDiv({ cls: "label-with-icon-container" });
+    const icon = labelContainer.createDiv({ cls: "icon" });
+    if (Object.keys(fieldStates).includes(value)) {
+      (0, import_obsidian17.setIcon)(icon, displayIcon[value]);
+    }
+    const label = labelContainer.createDiv({ cls: "label" });
+    let labelText = "";
+    if (Object.keys(fieldStates).includes(value)) {
+      labelText = displayValue[value];
+    } else {
+      labelText = `${value.slice(0, 50)}${value.length > 50 ? "..." : ""}`;
+    }
+    label.setText(labelText);
+    el.addClass("value-container");
+    const spacer = this.containerEl.createDiv({ cls: "spacer" });
+    el.appendChild(spacer);
+    if (this.selectedOptions.includes(value.toString())) {
+      el.addClass("value-checked");
+      const iconContainer = el.createDiv({ cls: "icon-container" });
+      (0, import_obsidian17.setIcon)(iconContainer, "check-circle");
+    }
+    this.inputEl.focus();
+  }
+  selectSuggestion(value, evt) {
+    if (this.selectedOptions.includes(value.toString())) {
+      this.selectedOptions.remove(value.toString());
+    } else {
+      if (Object.keys(fieldStates).includes(value)) {
+        this.selectedOptions = [value];
+      } else {
+        this.selectedOptions = [...this.selectedOptions.filter((o) => !Object.keys(fieldStates).includes(o))];
+        this.selectedOptions.push(value.toString());
+      }
+    }
+    this.renderSelected();
+  }
+  onChooseSuggestion(item, evt) {
+  }
+};
+
+// src/fileClass/views/tableViewComponents/CustomFilterModal.ts
+var import_obsidian18 = require("obsidian");
+var CustomFilterModal = class extends import_obsidian18.Modal {
+  constructor(plugin, parentFieldSet, filterComponent) {
+    super(plugin.app);
+    this.plugin = plugin;
+    this.parentFieldSet = parentFieldSet;
+    this.filterComponent = filterComponent;
+    this.containerEl.addClass("metadata-menu");
+    this.titleEl.setText("Enter a custom filtering function");
+    this.buildInput();
+    cleanActions(this.containerEl, ".footer-actions");
+    const footerActionsContainer = this.containerEl.createDiv({ cls: "footer-actions" });
+    this.buildFooterActions(footerActionsContainer);
+  }
+  buildInput() {
+    this.contentEl.createDiv({ cls: "info-code" }).createEl("code", { text: `(value: string, current: Object): boolean => {` });
+    this.contentEl.createDiv({ cls: "info-code" }).createEl("code", { text: `/*` });
+    this.contentEl.createDiv({ cls: "info-code" }).createEl("code", { text: `value is the value of the file's ${this.filterComponent.name} field` });
+    this.contentEl.createDiv({ cls: "info-code" }).createEl("code", { text: `current is the current page (dv.page) if this view is embedded in a codeblock` });
+    this.contentEl.createDiv({ cls: "info-code" }).createEl("code", { text: `returns a boolean, ` });
+    this.contentEl.createDiv({ cls: "info-code" }).createEl("code", { text: `double quote have to be escaped like this \\", ` });
+    this.contentEl.createDiv({ cls: "info-code" }).createEl("code", { text: `example:` });
+    this.contentEl.createDiv({ cls: "info-code" }).createEl("code", { text: `return value < current.priority;` });
+    this.contentEl.createDiv({ cls: "info-code" }).createEl("code", { text: `*/` });
+    const subContent = this.contentEl.createDiv({ cls: "field-container" });
+    this.filterFunctionInput = new import_obsidian18.TextAreaComponent(subContent).setValue(this.filterComponent.customFilter || "").onChange(() => {
+      this.confirmButton.setCta();
+    });
+    this.filterFunctionInput.inputEl.rows = 6;
+    this.filterFunctionInput.inputEl.addClass("full-width");
+    this.contentEl.createDiv({ cls: "info-code" }).createEl("code", { text: "};" });
+  }
+  updateCustomFilter() {
+    this.filterComponent.customFilter = this.filterFunctionInput.getValue();
+    this.filterComponent.toggleCustomFilterState();
+    this.parentFieldSet.tableView.update();
+    this.parentFieldSet.tableView.saveViewBtn.setCta();
+  }
+  buildConfirm(footerActionsContainer) {
+    const infoContainer = footerActionsContainer.createDiv({ cls: "info" });
+    infoContainer.setText("Alt+Enter to save");
+    this.confirmButton = new import_obsidian18.ButtonComponent(footerActionsContainer);
+    this.confirmButton.setIcon("checkmark");
+    this.confirmButton.onClick(() => {
+      if (true)
+        this.updateCustomFilter();
+      this.close();
+    });
+  }
+  buildFooterActions(footerActionsContainer) {
+    footerActionsContainer.createDiv({ cls: "spacer" });
+    this.buildConfirm(footerActionsContainer);
+    const cancelButton = new import_obsidian18.ButtonComponent(footerActionsContainer);
+    cancelButton.setIcon("cross");
+    cancelButton.onClick(() => this.close());
+    cancelButton.setTooltip("Cancel");
+    const refreshButton = new import_obsidian18.ButtonComponent(footerActionsContainer);
+    refreshButton.setIcon("refresh-ccw");
+    refreshButton.setTooltip("Cancel changes");
+    refreshButton.onClick(async () => {
+      this.filterFunctionInput.setValue(this.filterComponent.customFilter);
+      this.confirmButton.removeCta();
+    });
+    const resetButton = new import_obsidian18.ButtonComponent(footerActionsContainer);
+    resetButton.setIcon("eraser");
+    resetButton.setTooltip("Reset initial ordering");
+    resetButton.onClick(async () => {
+      this.filterFunctionInput.setValue("");
+      this.filterComponent.toggleCustomFilterState();
+      this.confirmButton.setCta();
+    });
+    this.modalEl.appendChild(footerActionsContainer);
+  }
+};
+
+// src/fileClass/views/tableViewComponents/FilterComponent.ts
+var FilterComponent = class {
+  constructor(fileClass, container, name, parentFieldSet, debounced) {
+    this.fileClass = fileClass;
+    this.container = container;
+    this.name = name;
+    this.parentFieldSet = parentFieldSet;
+    this.debounced = debounced;
+    this.id = `${fileClass.name}____${this.name}`;
+    this.build();
+  }
+  build() {
+    this.filter = new import_obsidian19.TextComponent(this.container);
+    this.container.addClass("filter-with-dropdown");
+    this.filter.setValue("");
+    this.filter.onChange((value) => {
+      this.filter.inputEl.value = value;
+      this.debounced(this.parentFieldSet);
+    });
+    if (this.name !== "file") {
+      this.buildDropdownBtn();
+    }
+    this.buildCustomFilterBtn();
+  }
+  buildDropdownBtn() {
+    var _a;
+    const button = this.container.createEl("button", { cls: "infield-button" });
+    (_a = this.filter.inputEl.parentElement) == null ? void 0 : _a.appendChild(button);
+    (0, import_obsidian19.setIcon)(button, "chevron-down");
+    button.onclick = () => {
+      var _a2;
+      const plugin = this.parentFieldSet.plugin;
+      const fileClassFile = this.fileClass.getClassFile();
+      const field = (_a2 = plugin.fieldIndex.fileClassesFields.get(this.fileClass.name)) == null ? void 0 : _a2.find((f) => f.isRoot() && f.name === this.name);
+      new OptionsMultiSelectModal(plugin, fileClassFile, field || "file", this.parentFieldSet).open();
+    };
+  }
+  toggleCustomFilterState() {
+    if (this.customFilter)
+      this.filterBtn.buttonEl.addClass("active");
+    else
+      this.filterBtn.buttonEl.removeClass("active");
+  }
+  buildCustomFilterBtn() {
+    var _a;
+    this.filterBtn = new import_obsidian19.ButtonComponent(this.container);
+    this.filterBtn.buttonEl.addClass("infield-button");
+    (_a = this.filter.inputEl.parentElement) == null ? void 0 : _a.appendChild(this.filterBtn.buttonEl);
+    this.filterBtn.setIcon("code-2");
+    this.filterBtn.onClick(() => {
+      const plugin = this.parentFieldSet.plugin;
+      new CustomFilterModal(plugin, this.parentFieldSet, this).open();
+    });
+  }
+};
+
+// src/fileClass/views/tableViewComponents/FieldComponent.ts
+var FieldComponent = class {
+  constructor(fileClass, container, parentFieldSet, name, label, columnPosition, rowPriority, isColumnHidden = false, rowSortingDirection = void 0, query = "", customOrder = []) {
+    this.fileClass = fileClass;
     this.container = container;
     this.parentFieldSet = parentFieldSet;
     this.name = name;
@@ -3225,28 +4062,32 @@ var Field = class {
     this.isColumnHidden = isColumnHidden;
     this.rowSortingDirection = rowSortingDirection;
     this.query = query;
+    this.customOrder = customOrder;
+    this.id = `${this.fileClass.name}____${this.name}`;
     this.buildFieldHeaderComponent();
-    this.buildFilterComponent();
+    this.buildFieldComponent();
   }
   canMove(direction) {
-    return !(this.columnPosition === 0 && direction === "left" || this.columnPosition === this.parentFieldSet.fields.length - 1 && direction === "right");
+    return !(this.columnPosition === 0 && direction === "left" || this.columnPosition === this.parentFieldSet.fieldComponents.length - 1 && direction === "right");
   }
   buildColumnMoverBtn(component) {
     const buildBtn = (direction) => {
-      const btn = new import_obsidian14.ButtonComponent(component);
+      const btn = new import_obsidian20.ButtonComponent(component);
       btn.setIcon(btnIcons[direction]);
       btn.onClick(() => {
         if (this.canMove(direction)) {
-          this.parentFieldSet.moveColumn(this.name, direction);
+          this.parentFieldSet.moveColumn(this.id, direction);
           this.parentFieldSet.reorderFields();
-          this.parentFieldSet.tableView.udpate();
+          this.parentFieldSet.tableView.update();
+          this.parentFieldSet.tableView.saveViewBtn.setCta();
         }
       });
       return btn;
     };
     const leftBtn = buildBtn("left");
     const rightBtn = buildBtn("right");
-    this.parentFieldSet.columnManagers[this.name] = {
+    this.parentFieldSet.columnManagers[this.id] = {
+      id: this.id,
       name: this.name,
       hidden: false,
       leftBtn,
@@ -3254,89 +4095,109 @@ var Field = class {
       position: this.columnPosition
     };
   }
-  buildRowSorterButtons(component) {
-    const buildSorterBtn = (direction) => {
-      const btn = new import_obsidian14.ButtonComponent(component);
-      btn.setIcon(btnIcons[direction]);
-      btn.onClick(() => {
-        this.parentFieldSet.toggleRowSorterButtonsState(this.name, direction);
-        this.parentFieldSet.tableView.udpate();
-      });
-      return btn;
-    };
-    const ascBtn = buildSorterBtn("asc");
-    const descBtn = buildSorterBtn("desc");
-    this.parentFieldSet.rowSorters[this.name] = {
-      name: this.name,
-      ascBtn,
-      descBtn,
-      priority: this.rowPriority,
-      direction: this.rowSortingDirection
-    };
+  buildRowSorterComponent(fileClass, fieldHeader) {
+    const rowSorterComponent = new RowSorterComponent(
+      this.parentFieldSet,
+      fileClass,
+      fieldHeader,
+      this.name,
+      this.rowSortingDirection,
+      this.rowPriority,
+      this.customOrder
+    );
+    this.parentFieldSet.rowSorters[this.id] = rowSorterComponent;
   }
   setVisibilityButtonState(isHidden) {
     this.isColumnHidden = isHidden;
-    this.parentFieldSet.columnManagers[this.name].hidden = this.isColumnHidden;
+    this.parentFieldSet.columnManagers[this.id].hidden = this.isColumnHidden;
     this.visibilityButton.setIcon(this.isColumnHidden ? "eye-off" : "eye");
-    this.parentFieldSet.tableView.udpate();
   }
   buildVisibilityBtn(component) {
-    this.visibilityButton = new import_obsidian14.ButtonComponent(component).setIcon(this.isColumnHidden ? "eye-off" : "eye").onClick(() => this.setVisibilityButtonState(!this.isColumnHidden));
+    this.visibilityButton = new import_obsidian20.ButtonComponent(component).setIcon(this.isColumnHidden ? "eye-off" : "eye").onClick(() => {
+      this.setVisibilityButtonState(!this.isColumnHidden);
+      this.parentFieldSet.tableView.update();
+      this.parentFieldSet.tableView.saveViewBtn.setCta();
+    });
   }
   buildFieldHeaderComponent() {
     var _a;
+    if (this.parentFieldSet.children.length) {
+      this.container.createDiv({
+        text: this.fileClass.name,
+        cls: "field-fileclass-header"
+      });
+    }
     const container = this.container.createDiv({ cls: "field-header" });
-    this.buildRowSorterButtons(container);
+    this.buildRowSorterComponent(this.fileClass, container);
     const prioAndLabelContainer = container.createDiv({ cls: "label-container" });
     prioAndLabelContainer.createDiv({ text: this.label, cls: "field-name" });
-    const priorityLabel = ((_a = this.parentFieldSet.rowSorters[this.name]) == null ? void 0 : _a.priority) ? `(${this.parentFieldSet.rowSorters[this.name].priority})` : "";
+    const priorityLabel = ((_a = this.parentFieldSet.rowSorters[this.id]) == null ? void 0 : _a.priority) ? `(${this.parentFieldSet.rowSorters[this.id].priority})` : "";
     this.priorityLabelContainer = prioAndLabelContainer.createDiv({ cls: "priority", text: priorityLabel });
     this.buildVisibilityBtn(container);
     this.buildColumnMoverBtn(container);
   }
-  buildFilterComponent() {
+  buildFilter(name, debounced) {
     const fieldFilterContainer = this.container.createDiv({ cls: "filter-input" });
-    const filter = new import_obsidian14.TextComponent(fieldFilterContainer);
-    const debounced = (0, import_obsidian14.debounce)((fieldset) => fieldset.tableView.udpate(), 1e3, true);
-    filter.setValue("");
-    filter.onChange((value) => {
-      this.parentFieldSet.filters[this.name].inputEl.value = value;
-      debounced(this.parentFieldSet);
-    });
-    this.parentFieldSet.filters[this.name] = filter;
+    const filterComponent = new FilterComponent(this.fileClass, fieldFilterContainer, name, this.parentFieldSet, debounced);
+    this.parentFieldSet.filters[filterComponent.id] = filterComponent;
+  }
+  buildFieldComponent() {
+    var _a;
+    const field = (_a = this.parentFieldSet.plugin.fieldIndex.fileClassesFields.get(this.parentFieldSet.fileClass.name)) == null ? void 0 : _a.find((f) => f.name === this.name);
+    const debounced = (0, import_obsidian20.debounce)((fieldset) => {
+      fieldset.tableView.update();
+      this.parentFieldSet.tableView.saveViewBtn.setCta();
+    }, 1e3, true);
+    this.buildFilter((field == null ? void 0 : field.name) || "file", debounced);
   }
 };
-var FieldSet = class {
+
+// src/fileClass/views/tableViewComponents/tableViewFieldSet.ts
+var btnIcons = {
+  "asc": "chevron-up",
+  "desc": "chevron-down",
+  "left": "chevron-left",
+  "right": "chevron-right"
+};
+var FieldSet4 = class {
   constructor(tableView, container) {
     this.tableView = tableView;
     this.container = container;
-    this.fields = [];
+    this.fieldComponents = [];
     this.filters = {};
     this.rowSorters = {};
     this.columnManagers = {};
-    var _a;
     this.plugin = tableView.plugin;
-    this.fileClass = tableView.fileClass;
-    const fileFieldContainer = container.createDiv({ cls: "field-container" });
-    const fileField = new Field(fileFieldContainer, this, "file", "File Name", 0);
-    this.fields.push(fileField);
-    const fields = ((_a = this.plugin.fieldIndex.fileClassesFields.get(this.fileClass.name)) == null ? void 0 : _a.filter((_f) => _f.isRoot())) || [];
-    for (const [index, field] of fields.entries()) {
-      const fieldContainer = container.createDiv({ cls: "field-container" });
-      this.fields.push(new Field(fieldContainer, this, field.name, field.name, index + 1));
-    }
+    this.build();
+  }
+  build(children) {
+    this.fileClass = this.plugin.fieldIndex.fileClassesName.get(this.tableView.fileClass.name);
+    this.children = children || this.fileClass.getViewChildren(this.tableView.manager.selectedView);
+    this.fileClasses = [this.fileClass, ...this.children.map((c) => c.fileClass)];
+    this.container.replaceChildren();
+    this.fieldComponents = [];
+    const fileFieldContainer = this.container.createDiv({ cls: "field-container" });
+    const fieldComponent = new FieldComponent(this.fileClass, fileFieldContainer, this, "file", "File Name", 0);
+    this.fieldComponents.push(fieldComponent);
+    let index = 0;
+    [this.fileClass, ...this.children.map((c) => c.fileClass)].forEach((_fC) => {
+      var _a;
+      const fields = ((_a = this.plugin.fieldIndex.fileClassesFields.get(_fC.name)) == null ? void 0 : _a.filter((_f) => _f.isRoot())) || [];
+      for (const [_index, field] of fields.entries()) {
+        const fieldContainer = this.container.createDiv({ cls: "field-container" });
+        this.fieldComponents.push(new FieldComponent(_fC, fieldContainer, this, field.name, field.name, _index + index + 1));
+      }
+      index += fields.length;
+    });
   }
   reorderFields() {
-    this.fields.sort((f1, f2) => f1.columnPosition - f2.columnPosition).forEach((field) => this.container.appendChild(field.container));
+    this.fieldComponents.sort((f1, f2) => f1.columnPosition - f2.columnPosition).forEach((field) => this.container.appendChild(field.container));
   }
-  getMaxRowSorterPriority() {
-    return Object.values(this.rowSorters).reduce((intermediateMax, currentSorter) => Math.max(intermediateMax, currentSorter.priority || 0), 0);
-  }
-  moveColumn(name, direction) {
-    const currentPosition = this.columnManagers[name].position;
-    Object.keys(this.columnManagers).forEach((_name) => {
-      const mover = this.columnManagers[_name];
-      const field = this.fields.find((f) => f.name === _name);
+  moveColumn(id, direction) {
+    const currentPosition = this.columnManagers[id].position;
+    Object.keys(this.columnManagers).forEach((_id) => {
+      const mover = this.columnManagers[_id];
+      const field = this.fieldComponents.find((f) => f.id === _id);
       switch (direction) {
         case "left":
           if (mover.position === currentPosition - 1) {
@@ -3365,95 +4226,102 @@ var FieldSet = class {
       }
     });
   }
-  toggleRowSorterButtonsState(name, direction) {
-    const rowSorter = this.rowSorters[name];
-    const { ascBtn, descBtn } = rowSorter;
-    rowSorter.direction = rowSorter.direction === direction ? void 0 : direction;
-    switch (rowSorter.direction) {
-      case void 0:
-        ascBtn.buttonEl.removeClass("active");
-        descBtn.buttonEl.removeClass("active");
-        break;
-      case "asc":
-        ascBtn.buttonEl.addClass("active");
-        descBtn.buttonEl.removeClass("active");
-        break;
-      case "desc":
-        ascBtn.buttonEl.removeClass("active");
-        descBtn.buttonEl.addClass("active");
-        break;
-    }
-    if (!rowSorter.direction) {
-      this.changeRowSorterPriority(name, void 0);
-    } else {
-      if (!this.rowSorters[name].priority) {
-        const newPriority = this.getMaxRowSorterPriority() + 1;
-        this.changeRowSorterPriority(name, newPriority);
-      }
-    }
+  reset(children, updateNeeded = true) {
+    this.rowSorters = {};
+    this.filters = {};
+    this.columnManagers = {};
+    this.build(children);
+    if (updateNeeded)
+      this.tableView.update();
+    this.tableView.saveViewBtn.setCta();
   }
-  changeRowSorterPriority(name, priority) {
-    const currentPriority = this.rowSorters[name].priority;
-    Object.keys(this.rowSorters).forEach((_name) => {
-      const field = this.fields.find((f) => f.name === _name);
-      const sorter = this.rowSorters[_name];
-      if (_name == name) {
-        sorter.priority = !currentPriority ? priority : void 0;
-        field.priorityLabelContainer.textContent = sorter.priority ? `(${sorter.priority})` : "";
-      } else if (currentPriority && sorter.priority && !priority && sorter.priority > currentPriority) {
-        sorter.priority = sorter.priority - 1;
-        field.priorityLabelContainer.textContent = `(${sorter.priority})`;
-      }
+  getParams() {
+    const children = this.children;
+    const filters = Object.entries(this.filters).map(([id, filterComponent]) => {
+      return {
+        id,
+        name: filterComponent.name,
+        query: filterComponent.filter.getValue(),
+        customFilter: filterComponent.customFilter
+      };
     });
-  }
-  resetRowSorters() {
-    Object.keys(this.rowSorters).forEach((_name) => {
-      const sorter = this.rowSorters[_name];
-      sorter.priority = void 0;
-      sorter.direction = void 0;
-      sorter.ascBtn.buttonEl.removeClass("active");
-      sorter.descBtn.buttonEl.removeClass("active");
-      const field = this.fields.find((f) => f.name === _name);
-      field.priorityLabelContainer.textContent = "";
+    const sorters = Object.entries(this.rowSorters).filter(([id, s]) => {
+      var _a;
+      return s.direction !== void 0 || ((_a = s.customOrder) == null ? void 0 : _a.length);
+    }).map(([id, sorter]) => {
+      return {
+        id,
+        name: sorter.name,
+        direction: sorter.direction || "asc",
+        priority: sorter.priority || 0,
+        customOrder: sorter.customOrder || []
+      };
     });
-  }
-  resetFilters() {
-    Object.keys(this.filters).forEach((name) => this.filters[name].inputEl.value = "");
+    const columns = Object.entries(this.columnManagers).map(([id, columnManager]) => {
+      return {
+        id,
+        name: columnManager.name,
+        hidden: columnManager.hidden,
+        position: columnManager.position
+      };
+    });
+    return {
+      children: children.map((c) => c.name),
+      filters,
+      sorters,
+      columns
+    };
   }
   resetColumnManagers() {
+    Object.keys(this.columnManagers).forEach((id) => {
+      const fCFields = [];
+      this.fileClasses.forEach((fC) => {
+        var _a, _b;
+        (_b = (_a = this.plugin.fieldIndex.fileClassesFields.get(this.fileClass.name)) == null ? void 0 : _a.filter((_f) => _f.isRoot())) == null ? void 0 : _b.forEach((_f) => {
+          fCFields.push(_f);
+        });
+      });
+      for (const [_index, _field] of fCFields.entries()) {
+        const field = this.fieldComponents.find((f) => f.name === _field.name && f.fileClass.name === _field.fileClassName);
+        if (field && field.id === id) {
+          field.columnPosition = _index + 1;
+          field.setVisibilityButtonState(false);
+          this.columnManagers[id].position = _index + 1;
+        }
+      }
+      if (id === "file") {
+        const field = this.fieldComponents.find((f) => f.name === "file");
+        if (field) {
+          field.columnPosition = 0;
+          field.setVisibilityButtonState(false);
+          this.columnManagers[id].position = 0;
+        }
+      }
+    });
   }
-  reset() {
-    this.resetRowSorters();
-    this.resetFilters();
-    this.resetColumnManagers();
-  }
-  changeView(_name) {
-    var _a;
+  changeView(_name, updateNeeded = true) {
     const options2 = this.fileClass.getFileClassOptions();
     const savedViews = options2.savedViews || [];
-    this.reset();
+    this.tableView.manager.selectedView = _name || "";
+    this.reset(void 0, updateNeeded);
     if (_name && savedViews.find((view) => view.name === _name)) {
       const savedView = savedViews.find((view) => view.name === _name);
-      Object.keys(this.filters).forEach((name) => {
-        var _a2;
-        this.filters[name].inputEl.value = ((_a2 = savedView == null ? void 0 : savedView.filters.find((f) => f.name === name)) == null ? void 0 : _a2.query) || "";
+      Object.keys(this.filters).forEach((id) => {
+        const filterComponent = this.filters[id];
+        const savedFilter = savedView == null ? void 0 : savedView.filters.find((f) => f.id === id || !f.id && f.name === filterComponent.name);
+        filterComponent.filter.inputEl.value = (savedFilter == null ? void 0 : savedFilter.query) || "";
+        filterComponent.customFilter = (savedFilter == null ? void 0 : savedFilter.customFilter) || "";
+        filterComponent.toggleCustomFilterState();
       });
-      Object.keys(this.rowSorters).forEach((name) => {
-        var _a2;
-        const rowSorter = this.rowSorters[name];
-        const savedSorter = (_a2 = savedView == null ? void 0 : savedView.sorters) == null ? void 0 : _a2.find((f) => f.name === name);
+      Object.keys(this.rowSorters).forEach((id) => {
+        var _a;
+        const rowSorter = this.rowSorters[id];
+        const savedSorter = (_a = savedView == null ? void 0 : savedView.sorters) == null ? void 0 : _a.find((f) => f.id === id || !f.id && f.name === rowSorter.name);
         if (savedSorter) {
-          rowSorter.direction = savedSorter.direction;
           rowSorter.priority = savedSorter.priority;
-          switch (rowSorter.direction) {
-            case "asc":
-              rowSorter.ascBtn.setClass("active");
-              break;
-            case "desc":
-              rowSorter.descBtn.setClass("active");
-              break;
-          }
-          const field = this.fields.find((f) => f.name === name);
+          rowSorter.customOrder = savedSorter.customOrder;
+          rowSorter.toggleRowSorterButtonsState(savedSorter.direction);
+          const field = this.fieldComponents.find((f) => f.id === id);
           field.priorityLabelContainer.textContent = `(${savedSorter.priority})`;
         } else {
           rowSorter.direction = void 0;
@@ -3461,87 +4329,69 @@ var FieldSet = class {
           rowSorter.descBtn.buttonEl.removeClass("active");
         }
       });
-      Object.keys(this.columnManagers).forEach((name) => {
-        const mover = this.columnManagers[name];
-        const field = this.fields.find((f) => f.name === name);
+      Object.keys(this.columnManagers).forEach((id) => {
+        const mover = this.columnManagers[id];
+        const field = this.fieldComponents.find((f) => f.id === id || !f.id && f.name === mover.name);
         for (const column of savedView.columns || []) {
-          if (column.name === name) {
+          if (column.id === id) {
             mover.position = column.position;
             field.columnPosition = column.position;
             field.setVisibilityButtonState(column.hidden);
           }
         }
       });
-      this.reorderFields();
-    } else {
-      const fCFields = ((_a = this.plugin.fieldIndex.fileClassesFields.get(this.fileClass.name)) == null ? void 0 : _a.filter((_f) => _f.isRoot())) || [];
-      Object.keys(this.filters).forEach((name) => this.filters[name].inputEl.value = "");
-      Object.keys(this.rowSorters).forEach((name) => {
-        this.rowSorters[name].ascBtn.buttonEl.removeClass("active");
-        this.rowSorters[name].descBtn.buttonEl.removeClass("active");
-      });
-      Object.keys(this.columnManagers).forEach((name) => {
-        for (const [_index, _field] of fCFields.entries()) {
-          const field = this.fields.find((f) => f.name === _field.name);
-          if (field && field.name === name) {
-            field.columnPosition = _index + 1;
-            this.columnManagers[name].position = _index + 1;
-          }
-        }
-        if (name === "file") {
-          const field = this.fields.find((f) => f.name === "file");
-          if (field) {
-            field.columnPosition = 0;
-            field.setVisibilityButtonState(false);
-            this.columnManagers[name].position = 0;
-          }
-        }
-      });
-      this.reorderFields();
     }
+    this.reorderFields();
   }
 };
 
-// src/fileClass/tableViewModal.ts
-var import_obsidian15 = require("obsidian");
+// src/fileClass/views/tableViewComponents/saveViewModal.ts
+var import_obsidian21 = require("obsidian");
 var SavedView = class {
   constructor(name) {
     this.name = name;
+    this.children = [];
     this.sorters = [];
     this.filters = [];
     this.columns = [];
   }
   buildFilters(filters) {
-    Object.entries(filters).forEach(([name, query]) => {
+    Object.entries(filters).forEach(([id, filterComponent]) => {
       this.filters.push({
-        name,
-        query: query.inputEl.value
+        id,
+        name: filterComponent.name,
+        query: filterComponent.filter.inputEl.value,
+        customFilter: filterComponent.customFilter
       });
     });
   }
   buildRowSorters(rowSorters) {
-    Object.keys(rowSorters).forEach((name) => {
-      const sorter = rowSorters[name];
-      if (sorter.direction) {
+    Object.keys(rowSorters).forEach((id) => {
+      var _a;
+      const sorter = rowSorters[id];
+      if (sorter.direction || ((_a = sorter.customOrder) == null ? void 0 : _a.length)) {
         this.sorters.push({
+          id,
           name: sorter.name,
-          direction: sorter.direction,
-          priority: sorter.priority || 0
+          direction: sorter.direction || "asc",
+          priority: sorter.priority || 0,
+          customOrder: sorter.customOrder || []
         });
       }
     });
   }
   buildColumnManagers(columnManagers) {
-    Object.entries(columnManagers).forEach(([name, column]) => {
+    Object.entries(columnManagers).forEach(([id, column]) => {
       this.columns.push({
-        name,
+        id,
+        name: column.name,
         hidden: column.hidden,
         position: column.position
       });
     });
   }
 };
-var CreateSavedViewModal = class extends import_obsidian15.Modal {
+var CreateSavedViewModal = class extends import_obsidian21.Modal {
   constructor(plugin, view) {
     super(plugin.app);
     this.view = view;
@@ -3555,6 +4405,7 @@ var CreateSavedViewModal = class extends import_obsidian15.Modal {
       }
     };
     this.savedView = new SavedView("");
+    this.savedView.children = view.fieldSet.children.map((c) => c.name);
     this.savedView.buildFilters(view.fieldSet.filters);
     this.savedView.buildRowSorters(view.fieldSet.rowSorters);
     this.savedView.buildColumnManagers(view.fieldSet.columnManagers);
@@ -3564,7 +4415,7 @@ var CreateSavedViewModal = class extends import_obsidian15.Modal {
   buildModal() {
     const nameContainer = this.contentEl.createDiv({ cls: "field-container" });
     nameContainer.createDiv({ text: `Saved view name`, cls: "label" });
-    const nameInput = new import_obsidian15.TextComponent(nameContainer);
+    const nameInput = new import_obsidian21.TextComponent(nameContainer);
     nameInput.inputEl.addClass("with-label");
     nameInput.inputEl.addClass("full-width");
     const nameErrorContainer = this.contentEl.createDiv({ cls: "field-error", text: `This ${this.savedView.name} view name already exists` });
@@ -3573,54 +4424,522 @@ var CreateSavedViewModal = class extends import_obsidian15.Modal {
     actionsContainer.createDiv({ cls: "spacer" });
     const infoContainer = actionsContainer.createDiv({ cls: "info" });
     infoContainer.setText("Alt+Enter to save");
-    const saveBtn = new import_obsidian15.ButtonComponent(actionsContainer);
+    const saveBtn = new import_obsidian21.ButtonComponent(actionsContainer);
     saveBtn.setDisabled(true);
     saveBtn.setIcon("file-plus-2");
     nameErrorContainer.hide();
     nameInput.onChange(async (value) => {
-      var _a;
-      this.savedView.name = nameInput.getValue();
+      this.savedView.name = value;
       nameErrorContainer.hide();
       saveBtn.setDisabled(false);
       saveBtn.setCta();
-      if ((_a = this.view.fileClass.options.savedViews) == null ? void 0 : _a.some((view) => view.name === this.savedView.name)) {
-        nameErrorContainer.show();
-        saveBtn.setDisabled(true);
-        saveBtn.removeCta();
-      } else {
-        saveBtn.setDisabled(false);
-        saveBtn.setCta();
-      }
     });
     saveBtn.onClick(async () => {
       await this.save();
     });
+    if (this.view.selectedView) {
+      nameInput.setValue(this.view.selectedView);
+      this.savedView.name = this.view.selectedView;
+      saveBtn.setDisabled(false);
+      saveBtn.setCta();
+    }
   }
   async save() {
+    var _a;
     const options2 = this.view.fileClass.getFileClassOptions();
-    options2.savedViews = [...options2.savedViews || [], this.savedView];
+    options2.savedViews = [...((_a = options2.savedViews) == null ? void 0 : _a.filter((v) => v.name !== this.savedView.name)) || [], this.savedView];
     await this.view.fileClass.updateOptions(options2);
     this.view.selectedView = this.savedView.name;
     this.view.favoriteBtn.buttonEl.disabled = false;
-    this.view.udpate();
+    this.view.update();
+    this.view.saveViewBtn.removeCta();
     this.close();
   }
 };
 
-// src/fileClass/fileClassTableView.ts
+// src/fileClass/views/tableViewComponents/fileClassDataviewTable.ts
+var import_obsidian22 = require("obsidian");
+var FileClassDataviewTable = class {
+  constructor(viewConfiguration, view, fileClass, maxRow, sliceStart = 0, ctx) {
+    this.viewConfiguration = viewConfiguration;
+    this.view = view;
+    this.fileClass = fileClass;
+    this.sliceStart = sliceStart;
+    this.ctx = ctx;
+    this.ranges = [];
+    this.limitWrapped = false;
+    this.plugin = this.view.manager.plugin;
+    this.limit = maxRow || this.fileClass.options.limit || this.plugin.settings.tableViewMaxRecords;
+  }
+  buildPaginationManager(container) {
+    var _a;
+    container.replaceChildren();
+    this.ranges = [];
+    const toggleRanges = (rangesCount) => {
+      for (const [index, rangeComponent] of this.ranges.entries()) {
+        if (rangesCount >= 5 && index > 2 && index < rangesCount - 2) {
+          if (this.limitWrapped)
+            rangeComponent.show();
+          else
+            rangeComponent.hide();
+        }
+      }
+      this.limitWrapped = !this.limitWrapped;
+    };
+    const dvApi = (_a = this.plugin.app.plugins.plugins.dataview) == null ? void 0 : _a.api;
+    if (dvApi) {
+      try {
+        const current = this.ctx ? dvApi.page(this.ctx.sourcePath) : {};
+        const fFC = this.plugin.fieldIndex.filesFileClasses;
+        const fileClassesNames = [this.fileClass.name, ...this.viewConfiguration.children];
+        const fileClassFiles = [...fFC.keys()].filter((path) => {
+          var _a2;
+          return (_a2 = fFC.get(path)) == null ? void 0 : _a2.some((_fileClass) => fileClassesNames.includes(_fileClass.name));
+        });
+        const fileFileClasses = (path) => {
+          var _a2;
+          return ((_a2 = this.plugin.fieldIndex.filesFileClasses.get(path)) == null ? void 0 : _a2.map((_fC) => _fC.name)) || [];
+        };
+        const hasFileClass = (path, id) => {
+          const fileClassName = id.split("____")[0];
+          return fileFileClasses(path).includes(fileClassName);
+        };
+        const query = new Function(
+          "dv",
+          "current",
+          "fileClassFiles",
+          "hasFileClass",
+          `return ${this.buildDvJSQuery()}`
+        )(dvApi, current, fileClassFiles, hasFileClass);
+        const values = query.values;
+        const count = values.length;
+        const rangesCount = Math.floor(count / this.limit) + 1;
+        if (rangesCount < 2)
+          return;
+        for (let i = 0; i < rangesCount; i++) {
+          if (i * this.limit < count) {
+            const rangeComponent = container.createDiv({
+              cls: `range ${i === this.sliceStart / this.limit ? "active" : ""}`,
+              text: `${i * this.limit + 1} - ${Math.min((i + 1) * this.limit, count)}`
+            });
+            rangeComponent.onclick = () => {
+              this.sliceStart = i * this.limit;
+              this.view.update(this.limit, this.sliceStart);
+            };
+            this.ranges.push(rangeComponent);
+          }
+          if (rangesCount >= 5 && i === 2) {
+            const rangeExpander = container.createDiv({
+              cls: `range`,
+              text: `< ... >`
+            });
+            rangeExpander.onclick = () => {
+              if (rangeExpander.hasClass("active")) {
+                rangeExpander.removeClass("active");
+                rangeExpander.setText("< ... >");
+              } else {
+                rangeExpander.addClass("active");
+                rangeExpander.setText("> ... <");
+              }
+              toggleRanges(rangesCount);
+            };
+          }
+        }
+        const activeRange = this.ranges.find((r) => r.hasClass("active"));
+        if (activeRange && this.ranges.indexOf(activeRange) < 2)
+          toggleRanges(rangesCount);
+      } catch (e) {
+        console.log(e);
+        console.error("unable to build the list of files");
+      }
+    }
+  }
+  buildTable(tableContainer) {
+    var _a;
+    tableContainer.onscroll = (e) => {
+      var _a2;
+      const table = tableContainer;
+      const firstColl = tableContainer.querySelectorAll("tbody > tr > td:first-child");
+      const firstFileLink = (_a2 = firstColl[0]) == null ? void 0 : _a2.querySelector("a.internal-link");
+      if (firstColl && firstFileLink) {
+        if (!this.firstCollWidth)
+          this.firstCollWidth = parseFloat(getComputedStyle(firstColl[0]).width);
+        if (!this.tableFontSize)
+          this.tableFontSize = parseFloat(getComputedStyle(firstFileLink).width);
+        const position = e.target.scrollLeft;
+        if (window.matchMedia("(max-width: 400px)").matches) {
+          if (position !== 0) {
+            table.addClass("scrolled");
+            table.querySelectorAll("tbody > tr > td:first-child").forEach((item) => {
+              item.querySelector("a:first-child").style.maxWidth = `${Math.max(
+                3 * this.tableFontSize,
+                this.firstCollWidth - this.tableFontSize - position
+              )}px`;
+            });
+          } else {
+            tableContainer.removeClass("scrolled");
+            table.querySelectorAll("tbody > tr > td:first-child").forEach((item) => {
+              item.querySelector("a:first-child").style.maxWidth = "100%";
+            });
+          }
+        }
+      }
+    };
+    const dvApi = (_a = this.plugin.app.plugins.plugins.dataview) == null ? void 0 : _a.api;
+    if (dvApi) {
+      dvApi.executeJs(this.buildDvJSRendering(), tableContainer, this.view.manager, this.fileClass.getClassFile().path);
+    }
+    if (this.view instanceof FileClassTableView)
+      this.addClickEventToLink(tableContainer);
+  }
+  buidFileClassViewBtn() {
+    const id = this.view.tableId;
+    if (document.querySelector(`#${id} thead th .fileclass-icon`))
+      return;
+    const firstColHeader = document.querySelector(`#${id} thead th`);
+    if (firstColHeader) {
+      const firstColHeaderContainer = firstColHeader.createDiv({ cls: "first-col-header-container" });
+      [...firstColHeader.children].forEach((child) => {
+        if (!child.hasClass("first-col-header-container")) {
+          firstColHeaderContainer == null ? void 0 : firstColHeaderContainer.append(child);
+        }
+      });
+      const button = firstColHeaderContainer.createDiv({ cls: "fileclass-icon" });
+      (0, import_obsidian22.setIcon)(button, this.fileClass.getIcon());
+      button.onclick = () => {
+        const fileClassViewManager = new FileClassViewManager(this.plugin, this.fileClass, "tableOption", true, this.view.selectedView);
+        this.plugin.addChild(fileClassViewManager);
+        fileClassViewManager.build();
+      };
+      firstColHeaderContainer == null ? void 0 : firstColHeaderContainer.prepend(button);
+    }
+  }
+  addClickEventToLink(tableContainer) {
+    tableContainer.querySelectorAll("a.internal-link").forEach((link) => {
+      link.addEventListener("click", () => {
+        var _a;
+        return this.plugin.app.workspace.openLinkText(
+          //@ts-ignore
+          (_a = link.getAttr("data-href")) == null ? void 0 : _a.replace(/(.*).md/, "$1"),
+          this.fileClass.getClassFile().path,
+          "tab"
+        );
+      });
+    });
+  }
+  buildFilterQuery() {
+    return Object.entries(this.viewConfiguration.filters).map(([index, filter]) => {
+      var _a;
+      const valueGetter = filter.name === "file" ? `p.file.name` : `p["${filter.name}"]`;
+      const current = this.ctx ? `dv.page("${this.ctx.sourcePath}")` : "{}";
+      if (filter.customFilter) {
+        return `    .filter(p => (new Function("value","current", "dv", "${filter.customFilter}"))(${valueGetter}, ${current}, dv))`;
+      }
+      if (filter.query) {
+        const value = filter.query;
+        if (!value.startsWith("/")) {
+          let values = value.split(",").map((item) => item.trim());
+          const empty = values.find((v) => v === "__empty__");
+          const notEmpty = values.find((v) => v === "__notEmpty__");
+          const notFound = values.find((v) => v === "__notFound__");
+          const existing = values.find((v) => v === "__existing__");
+          values = values.filter((v) => !Object.keys(fieldStates).includes(v));
+          if (empty) {
+            return `    .filter(p => hasFileClass(p.file.path, "${filter.id}") && ${valueGetter} === null)
+`;
+          } else if (notEmpty) {
+            return `    .filter(p => hasFileClass(p.file.path, "${filter.id}") && ${valueGetter} !== null)
+`;
+          } else if (notFound) {
+            return `    .filter(p => hasFileClass(p.file.path, "${filter.id}") && ${valueGetter} === undefined)
+`;
+          } else if (existing) {
+            return `    .filter(p => hasFileClass(p.file.path, "${filter.id}") && ${valueGetter} !== undefined)
+`;
+          } else if (values.length) {
+            const fCField = filter.name !== "file" ? (_a = this.plugin.fieldIndex.fileClassesFields.get(this.fileClass.name)) == null ? void 0 : _a.find((f) => f.name === filter.name) : void 0;
+            if ((fCField == null ? void 0 : fCField.type) === "Boolean" /* Boolean */) {
+              switch (value) {
+                case "true":
+                  return `    .filter(p => hasFileClass(p.file.path, "${filter.id}") && ${valueGetter} === true)
+`;
+                case "false":
+                  return `    .filter(p => hasFileClass(p.file.path, "${filter.id}") && ${valueGetter} === false)
+`;
+                case "false, true":
+                case "true, false":
+                  return `    .filter(p => hasFileClass(p.file.path, "${filter.id}") && [true, false].some(b => ${valueGetter} === b))
+`;
+                default:
+                  return "";
+              }
+            } else {
+              const valuesQueries = values.map((val) => `${valueGetter}.toString().toLowerCase().includes("${val}".toLowerCase())`);
+              return `    .filter(p => hasFileClass(p.file.path, "${filter.id}") && ${valueGetter} && (${valuesQueries.join(" || ")}))
+`;
+            }
+          } else {
+            return "";
+          }
+        } else {
+          const cleaned = value.replace(/^\//, "").replace(/\/$/, "");
+          let isValid = true;
+          try {
+            new RegExp(cleaned);
+          } catch (error) {
+            isValid = false;
+          }
+          if (isValid)
+            return `    .filter(p => ${valueGetter} && new RegExp("${cleaned}").test(${valueGetter}))
+`;
+          else
+            return "";
+        }
+      } else {
+        return "";
+      }
+    }).join("");
+  }
+  buildSorterQuery() {
+    const buildCOp = (fieldKey, cO, index, dir) => {
+      return `rank(basename(p${index}${fieldKey}),[${cO}], ${dir})`;
+    };
+    const buildOp = (fieldKey, index) => {
+      return `basename(p${index}${fieldKey})`;
+    };
+    const sorters = Object.entries(this.viewConfiguration.sorters).sort((s1, s2) => (s1[1].priority || 0) < (s2[1].priority || 0) ? -1 : 1).filter((s) => s[1].direction).map((s) => {
+      var _a;
+      const fieldKey = s[1].name === "file" ? `["file"]["name"]` : `["${s[1].name}"]`;
+      const dir = s[1].direction === "asc" ? 1 : -1;
+      if ((_a = s[1].customOrder) == null ? void 0 : _a.length) {
+        const cO = s[1].customOrder.map((item) => `"${item}"`).join(",");
+        return `        if(${buildCOp(fieldKey, cO, 1, dir)} > ${buildCOp(fieldKey, cO, 2, dir)}) return ${dir}
+        if(${buildCOp(fieldKey, cO, 1, dir)} < ${buildCOp(fieldKey, cO, 2, dir)}) return ${-1 * dir}
+`;
+      } else {
+        return `        if(${buildOp(fieldKey, 1)} > ${buildOp(fieldKey, 2)}) return ${dir}
+        if(${buildOp(fieldKey, 1)} < ${buildOp(fieldKey, 2)}) return ${-1 * dir}
+`;
+      }
+    });
+    const sortingQuery = `    .array().sort((p1, p2) => {
+${sorters.join("")}
+    })
+`;
+    return sortingQuery;
+  }
+  buildDvJSQuery() {
+    var _a;
+    let dvQuery = "";
+    const classFilesPath = this.plugin.settings.classFilesPath;
+    const templatesFolder = (_a = this.plugin.app.plugins.plugins["templater-obsidian"]) == null ? void 0 : _a.settings["templates_folder"];
+    dvQuery += `dv.pages()
+`;
+    dvQuery += `    .filter(p => fileClassFiles.includes(p.file.path)
+        ${!!classFilesPath ? "        && !p.file.path.includes('" + classFilesPath + "')\n" : ""}
+        ${templatesFolder ? "        && !p.file.path.includes('" + templatesFolder + "')\n" : ""}
+        )
+`;
+    dvQuery += this.buildFilterQuery();
+    return dvQuery;
+  }
+  buildDvJSRendering() {
+    const buildColumnName = (column) => {
+      if (column.name === "file")
+        return this.fileClass.name;
+      if (this.viewConfiguration.children.length)
+        return column.id.replace("____", ": ");
+      else
+        return column.name;
+    };
+    const columns = this.viewConfiguration.columns.filter((f) => {
+      var _a;
+      return !((_a = this.viewConfiguration.columns.find((_f) => _f.id === f.id)) == null ? void 0 : _a.hidden);
+    }).sort((f1, f2) => f1.position < f2.position ? -1 : 1);
+    let dvJS = `const {fieldModifier: f} = MetadataMenu.api;
+const fFC = MetadataMenu.fieldIndex.filesFileClasses
+const fileClassesNames = ["${this.fileClass.name}", ...[${this.viewConfiguration.children.map((c) => "'" + c + "'").join(", ")}]];
+const fileClassFiles = [...fFC.keys()].filter(path => fFC.get(path)?.some(_fileClass => fileClassesNames.includes(_fileClass.name)))
+const basename = (item) => {
+    if(item && item.hasOwnProperty('path')){
+        return /([^/]*).md/.exec(item.path)?.[1] || item.path
+    }else if(typeof item === 'string'){
+        return item
+    }else{
+        return item?.toString() || '' 
+    }
+}
+const fileFileClasses = (path) => {
+    return MetadataMenu.fieldIndex.filesFileClasses.get(path)?.map(_fC => _fC.name) || [] 
+}
+const hasFileClass = (path, id) => {
+    if(id.includes('____')){
+        const fileClassName = id.split('____')[0]
+        return fileFileClasses(path).includes(fileClassName)
+    } else {
+        return true    }
+}
+const rank = (item, options, dir) => {
+    const indexInOptions = options.indexOf(basename(item));
+    if(dir === 1){
+        if(indexInOptions === -1) return Infinity
+    }
+    return indexInOptions
+}
+dv.table([
+`;
+    dvJS += columns.map((column) => `"${buildColumnName(column)}"`).join(",");
+    dvJS += `], 
+`;
+    dvJS += this.buildDvJSQuery();
+    dvJS += this.buildSorterQuery();
+    dvJS += `    .slice(${this.sliceStart}, ${this.sliceStart + this.limit})
+`;
+    dvJS += "    .map(p => [\n";
+    dvJS += columns.map((column) => {
+      if (column.name === "file") {
+        return '        dv.el("div", p.file.link, {cls: "field-name"})';
+      } else {
+        return `        hasFileClass(p.file.path, "${column.id}") ? f(dv, p, "${column.name}", {options: {alwaysOn: false, showAddField: ${this.view.manager.showAddField}}}) : ""`;
+      }
+    }).join(",\n");
+    dvJS += "    \n])";
+    dvJS += "\n);";
+    return dvJS;
+  }
+};
+
+// src/fileClass/views/tableViewComponents/ChildrenMultiSelectModal.ts
+var import_obsidian23 = require("obsidian");
+var ChildrenMultiSelectModal = class extends import_obsidian23.SuggestModal {
+  constructor(plugin, fileClass, parentFieldSet) {
+    super(plugin.app);
+    this.plugin = plugin;
+    this.fileClass = fileClass;
+    this.parentFieldSet = parentFieldSet;
+    this.containerEl.addClass("metadata-menu");
+    const inputContainer = this.containerEl.createDiv({ cls: "suggester-input" });
+    inputContainer.appendChild(this.inputEl);
+    this.containerEl.find(".prompt").prepend(inputContainer);
+    cleanActions(this.containerEl, ".footer-actions");
+    const footerActionsContainer = this.containerEl.createDiv({ cls: "footer-actions" });
+    this.buildFooterActions(footerActionsContainer);
+    const initialOptions = this.parentFieldSet.children;
+    if (initialOptions)
+      this.selectedChildren = [...initialOptions];
+    this.containerEl.onkeydown = (e) => {
+      if (e.key == "Enter" && e.altKey) {
+        this.parentFieldSet.reset(this.selectedChildren);
+        this.close();
+      }
+    };
+  }
+  isSelected(value) {
+    return this.selectedChildren.map((c) => c.fileClass.name).includes(value.fileClass.name);
+  }
+  getSuggestions(query) {
+    const children = this.fileClass.getChildren().filter((c) => !query || c.name.toLocaleLowerCase() === query.toLocaleLowerCase());
+    const sortedChildren = children.sort((c1, c2) => c1.path.join(" > ") < c2.path.join(" > ") ? -1 : 1);
+    return sortedChildren;
+  }
+  buildFooterActions(footerActionsContainer) {
+    footerActionsContainer.createDiv({ cls: "spacer" });
+    this.buildConfirm(footerActionsContainer);
+    const cancelButton = new import_obsidian23.ButtonComponent(footerActionsContainer);
+    cancelButton.setIcon("cross");
+    cancelButton.onClick(() => this.close());
+    cancelButton.setTooltip("Cancel");
+    const clearButton = new import_obsidian23.ButtonComponent(footerActionsContainer);
+    clearButton.setIcon("filter-x");
+    clearButton.setTooltip("Clear filtered value(s)");
+    clearButton.onClick(async () => {
+      const fieldSet = this.parentFieldSet;
+      const view = fieldSet.tableView;
+      fieldSet.children = [];
+      view.build();
+      view.update();
+      view.saveViewBtn.setCta();
+      this.close();
+    });
+    clearButton.buttonEl.addClass("danger");
+    this.modalEl.appendChild(footerActionsContainer);
+  }
+  buildConfirm(footerActionsContainer) {
+    const infoContainer = footerActionsContainer.createDiv({ cls: "info" });
+    infoContainer.setText("Alt+Enter to save");
+    const confirmButton = new import_obsidian23.ButtonComponent(footerActionsContainer);
+    confirmButton.setIcon("checkmark");
+    confirmButton.onClick(async () => {
+      this.parentFieldSet.reset(this.selectedChildren);
+      this.close();
+    });
+  }
+  renderSelected() {
+    const chooser = this.chooser;
+    const suggestions = chooser.suggestions;
+    const values = chooser.values;
+    suggestions.forEach((s, i) => {
+      if (this.isSelected(values[i])) {
+        s.addClass("value-checked");
+        if (s.querySelectorAll(".icon-container").length == 0) {
+          const iconContainer = s.createDiv({ cls: "icon-container" });
+          (0, import_obsidian23.setIcon)(iconContainer, "check-circle");
+        }
+      } else {
+        s.removeClass("value-checked");
+        s.querySelectorAll(".icon-container").forEach((icon) => icon.remove());
+      }
+    });
+  }
+  renderSuggestion(value, el) {
+    const labelContainer = el.createDiv({ cls: "label-with-icon-container" });
+    const icon = labelContainer.createDiv({ cls: "icon" });
+    (0, import_obsidian23.setIcon)(icon, value.fileClass.getIcon());
+    const label = labelContainer.createDiv({ cls: "label" });
+    label.setText(`${value.path.join(" > ")}`);
+    el.addClass("value-container");
+    const spacer = this.containerEl.createDiv({ cls: "spacer" });
+    el.appendChild(spacer);
+    if (this.isSelected(value)) {
+      el.addClass("value-checked");
+      const iconContainer = el.createDiv({ cls: "icon-container" });
+      (0, import_obsidian23.setIcon)(iconContainer, "check-circle");
+    }
+    this.inputEl.focus();
+  }
+  selectSuggestion(value, evt) {
+    if (this.isSelected(value)) {
+      const child = this.selectedChildren.find((c) => c.fileClass.name === value.fileClass.name);
+      if (child)
+        this.selectedChildren.remove(child);
+    } else {
+      this.selectedChildren.push(value);
+    }
+    this.renderSelected();
+  }
+  onChooseSuggestion(item, evt) {
+  }
+};
+
+// src/fileClass/views/fileClassTableView.ts
 var FileClassTableView = class {
-  constructor(plugin, component, viewContainer, fileClass, selectedView) {
-    this.component = component;
+  constructor(manager, viewContainer, tableId, fileClass, selectedView) {
+    this.manager = manager;
     this.viewContainer = viewContainer;
+    this.tableId = tableId;
     this.fileClass = fileClass;
     this.selectedView = selectedView;
-    this.sliceStart = 0;
-    this.plugin = plugin;
+    this.limitWrapped = false;
+    this.ranges = [];
+    this.plugin = manager.plugin;
     this.container = this.viewContainer.createDiv({ cls: "fv-table" });
+    this.build();
+  }
+  build() {
     this.limit = this.fileClass.getFileClassOptions().limit;
+    this.container.replaceChildren();
     this.createHeader();
-    if (this.selectedView)
-      this.changeView(this.selectedView);
+    this.changeView(this.selectedView, false);
   }
   createHeader() {
     const header = this.container.createDiv({ cls: "options" });
@@ -3630,16 +4949,27 @@ var FileClassTableView = class {
     const applyContainer = header.createDiv({ cls: "footer" });
     this.viewSelectContainer = applyContainer.createDiv({ cls: "cell" });
     this.buildLimitManager(limitContainer);
-    this.buildPaginationManager(this.paginationContainer);
     this.buildFields(this.fieldsContainer);
     this.buildViewSelector();
     this.buildFavoriteViewManager(applyContainer);
     this.buildCleanFields(applyContainer);
     this.buildSaveView(applyContainer);
     this.buildSavedViewRemoveButton(applyContainer);
+    if (this.fileClass.getChildren().length)
+      this.buildChildrenSelector(applyContainer);
+    this.buildHideInsertFieldBtn(applyContainer);
+    this.buildRefreshBtn(applyContainer);
     this.buildHideFilters(applyContainer);
   }
-  udpate() {
+  update(maxRows, sliceStart = 0) {
+    this.manager._children.forEach((child) => this.manager.removeChild(child));
+    this.fileClassDataviewTable = new FileClassDataviewTable(
+      this.fieldSet.getParams(),
+      this,
+      this.fileClass,
+      maxRows,
+      sliceStart
+    );
     this.buildTable();
     this.buildPaginationManager(this.paginationContainer);
     this.buildViewSelector();
@@ -3650,11 +4980,12 @@ var FileClassTableView = class {
   buildLimitManager(container) {
     container.replaceChildren();
     container.createDiv({ text: "Results per page: ", cls: "label" });
-    const limitInput = new import_obsidian16.TextComponent(container);
+    const limitInput = new import_obsidian24.TextComponent(container);
     limitInput.setValue(`${this.limit}`);
-    const debounced = (0, import_obsidian16.debounce)((fieldset) => fieldset.tableView.udpate(), 1e3, true);
+    const debounced = (0, import_obsidian24.debounce)((fieldset) => fieldset.tableView.update(this.limit), 1e3, true);
     limitInput.onChange((value) => {
       this.limit = parseInt(value) || this.limit;
+      this.saveViewBtn.setCta();
       debounced(this.fieldSet);
     });
   }
@@ -3662,68 +4993,47 @@ var FileClassTableView = class {
   ** Pagination
   */
   buildPaginationManager(container) {
-    var _a;
-    container.replaceChildren();
-    const dvApi = (_a = this.plugin.app.plugins.plugins.dataview) == null ? void 0 : _a.api;
-    if (dvApi) {
-      try {
-        const values = new Function("dv", "current", `return ${this.buildDvJSQuery()}`)(dvApi).values;
-        const count = values.length;
-        for (let i = 0; i <= Math.floor(count / this.limit); i++) {
-          if (i * this.limit < count) {
-            const rangeComponent = container.createDiv({
-              cls: `range ${i === this.sliceStart / this.limit ? "active" : ""}`,
-              text: `${i * this.limit + 1} - ${Math.min((i + 1) * this.limit, count)}`
-            });
-            rangeComponent.onclick = () => {
-              this.sliceStart = i * this.limit;
-              this.udpate();
-            };
-          }
-        }
-      } catch (e) {
-        console.error("unable to build the list of files");
-      }
-    }
+    this.fileClassDataviewTable.buildPaginationManager(container);
   }
   /*
   ** Fields
   */
   buildFields(container) {
     container.replaceChildren();
-    this.fieldSet = new FieldSet(this, container);
+    this.fieldSet = new FieldSet4(this, container);
   }
   /*
   ** Actions
   */
   /* view selection */
-  changeView(name) {
-    this.fieldSet.changeView(name);
+  changeView(name, updateNeeded = true) {
+    this.fieldSet.changeView(name, updateNeeded);
     this.selectedView = name;
     this.toggleFavoriteBtnState();
     this.viewSelect.setValue(name || "");
     this.viewRemoveBtn.setDisabled(!this.selectedView);
     this.viewRemoveBtn.setTooltip(`Remove ${this.selectedView} view from the saved views`);
-    this.udpate();
+    this.update();
+    this.saveViewBtn.removeCta();
   }
   buildViewSelector() {
     this.viewSelectContainer.replaceChildren();
     const options2 = this.fileClass.getFileClassOptions();
     const savedViews = options2.savedViews || [];
-    this.viewSelect = new import_obsidian16.DropdownComponent(this.viewSelectContainer);
+    this.viewSelect = new import_obsidian24.DropdownComponent(this.viewSelectContainer);
     if (!savedViews.length) {
       this.viewSelect.addOption("", "No saved view");
       this.viewSelect.setDisabled(true);
     } else {
       this.viewSelect.addOption("", "--None--");
       savedViews.sort((a, b) => a.name < b.name ? -1 : 1).forEach((view) => this.viewSelect.addOption(view.name, view.name));
-      this.viewSelect.onChange((value) => this.changeView(value));
+      this.viewSelect.onChange((value) => this.changeView(value, false));
       this.viewSelect.setValue(this.selectedView || "");
     }
   }
   buildSavedViewRemoveButton(container) {
     const btnContainer = container.createDiv({ cls: "cell" });
-    this.viewRemoveBtn = new import_obsidian16.ButtonComponent(btnContainer).setIcon("trash").setClass("remove-button").setDisabled(!this.selectedView).setTooltip(`Remove ${this.selectedView} view from the saved views`).onClick(async () => {
+    this.viewRemoveBtn = new import_obsidian24.ButtonComponent(btnContainer).setIcon("trash").setClass("remove-button").setDisabled(!this.selectedView).setTooltip(`Remove ${this.selectedView} view from the saved views`).onClick(async () => {
       var _a;
       const options2 = this.fileClass.getFileClassOptions();
       if (options2.favoriteView === this.selectedView)
@@ -3732,7 +5042,7 @@ var FileClassTableView = class {
       await this.fileClass.updateOptions(options2);
       this.changeView();
       this.viewRemoveBtn.setDisabled(true);
-      this.udpate();
+      this.update();
     });
   }
   toggleFavoriteBtnState() {
@@ -3758,7 +5068,7 @@ var FileClassTableView = class {
   }
   buildFavoriteViewManager(container) {
     const btnContainer = container.createDiv({ cls: "cell" });
-    this.favoriteBtn = new import_obsidian16.ButtonComponent(btnContainer);
+    this.favoriteBtn = new import_obsidian24.ButtonComponent(btnContainer);
     this.favoriteBtn.setClass("favorite-button");
     this.favoriteBtn.setIcon("star");
     this.toggleFavoriteBtnState();
@@ -3773,28 +5083,24 @@ var FileClassTableView = class {
         this.favoriteBtn.buttonEl.addClass("favorite");
       }
       await this.fileClass.updateOptions(options2);
+      this.saveViewBtn.setCta();
       this.toggleFavoriteBtnState();
     });
   }
   buildCleanFields(container) {
     const btnContainer = container.createDiv({ cls: "cell" });
-    const cleanFilterBtn = new import_obsidian16.ButtonComponent(btnContainer);
+    const cleanFilterBtn = new import_obsidian24.ButtonComponent(btnContainer);
     cleanFilterBtn.setIcon("eraser");
-    cleanFilterBtn.setTooltip("remove filter values");
-    cleanFilterBtn.onClick(() => {
-      this.fieldSet.reset();
-    });
+    cleanFilterBtn.setTooltip("Clear all filters, sorters and ordering");
+    cleanFilterBtn.onClick(() => this.fieldSet.reset());
   }
   buildSaveView(container) {
     const btnContainer = container.createDiv({ cls: "cell" });
-    const saveViewBtn = new import_obsidian16.ButtonComponent(btnContainer);
-    saveViewBtn.setIcon("save");
-    saveViewBtn.setTooltip("Save current view (filters and sorters)");
-    saveViewBtn.onClick(() => new CreateSavedViewModal(this.plugin, this).open());
+    this.saveViewBtn = new import_obsidian24.ButtonComponent(btnContainer).setIcon("save").setTooltip("Save current view (filters and sorters)").onClick(() => new CreateSavedViewModal(this.plugin, this).open());
   }
   buildHideFilters(container) {
     const btnContainer = container.createDiv({ cls: "cell" });
-    const hideFilterBtn = new import_obsidian16.ButtonComponent(btnContainer);
+    const hideFilterBtn = new import_obsidian24.ButtonComponent(btnContainer);
     this.fieldsContainer.style.display = "none";
     hideFilterBtn.setIcon("list-end");
     hideFilterBtn.setTooltip("display filters");
@@ -3811,139 +5117,67 @@ var FileClassTableView = class {
     };
     hideFilterBtn.onClick(() => toggleState());
   }
+  buildHideInsertFieldBtn(container) {
+    const btnContainer = container.createDiv({ cls: "cell" });
+    const hideInsertBtn = new import_obsidian24.ButtonComponent(btnContainer);
+    hideInsertBtn.setIcon("plus-circle");
+    hideInsertBtn.setTooltip("Show insert field button in each cell (slower)");
+    const toggleState = () => {
+      if (this.manager.showAddField) {
+        hideInsertBtn.removeCta();
+        this.manager.showAddField = false;
+      } else {
+        hideInsertBtn.setCta();
+        this.manager.showAddField = true;
+      }
+    };
+    hideInsertBtn.onClick(() => {
+      toggleState();
+      this.update();
+    });
+  }
+  triggerRefreshNeeded() {
+    this.refreshBtn.buttonEl.show();
+    this.refreshBtn.setCta();
+  }
+  buildRefreshBtn(container) {
+    const btnContainer = container.createDiv({ cls: "cell" });
+    this.refreshBtn = new import_obsidian24.ButtonComponent(btnContainer);
+    this.refreshBtn.setIcon("refresh-cw");
+    this.refreshBtn.setTooltip("Refresh table results");
+    this.refreshBtn.buttonEl.hide();
+    this.refreshBtn.onClick(() => {
+      this.refreshBtn.removeCta();
+      this.update();
+      this.refreshBtn.buttonEl.hide();
+    });
+  }
+  /*
+  ** Children selector
+  */
+  buildChildrenSelector(container) {
+    const btnContainer = container.createDiv({ cls: "cell" });
+    const childrenBtn = new import_obsidian24.ButtonComponent(btnContainer);
+    childrenBtn.setIcon("network");
+    childrenBtn.setTooltip("display children selector");
+    childrenBtn.onClick(() => {
+      new ChildrenMultiSelectModal(this.plugin, this.fileClass, this.fieldSet).open();
+    });
+  }
   /*
   ** Table
   */
   buildTable() {
-    var _a;
     if (this.tableContainer) {
       this.tableContainer.remove();
     }
     ;
-    this.tableContainer = this.container.createDiv({ attr: { id: `table-container-${Math.floor(Date.now() / 1e3)}` } });
-    this.tableContainer.onscroll = (e) => {
-      var _a2;
-      const table = this.tableContainer;
-      const firstColl = this.tableContainer.querySelectorAll("tbody > tr > td:first-child");
-      const firstFileLink = (_a2 = firstColl[0]) == null ? void 0 : _a2.querySelector("a.internal-link");
-      if (firstColl && firstFileLink) {
-        if (!this.firstCollWidth)
-          this.firstCollWidth = parseFloat(getComputedStyle(firstColl[0]).width);
-        if (!this.tableFontSize)
-          this.tableFontSize = parseFloat(getComputedStyle(firstFileLink).width);
-        const position = e.target.scrollLeft;
-        if (window.matchMedia("(max-width: 400px)").matches) {
-          if (position !== 0) {
-            table.addClass("scrolled");
-            table.querySelectorAll("tbody > tr > td:first-child").forEach((item) => {
-              item.querySelector("a:first-child").style.maxWidth = `${Math.max(
-                3 * this.tableFontSize,
-                this.firstCollWidth - this.tableFontSize - position
-              )}px`;
-            });
-          } else {
-            this.tableContainer.removeClass("scrolled");
-            table.querySelectorAll("tbody > tr > td:first-child").forEach((item) => {
-              item.querySelector("a:first-child").style.maxWidth = "100%";
-            });
-          }
-        }
-      }
-    };
-    const dvApi = (_a = this.plugin.app.plugins.plugins.dataview) == null ? void 0 : _a.api;
-    if (dvApi) {
-      dvApi.executeJs(this.buildDvJSRendering(), this.tableContainer, this.plugin, this.fileClass.getClassFile().path);
-    }
-    this.addClickEventToLink();
-  }
-  addClickEventToLink() {
-    this.container.querySelectorAll("a.internal-link").forEach((link) => {
-      link.addEventListener("click", () => {
-        var _a;
-        return this.plugin.app.workspace.openLinkText(
-          //@ts-ignore
-          (_a = link.getAttr("data-href").split("/").last()) == null ? void 0 : _a.replace(/(.*).md/, "$1"),
-          this.fileClass.getClassFile().path,
-          "tab"
-        );
-      });
-    });
-  }
-  buildFilterQuery() {
-    var _a;
-    return Object.entries(((_a = this.fieldSet) == null ? void 0 : _a.filters) || {}).map(([fieldName, input]) => {
-      const field = fieldName === "file" ? `p.file.name` : `p["${fieldName}"]`;
-      if (input.getValue()) {
-        return `    .filter(p => ${field} && ${field}.toString().toLowerCase().includes("${input.getValue()}".toLowerCase()))
-`;
-      } else {
-        return "";
-      }
-    }).join("");
-  }
-  buildSorterQuery() {
-    const sorters = Object.entries(this.fieldSet.rowSorters).sort((s1, s2) => (s1[1].priority || 0) < (s2[1].priority || 0) ? -1 : 1).filter((s) => s[1].direction).map((s) => {
-      const fieldKey = s[1].name === "file" ? `["file"]["name"]` : `["${s[1].name}"]`;
-      const dir = s[1].direction === "asc" ? 1 : -1;
-      return `        if(p1${fieldKey} > p2${fieldKey}) return ${dir}
-        if(p1${fieldKey} < p2${fieldKey}) return ${-1 * dir}
-`;
-    });
-    const sortingQuery = `    .array().sort((p1, p2) => {
-${sorters.join("")}
-    })
-`;
-    return sortingQuery;
-  }
-  buildDvJSQuery() {
-    var _a;
-    const fFC = this.plugin.fieldIndex.filesFileClasses;
-    let dvQuery = "";
-    const classFilesPath = this.plugin.settings.classFilesPath;
-    const templatesFolder = (_a = this.plugin.app.plugins.plugins["templater-obsidian"]) == null ? void 0 : _a.settings["templates_folder"];
-    const fileClassFiles = [...fFC.keys()].filter((path) => {
-      var _a2;
-      return (_a2 = fFC.get(path)) == null ? void 0 : _a2.some((fileClass) => fileClass.name === this.fileClass.name);
-    });
-    const fileClassFilesPaths = `"${fileClassFiles.map((fC) => fC.replaceAll('"', '\\"')).join('", "')}"`;
-    dvQuery += `dv.pages()
-`;
-    dvQuery += `    .where(p => [${fileClassFilesPaths}].includes(p.file.path)
-        ${!!classFilesPath ? "        && !p.file.path.includes('" + classFilesPath + "')\n" : ""}
-        ${templatesFolder ? "        && !p.file.path.includes('" + templatesFolder + "')\n" : ""}
-        )
-`;
-    dvQuery += this.buildFilterQuery();
-    return dvQuery;
-  }
-  buildDvJSRendering() {
-    const fields = this.fieldSet.fields.filter((f) => {
-      var _a;
-      return !((_a = this.fieldSet.fields.find((_f) => _f.name === f.name)) == null ? void 0 : _a.isColumnHidden);
-    }).sort((f1, f2) => f1.columnPosition < f2.columnPosition ? -1 : 1);
-    let dvJS = 'const {fieldModifier: f} = this.app.plugins.plugins["metadata-menu"].api;\ndv.table([';
-    dvJS += fields.map((field) => `"${field.name}"`).join(",");
-    dvJS += `], 
-`;
-    dvJS += this.buildDvJSQuery();
-    dvJS += this.buildSorterQuery();
-    dvJS += `    .slice(${this.sliceStart}, ${this.sliceStart + this.limit})
-`;
-    dvJS += "    .map(p => [\n";
-    dvJS += fields.map((field) => {
-      if (field.name === "file") {
-        return '        dv.el("span", p.file.link, {cls: "field-name"})';
-      } else {
-        return `        f(dv, p, "${field.name}", {options: {alwaysOn: false, showAddField: true}})`;
-      }
-    }).join(",\n");
-    dvJS += "    \n])";
-    dvJS += "\n);";
-    return dvJS;
+    this.tableContainer = this.container.createDiv({ attr: { id: this.tableId } });
+    this.fileClassDataviewTable.buildTable(this.tableContainer);
   }
 };
 
-// src/fileClass/fileClassView.ts
+// src/fileClass/views/fileClassView.ts
 var FILECLASS_VIEW_TYPE = "FileClassView";
 var MenuOption = class {
   constructor(menu, id, name, relatedView, view) {
@@ -3967,15 +5201,17 @@ var MenuOption = class {
     this.relatedView.show();
   }
 };
-var FileClassView = class extends import_obsidian17.ItemView {
-  constructor(leaf, plugin, component, name, fileClass, onOpenTabDisplay = "tableOption") {
+var FileClassView = class extends import_obsidian25.ItemView {
+  constructor(leaf, plugin, tableId, component, name, fileClass, onOpenTabDisplay = "tableOption", selectedView) {
     super(leaf);
     this.leaf = leaf;
     this.plugin = plugin;
+    this.tableId = tableId;
     this.component = component;
     this.name = name;
     this.fileClass = fileClass;
     this.onOpenTabDisplay = onOpenTabDisplay;
+    this.selectedView = selectedView;
     this.menuOptions = [];
     this.views = [];
     this.containerEl.addClass("metadata-menu");
@@ -4018,7 +5254,7 @@ var FileClassView = class extends import_obsidian17.ItemView {
   }
   buildTableView() {
     const favoriteView = this.fileClass.options.favoriteView || void 0;
-    this.tableView = new FileClassTableView(this.plugin, this.component, this.viewContainer, this.fileClass, favoriteView);
+    this.tableView = new FileClassTableView(this.component, this.viewContainer, this.tableId, this.fileClass, this.selectedView || favoriteView);
     this.views.push(this.tableView.container);
   }
   getDisplayText() {
@@ -4036,14 +5272,13 @@ var FileClassView = class extends import_obsidian17.ItemView {
   }
   async onOpen() {
     var _a;
-    this.icon = ((_a = this.fileClass) == null ? void 0 : _a.getIcon()) || "file-spreadsheet";
-    this.tableView.buildTable();
+    this.icon = (_a = this.fileClass) == null ? void 0 : _a.getIcon();
   }
 };
 
 // src/fileClass/fileClassChoiceModal.ts
-var import_obsidian18 = require("obsidian");
-var FileClassChoiceModal = class extends import_obsidian18.SuggestModal {
+var import_obsidian26 = require("obsidian");
+var FileClassChoiceModal = class extends import_obsidian26.SuggestModal {
   constructor(plugin, fileClassManager, tagsAndFileClasses) {
     super(plugin.app);
     this.plugin = plugin;
@@ -4074,45 +5309,69 @@ var FileClassChoiceModal = class extends import_obsidian18.SuggestModal {
     if (fileClass && dvApi) {
       this.fileClassManager.name = item;
       this.fileClassManager.fileClass = fileClass;
-      this.fileClassManager.fileClassViewType = FILECLASS_VIEW_TYPE + "__" + fileClass.name;
-      this.fileClassManager.openFileClassView();
+      const viewType = FILECLASS_VIEW_TYPE + "__" + fileClass.name;
+      this.fileClassManager.fileClassViewType = viewType;
+      await this.fileClassManager.openFileClassView();
+      this.plugin.indexDB.fileClassViews.editElement(
+        viewType,
+        {
+          id: viewType,
+          leafId: this.fileClassManager.fileClassView.leaf.id
+        }
+      );
     }
     this.close();
   }
 };
 
-// src/components/fileClassManager.ts
-var FileClassManager = class extends import_obsidian19.Component {
-  constructor(plugin, fileClass, onOpenTabDisplay = "tableOption") {
+// src/components/FileClassViewManager.ts
+var FileClassViewManager = class extends import_obsidian27.Component {
+  constructor(plugin, fileClass, onOpenTabDisplay = "tableOption", revealAfterOpen = true, selectedView) {
     super();
     this.plugin = plugin;
     this.fileClass = fileClass;
     this.onOpenTabDisplay = onOpenTabDisplay;
+    this.revealAfterOpen = revealAfterOpen;
+    this.selectedView = selectedView;
+    this.showAddField = false;
     if (!this.fileClass) {
       this.fileClassViewType = FILECLASS_VIEW_TYPE;
     } else {
       this.fileClassViewType = FILECLASS_VIEW_TYPE + "__" + this.fileClass.name;
     }
   }
-  async onload() {
-    if (this.fileClass) {
-      this.name = this.fileClass.name;
-      this.fileClassViewType = FILECLASS_VIEW_TYPE + "__" + this.fileClass.name;
-      await this.openFileClassView();
-      this.registerIndexingDone();
-    } else {
+  async openRegisterAndIndexView(fileClass) {
+    var _a;
+    this.fileClass = fileClass;
+    this.name = this.fileClass.name;
+    this.fileClassViewType = FILECLASS_VIEW_TYPE + "__" + this.fileClass.name;
+    await this.openFileClassView();
+    this.registerEvent(this.plugin.app.workspace.on("metadata-menu:fileclass-indexed", () => {
+      var _a2;
+      const view = (_a2 = this.plugin.app.workspace.getLeavesOfType(this.fileClassViewType)[0]) == null ? void 0 : _a2.view;
+      if (view) {
+        view.updateFieldsView();
+        view.updateSettingsView();
+        view.tableView.triggerRefreshNeeded();
+      }
+    }));
+    this.plugin.indexDB.fileClassViews.editElement(this.fileClassViewType, {
+      id: this.fileClassViewType,
+      leafId: (_a = this.fileClassView) == null ? void 0 : _a.leaf.id
+    });
+  }
+  async build() {
+    if (this.fileClass)
+      this.openRegisterAndIndexView(this.fileClass);
+    else {
       const tagsAndFileClasses = this.getActiveFileTagsAndFileClasses();
       if (tagsAndFileClasses.length === 1) {
         const index = this.plugin.fieldIndex;
         const fileClassName = tagsAndFileClasses[0];
         const fileClass = index.fileClassesName.get(fileClassName) || index.tagsMatchingFileClasses.get(fileClassName);
-        if (fileClass) {
-          this.name = fileClass.name;
-          this.fileClass = fileClass;
-          this.fileClassViewType = FILECLASS_VIEW_TYPE + "__" + fileClass.name;
-          await this.openFileClassView();
-          this.registerIndexingDone();
-        } else {
+        if (fileClass)
+          this.openRegisterAndIndexView(fileClass);
+        else {
           this.plugin.removeChild(this);
           this.unload();
         }
@@ -4128,21 +5387,6 @@ var FileClassManager = class extends import_obsidian19.Component {
       }
     }
   }
-  onunload() {
-    this.plugin.app.workspace.detachLeavesOfType(this.fileClassViewType);
-    this.plugin.app.viewRegistry.unregisterView(this.fileClassViewType);
-  }
-  registerIndexingDone() {
-    this.registerEvent(this.plugin.app.workspace.on("metadata-menu:indexed", () => {
-      var _a;
-      const view = (_a = this.plugin.app.workspace.getLeavesOfType(this.fileClassViewType)[0]) == null ? void 0 : _a.view;
-      if (view) {
-        view.updateFieldsView();
-        view.updateSettingsView();
-        view.tableView.buildTable();
-      }
-    }));
-  }
   async openFileClassView() {
     if (this.fileClass) {
       const fileClass = this.fileClass;
@@ -4150,18 +5394,27 @@ var FileClassManager = class extends import_obsidian19.Component {
       this.plugin.registerView(
         this.fileClassViewType,
         (leaf) => {
-          const fileClassView = new FileClassView(leaf, this.plugin, this, this.name, fileClass, this.onOpenTabDisplay);
+          this.tableId = `table-container-${Math.floor(Date.now())}`;
+          const fileClassView = new FileClassView(leaf, this.plugin, this.tableId, this, this.name, fileClass, this.onOpenTabDisplay, this.selectedView);
           this.fileClassView = fileClassView;
           return fileClassView;
         }
       );
-      await this.plugin.app.workspace.getLeaf("tab", "vertical").setViewState({
-        type: this.fileClassViewType,
-        active: true
-      });
-      this.plugin.app.workspace.revealLeaf(
-        this.plugin.app.workspace.getLeavesOfType(this.fileClassViewType).last()
-      );
+      try {
+        await this.plugin.app.workspace.getLeaf("tab", "vertical").setViewState({
+          type: this.fileClassViewType,
+          active: true
+        });
+        if (this.revealAfterOpen) {
+          this.plugin.app.workspace.revealLeaf(
+            this.plugin.app.workspace.getLeavesOfType(this.fileClassViewType).last()
+          );
+        }
+      } catch (e) {
+        console.log(e);
+        this.unload();
+        console.warn("Fileclass view couldn't load because of a conflict with another plugin");
+      }
     }
   }
   getActiveFileTagsAndFileClasses() {
@@ -4175,6 +5428,33 @@ var FileClassManager = class extends import_obsidian19.Component {
       tagsAndFileClasses.push(...index.filesFileClassesNames.get(activeFilePath) || []);
     }
     return [...new Set(tagsAndFileClasses)];
+  }
+  onunload() {
+    this.plugin.app.workspace.detachLeavesOfType(this.fileClassViewType);
+    this.plugin.app.viewRegistry.unregisterView(this.fileClassViewType);
+    this.plugin.indexDB.fileClassViews.removeElement(FILECLASS_VIEW_TYPE + "__" + this.name);
+    for (const child of this._children) {
+      child.unload();
+      this.removeChild(child);
+    }
+  }
+  static async reloadViews(plugin) {
+    var _a;
+    const registeredFileClassViews = Object.keys(plugin.app.viewRegistry.viewByType).filter((key) => key.startsWith("FileClassView__"));
+    for (const view of await plugin.indexDB.fileClassViews.getElement("all") || []) {
+      const fileClassName = (_a = /FileClassView__(.*)/.exec(view.id)) == null ? void 0 : _a[1];
+      if (fileClassName && !registeredFileClassViews.some((viewName) => viewName.includes(fileClassName))) {
+        const leaf = plugin.app.workspace.getLeafById(view.leafId);
+        const fileClass = plugin.fieldIndex.fileClassesName.get(fileClassName);
+        if (fileClass) {
+          if (leaf && !(leaf.view.component instanceof FileClassViewManager))
+            plugin.app.workspace.detachLeavesOfType(view.id);
+          const fileClassManager = new FileClassViewManager(plugin, fileClass, "tableOption", false);
+          plugin.addChild(fileClassManager);
+          await fileClassManager.build();
+        }
+      }
+    }
   }
 };
 
@@ -4202,7 +5482,7 @@ var FileClassOptionsList = class {
       this.plugin.app.fileManager.processFrontMatter(this.file, (fm) => fm.mapWithTag = true);
     };
     const openFileClassTableViewAction = () => {
-      const fileClassComponent = new FileClassManager(this.plugin, fileClass);
+      const fileClassComponent = new FileClassViewManager(this.plugin, fileClass);
       this.plugin.addChild(fileClassComponent);
     };
     if (isMenu(this.location)) {
@@ -4212,7 +5492,7 @@ var FileClassOptionsList = class {
     const fileClass = this.fileClass;
     const currentFieldsNames = [];
     let addMissingFieldsAction = () => {
-      new import_obsidian20.Notice("Something went wrong, please check your fileClass definitions");
+      new import_obsidian28.Notice("Something went wrong, please check your fileClass definitions");
     };
     if (this.fromFile) {
       const dvApi = (_a = this.plugin.app.plugins.plugins.dataview) == null ? void 0 : _a.api;
@@ -4389,7 +5669,7 @@ var OptionsList = class {
           break;
       }
     } else {
-      new import_obsidian21.Notice("No field with definition at this position", 2e3);
+      new import_obsidian29.Notice("No field with definition at this position", 2e3);
     }
   }
   createContextMenuOptionsList() {
@@ -4471,7 +5751,7 @@ var OptionsList = class {
     if (lastFileClassName) {
       const fileClass = this.plugin.fieldIndex.fileClassesName.get(lastFileClassName);
       if (fileClass) {
-        const icon = fileClass.getIcon() || "clipboard-list";
+        const icon = fileClass.getIcon();
         const noteFieldsComponent = new NoteFieldsComponent(this.plugin, "1", () => {
         }, this.file);
         const action = () => this.plugin.addChild(noteFieldsComponent);
@@ -4506,10 +5786,10 @@ var OptionsList = class {
         });
         item.setSection("metadata-menu");
       });
-      const view = this.plugin.app.workspace.getActiveViewOfType(import_obsidian21.MarkdownView);
+      const view = this.plugin.app.workspace.getActiveViewOfType(import_obsidian29.MarkdownView);
       if (view == null ? void 0 : view.editor) {
         const action = async () => {
-          if (!view.file || !(view.file instanceof import_obsidian21.TFile))
+          if (!view.file || !(view.file instanceof import_obsidian29.TFile))
             return;
           const optionsList = new OptionsList(this.plugin, view.file, "ManageAtCursorCommand");
           const note = await Note.buildNote(this.plugin, view.file);
@@ -4517,7 +5797,7 @@ var OptionsList = class {
           if (node)
             optionsList.createAndOpenFieldModal(node);
           else
-            new import_obsidian21.Notice("No field with definition at this position", 2e3);
+            new import_obsidian29.Notice("No field with definition at this position", 2e3);
         };
         this.location.addItem((item) => {
           item.setIcon("map-pin");
@@ -4632,7 +5912,7 @@ var OptionsList = class {
   }
   addFieldAtCurrentPositionOption() {
     var _a;
-    const currentView = this.plugin.app.workspace.getActiveViewOfType(import_obsidian21.MarkdownView);
+    const currentView = this.plugin.app.workspace.getActiveViewOfType(import_obsidian29.MarkdownView);
     const currentLineNumber = currentView == null ? void 0 : currentView.editor.getCursor().line;
     if (currentLineNumber !== void 0 && this.file.path == (currentView == null ? void 0 : currentView.file.path)) {
       const frontmatter = (_a = this.plugin.app.metadataCache.getFileCache(this.file)) == null ? void 0 : _a.frontmatter;
@@ -4742,7 +6022,8 @@ var ObjectField = class extends FieldManager2 {
     } else {
       const name = this.field.name;
       const action = async () => {
-        const _eF = await ExistingField.getExistingFieldFromIndexForIndexedPath(this.plugin, file, indexedPath);
+        const note = await Note.buildNote(this.plugin, file);
+        const _eF = note.existingFields.find((__eF) => __eF.indexedPath === indexedPath);
         if (_eF) {
           this.createAndOpenFieldModal(file, _eF.field.name, _eF, _eF.indexedPath, void 0, void 0, void 0, void 0);
         } else {
@@ -4770,10 +6051,10 @@ var ObjectField = class extends FieldManager2 {
     const fieldValue = dv.el("span", "{...}", { ...attrs, cls: "value-container" });
     fieldContainer.appendChild(fieldValue);
     const editBtn = fieldContainer.createEl("button");
-    (0, import_obsidian22.setIcon)(editBtn, FieldIcon[this.field.type]);
+    (0, import_obsidian30.setIcon)(editBtn, FieldIcon[this.field.type]);
     editBtn.onclick = async () => {
       const file = this.plugin.app.vault.getAbstractFileByPath(p["file"]["path"]);
-      const _eF = file instanceof import_obsidian22.TFile && file.extension == "md" && await ExistingField.getExistingFieldFromIndexForIndexedPath(this.plugin, file, this.field.id);
+      const _eF = file instanceof import_obsidian30.TFile && await Note.getExistingFieldForIndexedPath(this.plugin, file, this.field.id);
       if (_eF)
         this.createAndOpenFieldModal(file, this.field.name, _eF, _eF.indexedPath);
     };
@@ -4783,7 +6064,7 @@ var ObjectField = class extends FieldManager2 {
   }
   static async getExistingAndMissingFields(plugin, file, indexedPath) {
     var _a;
-    const existingFields = (await ExistingField.getExistingFieldsFromIndexForFilePath(plugin, file)).filter((eF) => eF.indexedPath && Field_default.upperPath(eF.indexedPath) === indexedPath) || [];
+    const existingFields = (await Note.getExistingFields(plugin, file)).filter((eF) => eF.indexedPath && Field_default.upperPath(eF.indexedPath) === indexedPath);
     const { id, index } = Field_default.getIdAndIndex(indexedPath == null ? void 0 : indexedPath.split("____").last());
     const missingFields = ((_a = plugin.fieldIndex.filesFields.get(file.path)) == null ? void 0 : _a.filter((_f) => {
       var _a2;
@@ -4802,8 +6083,8 @@ var ObjectField = class extends FieldManager2 {
 };
 
 // src/modals/BaseObjectModal.ts
-var import_obsidian23 = require("obsidian");
-var BaseSuggestModal = class extends import_obsidian23.SuggestModal {
+var import_obsidian31 = require("obsidian");
+var BaseSuggestModal = class extends import_obsidian31.SuggestModal {
   constructor(plugin, file, eF, indexedPath, previousModal) {
     super(plugin.app);
     this.plugin = plugin;
@@ -4835,7 +6116,7 @@ var BaseSuggestModal = class extends import_obsidian23.SuggestModal {
     };
   }
   buildBackButton(container) {
-    const backButton = new import_obsidian23.ButtonComponent(container);
+    const backButton = new import_obsidian31.ButtonComponent(container);
     backButton.setIcon("left-arrow");
     backButton.onClick(async () => {
       this.onEscape();
@@ -4885,7 +6166,6 @@ var ObjectModal = class extends BaseSuggestModal {
     this.missingFields = [];
   }
   async onOpen() {
-    await ExistingField.indexFieldsValues(this.plugin);
     if (this.indexedPath) {
       const upperPath = Field_default.upperIndexedPathObjectPath(this.indexedPath);
       const { index: upperFieldIndex } = Field_default.getIdAndIndex(upperPath.split("____").last());
@@ -4922,8 +6202,7 @@ var ObjectModal = class extends BaseSuggestModal {
   }
   async onChooseSuggestion(item, evt) {
     const reOpen = async () => {
-      await ExistingField.indexFieldsValues(this.plugin);
-      const eF = await ExistingField.getExistingFieldFromIndexForIndexedPath(this.plugin, this.file, this.indexedPath);
+      const eF = await Note.getExistingFieldForIndexedPath(this.plugin, this.file, this.indexedPath);
       if (eF) {
         const thisFieldManager = new FieldManager[eF.field.type](this.plugin, eF.field);
         thisFieldManager.createAndOpenFieldModal(this.file, eF.field.name, eF, eF.indexedPath, void 0, void 0, void 0, this.previousModal);
@@ -4953,7 +6232,6 @@ var ObjectModal = class extends BaseSuggestModal {
       } else if (item.type === "Object" /* Object */) {
         await postValues(this.plugin, [{ id: `${this.indexedPath}____${item.id}`, payload: { value: "" } }], this.file);
         await this.plugin.fieldIndex.indexFields();
-        await ExistingField.indexFieldsValues(this.plugin, [this.file]);
         const fieldManager = new FieldManager[item.type](this.plugin, item);
         fieldManager.createAndOpenFieldModal(this.file, item.name, void 0, `${this.indexedPath}____${item.id}`, this.lineNumber, this.asList, this.asBlockquote, this);
       } else {
@@ -4965,7 +6243,7 @@ var ObjectModal = class extends BaseSuggestModal {
 };
 
 // src/modals/BaseModal.ts
-var BaseModal = class extends import_obsidian24.Modal {
+var BaseModal = class extends import_obsidian32.Modal {
   constructor(plugin, file, previousModal, indexedPath) {
     super(plugin.app);
     this.plugin = plugin;
@@ -4992,7 +6270,7 @@ var BaseModal = class extends import_obsidian24.Modal {
     fieldContainer.createDiv({ cls: "spacer" });
     const infoContainer = fieldContainer.createDiv({ cls: "info" });
     infoContainer.setText("Alt+Enter to save");
-    const saveBtn = new import_obsidian24.ButtonComponent(fieldContainer);
+    const saveBtn = new import_obsidian32.ButtonComponent(fieldContainer);
     saveBtn.setIcon("checkmark");
     saveBtn.onClick(async () => {
       await this.save();
@@ -5003,13 +6281,13 @@ var BaseModal = class extends import_obsidian24.Modal {
     buttonContainer.createDiv({ cls: "spacer" });
     const infoContainer = buttonContainer.createDiv({ cls: "info" });
     infoContainer.setText("Alt+Enter to save");
-    const confirmButton = new import_obsidian24.ButtonComponent(buttonContainer);
+    const confirmButton = new import_obsidian32.ButtonComponent(buttonContainer);
     confirmButton.setIcon("checkmark");
     confirmButton.onClick(async () => {
       await this.save();
       this.close();
     });
-    const cancelButton = new import_obsidian24.ButtonComponent(buttonContainer);
+    const cancelButton = new import_obsidian32.ButtonComponent(buttonContainer);
     cancelButton.setIcon("cross");
     cancelButton.onClick(() => {
       this.close();
@@ -5018,12 +6296,11 @@ var BaseModal = class extends import_obsidian24.Modal {
   }
   async goToPreviousModal() {
     var _a;
-    await ExistingField.indexFieldsValues(this.plugin);
     const pM = this.previousModal;
     if (pM && this.indexedPath) {
       const upperPath = Field_default.upperIndexedPathObjectPath(this.indexedPath);
       const { index: upperFieldIndex } = Field_default.getIdAndIndex(upperPath.split("____").last());
-      const eF = await ExistingField.getExistingFieldFromIndexForIndexedPath(this.plugin, pM.file, pM.indexedPath);
+      const eF = await Note.getExistingFieldForIndexedPath(this.plugin, pM.file, pM.indexedPath);
       const pField = (_a = pM.eF) == null ? void 0 : _a.field;
       const pFile = pM.file;
       const pIndexedPath = pM.indexedPath;
@@ -5099,7 +6376,7 @@ var InputModal = class extends BaseModal {
               const notice = `{{${name}}} field definition is not a valid JSON 
 in <${this.field.name}> ${this.field.fileClassName ? this.field.fileClassName : "Metadata Menu"} settings`;
               if (errorName === "SyntaxError")
-                new import_obsidian25.Notice(notice, 5e3);
+                new import_obsidian33.Notice(notice, 5e3);
             }
           } else {
             this.buildTemplateInputItem(this.contentEl.createDiv({ cls: "field-container" }), name);
@@ -5130,7 +6407,7 @@ in <${this.field.name}> ${this.field.fileClassName ? this.field.fileClassName : 
   }
   buildTemplateInputItem(fieldContainer, name) {
     fieldContainer.createDiv({ cls: "label", text: name });
-    const input = new import_obsidian25.TextComponent(fieldContainer);
+    const input = new import_obsidian33.TextComponent(fieldContainer);
     input.inputEl.addClass("with-label");
     input.inputEl.addClass("full-width");
     input.setPlaceholder(`Enter a value for ${name}`);
@@ -5142,7 +6419,7 @@ in <${this.field.name}> ${this.field.fileClassName ? this.field.fileClassName : 
   buildTemplateSelectItem(fieldContainer, name, options2) {
     fieldContainer.createDiv({ text: name, cls: "label" });
     fieldContainer.createDiv({ cls: "spacer" });
-    const selectEl = new import_obsidian25.DropdownComponent(fieldContainer);
+    const selectEl = new import_obsidian33.DropdownComponent(fieldContainer);
     selectEl.addOption("", "--select--");
     options2.forEach((o) => selectEl.addOption(o, o));
     selectEl.onChange((value) => {
@@ -5151,13 +6428,14 @@ in <${this.field.name}> ${this.field.fileClassName ? this.field.fileClassName : 
     });
   }
   buildResultPreview(fieldContainer) {
-    this.renderedValue = new import_obsidian25.TextAreaComponent(fieldContainer);
+    this.renderedValue = new import_obsidian33.TextAreaComponent(fieldContainer);
     this.renderedValue.inputEl.addClass("full-width");
     this.renderedValue.inputEl.rows = 3;
     this.renderedValue.setValue(this.value);
+    this.renderedValue.onChange((value) => this.newValue = value);
   }
   buildInputEl(container) {
-    const inputEl = new import_obsidian25.TextAreaComponent(container);
+    const inputEl = new import_obsidian33.TextAreaComponent(container);
     inputEl.inputEl.rows = 3;
     inputEl.inputEl.focus();
     inputEl.inputEl.addClass("full-width");
@@ -5182,7 +6460,7 @@ var InputField = class extends FieldManager2 {
     return this.field.options.template || "";
   }
   async buildAndOpenModal(file, indexedPath) {
-    const eF = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, indexedPath);
+    const eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, indexedPath);
     const modal = new InputModal(this.plugin, file, this.field, eF, indexedPath);
     modal.titleEl.setText(`Change Value for <${this.field.name}>`);
     modal.open();
@@ -5205,7 +6483,7 @@ var InputField = class extends FieldManager2 {
   createSettingContainer(container, plugin) {
     container.createEl("span", { text: "Template", cls: "label" });
     const templateContainer = container.createDiv({ cls: "field-container" });
-    const templateValue = new import_obsidian26.TextAreaComponent(templateContainer);
+    const templateValue = new import_obsidian34.TextAreaComponent(templateContainer);
     templateValue.inputEl.cols = 50;
     templateValue.inputEl.rows = 4;
     templateValue.inputEl.addClass("full-width");
@@ -5226,7 +6504,7 @@ var InputField = class extends FieldManager2 {
     var _a, _b;
     attrs.cls = "value-container";
     const editBtn = fieldContainer.createEl("button");
-    const fieldValue = dv.el("span", p[this.field.name], attrs);
+    const fieldValue = dv.el("span", p[this.field.name] || "", attrs);
     fieldContainer.appendChild(fieldValue);
     const inputContainer = fieldContainer.createDiv({});
     inputContainer.hide();
@@ -5235,7 +6513,7 @@ var InputField = class extends FieldManager2 {
     const spacer = fieldContainer.createDiv({ cls: "spacer-1" });
     if ((_a = attrs.options) == null ? void 0 : _a.alwaysOn)
       spacer.hide();
-    (0, import_obsidian26.setIcon)(editBtn, FieldIcon["Input" /* Input */]);
+    (0, import_obsidian34.setIcon)(editBtn, FieldIcon["Input" /* Input */]);
     if (!((_b = attrs == null ? void 0 : attrs.options) == null ? void 0 : _b.alwaysOn)) {
       editBtn.hide();
       spacer.show();
@@ -5253,13 +6531,13 @@ var InputField = class extends FieldManager2 {
       };
     }
     const validateIcon = inputContainer.createEl("button");
-    (0, import_obsidian26.setIcon)(validateIcon, "checkmark");
+    (0, import_obsidian34.setIcon)(validateIcon, "checkmark");
     validateIcon.onclick = (e) => {
       InputField.replaceValues(this.plugin, p.file.path, this.field.id, input.value);
       inputContainer.hide();
     };
     const cancelIcon = inputContainer.createEl("button");
-    (0, import_obsidian26.setIcon)(cancelIcon, "cross");
+    (0, import_obsidian34.setIcon)(cancelIcon, "cross");
     cancelIcon.onclick = (e) => {
       var _a2;
       inputContainer.hide();
@@ -5286,7 +6564,7 @@ var InputField = class extends FieldManager2 {
     editBtn.onclick = async () => {
       if (this.field.options.template) {
         const file = this.plugin.app.vault.getAbstractFileByPath(p.file.path);
-        if (file instanceof import_obsidian26.TFile && file.extension === "md") {
+        if (file instanceof import_obsidian34.TFile && file.extension === "md") {
           await this.buildAndOpenModal(file, this.field.id);
         }
       } else {
@@ -5301,7 +6579,7 @@ var InputField = class extends FieldManager2 {
 };
 
 // src/modals/fields/BooleanModal.ts
-var import_obsidian27 = require("obsidian");
+var import_obsidian35 = require("obsidian");
 var BooleanModal = class extends BaseModal {
   constructor(plugin, file, field, eF, indexedPath, lineNumber = -1, asList = false, asBlockquote = false, previousModal) {
     super(plugin, file, previousModal, indexedPath);
@@ -5322,11 +6600,11 @@ var BooleanModal = class extends BaseModal {
   buildToggleEl() {
     const choicesContainer = this.contentEl.createDiv({ cls: "value-container" });
     choicesContainer.createDiv({ cls: "spacer" });
-    const trueButton = new import_obsidian27.ButtonComponent(choicesContainer);
+    const trueButton = new import_obsidian35.ButtonComponent(choicesContainer);
     trueButton.setButtonText("True");
     trueButton.setClass("left");
     choicesContainer.createDiv({ cls: "spacer" });
-    const falseButton = new import_obsidian27.ButtonComponent(choicesContainer);
+    const falseButton = new import_obsidian35.ButtonComponent(choicesContainer);
     falseButton.setButtonText("False");
     choicesContainer.createDiv({ cls: "spacer" });
     if (this.value) {
@@ -5365,7 +6643,7 @@ var BooleanField = class extends FieldManager2 {
     this.showModalOption = false;
   }
   async toggle(file, indexedPath) {
-    const eF = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, indexedPath);
+    const eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, indexedPath);
     const value = BooleanField.stringToBoolean(eF == null ? void 0 : eF.value);
     const postValue = !value ? "true" : "false";
     await postValues(this.plugin, [{ id: indexedPath || this.field.id, payload: { value: postValue } }], file);
@@ -5383,9 +6661,13 @@ var BooleanField = class extends FieldManager2 {
       });
     } else if (BooleanField.isFieldOptions(location)) {
       location.addOption(
-        "check-square",
+        iconName,
         action,
-        "\u2705"
+        `Toggle ${name}`,
+        this.field.fileClassName,
+        file,
+        indexedPath,
+        this.plugin
       );
     }
     ;
@@ -5422,10 +6704,10 @@ var BooleanField = class extends FieldManager2 {
 };
 
 // src/fields/fieldManagers/NumberField.ts
-var import_obsidian29 = require("obsidian");
+var import_obsidian37 = require("obsidian");
 
 // src/modals/fields/NumberModal.ts
-var import_obsidian28 = require("obsidian");
+var import_obsidian36 = require("obsidian");
 var NumberModal = class extends BaseModal {
   constructor(plugin, file, field, eF, indexedPath, lineNumber = -1, asList = false, asBlockquote = false, previousModal) {
     var _a;
@@ -5485,14 +6767,14 @@ var NumberModal = class extends BaseModal {
     const { step } = this.field.options;
     cleanActions(this.contentEl, ".field-container");
     const fieldContainer = this.contentEl.createEl("div", { cls: "field-container" });
-    this.numberInput = new import_obsidian28.TextComponent(fieldContainer);
+    this.numberInput = new import_obsidian36.TextComponent(fieldContainer);
     const numberInput = this.numberInput;
     numberInput.inputEl.focus();
     numberInput.setValue(`${this.value || ""}`);
-    const minusBtn = new import_obsidian28.ButtonComponent(fieldContainer);
+    const minusBtn = new import_obsidian36.ButtonComponent(fieldContainer);
     minusBtn.setButtonText(`- ${!!step ? step : 1}`);
     minusBtn.setDisabled(!this.fieldManager.canDecrement(numberInput.getValue()));
-    const plusBtn = new import_obsidian28.ButtonComponent(fieldContainer);
+    const plusBtn = new import_obsidian36.ButtonComponent(fieldContainer);
     plusBtn.setButtonText(`+ ${!!step ? step : 1}`);
     plusBtn.setDisabled(!this.fieldManager.canIncrement(numberInput.getValue()));
     fieldContainer.createDiv({ cls: "spacer" });
@@ -5570,7 +6852,7 @@ var NumberField = class extends FieldManager2 {
     return !isNaN(fValue) && (isNaN(fMin) || fValue >= fMin) && (isNaN(fMax) || fValue <= fMax);
   }
   async buildAndOpenModal(file, indexedPath) {
-    const eF = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, indexedPath);
+    const eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, indexedPath);
     const modal = new NumberModal(this.plugin, file, this.field, eF, indexedPath);
     modal.titleEl.setText(`Change Value for <${this.field.name}>`);
     modal.open();
@@ -5580,7 +6862,7 @@ var NumberField = class extends FieldManager2 {
     const fMin = parseFloat(min2);
     const fMax = parseFloat(max2);
     const fStep = parseFloat(step);
-    const eF = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, indexedPath);
+    const eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, indexedPath);
     const value = (eF == null ? void 0 : eF.value) || "";
     const fValue = parseFloat(value);
     if (!isNaN(fValue)) {
@@ -5626,18 +6908,18 @@ var NumberField = class extends FieldManager2 {
     const numberStepValueContainer = container.createDiv({ cls: "field-container" });
     numberStepValueContainer.createEl("span", { text: "Step (optional)", cls: "label" });
     numberStepValueContainer.createDiv({ cls: "spacer" });
-    this.numberStepValue = new import_obsidian29.TextComponent(numberStepValueContainer);
+    this.numberStepValue = new import_obsidian37.TextComponent(numberStepValueContainer);
     this.numberStepValue.inputEl.addClass("with-label");
     this.numberStepValue.setValue(`${this.field.options.step}` || "");
     const numberMinValueContainer = container.createDiv({ cls: "field-container" });
     numberMinValueContainer.createEl("span", { text: "Min value (optional)", cls: "label" });
-    this.numberMinValue = new import_obsidian29.TextComponent(numberMinValueContainer);
+    this.numberMinValue = new import_obsidian37.TextComponent(numberMinValueContainer);
     this.numberMinValue.inputEl.addClass("full-width");
     this.numberMinValue.inputEl.addClass("with-label");
     this.numberMinValue.setValue(`${this.field.options.min}` || "");
     const numberMaxValueContainer = container.createDiv({ cls: "field-container" });
     numberMaxValueContainer.createEl("span", { text: "Max value (optional)", cls: "label" });
-    this.numberMaxValue = new import_obsidian29.TextComponent(numberMaxValueContainer);
+    this.numberMaxValue = new import_obsidian37.TextComponent(numberMaxValueContainer);
     this.numberMaxValue.inputEl.addClass("full-width");
     this.numberMaxValue.inputEl.addClass("with-label");
     this.numberMaxValue.setValue(`${this.field.options.max}` || "");
@@ -5710,11 +6992,11 @@ var NumberField = class extends FieldManager2 {
     input.value = p[this.field.name] || "";
     const tripleSpacer = fieldContainer.createDiv({ cls: "spacer-3" });
     const editButton = fieldContainer.createEl("button");
-    (0, import_obsidian29.setIcon)(editButton, FieldIcon["Number" /* Number */]);
+    (0, import_obsidian37.setIcon)(editButton, FieldIcon["Number" /* Number */]);
     const decrementButton = fieldContainer.createEl("button");
-    (0, import_obsidian29.setIcon)(decrementButton, "left-arrow");
+    (0, import_obsidian37.setIcon)(decrementButton, "left-arrow");
     const incrementButton = fieldContainer.createEl("button");
-    (0, import_obsidian29.setIcon)(incrementButton, "right-arrow");
+    (0, import_obsidian37.setIcon)(incrementButton, "right-arrow");
     if (!((_a = attrs == null ? void 0 : attrs.options) == null ? void 0 : _a.alwaysOn)) {
       editButton.hide();
       decrementButton.hide();
@@ -5734,11 +7016,11 @@ var NumberField = class extends FieldManager2 {
       };
     }
     const validateIcon = fieldContainer.createEl("button");
-    (0, import_obsidian29.setIcon)(validateIcon, "checkmark");
+    (0, import_obsidian37.setIcon)(validateIcon, "checkmark");
     validateIcon.onclick = async () => {
       if (this.validateValue(input.value)) {
         const file = this.plugin.app.vault.getAbstractFileByPath(p.file.path);
-        if (file instanceof import_obsidian29.TFile && file.extension == "md") {
+        if (file instanceof import_obsidian37.TFile && file.extension == "md") {
           await postValues(this.plugin, [{ id: this.field.id, payload: { value: input.value } }], file);
           this.toggleDvButtons(decrementButton, incrementButton, input.value);
         }
@@ -5747,7 +7029,7 @@ var NumberField = class extends FieldManager2 {
     };
     inputContainer == null ? void 0 : inputContainer.appendChild(validateIcon);
     const cancelIcon = fieldContainer.createEl("button");
-    (0, import_obsidian29.setIcon)(cancelIcon, "cross");
+    (0, import_obsidian37.setIcon)(cancelIcon, "cross");
     cancelIcon.onclick = (e) => {
       fieldContainer.removeChild(inputContainer);
       fieldContainer.appendChild(fieldValue);
@@ -5771,7 +7053,7 @@ var NumberField = class extends FieldManager2 {
       if (e.key === "Enter") {
         if (this.validateValue(input.value)) {
           const file = this.plugin.app.vault.getAbstractFileByPath(p.file.path);
-          if (file instanceof import_obsidian29.TFile && file.extension == "md") {
+          if (file instanceof import_obsidian37.TFile && file.extension == "md") {
             await postValues(this.plugin, [{ id: this.field.id, payload: { value: input.value } }], file);
             this.toggleDvButtons(decrementButton, incrementButton, input.value);
           }
@@ -5801,7 +7083,7 @@ var NumberField = class extends FieldManager2 {
         const { step } = this.field.options;
         const fStep = parseFloat(step);
         const file = this.plugin.app.vault.getAbstractFileByPath(p["file"]["path"]);
-        if (file instanceof import_obsidian29.TFile && file.extension == "md") {
+        if (file instanceof import_obsidian37.TFile && file.extension == "md") {
           const newValue = (!!fStep ? p[this.field.name] - fStep : p[this.field.name] - 1).toString();
           await postValues(this.plugin, [{ id: this.field.id, payload: { value: newValue } }], file);
           this.toggleDvButtons(decrementButton, incrementButton, newValue);
@@ -5813,7 +7095,7 @@ var NumberField = class extends FieldManager2 {
         const { step } = this.field.options;
         const fStep = parseFloat(step);
         const file = this.plugin.app.vault.getAbstractFileByPath(p["file"]["path"]);
-        if (file instanceof import_obsidian29.TFile && file.extension == "md") {
+        if (file instanceof import_obsidian37.TFile && file.extension == "md") {
           const newValue = (!!fStep ? p[this.field.name] + fStep : p[this.field.name] + 1).toString();
           await postValues(this.plugin, [{ id: this.field.id, payload: { value: newValue } }], file);
           this.toggleDvButtons(decrementButton, incrementButton, newValue);
@@ -5831,10 +7113,10 @@ var NumberField = class extends FieldManager2 {
 };
 
 // src/fields/fieldManagers/SelectField.ts
-var import_obsidian34 = require("obsidian");
+var import_obsidian42 = require("obsidian");
 
 // src/modals/BaseSelectModal.ts
-var import_obsidian30 = require("obsidian");
+var import_obsidian38 = require("obsidian");
 
 // src/types/selectValuesSourceTypes.ts
 var Type2 = /* @__PURE__ */ ((Type3) => {
@@ -5855,7 +7137,7 @@ var typeDisplay = {
 };
 
 // src/modals/BaseSelectModal.ts
-var BaseSelecttModal = class extends import_obsidian30.SuggestModal {
+var BaseSelecttModal = class extends import_obsidian38.SuggestModal {
   constructor(plugin, file, field, eF, indexedPath, lineNumber = -1, asList = false, asBlockquote = false, previousModal) {
     super(plugin.app);
     this.plugin = plugin;
@@ -5877,7 +7159,7 @@ var BaseSelecttModal = class extends import_obsidian30.SuggestModal {
     this.buildFooterActions(footerActionsContainer);
   }
   buildAddButton(container) {
-    this.addButton = new import_obsidian30.ButtonComponent(container);
+    this.addButton = new import_obsidian38.ButtonComponent(container);
     this.addButton.setIcon("plus");
     this.addButton.onClick(async () => await this.onAdd());
     this.addButton.setCta();
@@ -5887,11 +7169,11 @@ var BaseSelecttModal = class extends import_obsidian30.SuggestModal {
   buildFooterActions(footerActionsContainer) {
     footerActionsContainer.createDiv({ cls: "spacer" });
     this.buildConfirm(footerActionsContainer);
-    const cancelButton = new import_obsidian30.ButtonComponent(footerActionsContainer);
+    const cancelButton = new import_obsidian38.ButtonComponent(footerActionsContainer);
     cancelButton.setIcon("cross");
     cancelButton.onClick(() => this.close());
     cancelButton.setTooltip("Cancel");
-    const clearButton = new import_obsidian30.ButtonComponent(footerActionsContainer);
+    const clearButton = new import_obsidian38.ButtonComponent(footerActionsContainer);
     clearButton.setIcon("eraser");
     clearButton.setTooltip("Clear field's value(s)");
     clearButton.onClick(async () => {
@@ -5930,7 +7212,7 @@ var BaseSelecttModal = class extends import_obsidian30.SuggestModal {
           await fileClass.updateAttribute(fileClassAttribute.type, fileClassAttribute.name, newOptions, fileClassAttribute);
         } else if (fileClassAttribute.options.sourceType === "ValuesListNotePath" /* ValuesListNotePath */) {
           const valuesFile = this.plugin.app.vault.getAbstractFileByPath(fileClassAttribute.options.valuesListNotePath);
-          if (valuesFile instanceof import_obsidian30.TFile && valuesFile.extension == "md") {
+          if (valuesFile instanceof import_obsidian38.TFile && valuesFile.extension == "md") {
             const result = await this.plugin.app.vault.read(valuesFile);
             this.plugin.app.vault.modify(valuesFile, `${result}
 ${newValue}`);
@@ -5945,7 +7227,7 @@ ${newValue}`);
       const presetField = this.plugin.presetFields.find((field) => field.name === this.field.name);
       if ((presetField == null ? void 0 : presetField.options.sourceType) === "ValuesListNotePath" /* ValuesListNotePath */) {
         const valuesFile = this.plugin.app.vault.getAbstractFileByPath(presetField.options.valuesListNotePath);
-        if (valuesFile instanceof import_obsidian30.TFile && valuesFile.extension == "md") {
+        if (valuesFile instanceof import_obsidian38.TFile && valuesFile.extension == "md") {
           const result = await this.plugin.app.vault.read(valuesFile);
           this.plugin.app.vault.modify(valuesFile, `${result}
 ${newValue}`);
@@ -6020,13 +7302,13 @@ var ValueSuggestModal = class extends BaseSelecttModal {
 };
 
 // src/fields/fieldManagers/AbstractListBasedField.ts
-var import_obsidian33 = require("obsidian");
+var import_obsidian41 = require("obsidian");
 
 // src/suggester/FileSuggester.ts
-var import_obsidian32 = require("obsidian");
+var import_obsidian40 = require("obsidian");
 
 // src/suggester/suggest.ts
-var import_obsidian31 = require("obsidian");
+var import_obsidian39 = require("obsidian");
 
 // node_modules/@popperjs/core/lib/enums.js
 var top = "top";
@@ -7314,10 +8596,10 @@ function debounce3(fn2) {
   var pending;
   return function() {
     if (!pending) {
-      pending = new Promise(function(resolve2) {
+      pending = new Promise(function(resolve) {
         Promise.resolve().then(function() {
           pending = void 0;
-          resolve2(fn2());
+          resolve(fn2());
         });
       });
     }
@@ -7436,9 +8718,9 @@ function popperGenerator(generatorOptions) {
       // Async and optimistically optimized update – it will not be executed if
       // not necessary (debounced to run at most once-per-tick)
       update: debounce3(function() {
-        return new Promise(function(resolve2) {
+        return new Promise(function(resolve) {
           instance.forceUpdate();
-          resolve2(state);
+          resolve(state);
         });
       }),
       destroy: function destroy() {
@@ -7569,7 +8851,7 @@ var Suggest = class {
 var TextInputSuggest = class {
   constructor(inputEl) {
     this.inputEl = inputEl;
-    this.scope = new import_obsidian31.Scope();
+    this.scope = new import_obsidian39.Scope();
     this.suggestEl = createDiv("suggestion-container");
     const suggestion = this.suggestEl.createDiv("suggestion");
     this.suggest = new Suggest(this, suggestion, this.scope);
@@ -7650,7 +8932,7 @@ var FileSuggest = class extends TextInputSuggest {
     const files = [];
     const lower_input_str = input_str.toLowerCase();
     all_files.forEach((file) => {
-      if (file instanceof import_obsidian32.TFile && file.extension === this.extenstion && file.path.toLowerCase().contains(lower_input_str)) {
+      if (file instanceof import_obsidian40.TFile && file.extension === this.extenstion && file.path.toLowerCase().contains(lower_input_str)) {
         files.push(file);
       }
     });
@@ -7674,7 +8956,7 @@ var AbstractListBasedField = class extends FieldManager2 {
   createListNotePathContainer(container, plugin) {
     const valuesListNotePathContainer = container.createDiv({ cls: "field-container" });
     valuesListNotePathContainer.createDiv({ text: `Path of the note`, cls: "label" });
-    const input = new import_obsidian33.TextComponent(valuesListNotePathContainer);
+    const input = new import_obsidian41.TextComponent(valuesListNotePathContainer);
     input.inputEl.addClass("full-width");
     input.inputEl.addClass("with-label");
     new FileSuggest(
@@ -7713,14 +8995,14 @@ var AbstractListBasedField = class extends FieldManager2 {
     const values = this.field.options.valuesList || {};
     const presetValue = values[key];
     const valueContainer = parentNode.createDiv({ cls: "field-container" });
-    const input = new import_obsidian33.TextComponent(valueContainer);
+    const input = new import_obsidian41.TextComponent(valueContainer);
     input.inputEl.addClass("full-width");
     input.setValue(presetValue);
     input.onChange((value) => {
       this.field.options.valuesList[key] = value;
       FieldSettingsModal.removeValidationError(input);
     });
-    const valueRemoveButton = new import_obsidian33.ButtonComponent(valueContainer);
+    const valueRemoveButton = new import_obsidian41.ButtonComponent(valueContainer);
     valueRemoveButton.setIcon("trash").onClick((evt) => {
       evt.preventDefault();
       FieldSettingsModal.removeValidationError(input);
@@ -7729,8 +9011,8 @@ var AbstractListBasedField = class extends FieldManager2 {
       this.valuesPromptComponents.remove(input);
     });
     if (key != Object.keys(this.field.options)[0]) {
-      const valueUpgradeButton = new import_obsidian33.ButtonComponent(valueContainer);
-      (0, import_obsidian33.setIcon)(valueUpgradeButton.buttonEl, "up-chevron-glyph");
+      const valueUpgradeButton = new import_obsidian41.ButtonComponent(valueContainer);
+      (0, import_obsidian41.setIcon)(valueUpgradeButton.buttonEl, "up-chevron-glyph");
       valueUpgradeButton.onClick((evt) => {
         const thisValue = values[key];
         const inputIndex = this.valuesPromptComponents.indexOf(input);
@@ -7786,7 +9068,7 @@ var AbstractListBasedField = class extends FieldManager2 {
           {
             const dvApi = (_a = this.plugin.app.plugins.plugins.dataview) == null ? void 0 : _a.api;
             if (dvApi) {
-              values = new Function("dv", "current", `return ${this.field.options.valuesFromDVQuery}`)(dvApi, dvFile);
+              values = new Function("dv", "current", `return ${this.field.options.valuesFromDVQuery}`)(dvApi, dvFile || {});
             } else {
               values = [];
             }
@@ -7862,7 +9144,7 @@ var AbstractListBasedField = class extends FieldManager2 {
     valuesFromDVQueryTopContainer.createEl("span", { text: "Dataview function" });
     valuesFromDVQueryTopContainer.createEl("span", { text: "Dataview query returning a list of string (<dv> object is available)", cls: "sub-text" });
     const valuesFromDVQueryContainer = valuesFromDVQueryTopContainer.createDiv({ cls: "field-container" });
-    const valuesFromDVQuery = new import_obsidian33.TextAreaComponent(valuesFromDVQueryContainer);
+    const valuesFromDVQuery = new import_obsidian41.TextAreaComponent(valuesFromDVQueryContainer);
     valuesFromDVQuery.inputEl.addClass("full-width");
     valuesFromDVQuery.inputEl.cols = 65;
     valuesFromDVQuery.inputEl.rows = 8;
@@ -7886,7 +9168,7 @@ var AbstractListBasedField = class extends FieldManager2 {
     const sourceTypeContainer = container.createDiv({ cls: "field-container" });
     sourceTypeContainer.createDiv({ text: "Values source type", cls: "label" });
     sourceTypeContainer.createDiv({ cls: "spacer" });
-    const sourceType = new import_obsidian33.DropdownComponent(sourceTypeContainer);
+    const sourceType = new import_obsidian41.DropdownComponent(sourceTypeContainer);
     if (!this.field.options.sourceType) {
       if (typeof this.field.options === "object" && Object.keys(this.field.options).every((key) => !isNaN(parseInt(key)))) {
         const valuesList = {};
@@ -7918,7 +9200,7 @@ var AbstractListBasedField = class extends FieldManager2 {
   }
   createDvField(dv, p, fieldContainer, attrs = {}) {
     attrs.cls = "value-container";
-    fieldContainer.appendChild(dv.el("span", p[this.field.name], attrs));
+    fieldContainer.appendChild(dv.el("span", p[this.field.name] || "", attrs));
   }
 };
 
@@ -7929,7 +9211,7 @@ var SelectField = class extends AbstractListBasedField {
     this.valuesPromptComponents = [];
   }
   async buildAndOpenModal(file, indexedPath) {
-    const eF = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, indexedPath);
+    const eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, indexedPath);
     const modal = new ValueSuggestModal(this.plugin, file, this.field, eF, indexedPath);
     modal.titleEl.setText("Select value");
     modal.open();
@@ -7960,9 +9242,9 @@ var SelectField = class extends AbstractListBasedField {
     fieldContainer.appendChild(dv.el("span", p[this.field.name] || "", attrs));
     const spacer = fieldContainer.createEl("div", { cls: "spacer-1" });
     const dropDownButton = fieldContainer.createEl("button");
-    (0, import_obsidian34.setIcon)(dropDownButton, "down-chevron-glyph");
+    (0, import_obsidian42.setIcon)(dropDownButton, "down-chevron-glyph");
     const file = this.plugin.app.vault.getAbstractFileByPath(p["file"]["path"]);
-    if (file instanceof import_obsidian34.TFile && file.extension == "md") {
+    if (file instanceof import_obsidian42.TFile && file.extension == "md") {
       dropDownButton.onclick = async () => await this.buildAndOpenModal(file);
     } else {
       dropDownButton.onclick = () => {
@@ -7984,7 +9266,7 @@ var SelectField = class extends AbstractListBasedField {
 };
 
 // src/fields/fieldManagers/CycleField.ts
-var import_obsidian35 = require("obsidian");
+var import_obsidian43 = require("obsidian");
 var CycleField = class extends AbstractListBasedField {
   constructor(plugin, field) {
     super(plugin, field, "Cycle" /* Cycle */);
@@ -7995,7 +9277,7 @@ var CycleField = class extends AbstractListBasedField {
     const allowNullValueContainer = container.createDiv({ cls: "field-container" });
     allowNullValueContainer.createDiv({ cls: "label", text: "Cycle begins by a null value" });
     allowNullValueContainer.createDiv({ cls: "spacer" });
-    const allowNullToggler = new import_obsidian35.ToggleComponent(allowNullValueContainer);
+    const allowNullToggler = new import_obsidian43.ToggleComponent(allowNullValueContainer);
     allowNullToggler.setValue(this.field.options.allowNull || false);
     allowNullToggler.onChange((value) => this.field.options.allowNull = value);
     super.createSettingContainer(container, plugin, location);
@@ -8035,7 +9317,7 @@ var CycleField = class extends AbstractListBasedField {
     container.createDiv({ text: valueText });
   }
   async next(name, file, indexedPath) {
-    const eF = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, indexedPath);
+    const eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, indexedPath);
     const value = (eF == null ? void 0 : eF.value) || "";
     await postValues(this.plugin, [{ id: indexedPath || this.field.id, payload: { value: this.nextOption(value).toString() } }], file);
   }
@@ -8063,10 +9345,10 @@ var CycleField = class extends AbstractListBasedField {
   createDvField(dv, p, fieldContainer, attrs = {}) {
     var _a;
     attrs.cls = "value-container";
-    fieldContainer.appendChild(dv.el("span", p[this.field.name], attrs));
-    const spacer = fieldContainer.createEl("div", { cls: "spacer" });
+    fieldContainer.appendChild(dv.el("span", p[this.field.name] || "", attrs));
+    const spacer = fieldContainer.createEl("div", { cls: "spacer-1" });
     const cycleBtn = fieldContainer.createEl("button");
-    (0, import_obsidian35.setIcon)(cycleBtn, FieldIcon["Cycle" /* Cycle */]);
+    (0, import_obsidian43.setIcon)(cycleBtn, FieldIcon["Cycle" /* Cycle */]);
     if (!((_a = attrs == null ? void 0 : attrs.options) == null ? void 0 : _a.alwaysOn)) {
       cycleBtn.hide();
       spacer.show();
@@ -8082,9 +9364,9 @@ var CycleField = class extends AbstractListBasedField {
     const file = this.plugin.app.vault.getAbstractFileByPath(p.file.path);
     cycleBtn.onclick = async (e) => {
       var _a2;
-      if (!(file instanceof import_obsidian35.TFile))
+      if (!(file instanceof import_obsidian43.TFile))
         return;
-      const eF = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, this.field.id);
+      const eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, this.field.id);
       const value = (eF == null ? void 0 : eF.value) || "";
       const nextOption = this.nextOption(value);
       CycleField.replaceValues(this.plugin, file.path, this.field.id, nextOption);
@@ -8097,277 +9379,10 @@ var CycleField = class extends AbstractListBasedField {
 };
 
 // src/fields/fieldManagers/MultiField.ts
-var import_obsidian39 = require("obsidian");
+var import_obsidian45 = require("obsidian");
 
 // src/modals/fields/MultiSelectModal.ts
-var import_obsidian38 = require("obsidian");
-
-// src/fields/fieldManagers/AbstractFileBasedField.ts
-var import_obsidian36 = require("obsidian");
-var convertDataviewArrayOfLinkToArrayOfPath = (arr) => {
-  return arr.reduce((acc, cur) => {
-    if (!cur || !cur.path)
-      return acc;
-    return [...acc, cur.path];
-  }, []);
-};
-var getFiles = (plugin, field, dvQueryString, currentFile) => {
-  const getResults = (api) => {
-    try {
-      return new Function("dv", "current", `return ${dvQueryString}`)(api, api.page(currentFile == null ? void 0 : currentFile.path));
-    } catch (error) {
-      new import_obsidian36.Notice(`Wrong query for field <${field.name}>
-check your settings`, 3e3);
-    }
-  };
-  const dataview = plugin.app.plugins.plugins["dataview"];
-  if (dvQueryString && (dataview == null ? void 0 : dataview.settings.enableDataviewJs) && (dataview == null ? void 0 : dataview.settings.enableInlineDataviewJs)) {
-    try {
-      let results = getResults(dataview.api);
-      if (!results)
-        return [];
-      if (Array.isArray(results.values)) {
-        results = results.values;
-      }
-      const filesPath = results.reduce((a, v) => {
-        if (!v)
-          return a;
-        if (v.path)
-          return [...a, v.path];
-        if (v.file)
-          return [...a, v.file.path];
-        if (Array.isArray(v))
-          return [...a, ...convertDataviewArrayOfLinkToArrayOfPath(v)];
-        return a;
-      }, []);
-      return plugin.app.vault.getMarkdownFiles().filter((f) => filesPath.includes(f.path));
-    } catch (error) {
-      throw error;
-    }
-  } else {
-    return plugin.app.vault.getMarkdownFiles();
-  }
-};
-var AbstractFileBasedField = class extends FieldManager2 {
-  constructor(plugin, field, type) {
-    super(plugin, field, type);
-    this.getFiles = (currentFile) => getFiles(this.plugin, this.field, this.field.options.dvQueryString, currentFile);
-  }
-  async buildAndOpenModal(file, indexedPath) {
-    const eF = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, indexedPath);
-    const modal = this.modalFactory(this.plugin, file, this.field, eF, indexedPath);
-    modal.open();
-  }
-  addFieldOption(file, location, indexedPath) {
-    const name = this.field.name;
-    const action = async () => await this.buildAndOpenModal(file, indexedPath);
-    if (AbstractFileBasedField.isSuggest(location)) {
-      location.options.push({
-        id: `update_${name}`,
-        actionLabel: `<span>Update <b>${name}</b></span>`,
-        action,
-        icon: FieldIcon["File" /* File */]
-      });
-    } else if (AbstractFileBasedField.isFieldOptions(location)) {
-      location.addOption(FieldIcon["File" /* File */], action, `Update ${name}'s value`);
-    }
-    ;
-  }
-  createFileContainer(container) {
-    const dvQueryStringTopContainer = container.createDiv({ cls: "vstacked" });
-    dvQueryStringTopContainer.createEl("span", { text: "Dataview Query (optional)", cls: "field-option" });
-    const dvQueryStringContainer = dvQueryStringTopContainer.createDiv({ cls: "field-container" });
-    this.dvQueryString = new import_obsidian36.TextAreaComponent(dvQueryStringContainer);
-    this.dvQueryString.inputEl.cols = 50;
-    this.dvQueryString.inputEl.rows = 4;
-    this.dvQueryString.setValue(this.field.options.dvQueryString || "");
-    this.dvQueryString.inputEl.addClass("full-width");
-    this.dvQueryString.onChange((value) => {
-      this.field.options.dvQueryString = value;
-      FieldSettingsModal.removeValidationError(this.dvQueryString);
-    });
-    const customeRenderingTopContainer = container.createDiv({ cls: "vstacked" });
-    customeRenderingTopContainer.createEl("span", { text: "Alias" });
-    customeRenderingTopContainer.createEl("span", { text: "Personalise the rendering of your links' aliases with a function returning a string (<page> object is available)", cls: "sub-text" });
-    customeRenderingTopContainer.createEl("code", {
-      text: `function(page) { return <function using "page">; }`
-    });
-    const customeRenderingContainer = customeRenderingTopContainer.createDiv({ cls: "field-container" });
-    const customRendering = new import_obsidian36.TextAreaComponent(customeRenderingContainer);
-    customRendering.inputEl.cols = 50;
-    customRendering.inputEl.rows = 4;
-    customRendering.inputEl.addClass("full-width");
-    customRendering.setValue(this.field.options.customRendering || "");
-    customRendering.setPlaceholder('Javascript string, the "page" (dataview page type) variable is available\nexample 1: page.file.name\nexample 2: `${page.file.name} of gender ${page.gender}`');
-    customRendering.onChange((value) => {
-      this.field.options.customRendering = value;
-      FieldSettingsModal.removeValidationError(customRendering);
-    });
-    const customSortingTopContainer = container.createDiv({ cls: "vstacked" });
-    customSortingTopContainer.createEl("span", { text: "Sorting order" });
-    customSortingTopContainer.createEl("span", { text: "Personalise the sorting order of your links with a instruction taking 2 files (a, b) and returning -1, 0 or 1", cls: "sub-text" });
-    customSortingTopContainer.createEl("code", {
-      text: `(a: TFile, b: TFile): number`
-    });
-    const customSortingContainer = customSortingTopContainer.createDiv({ cls: "field-container" });
-    const customSorting = new import_obsidian36.TextAreaComponent(customSortingContainer);
-    customSorting.inputEl.cols = 50;
-    customSorting.inputEl.rows = 4;
-    customSorting.inputEl.addClass("full-width");
-    customSorting.setValue(this.field.options.customSorting || "");
-    customSorting.setPlaceholder("Javascript instruction, (a: TFile, b: TFile): number\nexample 1 (alphabetical order): a.basename < b.basename ? 1 : -1 \nexample 2 (creation time newer to older): b.stat.ctime - b.stat.ctime");
-    customSorting.onChange((value) => {
-      this.field.options.customSorting = value;
-      FieldSettingsModal.removeValidationError(customSorting);
-    });
-  }
-  createSettingContainer(parentContainer, plugin, location) {
-    this.createFileContainer(parentContainer);
-  }
-  getOptionsStr() {
-    return this.field.options.dvQueryString || "";
-  }
-  validateOptions() {
-    return true;
-  }
-  createAndOpenFieldModal(file, selectedFieldName, eF, indexedPath, lineNumber, asList, asBlockquote, previousModal) {
-    const fieldModal = this.modalFactory(this.plugin, file, this.field, eF, indexedPath, lineNumber, asList, asBlockquote, previousModal);
-    fieldModal.titleEl.setText(`Enter value for ${selectedFieldName}`);
-    fieldModal.open();
-  }
-  createDvField(dv, p, fieldContainer, attrs = {}) {
-    var _a;
-    attrs.cls = "value-container";
-    fieldContainer.appendChild(dv.el("span", p[this.field.name], attrs));
-    const searchBtn = fieldContainer.createEl("button");
-    (0, import_obsidian36.setIcon)(searchBtn, FieldIcon["File" /* File */]);
-    const spacer = fieldContainer.createEl("div", { cls: "spacer" });
-    const file = this.plugin.app.vault.getAbstractFileByPath(p["file"]["path"]);
-    if (file instanceof import_obsidian36.TFile && file.extension == "md") {
-      searchBtn.onclick = async () => await this.buildAndOpenModal(file);
-    } else {
-      searchBtn.onclick = async () => {
-      };
-    }
-    if (!((_a = attrs == null ? void 0 : attrs.options) == null ? void 0 : _a.alwaysOn)) {
-      searchBtn.hide();
-      spacer.show();
-      fieldContainer.onmouseover = () => {
-        searchBtn.show();
-        spacer.hide();
-      };
-      fieldContainer.onmouseout = () => {
-        searchBtn.hide();
-        spacer.show();
-      };
-    }
-  }
-};
-
-// src/modals/fields/SingleFileModal.ts
-var import_obsidian37 = require("obsidian");
-var FileFuzzySuggester = class extends import_obsidian37.FuzzySuggestModal {
-  constructor(plugin, file, field, eF, indexedPath, lineNumber = -1, asList = false, asBlockquote = false, previousModal) {
-    var _a;
-    super(plugin.app);
-    this.plugin = plugin;
-    this.file = file;
-    this.field = field;
-    this.eF = eF;
-    this.indexedPath = indexedPath;
-    this.lineNumber = lineNumber;
-    this.asList = asList;
-    this.asBlockquote = asBlockquote;
-    this.previousModal = previousModal;
-    const initialValueObject = ((_a = this.eF) == null ? void 0 : _a.value) || "";
-    const link = getLink(initialValueObject, this.file);
-    if (link) {
-      const file2 = this.plugin.app.vault.getAbstractFileByPath(link.path);
-      if (file2 instanceof import_obsidian37.TFile)
-        this.selectedFile = file2;
-    }
-    this.containerEl.addClass("metadata-menu");
-  }
-  onClose() {
-    var _a;
-    (_a = this.previousModal) == null ? void 0 : _a.open();
-  }
-  getItems() {
-    const sortingMethod = new Function("a", "b", `return ${this.field.options.customSorting}`) || function(a, b) {
-      return a.basename < b.basename ? -1 : 1;
-    };
-    try {
-      const fileManager = new FieldManager[this.field.type](this.plugin, this.field);
-      return fileManager.getFiles(this.file).sort(sortingMethod);
-    } catch (error) {
-      this.close();
-      throw error;
-    }
-  }
-  getItemText(item) {
-    return item.basename;
-  }
-  renderSuggestion(value, el) {
-    var _a, _b;
-    const dvApi = (_a = this.plugin.app.plugins.plugins.dataview) == null ? void 0 : _a.api;
-    if (dvApi && this.field.options.customRendering) {
-      const suggestionContainer = el.createDiv({ cls: "item-with-add-on" });
-      suggestionContainer.createDiv({
-        text: new Function("page", `return ${this.field.options.customRendering}`)(dvApi.page(value.item.path))
-      });
-      const filePath = suggestionContainer.createDiv({ cls: "add-on" });
-      filePath.setText(value.item.path);
-    } else {
-      el.setText(value.item.basename);
-    }
-    el.addClass("value-container");
-    const spacer = this.containerEl.createDiv({ cls: "spacer" });
-    el.appendChild(spacer);
-    if (((_b = this.selectedFile) == null ? void 0 : _b.path) === value.item.path) {
-      el.addClass("value-checked");
-      const iconContainer = el.createDiv({ cls: "icon-container" });
-      (0, import_obsidian37.setIcon)(iconContainer, "check-circle");
-    }
-    this.inputEl.focus();
-  }
-  async onChooseItem(item) {
-    var _a, _b;
-    const dvApi = (_a = this.plugin.app.plugins.plugins.dataview) == null ? void 0 : _a.api;
-    let alias = void 0;
-    if (dvApi && this.field.options.customRendering) {
-      alias = new Function("page", `return ${this.field.options.customRendering}`)(dvApi.page(item.path));
-    }
-    const value = FileField.buildMarkDownLink(this.plugin, this.file, item.basename, void 0, alias);
-    await postValues(this.plugin, [{ id: this.indexedPath || this.field.id, payload: { value } }], this.file, this.lineNumber, this.asList, this.asBlockquote);
-    (_b = this.previousModal) == null ? void 0 : _b.open();
-  }
-};
-
-// src/fields/fieldManagers/FileField.ts
-var FileField = class extends AbstractFileBasedField {
-  constructor(plugin, field) {
-    super(plugin, field, "File" /* File */);
-  }
-  modalFactory(plugin, file, field, eF, indexedPath, lineNumber = -1, asList = false, asBlockquote = false, previousModal) {
-    return new FileFuzzySuggester(plugin, file, field, eF, indexedPath, lineNumber, asList, asBlockquote, previousModal);
-  }
-  displayValue(container, file, value, onClicked) {
-    const link = getLink(value, file);
-    if (link == null ? void 0 : link.path) {
-      const linkText = link.path.split("/").last() || "";
-      const linkEl = container.createEl("a", { text: linkText.replace(/(.*).md/, "$1") });
-      linkEl.onclick = () => {
-        this.plugin.app.workspace.openLinkText(link.path, file.path, true);
-        onClicked();
-      };
-    } else {
-      container.createDiv({ text: value });
-    }
-    container.createDiv();
-  }
-};
-
-// src/modals/fields/MultiSelectModal.ts
+var import_obsidian44 = require("obsidian");
 var MultiSuggestModal = class extends BaseSelecttModal {
   constructor(plugin, file, field, eF, indexedPath, lineNumber = -1, asList = false, asBlockquote = false, previousModal, preSelectedOptions) {
     var _a, _b;
@@ -8422,7 +9437,7 @@ var MultiSuggestModal = class extends BaseSelecttModal {
   buildConfirm(footerActionsContainer) {
     const infoContainer = footerActionsContainer.createDiv({ cls: "info" });
     infoContainer.setText("Alt+Enter to save");
-    const confirmButton = new import_obsidian38.ButtonComponent(footerActionsContainer);
+    const confirmButton = new import_obsidian44.ButtonComponent(footerActionsContainer);
     confirmButton.setIcon("checkmark");
     confirmButton.onClick(async () => {
       await this.replaceValues();
@@ -8451,7 +9466,7 @@ var MultiSuggestModal = class extends BaseSelecttModal {
         s.addClass("value-checked");
         if (s.querySelectorAll(".icon-container").length == 0) {
           const iconContainer = s.createDiv({ cls: "icon-container" });
-          (0, import_obsidian38.setIcon)(iconContainer, "check-circle");
+          (0, import_obsidian44.setIcon)(iconContainer, "check-circle");
         }
       } else {
         s.removeClass("value-checked");
@@ -8466,7 +9481,7 @@ var MultiSuggestModal = class extends BaseSelecttModal {
     if (this.selectedOptions.includes(value.toString())) {
       el.addClass("value-checked");
       const iconContainer = el.createDiv({ cls: "icon-container" });
-      (0, import_obsidian38.setIcon)(iconContainer, "check-circle");
+      (0, import_obsidian44.setIcon)(iconContainer, "check-circle");
     }
     this.inputEl.focus();
   }
@@ -8487,7 +9502,7 @@ var MultiField = class extends AbstractListBasedField {
     this.valuesPromptComponents = [];
   }
   async buildAndOpenModal(file, indexedPath) {
-    const eF = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, indexedPath);
+    const eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, indexedPath);
     const modal = new MultiSuggestModal(this.plugin, file, this.field, eF, indexedPath);
     modal.titleEl.setText("Select values");
     modal.open();
@@ -8513,7 +9528,7 @@ var MultiField = class extends AbstractListBasedField {
     fieldModal.open();
   }
   createDvField(dv, p, fieldContainer, attrs = {}) {
-    var _a, _b, _c;
+    var _a, _b;
     let valueHovered = false;
     let currentValues = [];
     if (p[this.field.name]) {
@@ -8528,7 +9543,8 @@ var MultiField = class extends AbstractListBasedField {
           }
         });
       } else {
-        currentValues = ((_a = p[this.field.name]) == null ? void 0 : _a.split(",").map((v) => v.trim())) || [];
+        const value = p[this.field.name];
+        currentValues = value ? `${value}`.split(",").map((v) => v.trim()) : [];
       }
     }
     const file = this.plugin.app.vault.getAbstractFileByPath(p["file"]["path"]);
@@ -8537,7 +9553,7 @@ var MultiField = class extends AbstractListBasedField {
       const valueContainer = valuesContainer.createDiv({ cls: "item-container" });
       const valueRemoveBtn = valueContainer.createEl("button");
       const valueLabel = valueContainer.createDiv({ cls: "label", text: v });
-      (0, import_obsidian39.setIcon)(valueRemoveBtn, "cross");
+      (0, import_obsidian45.setIcon)(valueRemoveBtn, "cross");
       valueRemoveBtn.hide();
       valueRemoveBtn.onclick = async () => {
         const remainingValues = currentValues.filter((cV) => cV !== v).join(", ");
@@ -8559,9 +9575,9 @@ var MultiField = class extends AbstractListBasedField {
       };
     });
     const addBtn = valuesContainer.createEl("button");
-    (0, import_obsidian39.setIcon)(addBtn, "list-plus");
+    (0, import_obsidian45.setIcon)(addBtn, "list-plus");
     let fieldModal;
-    if (file instanceof import_obsidian39.TFile && file.extension == "md") {
+    if (file instanceof import_obsidian45.TFile && file.extension == "md") {
       addBtn.onclick = async () => await this.buildAndOpenModal(file);
     } else {
       addBtn.onclick = () => {
@@ -8569,7 +9585,7 @@ var MultiField = class extends AbstractListBasedField {
     }
     const singleSpacer = valuesContainer.createDiv({ cls: "spacer-1" });
     const doubleSpacer = valuesContainer.createDiv({ cls: "spacer-2" });
-    if (!((_b = attrs == null ? void 0 : attrs.options) == null ? void 0 : _b.alwaysOn)) {
+    if (!((_a = attrs == null ? void 0 : attrs.options) == null ? void 0 : _a.alwaysOn)) {
       addBtn.hide();
       fieldContainer.onmouseover = () => {
         addBtn.show();
@@ -8583,7 +9599,7 @@ var MultiField = class extends AbstractListBasedField {
         doubleSpacer.show();
       };
     }
-    if (!((_c = attrs == null ? void 0 : attrs.options) == null ? void 0 : _c.alwaysOn)) {
+    if (!((_b = attrs == null ? void 0 : attrs.options) == null ? void 0 : _b.alwaysOn)) {
       singleSpacer.hide();
       doubleSpacer.show();
       addBtn.hide();
@@ -8596,11 +9612,11 @@ var MultiField = class extends AbstractListBasedField {
 };
 
 // src/fields/fieldManagers/DateField.ts
-var import_obsidian42 = require("obsidian");
+var import_obsidian48 = require("obsidian");
 
 // src/modals/fields/DateModal.ts
-var import_obsidian40 = require("obsidian");
-var import_obsidian41 = require("obsidian");
+var import_obsidian46 = require("obsidian");
+var import_obsidian47 = require("obsidian");
 
 // node_modules/flatpickr/dist/esm/types/options.js
 var HOOKS = [
@@ -10955,6 +11971,7 @@ var DateModal = class extends BaseModal {
     this.asList = asList;
     this.asBlockquote = asBlockquote;
     this.previousModal = previousModal;
+    this.pathTemplateItems = {};
     this.pushNextInterval = false;
     const initialValue = ((_a = this.eF) == null ? void 0 : _a.value) || "";
     this.initialValue = initialValue ? ((_b = initialValue.toString().replace(/^\[\[/g, "").replace(/\]\]$/g, "").split("|").first()) == null ? void 0 : _b.split("/").last()) || "" : "";
@@ -10973,21 +11990,41 @@ var DateModal = class extends BaseModal {
     this.errorField = this.contentEl.createEl("div", { cls: "field-error" });
     this.errorField.hide();
   }
+  buildPath(value) {
+    let renderedPath = this.field.options.linkPath || "";
+    const templatePathRegex = new RegExp(`\\{\\{(?<pattern>[^\\}]+?)\\}\\}`, "gu");
+    const tP = renderedPath.matchAll(templatePathRegex);
+    let next = tP.next();
+    while (!next.done) {
+      if (next.value.groups) {
+        const pattern = next.value.groups.pattern;
+        this.pathTemplateItems[pattern] = (0, import_obsidian47.moment)(value).format(pattern);
+      }
+      next = tP.next();
+    }
+    Object.keys(this.pathTemplateItems).forEach((k) => {
+      const fieldRegex = new RegExp(`\\{\\{${k}(:[^\\}]*)?\\}\\}`, "u");
+      renderedPath = renderedPath.replace(fieldRegex, this.pathTemplateItems[k]);
+    });
+    return renderedPath;
+  }
   async save() {
     let newValue;
     if (this.plugin.app.plugins.enabledPlugins.has("nldates-obsidian")) {
       try {
         const nldates = this.plugin.app.plugins.plugins["nldates-obsidian"];
-        newValue = nldates.parseDate(this.value).moment;
+        const parsedDate = nldates.parseDate(`${this.value}`);
+        newValue = parsedDate.date ? parsedDate.moment : (0, import_obsidian47.moment)(`${this.value}`, this.format);
       } catch (error) {
-        newValue = (0, import_obsidian41.moment)(this.value, this.format);
+        newValue = (0, import_obsidian47.moment)(`${this.value}`, this.format);
       }
     } else {
-      newValue = (0, import_obsidian41.moment)(this.value, this.format);
+      newValue = (0, import_obsidian47.moment)(`${this.value}`, this.format);
     }
     if (newValue.isValid()) {
-      const linkPath = this.plugin.app.metadataCache.getFirstLinkpathDest(this.field.options.linkPath || "" + newValue.format(this.format), this.file.path);
-      const formattedValue = this.insertAsLink ? `[[${this.field.options.linkPath || ""}${newValue.format(this.format)}${linkPath ? "|" + linkPath.basename : ""}]]` : newValue.format(this.format);
+      const renderedPath = this.buildPath(newValue);
+      const linkPath = this.plugin.app.metadataCache.getFirstLinkpathDest(renderedPath || "" + newValue.format(this.format), this.file.path);
+      const formattedValue = this.insertAsLink ? `[[${renderedPath || ""}${newValue.format(this.format)}${linkPath ? "|" + linkPath.basename : ""}]]` : newValue.format(this.format);
       await postValues(this.plugin, [{ id: this.indexedPath || this.field.id, payload: { value: formattedValue } }], this.file, this.lineNumber, this.asList, this.asBlockquote);
       this.saved = true;
       if (this.previousModal)
@@ -11013,10 +12050,11 @@ var DateModal = class extends BaseModal {
   async buildFields(dateFieldsContainer) {
     await this.buildInputEl(dateFieldsContainer);
     this.buildInsertAsLinkButton(dateFieldsContainer);
+    this.buildClearBtn(dateFieldsContainer);
     this.buildSimpleSaveBtn(dateFieldsContainer);
   }
   buildInsertAsLinkButton(container) {
-    const insertAsLinkBtn = new import_obsidian40.ButtonComponent(container);
+    const insertAsLinkBtn = new import_obsidian46.ButtonComponent(container);
     const setLinkBtnIcon = () => {
       insertAsLinkBtn.setIcon(this.insertAsLink ? "link" : "unlink");
       insertAsLinkBtn.setTooltip(
@@ -11029,6 +12067,15 @@ var DateModal = class extends BaseModal {
       setLinkBtnIcon();
     });
   }
+  buildClearBtn(container) {
+    const clearBtn = new import_obsidian46.ButtonComponent(container);
+    clearBtn.setIcon("eraser");
+    clearBtn.setTooltip(`Clear ${this.field.name}'s date`);
+    clearBtn.onClick(() => {
+      this.value = "";
+      this.inputEl.setPlaceholder("");
+    });
+  }
   toggleButton(button, value) {
     button.setDisabled(!!value);
     if (value) {
@@ -11039,10 +12086,10 @@ var DateModal = class extends BaseModal {
   }
   async buildInputEl(container) {
     [this.currentShift, this.nextIntervalField, this.nextShift] = await this.dateManager.shiftDuration(this.file);
-    this.inputEl = new import_obsidian40.TextComponent(container);
+    this.inputEl = new import_obsidian46.TextComponent(container);
     this.inputEl.inputEl.focus();
     this.inputEl.setPlaceholder(
-      this.initialValue ? (0, import_obsidian41.moment)(this.initialValue, this.field.options.dateFormat).format(this.field.options.dateFormat) : ""
+      this.initialValue ? (0, import_obsidian47.moment)(this.initialValue, this.field.options.dateFormat).format(this.field.options.dateFormat) : ""
     );
     this.inputEl.onChange((value) => {
       this.inputEl.inputEl.removeClass("is-invalid");
@@ -11051,10 +12098,10 @@ var DateModal = class extends BaseModal {
       this.value = value;
       this.toggleButton(shiftFromTodayBtn, value);
     });
-    const calendarDisplayBtn = new import_obsidian40.ButtonComponent(container);
+    const calendarDisplayBtn = new import_obsidian46.ButtonComponent(container);
     calendarDisplayBtn.setIcon(FieldIcon["Date" /* Date */]);
     calendarDisplayBtn.setTooltip("open date picker");
-    const shiftFromTodayBtn = new import_obsidian40.ButtonComponent(container);
+    const shiftFromTodayBtn = new import_obsidian46.ButtonComponent(container);
     shiftFromTodayBtn.setIcon("skip-forward");
     shiftFromTodayBtn.setTooltip(`Shift ${this.field.name} ${this.currentShift || "1 day"} ahead`);
     const datePickerContainer = container.createDiv();
@@ -11062,10 +12109,10 @@ var DateModal = class extends BaseModal {
       locale: {
         firstDayOfWeek: this.plugin.settings.firstDayOfWeek
       },
-      defaultDate: (0, import_obsidian41.moment)(Date.now()).format("YYYY-MM-DD")
+      defaultDate: (0, import_obsidian47.moment)(Date.now()).format("YYYY-MM-DD")
     });
     datePicker.config.onChange.push((value) => {
-      const newDate = (0, import_obsidian41.moment)(value.toString()).format(this.format);
+      const newDate = (0, import_obsidian47.moment)(value.toString()).format(this.format);
       this.inputEl.setValue(newDate);
       this.value = newDate;
       this.toggleButton(shiftFromTodayBtn, this.value);
@@ -11093,7 +12140,7 @@ var DateField = class extends FieldManager2 {
     this.showModalOption = false;
   }
   async buildAndOpenModal(file, indexedPath) {
-    const eF = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, indexedPath);
+    const eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, indexedPath);
     const modal = new DateModal(this.plugin, file, this.field, eF, indexedPath);
     modal.titleEl.setText(`Change date for <${this.field.name}>`);
     modal.open();
@@ -11103,6 +12150,7 @@ var DateField = class extends FieldManager2 {
     const dateIconName = FieldIcon["Date" /* Date */];
     const dateModalAction = async () => await this.buildAndOpenModal(file, indexedPath);
     const shiftDateAction = async () => await this.shiftDate(file, indexedPath);
+    const clearDateAction = async () => await this.clearDate(file, indexedPath);
     if (DateField.isSuggest(location)) {
       location.options.push({
         id: `update_${name}`,
@@ -11118,6 +12166,12 @@ var DateField = class extends FieldManager2 {
           icon: "skip-forward"
         });
       }
+      location.options.push({
+        id: `clear_${name}`,
+        actionLabel: `<span>Clear <b>${name}</b></span>`,
+        action: clearDateAction,
+        icon: "eraser"
+      });
     } else if (DateField.isFieldOptions(location)) {
       location.addOption("skip-forward", shiftDateAction, `Shift ${name} ahead`);
       location.addOption(dateIconName, dateModalAction, `Set ${name}'s date`);
@@ -11138,26 +12192,28 @@ var DateField = class extends FieldManager2 {
     const dateFormatContainer = container.createDiv({ cls: "field-container" });
     dateFormatContainer.createEl("span", { text: "Date format", cls: "label" });
     const dateExample = dateFormatContainer.createEl("span", { cls: "more-info" });
-    dateFormatContainer.createDiv({ cls: "spacer" });
-    const dateFormatInput = new import_obsidian42.TextComponent(dateFormatContainer);
+    const dateFormatInput = new import_obsidian48.TextComponent(dateFormatContainer);
+    dateFormatInput.inputEl.addClass("with-label");
+    dateFormatInput.inputEl.addClass("full-width");
     dateFormatInput.setValue(this.field.options.dateFormat);
-    dateExample.setText(`${(0, import_obsidian42.moment)().format(dateFormatInput.getValue())}`);
+    dateExample.setText(`${(0, import_obsidian48.moment)().format(dateFormatInput.getValue())}`);
     dateFormatInput.onChange((value) => {
       this.field.options.dateFormat = value;
-      dateExample.setText(`${(0, import_obsidian42.moment)().format(value)}`);
+      dateExample.setText(`${(0, import_obsidian48.moment)().format(value)}`);
     });
     const defaultInsertAsLinkContainer = container.createDiv({ cls: "field-container" });
     defaultInsertAsLinkContainer.createEl("span", { text: "Insert as link by default", cls: "label" });
     defaultInsertAsLinkContainer.createDiv({ cls: "spacer" });
-    const defaultInsertAsLink = new import_obsidian42.ToggleComponent(defaultInsertAsLinkContainer);
+    const defaultInsertAsLink = new import_obsidian48.ToggleComponent(defaultInsertAsLinkContainer);
     defaultInsertAsLink.setValue(DateField.stringToBoolean(this.field.options.defaultInsertAsLink));
     defaultInsertAsLink.onChange((value) => {
       this.field.options.defaultInsertAsLink = value;
     });
     const dateLinkPathContainer = container.createDiv({ cls: "field-container" });
     dateLinkPathContainer.createEl("span", { text: "Link path (optional)", cls: "label" });
-    dateLinkPathContainer.createDiv({ cls: "spacer" });
-    const dateLinkPathInput = new import_obsidian42.TextComponent(dateLinkPathContainer);
+    const dateLinkPathInput = new import_obsidian48.TextComponent(dateLinkPathContainer);
+    dateLinkPathInput.inputEl.addClass("with-label");
+    dateLinkPathInput.inputEl.addClass("full-width");
     dateLinkPathInput.setValue(this.field.options.linkPath);
     dateLinkPathInput.onChange((value) => {
       this.field.options.linkPath = value + (!value.endsWith("/") && !!value.length ? "/" : "");
@@ -11165,7 +12221,7 @@ var DateField = class extends FieldManager2 {
     const dateShiftIntervalContainer = container.createDiv({ cls: "field-container" });
     dateShiftIntervalContainer.createEl("span", { text: "Define a shift interval", cls: "label" });
     dateShiftIntervalContainer.createDiv({ cls: "spacer" });
-    const dateShiftInterval = new import_obsidian42.TextComponent(dateShiftIntervalContainer);
+    const dateShiftInterval = new import_obsidian48.TextComponent(dateShiftIntervalContainer);
     dateShiftInterval.setPlaceholder("ex: 1 month, 2 days");
     dateShiftInterval.setValue(this.field.options.dateShiftInterval);
     dateShiftInterval.onChange((value) => {
@@ -11181,7 +12237,7 @@ var DateField = class extends FieldManager2 {
       cls: "label"
     });
     nextShiftIntervalFieldContainer.createDiv({ cls: "spacer" });
-    const nextShiftIntervalField = new import_obsidian42.DropdownComponent(nextShiftIntervalFieldContainer);
+    const nextShiftIntervalField = new import_obsidian48.DropdownComponent(nextShiftIntervalFieldContainer);
     nextShiftIntervalField.addOption("none", "---None---");
     let rootFields = [];
     if (this.field.fileClassName) {
@@ -11204,11 +12260,11 @@ var DateField = class extends FieldManager2 {
   async getMomentDate(file, indexedPath) {
     var _a;
     const { dateFormat } = this.field.options;
-    const eF = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, indexedPath);
+    const eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, indexedPath);
     const _date = eF == null ? void 0 : eF.value;
     const _dateLink = getLink(_date, file);
     const _dateText = _dateLink ? (_a = _dateLink.path.split("/").last()) == null ? void 0 : _a.replace(/(.*).md/, "$1") : _date;
-    return (0, import_obsidian42.moment)(_dateText, dateFormat);
+    return (0, import_obsidian48.moment)(_dateText, dateFormat);
   }
   async getNewDateValue(currentShift, file, indexedPath) {
     const { dateFormat } = this.field.options;
@@ -11216,7 +12272,7 @@ var DateField = class extends FieldManager2 {
     const [_shiftNumber, shiftPeriod] = (currentShift == null ? void 0 : currentShift.split(" ")) || ["1", "days"];
     const shiftNumber = parseInt(_shiftNumber) || 1;
     const _newDate = momentDate.isValid() ? momentDate.add(shiftNumber, shiftPeriod).format(dateFormat) : void 0;
-    return _newDate || (0, import_obsidian42.moment)().format(dateFormat);
+    return _newDate || (0, import_obsidian48.moment)().format(dateFormat);
   }
   async shiftDate(file, indexedPath) {
     if (!indexedPath)
@@ -11232,18 +12288,23 @@ var DateField = class extends FieldManager2 {
     const formattedValue = DateField.stringToBoolean(defaultInsertAsLink) ? `[[${linkPath || ""}${newValue}${linkFile ? "|" + linkFile.basename : ""}]]` : newValue;
     await postValues(this.plugin, [{ id: indexedPath, payload: { value: formattedValue } }], file);
   }
-  createDvField(dv, p, fieldContainer, attrs) {
+  async clearDate(file, indexedPath) {
+    if (!indexedPath)
+      return;
+    await postValues(this.plugin, [{ id: indexedPath, payload: { value: "" } }], file);
+  }
+  createDvField(dv, p, fieldContainer, attrs = {}) {
     var _a;
     attrs.cls = "value-container";
-    const fieldValue = dv.el("span", p[this.field.name], attrs);
+    const fieldValue = dv.el("span", p[this.field.name] || "", attrs);
     const dateBtn = fieldContainer.createEl("button");
-    (0, import_obsidian42.setIcon)(dateBtn, FieldIcon["Date" /* Date */]);
+    (0, import_obsidian48.setIcon)(dateBtn, FieldIcon["Date" /* Date */]);
     const spacer = fieldContainer.createDiv({ cls: "spacer-1" });
     this.shiftBtn = fieldContainer.createEl("button");
-    (0, import_obsidian42.setIcon)(this.shiftBtn, "skip-forward");
+    (0, import_obsidian48.setIcon)(this.shiftBtn, "skip-forward");
     spacer.setAttr("class", "spacer-2");
     const file = this.plugin.app.vault.getAbstractFileByPath(p.file.path);
-    if (file instanceof import_obsidian42.TFile && file.extension == "md") {
+    if (file instanceof import_obsidian48.TFile && file.extension == "md") {
       dateBtn.onclick = async () => await this.buildAndOpenModal(file, this.field.id);
       this.shiftBtn.onclick = () => {
         if (file)
@@ -11291,7 +12352,7 @@ var DateField = class extends FieldManager2 {
         onClicked();
       };
     } else {
-      const date = (0, import_obsidian42.moment)(value, dateFormat);
+      const date = (0, import_obsidian48.moment)(value, dateFormat);
       if (date.isValid()) {
         const dateText = date.format(this.field.options.dateFormat);
         if (this.field.options.defaultInsertAsLink) {
@@ -11316,12 +12377,12 @@ var DateField = class extends FieldManager2 {
       return true;
     } else {
       if (typeof value == "string") {
-        return (0, import_obsidian42.moment)(
+        return (0, import_obsidian48.moment)(
           (_a = value.replace(/^\[\[/g, "").replace(/\]\]$/g, "").split("|").first()) == null ? void 0 : _a.split("/").last(),
           this.field.options.dateFormat
         ).isValid();
       } else {
-        return (0, import_obsidian42.moment)(
+        return (0, import_obsidian48.moment)(
           (_b = value.path.replace(/^\[\[/g, "").replace(/\]\]$/g, "").split("|").first()) == null ? void 0 : _b.split("/").last(),
           this.field.options.dateFormat
         ).isValid();
@@ -11338,7 +12399,7 @@ var DateField = class extends FieldManager2 {
     if (cycle) {
       const cycleManager = new FieldManager[cycle.type](this.plugin, cycle);
       const options2 = cycleManager.getOptionsList();
-      currentValue = (_b = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, cycle.id)) == null ? void 0 : _b.value;
+      currentValue = (_b = await Note.getExistingFieldForIndexedPath(this.plugin, file, cycle.id)) == null ? void 0 : _b.value;
       if (currentValue) {
         nextValue = cycleManager.nextOption(currentValue);
       } else {
@@ -11350,7 +12411,7 @@ var DateField = class extends FieldManager2 {
     }
     const [_nextShiftNumber, nextShiftPeriod] = (currentValue == null ? void 0 : currentValue.split(" ")) || ["1", "days"];
     const nextShiftNumber = parseInt(_nextShiftNumber) || 1;
-    if (import_obsidian42.moment.isDuration(import_obsidian42.moment.duration(nextShiftNumber, nextShiftPeriod))) {
+    if (import_obsidian48.moment.isDuration(import_obsidian48.moment.duration(nextShiftNumber, nextShiftPeriod))) {
       return [currentValue, cycle, nextValue];
     } else {
       return [currentValue, cycle, interval];
@@ -11359,8 +12420,8 @@ var DateField = class extends FieldManager2 {
 };
 
 // src/modals/fields/MultiFileModal.ts
-var import_obsidian43 = require("obsidian");
-var MultiFileModal = class extends import_obsidian43.FuzzySuggestModal {
+var import_obsidian49 = require("obsidian");
+var MultiFileModal = class extends import_obsidian49.FuzzySuggestModal {
   constructor(plugin, file, field, eF, indexedPath, lineNumber = -1, asList = false, asBlockquote = false, previousModal) {
     var _a;
     super(plugin.app);
@@ -11381,7 +12442,7 @@ var MultiFileModal = class extends import_obsidian43.FuzzySuggestModal {
           const link = getLink(item, this.file);
           if (link) {
             const file2 = this.plugin.app.vault.getAbstractFileByPath(link.path);
-            if (file2 instanceof import_obsidian43.TFile && !this.selectedFiles.map((_f) => _f.path).includes(file2.path))
+            if (file2 instanceof import_obsidian49.TFile && !this.selectedFiles.map((_f) => _f.path).includes(file2.path))
               this.selectedFiles.push(file2);
           }
         });
@@ -11391,7 +12452,7 @@ var MultiFileModal = class extends import_obsidian43.FuzzySuggestModal {
           const link = getLink(_link, this.file);
           if (link) {
             const file2 = this.plugin.app.vault.getAbstractFileByPath(link.path);
-            if (file2 instanceof import_obsidian43.TFile && !this.selectedFiles.map((_f) => _f.path).includes(link.path))
+            if (file2 instanceof import_obsidian49.TFile && !this.selectedFiles.map((_f) => _f.path).includes(link.path))
               this.selectedFiles.push(file2);
           }
         });
@@ -11412,18 +12473,18 @@ var MultiFileModal = class extends import_obsidian43.FuzzySuggestModal {
     buttonContainer.createDiv({ cls: "spacer" });
     const infoContainer = buttonContainer.createDiv({ cls: "info" });
     infoContainer.setText("Alt+Enter to save");
-    const confirmButton = new import_obsidian43.ButtonComponent(buttonContainer);
+    const confirmButton = new import_obsidian49.ButtonComponent(buttonContainer);
     confirmButton.setIcon("checkmark");
     confirmButton.onClick(async () => {
       await this.replaceValues();
       this.close();
     });
-    const cancelButton = new import_obsidian43.ButtonComponent(buttonContainer);
+    const cancelButton = new import_obsidian49.ButtonComponent(buttonContainer);
     cancelButton.setIcon("cross");
     cancelButton.onClick(() => {
       this.close();
     });
-    const clearButton = new import_obsidian43.ButtonComponent(buttonContainer);
+    const clearButton = new import_obsidian49.ButtonComponent(buttonContainer);
     clearButton.setIcon("trash");
     clearButton.onClick(async () => {
       await this.clearValues();
@@ -11488,7 +12549,7 @@ var MultiFileModal = class extends import_obsidian43.FuzzySuggestModal {
     if (this.selectedFiles.some((file) => file.path === value.item.path)) {
       el.addClass("value-checked");
       const iconContainer = el.createDiv({ cls: "icon-container" });
-      (0, import_obsidian43.setIcon)(iconContainer, "check-circle");
+      (0, import_obsidian49.setIcon)(iconContainer, "check-circle");
     }
   }
   renderSelected() {
@@ -11500,7 +12561,7 @@ var MultiFileModal = class extends import_obsidian43.FuzzySuggestModal {
         s.addClass("value-checked");
         if (s.querySelectorAll(".icon-container").length == 0) {
           const iconContainer = s.createDiv({ cls: "icon-container" });
-          (0, import_obsidian43.setIcon)(iconContainer, "check-circle");
+          (0, import_obsidian49.setIcon)(iconContainer, "check-circle");
         }
       } else {
         s.removeClass("value-checked");
@@ -11590,10 +12651,10 @@ var MultiFileField = class extends AbstractFileBasedField {
 };
 
 // src/fields/fieldManagers/LookupField.ts
-var import_obsidian45 = require("obsidian");
+var import_obsidian51 = require("obsidian");
 
 // src/commands/updateLookups.ts
-var import_obsidian44 = require("obsidian");
+var import_obsidian50 = require("obsidian");
 function arraysAsStringAreEqual(a, b) {
   const aAsArray = typeof a === "string" ? a.split(",").map((v) => v.trim()) : Array.isArray(a) ? a : [];
   const bAsArray = typeof b === "string" ? b.split(",").map((v) => v.trim()) : Array.isArray(b) ? b : [];
@@ -11619,6 +12680,7 @@ function renderValue(field, pages, plugin, tFile, renderingErrors) {
           try {
             return renderingFunction(dvFile);
           } catch (e) {
+            plugin.fieldIndex.fileLookupFieldsStatus.set(`${tFile.path}__related__${field.fileClassName}___${field.name}`, "error" /* error */);
             if (!renderingErrors.includes(field.name))
               renderingErrors.push(field.name);
             return "";
@@ -11637,6 +12699,7 @@ function renderValue(field, pages, plugin, tFile, renderingErrors) {
         try {
           newValue = summarizingFunction(pages).toString();
         } catch (e) {
+          plugin.fieldIndex.fileLookupFieldsStatus.set(`${tFile.path}__related__${field.fileClassName}___${field.name}`, "error" /* error */);
           if (!renderingErrors.includes(field.name))
             renderingErrors.push(field.name);
           newValue = "";
@@ -11671,11 +12734,11 @@ async function updateLookups(plugin, forceUpdateOne, forceUpdateAll = false) {
   const payloads = {};
   const updatedFields = [];
   await Promise.all([...f.fileLookupFiles.keys()].map(async (lookupFileId) => {
-    var _a, _b, _c;
+    var _a, _b;
     const matchRegex = /(?<filePath>.*)__related__(?<fileClassName>.*)___(?<fieldName>.*)/;
     const { filePath, fieldName } = ((_a = lookupFileId.match(matchRegex)) == null ? void 0 : _a.groups) || {};
     const file = plugin.app.vault.getAbstractFileByPath(filePath);
-    if (!file || !(file instanceof import_obsidian44.TFile))
+    if (!file || !(file instanceof import_obsidian50.TFile))
       return;
     payloads[filePath] = payloads[filePath] || [];
     let newValue = "";
@@ -11686,7 +12749,7 @@ async function updateLookups(plugin, forceUpdateOne, forceUpdateAll = false) {
       if (!f.fileLookupFieldLastOutputType.get(lookupFileId))
         f.fileLookupFieldLastOutputType.set(lookupFileId, outputType);
       newValue = renderValue(field, pages, plugin, file, renderingErrors);
-      const currentValue = (_c = await ExistingField.getExistingFieldFromIndexForIndexedPath(plugin, file, field.id)) == null ? void 0 : _c.value;
+      const currentValue = f.fileLookupFieldLastValue.get(lookupFileId);
       const shouldCheckForUpdate = field.options.autoUpdate || field.options.autoUpdate === void 0 || forceUpdateAll || //field is autoUpdated OR
       //field is not autoupdated and we have to check for request to update this one
       (forceUpdateOne == null ? void 0 : forceUpdateOne.file.path) === file.path && (forceUpdateOne == null ? void 0 : forceUpdateOne.fieldName) === field.name;
@@ -11714,9 +12777,6 @@ async function updateLookups(plugin, forceUpdateOne, forceUpdateAll = false) {
   Object.entries(payloads).forEach(async ([filePath, fieldsPayload]) => {
     f.pushPayloadToUpdate(filePath, fieldsPayload);
   });
-  if (renderingErrors.length)
-    new import_obsidian44.Notice(`Those fields have incorrect output rendering functions:
-${renderingErrors.join(",\n")}`);
 }
 
 // src/fields/fieldManagers/LookupField.ts
@@ -11734,19 +12794,19 @@ var LookupField = class extends FieldManager2 {
       status = f.fileLookupFieldsStatus.get(id) || "changed" /* changed */;
       if (f.fileLookupFieldLastOutputType.get(`${file.path}__related__${this.field.fileClassName}___${this.field.name}`) !== this.field.options.outputType)
         status = "changed" /* changed */;
-      const icon = status === "changed" /* changed */ ? "refresh-ccw" : "file-check";
+      const icon = statusIcon[status];
       const action = async () => {
         await updateLookups(this.plugin, { file, fieldName: this.field.name });
         f.applyUpdates();
       };
-      if (LookupField.isSuggest(location) && status === "changed" /* changed */) {
+      if (LookupField.isSuggest(location) && ["changed" /* changed */, "mayHaveChanged" /* mayHaveChanged */].includes(status)) {
         location.options.push({
           id: `update_${name}`,
           actionLabel: `<span>Update <b>${name}</b></span>`,
           action,
           icon
         });
-      } else if (LookupField.isFieldOptions(location) && status === "changed" /* changed */) {
+      } else if (LookupField.isFieldOptions(location) && ["changed" /* changed */, "mayHaveChanged" /* mayHaveChanged */].includes(status)) {
         location.addOption(icon, action, `Update ${name}'s value`);
       } else if (LookupField.isFieldOptions(location) && status === "upToDate" /* upToDate */) {
         location.addOption(icon, () => {
@@ -11758,7 +12818,6 @@ var LookupField = class extends FieldManager2 {
     }
   }
   async createAndOpenFieldModal(file, selectedFieldName, eF, indexedPath, lineNumber, asList, asBlockquote) {
-    await postValues(this.plugin, [{ id: indexedPath || this.field.id, payload: { value: "" } }], file, lineNumber, asList, asBlockquote);
     await this.plugin.fieldIndex.fullIndex();
   }
   createDvField(dv, p, fieldContainer, attrs) {
@@ -11791,7 +12850,7 @@ var LookupField = class extends FieldManager2 {
     const autoUpdateContainer = autoUpdateTopContainer.createDiv({ cls: "field-container" });
     autoUpdateContainer.createEl("span", { text: "Auto update this field ", cls: "label" });
     autoUpdateContainer.createDiv({ cls: "spacer" });
-    const autoUpdate = new import_obsidian45.ToggleComponent(autoUpdateContainer);
+    const autoUpdate = new import_obsidian51.ToggleComponent(autoUpdateContainer);
     autoUpdateTopContainer.createEl("span", { text: "This could lead to latencies depending on the queries", cls: "sub-text warning" });
     if (this.field.options.autoUpdate === void 0)
       this.field.options.autoUpdate = false;
@@ -11803,7 +12862,7 @@ var LookupField = class extends FieldManager2 {
     dvQueryStringTopContainer.createEl("span", { text: "Pages to look for in your vault (DataviewJS Query)", cls: "label" });
     dvQueryStringTopContainer.createEl("span", { text: "DataviewJS query of the form `dv.pages(...)`", cls: "sub-text" });
     const dvQueryStringContainer = dvQueryStringTopContainer.createDiv({ cls: "field-container" });
-    const dvQueryString = new import_obsidian45.TextAreaComponent(dvQueryStringContainer);
+    const dvQueryString = new import_obsidian51.TextAreaComponent(dvQueryStringContainer);
     dvQueryString.inputEl.addClass("full-width");
     dvQueryString.inputEl.cols = 50;
     dvQueryString.inputEl.rows = 4;
@@ -11816,7 +12875,7 @@ var LookupField = class extends FieldManager2 {
     const targetFieldTopContainer = container.createDiv({ cls: "vstacked" });
     const targetFieldContainer = targetFieldTopContainer.createDiv({ cls: "field-container" });
     targetFieldContainer.createEl("span", { text: "Name of the related field", cls: "label" });
-    const targetFieldName = new import_obsidian45.TextComponent(targetFieldContainer);
+    const targetFieldName = new import_obsidian51.TextComponent(targetFieldContainer);
     targetFieldName.inputEl.addClass("full-width");
     targetFieldName.inputEl.addClass("with-label");
     targetFieldTopContainer.createEl("span", { text: "field in the target pages that contains a link to the page where this lookup field is", cls: "sub-text" });
@@ -11829,7 +12888,7 @@ var LookupField = class extends FieldManager2 {
     this.field.options.outputType = this.field.options.outputType || "LinksList" /* LinksList */;
     outputTypeContainer.createEl("span", { text: "Type of output", cls: "label" });
     outputTypeContainer.createDiv({ cls: "spacer" });
-    const outputTypeList = new import_obsidian45.DropdownComponent(outputTypeContainer);
+    const outputTypeList = new import_obsidian51.DropdownComponent(outputTypeContainer);
     Object.keys(Type).forEach((outputType) => {
       outputTypeList.addOption(outputType, Description[outputType]);
     });
@@ -11845,7 +12904,7 @@ var LookupField = class extends FieldManager2 {
     this.field.options.builtinSummarizingFunction = this.field.options.builtinSummarizingFunction || Default.BuiltinSummarizing;
     builtinSummarizeFunctionContainer.createEl("span", { text: OptionLabel.BuiltinSummarizing, cls: "label" });
     builtinSummarizeFunctionContainer.createDiv({ cls: "spacer" });
-    const builtinSummarizeFunctionList = new import_obsidian45.DropdownComponent(builtinSummarizeFunctionContainer);
+    const builtinSummarizeFunctionList = new import_obsidian51.DropdownComponent(builtinSummarizeFunctionContainer);
     Object.keys(BuiltinSummarizing).forEach((builtinFunction2) => {
       builtinSummarizeFunctionList.addOption(builtinFunction2, BuiltinSummarizing[builtinFunction2]);
     });
@@ -11861,7 +12920,7 @@ var LookupField = class extends FieldManager2 {
     this.field.options.summarizedFieldName = this.field.options.summarizedFieldName;
     const summarizedFieldNameContainer = summarizedFieldNameTopContainer.createDiv({ cls: "field-container" });
     summarizedFieldNameContainer.createEl("span", { text: "Summarized field name", cls: "label" });
-    const summarizedFieldName = new import_obsidian45.TextComponent(summarizedFieldNameContainer);
+    const summarizedFieldName = new import_obsidian51.TextComponent(summarizedFieldNameContainer);
     summarizedFieldName.inputEl.addClass("full-width");
     summarizedFieldName.inputEl.addClass("with-label");
     summarizedFieldNameTopContainer.createEl("span", { text: "Name of the field containing summarized value used for the summarizing function", cls: "sub-text" });
@@ -11874,7 +12933,7 @@ var LookupField = class extends FieldManager2 {
     outputRenderingFunctionTopContainer.createEl("span", { text: OptionLabel.CustomList, cls: "label" });
     outputRenderingFunctionTopContainer.createEl("code", { text: OptionSubLabel.CustomList });
     const outputRenderingFunctionContainer = outputRenderingFunctionTopContainer.createDiv({ cls: "field-container" });
-    const outputRenderingFunction = new import_obsidian45.TextAreaComponent(outputRenderingFunctionContainer);
+    const outputRenderingFunction = new import_obsidian51.TextAreaComponent(outputRenderingFunctionContainer);
     outputRenderingFunction.inputEl.addClass("full-width");
     outputRenderingFunction.setPlaceholder(Helper.CustomList);
     outputRenderingFunction.setValue(this.field.options.customListFunction);
@@ -11888,7 +12947,7 @@ var LookupField = class extends FieldManager2 {
     outputSummarizingFunctionTopContainer.createEl("span", { text: OptionLabel.CustomSummarizing, cls: "label" });
     outputSummarizingFunctionTopContainer.createEl("code", { text: OptionSubLabel.CustomSummarizing });
     const outputSummarizingFunctionContainer = outputSummarizingFunctionTopContainer.createDiv({ cls: "field-container" });
-    const outputSummarizingFunction = new import_obsidian45.TextAreaComponent(outputSummarizingFunctionContainer);
+    const outputSummarizingFunction = new import_obsidian51.TextAreaComponent(outputSummarizingFunctionContainer);
     outputSummarizingFunction.inputEl.addClass("full-width");
     outputSummarizingFunction.setPlaceholder(Helper.CustomSummarizing);
     outputSummarizingFunction.setValue(this.field.options.customSummarizingFunction);
@@ -11928,10 +12987,10 @@ var LookupField = class extends FieldManager2 {
 };
 
 // src/fields/fieldManagers/FormulaField.ts
-var import_obsidian47 = require("obsidian");
+var import_obsidian53 = require("obsidian");
 
 // src/commands/updateFormulas.ts
-var import_obsidian46 = require("obsidian");
+var import_obsidian52 = require("obsidian");
 function cleanRemovedFormulasFromIndex(plugin) {
   var _a, _b;
   const f = plugin.fieldIndex;
@@ -11952,7 +13011,6 @@ async function updateFormulas(plugin, forceUpdateOne, forceUpdateAll = false) {
   const start2 = Date.now();
   DEBUG && console.log("start update formulas", plugin.fieldIndex.lastRevision, "->", (_a = plugin.fieldIndex.dv) == null ? void 0 : _a.api.index.revision);
   const f = plugin.fieldIndex;
-  let renderingErrors = [];
   const fileFormulasFields = /* @__PURE__ */ new Map();
   [...f.filesLookupAndFormulaFieldsExists].forEach(([filePath, fields]) => {
     fields.filter((field) => field.type === "Formula" /* Formula */).forEach((field) => {
@@ -11966,11 +13024,9 @@ async function updateFormulas(plugin, forceUpdateOne, forceUpdateAll = false) {
     const { filePath, fileClassName, fieldName } = ((_a2 = id.match(matchRegex)) == null ? void 0 : _a2.groups) || {};
     const shouldUpdate = forceUpdateAll || (forceUpdateOne == null ? void 0 : forceUpdateOne.file.path) === filePath && (forceUpdateOne == null ? void 0 : forceUpdateOne.fieldName) === fieldName || field.options.autoUpdate === true;
     const _file = plugin.app.vault.getAbstractFileByPath(filePath);
-    if (!_file || !(_file instanceof import_obsidian46.TFile))
+    if (!_file || !(_file instanceof import_obsidian52.TFile))
       return;
-    const eF = await ExistingField.getExistingFieldFromIndexForIndexedPath(plugin, _file, field.id);
-    const currentValue = (eF == null ? void 0 : eF.value) !== void 0 ? `${eF.value}` : "";
-    f.fileFormulaFieldLastValue.set(id, currentValue);
+    const currentValue = `${f.fileFormulaFieldLastValue.get(id) || ""}`;
     try {
       const dvFile = f.dv.api.page(filePath);
       const newValue = new Function("current, dv", `return ${field.options.formula}`)(dvFile, f.dv.api).toString();
@@ -11988,13 +13044,9 @@ async function updateFormulas(plugin, forceUpdateOne, forceUpdateAll = false) {
         }
       }
     } catch (e) {
-      if (!renderingErrors.includes(field.name))
-        renderingErrors.push(field.name);
+      f.fileFormulaFieldsStatus.set(`${filePath}__${field.name}`, "error" /* error */);
     }
   }));
-  if (renderingErrors.length)
-    new import_obsidian46.Notice(`Those fields have incorrect output rendering functions:
-${renderingErrors.join(",\n")}`);
   DEBUG && console.log("finished update formulas", plugin.fieldIndex.lastRevision, "->", (_b = plugin.fieldIndex.dv) == null ? void 0 : _b.api.index.revision, `${Date.now() - start2}ms`);
   cleanRemovedFormulasFromIndex(plugin);
 }
@@ -12009,34 +13061,36 @@ var FormulaField = class extends FieldManager2 {
     const name = this.field.name;
     const f = this.plugin.fieldIndex;
     const id = `${file.path}__${name}`;
+    const status = f.fileFormulaFieldsStatus.get(id) || "changed" /* changed */;
     if (!this.field.options.autoUpdate && this.field.options.autoUpdate !== void 0) {
-      let status;
-      status = f.fileFormulaFieldsStatus.get(id) || "changed" /* changed */;
-      const icon = status === "changed" /* changed */ ? "refresh-ccw" : "file-check";
       const action = async () => {
         await updateFormulas(this.plugin, { file, fieldName: name });
         f.applyUpdates();
       };
-      if (FormulaField.isSuggest(location) && status === "changed" /* changed */) {
+      const icon = statusIcon[status];
+      if (FormulaField.isSuggest(location) && ["changed" /* changed */, "mayHaveChanged" /* mayHaveChanged */].includes(status)) {
         location.options.push({
           id: `update_${name}`,
           actionLabel: `<span>Update <b>${name}</b></span>`,
           action,
           icon
         });
-      } else if (FormulaField.isFieldOptions(location) && status === "changed" /* changed */) {
+      } else if (FormulaField.isFieldOptions(location) && ["changed" /* changed */, "mayHaveChanged" /* mayHaveChanged */].includes(status)) {
         location.addOption(icon, action, `Update ${name}'s value`);
       } else if (FormulaField.isFieldOptions(location) && status === "upToDate" /* upToDate */) {
         location.addOption(icon, () => {
         }, `${name} is up to date`);
+      } else if (FormulaField.isFieldOptions(location) && status === "error" /* error */) {
+        location.addOption(icon, () => {
+        }, `${name} has an error`);
       }
     } else if (FormulaField.isFieldOptions(location)) {
-      location.addOption("server-cog", () => {
+      const icon = status === "error" /* error */ ? statusIcon["error"] : "server-cog";
+      location.addOption(icon, () => {
       }, `${name} is auto-updated`, "disabled");
     }
   }
   async createAndOpenFieldModal(file, selectedFieldName, eF, indexedPath, lineNumber, asList, asBlockquote) {
-    await postValues(this.plugin, [{ id: indexedPath || this.field.id, payload: { value: "" } }], file, lineNumber, asList, asBlockquote);
     await this.plugin.fieldIndex.fullIndex();
   }
   createDvField(dv, p, fieldContainer, attrs) {
@@ -12054,7 +13108,7 @@ var FormulaField = class extends FieldManager2 {
     const autoUpdateContainer = autoUpdateTopContainer.createDiv({ cls: "field-container" });
     autoUpdateContainer.createEl("span", { text: "Auto update this field ", cls: "label" });
     autoUpdateContainer.createDiv({ cls: "spacer" });
-    const autoUpdate = new import_obsidian47.ToggleComponent(autoUpdateContainer);
+    const autoUpdate = new import_obsidian53.ToggleComponent(autoUpdateContainer);
     autoUpdateTopContainer.createEl("span", { text: "This could lead to latencies depending on the queries", cls: "sub-text warning" });
     if (this.field.options.autoUpdate === void 0)
       this.field.options.autoUpdate = false;
@@ -12066,7 +13120,7 @@ var FormulaField = class extends FieldManager2 {
     formulaTopContainer.createEl("span", { text: "javascript formula", cls: "label" });
     formulaTopContainer.createEl("span", { text: "current and dv variables are available`", cls: "sub-text" });
     const formulaContainer = formulaTopContainer.createDiv({ cls: "field-container" });
-    const formula = new import_obsidian47.TextAreaComponent(formulaContainer);
+    const formula = new import_obsidian53.TextAreaComponent(formulaContainer);
     formula.inputEl.addClass("full-width");
     formula.inputEl.cols = 50;
     formula.inputEl.rows = 4;
@@ -12089,7 +13143,7 @@ var FormulaField = class extends FieldManager2 {
 };
 
 // src/fields/fieldManagers/AbstractCanvasBasedField.ts
-var import_obsidian48 = require("obsidian");
+var import_obsidian54 = require("obsidian");
 var AbstractListBasedField2 = class extends FieldManager2 {
   constructor(plugin, field, type) {
     super(plugin, field, type);
@@ -12107,10 +13161,10 @@ var AbstractListBasedField2 = class extends FieldManager2 {
       const toggleStandardColorButton = (container2, color) => {
         if (colorList.includes(color)) {
           container2.addClass("active");
-          (0, import_obsidian48.setIcon)(container2, "cross");
+          (0, import_obsidian54.setIcon)(container2, "cross");
         } else {
           container2.removeClass("active");
-          (0, import_obsidian48.setIcon)(container2, "plus");
+          (0, import_obsidian54.setIcon)(container2, "plus");
         }
         ;
       };
@@ -12145,7 +13199,7 @@ var AbstractListBasedField2 = class extends FieldManager2 {
           colorContainer.onmouseout = () => {
             colorContainer.setAttr("style", `background-color: ${color}; color: ${color}`);
           };
-          (0, import_obsidian48.setIcon)(colorContainer, "cross");
+          (0, import_obsidian54.setIcon)(colorContainer, "cross");
           colorContainer.onclick = () => {
             colorList.remove(color);
             container.removeChild(colorContainer);
@@ -12154,7 +13208,7 @@ var AbstractListBasedField2 = class extends FieldManager2 {
       };
       toggleAltColors();
       const altColorPickerContainer = container.createDiv({ cls: `node-color picker` });
-      const altColorPicker = new import_obsidian48.ColorComponent(altColorPickerContainer);
+      const altColorPicker = new import_obsidian54.ColorComponent(altColorPickerContainer);
       altColorPicker.onChange((value) => {
         colorList.push(value);
         this.buildColorsContainer(container, colorList, label);
@@ -12167,8 +13221,8 @@ var AbstractListBasedField2 = class extends FieldManager2 {
         edgeList = edgeList || this.sides.map((side2) => side2[0]);
         const edgeSideContainer = container.createDiv({ cls: "edge-side" });
         const sideIconContainer = edgeSideContainer.createDiv({ cls: "side-icon" });
-        (0, import_obsidian48.setIcon)(sideIconContainer, iconName);
-        const sideTogglerContainer = new import_obsidian48.ToggleComponent(edgeSideContainer);
+        (0, import_obsidian54.setIcon)(sideIconContainer, iconName);
+        const sideTogglerContainer = new import_obsidian54.ToggleComponent(edgeSideContainer);
         sideTogglerContainer.setValue(edgeList.includes(side));
         sideTogglerContainer.onChange((value) => value ? edgeList.push(side) : edgeList.remove(side));
       });
@@ -12178,7 +13232,7 @@ var AbstractListBasedField2 = class extends FieldManager2 {
       container.createDiv({ cls: "label", text: title });
       labels.forEach((label) => {
         const labelContainer = container.createDiv({ cls: "item chip", text: label });
-        new import_obsidian48.ButtonComponent(labelContainer).setIcon("x-circle").setClass("item-remove").onClick(() => {
+        new import_obsidian54.ButtonComponent(labelContainer).setIcon("x-circle").setClass("item-remove").onClick(() => {
           labels.remove(label);
           container.removeChild(labelContainer);
         });
@@ -12187,8 +13241,8 @@ var AbstractListBasedField2 = class extends FieldManager2 {
     this.buildNewLabelContainer = (currentLabelsContainer, currentLabelsTitle, newLabelContainer, labels, title) => {
       newLabelContainer.createDiv({ cls: "label", text: title });
       newLabelContainer.createDiv({ cls: "spacer" });
-      const labelInput = new import_obsidian48.TextComponent(newLabelContainer);
-      const labelValidate = new import_obsidian48.ButtonComponent(newLabelContainer);
+      const labelInput = new import_obsidian54.TextComponent(newLabelContainer);
+      const labelValidate = new import_obsidian54.ButtonComponent(newLabelContainer);
       labelInput.onChange((value) => value ? labelValidate.setCta() : labelValidate.removeCta());
       labelValidate.setIcon("plus-circle");
       labelValidate.onClick(() => {
@@ -12200,7 +13254,7 @@ var AbstractListBasedField2 = class extends FieldManager2 {
     };
     this.createCanvasPathContainer = (container) => {
       container.createDiv({ text: `Path of the canvas`, cls: "label" });
-      const canvasPathInput = new import_obsidian48.TextComponent(container);
+      const canvasPathInput = new import_obsidian54.TextComponent(container);
       canvasPathInput.inputEl.addClass("full-width");
       canvasPathInput.inputEl.addClass("with-label");
       new FileSuggest(
@@ -12221,7 +13275,7 @@ var AbstractListBasedField2 = class extends FieldManager2 {
     this.createDirectionContainer = (container, title) => {
       container.createDiv({ text: title, cls: "label" });
       container.createDiv({ cls: "spacer" });
-      const directionSelection = new import_obsidian48.DropdownComponent(container);
+      const directionSelection = new import_obsidian54.DropdownComponent(container);
       [
         ["incoming", "Incoming"],
         ["outgoing", "Outgoing"],
@@ -12234,7 +13288,7 @@ var AbstractListBasedField2 = class extends FieldManager2 {
       container.createEl("span", { text: title });
       container.createEl("span", { text: "Dataview query returning a list of files (<dv> object is available)", cls: "sub-text" });
       const filesFromDVQueryContainer = container.createDiv({ cls: "field-container" });
-      const filesFromDVQuery = new import_obsidian48.TextAreaComponent(filesFromDVQueryContainer);
+      const filesFromDVQuery = new import_obsidian54.TextAreaComponent(filesFromDVQueryContainer);
       filesFromDVQuery.inputEl.addClass("full-width");
       filesFromDVQuery.inputEl.cols = 65;
       filesFromDVQuery.inputEl.rows = 3;
@@ -12457,7 +13511,7 @@ var CanvasGroupLinkField = class extends AbstractListBasedField2 {
 var import_language2 = require("@codemirror/language");
 
 // src/fields/fieldManagers/AbstractRawObjectField.ts
-var import_obsidian49 = require("obsidian");
+var import_obsidian55 = require("obsidian");
 
 // node_modules/codemirror/dist/index.js
 var import_view = require("@codemirror/view");
@@ -12573,7 +13627,7 @@ var RawObjectField = class extends FieldManager2 {
     return this.field.options.template || "";
   }
   async buildAndOpenModal(file, indexedPath) {
-    const eF = await this.plugin.indexDB.fieldsValues.getElementForIndexedPath(file, indexedPath);
+    const eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, indexedPath);
     const modal = new RawObjectModal(this.plugin, file, this.field, eF, indexedPath);
     modal.open();
   }
@@ -12605,13 +13659,13 @@ var RawObjectField = class extends FieldManager2 {
   createDvField(dv, p, fieldContainer, attrs = {}) {
     var _a, _b;
     attrs.cls = "value-container";
-    const fieldValue = dv.el("span", p[this.field.name], attrs);
+    const fieldValue = dv.el("span", p[this.field.name] || "", attrs);
     fieldContainer.appendChild(fieldValue);
     const editBtn = fieldContainer.createEl("button");
     const spacer = fieldContainer.createDiv({ cls: "spacer-1" });
     if ((_a = attrs.options) == null ? void 0 : _a.alwaysOn)
       spacer.hide();
-    (0, import_obsidian49.setIcon)(editBtn, FieldIcon["Input" /* Input */]);
+    (0, import_obsidian55.setIcon)(editBtn, FieldIcon["Input" /* Input */]);
     if (!((_b = attrs == null ? void 0 : attrs.options) == null ? void 0 : _b.alwaysOn)) {
       editBtn.hide();
       spacer.show();
@@ -12628,7 +13682,7 @@ var RawObjectField = class extends FieldManager2 {
     }
     editBtn.onclick = async () => {
       const file = this.plugin.app.vault.getAbstractFileByPath(p.file.path);
-      if (file instanceof import_obsidian49.TFile && file.extension === "md") {
+      if (file instanceof import_obsidian55.TFile && file.extension === "md") {
         await this.buildAndOpenModal(file);
       }
       fieldValue.hide();
@@ -19023,10 +20077,10 @@ var JSONField = class extends RawObjectField {
 };
 
 // src/fields/fieldManagers/ObjectListField.ts
-var import_obsidian51 = require("obsidian");
+var import_obsidian57 = require("obsidian");
 
 // src/modals/fields/ObjectListModal.ts
-var import_obsidian50 = require("obsidian");
+var import_obsidian56 = require("obsidian");
 var ObjectListModal = class extends BaseSuggestModal {
   constructor(plugin, file, field, eF, indexedPath, lineNumber = -1, asList = false, asBlockquote = false, previousModal) {
     super(plugin, file, eF, indexedPath, previousModal);
@@ -19044,7 +20098,7 @@ var ObjectListModal = class extends BaseSuggestModal {
   buildAddButton(container) {
     const infoContainer = container.createDiv({ cls: "info" });
     infoContainer.setText("Alt+Enter to Add");
-    const addButton = new import_obsidian50.ButtonComponent(container);
+    const addButton = new import_obsidian56.ButtonComponent(container);
     addButton.setIcon("plus");
     addButton.onClick(async () => {
       this.onAdd();
@@ -19065,8 +20119,7 @@ var ObjectListModal = class extends BaseSuggestModal {
     }
   }
   async onOpen() {
-    await ExistingField.indexFieldsValues(this.plugin);
-    const _eF = await ExistingField.getExistingFieldFromIndexForIndexedPath(this.plugin, this.file, this.indexedPath);
+    const _eF = await Note.getExistingFieldForIndexedPath(this.plugin, this.file, this.indexedPath);
     this.objects = await (_eF == null ? void 0 : _eF.getChildrenFields(this.plugin, this.file)) || [];
     super.onOpen();
   }
@@ -19094,15 +20147,14 @@ var ObjectListModal = class extends BaseSuggestModal {
     }
     container.createDiv({ cls: "spacer" });
     const removeContainer = container.createDiv({ cls: "icon-container" });
-    (0, import_obsidian50.setIcon)(removeContainer, "trash");
+    (0, import_obsidian56.setIcon)(removeContainer, "trash");
     removeContainer.onclick = () => {
       this.toRemove = item;
     };
   }
   async onChooseSuggestion(item, evt) {
     const reOpen = async () => {
-      await ExistingField.indexFieldsValues(this.plugin);
-      const eF = await ExistingField.getExistingFieldFromIndexForIndexedPath(this.plugin, this.file, this.indexedPath);
+      const eF = await Note.getExistingFieldForIndexedPath(this.plugin, this.file, this.indexedPath);
       if (eF) {
         const thisFieldManager = new FieldManager[eF.field.type](this.plugin, eF.field);
         thisFieldManager.createAndOpenFieldModal(this.file, eF.field.name, eF, eF.indexedPath, void 0, void 0, void 0, this.previousModal);
@@ -19156,7 +20208,7 @@ var ObjectListField = class extends FieldManager2 {
       }
     } else {
       const moveToObject = async () => {
-        const _eF = await ExistingField.getExistingFieldFromIndexForIndexedPath(this.plugin, file, indexedPath);
+        const _eF = await Note.getExistingFieldForIndexedPath(this.plugin, file, indexedPath);
         if (_eF)
           this.createAndOpenFieldModal(file, _eF.field.name, _eF, _eF.indexedPath, void 0, void 0, void 0, void 0);
       };
@@ -19191,10 +20243,10 @@ var ObjectListField = class extends FieldManager2 {
     const fieldValue = dv.el("span", "{...}", { ...attrs, cls: "value-container" });
     fieldContainer.appendChild(fieldValue);
     const editBtn = fieldContainer.createEl("button");
-    (0, import_obsidian51.setIcon)(editBtn, FieldIcon[this.field.type]);
+    (0, import_obsidian57.setIcon)(editBtn, FieldIcon[this.field.type]);
     editBtn.onclick = async () => {
       const file = this.plugin.app.vault.getAbstractFileByPath(p["file"]["path"]);
-      const _eF = file instanceof import_obsidian51.TFile && file.extension == "md" && await ExistingField.getExistingFieldFromIndexForIndexedPath(this.plugin, file, this.field.id);
+      const _eF = file instanceof import_obsidian57.TFile && file.extension == "md" && await Note.getExistingFieldForIndexedPath(this.plugin, file, this.field.id);
       if (_eF)
         this.createAndOpenFieldModal(file, this.field.name, _eF, _eF.indexedPath);
     };
@@ -19332,7 +20384,7 @@ var FieldIcon = {
   "Select": "right-triangle",
   "Multi": "bullet-list",
   "Cycle": "switch",
-  "Boolean": "checkmark",
+  "Boolean": "toggle-left",
   "Number": "plus-minus-glyph",
   "File": "link",
   "MultiFile": "link",
@@ -19398,7 +20450,7 @@ var frontmatterOnlyTypes = [
 ];
 
 // src/fields/Field.ts
-var Field2 = class {
+var Field = class {
   constructor(plugin, name = "", options2 = {}, id = "", type = "Input" /* Input */, fileClassName, command, display, style, path = "") {
     this.plugin = plugin;
     this.name = name;
@@ -19443,7 +20495,7 @@ var Field2 = class {
       return this.name;
     const upperDottedPath = this.path.split("____").map((id) => {
       var _a;
-      return (_a = Field2.getFieldFromId(this.plugin, id, this.fileClassName)) == null ? void 0 : _a.name;
+      return (_a = Field.getFieldFromId(this.plugin, id, this.fileClassName)) == null ? void 0 : _a.name;
     }).join(".");
     return `${upperDottedPath}.${this.name}`;
   }
@@ -19455,7 +20507,7 @@ var Field2 = class {
       if (parentId === childId) {
         return true;
       } else {
-        const field = Field2.getFieldFromId(this.plugin, parentId, this.fileClassName);
+        const field = Field.getFieldFromId(this.plugin, parentId, this.fileClassName);
         return (field == null ? void 0 : field.hasIdAsAncestor(childId)) || false;
       }
     }
@@ -19466,7 +20518,7 @@ var Field2 = class {
       return otherObjectFields;
     } else {
       const compatibleParents = otherObjectFields.filter((_field) => {
-        const field = Field2.getFieldFromId(this.plugin, _field.id, this.fileClassName);
+        const field = Field.getFieldFromId(this.plugin, _field.id, this.fileClassName);
         return !(field == null ? void 0 : field.hasIdAsAncestor(this.id));
       }).filter(
         (_f) => !rootOnlyTypes.includes(this.type)
@@ -19475,13 +20527,13 @@ var Field2 = class {
     }
   }
   getAncestors(fieldId = this.id) {
-    const field = Field2.getFieldFromId(this.plugin, fieldId, this.fileClassName);
+    const field = Field.getFieldFromId(this.plugin, fieldId, this.fileClassName);
     const ancestors = [];
     if (!field || !field.path)
       return ancestors;
     const ancestorsIds = field.path.split("____");
     for (const id of ancestorsIds) {
-      const ancestor = Field2.getFieldFromId(this.plugin, id, this.fileClassName);
+      const ancestor = Field.getFieldFromId(this.plugin, id, this.fileClassName);
       if (ancestor)
         ancestors.push(ancestor);
     }
@@ -19519,7 +20571,7 @@ var Field2 = class {
       objectFields = this.plugin.presetFields.filter((field) => objectTypes2.includes(field.type) && field.id !== this.id);
     }
     return objectFields.map((_field) => {
-      return Field2.getFieldFromId(this.plugin, _field.id, this.fileClassName);
+      return Field.getFieldFromId(this.plugin, _field.id, this.fileClassName);
     });
   }
   static copyProperty(target, source) {
@@ -19541,7 +20593,7 @@ var Field2 = class {
     target.path = source.path;
   }
   static createDefault(plugin, name) {
-    const field = new Field2(plugin);
+    const field = new Field(plugin);
     field.type = "Input" /* Input */;
     field.name = name;
     return field;
@@ -19566,7 +20618,7 @@ var Field2 = class {
         if (depth === 0 && reservedKeys.includes(key))
           continue;
         if (typeof obj[key] === "object" && obj[key] !== null) {
-          _existingFields.push(...Field2.existingFields(plugin, filePath, obj[key], depth + 1, `${path ? path + "." : ""}${key}`).filter((k) => !_existingFields.includes(k)));
+          _existingFields.push(...Field.existingFields(plugin, filePath, obj[key], depth + 1, `${path ? path + "." : ""}${key}`).filter((k) => !_existingFields.includes(k)));
         } else if (!_existingFields.map((k) => k.name.toLowerCase().replace(/\s/g, "-")).includes(key.toLowerCase().replace(/\s/g, "-"))) {
           _existingFields.push(key);
         } else {
@@ -19587,7 +20639,7 @@ var Field2 = class {
     } else {
       const _field = plugin.presetFields.find((field2) => field2.id === id);
       if (_field) {
-        field = new Field2(plugin);
+        field = new Field(plugin);
         Object.assign(field, _field);
       }
     }
@@ -19608,7 +20660,7 @@ var Field2 = class {
     if (endingIndex) {
       return indexedPath.replace(/\[\w+\]$/, "");
     } else {
-      return Field2.upperPath(indexedPath);
+      return Field.upperPath(indexedPath);
     }
   }
   static getValueFromIndexedPath(carriageField, obj, indexedPath) {
@@ -19619,8 +20671,8 @@ var Field2 = class {
     const indexedProps = indexedPath.split("____");
     try {
       const indexedProp = indexedProps.shift();
-      const { id, index } = Field2.getIdAndIndex(indexedProp);
-      const field = Field2.getFieldFromId(plugin, id, fileClassName);
+      const { id, index } = Field.getIdAndIndex(indexedProp);
+      const field = Field.getFieldFromId(plugin, id, fileClassName);
       if (!field)
         return "";
       let value;
@@ -19630,12 +20682,12 @@ var Field2 = class {
         value = obj[field.name];
       }
       if (typeof value === "object") {
-        const subValue = Field2.getValueFromIndexedPath(field, value, indexedProps.join("____"));
+        const subValue = Field.getValueFromIndexedPath(field, value, indexedProps.join("____"));
         return subValue;
       } else if (Array.isArray(value)) {
         if (index && !isNaN(parseInt(index))) {
           const subObject = value[parseInt(index)];
-          const subValue = Field2.getValueFromIndexedPath(field, subObject, indexedProps.join("____"));
+          const subValue = Field.getValueFromIndexedPath(field, subObject, indexedProps.join("____"));
           return subValue;
         } else {
           return value;
@@ -19652,7 +20704,7 @@ var Field2 = class {
       return obj;
     const properties = path.split(".");
     try {
-      const subValue = Field2.getValueFromPath(obj[properties.shift()], properties.join("."));
+      const subValue = Field.getValueFromPath(obj[properties.shift()], properties.join("."));
       return subValue;
     } catch (e) {
       return "";
@@ -19676,25 +20728,45 @@ var Field2 = class {
     return id;
   }
 };
-var Field_default = Field2;
+var Field_default = Field;
 
 // src/components/NoteFields.ts
 var FieldOptions = class {
   constructor(container) {
     this.container = container;
   }
-  addOption(icon, onclick, tooltip, className) {
+  async setIconAndTooltipAsync(fieldOption, file, indexedPath, plugin) {
+    const eF = await Note.getExistingFieldForIndexedPath(plugin, file, indexedPath);
+    switch (eF == null ? void 0 : eF.field.type) {
+      case "Boolean" /* Boolean */:
+        {
+          const value = BooleanField.stringToBoolean(eF == null ? void 0 : eF.value);
+          fieldOption.setIcon(!value ? "toggle-left" : "toggle-right");
+          fieldOption.setTooltip(!value ? `Set ${eF.name} as true` : `Set ${eF.name} as false`);
+        }
+        break;
+      default: {
+        fieldOption.setIcon("pencil");
+        fieldOption.setTooltip(`Update ${(eF == null ? void 0 : eF.name) || ""}`);
+      }
+    }
+  }
+  addOption(icon, onclick, tooltip, className, file, indexedPath, plugin) {
     const fieldOptionContainer = this.container.createDiv({ cls: "field-item field-option" });
-    const fieldOption = new import_obsidian52.ButtonComponent(fieldOptionContainer);
-    fieldOption.setIcon(icon);
+    const fieldOption = new import_obsidian58.ButtonComponent(fieldOptionContainer);
+    if (indexedPath && file && plugin) {
+      this.setIconAndTooltipAsync(fieldOption, file, indexedPath, plugin);
+    } else {
+      fieldOption.setIcon(icon);
+      if (tooltip)
+        fieldOption.setTooltip(tooltip);
+    }
     if (className)
       fieldOption.buttonEl.addClass(className);
     fieldOption.onClick(() => onclick());
-    if (tooltip)
-      fieldOption.setTooltip(tooltip);
   }
 };
-var FieldsModal = class extends import_obsidian52.Modal {
+var FieldsModal = class extends import_obsidian58.Modal {
   constructor(plugin, file, noteFields, indexedPath) {
     super(plugin.app);
     this.plugin = plugin;
@@ -19766,7 +20838,7 @@ var FieldsModal = class extends import_obsidian52.Modal {
     const upperObject = (_a = this.note.existingFields.find((eF) => eF.field.id === upperId)) == null ? void 0 : _a.field;
     const upperObjectName = upperObject ? upperObject.name : fileName;
     const backBtnWrapper = this.contentEl.createDiv({ cls: "back-button-wrapper" });
-    const backBtn = new import_obsidian52.ButtonComponent(backBtnWrapper);
+    const backBtn = new import_obsidian58.ButtonComponent(backBtnWrapper);
     backBtn.setIcon("chevron-left");
     backBtn.setTooltip(`Go to ${upperObjectName} fields`);
     backBtnWrapper.createSpan({ text: `${upperObjectName}${upperIndex ? " [" + upperIndex + "]" : ""}` });
@@ -19786,7 +20858,7 @@ var FieldsModal = class extends import_obsidian52.Modal {
       fieldNameContainer.addClass(`fileClassField__${fileClass.name.replace("/", "___").replaceAll(" ", "_")}`);
     }
     const fieldSettingContainer = fieldSettingsWrapper.createDiv({ cls: "field-item field-setting" });
-    const fieldSettingBtn = new import_obsidian52.ButtonComponent(fieldSettingContainer);
+    const fieldSettingBtn = new import_obsidian58.ButtonComponent(fieldSettingContainer);
     fieldSettingBtn.setIcon("gear");
     fieldSettingBtn.setTooltip(`${field.fileClassName ? field.fileClassName + " > " : "Preset Field > "} ${field.name} settings`);
     fieldSettingBtn.onClick(() => {
@@ -19824,7 +20896,7 @@ var FieldsModal = class extends import_obsidian52.Modal {
     } else {
       const newIndexedPath = `${this.indexedPath ? this.indexedPath + "____" : ""}${field.id}`;
       const fieldBtnContainer = fieldOptionsWrapper.createDiv({ cls: "field-item field-option" });
-      const fieldBtn = new import_obsidian52.ButtonComponent(fieldBtnContainer);
+      const fieldBtn = new import_obsidian58.ButtonComponent(fieldBtnContainer);
       fieldBtn.setIcon("list-plus");
       fieldBtn.setTooltip("Add field at section");
       fieldBtn.onClick(async () => {
@@ -19877,7 +20949,7 @@ var FieldsModal = class extends import_obsidian52.Modal {
       fieldNameContainer.addClass(`fileClassField__${fileClass.name.replace("/", "___").replaceAll(" ", "_")}`);
     }
     const fieldSettingContainer = fieldSettingsWrapper.createDiv({ cls: "field-item field-setting" });
-    const fieldSettingBtn = new import_obsidian52.ButtonComponent(fieldSettingContainer);
+    const fieldSettingBtn = new import_obsidian58.ButtonComponent(fieldSettingContainer);
     fieldSettingBtn.setIcon("gear");
     fieldSettingBtn.setTooltip(`${field.fileClassName ? field.fileClassName + " > " : "Preset Field > "} ${field.name} settings`);
     fieldSettingBtn.onClick(() => {
@@ -19914,13 +20986,13 @@ var FieldsModal = class extends import_obsidian52.Modal {
           const fileClassNameContainer = fileClassOptionsContainer.createDiv({ cls: "name", text: _fileClass.name });
           fileClassNameContainer.setAttr("id", `fileClass__${_fileClass.name.replace("/", "___").replace(" ", "_")}`);
           if (await _fileClass.missingFieldsForFileClass(this.file)) {
-            const fileClassInsertMissingFieldsInFrontmatterBtn = new import_obsidian52.ButtonComponent(fileClassOptionsContainer);
+            const fileClassInsertMissingFieldsInFrontmatterBtn = new import_obsidian58.ButtonComponent(fileClassOptionsContainer);
             fileClassInsertMissingFieldsInFrontmatterBtn.setIcon("align-vertical-space-around");
             fileClassInsertMissingFieldsInFrontmatterBtn.setTooltip(`Insert missing fields for ${_fileClass.name}`);
             fileClassInsertMissingFieldsInFrontmatterBtn.onClick(() => {
               insertMissingFields(this.plugin, this.file.path, -1, false, false, _fileClass.name);
             });
-            const fileClassInsertMissingFieldsBtn = new import_obsidian52.ButtonComponent(fileClassOptionsContainer);
+            const fileClassInsertMissingFieldsBtn = new import_obsidian58.ButtonComponent(fileClassOptionsContainer);
             fileClassInsertMissingFieldsBtn.setIcon("log-in");
             fileClassInsertMissingFieldsBtn.setTooltip(`Insert missing fields for ${_fileClass.name}`);
             fileClassInsertMissingFieldsBtn.onClick(() => {
@@ -19938,7 +21010,7 @@ var FieldsModal = class extends import_obsidian52.Modal {
               ).open();
             });
           }
-          const fileClassAddAttributeBtn = new import_obsidian52.ButtonComponent(fileClassOptionsContainer);
+          const fileClassAddAttributeBtn = new import_obsidian58.ButtonComponent(fileClassOptionsContainer);
           fileClassAddAttributeBtn.setIcon("plus-circle");
           fileClassAddAttributeBtn.setTooltip(`Add field definition in ${_fileClass.name}`);
           fileClassAddAttributeBtn.onClick(() => {
@@ -19968,8 +21040,9 @@ var FieldsModal = class extends import_obsidian52.Modal {
             });
           };
           fileClassNameContainer.onclick = () => {
-            const fileClassComponent = new FileClassManager(this.plugin, _fileClass);
+            const fileClassComponent = new FileClassViewManager(this.plugin, _fileClass);
             this.plugin.addChild(fileClassComponent);
+            fileClassComponent.build();
             this.close();
           };
         }
@@ -19979,7 +21052,7 @@ var FieldsModal = class extends import_obsidian52.Modal {
   buildInsertMissingFieldsBtn() {
     const insertMissingFieldsContainer = this.contentEl.createDiv({ cls: "insert-all-fields" });
     insertMissingFieldsContainer.createDiv({ text: "Insert missing fields" });
-    const insertMissingFieldsInFrontmatterBtn = new import_obsidian52.ButtonComponent(insertMissingFieldsContainer);
+    const insertMissingFieldsInFrontmatterBtn = new import_obsidian58.ButtonComponent(insertMissingFieldsContainer);
     insertMissingFieldsInFrontmatterBtn.setIcon("align-vertical-space-around");
     insertMissingFieldsInFrontmatterBtn.setTooltip("In Frontmatter");
     insertMissingFieldsInFrontmatterBtn.onClick(() => {
@@ -19992,7 +21065,7 @@ var FieldsModal = class extends import_obsidian52.Modal {
         insertMissingFields(this.plugin, this.file.path, -1, false, false, fileClass == null ? void 0 : fileClass.name, this.indexedPath);
       }
     });
-    const insertMissingFieldsBtn = new import_obsidian52.ButtonComponent(insertMissingFieldsContainer);
+    const insertMissingFieldsBtn = new import_obsidian58.ButtonComponent(insertMissingFieldsContainer);
     insertMissingFieldsBtn.setIcon("log-in");
     insertMissingFieldsBtn.setTooltip("At line...");
     insertMissingFieldsBtn.onClick(() => {
@@ -20027,7 +21100,7 @@ var FieldsModal = class extends import_obsidian52.Modal {
   buildInsertNewItem(field, indexedPath) {
     const insertNewItemContainer = this.contentEl.createDiv({ cls: "insert-all-fields" });
     insertNewItemContainer.createDiv({ text: "Add a new item" });
-    const insertNewItemBtn = new import_obsidian52.ButtonComponent(insertNewItemContainer);
+    const insertNewItemBtn = new import_obsidian58.ButtonComponent(insertNewItemContainer);
     insertNewItemBtn.setIcon("list-plus");
     insertNewItemBtn.onClick(async () => {
       const fieldManager = new FieldManager[field.type](this.plugin, field);
@@ -20046,7 +21119,12 @@ var FieldsModal = class extends import_obsidian52.Modal {
       items.forEach((item, index2) => this.buildObjectListItemContainer(fieldsContainer, field, item, `${this.indexedPath}[${index2}]`));
       this.buildInsertNewItem(field, this.indexedPath);
     } else {
-      this.existingFields.forEach((eF) => {
+      this.existingFields.filter((f) => {
+        if (f.name === this.plugin.settings.fileClassAlias)
+          return this.plugin.settings.showFileClassSelectInModal;
+        else
+          return true;
+      }).forEach((eF) => {
         this.buildFieldContainer(fieldsContainer, eF.field, eF.value, eF.indexedPath);
       });
       this.missingFields.forEach((_f) => this.buildFieldContainer(fieldsContainer, _f, void 0));
@@ -20055,7 +21133,7 @@ var FieldsModal = class extends import_obsidian52.Modal {
     }
   }
 };
-var NoteFieldsComponent = class extends import_obsidian52.Component {
+var NoteFieldsComponent = class extends import_obsidian58.Component {
   constructor(plugin, cacheVersion, onChange, file, indexedPath) {
     super();
     this.plugin = plugin;
@@ -20093,7 +21171,7 @@ function addFileClassAttributeOptions(plugin) {
     name: "All fileClass attributes options",
     icon: "gear",
     checkCallback: (checking) => {
-      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian53.MarkdownView);
+      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian59.MarkdownView);
       const inFileClass = !!(classFilesPath && !!(view == null ? void 0 : view.file) && view.file.path.startsWith(classFilesPath));
       if (checking) {
         return inFileClass;
@@ -20113,7 +21191,7 @@ function addInsertFileClassAttribute(plugin) {
     name: "Insert a new fileClass attribute",
     icon: "list-plus",
     checkCallback: (checking) => {
-      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian53.MarkdownView);
+      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian59.MarkdownView);
       const inFileClass = !!(classFilesPath && !!(view == null ? void 0 : view.file) && view.file.path.startsWith(classFilesPath));
       if (checking) {
         return inFileClass;
@@ -20126,7 +21204,7 @@ function addInsertFileClassAttribute(plugin) {
             fileClassAttributeModal.open();
           }
         } catch (error) {
-          new import_obsidian53.Notice("plugin is not a valid fileClass");
+          new import_obsidian59.Notice("plugin is not a valid fileClass");
         }
       }
     }
@@ -20139,7 +21217,7 @@ function addInsertFieldAtPositionCommand(plugin) {
     name: "Choose a field to insert at cursor",
     icon: "list-plus",
     checkCallback: (checking) => {
-      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian53.MarkdownView);
+      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian59.MarkdownView);
       const inFile = !!((view == null ? void 0 : view.file) && (!classFilesPath || !view.file.path.startsWith(classFilesPath)));
       if (checking) {
         return inFile;
@@ -20158,7 +21236,7 @@ function addFieldOptionsCommand(plugin) {
     name: "Fields options",
     icon: "gear",
     checkCallback: (checking) => {
-      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian53.MarkdownView);
+      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian59.MarkdownView);
       const inFile = !!((view == null ? void 0 : view.file) && (!classFilesPath || !view.file.path.startsWith(classFilesPath)));
       if (checking) {
         return inFile;
@@ -20178,7 +21256,7 @@ function addManageFieldAtCursorCommand(plugin) {
     name: "Manage field at cursor",
     icon: "text-cursor-input",
     checkCallback: (checking) => {
-      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian53.MarkdownView);
+      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian59.MarkdownView);
       const editor = view == null ? void 0 : view.editor;
       const inFile = !!((view == null ? void 0 : view.file) && (!classFilesPath || !view.file.path.startsWith(classFilesPath)));
       if (checking) {
@@ -20196,7 +21274,7 @@ function addManageFieldAtCursorCommand(plugin) {
                 if (node)
                   optionsList.createAndOpenFieldModal(node);
                 else
-                  new import_obsidian53.Notice("No field with definition at this position", 2e3);
+                  new import_obsidian59.Notice("No field with definition at this position", 2e3);
               }
               break;
             case "preview": {
@@ -20209,13 +21287,13 @@ function addManageFieldAtCursorCommand(plugin) {
                   if (node)
                     optionsList.createAndOpenFieldModal(node);
                   else
-                    new import_obsidian53.Notice("No field with definition at this position", 2e3);
+                    new import_obsidian59.Notice("No field with definition at this position", 2e3);
                 } else if (key === plugin.settings.fileClassAlias) {
                   const node = note.getNodeForIndexedPath(`fileclass-field-${plugin.settings.fileClassAlias}`);
                   if (node)
                     optionsList.createAndOpenFieldModal(node);
                   else
-                    new import_obsidian53.Notice("No field with definition at this position", 2e3);
+                    new import_obsidian59.Notice("No field with definition at this position", 2e3);
                 }
               }
               break;
@@ -20233,7 +21311,7 @@ function insertMissingFieldsCommand(plugin) {
     name: "Bulk insert missing fields",
     icon: "battery-full",
     checkCallback: (checking) => {
-      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian53.MarkdownView);
+      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian59.MarkdownView);
       const inFile = !!((view == null ? void 0 : view.file) && (!classFilesPath || !view.file.path.startsWith(classFilesPath)));
       if (checking) {
         return inFile;
@@ -20241,7 +21319,7 @@ function insertMissingFieldsCommand(plugin) {
       if (inFile) {
         (async function() {
           const file = view.file;
-          const existingFields = await ExistingField.getExistingFieldsFromIndexForFilePath(plugin, file);
+          const existingFields = await Note.getExistingFields(plugin, file);
           const existingFieldsNames = existingFields.map((eF) => eF.field.name);
           if (![...plugin.fieldIndex.filesFields.get(file.path) || []].map((field) => field.name).every((fieldName) => existingFieldsNames.includes(fieldName))) {
             new chooseSectionModal(
@@ -20268,14 +21346,14 @@ function addOpenFieldsModalCommand(plugin) {
     name: "Open this note's fields modal",
     icon: "clipboard-list",
     checkCallback: (checking) => {
-      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian53.MarkdownView);
+      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian59.MarkdownView);
       const inFile = !!((view == null ? void 0 : view.file) && (!classFilesPath || !view.file.path.startsWith(classFilesPath)));
       if (checking) {
         return inFile;
       }
       if (inFile) {
         const file = view.file;
-        if (inFile && file instanceof import_obsidian53.TFile && file.extension === "md") {
+        if (inFile && file instanceof import_obsidian59.TFile && file.extension === "md") {
           const noteFieldsComponent = new NoteFieldsComponent(plugin, "1", () => {
           }, file);
           plugin.addChild(noteFieldsComponent);
@@ -20284,7 +21362,36 @@ function addOpenFieldsModalCommand(plugin) {
     }
   });
 }
-function addInsertFieldCommand(plugin) {
+function addInsertFieldCommand(plugin, command, field, fileClassName) {
+  plugin.addCommand({
+    id: command.id,
+    name: command.label,
+    icon: command.icon,
+    checkCallback: (checking) => {
+      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian59.MarkdownView);
+      const fR = command.id.match(/insert__(?<fieldId>.*)/);
+      const fileClasses = (view == null ? void 0 : view.file) ? plugin.fieldIndex.filesFileClasses.get(view == null ? void 0 : view.file.path) : void 0;
+      const belongsToView = field !== void 0 && !!(view == null ? void 0 : view.file) && (!!fileClasses && fileClasses.some((fileClass) => fileClass.name === fileClassName) || !fileClasses && !fileClassName);
+      if (checking)
+        return belongsToView;
+      if ((view == null ? void 0 : view.file) && field) {
+        new chooseSectionModal(
+          plugin,
+          view.file,
+          (lineNumber, asList, asBlockquote) => FieldManager2.openFieldModal(
+            plugin,
+            view.file,
+            field.name,
+            lineNumber,
+            asList,
+            asBlockquote
+          )
+        ).open();
+      }
+    }
+  });
+}
+function addInsertFieldsCommand(plugin) {
   const fields = [];
   plugin.presetFields.forEach((f) => {
     if (f.command && f.isRoot())
@@ -20301,41 +21408,15 @@ function addInsertFieldCommand(plugin) {
     if (_field.field.command) {
       const { field, fileClassName } = _field;
       const command = field.command;
-      plugin.addCommand({
-        id: command.id,
-        name: command.label,
-        icon: command.icon,
-        checkCallback: (checking) => {
-          const view = plugin.app.workspace.getActiveViewOfType(import_obsidian53.MarkdownView);
-          const fR = command.id.match(/insert__(?<fieldId>.*)/);
-          const fileClasses = (view == null ? void 0 : view.file) ? plugin.fieldIndex.filesFileClasses.get(view == null ? void 0 : view.file.path) : void 0;
-          const belongsToView = field !== void 0 && !!(view == null ? void 0 : view.file) && (!!fileClasses && fileClasses.some((fileClass) => fileClass.name === fileClassName) || !fileClasses && !fileClassName);
-          if (checking)
-            return belongsToView;
-          if ((view == null ? void 0 : view.file) && field) {
-            new chooseSectionModal(
-              plugin,
-              view.file,
-              (lineNumber, asList, asBlockquote) => FieldManager2.openFieldModal(
-                plugin,
-                view.file,
-                field.name,
-                lineNumber,
-                asList,
-                asBlockquote
-              )
-            ).open();
-          }
-        }
-      });
+      addInsertFieldCommand(plugin, command, field, fileClassName);
     }
   });
 }
-function addFileClassTableViewCommand(plugin) {
+function addOpenFileclassViewCommand(plugin) {
   plugin.addCommand({
     id: "open_fileclass_view",
     name: "Open fileClass view",
-    icon: "file-spreadsheet",
+    icon: "package",
     checkCallback: (checking) => {
       var _a;
       if (checking) {
@@ -20343,8 +21424,26 @@ function addFileClassTableViewCommand(plugin) {
       }
       const activeFilePath = (_a = plugin.app.workspace.getActiveFile()) == null ? void 0 : _a.path;
       const fileClass = activeFilePath ? plugin.fieldIndex.fileClassesPath.get(activeFilePath) : void 0;
-      const fileClassComponent = new FileClassManager(plugin, fileClass);
+      const fileClassComponent = new FileClassViewManager(plugin, fileClass);
       plugin.addChild(fileClassComponent);
+      fileClassComponent.build();
+    }
+  });
+}
+function addFileclassToFileCommand(plugin) {
+  plugin.addCommand({
+    id: "add_fileclass_to_file",
+    name: "Add fileClass to file",
+    icon: "package-plus",
+    checkCallback: (checking) => {
+      const activeFile = plugin.app.workspace.getActiveFile();
+      if (checking) {
+        return !!activeFile;
+      }
+      if (activeFile) {
+        const modal = new AddFileClassToFileModal(plugin, activeFile);
+        modal.open();
+      }
     }
   });
 }
@@ -20368,14 +21467,14 @@ function addUpdateFileLookupsCommand(plugin) {
     icon: "file-search",
     checkCallback: (checking) => {
       var _a;
-      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian53.MarkdownView);
+      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian59.MarkdownView);
       const inFile = !!((view == null ? void 0 : view.file) && (!classFilesPath || !view.file.path.startsWith(classFilesPath)));
       if (checking) {
         return inFile;
       }
       if (inFile) {
         const file = view.file;
-        if (inFile && file instanceof import_obsidian53.TFile && file.extension === "md") {
+        if (inFile && file instanceof import_obsidian59.TFile && file.extension === "md") {
           const lookupFields = (_a = plugin.fieldIndex.filesFields.get(file.path)) == null ? void 0 : _a.filter((field) => field.type === "Lookup" /* Lookup */);
           lookupFields == null ? void 0 : lookupFields.forEach(async (field) => {
             await updateLookups(plugin, { file, fieldName: field.name });
@@ -20394,14 +21493,14 @@ function addUpdateFileFormulasCommand(plugin) {
     icon: "function-square",
     checkCallback: (checking) => {
       var _a;
-      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian53.MarkdownView);
+      const view = plugin.app.workspace.getActiveViewOfType(import_obsidian59.MarkdownView);
       const inFile = !!((view == null ? void 0 : view.file) && (!classFilesPath || !view.file.path.startsWith(classFilesPath)));
       if (checking) {
         return inFile;
       }
       if (inFile) {
         const file = view.file;
-        if (inFile && file instanceof import_obsidian53.TFile && file.extension === "md") {
+        if (inFile && file instanceof import_obsidian59.TFile && file.extension === "md") {
           const formulaFields = (_a = plugin.fieldIndex.filesFields.get(file.path)) == null ? void 0 : _a.filter((field) => field.type === "Formula" /* Formula */);
           formulaFields == null ? void 0 : formulaFields.forEach(async (field) => {
             await updateFormulas(plugin, { file, fieldName: field.name });
@@ -20409,22 +21508,6 @@ function addUpdateFileFormulasCommand(plugin) {
           });
         }
       }
-    }
-  });
-}
-function forceIndexFieldsValues(plugin) {
-  plugin.addCommand({
-    id: "force_index_metadatamenu",
-    name: "Index MetadataMenu fields",
-    icon: "refresh-ccw",
-    checkCallback: (checking) => {
-      if (checking)
-        return true;
-      (async function() {
-        await plugin.indexDB.updates.removeElement("fieldsValues");
-        plugin.fieldIndex.init();
-        plugin.fieldIndex.fullIndex(true);
-      })();
     }
   });
 }
@@ -20436,17 +21519,17 @@ function addCommands(plugin) {
   addManageFieldAtCursorCommand(plugin);
   insertMissingFieldsCommand(plugin);
   addOpenFieldsModalCommand(plugin);
-  addInsertFieldCommand(plugin);
+  addInsertFieldsCommand(plugin);
   addUpdateFileLookupsCommand(plugin);
   addUpdateFileFormulasCommand(plugin);
-  addFileClassTableViewCommand(plugin);
+  addOpenFileclassViewCommand(plugin);
+  addFileclassToFileCommand(plugin);
   addUpdateLookupsAndFormulas(plugin);
-  forceIndexFieldsValues(plugin);
 }
 
 // src/components/ContextMenu.ts
-var import_obsidian54 = require("obsidian");
-var ContextMenu = class extends import_obsidian54.Component {
+var import_obsidian60 = require("obsidian");
+var ContextMenu = class extends import_obsidian60.Component {
   constructor(plugin) {
     super();
     this.plugin = plugin;
@@ -20474,8 +21557,8 @@ var ContextMenu = class extends import_obsidian54.Component {
   }
   buildOptions(file, menu) {
     const classFilesPath = this.plugin.settings.classFilesPath;
-    if (file instanceof import_obsidian54.TFile && file.extension === "md") {
-      if (!import_obsidian54.Platform.isMobile && (0, import_obsidian54.requireApiVersion)("0.16.0")) {
+    if (file instanceof import_obsidian60.TFile && file.extension === "md") {
+      if (!import_obsidian60.Platform.isMobile && (0, import_obsidian60.requireApiVersion)("0.16.0")) {
         if (classFilesPath && file.path.startsWith(classFilesPath)) {
           const fileClassName = FileClass.getFileClassNameFromPath(this.plugin.settings, file.path);
           menu.setSectionSubmenu(
@@ -20518,10 +21601,10 @@ var ContextMenu = class extends import_obsidian54.Component {
 };
 
 // src/components/ExtraButton.ts
-var import_obsidian57 = require("obsidian");
+var import_obsidian63 = require("obsidian");
 
 // src/options/linkAttributes.ts
-var import_obsidian55 = require("obsidian");
+var import_obsidian61 = require("obsidian");
 function clearExtraAttributes(link) {
   Object.values(link.attributes).forEach((attr) => {
     if (attr.name.includes("fileclass-name")) {
@@ -20535,12 +21618,20 @@ function clearExtraAttributes(link) {
 }
 function setLinkMetadataFormButton(plugin, link, destPath, viewTypeName, fileClassName) {
   var _a, _b;
-  const setStatusChanged = (el) => {
+  const setStatus = (el) => {
     const path = destPath + ".md";
     el.removeClass("field-status-changed");
+    el.removeClass("field-status-error");
+    el.removeClass("field-status-may-have-changed");
     const changed = plugin.fieldIndex.dvQFieldChanged(path);
-    if (changed)
+    const error = plugin.fieldIndex.dvQFieldHasAnError(path);
+    const mayHaveChanged = plugin.fieldIndex.dvQFieldMayHaveChanged(path);
+    if (error)
+      el.addClass("field-status-error");
+    else if (changed)
       el.addClass("field-status-changed");
+    else if (mayHaveChanged)
+      el.addClass("field-status-may-have-changed");
   };
   if (link.classList.contains("metadata-menu-button-hidden"))
     return;
@@ -20598,22 +21689,24 @@ function setLinkMetadataFormButton(plugin, link, destPath, viewTypeName, fileCla
   const classFilessPath = plugin.settings.classFilesPath;
   const fileClass = plugin.fieldIndex.fileClassesPath.get(destPath + ".md");
   if (classFilessPath && fileClass) {
-    const icon = fileClass.getIcon() || "file-spreadsheet";
+    const icon = fileClass.getIcon();
     link.setAttribute("fileclass-name", fileClass.name);
     const el = link.nextElementSibling;
     if (!(el == null ? void 0 : el.hasClass("fileclass-icon"))) {
       const metadataMenuBtn = plugin.app.workspace.containerEl.createEl("a", { cls: "metadata-menu fileclass-icon" });
-      setStatusChanged(metadataMenuBtn);
+      setStatus(metadataMenuBtn);
       if (metadataMenuBtn) {
-        (0, import_obsidian55.setIcon)(metadataMenuBtn, icon);
+        (0, import_obsidian61.setIcon)(metadataMenuBtn, icon);
         (_a = link.parentElement) == null ? void 0 : _a.insertBefore(metadataMenuBtn, link.nextSibling);
         metadataMenuBtn.onclick = (event) => {
-          plugin.addChild(new FileClassManager(plugin, fileClass));
+          const fileClassViewManager = new FileClassViewManager(plugin, fileClass);
+          plugin.addChild(fileClassViewManager);
+          fileClassViewManager.build();
           event.stopPropagation();
         };
       }
     } else {
-      setStatusChanged(el);
+      setStatus(el);
     }
   } else if (fileClassName) {
     const fileClass2 = plugin.fieldIndex.fileClassesName.get(fileClassName);
@@ -20623,13 +21716,15 @@ function setLinkMetadataFormButton(plugin, link, destPath, viewTypeName, fileCla
       const el = link.nextElementSibling;
       if (!(el == null ? void 0 : el.hasClass("fileclass-icon"))) {
         const metadataMenuBtn = plugin.app.workspace.containerEl.createEl("a", { cls: "metadata-menu fileclass-icon" });
-        setStatusChanged(metadataMenuBtn);
+        setStatus(metadataMenuBtn);
         if (metadataMenuBtn) {
-          (0, import_obsidian55.setIcon)(metadataMenuBtn, icon || plugin.settings.buttonIcon);
+          (0, import_obsidian61.setIcon)(metadataMenuBtn, icon || plugin.settings.fileClassIcon);
           (_b = link.parentElement) == null ? void 0 : _b.insertBefore(metadataMenuBtn, link.nextSibling);
+          if (viewTypeName === "a.internal-link" && metadataMenuBtn.closest(".fv-table"))
+            metadataMenuBtn.addClass("dataview-fileclass-icon");
           metadataMenuBtn.onclick = (event) => {
             const file = plugin.app.vault.getAbstractFileByPath(`${destPath}.md`);
-            if (file instanceof import_obsidian55.TFile && file.extension === "md") {
+            if (file instanceof import_obsidian61.TFile && file.extension === "md") {
               const noteFieldsComponent = new NoteFieldsComponent(plugin, "1", () => {
               }, file);
               plugin.addChild(noteFieldsComponent);
@@ -20638,7 +21733,7 @@ function setLinkMetadataFormButton(plugin, link, destPath, viewTypeName, fileCla
           };
         }
       } else {
-        setStatusChanged(el);
+        setStatus(el);
       }
     }
   }
@@ -20684,7 +21779,7 @@ function updateDivExtraAttributes(app2, plugin, link, viewTypeName, sourceName, 
     default:
       {
         const linkName = _linkName || link.textContent;
-        const dest = linkName && app2.metadataCache.getFirstLinkpathDest((0, import_obsidian55.getLinkpath)(linkName), sourceName);
+        const dest = linkName && app2.metadataCache.getFirstLinkpathDest((0, import_obsidian61.getLinkpath)(linkName), sourceName);
         if (dest) {
           const fileClassName = (_e = plugin.fieldIndex.filesFileClassesNames.get(dest.path)) == null ? void 0 : _e.last();
           setLinkMetadataFormButton(plugin, link, dest.path.replace(/(.*).md/, "$1"), viewTypeName, fileClassName);
@@ -20762,7 +21857,7 @@ function updateVisibleLinks(app2, plugin) {
   const settings = plugin.settings;
   app2.workspace.iterateRootLeaves((leaf) => {
     var _a;
-    if (leaf.view instanceof import_obsidian55.MarkdownView && leaf.view.file) {
+    if (leaf.view instanceof import_obsidian61.MarkdownView && leaf.view.file) {
       const file = leaf.view.file;
       const cachedFile = app2.metadataCache.getFileCache(file);
       const fileName = file.path.replace(/(.*).md/, "$1");
@@ -20795,7 +21890,7 @@ function updateVisibleLinks(app2, plugin) {
 var import_state4 = require("@codemirror/state");
 
 // src/options/livePreview.ts
-var import_obsidian56 = require("obsidian");
+var import_obsidian62 = require("obsidian");
 var import_view3 = require("@codemirror/view");
 var import_state3 = require("@codemirror/state");
 var import_language4 = require("@codemirror/language");
@@ -20820,18 +21915,20 @@ function buildCMViewPlugin(plugin) {
           const icon = (fileClass == null ? void 0 : fileClass.getIcon()) || "file-spreadsheet";
           fileClass = plugin.fieldIndex.fileClassesPath.get(this.destName + ".md");
           if (fileClass) {
-            (0, import_obsidian56.setIcon)(metadataMenuBtn, icon || settings.buttonIcon);
+            (0, import_obsidian62.setIcon)(metadataMenuBtn, icon || settings.fileClassIcon);
             metadataMenuBtn.onclick = (event) => {
-              plugin.addChild(new FileClassManager(plugin, fileClass));
+              const fileClassViewManager = new FileClassViewManager(plugin, fileClass);
+              plugin.addChild(fileClassViewManager);
+              fileClassViewManager.build();
               event.stopPropagation();
             };
           }
         } else if (fileClass) {
           const icon = fileClass.getIcon();
-          (0, import_obsidian56.setIcon)(metadataMenuBtn, icon || settings.buttonIcon);
+          (0, import_obsidian62.setIcon)(metadataMenuBtn, icon || settings.fileClassIcon);
           metadataMenuBtn.onclick = (event) => {
             const file = plugin.app.vault.getAbstractFileByPath(`${this.destName}.md`);
-            if (file instanceof import_obsidian56.TFile && file.extension === "md") {
+            if (file instanceof import_obsidian62.TFile && file.extension === "md") {
               const noteFieldsComponent = new NoteFieldsComponent(plugin, "1", () => {
               }, file);
               plugin.addChild(noteFieldsComponent);
@@ -20864,7 +21961,7 @@ function buildCMViewPlugin(plugin) {
         if (!settings.enableEditor) {
           return builder.finish();
         }
-        const mdView = view.state.field(import_obsidian56.editorInfoField);
+        const mdView = view.state.field(import_obsidian62.editorInfoField);
         let lastAttributes = {};
         let iconDecoAfter = null;
         let iconDecoAfterWhere = null;
@@ -20907,7 +22004,11 @@ function buildCMViewPlugin(plugin) {
                     }
                   }
                   if (file) {
-                    const fileClassName = (_a = plugin.fieldIndex.filesFileClassesNames.get(file.path)) == null ? void 0 : _a.last();
+                    let fileClassName;
+                    if (plugin.settings.classFilesPath && file.path.startsWith(plugin.settings.classFilesPath))
+                      fileClassName = file.basename;
+                    else
+                      fileClassName = (_a = plugin.fieldIndex.filesFileClassesNames.get(file.path)) == null ? void 0 : _a.last();
                     if (fileClassName) {
                       const attributes = { "fileclass-name": fileClassName };
                       let deco = import_view3.Decoration.mark({
@@ -20963,7 +22064,7 @@ function buildCMViewPlugin(plugin) {
 }
 
 // src/components/ExtraButton.ts
-var ExtraButton = class extends import_obsidian57.Component {
+var ExtraButton = class extends import_obsidian63.Component {
   constructor(plugin) {
     super();
     this.plugin = plugin;
@@ -20990,12 +22091,12 @@ var ExtraButton = class extends import_obsidian57.Component {
       this.initModalObservers(document);
       updateVisibleLinks(this.plugin.app, this.plugin);
     });
-    this.registerEvent(this.plugin.app.metadataCache.on("changed", (0, import_obsidian57.debounce)(this.updateLinks, 100, true)));
-    this.registerEvent(this.plugin.app.workspace.on("metadata-menu:indexed", (0, import_obsidian57.debounce)(this.updateLinks, 100, true)));
-    this.registerEvent(this.plugin.app.workspace.on("layout-change", (0, import_obsidian57.debounce)(this.updateLinks, 10, true)));
+    this.registerEvent(this.plugin.app.metadataCache.on("changed", (0, import_obsidian63.debounce)(this.updateLinks, 100, true)));
+    this.registerEvent(this.plugin.app.workspace.on("metadata-menu:indexed", (0, import_obsidian63.debounce)(this.updateLinks, 100, true)));
+    this.registerEvent(this.plugin.app.workspace.on("layout-change", (0, import_obsidian63.debounce)(this.updateLinks, 10, true)));
     this.registerEvent(this.plugin.app.workspace.on("window-open", (window2, win) => this.initModalObservers(window2.getContainer().doc)));
     this.registerEvent(this.plugin.app.workspace.on("layout-change", () => this.initViewObservers()));
-    this.registerEvent(this.plugin.app.internalPlugins.getPluginById("bookmarks").instance.on("changed", (0, import_obsidian57.debounce)(this.updateLinks, 100, true)));
+    this.registerEvent(this.plugin.app.internalPlugins.getPluginById("bookmarks").instance.on("changed", (0, import_obsidian63.debounce)(this.updateLinks, 100, true)));
   }
   initViewObservers() {
     var _a, _b, _c, _d, _e, _f;
@@ -21138,10 +22239,10 @@ var ExtraButton = class extends import_obsidian57.Component {
 };
 
 // src/index/FieldIndex.ts
-var import_obsidian61 = require("obsidian");
+var import_obsidian67 = require("obsidian");
 
 // src/fileClass/FileClassQuery.ts
-var import_obsidian58 = require("obsidian");
+var import_obsidian64 = require("obsidian");
 var FileClassQuery = class {
   constructor(name = "", id = "", query = "", fileClassName = "") {
     this.name = name;
@@ -21154,7 +22255,7 @@ var FileClassQuery = class {
     try {
       return new Function("dv", `return ${this.query}`)(api);
     } catch (error) {
-      new import_obsidian58.Notice(`Wrong query for <${this.name}>. Check your settings`);
+      new import_obsidian64.Notice(` for <${this.name}>. Check your settings`);
       return [];
     }
   }
@@ -21221,7 +22322,7 @@ function resolveLookups(plugin) {
 }
 
 // src/commands/updateCanvas.ts
-var import_obsidian59 = require("obsidian");
+var import_obsidian65 = require("obsidian");
 async function updateCanvas(plugin, forceUpdateOne) {
   var _a;
   const start2 = Date.now();
@@ -21324,7 +22425,7 @@ async function updateCanvas(plugin, forceUpdateOne) {
         edges = canvasContent.edges;
       } catch (error) {
         DEBUG && console.log(error);
-        new import_obsidian59.Notice(`Couldn't read ${canvas.path}`);
+        new import_obsidian65.Notice(`Couldn't read ${canvas.path}`);
       }
     }
     const canvasGroups = nodes.filter((node) => node.type === "group");
@@ -21375,8 +22476,8 @@ async function updateCanvas(plugin, forceUpdateOne) {
       }
     });
     currentFiles.forEach(async ({ cumulatedLinksFields, cumulatedGroupsFields, cumulatedGroupsLinksFields }, filePath) => {
-      const file = app.vault.getAbstractFileByPath(filePath);
-      if (file && file instanceof import_obsidian59.TFile) {
+      const file = plugin.app.vault.getAbstractFileByPath(filePath);
+      if (file && file instanceof import_obsidian65.TFile) {
         const fields = plugin.fieldIndex.filesFields.get(file.path) || [];
         const payload = [];
         cumulatedLinksFields.forEach((linkNodes, name) => {
@@ -21404,7 +22505,7 @@ async function updateCanvas(plugin, forceUpdateOne) {
     previousFilesPaths.filter((f2) => !currentFilesPaths.includes(f2)).forEach(async (filePath) => {
       var _a2, _b, _c;
       const targetFile = app.vault.getAbstractFileByPath(filePath);
-      if (targetFile && targetFile instanceof import_obsidian59.TFile) {
+      if (targetFile && targetFile instanceof import_obsidian65.TFile) {
         const payload = [];
         const canvasFields = (_a2 = f.filesFields.get(filePath)) == null ? void 0 : _a2.filter(
           (field) => field.type === "Canvas" /* Canvas */ && field.options.canvasPath === canvas.path
@@ -21440,7 +22541,7 @@ async function updateCanvasAfterFileClass(plugin, files = []) {
       const canvasFields = fileClassName && ((_b = index.fileClassesFields.get(fileClassName)) == null ? void 0 : _b.filter((field) => field.type === "Canvas" /* Canvas */)) || [];
       await Promise.all(canvasFields.map(async (field) => {
         const canvasFile = this.plugin.app.vault.getAbstractFileByPath(field.options.canvasPath);
-        if (canvasFile instanceof import_obsidian59.TFile && canvasFile.extension === "canvas") {
+        if (canvasFile instanceof import_obsidian65.TFile && canvasFile.extension === "canvas") {
           await updateCanvas(this.plugin, { canvas: canvasFile });
         }
       }));
@@ -21518,13 +22619,13 @@ var V1FileClassMigration = class {
       })
     );
     if ([...index.v1FileClassesPath.values()].length)
-      await index.indexFieldsAndValues();
+      await index.indexFields();
   }
 };
 
 // src/index/FieldIndexBuilder.ts
-var import_obsidian60 = require("obsidian");
-var FieldIndexBuilder = class extends import_obsidian60.Component {
+var import_obsidian66 = require("obsidian");
+var FieldIndexBuilder = class extends import_obsidian66.Component {
   constructor(plugin) {
     super();
     this.plugin = plugin;
@@ -21585,6 +22686,7 @@ var FieldIndex = class extends FieldIndexBuilder {
   constructor(plugin) {
     super(plugin);
     this.plugin = plugin;
+    this.launchTime = Date.now();
   }
   async onload() {
     this.registerEvent(
@@ -21592,7 +22694,7 @@ var FieldIndex = class extends FieldIndexBuilder {
         if (this.bookmarks.enabled) {
           const updateTime = this.bookmarks.lastSave;
           if (this.lastBookmarkChange === void 0 || updateTime > this.lastBookmarkChange) {
-            await this.indexFieldsAndValues();
+            await this.indexFields();
             this.lastBookmarkChange = updateTime;
             this.plugin.app.workspace.trigger("metadata-menu:indexed");
           }
@@ -21601,7 +22703,7 @@ var FieldIndex = class extends FieldIndexBuilder {
     );
     this.registerEvent(
       this.plugin.app.vault.on("modify", async (file) => {
-        if (file instanceof import_obsidian61.TFile) {
+        if (file instanceof import_obsidian67.TFile) {
           if (file.extension === "md") {
             this.changedFiles.push(file);
             this.lastTimeBeforeResolving = Date.now();
@@ -21613,15 +22715,12 @@ var FieldIndex = class extends FieldIndexBuilder {
     );
     this.registerEvent(
       this.plugin.app.vault.on("delete", async (file) => {
-        await this.plugin.indexDB.fieldsValues.bulkRemoveElementsForFile(file.path);
         this.filesFields.delete(file.path);
         await this.fullIndex();
       })
     );
     this.registerEvent(
       this.plugin.app.vault.on("rename", async (file, oldPath) => {
-        await this.plugin.indexDB.fieldsValues.updateItemsAfterFileRename(oldPath, file.path);
-        await this.plugin.indexDB.fieldsValues.bulkRemoveElementsForFile(oldPath);
         this.filesFields.delete(oldPath);
         await this.fullIndex();
       })
@@ -21630,11 +22729,10 @@ var FieldIndex = class extends FieldIndexBuilder {
       this.plugin.app.metadataCache.on("resolved", async () => {
         if (this.plugin.app.metadataCache.inProgressTaskCount === 0 && this.plugin.launched) {
           if (this.changedFiles.every((file) => this.classFilesPath && file.path.startsWith(this.classFilesPath))) {
-            await this.indexFieldsAndValues();
+            this.plugin.app.workspace.trigger("metadata-menu:fileclass-indexed");
             await updateCanvasAfterFileClass(this.plugin, this.changedFiles);
-          } else {
-            await this.indexFieldsAndValues();
           }
+          await this.indexFields();
           this.plugin.app.workspace.trigger("metadata-menu:indexed");
           this.changedFiles = [];
         }
@@ -21644,12 +22742,11 @@ var FieldIndex = class extends FieldIndexBuilder {
       this.plugin.app.metadataCache.on("dataview:index-ready", async () => {
         DEBUG && console.log("dataview index ready");
         this.dv = this.plugin.app.plugins.plugins.dataview;
-        await this.fullIndex(true);
       })
     );
     this.registerEvent(
       this.plugin.app.metadataCache.on("dataview:metadata-change", async (op, file) => {
-        if (op === "update" && this.dvReady()) {
+        if (file.stat.mtime > this.launchTime && op === "update" && this.dvReady() && this.settings.isAutoCalculationEnabled) {
           const filePayloadToProcess = this.dVRelatedFieldsToUpdate.get(file.path);
           if (![...this.dVRelatedFieldsToUpdate.keys()].includes(file.path)) {
             await this.resolveAndUpdateDVQueriesBasedFields(false);
@@ -21679,24 +22776,16 @@ var FieldIndex = class extends FieldIndexBuilder {
     }
     return [];
   }
-  async indexFieldsAndValues() {
-    await this.indexFields();
-    await ExistingField.indexFieldsValues(this.plugin);
-  }
   async fullIndex(forceUpdateAll = false) {
     this.plugin.indexStatus.setState("indexing");
     this.classFilesPath = this.plugin.settings.classFilesPath;
-    await this.indexFieldsAndValues();
-    if (this.dvReady())
-      await this.resolveAndUpdateDVQueriesBasedFields(forceUpdateAll);
+    await this.indexFields();
+    if (this.dvReady() && (this.settings.isAutoCalculationEnabled || forceUpdateAll)) {
+      this.resolveAndUpdateDVQueriesBasedFields(forceUpdateAll);
+    }
     if (this.remainingLegacyFileClasses)
       await this.migrateFileClasses();
-    await this.cleanIndex();
     this.plugin.app.workspace.trigger("metadata-menu:indexed");
-  }
-  async cleanIndex() {
-    const deleted = await this.plugin.indexDB.fieldsValues.cleanUnindexedFiles(this.plugin);
-    deleted.forEach((iEF) => this.plugin.fieldIndex.filesFieldsLastChange.set(iEF.filePath, Date.now()));
   }
   async indexFields() {
     let start2 = Date.now();
@@ -21740,8 +22829,10 @@ var FieldIndex = class extends FieldIndexBuilder {
             fieldsPayload.forEach((fieldPayload) => {
               var _a2;
               const field = (_a2 = this.filesFields.get(filePath)) == null ? void 0 : _a2.find((_f) => _f.isRoot() && _f.id === fieldPayload.id);
-              if (field)
+              if (field && field.type === "Lookup" /* Lookup */)
                 this.fileLookupFieldsStatus.set(`${filePath}__${field.name}`, "upToDate" /* upToDate */);
+              if (field && field.type === "Formula" /* Formula */)
+                this.fileFormulaFieldsStatus.set(`${filePath}__${field.name}`, "upToDate" /* upToDate */);
             });
           }
         }
@@ -21753,11 +22844,12 @@ var FieldIndex = class extends FieldIndexBuilder {
     const start2 = Date.now();
     this.plugin.indexStatus.setState("indexing");
     cleanRemovedFormulasFromIndex(this.plugin);
-    await this.getFilesLookupAndFormulaFieldsExists();
+    this.getFilesLookupAndFormulaFieldsExists();
     resolveLookups(this.plugin);
     await updateLookups(this.plugin, forceUpdateOne, force_update_all);
     await updateFormulas(this.plugin, forceUpdateOne, force_update_all);
     await this.applyUpdates();
+    this.plugin.app.workspace.trigger("metadata-menu:indexed");
     DEBUG && console.log("Resolved dvQ in ", (Date.now() - start2) / 1e3, "s");
   }
   async migrateFileClasses() {
@@ -21777,7 +22869,7 @@ var FieldIndex = class extends FieldIndexBuilder {
           edges = canvasContent.edges;
         } catch (error) {
           DEBUG && console.log(error);
-          new import_obsidian61.Notice(`Couldn't read ${canvas.path}`);
+          new import_obsidian67.Notice(`Couldn't read ${canvas.path}`);
         }
       }
       nodes == null ? void 0 : nodes.forEach(async (node) => {
@@ -21868,13 +22960,17 @@ var FieldIndex = class extends FieldIndexBuilder {
   }
   getFileClasses() {
     this.indexableFileClasses().forEach((f) => FileClass.indexFileClass(this, f));
-    this.openFileClassManagerAfterIndex.forEach((fileClassName) => {
-      const fileClass = this.fileClassesName.get(fileClassName);
-      if (fileClass) {
-        this.plugin.addChild(new FileClassManager(this.plugin, fileClass, "settingsOption"));
-      }
-    });
-    this.openFileClassManagerAfterIndex = [];
+    (async () => {
+      await Promise.all(this.openFileClassManagerAfterIndex.map(async (fileClassName) => {
+        const fileClass = this.fileClassesName.get(fileClassName);
+        if (fileClass) {
+          const fileClassViewManager = new FileClassViewManager(this.plugin, fileClass, "settingsOption");
+          this.plugin.addChild(fileClassViewManager);
+          await fileClassViewManager.build();
+        }
+      }));
+      this.openFileClassManagerAfterIndex = [];
+    })();
   }
   getLookupQueries() {
     this.plugin.presetFields.filter((field) => field.type === "Lookup" /* Lookup */).forEach((field) => {
@@ -21947,14 +23043,17 @@ var FieldIndex = class extends FieldIndexBuilder {
     if (!this.filesPathsMatchingFileClasses.size)
       return;
     const paths = [...this.filesPathsMatchingFileClasses.keys()];
-    const filesWithPath = this.indexableFiles().filter((_f) => _f.parent && paths.includes(_f.parent.path));
-    filesWithPath.forEach((file) => {
-      this.resolveFileClassBinding(
-        this.filesPathsMatchingFileClasses,
-        this.filesFieldsFromFilesPaths,
-        file.parent.path,
-        file
-      );
+    this.indexableFiles().filter((_f) => _f.parent !== null).forEach((file) => {
+      for (const path of paths) {
+        if (file.parent.path.startsWith(path)) {
+          this.resolveFileClassBinding(
+            this.filesPathsMatchingFileClasses,
+            this.filesFieldsFromFilesPaths,
+            path,
+            file
+          );
+        }
+      }
     });
   }
   getFilesForItems(items, groups, filesWithGroups, path = "") {
@@ -22097,19 +23196,17 @@ var FieldIndex = class extends FieldIndexBuilder {
     });
     return filesToIndex.length;
   }
-  async getFilesLookupAndFormulaFieldsExists(file) {
-    const lookups = await this.plugin.indexDB.fieldsValues.getElementsForType("Lookup");
-    const formulas = await this.plugin.indexDB.fieldsValues.getElementsForType("Formula");
-    const filesExistingFields = {};
-    [...lookups, ...formulas].forEach((iF) => {
-      filesExistingFields[iF.filePath] = [...filesExistingFields[iF.filePath] || [], iF];
-    });
-    Object.keys(filesExistingFields).forEach((filePath) => {
-      const existingFields = filesExistingFields[filePath].map((_f) => {
-        const field = Field_default.getFieldFromId(this.plugin, _f.fieldId, _f.fileClassName);
-        return field;
-      }).filter((_f) => !!_f);
-      this.filesLookupAndFormulaFieldsExists.set(filePath, existingFields);
+  getFilesLookupAndFormulaFieldsExists(file) {
+    if (!this.dvReady())
+      return;
+    [...this.filesFields.entries()].forEach(([filePath, fields]) => {
+      const dvFormulaFields = fields.filter((f) => f.isRoot() && f.type === "Formula" /* Formula */ && f.name in this.dv.api.page(filePath));
+      if (!this.settings.isAutoCalculationEnabled)
+        dvFormulaFields.forEach((field) => this.fileFormulaFieldsStatus.set(`${filePath}__${field.name}`, "mayHaveChanged" /* mayHaveChanged */));
+      const dvLookupFields = fields.filter((f) => f.isRoot() && f.type === "Lookup" /* Lookup */ && f.name in this.dv.api.page(filePath));
+      if (!this.settings.isAutoCalculationEnabled)
+        dvFormulaFields.forEach((field) => this.fileLookupFieldsStatus.set(`${filePath}__${field.name}`, "mayHaveChanged" /* mayHaveChanged */));
+      this.filesLookupAndFormulaFieldsExists.set(filePath, [...dvFormulaFields, ...dvLookupFields]);
     });
   }
   dvQFieldChanged(path) {
@@ -22124,6 +23221,30 @@ var FieldIndex = class extends FieldIndexBuilder {
     });
     return changed;
   }
+  dvQFieldMayHaveChanged(path) {
+    var _a;
+    let changed = false;
+    (_a = this.filesLookupAndFormulaFieldsExists.get(path)) == null ? void 0 : _a.forEach((field) => {
+      if (field.type === "Lookup" /* Lookup */) {
+        changed = changed || this.fileLookupFieldsStatus.get(path + "__" + field.name) === "mayHaveChanged" /* mayHaveChanged */;
+      } else if (field.type === "Formula" /* Formula */) {
+        changed = changed || this.fileFormulaFieldsStatus.get(path + "__" + field.name) === "mayHaveChanged" /* mayHaveChanged */;
+      }
+    });
+    return changed;
+  }
+  dvQFieldHasAnError(path) {
+    var _a;
+    let changed = false;
+    (_a = this.filesLookupAndFormulaFieldsExists.get(path)) == null ? void 0 : _a.forEach((field) => {
+      if (field.type === "Lookup" /* Lookup */) {
+        changed = changed || this.fileLookupFieldsStatus.get(path + "__" + field.name) === "error" /* error */;
+      } else if (field.type === "Formula" /* Formula */) {
+        changed = changed || this.fileFormulaFieldsStatus.get(path + "__" + field.name) === "error" /* error */;
+      }
+    });
+    return changed;
+  }
   isIndexed(file) {
     this.indexableFiles().map((f) => f.path).includes(file.path);
     return true;
@@ -22131,14 +23252,14 @@ var FieldIndex = class extends FieldIndexBuilder {
 };
 
 // src/components/IndexStatus.ts
-var import_obsidian62 = require("obsidian");
+var import_obsidian68 = require("obsidian");
 var Statuses = /* @__PURE__ */ ((Statuses2) => {
   Statuses2["indexing"] = "indexing";
   Statuses2["indexed"] = "indexed";
   Statuses2["update"] = "update";
   return Statuses2;
 })(Statuses || {});
-var statusIcon = {
+var statusIcon2 = {
   "indexing": `<svg class="svg-icon sync" xmlns="http://www.w3.org/2000/svg" width="24" height="24" stroke="currentColor" viewBox="0 0 24 24" fill="none">
             <path
                 d="M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v1" />
@@ -22162,7 +23283,7 @@ var statusTooltip = {
   "indexed": "Metadata Menu: field index complete",
   "update": "Click to update lookups and formulas"
 };
-var IndexStatus = class extends import_obsidian62.Component {
+var IndexStatus = class extends import_obsidian68.Component {
   constructor(plugin) {
     super();
     this.plugin = plugin;
@@ -22175,12 +23296,12 @@ var IndexStatus = class extends import_obsidian62.Component {
       this.statusIcon.removeClass(status);
     }
     this.statusIcon.addClass(state);
-    this.statusIcon.innerHTML = statusIcon[state];
+    this.statusIcon.innerHTML = statusIcon2[state];
   }
   onload() {
     const indexStatus = this.plugin.addStatusBarItem();
     const container = indexStatus.createEl("div", { cls: "status-bar-item-segment" });
-    this.statusBtn = new import_obsidian62.ButtonComponent(container);
+    this.statusBtn = new import_obsidian68.ButtonComponent(container);
     this.statusBtn.setClass("status-item-btn");
     this.statusIcon = this.statusBtn.buttonEl.createEl("span", { cls: "status-bar-item-icon sync-status-icon" });
     this.setState("indexed");
@@ -22196,6 +23317,7 @@ var IndexStatus = class extends import_obsidian62.Component {
                 updatesToApply = true;
               } else if (field.type === "Formula" /* Formula */) {
                 await updateFormulas(this.plugin, { file: this.file, fieldName: field.name });
+                updatesToApply = true;
               }
             }
           })
@@ -22219,11 +23341,13 @@ var IndexStatus = class extends import_obsidian62.Component {
     return [];
   }
   checkForUpdate(view) {
-    if (view && view instanceof import_obsidian62.FileView) {
+    if (view && view instanceof import_obsidian68.FileView && view.file) {
       const file = this.plugin.app.vault.getAbstractFileByPath(view.file.path);
-      if (file instanceof import_obsidian62.TFile && file.extension === "md") {
+      if (file instanceof import_obsidian68.TFile && file.extension === "md") {
         this.file = file;
         if (this.plugin.fieldIndex.dvQFieldChanged(file.path)) {
+          this.setState("update");
+        } else if (this.plugin.fieldIndex.dvQFieldMayHaveChanged(file.path)) {
           this.setState("update");
         } else {
           this.setState("indexed");
@@ -22238,7 +23362,7 @@ var IndexStatus = class extends import_obsidian62.Component {
 };
 
 // src/commands/fieldModifier.ts
-var import_obsidian63 = require("obsidian");
+var import_obsidian69 = require("obsidian");
 function buildAndOpenModal(plugin, file, fieldName, attrs) {
   var _a;
   if ((_a = attrs == null ? void 0 : attrs.options) == null ? void 0 : _a.inFrontmatter) {
@@ -22261,7 +23385,7 @@ function buildAndOpenModal(plugin, file, fieldName, attrs) {
 }
 function createDvField(plugin, dv, p, fieldContainer, fieldName, attrs) {
   var _a;
-  const field = (_a = plugin.fieldIndex.filesFields.get(p.file.path)) == null ? void 0 : _a.find((field2) => field2.name === fieldName);
+  const field = (_a = plugin.fieldIndex.filesFields.get(p.file.path)) == null ? void 0 : _a.filter((f) => f.isRoot()).find((field2) => field2.name === fieldName);
   if (!(field == null ? void 0 : field.isRoot())) {
     dv.el("span", p[field.name], attrs);
     return;
@@ -22284,12 +23408,12 @@ function fieldModifier(plugin, dv, p, fieldName, attrs) {
       fieldContainer.appendChild(emptyField);
     } else {
       const addFieldBtn = dv.el("button", attrs);
-      (0, import_obsidian63.setIcon)(addFieldBtn, "plus-with-circle");
+      (0, import_obsidian69.setIcon)(addFieldBtn, "log-in");
       addFieldBtn.onclick = async () => {
         var _a2;
         const file = plugin.app.vault.getAbstractFileByPath(p.file.path);
-        if (file instanceof import_obsidian63.TFile && file.extension == "md") {
-          const field = (_a2 = plugin.fieldIndex.filesFields.get(file.path)) == null ? void 0 : _a2.find((field2) => field2.name === fieldName);
+        if (file instanceof import_obsidian69.TFile && file.extension == "md") {
+          const field = (_a2 = plugin.fieldIndex.filesFields.get(file.path)) == null ? void 0 : _a2.filter((f) => f.isRoot()).find((field2) => field2.name === fieldName);
           if (field) {
             buildAndOpenModal(plugin, file, fieldName, attrs);
           } else {
@@ -22311,11 +23435,25 @@ function fieldModifier(plugin, dv, p, fieldName, attrs) {
         }
       };
       fieldContainer.appendChild(addFieldBtn);
+      const addInFrontmatterFieldBtn = dv.el("button", attrs);
+      (0, import_obsidian69.setIcon)(addInFrontmatterFieldBtn, "align-vertical-space-around");
+      addInFrontmatterFieldBtn.onclick = async () => {
+        var _a2;
+        const file = plugin.app.vault.getAbstractFileByPath(p.file.path);
+        if (file instanceof import_obsidian69.TFile && file.extension == "md") {
+          const field = (_a2 = plugin.fieldIndex.filesFields.get(file.path)) == null ? void 0 : _a2.filter((f) => f.isRoot()).find((field2) => field2.name === fieldName);
+          if (field)
+            FieldManager2.openFieldModal(plugin, file, field.name, -1, false, false);
+        } else {
+          throw Error("path doesn't correspond to a proper file");
+        }
+      };
+      fieldContainer.appendChild(addInFrontmatterFieldBtn);
     }
   } else {
     const file = plugin.app.vault.getAbstractFileByPath(p.file.path);
-    if (file instanceof import_obsidian63.TFile && file.extension == "md") {
-      const field = (_b = plugin.fieldIndex.filesFields.get(file.path)) == null ? void 0 : _b.find((field2) => field2.name === fieldName);
+    if (file instanceof import_obsidian69.TFile && file.extension == "md") {
+      const field = (_b = plugin.fieldIndex.filesFields.get(file.path)) == null ? void 0 : _b.filter((f) => f.isRoot()).find((field2) => field2.name === fieldName);
       if (field) {
         createDvField(plugin, dv, p, fieldContainer, fieldName, attrs);
       } else {
@@ -22328,7 +23466,7 @@ function fieldModifier(plugin, dv, p, fieldName, attrs) {
 }
 
 // src/commands/fileFields.ts
-var import_obsidian64 = require("obsidian");
+var import_obsidian70 = require("obsidian");
 var FieldInfo = class {
   constructor(plugin, file, eF) {
     this.plugin = plugin;
@@ -22354,17 +23492,17 @@ var FieldInfo = class {
 };
 async function fileFields(plugin, fileOrfilePath) {
   let file;
-  if (fileOrfilePath instanceof import_obsidian64.TFile) {
+  if (fileOrfilePath instanceof import_obsidian70.TFile) {
     file = fileOrfilePath;
   } else {
     const _file = plugin.app.vault.getAbstractFileByPath(fileOrfilePath);
-    if (_file instanceof import_obsidian64.TFile && _file.extension == "md") {
+    if (_file instanceof import_obsidian70.TFile && _file.extension == "md") {
       file = _file;
     } else {
       throw Error("path doesn't correspond to a proper file");
     }
   }
-  const eFs = await ExistingField.getExistingFieldsFromIndexForFilePath(plugin, file);
+  const eFs = await Note.getExistingFields(plugin, file);
   const fields = {};
   for (const eF of eFs) {
     if (eF.indexedPath)
@@ -22374,35 +23512,35 @@ async function fileFields(plugin, fileOrfilePath) {
 }
 
 // src/commands/getValues.ts
-var import_obsidian65 = require("obsidian");
+var import_obsidian71 = require("obsidian");
 async function getValues(plugin, fileOrfilePath, attribute) {
   let file;
-  if (fileOrfilePath instanceof import_obsidian65.TFile) {
+  if (fileOrfilePath instanceof import_obsidian71.TFile) {
     file = fileOrfilePath;
   } else {
     const _file = plugin.app.vault.getAbstractFileByPath(fileOrfilePath);
-    if (_file instanceof import_obsidian65.TFile && _file.extension == "md") {
+    if (_file instanceof import_obsidian71.TFile && _file.extension == "md") {
       file = _file;
     } else {
       throw Error("path doesn't correspond to a proper file");
     }
   }
-  const eF = await ExistingField.getExistingFieldsFromIndexForFilePath(plugin, file);
+  const eF = await Note.getExistingFields(plugin, file);
   return eF.filter((_ef) => _ef.field.name === attribute).map((_eF) => _eF.value);
 }
 async function getValuesForIndexedPath(plugin, fileOrfilePath, indexedPath) {
   let file;
-  if (fileOrfilePath instanceof import_obsidian65.TFile) {
+  if (fileOrfilePath instanceof import_obsidian71.TFile) {
     file = fileOrfilePath;
   } else {
     const _file = plugin.app.vault.getAbstractFileByPath(fileOrfilePath);
-    if (_file instanceof import_obsidian65.TFile && _file.extension == "md") {
+    if (_file instanceof import_obsidian71.TFile && _file.extension == "md") {
       file = _file;
     } else {
       throw Error("path doesn't correspond to a proper file");
     }
   }
-  const eF = await ExistingField.getExistingFieldFromIndexForIndexedPath(plugin, file, indexedPath);
+  const eF = await Note.getExistingFieldForIndexedPath(plugin, file, indexedPath);
   return eF == null ? void 0 : eF.value;
 }
 
@@ -22442,10 +23580,10 @@ var MetadataMenuApi = class {
 };
 
 // src/settings/MetadataMenuSettingTab.ts
-var import_obsidian69 = require("obsidian");
+var import_obsidian75 = require("obsidian");
 
 // src/suggester/FolderSuggester.ts
-var import_obsidian66 = require("obsidian");
+var import_obsidian72 = require("obsidian");
 var FolderSuggest = class extends TextInputSuggest {
   constructor(plugin, inputEl) {
     super(inputEl);
@@ -22457,7 +23595,7 @@ var FolderSuggest = class extends TextInputSuggest {
     const folders = [];
     const lowerCaseInputStr = inputStr.toLowerCase();
     abstractFiles.forEach((folder) => {
-      if (folder instanceof import_obsidian66.TFolder && folder.path.toLowerCase().contains(lowerCaseInputStr)) {
+      if (folder instanceof import_obsidian72.TFolder && folder.path.toLowerCase().contains(lowerCaseInputStr)) {
         folders.push(folder);
       }
     });
@@ -22474,11 +23612,11 @@ var FolderSuggest = class extends TextInputSuggest {
 };
 
 // src/settings/FileClassQuerySettingModal.ts
-var import_obsidian68 = require("obsidian");
+var import_obsidian74 = require("obsidian");
 
 // src/settings/FileClassQuerySetting.ts
-var import_obsidian67 = require("obsidian");
-var FileClassQuerySetting = class extends import_obsidian67.Setting {
+var import_obsidian73 = require("obsidian");
+var FileClassQuerySetting = class extends import_obsidian73.Setting {
   constructor(containerEl, property, plugin) {
     super(containerEl);
     this.containerEl = containerEl;
@@ -22539,7 +23677,7 @@ var FileClassQuerySetting = class extends import_obsidian67.Setting {
 };
 
 // src/settings/FileClassQuerySettingModal.ts
-var FileClassQuerySettingsModal = class extends import_obsidian68.Modal {
+var FileClassQuerySettingsModal = class extends import_obsidian74.Modal {
   constructor(plugin, parentSettingContainer, parentSetting, fileClassQuery) {
     super(plugin.app);
     this.plugin = plugin;
@@ -22587,7 +23725,7 @@ var FileClassQuerySettingsModal = class extends import_obsidian68.Modal {
   }
   createnameInputContainer(container) {
     container.createDiv({ cls: "label", text: `FileClass Query Name:` });
-    const input = new import_obsidian68.TextComponent(container);
+    const input = new import_obsidian74.TextComponent(container);
     input.inputEl.addClass("with-label");
     input.inputEl.addClass("full-width");
     const name = this.fileClassQuery.name;
@@ -22602,7 +23740,7 @@ var FileClassQuerySettingsModal = class extends import_obsidian68.Modal {
   createFileClassSelectorContainer(container) {
     container.createDiv({ cls: "label", text: `Fileclass:` });
     container.createDiv({ cls: "spacer" });
-    const select = new import_obsidian68.DropdownComponent(container);
+    const select = new import_obsidian74.DropdownComponent(container);
     const classFilesPath = this.plugin.settings.classFilesPath;
     const fileClasses = this.plugin.app.vault.getFiles().filter((f) => classFilesPath && f.path.startsWith(classFilesPath)).reverse();
     select.addOption("--Select a fileClass--", "--Select a fileClass--");
@@ -22625,7 +23763,7 @@ var FileClassQuerySettingsModal = class extends import_obsidian68.Modal {
   createQueryInputContainer(container) {
     container.createDiv({ text: "dataviewJS query:" });
     const queryStringInputContainer = container.createDiv({ cls: "field-container" });
-    const queryStringInput = new import_obsidian68.TextAreaComponent(queryStringInputContainer);
+    const queryStringInput = new import_obsidian74.TextAreaComponent(queryStringInputContainer);
     queryStringInput.inputEl.addClass("full-width");
     queryStringInput.inputEl.rows = 4;
     queryStringInput.setValue(this.fileClassQuery.query);
@@ -22645,7 +23783,7 @@ var FileClassQuerySettingsModal = class extends import_obsidian68.Modal {
     this.createCancelButton(footer);
   }
   createSaveButton(container) {
-    const b = new import_obsidian68.ButtonComponent(container);
+    const b = new import_obsidian74.ButtonComponent(container);
     b.setTooltip("Save");
     b.setIcon("checkmark");
     b.onClick(async () => {
@@ -22669,7 +23807,7 @@ var FileClassQuerySettingsModal = class extends import_obsidian68.Modal {
     });
   }
   createCancelButton(container) {
-    const b = new import_obsidian68.ButtonComponent(container);
+    const b = new import_obsidian74.ButtonComponent(container);
     b.setIcon("cross").setTooltip("Cancel").onClick(() => {
       this.saved = false;
       if (this.initialFileClassQuery.name != "") {
@@ -22682,7 +23820,7 @@ var FileClassQuerySettingsModal = class extends import_obsidian68.Modal {
 };
 
 // src/settings/MetadataMenuSettingTab.ts
-var SettingTextWithButtonComponent = class extends import_obsidian69.Setting {
+var SettingTextWithButtonComponent = class extends import_obsidian75.Setting {
   constructor(plugin, containerEl, name, description, placeholder, currentValues, normalizeValue) {
     super(containerEl);
     this.plugin = plugin;
@@ -22693,7 +23831,7 @@ var SettingTextWithButtonComponent = class extends import_obsidian69.Setting {
     this.currentValues = currentValues;
     this.normalizeValue = normalizeValue;
     this.newValues = [];
-    const saveButton = new import_obsidian69.ButtonComponent(this.containerEl);
+    const saveButton = new import_obsidian75.ButtonComponent(this.containerEl);
     saveButton.buttonEl.addClass("save");
     saveButton.setIcon("save");
     saveButton.onClick(async () => {
@@ -22726,30 +23864,35 @@ var SettingTextWithButtonComponent = class extends import_obsidian69.Setting {
     this.infoEl.appendChild(saveButton.buttonEl);
   }
 };
-var ButtonDisplaySetting = class extends import_obsidian69.Setting {
-  constructor(plugin, containerEl, name, description, value) {
+var ButtonDisplaySetting = class extends import_obsidian75.Setting {
+  constructor(plugin, containerEl, name, description, value, needsReload) {
     super(containerEl);
     this.plugin = plugin;
     this.containerEl = containerEl;
     this.name = name;
     this.description = description;
     this.value = value;
+    this.needsReload = needsReload;
+    const reloadInfo = this.containerEl.createDiv({ cls: "settings-info-warning" });
     this.setName(this.name).setDesc(this.description).addToggle((cb) => {
       cb.setValue(this.plugin.settings[this.value]);
       cb.onChange((value2) => {
         this.plugin.settings[this.value] = value2;
         this.plugin.saveSettings();
+        if (this.needsReload)
+          reloadInfo.textContent = "Please reload metadata menu to apply this change";
       });
     }).settingEl.addClass("no-border");
   }
 };
-var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
+var MetadataMenuSettingTab = class extends import_obsidian75.PluginSettingTab {
   constructor(plugin) {
     super(plugin.app, plugin);
     this.plugin = plugin;
     this.newFileClassAlias = this.plugin.settings.fileClassAlias;
     this.newFileClassesPath = this.plugin.settings.classFilesPath;
     this.newTableViewMaxRecords = this.plugin.settings.tableViewMaxRecords;
+    this.newIcon = this.plugin.settings.fileClassIcon;
     this.containerEl.addClass("metadata-menu");
     this.containerEl.addClass("settings");
   }
@@ -22763,7 +23906,7 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
     const settingsContainer = this.containerEl.createEl("div");
     if (withButton) {
       const settingsContainerShowButtonContainer = settingHeaderContainer.createEl("div", { cls: "setting-item-control" });
-      const settingsContainerShowButton = new import_obsidian69.ButtonComponent(settingsContainerShowButtonContainer);
+      const settingsContainerShowButton = new import_obsidian75.ButtonComponent(settingsContainerShowButtonContainer);
       settingsContainerShowButton.buttonEl.addClass("setting-item-control");
       settingsContainer.hide();
       settingsContainerShowButton.setCta();
@@ -22791,7 +23934,18 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
       "Global settings to apply to your whole vault",
       true
     );
-    new import_obsidian69.Setting(globalSettings).setName("Display field options in context menu").setDesc("Choose to show or hide fields options in the context menu of a link or a file").addToggle((toggle) => {
+    const scopeReloadInfo = globalSettings.createDiv({ cls: "settings-info-warning" });
+    new import_obsidian75.Setting(globalSettings).setName("Scope").setDesc("Index fields in frontmatter only or in the whole note (if you use dataview inline fields). Indexing full notes could cause some latencies in vaults with large files").addDropdown((cb) => {
+      cb.addOption("frontmatterOnly", "Frontmatter only");
+      cb.addOption("fullNote", "Full note");
+      cb.setValue(this.plugin.settings.frontmatterOnly ? "frontmatterOnly" : "fullNote");
+      cb.onChange(async (value) => {
+        this.plugin.settings.frontmatterOnly = value === "frontmatterOnly" ? true : false;
+        await this.plugin.saveSettings();
+        scopeReloadInfo.textContent = "Please reload metadata menu to apply this change";
+      });
+    }).settingEl.addClass("no-border");
+    new import_obsidian75.Setting(globalSettings).setName("Display field options in context menu").setDesc("Choose to show or hide fields options in the context menu of a link or a file").addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.displayFieldsInContextMenu);
       toggle.onChange(async (value) => {
         this.plugin.settings.displayFieldsInContextMenu = value;
@@ -22834,7 +23988,7 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
       "globallyIgnoredFields",
       (item) => item
     );
-    const enableAutoComplete = new import_obsidian69.Setting(globalSettings).setName("Autocomplete").setDesc("Activate autocomplete fields").addToggle((cb) => {
+    const enableAutoComplete = new import_obsidian75.Setting(globalSettings).setName("Autocomplete").setDesc("Activate autocomplete fields").addToggle((cb) => {
       cb.setValue(this.plugin.settings.isAutosuggestEnabled);
       cb.onChange((value) => {
         this.plugin.settings.isAutosuggestEnabled = value;
@@ -22843,7 +23997,16 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
     });
     enableAutoComplete.settingEl.addClass("no-border");
     enableAutoComplete.controlEl.addClass("full-width");
-    const showIndexingStatus = new import_obsidian69.Setting(globalSettings).setName("Fields Indexing Status").setDesc("Show fields indexing status icon in status toolbar").addToggle((cb) => {
+    const enableAutoCalculation = new import_obsidian75.Setting(globalSettings).setName("Auto calculation").setDesc("Activate lookups and formulas fields global auto-calculation").addToggle((cb) => {
+      cb.setValue(this.plugin.settings.isAutoCalculationEnabled);
+      cb.onChange((value) => {
+        this.plugin.settings.isAutoCalculationEnabled = value;
+        this.plugin.saveSettings();
+      });
+    });
+    enableAutoCalculation.settingEl.addClass("no-border");
+    enableAutoCalculation.controlEl.addClass("full-width");
+    const showIndexingStatus = new import_obsidian75.Setting(globalSettings).setName("Fields Indexing Status").setDesc("Show fields indexing status icon in status toolbar").addToggle((cb) => {
       cb.setValue(this.plugin.settings.showIndexingStatusInStatusBar);
       cb.onChange((value) => {
         this.plugin.settings.showIndexingStatusInStatusBar = value;
@@ -22857,7 +24020,7 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
     });
     showIndexingStatus.settingEl.addClass("no-border");
     showIndexingStatus.controlEl.addClass("full-width");
-    const frontmatterListDisplay = new import_obsidian69.Setting(globalSettings).setName("Frontmatter list display").setDesc("Choose wether lists should be displayed as arrays or indented lists in frontmatter").addDropdown((cb) => {
+    const frontmatterListDisplay = new import_obsidian75.Setting(globalSettings).setName("Frontmatter list display").setDesc("Choose wether lists should be displayed as arrays or indented lists in frontmatter").addDropdown((cb) => {
       [["Array", "asArray"], ["Indented List", "asList"]].forEach(([display, value]) => {
         cb.addOption(value, display);
       });
@@ -22869,9 +24032,9 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
     });
     frontmatterListDisplay.settingEl.addClass("no-border");
     frontmatterListDisplay.controlEl.addClass("full-width");
-    new import_obsidian69.Setting(globalSettings).setName("First day of week").setDesc("For date fields, which day the date picker's week should start with").addDropdown((cb) => {
+    new import_obsidian75.Setting(globalSettings).setName("First day of week").setDesc("For date fields, which day the date picker's week should start with").addDropdown((cb) => {
       for (let i = 0; i < 2; i++) {
-        cb.addOption(i.toString(), (0, import_obsidian69.moment)().day(i).format("dddd"));
+        cb.addOption(i.toString(), (0, import_obsidian75.moment)().day(i).format("dddd"));
       }
       cb.setValue(this.plugin.settings.firstDayOfWeek.toString() || "1");
       cb.onChange(async (value) => {
@@ -22885,7 +24048,7 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
       "Manage globally predefined type and options for a field throughout your whole vault",
       true
     );
-    new import_obsidian69.Setting(presetFieldsSettings).setName("Add New Field Setting").setDesc("Add a new Frontmatter property for which you want preset options.").addButton((button) => {
+    new import_obsidian75.Setting(presetFieldsSettings).setName("Add New Field Setting").setDesc("Add a new Frontmatter property for which you want preset options.").addButton((button) => {
       return button.setTooltip("Add New Property Manager").setButtonText("Add new").setCta().onClick(async () => {
         let modal = new FieldSettingsModal(this.plugin, presetFieldsSettings);
         modal.open();
@@ -22907,7 +24070,7 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
       "Manage fileClass folder and alias. When a note has a fileClass defined, fileClass field properties will override global preset fields settings for the same field name",
       true
     );
-    const fileClassesFolderSaveButton = new import_obsidian69.ButtonComponent(classFilesSettings);
+    const fileClassesFolderSaveButton = new import_obsidian75.ButtonComponent(classFilesSettings);
     fileClassesFolderSaveButton.buttonEl.addClass("save");
     fileClassesFolderSaveButton.setIcon("save");
     fileClassesFolderSaveButton.onClick(async () => {
@@ -22915,7 +24078,7 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
       await this.plugin.saveSettings();
       fileClassesFolderSaveButton.removeCta();
     });
-    const path = new import_obsidian69.Setting(classFilesSettings).setName("class Files path").setDesc("Path to the files containing the authorized fields for a type of note").addSearch((cfs) => {
+    const path = new import_obsidian75.Setting(classFilesSettings).setName("Class Files path").setDesc("Path to the files containing the authorized fields for a type of note").addSearch((cfs) => {
       new FolderSuggest(this.plugin, cfs.inputEl);
       cfs.setPlaceholder("Folder").setValue(this.plugin.settings.classFilesPath || "").onChange((new_folder) => {
         const newPath = new_folder.endsWith("/") || !new_folder ? new_folder : new_folder + "/";
@@ -22927,7 +24090,7 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
     path.settingEl.addClass("narrow-title");
     path.controlEl.addClass("full-width");
     path.settingEl.appendChild(fileClassesFolderSaveButton.buttonEl);
-    const aliasSaveButton = new import_obsidian69.ButtonComponent(classFilesSettings);
+    const aliasSaveButton = new import_obsidian75.ButtonComponent(classFilesSettings);
     aliasSaveButton.buttonEl.addClass("save");
     aliasSaveButton.setIcon("save");
     aliasSaveButton.onClick(async () => {
@@ -22935,7 +24098,7 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
       await this.plugin.saveSettings();
       aliasSaveButton.removeCta();
     });
-    const alias = new import_obsidian69.Setting(classFilesSettings).setName("fileClass field alias").setDesc("Choose another name for fileClass field in frontmatter (example: Category, type, ...").addText((text) => {
+    const alias = new import_obsidian75.Setting(classFilesSettings).setName("FileClass field alias").setDesc("Choose another name for fileClass field in frontmatter (example: Category, type, ...").addText((text) => {
       text.setValue(this.plugin.settings.fileClassAlias).onChange(async (value) => {
         this.newFileClassAlias = value || "fileClass";
         aliasSaveButton.setCta();
@@ -22945,7 +24108,7 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
     alias.settingEl.addClass("narrow-title");
     alias.controlEl.addClass("full-width");
     alias.settingEl.appendChild(aliasSaveButton.buttonEl);
-    const global = new import_obsidian69.Setting(classFilesSettings).setName("global fileClass").setDesc("Choose one fileClass to be applicable to all files (even it is not present as a fileClass attribute in their frontmatter). This will override the preset Fields defined above").addSearch((cfs) => {
+    const global = new import_obsidian75.Setting(classFilesSettings).setName("Global fileClass").setDesc("Choose one fileClass to be applicable to all files (even it is not present as a fileClass attribute in their frontmatter). This will override the preset Fields defined above").addSearch((cfs) => {
       new FileSuggest(
         cfs.inputEl,
         this.plugin,
@@ -22963,7 +24126,29 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
     global.settingEl.addClass("no-border");
     global.settingEl.addClass("narrow-title");
     global.controlEl.addClass("full-width");
-    const rowPerPageSaveButton = new import_obsidian69.ButtonComponent(classFilesSettings);
+    const defaultIconSave = new import_obsidian75.ButtonComponent(classFilesSettings);
+    defaultIconSave.buttonEl.addClass("save");
+    defaultIconSave.setIcon("save");
+    defaultIconSave.onClick(async () => {
+      this.plugin.settings.fileClassIcon = this.newIcon;
+      await this.plugin.saveSettings();
+      defaultIconSave.removeCta();
+    });
+    const iconManagerContainer = classFilesSettings.createDiv({ cls: "icon" });
+    const defaultIconSetting = new import_obsidian75.Setting(classFilesSettings).setName("Default Icon").setDesc("Choose a default icon for fileclasses from lucide.dev library").addText((cb) => {
+      cb.setValue(this.plugin.settings.fileClassIcon || DEFAULT_SETTINGS.fileClassIcon).onChange((value) => {
+        this.newIcon = value;
+        (0, import_obsidian75.setIcon)(iconManagerContainer, value);
+        defaultIconSave.setCta();
+      });
+    });
+    (0, import_obsidian75.setIcon)(iconManagerContainer, this.plugin.settings.fileClassIcon || DEFAULT_SETTINGS.fileClassIcon);
+    defaultIconSetting.settingEl.appendChild(iconManagerContainer);
+    defaultIconSetting.settingEl.appendChild(defaultIconSave.buttonEl);
+    defaultIconSetting.settingEl.addClass("no-border");
+    defaultIconSetting.settingEl.addClass("narrow-title");
+    defaultIconSetting.controlEl.addClass("full-width");
+    const rowPerPageSaveButton = new import_obsidian75.ButtonComponent(classFilesSettings);
     rowPerPageSaveButton.buttonEl.addClass("save");
     rowPerPageSaveButton.setIcon("save");
     rowPerPageSaveButton.onClick(async () => {
@@ -22971,7 +24156,7 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
       await this.plugin.saveSettings();
       rowPerPageSaveButton.removeCta();
     });
-    const maxRows = new import_obsidian69.Setting(classFilesSettings).setName("Result per page").setDesc("Number of result per page in table view").addText((text) => {
+    const maxRows = new import_obsidian75.Setting(classFilesSettings).setName("Result per page").setDesc("Number of result per page in table view").addText((text) => {
       text.setValue(`${this.plugin.settings.tableViewMaxRecords}`).onChange(async (value) => {
         this.newTableViewMaxRecords = parseInt(value || `${this.plugin.settings.tableViewMaxRecords}`);
         rowPerPageSaveButton.setCta();
@@ -22981,18 +24166,39 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
     maxRows.settingEl.addClass("narrow-title");
     maxRows.controlEl.addClass("full-width");
     maxRows.settingEl.appendChild(rowPerPageSaveButton.buttonEl);
+    const chooseFileClassAtFileCreation = new import_obsidian75.Setting(classFilesSettings).setName("Add a fileclass after create").setDesc("Select a fileclass at file creation to be added to the file").addToggle((cb) => {
+      cb.setValue(this.plugin.settings.chooseFileClassAtFileCreation);
+      cb.onChange((value) => {
+        this.plugin.settings.chooseFileClassAtFileCreation = value;
+        this.plugin.saveSettings();
+      });
+    });
+    chooseFileClassAtFileCreation.settingEl.addClass("no-border");
+    chooseFileClassAtFileCreation.controlEl.addClass("full-width");
+    const autoInsertFieldsAtFileClassInsertion = new import_obsidian75.Setting(classFilesSettings).setName("Insert fileClass fields").setDesc("Includes fileClass in frontmatter after fileClass choice").addToggle((cb) => {
+      cb.setValue(this.plugin.settings.autoInsertFieldsAtFileClassInsertion);
+      cb.onChange((value) => {
+        this.plugin.settings.autoInsertFieldsAtFileClassInsertion = value;
+        this.plugin.saveSettings();
+      });
+    });
+    autoInsertFieldsAtFileClassInsertion.settingEl.addClass("no-border");
+    autoInsertFieldsAtFileClassInsertion.controlEl.addClass("full-width");
+    const showFileClassSelectInModal = new import_obsidian75.Setting(classFilesSettings).setName("Fileclass Select").setDesc("Show fileclass select option in note fields modals").addToggle((cb) => {
+      cb.setValue(this.plugin.settings.showFileClassSelectInModal);
+      cb.onChange((value) => {
+        this.plugin.settings.showFileClassSelectInModal = value;
+        this.plugin.saveSettings();
+      });
+    });
+    showFileClassSelectInModal.settingEl.addClass("no-border");
+    showFileClassSelectInModal.controlEl.addClass("full-width");
     containerEl.createDiv({ cls: "setting-divider" });
     const metadataMenuBtnSettings = this.createSettingGroup(
       "Metadata Menu button",
       "Show extra button to access metadata menu modal of fields",
       true
     );
-    new import_obsidian69.Setting(metadataMenuBtnSettings).setName("Metadata Menu button icon").setDesc("name of the default icon when not defined in fileClass").addText((text) => {
-      text.setValue(this.plugin.settings.buttonIcon).onChange(async (value) => {
-        this.plugin.settings.buttonIcon = value || "clipboard-list";
-        await this.plugin.saveSettings();
-      });
-    }).settingEl.addClass("no-border");
     [
       {
         name: "Reading mode links",
@@ -23022,21 +24228,22 @@ var MetadataMenuSettingTab = class extends import_obsidian69.PluginSettingTab {
       {
         name: "File explorer",
         description: "Display an extra button to access metadata menu form in the file explorer",
-        value: "enableFileExplorer"
+        value: "enableFileExplorer",
+        needsReload: true
       },
       {
         name: "Properties",
         description: "Display fields buttons to access metadata forms in the property section",
         value: "enableProperties"
       }
-    ].forEach((s) => new ButtonDisplaySetting(this.plugin, metadataMenuBtnSettings, s.name, s.description, s.value));
+    ].forEach((s) => new ButtonDisplaySetting(this.plugin, metadataMenuBtnSettings, s.name, s.description, s.value, s.needsReload));
     containerEl.createDiv({ cls: "setting-divider" });
     const queryFileClassSettings = this.createSettingGroup(
       "Query based FileClass settings",
       "Manage globally predefined type and options for a field matching this query",
       true
     );
-    new import_obsidian69.Setting(queryFileClassSettings).setName("Add New Query for fileClass").setDesc("Add a new query and a FileClass that will apply to files matching this query.").addButton((button) => {
+    new import_obsidian75.Setting(queryFileClassSettings).setName("Add New Query for fileClass").setDesc("Add a new query and a FileClass that will apply to files matching this query.").addButton((button) => {
       return button.setTooltip("Add New fileClass query").setButtonText("Add new").setCta().onClick(async () => {
         let modal = new FileClassQuerySettingsModal(this.plugin, queryFileClassSettings);
         modal.open();
@@ -23130,9 +24337,9 @@ var migrateSettingsV4toV5 = async (plugin) => {
 };
 
 // src/suggester/metadataSuggester.ts
-var import_obsidian70 = require("obsidian");
+var import_obsidian76 = require("obsidian");
 var listPrefix = "  - ";
-var ValueSuggest = class extends import_obsidian70.EditorSuggest {
+var ValueSuggest = class extends import_obsidian76.EditorSuggest {
   constructor(plugin) {
     super(plugin.app);
     this.inFrontmatter = false;
@@ -23162,6 +24369,7 @@ var ValueSuggest = class extends import_obsidian70.EditorSuggest {
     return !!frontmatterEnd && cursor.line < frontmatterEnd;
   }
   onTrigger(cursor, editor, file) {
+    var _a;
     if (this.didSelect) {
       this.didSelect = false;
       return null;
@@ -23172,7 +24380,7 @@ var ValueSuggest = class extends import_obsidian70.EditorSuggest {
     ;
     if ((file == null ? void 0 : file.extension) !== "md")
       return null;
-    if (editor.editorComponent.table)
+    if ((_a = editor.editorComponent) == null ? void 0 : _a.table)
       return null;
     const fullLine = editor.getLine(editor.getCursor().line);
     if (fullLine.startsWith("|"))
@@ -23328,7 +24536,7 @@ var ValueSuggest = class extends import_obsidian70.EditorSuggest {
   }
   async selectSuggestion(suggestion, event) {
     var _a, _b, _c, _d, _e;
-    const activeView = this.plugin.app.workspace.getActiveViewOfType(import_obsidian70.MarkdownView);
+    const activeView = this.plugin.app.workspace.getActiveViewOfType(import_obsidian76.MarkdownView);
     if (!activeView) {
       return;
     }
@@ -23354,7 +24562,7 @@ var ValueSuggest = class extends import_obsidian70.EditorSuggest {
           { line: beginFieldLineNumber, ch: 0 },
           { line: endFieldLineNumber, ch: editor.getLine(endFieldLineNumber).length }
         );
-        let parsedField2 = (0, import_obsidian70.parseYaml)(serializedField);
+        let parsedField2 = (0, import_obsidian76.parseYaml)(serializedField);
         let [attr, pastValues] = Object.entries(parsedField2)[0];
         let newField;
         if (this.field && this.field.getDisplay() === "asList" /* asList */) {
@@ -23416,7 +24624,7 @@ var ValueSuggest = class extends import_obsidian70.EditorSuggest {
           editor.setCursor({ line: endFieldLineNumber2, ch: editor.getLine(endFieldLineNumber2).length });
         }
       } catch (error) {
-        new import_obsidian70.Notice("Frontmatter wrongly formatted", 2e3);
+        new import_obsidian76.Notice("Frontmatter wrongly formatted", 2e3);
         this.close();
         return;
       }
@@ -23457,277 +24665,10 @@ var ValueSuggest = class extends import_obsidian70.EditorSuggest {
   }
 };
 
-// src/db/DatabaseManager.ts
-var import_obsidian72 = require("obsidian");
-
-// src/db/stores/fieldsValues.ts
-var import_path = require("path");
-
-// src/db/StoreManager.ts
-var import_obsidian71 = require("obsidian");
-var StoreManager = class extends import_obsidian71.Component {
-  constructor(indexDB, storeName) {
-    super();
-    this.indexDB = indexDB;
-    this.storeName = storeName;
-    this.executeRequest = (func) => {
-      const open = indexedDB.open(this.indexDB.name);
-      return new Promise(async (resolve2, reject) => {
-        open.onsuccess = () => {
-          const db = open.result;
-          if ([...db.objectStoreNames].find((name) => name === this.storeName)) {
-            const transaction = db.transaction(this.storeName, "readwrite");
-            const store = transaction.objectStore(this.storeName);
-            resolve2(func(store));
-          } else {
-            DEBUG && console.error("store not found");
-            reject();
-          }
-        };
-        open.onerror = () => {
-          DEBUG && console.error("unable to open db");
-          reject();
-        };
-      });
-    };
-    this.getElement = (key) => this.executeRequest(
-      (store) => new Promise((resolve2, reject) => {
-        let request;
-        if (key === "all")
-          request = store.getAll();
-        else
-          request = store.get(key);
-        request.onerror = () => reject(request.error);
-        request.onsuccess = () => resolve2(request.result);
-      })
-    );
-    this.editElement = (key, payload) => this.executeRequest(
-      (store) => new Promise((resolve2, reject) => {
-        let request;
-        if (key === "all")
-          request = store.getAll();
-        else
-          request = store.get(key);
-        request.onerror = () => reject(request.error);
-        request.onsuccess = () => {
-          const serialized = JSON.parse(JSON.stringify(payload));
-          const updateRequest = store.put(serialized);
-          updateRequest.onsuccess = () => resolve2(request.result);
-        };
-      })
-    );
-    this.bulkEditElements = (payload) => this.executeRequest(
-      (store) => new Promise((resolve2, reject) => {
-        let request;
-        if (payload.length) {
-          payload.forEach((item) => {
-            request = store.get(item.id);
-            request.onerror = () => {
-              DEBUG && console.log("error on getting ", item.id);
-              reject(request.error);
-            };
-            request.onsuccess = () => {
-              const serialized = JSON.parse(JSON.stringify(item));
-              const updateRequest = store.put(serialized);
-              updateRequest.onsuccess = () => resolve2(request.result);
-            };
-          });
-        } else {
-          resolve2();
-        }
-      })
-    );
-    this.removeElement = (key) => this.executeRequest(
-      (store) => new Promise((resolve2, reject) => {
-        let request;
-        if (key === "all")
-          request = store.clear();
-        else
-          request = store.delete(key);
-        request.onerror = () => reject(request.error);
-        request.onsuccess = () => resolve2();
-      })
-    );
-    this.bulkRemoveElements = (keys) => this.executeRequest(
-      (store) => new Promise((resolve2, reject) => {
-        let request;
-        if (keys.length) {
-          keys.forEach((key) => {
-            request = store.get(key);
-            request.onerror = () => reject(request.error);
-            request.onsuccess = () => {
-              const delRequest = store.delete(key);
-              delRequest.onsuccess = () => resolve2();
-            };
-          });
-        } else {
-          resolve2();
-        }
-      })
-    );
-  }
-};
-
-// src/db/stores/fieldsValues.ts
-var FieldsValuesStore = class extends StoreManager {
-  constructor(indexDB) {
-    super(indexDB, "fieldsValues");
-    this.indexDB = indexDB;
-    this.getElementsForFilePath = (filePath) => this.executeRequest(
-      (store) => new Promise((resolve2, reject) => {
-        let request;
-        const filePathIndex = store.index("filePath");
-        request = filePathIndex.getAll(filePath);
-        request.onerror = () => reject(request.error);
-        request.onsuccess = () => resolve2(request.result);
-      })
-    );
-    this.getElementsForType = (type) => this.executeRequest(
-      (store) => new Promise((resolve2, reject) => {
-        let request;
-        const filePathIndex = store.index("fieldType");
-        request = filePathIndex.getAll(type);
-        request.onerror = () => reject(request.error);
-        request.onsuccess = () => resolve2(request.result);
-      })
-    );
-    this.getElementForIndexedPath = (file, indexedPath) => {
-      if (indexedPath === void 0)
-        (0, import_path.resolve)();
-      const key = `${file.path}____${indexedPath}`;
-      return this.getElement(key);
-    };
-    this.updateItemsAfterFileRename = (oldPath, filePath) => this.executeRequest(
-      (store) => new Promise((resolve2, reject) => {
-        let request;
-        const filePathIndex = store.index("filePath");
-        request = filePathIndex.getAll(oldPath);
-        request.onerror = () => reject(request.error);
-        request.onsuccess = () => {
-          for (const iEF of request.result) {
-            iEF.id = iEF.id.replace(oldPath, filePath);
-            iEF.filePath = filePath;
-            const serialized = JSON.parse(JSON.stringify(iEF));
-            const updateRequest = store.put(serialized);
-            updateRequest.onsuccess = () => resolve2();
-          }
-        };
-      })
-    );
-    this.bulkRemoveElementsForFile = (filePath) => this.executeRequest(
-      (store) => new Promise((resolve2, reject) => {
-        let request;
-        const filePathIndex = store.index("filePath");
-        request = filePathIndex.getAll(filePath);
-        request.onerror = () => reject(request.error);
-        request.onsuccess = () => {
-          for (const iEF of request.result) {
-            const delRequest = store.delete(iEF.id);
-            delRequest.onsuccess = () => resolve2();
-          }
-        };
-      })
-    );
-    this.cleanUnindexedFiles = (plugin) => this.executeRequest(
-      (store) => new Promise((resolve2, reject) => {
-        let request;
-        const indexedFilesPaths = plugin.fieldIndex.indexableFiles().map((f) => f.path);
-        request = store.getAll();
-        request.onerror = () => {
-          reject(request.error);
-        };
-        request.onsuccess = () => {
-          const deleted = [];
-          const toDelete = request.result.filter((iEF) => iEF.filePath);
-          for (const iEF of toDelete) {
-            if (!indexedFilesPaths.includes(iEF.filePath)) {
-              deleted.push(iEF);
-              const delRequest = store.delete(iEF.id);
-              delRequest.onsuccess = () => {
-              };
-            }
-          }
-          resolve2(deleted);
-        };
-      })
-    );
-  }
-};
-
-// src/db/stores/updates.ts
-var UpdatesStore = class extends StoreManager {
-  constructor(indexDB) {
-    super(indexDB, "updates");
-    this.indexDB = indexDB;
-    this.update = (id) => this.executeRequest(
-      (store) => new Promise((resolve2, reject) => {
-        let request;
-        request = store.get(1);
-        request.onerror = () => reject(request.error);
-        request.onsuccess = () => {
-          const serialized = JSON.parse(JSON.stringify({ id, value: Date.now() }));
-          const updateRequest = store.put(serialized);
-          updateRequest.onsuccess = () => resolve2(request.result);
-        };
-      })
-    );
-  }
-};
-
-// src/db/DatabaseManager.ts
-var INDEXES = {
-  updates: [],
-  fieldsValues: [
-    { name: "filePath", fields: "filePath", unique: false },
-    { name: "fieldType", fields: "fieldType", unique: false }
-  ],
-  fileFieldsDefinition: []
-};
-var IndexDatabase = class extends import_obsidian72.Component {
-  constructor(plugin) {
-    super();
-    this.plugin = plugin;
-    this.init();
-    this.buildStores();
-  }
-  onload() {
-  }
-  init() {
-    DEBUG && console.log("create or open db");
-    this.name = `metadata_menu_${this.plugin.app.appId || this.plugin.app.vault.adapter.basePath || this.plugin.app.vault.getName()}`;
-    if (!this.name)
-      return;
-    const request = indexedDB.open(this.name, 1);
-    request.onerror = (err) => {
-      console.error(`IndexedDB error: ${request.error}`, err);
-    };
-    request.onsuccess = () => {
-      const db = request.result;
-      this.plugin.app.workspace.trigger("metadata-menu:db-ready");
-    };
-    request.onupgradeneeded = () => {
-      const db = request.result;
-      Object.keys(INDEXES).forEach((storeName) => {
-        const storeIndexes = INDEXES[storeName];
-        const store = db.createObjectStore(storeName, { keyPath: "id" });
-        const indexes = [{ name: "id", fields: "id", unique: true }, ...storeIndexes];
-        indexes.forEach((index) => store.createIndex(index.name, index.fields, { unique: index.unique }));
-      });
-      this.plugin.app.workspace.trigger("metadata-menu:db-ready");
-    };
-  }
-  buildStores() {
-    this.updates = this.addChild(new UpdatesStore(this));
-    this.fieldsValues = this.addChild(new FieldsValuesStore(this));
-  }
-  onunload() {
-  }
-};
-
 // src/options/updateProps.ts
-var import_obsidian73 = require("obsidian");
+var import_obsidian77 = require("obsidian");
 var updateProps = async (plugin, view) => {
-  if (!(view instanceof import_obsidian73.MarkdownView) || !(view.file instanceof import_obsidian73.TFile) || view.file === void 0)
+  if (!(view instanceof import_obsidian77.MarkdownView) || !(view.file instanceof import_obsidian77.TFile) || view.file === void 0)
     return;
   const file = view.file;
   const optionsList = new OptionsList(plugin, file, "ManageAtCursorCommand");
@@ -23745,16 +24686,17 @@ var updateProps = async (plugin, view) => {
     const node = note.getNodeForIndexedPath(pseudoField.id);
     if (!node)
       return;
-    const buttons = item.containerEl.findAll(".property-metadata-menu");
-    buttons.forEach((button) => item.containerEl.removeChild(button));
+    const buttonsContainers = item.containerEl.findAll(".field-btn-container");
+    buttonsContainers.forEach((container) => item.containerEl.removeChild(container));
     if (plugin.settings.enableProperties) {
-      const btnContainer = new import_obsidian73.ButtonComponent(item.containerEl);
-      btnContainer.setIcon(FieldIcon[pseudoField.type]);
-      btnContainer.setClass("property-metadata-menu");
-      btnContainer.onClick(() => {
+      const btnContainer = item.containerEl.createDiv({ cls: "field-btn-container" });
+      const btn = new import_obsidian77.ButtonComponent(btnContainer);
+      btn.setIcon(FieldIcon[pseudoField.type]);
+      btn.setClass("property-metadata-menu");
+      btn.onClick(() => {
         optionsList ? optionsList.createAndOpenFieldModal(node) : null;
       });
-      item.containerEl.insertBefore(btnContainer.buttonEl, item.valueEl);
+      item.containerEl.insertBefore(btnContainer, item.valueEl);
     }
   });
   const actionContainer = view.metadataEditor.contentEl.find(".action-container") || view.metadataEditor.contentEl.createDiv({ cls: "action-container" });
@@ -23766,9 +24708,9 @@ var updateProps = async (plugin, view) => {
     return;
   const fileClasses = plugin.fieldIndex.filesFileClasses.get(file.path);
   fileClasses == null ? void 0 : fileClasses.forEach((fileClass) => {
-    const addFieldButton = new import_obsidian73.ButtonComponent(fileClassButtonsContainer);
+    const addFieldButton = new import_obsidian77.ButtonComponent(fileClassButtonsContainer);
     addFieldButton.setClass("add-field-button");
-    addFieldButton.setIcon(fileClass.getIcon() || "gear");
+    addFieldButton.setIcon(fileClass.getIcon());
     addFieldButton.onClick(() => new InsertFieldSuggestModal(plugin, file, -1, false, false).open());
   });
   actionContainer.appendChild(fileClassButtonsContainer);
@@ -23779,7 +24721,7 @@ async function updatePropertiesSection(plugin) {
   for (const leaf of leaves) {
     updateProps(plugin, leaf.view);
   }
-  const currentView = plugin.app.workspace.getActiveViewOfType(import_obsidian73.MarkdownView);
+  const currentView = plugin.app.workspace.getActiveViewOfType(import_obsidian77.MarkdownView);
   if (currentView && currentView.file) {
     const file = currentView.file;
     const note = new Note(plugin, file);
@@ -23801,8 +24743,8 @@ async function updatePropertiesSection(plugin) {
 }
 
 // src/fileClass/fileClassFolderButton.ts
-var import_obsidian74 = require("obsidian");
-var FileClassFolderButton = class extends import_obsidian74.Component {
+var import_obsidian78 = require("obsidian");
+var FileClassFolderButton = class extends import_obsidian78.Component {
   constructor(plugin) {
     super();
     this.plugin = plugin;
@@ -23830,20 +24772,323 @@ var FileClassFolderButton = class extends import_obsidian74.Component {
     if (!fCFolder)
       return;
     const container = fCFolder.selfEl;
-    const existingButtons = explorerView.containerEl.findAll(".fileClass-add-button");
+    const existingButtons = container.findAll(".fileClass-add-button");
     for (const btn of existingButtons)
       container.removeChild(btn);
-    const addBtn = container.createDiv({ cls: "fileClass-add-button" });
-    (0, import_obsidian74.setIcon)(addBtn, "plus-circle");
-    addBtn.onclick = (e) => {
-      e.preventDefault();
-      new AddNewFileClassModal(this.plugin).open();
+    if (!container.findAll(".fileClass-add-button").length) {
+      const addBtn = container.createDiv({ cls: "fileClass-add-button" });
+      (0, import_obsidian78.setIcon)(addBtn, "plus-circle");
+      addBtn.onclick = (e) => {
+        e.preventDefault();
+        new AddNewFileClassModal(this.plugin).open();
+      };
+    }
+  }
+  static removeBtn(plugin) {
+    var _a, _b, _c;
+    const fCFolderPath = (_a = plugin.settings.classFilesPath) == null ? void 0 : _a.replace(/\/$/, "");
+    const explorerView = (_c = (_b = plugin.app.workspace.getLeavesOfType("file-explorer")) == null ? void 0 : _b[0]) == null ? void 0 : _c.view;
+    if (!explorerView || !fCFolderPath)
+      return;
+    const fCFolder = explorerView.fileItems[fCFolderPath];
+    if (!fCFolder)
+      return;
+    const container = fCFolder.selfEl;
+    const existingButtons = container.findAll(".fileClass-add-button");
+    for (const btn of existingButtons)
+      container.removeChild(btn);
+  }
+};
+
+// src/db/DatabaseManager.ts
+var import_obsidian80 = require("obsidian");
+
+// src/db/StoreManager.ts
+var import_obsidian79 = require("obsidian");
+var StoreManager = class extends import_obsidian79.Component {
+  constructor(indexDB, storeName) {
+    super();
+    this.indexDB = indexDB;
+    this.storeName = storeName;
+    this.executeRequest = (func) => {
+      const open = indexedDB.open(this.indexDB.name);
+      return new Promise(async (resolve, reject) => {
+        open.onsuccess = () => {
+          const db = open.result;
+          if ([...db.objectStoreNames].find((name) => name === this.storeName)) {
+            const transaction = db.transaction(this.storeName, "readwrite");
+            const store = transaction.objectStore(this.storeName);
+            resolve(func(store));
+          } else {
+            DEBUG && console.error("store not found");
+            reject();
+          }
+        };
+        open.onerror = () => {
+          DEBUG && console.error("unable to open db");
+          reject();
+        };
+      });
     };
+    this.getElement = (key) => this.executeRequest(
+      (store) => new Promise((resolve, reject) => {
+        let request;
+        if (key === "all")
+          request = store.getAll();
+        else
+          request = store.get(key);
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => resolve(request.result);
+      })
+    );
+    this.editElement = (key, payload) => this.executeRequest(
+      (store) => new Promise((resolve, reject) => {
+        let request;
+        if (key === "all")
+          request = store.getAll();
+        else
+          request = store.get(key);
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => {
+          const serialized = JSON.parse(JSON.stringify(payload));
+          const updateRequest = store.put(serialized);
+          updateRequest.onsuccess = () => resolve(request.result);
+        };
+      })
+    );
+    this.bulkEditElements = (payload) => this.executeRequest(
+      (store) => new Promise((resolve, reject) => {
+        let request;
+        if (payload.length) {
+          payload.forEach((item) => {
+            request = store.get(item.id);
+            request.onerror = () => {
+              DEBUG && console.log("error on getting ", item.id);
+              reject(request.error);
+            };
+            request.onsuccess = () => {
+              const serialized = JSON.parse(JSON.stringify(item));
+              const updateRequest = store.put(serialized);
+              updateRequest.onsuccess = () => resolve(request.result);
+            };
+          });
+        } else {
+          resolve();
+        }
+      })
+    );
+    this.removeElement = (key) => this.executeRequest(
+      (store) => new Promise((resolve, reject) => {
+        let request;
+        if (key === "all")
+          request = store.clear();
+        else
+          request = store.delete(key);
+        request.onerror = () => reject(request.error);
+        request.onsuccess = () => resolve();
+      })
+    );
+    this.bulkRemoveElements = (keys) => this.executeRequest(
+      (store) => new Promise((resolve, reject) => {
+        let request;
+        if (keys.length) {
+          keys.forEach((key) => {
+            request = store.get(key);
+            request.onerror = () => reject(request.error);
+            request.onsuccess = () => {
+              const delRequest = store.delete(key);
+              delRequest.onsuccess = () => resolve();
+            };
+          });
+        } else {
+          resolve();
+        }
+      })
+    );
+  }
+};
+
+// src/db/stores/fileClassViews.ts
+var FileClassViewStore = class extends StoreManager {
+  constructor(indexDB) {
+    super(indexDB, "fileClassView");
+    this.indexDB = indexDB;
+  }
+};
+
+// src/db/DatabaseManager.ts
+var INDEXES = {
+  fileClassView: [
+    { name: "fileClassView", fields: "fileClassName", unique: true }
+  ]
+};
+var IndexDatabase = class extends import_obsidian80.Component {
+  constructor(plugin) {
+    super();
+    this.plugin = plugin;
+    this.init();
+    this.buildStores();
+  }
+  onload() {
+  }
+  init() {
+    DEBUG && console.log("create or open db");
+    this.name = `metadata_menu_${this.plugin.app.appId || this.plugin.app.vault.adapter.basePath || this.plugin.app.vault.getName()}`;
+    if (!this.name)
+      return;
+    const request = indexedDB.open(this.name, 2);
+    request.onerror = (err) => {
+      console.error(`IndexedDB error: ${request.error}`, err);
+    };
+    request.onsuccess = () => {
+      const db = request.result;
+    };
+    request.onupgradeneeded = () => {
+      const db = request.result;
+      Object.keys(INDEXES).forEach((storeName) => {
+        const storeIndexes = INDEXES[storeName];
+        const store = db.createObjectStore(storeName, { keyPath: "id" });
+        const indexes = [{ name: "id", fields: "id", unique: true }, ...storeIndexes];
+        indexes.forEach((index) => store.createIndex(index.name, index.fields, { unique: index.unique }));
+      });
+    };
+  }
+  buildStores() {
+    this.fileClassViews = this.addChild(new FileClassViewStore(this));
+  }
+  onunload() {
+  }
+};
+
+// src/components/FileClassCodeBlockManager.ts
+var import_obsidian81 = require("obsidian");
+
+// src/fileClass/views/fileClassCodeBlockView.ts
+var FileClassCodeBlockView = class {
+  constructor(manager, tableId, fileClass, paginationContainer, tableContainer, selectedView, ctx, children = []) {
+    this.manager = manager;
+    this.tableId = tableId;
+    this.fileClass = fileClass;
+    this.paginationContainer = paginationContainer;
+    this.tableContainer = tableContainer;
+    this.selectedView = selectedView;
+    this.ctx = ctx;
+    this.children = children;
+    this.plugin = this.manager.plugin;
+    this.viewConfiguration = this.getViewConfig();
+    this.fileClassDataviewTable = new FileClassDataviewTable(this.viewConfiguration, this, fileClass);
+  }
+  getViewConfig() {
+    var _a, _b;
+    const options2 = this.fileClass.getFileClassOptions();
+    const columns = [{
+      id: "file",
+      name: "file",
+      hidden: false,
+      position: 0
+    }];
+    const fields = ((_a = this.plugin.fieldIndex.fileClassesFields.get(this.fileClass.name)) == null ? void 0 : _a.filter((f) => f.isRoot())) || [];
+    for (const [_index, f] of fields.entries()) {
+      columns.push({
+        id: `${this.fileClass.name}____${f.name}`,
+        name: f.name,
+        hidden: false,
+        position: _index + 1
+      });
+    }
+    const defaultConfig = {
+      children: [],
+      filters: [],
+      sorters: [],
+      columns
+    };
+    const partialViewConfig = ((_b = options2.savedViews) == null ? void 0 : _b.find((view) => view.name === this.selectedView)) || defaultConfig;
+    return {
+      children: partialViewConfig.children || [],
+      filters: partialViewConfig.filters,
+      sorters: partialViewConfig.sorters,
+      columns: partialViewConfig.columns
+    };
+  }
+  update(maxRows, sliceStart = 0) {
+    this.fileClassDataviewTable = new FileClassDataviewTable(
+      this.viewConfiguration,
+      this,
+      this.fileClass,
+      maxRows,
+      sliceStart,
+      this.ctx
+    );
+    this.fileClassDataviewTable.buildTable(this.tableContainer);
+    this.fileClassDataviewTable.buildPaginationManager(this.paginationContainer);
+  }
+};
+
+// src/components/FileClassCodeBlockManager.ts
+var FileClassCodeBlockManager = class extends import_obsidian81.MarkdownRenderChild {
+  constructor(plugin, containerEl, source, ctx) {
+    super(containerEl);
+    this.plugin = plugin;
+    this.containerEl = containerEl;
+    this.source = source;
+    this.ctx = ctx;
+    this.isLoaded = false;
+    this.showAddField = false;
+  }
+  build() {
+    var _a;
+    const el = this.containerEl;
+    const source = this.source;
+    el.replaceChildren();
+    el.addClass("metadata-menu");
+    el.addClass("fileclass-codeblock-view");
+    const container = el.createDiv({ cls: "fv-table" });
+    const header = container.createDiv({ cls: "options" });
+    const paginationContainer = header.createDiv({ cls: "pagination" });
+    this.tableId = `table-container-${Math.floor(Date.now())}`;
+    const tableContainer = container.createDiv({ attr: { id: this.tableId } });
+    container.createDiv();
+    try {
+      const content = (0, import_obsidian81.parseYaml)(source);
+      const fileClassName = content[this.plugin.settings.fileClassAlias];
+      const selectedView = (_a = content.view) == null ? void 0 : _a.toString();
+      this.fileClass = this.plugin.fieldIndex.fileClassesName.get(fileClassName);
+      if (this.fileClass) {
+        this.itemsPerPage = content["files per page"] || this.fileClass.options.limit || this.plugin.settings.tableViewMaxRecords;
+        this.startAtItem = content["start"] || 0;
+        this.showAddField = content["showAddField"] === true || false;
+        this.fileClassCodeBlockView = new FileClassCodeBlockView(this, this.tableId, this.fileClass, paginationContainer, tableContainer, selectedView, this.ctx);
+        this.fileClassCodeBlockView.fileClassDataviewTable.limit = this.itemsPerPage;
+        this.plugin.registerMarkdownPostProcessor((el2, ctx) => {
+          this.fileClassCodeBlockView.fileClassDataviewTable.buidFileClassViewBtn();
+        });
+        this.fileClassCodeBlockView.update(this.itemsPerPage, this.startAtItem);
+        this.isLoaded = true;
+      } else {
+        el.setText(`${fileClassName} isn't a proper fileclass`);
+      }
+    } catch (e) {
+      el.setText(e);
+    }
+  }
+  onload() {
+    this.build();
+  }
+  onunload() {
+    this.plugin.codeBlockListManager.removeChild(this);
+  }
+};
+
+// src/components/FileClassCodeBlockListManager.ts
+var import_obsidian82 = require("obsidian");
+var FileClassCodeBlockListManager = class extends import_obsidian82.Component {
+  constructor(plugin) {
+    super();
   }
 };
 
 // main.ts
-var MetadataMenu = class extends import_obsidian75.Plugin {
+var MetadataMenu = class extends import_obsidian83.Plugin {
   constructor() {
     super(...arguments);
     this.presetFields = [];
@@ -23858,7 +25103,7 @@ var MetadataMenu = class extends import_obsidian75.Plugin {
     (window["MetadataMenu"] = this) && this.register(() => delete window["MetadataMenu"]);
     if (!this.app.plugins.enabledPlugins.has("dataview") || //@ts-ignore
     this.app.plugins.plugins["dataview"] && !this.app.plugins.plugins["dataview"].settings.enableDataviewJs) {
-      new import_obsidian75.Notice(
+      new import_obsidian83.Notice(
         `------------------------------------------
 (!) INFO (!) 
 Install and enable dataview and dataviewJS for extra Metadata Menu features
@@ -23871,6 +25116,7 @@ Install and enable dataview and dataviewJS for extra Metadata Menu features
     this.indexStatus = this.addChild(new IndexStatus(this));
     if (this.settings.showIndexingStatusInStatusBar)
       this.indexStatus.load();
+    this.codeBlockListManager = this.addChild(new FileClassCodeBlockListManager(this));
     this.fieldIndex = this.addChild(new FieldIndex(this));
     this.contextMenu = this.addChild(new ContextMenu(this));
     this.settings.presetFields.forEach((prop) => {
@@ -23884,38 +25130,52 @@ Install and enable dataview and dataviewJS for extra Metadata Menu features
       this.initialFileClassQueries.push(fileClassQuery);
     });
     this.addSettingTab(new MetadataMenuSettingTab(this));
-    this.registerEditorSuggest(new ValueSuggest(this));
     this.api = new MetadataMenuApi(this).make();
+    this.registerEvent(
+      this.app.vault.on("create", (file) => {
+        if (!this.fieldIndex.fileClassesName.size)
+          return;
+        if (file instanceof import_obsidian83.TFile && this.settings.chooseFileClassAtFileCreation) {
+          const modal = new AddFileClassToFileModal(this, file);
+          modal.open();
+        }
+      })
+    );
     this.registerEvent(
       this.app.workspace.on("active-leaf-change", (leaf) => {
         if (leaf)
           this.indexStatus.checkForUpdate(leaf.view);
-        addCommands(this);
       })
     );
     this.registerEvent(
       this.app.workspace.on("metadata-menu:indexed", () => {
         this.indexStatus.setState("indexed");
-        const currentView = this.app.workspace.getActiveViewOfType(import_obsidian75.MarkdownView);
+        const currentView = this.app.workspace.getActiveViewOfType(import_obsidian83.MarkdownView);
         if (currentView)
           this.indexStatus.checkForUpdate(currentView);
         updatePropertiesSection(this);
-        addCommands(this);
+        FileClassViewManager.reloadViews(this);
       })
     );
     this.registerEvent(
       this.app.workspace.on("file-open", (file) => {
         updatePropertiesSection(this);
-        addCommands(this);
       })
     );
-    this.registerEvent(this.app.workspace.on("metadata-menu:filter-changed", (0, import_obsidian75.debounce)((fieldSet) => console.log(fieldSet.tableView), 1e3, true)));
     this.indexDB = this.addChild(new IndexDatabase(this));
-    await this.fieldIndex.fullIndex(true);
+    await this.fieldIndex.fullIndex();
     this.extraButton = this.addChild(new ExtraButton(this));
-    this.addChild(new FileClassFolderButton(this));
+    if (this.settings.enableFileExplorer)
+      this.addChild(new FileClassFolderButton(this));
+    this.registerEditorSuggest(new ValueSuggest(this));
     this.launched = true;
     addCommands(this);
+    this.registerMarkdownCodeBlockProcessor("mdm", async (source, el, ctx) => {
+      const fileClassCodeBlockManager = new FileClassCodeBlockManager(this, el, source, ctx);
+      this.codeBlockListManager.addChild(fileClassCodeBlockManager);
+      ctx.addChild(fileClassCodeBlockManager);
+    });
+    this.app.workspace.trigger("layout-change");
   }
   /*
   ------------
@@ -23932,9 +25192,10 @@ Install and enable dataview and dataviewJS for extra Metadata Menu features
     });
     this.settings.fileClassQueries = this.initialFileClassQueries;
     await this.saveData(this.settings);
-    await this.fieldIndex.fullIndex(true);
+    await this.fieldIndex.fullIndex();
   }
   onunload() {
     console.log("x------ Metadata Menu unloaded ------x");
+    FileClassFolderButton.removeBtn(this);
   }
 };

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-11-12T12:54
-updated: 2023-11-12T12:55
+updated: 2023-12-29T09:51
 ---
 
 F+G+%C2%BB+T%C3%80I+CH%C3%8DNH+C%C3%81+NH%C3%82N+%26+T%E1%BB%B0+DO+T%C3%80I+CH%C3%8DNH
@@ -155,3 +155,4 @@ https://www.facebook.com/quacau.sphere/posts/pfbid072iAT8Y3zdAP5L7VGiHkmxjxQfPap
 ---
 [[10-11]] Đăng trên [[Dạy Nhau Học]] 
 [[10-11]] Đăng trên [[Tự học Data]] 
+[[29-11]] Đăng trên [[TÀI CHÍNH CÁ NHÂN & TỰ DO TÀI CHÍNH]] 

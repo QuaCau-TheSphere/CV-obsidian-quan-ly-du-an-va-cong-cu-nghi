@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-12T15:00
+updated: 2023-12-30T21:13
 aliases:
   - Phát triển Trấn Kỳ
   - Chiến lược phát triển Trấn Kỳ
@@ -10,7 +10,7 @@ aliases:
 cssClass: wide-table
 alias: Khái niệm
 ---
-Thành quả cần có:: [[Lợi nhuận mỗi tuần 10tr]]
+Thành quả cần có:: [[Lợi nhuận mỗi tuần 4tr]]
 
 - Mỗi tháng làm việc hiệu quả cho một bên
 
@@ -47,7 +47,7 @@ Mỗi tuần có 20 người trả tiền
 
 | Thành quả mong muốn                                    | Giả thiết                                                                             | Công việc                                                                                                              |
 | ------------------------------------------------------ | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------- |
-| [[Lợi nhuận mỗi tuần 10tr]]                            | Cứ 20 engaged session ở trang lấy code thì có 500k                                    | [[Kế hoạch phát triển Trấn Kỳ\|Phát triển Trấn Kỳ]]                                                                    |
+| [[Lợi nhuận mỗi tuần 4tr]]                             | Cứ 20 engaged session ở trang lấy code thì có 500k                                    | [[Kế hoạch phát triển Trấn Kỳ\|Phát triển Trấn Kỳ]]                                                                    |
 | Mỗi tuần có 400 engaged session ở trang lấy code       | Cứ 10 engaged session ở trang giới thiệu TK thì có 1 engaged session ở trang lấy code |                                                                                                                        |
 | [[Mỗi tuần có 300 người vào trang giới thiệu Trấn Kỳ]] | [[Cứ 13 reach thì có 1 link click]]                                                   | [[Truyền thông\|Đăng bài truyền thông]]                                                                                |
 | [[Mỗi tuần tiếp cận được 4000 người]]                  | Cứ 1 người chia sẻ TK thì tiếp cận được 100 người                                     | [[Truyền thông\|Đăng bài truyền thông]]                                                                                |
@@ -60,7 +60,7 @@ Mỗi tuần có 20 người trả tiền
 
 | Thành quả mong muốn           | Giả thiết                       | Công việc                                                                                                                                                                                                                            |
 | ----------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [[Lợi nhuận mỗi tuần 10tr]]   | [[Cứ 20 người học thì có 500k]] | [[Kế hoạch phát triển Trấn Kỳ\|Phát triển Trấn Kỳ]]                                                                                                                                                                                  |
+| [[Lợi nhuận mỗi tuần 4tr]]   | [[Cứ 20 người học thì có 500k]] | [[Kế hoạch phát triển Trấn Kỳ\|Phát triển Trấn Kỳ]]                                                                                                                                                                                  |
 | [[Mỗi tuần có 450 người học]] |                                 | [[📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Kế hoạch/Kế hoạch\|Tổ chức các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình]] |
 
 

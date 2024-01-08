@@ -1,9 +1,0 @@
-{
-  "folderNoteHide": true,
-  "folderNoteType": "inside",
-  "folderNoteName": "_about_",
-  "folderNoteKey": "ctrl",
-  "folderNoteAutoRename": true,
-  "folderDelete2Note": false,
-  "folderNoteStrInit": "---\nshare: true\n---\n\n```dataview\nLIST rows.file.link\nFROM \"{{FOLDER_NAME}}\" \nWHERE file.name!=this.file.name\nGROUP BY split(file.folder, \"/\")[2]\n```"
-}

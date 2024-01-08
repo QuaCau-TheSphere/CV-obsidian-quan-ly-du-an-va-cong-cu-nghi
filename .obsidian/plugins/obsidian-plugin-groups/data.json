@@ -1,5 +1,81 @@
 {
-  "groups": [],
+  "groups": [
+    {
+      "loadAtStartup": true,
+      "disableOnStartup": false,
+      "delay": 2,
+      "id": "pgessential",
+      "name": "Essential",
+      "plugins": [
+        {
+          "id": "advanced-toolbar",
+          "name": "Advanced Mobile Toolbar"
+        },
+        {
+          "id": "table-editor-obsidian",
+          "name": "Advanced Tables"
+        },
+        {
+          "id": "alx-folder-note",
+          "name": "AidenLx's Folder Note"
+        },
+        {
+          "id": "obsidian-another-quick-switcher",
+          "name": "Another Quick Switcher"
+        },
+        {
+          "id": "obsidian-auto-link-title",
+          "name": "Auto Link Title"
+        },
+        {
+          "id": "better-inline-fields",
+          "name": "Better Inline Fields"
+        },
+        {
+          "id": "obsidian-editor-shortcuts",
+          "name": "Code Editor Shortcuts"
+        },
+        {
+          "id": "dataview",
+          "name": "Dataview"
+        },
+        {
+          "id": "obsidian-front-matter-title-plugin",
+          "name": "Front Matter Title"
+        },
+        {
+          "id": "folder-note-plugin",
+          "name": "Folder Note"
+        },
+        {
+          "id": "folder-note-core",
+          "name": "Folder Note Core"
+        },
+        {
+          "id": "mrj-jump-to-link",
+          "name": "Jump to link"
+        },
+        {
+          "id": "nldates-obsidian",
+          "name": "Natural Language Dates"
+        },
+        {
+          "id": "quick-explorer",
+          "name": "Quick Explorer"
+        },
+        {
+          "id": "templater-obsidian",
+          "name": "Templater"
+        },
+        {
+          "id": "various-complements",
+          "name": "Various Complements"
+        }
+      ],
+      "groupIds": [],
+      "generateCommands": false
+    }
+  ],
   "generateCommands": true,
   "showNoticeOnGroupLoad": "none",
   "devLogs": false,

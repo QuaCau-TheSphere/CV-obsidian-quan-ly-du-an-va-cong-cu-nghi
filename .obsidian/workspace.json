@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f64c246d4147873c",
+            "id": "70c0f5122a4398b1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Hỏi những người có kinh nghiệm trong lĩnh vực tài chính hoặc công tác xã hội.md",
+                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Khoa học dữ liệu/4 cấp độ phân tích dữ liệu – mô tả hiện tượng, lý giải nguyên nhân, dự đoán kết quả, đề xuất hành động.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "4ad944b0089fc47e",
+            "id": "dae8151d978ea7cf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Công việc/Thời gian làm việc/Cây quyết định và PERT dành cho những dự án chủ yếu gồm các công việc khai thác.md",
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Kế hoạch/Kế hoạch.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "680e56c6b9e34332",
+            "id": "6144151543cbea7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Nguồn/Môi trường nghĩ, nhận thức tăng cường/Maggie Appleton.md",
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -47,25 +47,12 @@
             }
           },
           {
-            "id": "8080c7d72aae1070",
+            "id": "5f840293e7fde896",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Nguồn/Môi trường nghĩ, nhận thức tăng cường/Maggie Appleton.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "8276a1dd47dadc30",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📜 Tài nguyên/Cộng đồng, hệ sinh thái/Đóng góp vào Wikipedia.md",
+                "file": "📐 Dự án/Trấn Kỳ/9 Blog/Hỏi đáp về việc bán Trấn Kỳ.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -73,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -139,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Nguồn/Môi trường nghĩ, nhận thức tăng cường/Maggie Appleton.md",
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Nguồn/Môi trường nghĩ, nhận thức tăng cường/Maggie Appleton.md",
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Nguồn/Môi trường nghĩ, nhận thức tăng cường/Maggie Appleton.md"
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình.md"
               }
             }
           }
@@ -187,8 +174,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -198,59 +184,59 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "templater-obsidian:Templater": false,
+      "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian42-brat:BRAT": false,
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "8080c7d72aae1070",
+  "active": "6144151543cbea7c",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Việc trung tâm hoá đáp ứng economy of scale.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Việc trung tâm hoá việc lưu trữ dữ liệu trên máy chủ sẽ lấy đi autonomy và agency của người dùng cuối.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Việc hợp tác làm việc thời gian thực với dữ liệu được lưu ở local là một bài toán khó.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Việc lưu trữ dữ liệu tại máy cá nhân sẽ giúp người dùng quen thuộc hơn với việc lập trình.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/The assumption of centralization is deeply ingrained in our user experiences today, and we are only beginning to discover the consequences of changing that assumption.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Sự kiện là một sự thay đổi về trạng thái.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Sự kiện chỉ thông báo về sự thay đổi chứ không kỳ vọng một chương trình phản ứng với nó.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Sơ đồ kết nối.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Real-time collaboration isn't necessary in most cases, but asynchronous collaboration.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Máy không mệt khi phát sự kiện cũng như lắng nghe sự kiện.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Hợp tác thời gian thực không thực sự cần thiết trong đa số trường hợp. Đa số đều là hợp tác phi đồng bộ.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Groupware requires careful implementation into a group setting, and product developers have not as yet been able to find the most optimal way to introduce such systems into organizational environments.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Groupware giúp cho việc cộng tác trong nhóm và giao tiếp giữa các thành viên trong nhóm. ERP giúp cho việc quản lý toàn diện các hoạt động của doanh nghiệp.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Git mở ra nhiều khả thể trong việc hợp tác.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Git giúp ta du hành thời gian.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Cấu trúc kỹ thuật của sản phẩm phản ánh giới hạn xã hội của tổ chức tạo ra nó.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Các sản phẩm no code đang trở thành xu hướng.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Các nhóm làm việc qua mạng ngày càng nhiều.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/CRM tập trung vào tăng sale, ERP tập trung vào cắt giảm chi phí.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc/Bạn có quyền chỉnh sửa dữ liệu của mình dưới bất kỳ hình thức nào.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Cơ sở dữ liệu/❓Tại sao không cho người chưa biết gì  về công nghệ thông tin bắt đầu bằng việc học cơ sở dữ liệu trước thay vì học lập trình？.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Cơ sở dữ liệu/Ứng dụng quản lý là một dạng giao diện giữa người dùng và cơ sở dữ liệu.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Cơ sở dữ liệu/Đảo thông tin khiến cho những thao tác tự động hoá đơn giản không thể làm được.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Cơ sở dữ liệu/Việc quản lý công việc thường cần một cấu trúc.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Cơ sở dữ liệu/Việc lưu dữ liệu ở các công cụ khác nhau tạo thành các đảo thông tin.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Cơ sở dữ liệu/Khó có thể copy dữ liệu dạng block giữa các app khác nhau.md",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Hợp tác làm việc",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin/Cơ sở dữ liệu",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Hệ thống thông tin",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Quản lý dữ liệu/Hợp tác làm việc",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Quản lý dữ liệu/Cơ sở dữ liệu",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Quản lý dữ liệu",
-    "⚡Hiểu biết sâu/Khoa học máy tính/Cấu trúc dữ liệu",
-    "📜 Tài nguyên/Thủ thuật phần mềm/~syncthing~Untitled.sync-conflict-20231214-113649-LDHXXXZ.md.tmp",
-    "📜 Tài nguyên/Cộng đồng, hệ sinh thái",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Công việc/Thời gian làm việc/~syncthing~Cây quyết định và PERT dành cho những dự án chủ yếu gồm các công việc khai thác.md.tmp",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả/❓Miễn phí, trả tuỳ tâm, tự định giá sức lao động.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Quy trình xử lý dữ liệu cho PKM và phát triển sản phẩm là giống nhau, nhưng từ dữ liệu ra insight rồi làm gì với insight đó là khác nhau.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Insight trong phát triển sản phẩm gắn liền với việc thay đổi hành vi người dùng.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Idea là một cái gì đó để thử, còn insight là kết quả của sự thử.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Công việc/Insight through making.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Insight sẽ thường ra ngay lúc phỏng vấn.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Phần mềm nội bộ không cần dễ dùng và không phải kiểm thử trên nhiều môi trường khác nhau, cũng không sợ bị cạnh tranh.md",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/RapidAPI-Comics-eBook.pdf",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Các cuốn sách về phương pháp lập trình được viết bởi những người làm phần mềm nội bộ.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Kế hoạch/Kế hoạch.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Khoa học dữ liệu/4 cấp độ phân tích dữ liệu – mô tả hiện tượng, lý giải nguyên nhân, dự đoán kết quả, đề xuất hành động.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Khoa học dữ liệu/Phân tích xu hướng, NLP/Xử lý ngôn ngữ tự nhiên chính là một công cụ nghĩ.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Khoa học dữ liệu/Việc dùng học máy có thể làm ta nghĩ mô hình rất phức tạp mặc dù thực chất nó rất đơn giản.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Truyền thông/Các buổi đáp ứng nhu cầu học.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Khoa học dữ liệu/Học máy dự đoán xem mẫu hình có bao nhiêu khả năng lặp lại trong tương lai.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Đơn giản.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Việc đơn giản hoá một khái niệm phức tạp để giải thích cho một đứa trẻ hiểu làm cho bản thân người giải thích hiểu được thêm về khái niệm.md",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/Tiền đơn giản hoá quá trình đáp ứng nhu cầu.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Cơ sở dữ liệu/Đảo thông tin khiến cho những thao tác tự động hoá đơn giản không thể làm được.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Chỉ số/Chỉ theo đuổi một chỉ số là quá đơn giản.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Startup/Sự đơn giản ép ta phải làm nó cực kỳ tốt.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Các buổi hướng dẫn cào web vào Google Calendar.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với ý tưởng/Mục tiêu và câu hỏi phỏng vấn.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Hỏi đáp về việc bán Trấn Kỳ.md",
+    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Launch.md",
+    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Kênh chat/Discord QC/Discord QC.md",
+    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Nghề nghiệp",
+    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Phi lợi nhuận",
+    "Ξ Thiết lập/Ảnh/Bàn làm việc Google Calendar.png",
+    "Ξ Thiết lập/Ảnh/Bàn làm việc Google Calendar demo.png",
+    "⚡Hiểu biết sâu/Cộng đồng, hệ sinh thái, hệ phức hợp/Truyền thông, xây dựng cộng đồng/~syncthing~Cảm giác khó chịu khi bị quảng cáo quá đà.md.tmp",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Raju-Smart-Pricing.pdf",
+    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả",
+    "📐 Dự án/Công cụ cho hệ sinh thái/Thành phẩm/Kế hoạch",
+    "📐 Dự án/Công cụ cho hệ sinh thái/Thành phẩm",
+    "📐 Dự án/Công cụ cho hệ sinh thái/9 Blog",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với ý tưởng/~syncthing~Mục tiêu và câu hỏi nghiên cứu.md.tmp",
+    "Ξ Thiết lập/Ảnh/Code is run more than read.jpg",
     "Ξ Thiết lập/Ảnh/Người giàu nghĩ gì về quan điểm tiền không mua được hạnh phúc.jpg",
     "Ξ Thiết lập/Ảnh/Pasted image 20231128203124.png",
     "⚡Hiểu biết sâu/Ξ Khái niệm/Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm.png",
     "⚡Hiểu biết sâu/Ξ Khái niệm/Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (neato).png",
     "⚡Hiểu biết sâu/Ξ Khái niệm/Xây dựng dự án/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (dot).png",
     "Ξ Thiết lập/Ảnh/Pasted image 20231111155831.png",
-    "Ξ Thiết lập/Ảnh/Pasted image 20231111161912.png",
-    "Ξ Thiết lập/Ảnh/Pasted image 20231110141124.png",
-    "Ξ Thiết lập/Ảnh/Pasted image 20231109153144.png",
-    "Ξ Thiết lập/Ảnh/Trấn Kỳ/Keep to FIbery.png"
+    "Ξ Thiết lập/Ảnh/Pasted image 20231111161912.png"
   ]
 }

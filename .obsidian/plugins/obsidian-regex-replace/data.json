@@ -1,6 +1,6 @@
 {
-  "findText": "\\t",
-  "replaceText": "",
+  "findText": "\\d\\. (.*)",
+  "replaceText": "|$1| |",
   "useRegEx": true,
   "selOnly": true,
   "caseInsensitive": false,

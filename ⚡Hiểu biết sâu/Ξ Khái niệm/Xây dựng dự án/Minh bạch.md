@@ -1,14 +1,9 @@
 ---
 created: 2023-06-12T00:57
-updated: 2023-11-28T13:48
+updated: 2023-12-30T14:46
 ---
-Câu hỏi liên quan đến chủ đề này:
 ```dataview
-List from "3 Kiến thức, câu hỏi/32 Câu hỏi" where contains(chủ-đề,[[]]) 
+List 
+from "⚡Hiểu biết sâu" 
+where contains(khái-niệm,[[]]) 
 ```
-
-Chủ đề quan tâm đến chủ đề này:
-```dataview
-List from "3 Kiến thức, câu hỏi/31 Khái niệm" where contains(chủ-đề,[[]]) 
-```
- 

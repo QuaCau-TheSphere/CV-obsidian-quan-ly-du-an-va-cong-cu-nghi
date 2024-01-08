@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-10-31T17:15
-updated: 2023-11-17T17:06
+updated: 2023-12-30T22:49
 ---
-[[📐 Dự án/Trấn Kỳ/2 Giả thuyết/Giả thiết theo tiếp nhận của người đọc]]
+[[📐 Dự án/Trấn Kỳ/2 Giả thuyết/Giả thiết về tiếp nhận của người đọc]]
 [[Một số ví dụ về mục tiêu nghiên cứu]]
 
 # Tiếp nhận khi đọc Giới thiệu Trấn Kỳ
