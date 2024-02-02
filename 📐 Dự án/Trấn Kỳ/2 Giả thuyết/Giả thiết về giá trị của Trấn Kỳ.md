@@ -1,8 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-19T14:43
-alias: Giả thiết về điều người dùng nhận được từ Trấn Kỳ 
+updated: 2024-02-02T20:33
+alias:
+  - Giả thiết về điều người dùng nhận được từ Trấn Kỳ
+  - Tập khách hàng của Trấn Kỳ
 ---
 
 # Người bận rộn không có thời gian phân loại dữ liệu nhưng cần có báo cáo chi tiết

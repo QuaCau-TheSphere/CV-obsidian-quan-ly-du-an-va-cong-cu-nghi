@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-11-12T12:54
-updated: 2023-12-29T09:51
+updated: 2024-02-02T21:41
 ---
 
 F+G+%C2%BB+T%C3%80I+CH%C3%8DNH+C%C3%81+NH%C3%82N+%26+T%E1%BB%B0+DO+T%C3%80I+CH%C3%8DNH
 # [Phân loại chi tiêu bằng tiếng Việt tự nhiên](https://lậptrình.quảcầu.cc/%F0%9F%91%8Ftr%E1%BA%A5n%20k%E1%BB%B3/?utm_source=F+G+%C2%BB+Launch&utm_medium=social&utm_campaign=Tr%E1%BA%A5n+K%E1%BB%B3&utm_content=ti%C3%AAu+%C4%91%E1%BB%81) 
-Bạn có cảm thấy chán nản, mất năng lượng vì phải tốn quá nhiều thời gian để phân loại chi tiêu cũng như các loại dữ liệu khác không? Nay đã có Trấn Kỳ. Nếu bạn là người cần phân loại tất cả các chi tiêu của mình một cách rõ ràng (việc nhắm hờ mỗi tháng chi chừng bao nhiêu tiền là không đủ với bạn), và bạn cần một chương trình:
+Bạn có cảm thấy chán nản, mất năng lượng vì phải tốn quá nhiều thời gian để phân loại chi tiêu cũng như các loại dữ liệu khác không? Nếu bạn là người cần phân loại tất cả các chi tiêu của mình một cách rõ ràng (việc nhắm hờ mỗi tháng chi chừng bao nhiêu tiền là không đủ với bạn), và bạn cần một chương trình:
 
 * Là phần mềm tự do và mã nguồn mở
 * Tích hợp được vào hệ thống vận hành hiện tại của bạn: báo cáo ngân hàng, Google Keep, Google Sheet, Notion, Obsidian, Fibery, Odoo, v.v.
@@ -16,7 +16,7 @@ Bạn có cảm thấy chán nản, mất năng lượng vì phải tốn quá n
 * Không có bất cứ quảng cáo mời mọc hoặc theo dõi dữ liệu nào
 * Dùng được trên điện thoại khi không có mạng
 
-Thì chương trình này dành cho bạn.
+Thì Trấn Kỳ là dành cho bạn.
 # Tính năng
 
 ## Phân loại thông tin

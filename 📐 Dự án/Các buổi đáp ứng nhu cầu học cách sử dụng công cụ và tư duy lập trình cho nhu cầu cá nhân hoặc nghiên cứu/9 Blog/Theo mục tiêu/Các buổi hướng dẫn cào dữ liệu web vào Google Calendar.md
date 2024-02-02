@@ -1,7 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-31T14:51
+updated: 2024-02-02T16:00
+title: Cào dữ liệu web vào Google Calendar
+alias: Cào dữ liệu web vào Google Calendar
+description: Các buổi hướng dẫn cào dữ liệu web vào Google Calendar
 ---
 ![[Bàn làm việc Google Calendar.png]]
 Bộ phận HR, marketing hoặc truyền thông nội bộ của công ty bạn muốn cập nhật các sự kiện trong năm để xây dựng nội dung nhưng việc cập nhật thủ công qua từng tháng, từng năm là một công việc mất nhiều thời gian? Việc nắm bắt xu hướng thông qua việc theo dõi các các sự kiện nổi bật trên các mạng xã hội như Facebook hay Tiktok rồi ghi chú thủ công trong Excel không đủ để bạn nhìn được số liệu dễ dàng và xem được sự kiện trong  tuần hoặc trong tháng?
@@ -16,7 +19,7 @@ Quả Cầu mong muốn tìm gặp và giới thiệu cho bạn hướng khai ph
 Vậy, nếu bạn có mong muốn hiện thực hoá điều này, Quả Cầu sẽ cung cấp cho bạn cơ hội để hợp tác thực hiện thông qua việc đăng ký nhu cầu và tự định giá nhu cầu trong phiếu đăng ký dưới đây. 
 
 Về vấn đề đăng ký nhu cầu, Quả Cầu khuyến khích bạn nêu rõ lý do bạn muốn tham gia và đồng thời **thiết kế lộ trình làm việc và kết quả đầu ra** phù hợp với nhu cầu phát triển dự án cá nhân của bạn (nếu có) dựa trên gợi ý như sau:
-- Thời gian: 1 buổi (3-4 tiếng online/offline) để bạn cài đặt và hiểu công cụ + 2 tuần sau buổi đào tạo đầu tiên (hỗ trợ qua chat mỗi ngày và 2 buổi gặp mặt online/offline) để Quả Cầu trao đổi, tư vấn  với bạn trong việc ứng dụng công cụ cho dự án cá nhân. 
+- Thời gian: 1 buổi (3-4 tiếng online/offline) để bạn cài đặt và hiểu công cụ + 2 tuần sau buổi đào tạo đầu tiên (hỗ trợ qua chat mỗi ngày và 2 buổi gặp mặt online/offline) để Quả Cầu trao đổi, tư vấn với bạn trong việc ứng dụng công cụ cho dự án cá nhân. 
 - Nội dung:
 	- Hiểu về cách các sự kiện được lưu trữ trên website
 	- Cấu trúc website và ý tưởng của phương pháp lấy nội dung mình cần
@@ -27,7 +30,7 @@ Về vấn đề đăng ký nhu cầu, Quả Cầu khuyến khích bạn nêu r�
 Kết quả đầu ra ví dụ:
 ![[Bàn làm việc Google Calendar demo.png]]
 
-Về vấn đề tự định giá, Quả Cầu cho rằng **bạn nên được quyền quyết định giá trị của dịch vụ** vì đây là dự án phục vụ nhu cầu và dựa trên thiết kế lộ trình làm việc của bạn. Với nhu cầu và thiết kế đó, Quả Cầu khuyến khích bạn đề xuất giá trị của dịch vụ này với đa dạng hình thức chi trả/trao đổi nhu cầu (ví dụ: tiền hoặc các tác vụ hỗ trợ Quả Cầu theo thoả thuận).
+Về vấn đề tự định giá, Quả Cầu cho rằng **bạn nên được quyền quyết định giá trị của buổi hướng dẫn** vì đây là dự án phục vụ nhu cầu và dựa trên thiết kế lộ trình làm việc của bạn. Với nhu cầu và thiết kế đó, Quả Cầu khuyến khích bạn đề xuất giá trị của buổi hướng dẫn này với đa dạng hình thức chi trả/trao đổi nhu cầu (ví dụ: tiền hoặc các tác vụ hỗ trợ Quả Cầu theo thoả thuận).
 
 Sau khi xem xét các đăng ký, Quả Cầu sẽ lựa chọn để trao đổi và hợp tác với những nhu cầu phù hợp.
 
@@ -43,4 +46,4 @@ Thông tin liên hệ:
 
 Rất mong được đồng hành cùng bạn.
 
-[[Giả thiết về tiếp nhận của người đọc bài về Google Calendar]]
+[[Giả thiết về tiếp nhận của người đọc bài giới thiệu buổi hướng dẫn cụ thể]]

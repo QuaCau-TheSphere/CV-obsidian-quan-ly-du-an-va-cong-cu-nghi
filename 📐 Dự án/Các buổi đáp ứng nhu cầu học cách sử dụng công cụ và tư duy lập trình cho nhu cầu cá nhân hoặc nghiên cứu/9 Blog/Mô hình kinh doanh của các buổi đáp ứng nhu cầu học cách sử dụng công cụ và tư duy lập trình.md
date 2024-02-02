@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-01-07T21:11
+updated: 2024-01-09T11:24
 alias:
   - Khi nào thì chiến lược định giá "trả tuỳ tâm" đạt được sự bền vững?
   - Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình
@@ -67,10 +67,17 @@ Với những người không đọc trước nên cho rằng chất lượng k�
 
 Để hiểu thêm về chiến lược định giá này, đọc thêm: [What stops the pay-what-you-want pricing strategy from being more popular? - Economics Stack Exchange](https://economics.stackexchange.com/q/57273/45941)
 
-# Giá trị
-Không thể kết luận được gì, nhưng có thể dùng cho việc làm các mô hình dự đoán, ứng dụng được cho máy học, hồi quy logistic 
+# Giá trị của những phân tích này
 
-[[Học máy dự đoán xem mẫu hình có bao nhiêu khả năng lặp lại trong tương lai]] 
+Việc chấm điểm rốt cuộc chỉ là cảm tính, chứ có tiêu chí nào cho nó đâu. Việc khách hàng dùng tiền để đánh giá chất lượng sản phẩm cũng giống như nhà tuyển dụng cầm tấm bằng để đánh giá năng lực ứng viên. Rốt cuộc chúng ta chỉ đang đánh giá người khác qua một con số mà thôi. [[Chỉ theo đuổi một chỉ số là quá đơn giản]].
+
+Nên thành ra, việc tự chấm điểm để bạn thấy mô hình này thành công thực ra chỉ là một sự mỉa mai bản thân .
+
 [[Con người thường cố gắng tìm ra mẫu hình, kể cả khi nó không có ở đó]]
+Không thể kết luận được gì, nhưng có thể dùng cho việc làm các mô hình dự đoán, ứng dụng được cho máy học, hồi quy logistic 
+[[Máy học dự đoán xem mẫu hình có bao nhiêu khả năng lặp lại trong tương lai]]. Nó giúp ngành y cứu người, nhưng lại làm cho ngành tư pháp thêm thách thức vì [[Việc dùng máy học có thể làm ta nghĩ mô hình rất phức tạp mặc dù thực chất nó rất đơn giản]]
+![The danger of predictive algorithms in criminal justice | Hany Farid | TEDxAmoskeagMillyard - YouTube](https://youtu.be/p-82YeUPQh0?si=oVmv52ZlZoym0Rum)
+![Imagine Predictive Analytics Putting a Crystal Ball in Your Hand | Dr. Phil Wells | TEDxKanata - YouTube](https://youtu.be/QWps8A-hljw?si=-1uQbDlJ7Ww8sE_S)
+
 [[Trực giác là việc nhìn ra mẫu hình không hơn không kém]]
 [[Sự chuyên gia (expertise) đến từ việc nhìn ra mẫu hình]]

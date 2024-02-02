@@ -1,10 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-09T15:03
+updated: 2024-02-02T21:39
 ---
 
-Thu chi chồng chất nhưng tốn quá nhiều thời gian để phân loại để có được một báo cáo đáng tin? Nay đã có Trấn Kỳ. Nếu bạn là người cần phân loại tất cả các chi tiêu của mình một cách rõ ràng (việc nhắm hờ mỗi tháng chi chừng bao nhiêu tiền là không đủ với bạn), và bạn cần một chương trình:
+Bạn có cảm thấy chán nản, mất năng lượng vì phải tốn quá nhiều thời gian để phân loại chi tiêu cũng như các loại dữ liệu khác không? Nếu bạn là người cần phân loại tất cả các chi tiêu của mình một cách rõ ràng (việc nhắm hờ mỗi tháng chi chừng bao nhiêu tiền là không đủ với bạn), và bạn cần một chương trình:
 
 - Tích hợp được vào hệ thống vận hành hiện tại của bạn: báo cáo ngân hàng, Google Keep, Google Sheet, Notion, Obsidian, Fibery, Odoo, v.v. 
 - Cho phép bạn khai báo dữ liệu theo thói quen và cách phân loại của chính mình

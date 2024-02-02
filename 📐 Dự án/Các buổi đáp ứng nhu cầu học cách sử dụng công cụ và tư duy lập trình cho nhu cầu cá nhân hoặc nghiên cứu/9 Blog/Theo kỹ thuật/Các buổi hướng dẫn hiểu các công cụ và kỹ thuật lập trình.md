@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-24T22:22
+updated: 2024-02-02T01:10
 ---
 # Kết quả đầu ra
 - Biết được người ta nói cái gì khi google 
@@ -19,9 +19,6 @@ updated: 2023-12-24T22:22
 	- Hiểu một số nguyên tắc viết code để dễ bảo trì, mở rộng tính năng
 	- Biết một số kỹ thuật debug: console.log, debugger, unit test 
 
-
-# Sản phẩm
-Trấn Kỳ
 # Ngôn ngữ
 Javascript/TypeScript 
 OOP, SOLID, debug, unicode, design pattern 

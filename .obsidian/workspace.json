@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0ac1909078215daa",
+        "id": "107196d14bf83fae",
         "type": "tabs",
         "children": [
           {
-            "id": "70c0f5122a4398b1",
+            "id": "3e52de8441e7f455",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Khoa học dữ liệu/4 cấp độ phân tích dữ liệu – mô tả hiện tượng, lý giải nguyên nhân, dự đoán kết quả, đề xuất hành động.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại chi tiêu.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,46 +21,19 @@
             }
           },
           {
-            "id": "dae8151d978ea7cf",
+            "id": "555c82249a2d9f2b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Kế hoạch/Kế hoạch.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "6144151543cbea7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "5f840293e7fde896",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/Trấn Kỳ/9 Blog/Hỏi đáp về việc bán Trấn Kỳ.md",
-                "mode": "source",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Khách hàng sẽ nhớ đến mình nếu như mình có thể tạo được satisfaction of emotion, nhưng họ chỉ làm tnv hoặc góp tiền cho mình khi họ cần đảm bảo một cái gì đấy?",
+                "query": "bret",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -110,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "c337a3ea5e852bbb",
@@ -126,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại chi tiêu.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình.md",
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại chi tiêu.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình.md"
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại chi tiêu.md"
               }
             }
           }
@@ -174,7 +148,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -190,35 +165,39 @@
       "notion-like-tables:Create loom": false
     }
   },
-  "active": "6144151543cbea7c",
+  "active": "3e52de8441e7f455",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả/❓Miễn phí, trả tuỳ tâm, tự định giá sức lao động.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Quy trình xử lý dữ liệu cho PKM và phát triển sản phẩm là giống nhau, nhưng từ dữ liệu ra insight rồi làm gì với insight đó là khác nhau.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Insight trong phát triển sản phẩm gắn liền với việc thay đổi hành vi người dùng.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Idea là một cái gì đó để thử, còn insight là kết quả của sự thử.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Công việc/Insight through making.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Insight sẽ thường ra ngay lúc phỏng vấn.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Phần mềm nội bộ không cần dễ dùng và không phải kiểm thử trên nhiều môi trường khác nhau, cũng không sợ bị cạnh tranh.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/RapidAPI-Comics-eBook.pdf",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Các cuốn sách về phương pháp lập trình được viết bởi những người làm phần mềm nội bộ.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Kế hoạch/Kế hoạch.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Khoa học dữ liệu/4 cấp độ phân tích dữ liệu – mô tả hiện tượng, lý giải nguyên nhân, dự đoán kết quả, đề xuất hành động.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Khoa học dữ liệu/Phân tích xu hướng, NLP/Xử lý ngôn ngữ tự nhiên chính là một công cụ nghĩ.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Khoa học dữ liệu/Việc dùng học máy có thể làm ta nghĩ mô hình rất phức tạp mặc dù thực chất nó rất đơn giản.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Truyền thông/Các buổi đáp ứng nhu cầu học.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Khoa học dữ liệu/Học máy dự đoán xem mẫu hình có bao nhiêu khả năng lặp lại trong tương lai.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Đơn giản.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Việc đơn giản hoá một khái niệm phức tạp để giải thích cho một đứa trẻ hiểu làm cho bản thân người giải thích hiểu được thêm về khái niệm.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Kinh tế học tâm lý/Tiền đơn giản hoá quá trình đáp ứng nhu cầu.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Cơ sở dữ liệu/Đảo thông tin khiến cho những thao tác tự động hoá đơn giản không thể làm được.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Chỉ số/Chỉ theo đuổi một chỉ số là quá đơn giản.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Startup/Sự đơn giản ép ta phải làm nó cực kỳ tốt.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Các buổi hướng dẫn cào web vào Google Calendar.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với ý tưởng/Mục tiêu và câu hỏi phỏng vấn.md",
-    "📐 Dự án/Trấn Kỳ/9 Blog/Hỏi đáp về việc bán Trấn Kỳ.md",
-    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Launch.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại chi tiêu (ngắn).md",
+    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Facebook page QC.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Phân loại chi tiêu.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Lý do viết Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Chiến lược/Kế hoạch phát triển Trấn Kỳ.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Quản lý dữ liệu/Những vị trí tiêu đề xuất hiện.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ.md",
+    "📐 Dự án/Trấn Kỳ/2 Giả thuyết/Giả thiết về giá trị của Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/2 Giả thuyết/Cứ 20 người học thì có 500k.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Từ việc hỗ trợ Kendy đến Patreon và tâm lý của con người về tiền.md",
     "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Kênh chat/Discord QC/Discord QC.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Xác định tập khách hàng tiềm năng.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Chiến lược/Tiêu chí.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/sdf.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Theo mục tiêu/Các buổi hướng dẫn tích hợp Trấn Kỳ vào hệ thống cá nhân.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Truyền thông/Bàn làm việc Google Calendar.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Truyền thông/Các buổi đáp ứng nhu cầu học.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Phiếu đăng ký/Phiếu đăng ký tham gia CBĐỨNCHCSDCCVTDLT.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Theo mục tiêu/Các buổi hướng dẫn cào dữ liệu web vào Google Calendar.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/2 Giả thuyết/Giả thiết về tiếp nhận của người đọc bài giới thiệu buổi hướng dẫn cụ thể.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/2 Giả thuyết/Giả thiết về người tham gia.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Theo kỹ thuật/Hướng dẫn đọc code cho người thấy việc biết lập trình là quan trọng nhưng không thể biến nó trở thành ưu tiên cao nhất.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Theo kỹ thuật/Các buổi hướng dẫn hiểu các công cụ và kỹ thuật lập trình.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Theo mục tiêu/Untitled.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Theo mục tiêu",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/9 Blog/Theo kỹ thuật",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/2 Giả thuyết/~syncthing~Giả thiết về tiếp nhận của người đọc bài về Google Calendar.md.tmp",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/Untitled.loom",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/RapidAPI-Comics-eBook.pdf",
     "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Nghề nghiệp",
     "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Phi lợi nhuận",
     "Ξ Thiết lập/Ảnh/Bàn làm việc Google Calendar.png",
@@ -226,10 +205,6 @@
     "⚡Hiểu biết sâu/Cộng đồng, hệ sinh thái, hệ phức hợp/Truyền thông, xây dựng cộng đồng/~syncthing~Cảm giác khó chịu khi bị quảng cáo quá đà.md.tmp",
     "⚡Hiểu biết sâu/Ξ Nguồn/Tài liệu/Raju-Smart-Pricing.pdf",
     "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả",
-    "📐 Dự án/Công cụ cho hệ sinh thái/Thành phẩm/Kế hoạch",
-    "📐 Dự án/Công cụ cho hệ sinh thái/Thành phẩm",
-    "📐 Dự án/Công cụ cho hệ sinh thái/9 Blog",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với ý tưởng/~syncthing~Mục tiêu và câu hỏi nghiên cứu.md.tmp",
     "Ξ Thiết lập/Ảnh/Code is run more than read.jpg",
     "Ξ Thiết lập/Ảnh/Người giàu nghĩ gì về quan điểm tiền không mua được hạnh phúc.jpg",
     "Ξ Thiết lập/Ảnh/Pasted image 20231128203124.png",

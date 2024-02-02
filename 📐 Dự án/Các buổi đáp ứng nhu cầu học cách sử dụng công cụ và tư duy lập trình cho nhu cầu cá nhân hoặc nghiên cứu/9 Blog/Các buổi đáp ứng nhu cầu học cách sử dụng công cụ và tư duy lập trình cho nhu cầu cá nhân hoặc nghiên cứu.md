@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-26T15:55
-updated: 2023-12-30T22:38
+updated: 2024-02-02T01:09
 cssClasses: wide-table
 ---
 
@@ -52,13 +52,13 @@ Bảng này so sánh những tính năng của các mô hình học tập khác 
 | -------------------------------------------------------- | ------------------------------------ | ---------------------- | ------------------------------------------ | --------------------------- | ----------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | Quản lý tài chính cá nhân, phân loại câu nhập            | Trấn Kỳ                              | YAML                   | API, shell                                 | VS Code, terminal, Git      |                         | [[Kế hoạch tổ chức các buổi hướng dẫn sử dụng Trấn Kỳ\|Các buổi hướng dẫn sử dụng Trấn Kỳ]]{ .md-button .md-button--primary } |
 | Tự động hoá các công việc lặp đi lặp lại                 | Script AutoHotKey, CopyQ, PowerShell | AutoHotKey, PowerShell | Script, path, shell, biến môi trường       | VS Code, CopyQ, Terminal    |                         |                                                                                                                               |
-| Gom các lịch mình cần theo dõi vào Google Calendar       | Google Calendar                      | Pythop                 | Cào web, API, OOP                          | VS Code                     |                         | [[Các buổi hướng dẫn cào web vào Google Calendar]]{ .md-button .md-button--primary }                                          |
+| Gom các lịch mình cần theo dõi vào Google Calendar       | Google Calendar                      | Pythop                 | Cào web, API, OOP                          | VS Code                     |                         | [[Các buổi hướng dẫn cào dữ liệu web vào Google Calendar|Cào dữ liệu web vào Google Calendar]]{ .md-button .md-button--primary }                                          |
 | Truy vấn và khai thác dữ liệu                            |                                      | SQL                    | Cơ sở dữ liệu                              |                             |                         |                                                                                                                               |
 | Tạo đồ thị                                               |                                      | Cypher                 |                                            | Graphviz, Mermaid, Neo4j    |                         |                                                                                                                               |
 | Lập web cá nhân, quản lý phiên bản                       | Tạo web tĩnh                         | HTML                   | Web, version control, conventional commit  | Git, GitKraken, GitHub Page |                         |                                                                                                                               |
 | Quản lý và chia sẻ kiến thức                             | Obsidian và web trên netlify         | Python                 | Web                                        | Obsidian, Mkdocs, Netlify   | Git, terminal           |                                                                                                                               |
 | Tạo web dự án                                            | Tạo web động                         | PHP                    | Host, nameserver, CDN                      | WordPress, Cloudflare       |                         |                                                                                                                               |
-| Hiểu các kỹ thuật lập trình                              | Trấn Kỳ                              | Javascript/TypeScript  | OOP, SOLID, debug, unicode, design pattern | VS Code, Deno, Fibery       | Git, terminal           | [[Các buổi hướng dẫn hiểu các kỹ thuật lập trình]]{ .md-button .md-button--primary }                                          |
+| Hiểu các kỹ thuật lập trình                              | Trấn Kỳ                              | Javascript/TypeScript  | OOP, SOLID, debug, unicode, design pattern | VS Code, Deno, Fibery       | Git, terminal           | [[Các buổi hướng dẫn hiểu các công cụ và kỹ thuật lập trình]]{ .md-button .md-button--primary }                                          |
 | Nghiên cứu cộng đồng mạng, nắm bắt xu hướng, nhân văn số | WE1S                                 | Python                 | NLP, khối dữ liệu, API                     |                             | Git, terminal           |                                                                                                                               |
 
 # Cách thức hoạt động

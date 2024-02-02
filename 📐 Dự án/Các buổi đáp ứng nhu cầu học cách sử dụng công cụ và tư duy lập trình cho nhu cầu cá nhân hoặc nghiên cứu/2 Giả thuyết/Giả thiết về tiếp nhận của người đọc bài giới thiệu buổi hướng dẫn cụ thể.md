@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-31T12:04
+updated: 2024-02-02T00:16
 ---
 
 # Giả thiết về người đọc
@@ -21,5 +21,5 @@ updated: 2023-12-31T12:04
 - Số tiền đến từ những người trả tiền cao bù được với số tiền từ người trả tiền thấp
 
 [[Giả thiết về tiếp nhận của người đã đọc bài Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình]]
-[[Các buổi hướng dẫn cào web vào Google Calendar]]
+[[Các buổi hướng dẫn cào dữ liệu web vào Google Calendar]]
 [[📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với ý tưởng/Mục tiêu và câu hỏi phỏng vấn]]
