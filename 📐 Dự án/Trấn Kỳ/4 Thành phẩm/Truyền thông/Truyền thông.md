@@ -6,8 +6,14 @@ alias:
   - Các bài viết truyền thông về Trấn Kỳ
   - Seeding
 created: 2023-10-31T16:59
-updated: 2023-11-28T15:51
+updated: 2024-02-07T18:46
 ---
+
+[[SME, startup, khởi nghiệp]]
+[[ERP, no code, ]] 
+[[Lập trình ]] 
+
+----
 
 | Thành quả mong muốn                                    | Giả thiết                                         | Công việc                               |
 | ------------------------------------------------------ | ------------------------------------------------- | --------------------------------------- |

@@ -1,9 +1,4 @@
----
-share: true
-created: 2023-11-12T12:54
-updated: 2024-02-15T16:31
----
-# Phân loại chi tiêu bằng tiếng Việt tự nhiên
+# Phân loại câu nhập bằng tiếng Việt tự nhiên
 Bạn có cảm thấy chán nản, mất năng lượng vì phải tốn quá nhiều thời gian để phân loại chi tiêu cũng như các loại dữ liệu khác không? Nếu bạn là người cần phân loại tất cả các chi tiêu của mình một cách rõ ràng (việc nhắm hờ mỗi tháng chi chừng bao nhiêu tiền là không đủ với bạn), và bạn cần một chương trình:
 
 * Là phần mềm tự do và mã nguồn mở
@@ -14,10 +9,10 @@ Bạn có cảm thấy chán nản, mất năng lượng vì phải tốn quá n
 * Không có bất cứ quảng cáo mời mọc hoặc theo dõi dữ liệu nào
 * Dùng được trên điện thoại khi không có mạng
 
-Thì Trấn Kỳ là dành cho bạn.
+Thì Trấn Kỳ là chương trình dành cho bạn.
+
 # Tính năng
 ## Phân loại thông tin
-
 Ví dụ, với câu nhập đầu vào là:
 
 ```
@@ -51,11 +46,9 @@ Chương trình có thể tự động bắt được các giá trị trên nh�
 |giảm giá|Không thiết lập|Ghi chú|
 ```
 ## Giá trị mặc định
-
 Ví dụ, bạn có thể thiết lập để chương trình tự hiểu là nếu bạn không điền từ khoá gì trong chiều `Phương thức thanh toán` thì mặc định đó là `tiền mặt`.
 
 ## Tiếp nhận từ khoá chưa được khai báo một cách trực tiếp
-
 Sẽ có những lúc bạn muốn một từ khoá nào đó chưa kịp khai báo trong cấu hình xuất ra ở kết quả. Bạn có thể thiết lập các ký tự để chương trình hiểu là dữ liệu đó nên được cho vào mục nào.
 
 Ví dụ, bạn mới gặp `Iris` và muốn tặng `dưa hấu` cho bạn ấy. Bạn chưa kịp khai báo tên của `Iris` vào cấu hình. Bạn có thể thiết lập ký tự `@` dành cho chiều `Người thụ hưởng`. Khi đó, bạn có thể dùng câu nhập:
@@ -79,7 +72,6 @@ tặng dưa hấu cho @chị Iris@ 50k (sau đó mới biết chị Iris dị �
 ```
 
 ## Viết tắt
-
 Ví dụ, bạn muốn viết tắt `as`, `st` cho nhanh, nhưng vẫn muốn kết quả hiện ra đầy đủ là `ăn sáng`, `siêu thị`. Bạn còn có thể dùng viết tắt cho những câu nhập phức tạp.
 
 Ví dụ:
@@ -90,11 +82,9 @@ Ví dụ:
 * `trọ` → `tiền trọ 3tr chuyển khoản (vay qua nhóm Tình Thân)`
 
 ## Hiểu từ ghép
-
 Ví dụ, nếu lúc thiết lập cấu hình bạn có khai báo ba từ khoá `bún`, `bò`, và `bún bò`, và trong câu nhập có chữ `bún bò` thì chương trình sẽ hiểu đây là một từ chứ không nhận diện nhầm là có hai từ `bún` và `bò`.
 
 ## Một từ khoá có thể thuộc về nhiều nhãn phân loại
-
 Ví dụ, từ khoá `ăn trưa với` vừa có thể thuộc nhãn `Mối quan hệ`, vừa có thể thuộc nhãn `Thực phẩm`
 
 ## Một số ví dụ về việc tích hợp Trấn Kỳ vào hệ thống
@@ -122,7 +112,6 @@ Trong quá trình thảo luận, thỉnh thoảng sẽ có những thông tin c�
 Những thông tin như người nhập, kênh nhập cũng sẽ được ghi lại. Ví dụ, ghi `$ họp 70k` trong kênh Trấn Kỳ thì sẽ hiểu là lý do chi là để họp về Trấn Kỳ. Nhưng cũng với câu nhập đó trong kênh Cảo Thần thì sẽ hiểu là lý do chi là để họp về Cảo Thần.
 
 # Không chỉ mỗi phân loại thu chi
-
 Thật ra, chương trình này không hẳn nên được đặt tên là "Phân loại thu chi", vì bạn còn có thể dùng nó để phân loại nhiều thứ khác. Ví dụ:
 
 * **Ý tưởng** : `Kĩ thuật viết văn %topic_Writing @tác_giả_a`
@@ -131,16 +120,6 @@ Thật ra, chương trình này không hẳn nên được đặt tên là "Phâ
 * **Cảm xúc** : `xem phim:Inception thấy chấn động`
 * **Sức khoẻ:**  `chạy bộ 100m, hít đất 30 cái`
 
-# 👉 Link: tranky.deno.dev/cditbavn
+# 👉 Link: tranky.deno.dev/cdddss
 
 https://www.facebook.com/quacau.sphere/posts/pfbid072iAT8Y3zdAP5L7VGiHkmxjxQfPapaozK8fpr64nQ4uVyaKerhv2j4uqd8KMWipvl
-
-![image|690x460, 100%](https://daynhauhoc.s3.dualstack.ap-southeast-1.amazonaws.com/optimized/3X/3/0/3051a1b98cab382e9bcd3e5bccf81d2e973f3f17_2_1035x690.jpeg) 
-![image|690x343](https://daynhauhoc.s3.dualstack.ap-southeast-1.amazonaws.com/optimized/3X/9/9/99e14fce9d0bcda573db5aae334ad4e71bd2035f_2_1035x514.jpeg) 
-![Giao diện khởi động](https://i.imgur.com/rBe2iQ9.png)
-
----
-[[10-11]] Đăng trên [[Dạy Nhau Học]] 
-[[10-11]] Đăng trên [[Tự học Data]] 
-[[29-11]] Đăng trên [[Fintech, tài chính cá nhân]] 
-[[06-02]] [[SME, startup, khởi nghiệp]] smebf
