@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-19T22:53
+updated: 2024-02-10T23:35
 ---
 Nguồn:: [[Bret Victor]], [Up and Down the Ladder of Abstraction](http://worrydream.com/LadderOfAbstraction/)
 
@@ -14,3 +14,5 @@ Nguồn:: [[Bret Victor]], [Up and Down the Ladder of Abstraction](http://worryd
 [[Sự chuyên gia (expertise) đến từ việc nhìn ra mẫu hình]]
 
 [[Ghi chú thì linh hoạt, nhưng tĩnh. App thì cứng nhắc, nhưng động]]
+
+[[Chơi là sự thử nghiệm các kỹ năng mới học trong những môi trường mới]]

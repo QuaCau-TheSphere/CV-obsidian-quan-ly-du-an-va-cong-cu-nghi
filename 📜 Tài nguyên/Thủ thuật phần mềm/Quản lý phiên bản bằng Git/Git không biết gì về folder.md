@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2024-02-10T18:22
 ---
 Mục đích chính của Git là theo dõi các thay đổi trong nội dung của các tệp và cho phép nhiều người cùng làm việc trên cùng một dự án một cách hiệu quả. Việc theo dõi cấu trúc thư mục không phải là mục tiêu chính của Git và có thể gây ra sự phức tạp không cần thiết trong việc quản lý phiên bản.
 

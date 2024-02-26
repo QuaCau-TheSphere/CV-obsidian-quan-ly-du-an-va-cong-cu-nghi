@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-01-07T20:56
+updated: 2024-02-22T21:24
 ---
 [[Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình|Khi nào thì chiến lược định giá "trả tuỳ tâm" đạt được sự bền vững?]]
 # Miễn phí
@@ -65,7 +65,7 @@ Phản ví dụ:
 Ví dụ:
 - Wikipedia, deno, docker
 
-[[Hỏi đáp về việc bán Trấn Kỳ]]
+[[Mô hình kinh doanh Trấn Kỳ]]
 [[Chỉ khi có sự trao đổi thì giá cả mới xuất hiện]] 
 
 Pricing strategy

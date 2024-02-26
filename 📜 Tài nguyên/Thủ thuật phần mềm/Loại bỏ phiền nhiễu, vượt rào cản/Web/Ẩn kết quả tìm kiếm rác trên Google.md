@@ -1,9 +1,8 @@
 ---
 share: true
 created: 2023-05-30T16:07
-updated: 2023-11-15T20:45
+updated: 2024-02-25T13:48
 ---
-
 Các trang dưới đây chia thành 2 loại:
 - Từ điển copy của từ điển mở của Hồ Ngọc Đức
 - Cào web tiếng Anh rồi dùng Google dịch sang tiếng Việt để tăng SEO
@@ -62,3 +61,5 @@ hashdork.com
 # Cách dùng
 ![Google Hit Hider 1-Minute Intro - YouTube](https://youtu.be/u0431tculpg)
 Download: [Google Hit Hider by Domain](http://www.jeffersonscher.com/gm/google-hit-hider/)
+
+Xem thêm:: [[Cách nhanh nhất để tìm được thứ ta cần khi ta không biết từ khoá chính xác của nó là đọc các bài tổng quan]]

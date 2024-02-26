@@ -1,9 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-17T12:14
+updated: 2024-02-25T14:10
 ---
 Khái niệm:: [[Đánh đổi]]
+[[Các đánh đổi tạo ra nhiều tổ hợp giải pháp khác nhau cho cùng một nhu cầu]]
 Common challenges and trade-offs in Software design and architecture
 
 As we know software development is a complex process that involves making decisions and trade-offs at various stages. Software architects and development teams often encounter trade-offs that require careful consideration and planning to make right balance to meet overall project objectives effectively.

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-11T12:08
+updated: 2024-02-09T13:07
 ---
 # Cognitive scaffolding
 

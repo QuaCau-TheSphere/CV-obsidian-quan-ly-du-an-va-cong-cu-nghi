@@ -39,6 +39,10 @@
     {
       "field": "Lý do",
       "folder": "⚡Hiểu biết sâu"
+    },
+    {
+      "field": "Giải pháp gợi ý",
+      "folder": "📐 Dự án/Trấn Kỳ/1 Quang cảnh/Giải pháp"
     }
   ],
   "regexpTrigger": "/",

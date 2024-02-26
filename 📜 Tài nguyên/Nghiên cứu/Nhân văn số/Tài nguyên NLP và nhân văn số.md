@@ -1,7 +1,8 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-19T19:54
+updated: 2024-02-17T02:40
+description: Nhân văn số là một lĩnh vực giao thoa giữa ngành khoa học máy tính và các ngành khoa học xã hội và nhân văn.
 ---
 Giới thiệu về nhân văn số (digital humanities) 
 [[Nhân văn số sử dụng mô hình chủ đề rất nhiều]]
@@ -43,8 +44,16 @@ Mục tiêu cuối cùng của dự án WE1S là cung cấp cho những người
 
 ## [Digital Humanities Resources for Project Building](http://dhresourcesforprojectbuilding.pbworks.com)
 Tên gọi trước đây là Digital Humanities Toychest (rương đồ chơi cho nhân văn số).
+
 ## [UC Davis DataLab Text and NLP Toolkit](https://ucdavisdatalab.github.io/research-toolkits/nlp_researcher_toolkit.html)
 
+## [Projects :: Digital Humanities @ Stanford](https://digitalhumanities.stanford.edu/projects/)
+
+## Nhân văn số trong nghệ thuật
+Nổi tiếng nhất chắc là [Google Arts &amp; Culture](https://artsandculture.google.com/ "Google Arts &amp; Culture"). Ai quan tâm có thể xem thêm bài giới thiệu của giám đốc dự án này trên TED: [Every piece of art you've ever wanted to see -- up close and searchable | Amit Sood](https://www.youtube.com/watch?v=cSpOCSVt--k "Every piece of art you've ever wanted to see -- up close and searchable | Amit Sood - YouTube"). 
+
+Em cũng thử kiếm thêm [các dự án nhân văn số về lịch sử nghệ thuật](http://imageresources.weebly.com/digital-humanities-projects.html "Digital humanities projects - Digital Resources Guide"), và thấy dự án [Inventing Abstraction](https://www.moma.org/interactives/exhibitions/2012/inventingabstraction), một dự án sơ đồ hoá mối quan hệ giữa các nghệ sĩ, là có vẻ tham khảo được với loại dữ liệu mình đang có. 
+![[Pasted image 20231111161912.png]]
 # Học về topic modelling
 - [Topic modeling made just simple enough. – The Stone and the Shell](https://tedunderwood.com/2012/04/07/topic-modeling-made-just-simple-enough/)
 - [Topic Modeling for Humanists: A Guided Tour – the scottbot irregular](http://www.scottbot.net/HIAL/index.html@p=19113.html)

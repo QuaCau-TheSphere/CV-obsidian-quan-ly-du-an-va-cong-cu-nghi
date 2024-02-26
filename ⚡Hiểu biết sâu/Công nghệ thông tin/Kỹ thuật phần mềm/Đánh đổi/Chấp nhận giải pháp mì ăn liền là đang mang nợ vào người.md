@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-17T12:14
+updated: 2024-02-10T23:32
 ---
 ![technical_debt.jpg](https://images.viblo.asia/68cd9326-84a6-4c75-ae34-ecfd3ee8fc4d.jpg)
 
@@ -94,7 +94,7 @@ Chúc bạn vui vẻ gánh nợ (problem?)
 
 ![photo_1442919057_temp.jpg](https://images.viblo.asia/136108c1-5ceb-4600-ae31-95ae83a7449f.jpg)
 
-Nguồn:: [[Viblo]], [Technical Debt - Nợ kĩ thuật - Nợ code không chỉ trả bằng code](https://viblo.asia/p/technical-debt-no-ki-thuat-no-code-khong-chi-tra-bang-code-nwmGyEQMGoW)
+Nguồn:: [[⚡Hiểu biết sâu/Ξ Nguồn/Khoa học dữ liệu. Khoa học máy tính/Viblo]], [Technical Debt - Nợ kĩ thuật - Nợ code không chỉ trả bằng code](https://viblo.asia/p/technical-debt-no-ki-thuat-no-code-khong-chi-tra-bang-code-nwmGyEQMGoW)
 
 [Technical debt - Wikipedia](https://en.wikipedia.org/wiki/Technical_debt "Technical debt - Wikipedia")
 ![Technical debt isn't technical - Einar Høst - DDD Europe 2019 - YouTube](https://youtu.be/d2Ddo8OV7ig?si=Gp12_8wumUxh-8Wm)

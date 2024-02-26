@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-13T17:16
+updated: 2024-02-22T21:24
 alias:
   - Một startup làm những việc một người bạn sẽ làm
 ---
@@ -14,9 +14,9 @@ Trong thời gian qua bọn mình đã viết [Trấn Kỳ](https://lậptrình.
 # Tôi có thể giúp gì?
 Đây là các công việc luôn cần người tham gia:
 
-- [[Kế hoạch phát triển Trấn Kỳ|Lên kế hoạch phát triển]]{ .md-button .md-button--primary }
+- [[📐 Dự án/Trấn Kỳ/4 Thành phẩm/Chiến lược/Kế hoạch phát triển Trấn Kỳ|Lên kế hoạch phát triển]]{ .md-button .md-button--primary }
 - [[Truyền thông]]{ .md-button .md-button--primary }
-- [[Người cần kỷ luật tài chính]]{ .md-button .md-button--primary }
+- [[Tổ chức nhỏ hoặc người cần kỷ luật tài chính]]{ .md-button .md-button--primary }
 - [[Kế hoạch xây dựng cộng đồng phát triển Trấn Kỳ|Xây dựng cộng đồng phát triển Trấn Kỳ]]{ .md-button .md-button--primary }
 - [[Kế hoạch tổ chức các buổi hướng dẫn sử dụng Trấn Kỳ|Tổ chức các buổi hướng dẫn người dùng sử dụng Trấn Kỳ]]{ .md-button .md-button--primary }
 # Tôi có lợi gì khi tham gia?
@@ -54,9 +54,9 @@ Người cần Trấn Kỳ là những người bị dày vò hằng ngày khi t
 - Những người có một số vốn kiểu vài chục triệu để đầu tư kinh doanh, 
 - Những người làm nghiên cứu hoặc làm dự án xã hội mới được cấp quỹ làm dự án
 
-Để hỗ trợ người sử dụng Trấn Kỳ cũng như thu hút sự quan tâm của cộng đồng, [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu cá nhân hoặc nghiên cứu]] sẽ được tổ chức. Những người cần có các buổi đó (bao gồm cả những người cần có Trấn Kỳ nhưng không có khả năng chi tiền) sẽ tham gia vào việc tổ chức chúng. Việc này đảm bảo rằng các buổi này sẽ diễn ra vào thời gian họ rảnh với nội dung được cá nhân hoá cho họ và ứng dụng được ngay vào dự án của họ. Những người tham gia các buổi này ngoài việc được đáp ứng các nhu cầu trước mắt sẽ có thêm cơ hội mở rộng mối quan hệ, kiến thức, trải nghiệm và các cơ hội khác.
+Để hỗ trợ người sử dụng Trấn Kỳ cũng như thu hút sự quan tâm của cộng đồng, [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]] sẽ được tổ chức. Những người cần có các buổi đó (bao gồm cả những người cần có Trấn Kỳ nhưng không có khả năng chi tiền) sẽ tham gia vào việc tổ chức chúng. Việc này đảm bảo rằng các buổi này sẽ diễn ra vào thời gian họ rảnh với nội dung được cá nhân hoá cho họ và ứng dụng được ngay vào dự án của họ. Những người tham gia các buổi này ngoài việc được đáp ứng các nhu cầu trước mắt sẽ có thêm cơ hội mở rộng mối quan hệ, kiến thức, trải nghiệm và các cơ hội khác.
 
-Bài chi tiết: [[Hỏi đáp về việc bán Trấn Kỳ#Mô hình hoạt động là gì?|Hỏi đáp về việc bán Trấn Kỳ]]{ .md-button .md-button--primary } [[Kế hoạch|Các bản kế hoạch]]{ .md-button .md-button--primary }
+Bài chi tiết: [[Mô hình kinh doanh Trấn Kỳ#Mô hình hoạt động là gì?|Hỏi đáp về việc bán Trấn Kỳ]]{ .md-button .md-button--primary } [[⚡Hiểu biết sâu/Ξ Khái niệm/Kế hoạch|Các bản kế hoạch]]{ .md-button .md-button--primary }
 
 Đây là những hoạt động mà một người bạn sẽ làm. Startup này chỉ chuyên nghiệp hoá chúng lên để đạt hiệu quả cao nhất mà thôi.
 # Số tiền thu được sẽ dùng làm gì?

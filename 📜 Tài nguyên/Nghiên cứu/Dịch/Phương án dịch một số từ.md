@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2024-02-10T21:46
 ---
 
 > [!Info] Xem thêm: [Ý tưởng nền tảng dịch thuật ngữ](https://xn--qucu-hr5aza.cc/y-tuong-nen-tang-dich-thuat-ngu/?utm_source=CV+%C2%BB+Ph%C6%B0%C6%A1ng+%C3%A1n+d%E1%BB%8Bch+m%E1%BB%99t+s%E1%BB%91+t%E1%BB%AB&utm_medium=%C3%9D+t%C6%B0%E1%BB%9Fng+n%E1%BB%81n+t%E1%BA%A3ng+d%E1%BB%8Bch+thu%E1%BA%ADt+ng%E1%BB%AF&utm_campaign=Giai+%C4%91o%E1%BA%A1n+2)
@@ -92,8 +92,10 @@ Vận trù
 ## Inclusive 
 Hiện diện đầy đủ
 
-## Super, hyper, ultra,
+## Super, hyper, ultra, mega
 Siêu, cực
+
+Có vẻ như trong tiếng Việt có ít từ chỉ sự vượt quá
 ## Meta 
 Meta
 
@@ -102,3 +104,6 @@ Thiện nguyện, nhân ái, hiến tặng, phúc thiện
 [[Từ cách một từ được đổ nghĩa đến việc dịch khái niệm philanthropy sang tiếng Việt]]
 
 Mình thấy kể cả khi nó có nghĩa ngầm trong đó rồi, thì việc hiển ngôn nó ra cũng rất quan trọng. Việc mọi người cảm thấy các phương án khác là không đủ để diễn tả hết nội hàm của nó là vì các phương án đó không làm cho mình cảm thấy các nét nghĩa của well-being được hiển ngôn đủ hết. Vậy thì chỉ có cách liệt kê hết tất cả các nét nghĩa của nó ra thì mới cảm thấy đầy đủ được.
+
+## Actionable
+Biết mình cần phải làm gì

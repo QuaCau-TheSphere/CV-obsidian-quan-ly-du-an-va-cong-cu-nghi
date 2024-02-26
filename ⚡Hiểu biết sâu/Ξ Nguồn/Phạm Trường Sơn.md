@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-22T20:45
+updated: 2024-02-17T23:26
 ---
 Khái niệm:: 
 [[Các câu hỏi về việc thành lập quỹ tín dụng, nền kinh tế phi chính thức, bản chất CSR của doanh nghiệp và tâm lý con người về tiền]]
@@ -32,7 +32,7 @@ HỌc viện mà Mark Zuckerberg ọc ở cấp 3 là nhân bản
 - Các nhóm xã hội như bọn anh lấy tiền từ đâu? Bà Tôn Nữ Thị Ninh
 # Nhu cầu của các tổ chức về phân loại dữ liệu tự động
 - Làm sao để nhóm thấy bài viết liên quan để duyệt? 
-[[Mục tiêu và câu hỏi nghiên cứu người cần phân loại tự động]], [[📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Người cần kỷ luật tài chính/Nhu cầu phân loại tự động/Câu hỏi phỏng vấn|Câu hỏi phỏng vấn]]
+[[📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Người dùng cá nhân/Nhu cầu phân loại tự động/Mục tiêu và câu hỏi nghiên cứu người dùng cá nhân cần phân loại tự động]], [[📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Tổ chức nhỏ hoặc người cần kỷ luật tài chính/Nhu cầu phân loại tự động/Câu hỏi phỏng vấn|Câu hỏi phỏng vấn]]
 ## Hành vi phân loại
 ### Anh có thể phân loại mẫu được không?
 Phân loại theo số nhân viên hoặc tổng số tiền.

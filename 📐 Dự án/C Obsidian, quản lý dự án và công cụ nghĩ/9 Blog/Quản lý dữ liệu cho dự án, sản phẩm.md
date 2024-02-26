@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-10T15:51
+updated: 2024-02-07T15:05
 ---
 Sau một thời gian loay hoay để quản lý dữ liệu cho việc phát triển sản phẩm, Trấn Kỳ
 
@@ -21,7 +21,7 @@ Nếu Quả Cầu là thiên chúa, thì ba ngôi chính là ba khái niệm: v�
 Trong toán học thì chắc gọi là đẳng cấu (isomorphism)
 
 Khi quản lý dữ liệu cho dự án, đừng quản lý công việc, mà hãy quản lý thành phẩm.
-Thành phẩm [[Kế hoạch phát triển Trấn Kỳ]] vừa là:
+Thành phẩm [[📐 Dự án/Trấn Kỳ/4 Thành phẩm/Chiến lược/Kế hoạch phát triển Trấn Kỳ]] vừa là:
   - Một bản kế hoạch (alias: Kế hoạch phát triển Trấn Kỳ) 
   - Một công việc (alias: phát triển Trấn Kỳ) 
   - Một công việc lên kế hoạch (alias: Lên kế hoạch phát triển Trấn Kỳ ) 

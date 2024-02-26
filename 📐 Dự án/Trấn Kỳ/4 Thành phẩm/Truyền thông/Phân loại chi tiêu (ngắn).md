@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-14T14:17
+updated: 2024-02-15T17:32
 ---
 
 Bạn có cảm thấy chán nản, mất năng lượng vì phải tốn quá nhiều thời gian để phân loại chi tiêu cũng như các loại dữ liệu khác không? Nếu bạn là người cần phân loại tất cả các chi tiêu của mình một cách rõ ràng (việc nhắm hờ mỗi tháng chi chừng bao nhiêu tiền là không đủ với bạn), và bạn cần một chương trình:
@@ -59,5 +59,5 @@ https://www.facebook.com/quacau.sphere/posts/pfbid072iAT8Y3zdAP5L7VGiHkmxjxQfPap
 
 ![[Keep to Fibery.png]]
 [[29-10]] [[Launch]]
-[[07-11]] [[Dự án xã hội, NPO, nghiên cứu khoa học]] [Page not found | Facebook](https://www.facebook.com/groups/562933844569060/pending_posts/?search=&has_selection=false&is_notif_background=false&post_id=1388363565359413)
+[[07-11]] [[Dự án xã hội, NPO, nghiên cứu khoa học, nghệ thuật, hội hoạ]] [Page not found | Facebook](https://www.facebook.com/groups/562933844569060/pending_posts/?search=&has_selection=false&is_notif_background=false&post_id=1388363565359413)
 [[09-11]] [[Kingdom of Cubes]]

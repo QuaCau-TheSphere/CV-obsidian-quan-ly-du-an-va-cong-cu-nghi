@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-01-14T14:24
+updated: 2024-02-05T12:44
 ---
 Khái niệm:: [[Đơn giản]]
 
@@ -12,3 +12,4 @@ Tuy nhiên, không phải cái gì đơn giản cũng là đúng. Hệ thống n
 Mâu thuẫn với:: [[Chỉ theo đuổi một chỉ số là quá đơn giản]]
 
 [[Làm thứ phức tạp hơn thì dễ, làm thứ tốt hơn thì khó]] 
+[[Quá trình chú ý và ghi nhớ ép ta phải đơn giản]]

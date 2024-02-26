@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-08T14:57
+updated: 2024-02-22T21:24
 ---
 # Lời mời tham gia đầu tư vào Trấn Kỳ
 Trấn Kỳ là một chương trình tự động phân loại, gắn nhãn thông tin theo thói quen và cách sắp xếp của riêng bạn bằng tiếng Việt tự nhiên, và có thể tích hợp được vào hệ thống vận hành hiện tại của bạn như báo cáo ngân hàng, Google Keep, Google Sheet, Notion, Obsidian, Fibery, Odoo, v.v.
@@ -68,4 +68,4 @@ Trong tương lai khi có thêm nhân lực thì có thể có thêm những cá
 
 Bài chi tiết: 
 - [[Lý do viết Trấn Kỳ]]
-- [[📐 Dự án/Trấn Kỳ/9 Blog/Kế hoạch phát triển Trấn Kỳ|Mô hình kinh doanh Trấn Kỳ]]
+- [[Mô hình kinh doanh Trấn Kỳ|Mô hình kinh doanh Trấn Kỳ]]

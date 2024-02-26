@@ -2,7 +2,7 @@
 share: true
 created: 2023-10-30T14:29
 alias: jdeverest
-updated: 2023-12-07T11:40
+updated: 2024-02-22T20:11
 ---
 # Buổi gặp 1
 ## Nội dung chính
@@ -42,6 +42,7 @@ fund để phát triển
 - Founder Yeah1TV, phim Để Mai Tính, Long Ruồi
 - Đồng sáng lập Quỹ Đầu tư Khởi nghiệp Quốc gia (Vietnam Startup Investment Fund – VNSIF) (❓không tìm thấy website?) 
 - Làm việc với bộ khoa học kỹ thuật về không gian làm việc cho startup
+
 [Huy Nguyen](https://www.facebook.com/profile.php?id=100000718890989)
 <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2F61550794873460%2Fvideos%2F274851804937626%2F&show_text=true&width=560&t=0" width="560" height="429" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 

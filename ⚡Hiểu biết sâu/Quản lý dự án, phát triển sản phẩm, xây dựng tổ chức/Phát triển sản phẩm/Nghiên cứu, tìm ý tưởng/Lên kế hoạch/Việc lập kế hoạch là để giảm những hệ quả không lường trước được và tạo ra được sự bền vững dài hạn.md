@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-03T17:17
+updated: 2024-02-16T14:05
 ---
-Khái niệm:: [[Kế hoạch]], [[Bền vững, dài hạn]]
+Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Kế hoạch]], [[Bền vững, dài hạn]]
 
 ![Lecture 15 - How to Manage (Ben Horowitz) - YouTube](https://youtu.be/uVhTvQXfibU?si=TJEwubrYwssLj9kD&t=2002)
 Nguồn:: 

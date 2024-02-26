@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-25T19:53
+updated: 2024-02-12T17:08
 ---
 Nếu bạn có thời gian thì làm, còn không thì cũng không sao.
 
@@ -29,6 +29,7 @@ Trước tiên bạn cần hiểu mã UTM là gì. Bài chi tiết: [Hướng D�
 	- meeting
 - **Campaing name:** chọn một trong những mục sau:
 	- Giới thiệu vault
+	- Trấn Kỳ
 	- Nói về sự hợp tác
 	- Bàn luận hiểu biết
 	- Chia sẻ tài nguyên
@@ -38,7 +39,7 @@ Trước tiên bạn cần hiểu mã UTM là gì. Bài chi tiết: [Hướng D�
 
 ## Một số ví dụ
 ### Chia sẻ [[🌟 Mở đầu|trang chủ]] thành một bài trong nhóm ABC trên Facebook
-- **Campaing source:** `F G » ABC » O`
+- **Campaign source:** `F G » ABC » O`
 - **Campaign medium:** `social`
 - **Campaign name:** `Giới thiệu vault`
 

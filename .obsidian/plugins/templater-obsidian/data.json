@@ -29,6 +29,10 @@
     {
       "folder": "/",
       "template": "Ξ Thiết lập/Templates/Ý tưởng.md"
+    },
+    {
+      "folder": "📐 Dự án/Trấn Kỳ/1 Quang cảnh",
+      "template": "Ξ Thiết lập/Templates/Quang cảnh.md"
     }
   ],
   "syntax_highlighting": true,

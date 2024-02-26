@@ -4,7 +4,7 @@
   "isAutosuggestEnabled": true,
   "format": "DD-MM",
   "timeFormat": "HH:mm",
-  "separator": " ",
+  "separator": " T",
   "weekStart": "monday",
   "modalToggleTime": false,
   "modalToggleLink": false,

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-10T21:50
+updated: 2024-02-22T21:24
 alias:
   - Kế hoạch gây quỹ
   - Kêu gọi đầu tư
@@ -19,7 +19,7 @@ Vì việc giữ kín mã nguồn cũng không đem lại nhiều lợi thế c�
 ## Việc giữ kín mã nguồn cũng không đem lại nhiều lợi thế cạnh tranh cho lắm
 Những app quản lý tài chính như MoneyLover hay Misa chắc chắn sẽ bắt chước được tính năng này thôi. Ai có hiểu biết về lập trình nhìn vào cũng thấy đây chỉ là bắt regex chứ có gì đâu mà khó. Chịu khó bỏ thời gian ra để debug là được. Nên từ đầu việc giữ bí mật mã nguồn cũng không đem lại nhiều lợi thế cạnh tranh cho lắm. Tạo ra [[Hiệu ứng mạng là hiệu ứng mà mỗi một người dùng gia nhập vào mạng lưới sẽ tạo thêm giá trị và cải thiện chất lượng cho cả mạng lưới đó|hiệu ứng mạng]] sẽ giữ chân được người dùng hơn, đồng thời dữ liệu người dùng sẽ trở nên phong phú, đa dạng và nhiều giá trị để khai thác hơn.
 
-Bài chi tiết: [[Hỏi đáp về việc bán Trấn Kỳ]]{ .md-button .md-button--primary }
+Bài chi tiết: [[Mô hình kinh doanh Trấn Kỳ]]{ .md-button .md-button--primary }
 
 ## Chiếm lĩnh thị trường bằng việc tạo ra những nguồn tài nguyên chuyên sâu, có thể đáp ứng những nhu cầu đặc thù và cộng đồng thực chất
 Nếu chỉ xem cộng đồng như là sân sau của công ty, để có thể tăng đơn hàng hay là nơi hỗ trợ khách hàng thì người dùng cũng chỉ cho mình những dữ liệu như vậy. Còn nếu ta xây dựng được sự tin tưởng ở người dùng rằng ta sẽ luôn tìm cách để đáp ứng nhu cầu của họ, rằng ta không xem họ là nguồn tài nguyên để khai thác mà xem họ là bạn của mình, dẫn đường cho họ đi qua những điều họ đang không biết nhưng cần biết, thì ta sẽ là thứ đầu tiên người tham gia nghĩ đến khi cần giới thiệu cho bạn mình. Ta cũng dễ kiếm được nhân sự có chất lượng với mức lương dễ chịu hơn.
