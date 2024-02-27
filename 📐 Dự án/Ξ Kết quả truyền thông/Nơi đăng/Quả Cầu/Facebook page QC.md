@@ -1,13 +1,13 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-02-24T22:48
+updated: 2024-02-26T16:58
 ---
 # [[09-11]]
-15:38 đăng [[Các buổi đáp ứng nhu cầu học]] https://www.facebook.com/quacau.sphere/posts/pfbid0ePQADgc8zmQH7FyVa2GjHtmaMF1Rv4h8MnwMiy3f7LgSn3YQf9tDtvUzCwwuYJmQl
+15:38 đăng [[Các buổi đáp ứng nhu cầu học lập trình]] https://www.facebook.com/quacau.sphere/posts/pfbid0ePQADgc8zmQH7FyVa2GjHtmaMF1Rv4h8MnwMiy3f7LgSn3YQf9tDtvUzCwwuYJmQl
 
 # [[16-11]]
-23:56: [[Các buổi đáp ứng nhu cầu học]]:
+23:56: [[Các buổi đáp ứng nhu cầu học lập trình]]:
 - Post impressions: 127
 - Post reach: 121
 - Engagement: 17

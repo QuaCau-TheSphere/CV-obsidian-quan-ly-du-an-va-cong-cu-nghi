@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-25T16:30
+updated: 2024-02-26T16:58
 ---
-# [[Các buổi đáp ứng nhu cầu học]]
+# [[Các buổi đáp ứng nhu cầu học lập trình]]
 ## Pending
 [[07-02]] Dear Our Community - Sự Nghiệp Hạnh Phúc https://www.facebook.com/groups/410336910706612/my_pending_content
 [[07-02]] Project community https://www.facebook.com/groups/1027036950828309/my_pending_content
@@ -11,6 +11,8 @@ updated: 2024-02-25T16:30
 [[08-02]] VSRM-Vietnam Social Research Methodology https://www.facebook.com/groups/277566036004587/my_pending_content/
     [[09-02]] 17:06 gửi trong chat
     [[14-02]] từ chối
+
+[[26-02]] Vietnamese Humanities & Social Sciences Association (VHSSA) https://www.facebook.com/groups/3687586671347776/my_pending_content
 
 ## SNPO
 ### [[07-02]]

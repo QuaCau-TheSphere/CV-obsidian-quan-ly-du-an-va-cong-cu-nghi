@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-04T14:04
-updated: 2024-02-26T13:52
+updated: 2024-02-26T16:56
 alias:
   - Kế hoạch giúp Kendy
 ---
@@ -37,7 +37,7 @@ cần biết cụ thể mỗi tháng bao nhiêu lãi. Khó khăn:
 # Phương án 3: kiếm tiền từ các sản phẩm sinh ra từ việc hỗ trợ họ
 | Giải pháp gợi ý                                                                     | Hành vi cần đạt được                                                                                                                         | Giả thiết                                                                        | Công việc                                                                                                                             |
 | ----------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Kế hoạch tạo lợi nhuận từ Trấn Kỳ\|Tạo lợi nhuận từ Trấn Kỳ]]                     | Nhiều người bỏ tiền ra mua                                                                                                                   | [[Giả thiết về giá trị của Trấn Kỳ]], [[Giả thiết về khả năng vận hành Trấn Kỳ]] | [[Kế hoạch tạo lợi nhuận từ Trấn Kỳ\|Xây dựng kế hoạch tạo lợi nhuận từ Trấn Kỳ]]                                                     |
+| [[Kế hoạch tạo lợi nhuận|Tạo lợi nhuận từ Trấn Kỳ]]                     | Nhiều người bỏ tiền ra mua                                                                                                                   | [[Giả thiết về giá trị của Trấn Kỳ]], [[Giả thiết về khả năng vận hành Trấn Kỳ]] | [[Kế hoạch tạo lợi nhuận|Xây dựng kế hoạch tạo lợi nhuận từ Trấn Kỳ]]                                                     |
 | Tìm được một nhà đầu tư quan tâm đến giải pháp khắc phục việc giúp đỡ người phá sản | Nhà đầu tư thấy được những sản phẩm giúp đỡ người lương thiện kiệt quệ vì nợ cũng là những cơ hội gia nhập những thị trường chưa ai đụng tới | [[Giả thiết về thị trường của nền kinh tế phi chính thức]]                       | [[Các câu hỏi về việc thành lập quỹ tín dụng, nền kinh tế phi chính thức, bản chất CSR của doanh nghiệp và tâm lý con người về tiền]] |
 | Chạy quảng cáo trong lúc không có thời gian tập trung                               |                                                                                                                                              |                                                                                  |                                                                                                                                       |
 # Phương án 4: giảm tiền cho các nhu cầu sống khác

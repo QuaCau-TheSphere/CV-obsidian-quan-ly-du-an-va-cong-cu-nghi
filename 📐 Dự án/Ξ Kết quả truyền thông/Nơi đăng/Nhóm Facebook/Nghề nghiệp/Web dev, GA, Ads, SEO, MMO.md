@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-26T14:40
+updated: 2024-02-26T19:46
 ---
 # [[Tự động tạo liên kết UTM hoàn chỉnh chỉ bằng những thông tin tối thiểu (tên bài, nơi đăng)]]
 ## Pending
@@ -10,7 +10,7 @@ updated: 2024-02-26T14:40
 
 ## Decline
 [[21-02]] Cộng đồng Google Adwords Việt Nam https://www.facebook.com/groups/1839777139640099/my_pending_content/
-CHỢ NGHIỆN SEO https://www.facebook.com/groups/681244682686340/my_pending_content
+[[26-02]] CHỢ NGHIỆN SEO https://www.facebook.com/groups/681244682686340/my_pending_content
 
 ## 0 like
 [[21-02]] 22:06 Hội Lập Trình - Thiết Kế Web - SEO - Marketing Chuyên Nghiệp https://www.facebook.com/groups/vutruseo/posts/1991896184530936/
@@ -20,4 +20,10 @@ Học Lập Trình Web (Freetuts.net) https://www.facebook.com/groups/freetutsdo
 ## 1 like
 22:38 Cộng Đồng Google Analytics 4 (GA4) - Việt Nam https://www.facebook.com/groups/578268814077720/posts/892067449364520/
 
-# [[Các buổi đáp ứng nhu cầu học]]
+# [[Các buổi đáp ứng nhu cầu học lập trình]]
+## Pending
+[[26-02]] Học lập trình Web Frontend & Backend https://www.facebook.com/groups/1283666168335006/my_pending_content
+## 0 0 0
+[[26-02]] 19:46 CHỢ NGHIỆN SEO https://www.facebook.com/groups/chonghienseo/posts/1587292382081561/
+## 1 like
+[[26-02]] 17:46 Cộng đồng SEO Mũ Trắng Việt Nam https://www.facebook.com/groups/seomutrangvietnam/posts/389043517074520/

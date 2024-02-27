@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-26T13:54
+updated: 2024-02-26T16:59
 alias:
-  - Tạo lợi nhuận từ Trấn Kỳ
+  - Tạo lợi nhuận
   - Mô hình kinh doanh
   - Cách kiếm tiền
-  - Xây dựng kế hoạch tạo lợi nhuận từ Trấn Kỳ
+  - Xây dựng kế hoạch tạo lợi nhuận
 ---
 Mục tiêu: [[Mỗi tháng có lợi nhuận 10tr để trả lãi cho Trí]]<br>→ [[Lợi nhuận mỗi tuần 2tr5]]
 
@@ -29,12 +29,12 @@ Tình hình truyền thông:
 | Bài [[Các buổi hướng dẫn tích hợp Trấn Kỳ vào hệ thống quản lý\|Tích hợp Trấn Kỳ vào hệ thống của bạn]] có 10 lượt truy cập mỗi ngày                                      |           |           |
 | [[Các buổi hướng dẫn tích hợp Trấn Kỳ vào hệ thống quản lý#Tự động tạo liên kết UTM cho việc tiếp thị trực tuyến\|Tự động tạo liên kết UTM cho việc tiếp thị trực tuyến]] |           |           |
 # Dạy và tư vấn cho người muốn học kiến thức, kỹ năng xây dựng hệ thống quản lý và xử lý dữ liệu
-| Thành quả mong muốn                                                                                                                 | Giả thiết                                                 | Công việc |
-| ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | --------- |
-| Kiếm 1tr một tuần                                                                                                                   | Làm được trung bình 2 buổi/tuần. Mỗi buổi trung bình 500k |           |
-| Mỗi tuần làm trung bình 2 buổi                                                                                                      |                                                           |           |
-| Mỗi tuần có 2 người hỏi                                                                                                             |                                                           |           |
-| Mỗi ngày có 4 người đọc hơn 50% bài [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]] |                                                           |           |
+| Thành quả mong muốn                                                                                                                 | Giả thiết                                                 | Công việc                                                                                            |
+| ----------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| Kiếm 1tr một tuần                                                                                                                   | Làm được trung bình 2 buổi/tuần. Mỗi buổi trung bình 500k |                                                                                                      |
+| Mỗi tuần làm trung bình 2 buổi                                                                                                      |                                                           |                                                                                                      |
+| Mỗi tuần có 2 người hỏi                                                                                                             |                                                           |                                                                                                      |
+| Mỗi ngày có 4 người đọc hơn 50% bài [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]] |                                                           | [[Các buổi đáp ứng nhu cầu học lập trình\|Kế hoạch tiếp thị các buổi đáp ứng nhu cầu học lập trình]] |
 
 ---
 

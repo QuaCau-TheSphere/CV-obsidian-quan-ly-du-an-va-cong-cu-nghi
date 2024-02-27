@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-26T14:03
+updated: 2024-02-26T16:58
 ---
 # [[Bàn làm việc Google Calendar]]
 ## Pending
@@ -13,7 +13,7 @@ updated: 2024-02-26T14:03
 [[05-02]] 08:50 bị xoá trên Facebook vì là giới thiệu sản phẩm
 14:49 https://t.me/uan_mkt/864/2621
 
-# [[Các buổi đáp ứng nhu cầu học]]
+# [[Các buổi đáp ứng nhu cầu học lập trình]]
 ## Declined
 [[08-02]] Vietnam Market Report & AI Marketing https://www.facebook.com/groups/520739508884015/my_pending_content
 

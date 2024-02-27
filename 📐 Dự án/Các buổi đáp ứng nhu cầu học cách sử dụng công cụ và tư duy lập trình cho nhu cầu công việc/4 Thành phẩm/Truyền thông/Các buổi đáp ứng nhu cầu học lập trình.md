@@ -1,7 +1,9 @@
 ---
 share: true
 created: 2023-07-26T15:55
-updated: 2024-02-26T16:18
+updated: 2024-02-26T17:57
+alias:
+  - Kế hoạch tiếp thị các buổi đáp ứng nhu cầu học lập trình
 ---
 # Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc
 Nếu bạn muốn:
@@ -19,7 +21,7 @@ Thì các buổi đáp ứng nhu cầu học cách sử dụng công cụ và t�
 
 Những thứ sẽ được chú trọng trong các buổi này:
 - **Những khái niệm thiết yếu trong việc xây dựng mental model, đặc biệt là:**
-• Những khái niệm cơ bản mà nếu không được giải thích thì không thể tự đoán ra được. Công việc ta cần làm đòi hỏi ta phải làm theo những hướng dẫn mặc định rằng ta đã hiểu được chúng rồi, và không cung cấp thêm lời giải thích hoặc xây dựng đủ bối cảnh để ta có thể đoán ý nghĩa của nó. Thường để hiểu được các khái niệm cơ bản này ta sẽ phải quay lại học bài bản, nhưng lúc đó việc học bài bản lại phân tán sự tập trung của ta khỏi công việc cần làm.
+• Những khái niệm cơ bản mà nếu không được giải thích thì không thể tự đoán ra được. Công việc ta cần làm đòi hỏi ta phải làm theo những hướng dẫn mặc định rằng ta đã hiểu được chúng rồi, và không cung cấp thêm lời giải thích hoặc xây dựng đủ bối cảnh để ta có thể đoán ý nghĩa của nó. Thường để hiểu được các khái niệm cơ bản này ta sẽ phải quay lại học bài bản, nhưng lúc đó việc học bài bản lại phân tán sự tập trung của ta khỏi công việc cần làm
 • Các so sánh, ẩn dụ tới một cái gì đó dễ hiểu, dễ liên tưởng hơn
 • Sự khác biệt, tương phản hoặc tăng tiến về cường độ của những thứ có vẻ na ná nhau hoặc mâu thuẫn nhau
 • Những thuật ngữ dùng không được chuẩn xác. Có những cách dùng từ mà với người đã hiểu rồi thì sự thiếu chính xác cũng không thành vấn đề, thậm chí còn tiện lợi, nhưng người mới học thì thấy loạn (các misnomer)
@@ -35,7 +37,14 @@ Chúng là những thứ mà bạn ước rằng ngày xưa có ai nói với m�
 # Cách thức hoạt động
 Vì đây là dự án phục vụ nhu cầu và dựa trên thiết kế lộ trình làm việc của bạn, nên bọn mình cho rằng **bạn nên được quyền quyết định giá trị của buổi hướng dẫn**. Bọn mình khuyến khích bạn đề xuất giá trị của buổi hướng dẫn này với đa dạng hình thức chi trả/trao đổi nhu cầu (ví dụ: tiền hoặc các tác vụ hỗ trợ Quả Cầu theo thoả thuận). Để tham gia hãy điền vào phiếu đăng ký ở dưới. Sau khi xem xét các đăng ký, bọn mình sẽ lựa chọn để trao đổi và hợp tác với những nhu cầu phù hợp.
 
-# 👉Phiếu đăng ký: https://www.facebook.com/quacau.sphere/posts/pfbid02iFL5QSkjx9ozKuxFGjEhco2n8cMcSEkQFvQ4RPQC1jmrk6kprigoBHeg3L7XgZYPl
+# 👉 Phiếu đăng ký: tranky.deno.dev/học/cns
+https://www.facebook.com/quacau.sphere/posts/pfbid02iFL5QSkjx9ozKuxFGjEhco2n8cMcSEkQFvQ4RPQC1jmrk6kprigoBHeg3L7XgZYPl
+
+--- 
+[[Kế hoạch tạo lợi nhuận]] 
+[[📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Kế hoạch/Kế hoạch|Kế hoạch tổ chức các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình]]
+
+Mục tiêu: Mỗi ngày có 4 người đọc hơn 50% bài
 
 
 [[09-11]] [[Facebook page QC]], [[Discord QC]]

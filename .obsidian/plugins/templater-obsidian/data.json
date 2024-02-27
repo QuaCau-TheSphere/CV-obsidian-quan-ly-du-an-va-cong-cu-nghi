@@ -33,6 +33,10 @@
     {
       "folder": "📐 Dự án/Trấn Kỳ/1 Quang cảnh",
       "template": "Ξ Thiết lập/Templates/Quang cảnh.md"
+    },
+    {
+      "folder": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu",
+      "template": "Ξ Thiết lập/Templates/Nhu cầu công việc.md"
     }
   ],
   "syntax_highlighting": true,

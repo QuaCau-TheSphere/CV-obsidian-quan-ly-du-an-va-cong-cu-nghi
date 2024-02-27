@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8e53d4be44fe7749",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Truyền thông/Tự động tạo liên kết UTM hoàn chỉnh chỉ bằng những thông tin tối thiểu (tên bài, nơi đăng).md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "38225126dca54d4f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Truyền thông/Các buổi đáp ứng nhu cầu học.md",
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/9 Blog/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -34,20 +21,51 @@
             }
           },
           {
-            "id": "f693a50f169b35cf",
+            "id": "4be6cae6476cecc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/9 Blog/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc.md",
+                "file": "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Nghề nghiệp/Web dev, GA, Ads, SEO, MMO.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "02d90ff736c509bd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0316f9ec67fcf254",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Kỷ luật tài chính.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4cbe12708c3c9671",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ/WYSIWYM.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -114,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Truyền thông/Các buổi đáp ứng nhu cầu học.md",
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Kỷ luật tài chính.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Truyền thông/Các buổi đáp ứng nhu cầu học.md",
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Kỷ luật tài chính.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Truyền thông/Các buổi đáp ứng nhu cầu học.md"
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Kỷ luật tài chính.md"
               }
             }
           }
@@ -167,7 +185,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "dbfolder:Create a new database table": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -176,48 +193,49 @@
       "templater-obsidian:Templater": false,
       "obsidian-leaflet-plugin:Open Leaflet Map": false,
       "obsidian42-brat:BRAT": false,
-      "notion-like-tables:Create loom": false
+      "notion-like-tables:Create loom": false,
+      "dbfolder:Create a new database table": false
     }
   },
-  "active": "38225126dca54d4f",
+  "active": "0316f9ec67fcf254",
   "lastOpenFiles": [
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ/WYSIWYM.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Chèn ảnh, bảng, mục lục, trích dẫn, định dạng dễ dàng khi xuất bản nghiên cứu, sách.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Tạo đồ thị mạng lưới.md",
     "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/9 Blog/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Truyền thông/Các buổi đáp ứng nhu cầu học.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Truyền thông/Tự động tạo liên kết UTM hoàn chỉnh chỉ bằng những thông tin tối thiểu (tên bài, nơi đăng).md",
-    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Dữ liệu/Sản phẩm, phân tích kinh doanh.md",
-    "📐 Dự án/Trấn Kỳ/9 Blog/Mô hình kinh doanh Trấn Kỳ.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/2 Giả thuyết/Giả thiết về đối tượng cần học cách lập trình.md",
-    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Nghề nghiệp/Web dev, GA, Ads, SEO, MMO.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu học lập trình/Bản khảo sát nhu cầu học lập trình.md",
-    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Dữ liệu/Excel, AppScript.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/9 Blog/Theo mục tiêu/Các buổi hướng dẫn tích hợp Trấn Kỳ vào hệ thống quản lý.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch tạo lợi nhuận từ Trấn Kỳ/Kế hoạch tạo lợi nhuận từ Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch xây dựng cộng đồng phát triển Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ.md",
-    "📐 Dự án/Trấn Kỳ/2 Giả thiết/Giá trị của Trấn Kỳ/Giả thiết về giá trị của Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/2 Giả thiết/Khả năng vận hành/Giả thiết về khả năng vận hành Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kế hoạch tạo lợi nhuận từ Trấn Kỳ 2.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Xây dựng mô hình kinh doanh một người.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kendy cần gì.md",
-    "📐 Dự án/Trấn Kỳ/3 Thành quả mong muốn/Mỗi tháng có lợi nhuận 10tr để trả lãi cho Trí.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Kế hoạch/Kế hoạch.md",
-    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Hỗ trợ tổ chức/Dự án xã hội, NPO, nghiên cứu khoa học, nghệ thuật, hội hoạ.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Chuyển từ giả định nghiên cứu sang bảng hỏi định lượng thế nào cho hiệu quả.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Người dùng cá nhân/Nhu cầu phân loại tự động/Câu hỏi khảo sát.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/9 Blog/Theo mục tiêu/Các buổi hướng dẫn cào dữ liệu web vào Google Calendar.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Khảo sát người muốn tham gia nhóm học lập trình.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nghiên cứu người dùng.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/Neo4j.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/Graphviz.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Kỷ luật tài chính.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ/Gom sự kiện từ web vào Google Calendar.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ/Tự động hoá các công việc lặp đi lặp lại.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/Terminal, shell, path, env.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/PowerShell.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/CopyQ.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/AutoHotKey.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ/Cào web.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/Lập trình hướng vật thể.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/Google Calendar.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Tổng hợp các sự kiện mình có thể quan tâm từ nhiều nguồn vào một chỗ.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Hạch toán doanh nghiệp.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ/Phân loại dữ liệu tự động.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/Trấn Kỳ.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/VS Code.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/YAML.md",
+    "📐 Dự án/Trấn Kỳ/Trấn Kỳ.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nghiên cứu cộng đồng mạng.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ/Tạo web tĩnh.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Chia sẻ kho tri thức của mình cho mọi người.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/New folder",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/New folder",
     "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Trải nghiệm sau buổi học",
     "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Quả Cầu/Discord QC",
     "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Quả Cầu",
     "Ξ Thiết lập/Ảnh/Pasted image 20240221020431.png",
     "📐 Dự án/Trấn Kỳ/1 Quang cảnh/Cách nhập liệu/~syncthing~Nhập liệu được trên Google Keep.md.tmp",
     "📐 Dự án/Trấn Kỳ/1 Quang cảnh/Cách nhập liệu/~syncthing~Nhập liệu được trên Telegram.md.tmp",
-    "📐 Dự án/Trấn Kỳ/1 Quang cảnh/Cách nhập liệu/~syncthing~Untitled.md.tmp",
-    "📐 Dự án/Trấn Kỳ/1 Quang cảnh/Tính năng khác/~syncthing~Dễ dàng truyền dữ liệu sang các phần mềm khác.md.tmp",
-    "📐 Dự án/Trấn Kỳ/1 Quang cảnh/Giải pháp/~syncthing~Dễ dàng truyền dữ liệu sang các phần mềm khác.md.tmp",
-    "📐 Dự án/Trấn Kỳ/1 Quang cảnh/Giải pháp/~syncthing~Untitled.md.tmp",
-    "📐 Dự án/Trấn Kỳ/1 Quang cảnh/Chi phí và kỹ năng cần có/~syncthing~Có thể học giao diện.md.tmp",
     "Ξ Thiết lập/Ảnh/Pasted image 20240216111339.png",
     "Ξ Thiết lập/Ảnh/Trấn Kỳ/Demo.gif",
     "Ξ Thiết lập/Ảnh/Trấn Kỳ/firefox_2024-02-14_20-32-48.gif",
