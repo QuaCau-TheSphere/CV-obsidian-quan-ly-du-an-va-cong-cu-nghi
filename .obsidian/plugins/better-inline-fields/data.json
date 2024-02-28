@@ -51,6 +51,10 @@
     {
       "field": "Nhu cầu công nghệ",
       "folder": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ"
+    },
+    {
+      "field": "Lĩnh vực",
+      "folder": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Lĩnh vực"
     }
   ],
   "regexpTrigger": "/",

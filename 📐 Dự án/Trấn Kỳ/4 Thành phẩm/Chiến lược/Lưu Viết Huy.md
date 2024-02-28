@@ -1,6 +1,6 @@
 ---
 created: 2023-09-05T16:17
-updated: 2024-02-24T13:03
+updated: 2024-02-27T22:08
 ---
 
 Mình là Huy, hiện tại có 1 anh Tùng PM hiện tại đang làm dự án về quản lý chi tiêu
@@ -91,7 +91,7 @@ recommend hơn về join cùng, cần am hiểu về sản phẩm
 
 Sát nhập
 tháng 11 năm ngoá
-lên ý tưởng lâu rồi, giờ ddalamf user research để xây dựng flow hoàn chỉnh
+lên ý tưởng lâu rồi, giờ đang làm user research để xây dựng flow hoàn chỉnh
 sau đó lên UI và MVP. Dự kiến là xong giữa tháng tư
 budget 
 sau mvp thiof sẽ nhờ công ty tư vấn

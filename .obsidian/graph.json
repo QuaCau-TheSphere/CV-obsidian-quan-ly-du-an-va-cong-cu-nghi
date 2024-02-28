@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:\"⚡Hiểu biết sâu\" -path:\"⚡Hiểu biết sâu/Ξ Khái niệm\"  -path:\"⚡Hiểu biết sâu/Ξ Nguồn\"",
+  "search": "path:\"📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,10 +8,17 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức\"  ",
+      "query": "path:\"📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật\"  ",
       "color": {
         "a": 1,
         "rgb": 14048348
+      }
+    },
+    {
+      "query": "path:\"📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14069084
       }
     }
   ],
@@ -25,6 +32,6 @@
   "repelStrength": 9.32880518678605,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.13168724279835511,
+  "scale": 0.362887369301215,
   "close": false
 }

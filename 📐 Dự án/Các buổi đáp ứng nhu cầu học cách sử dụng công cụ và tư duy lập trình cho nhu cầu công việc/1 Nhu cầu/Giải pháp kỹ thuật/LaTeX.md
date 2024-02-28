@@ -1,7 +1,6 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-02-27T15:58
+updated: 2024-02-28T13:57
 ---
-Nhu cầu công nghệ::
-Giải pháp kỹ thuật::
+Lĩnh vực:: [[Sắp chữ & thiết kế]]

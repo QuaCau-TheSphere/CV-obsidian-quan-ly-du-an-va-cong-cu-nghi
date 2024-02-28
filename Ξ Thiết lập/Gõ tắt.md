@@ -1,6 +1,6 @@
 ---
 created: 2023-05-26T14:51
-updated: 2023-12-10T15:50
+updated: 2024-02-28T13:44
 ---
 Nhu cầu:: 		nc, dy, tl
 Nhu cầu dẫn tới:: 		ncdt, ch, mt
@@ -20,6 +20,8 @@ Câu hỏi:: 		ch
 Nguồn:: 		ng
 Xem thêm:: 		xt
 Mâu thuẫn với:: 		mtv
+
+Lĩnh vực:: 		lv
 # Code nhanh
 ## Bảng
 | Thành quả mong muốn | Giả thiết | Công việc |\n| ------------------- | --------- | --------- |		tqmm
