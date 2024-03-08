@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-07-26T15:55
-updated: 2024-02-27T15:19
+updated: 2024-03-02T22:33
 cssClasses: wide-table
 ---
 Nếu bạn muốn:
 - Quản lý và xử lý được thông tin, dữ liệu, kiến thức của mình một cách hiệu quả
-- Không phải tốn tiền thuê cho những thứ mà mình có thể làm được, hoặc thậm chí tự mình làm sẽ tốt hơn
+- Không phải tốn tiền thuê cho những thứ mà mình có thể làm được, hoặc thậm chí tự mình làm sẽ tốt hơn. Không muốn bị phụ thuộc vào người khác
 - Có những gợi ý tốt hơn trong việc pháp triển cá nhân và sự nghiệp, đem lại nhiều cơ hội, nhiều sự thú vị và ý nghĩa cho bạn hơn
 
 Và để đạt được điều này, bạn thấy mình cần:
@@ -30,27 +30,43 @@ Thì các buổi đáp ứng nhu cầu học cách sử dụng công cụ và t�
 > 
 > Chúng là những thứ mà bạn ước rằng ngày xưa có ai nói với mình như vậy để mình hiểu ra nhanh. Chúng thể hiện được sự vận động, chuyển động của khái niệm.
 
-# Một số nhu cầu công việc ví dụ và những sản phẩm và kiến thức cần có để làm được chúng
-| Nhu cầu                                                             | Sản phẩm thực hành                              | Ngôn ngữ               | Khái niệm                                    | Công cụ                                                     | Khuyến khích biết trước | Mô tả chi tiết                                                                                                                        |
-| ------------------------------------------------------------------- | ----------------------------------------------- | ---------------------- | -------------------------------------------- | ----------------------------------------------------------- | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
-| Nghiên cứu cộng đồng mạng, nắm bắt xu hướng, nhân văn số            | WE1S                                            | Python                 | NLP, khối dữ liệu, mô hình chủ đề, API       |                                                             | Git, terminal           |                                                                                                                                       |
-| Kết nối thông tin và chia sẻ kho tri thức của mình cho mọi người    | Obsidian và web trên netlify                    | Python                 | Web                                          | Obsidian, Mkdocs, Netlify                                   | Git, terminal           |                                                                                                                                       |
-| Tạo website cho dự án, tiếp thị số                                  | WordPress, Google Analytics, Google Tag Manager | PHP                    | Host, nameserver, CDN, web động, UTM, JS tag | WordPress, Cloudflare, Google Analytics, Google Tag Manager |                         |                                                                                                                                       |
-| Quản lý phiên bản cho luận văn (du hành thời gian)                  | GitKraken                                       | LaTeX                  | Git, version control, WYSIWYW                | Git, GitKraken, GitHub Page                                 |                         |                                                                                                                                       |
-| Xây dựng tổ chức và mạng lưới, quản lý thông tin và nhu cầu các bên | Vùng đất Quả Cầu, Mạng kết nối nhu cầu          |                        |                                              | Obsidian                                                    |                         |                                                                                                                                       |
-| Tự động phân loại chi tiêu cá nhân hoặc hạch toán doanh nghiệp      | Trấn Kỳ                                         | YAML                   | API, shell                                   | VS Code, terminal, Git                                      |                         | [[Các buổi hướng dẫn tích hợp Trấn Kỳ vào hệ thống quản lý\|Tích hợp Trấn Kỳ vào hệ thống của bạn]]{ .md-button .md-button--primary } |
-| Gom sự kiện mình cần theo dõi vào Google Calendar                   | Google Calendar                                 | Python                 | Cào web, API, OOP                            | VS Code                                                     |                         | [[Các buổi hướng dẫn cào dữ liệu web vào Google Calendar\|Cào dữ liệu web vào Google Calendar]]{ .md-button .md-button--primary }     |
-| Tự động hoá các công việc lặp đi lặp lại                            | Script AutoHotKey, CopyQ, PowerShell            | AutoHotKey, PowerShell | Script, path, shell, biến môi trường         | VS Code, CopyQ, Terminal                                    |                         |                                                                                                                                       |
-| Tự động tạo cây vấn đề cũng như các loại đồ thị khác                |                                                 | Cypher, DOT            |                                              | Graphviz, Mermaid, Neo4j                                    |                         |                                                                                                                                       |
-| Hiểu các kỹ thuật lập trình                                         | Trấn Kỳ                                         | Javascript/TypeScript  | OOP, SOLID, debug, unicode, design pattern   | VS Code, Deno, Fibery                                       | Git, terminal           | [[Các buổi hướng dẫn hiểu các công cụ và kỹ thuật lập trình]]{ .md-button .md-button--primary }                                       |
-|                                                                     |                                                 |                        |                                              |                                                             |                         |                                                                                                                                       |
+# Một số nhu cầu ví dụ và những kiến thức cần có để làm được chúng
+### Các nhu cầu công việc ví dụ
+```dataview
+LIST without id file.name
+FROM "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công việc" 
+where file.name!="Nhu cầu công việc" 
+```
 
+### Các nhu cầu công nghệ ví dụ
+```dataview
+LIST without id file.name
+FROM "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ" 
+where file.name!="Nhu cầu công nghệ" 
+```
+
+### Tiêu chí lựa chọn
+- Là những nhu cầu liên quan đến lập trình,
+- Thường đủ phức tạp để các giải pháp làm sẵn hoặc AI không đáp ứng hiệu quả được 
+- Thường xuất hiện ở các tổ chức, dự án nhỏ, vốn không có nhiều tiền để thuê ngoài
+- Thường tự làm thì sẽ làm chủ động và hiệu quả hơn là để người khác làm
+- Việc tự học để giải quyết nhu cầu thường tạo cảm giác bị phân tán sự tập trung khỏi công việc quan trọng hơn
+
+### Nhận xét
+Việc có hiểu biết về một lĩnh vực hoặc một giải pháp kỹ thuật sẽ giúp giải quyết các nhu cầu đòi hỏi kiến thức về lĩnh vực/giải pháp kỹ thuật đó. Nên nếu lĩnh vực/giải pháp kỹ thuật ta am hiểu càng có nhiều nhu cầu đổ về nó, thì ta sẽ càng linh hoạt hơn trong tương lai. 
+
+### Lưu ý khác
+Các giải pháp kỹ thuật chỉ là những giải pháp thường được dùng, không nhất thiết là giải pháp duy nhất.
+
+Một số buổi có bài viết chi tiết:
+ - [[Các buổi hướng dẫn tích hợp Trấn Kỳ vào hệ thống quản lý\|Tích hợp Trấn Kỳ vào hệ thống của bạn]]{ .md-button .md-button--primary } 
+ - [[Các buổi hướng dẫn cào dữ liệu web vào Google Calendar\|Cào dữ liệu web vào Google Calendar]]{ .md-button .md-button--primary } 
 # Lộ trình
 Vì đây là dự án phục vụ nhu cầu của bạn, nên số lượng buổi học, thời gian học, và hình thức học (trực tuyến hay trực tiếp) đều do bạn quyết định. 
 
-Người hướng dẫn sẽ là tất cả những ai có hứng thú hướng dẫn. Người quản lý chính sẽ là Lý Minh Nhật. Xem LinkedIn của Lý Minh Nhật để biết thêm chi tiết.
+Người ai có khả năng và mong muốn hướng dẫn lại cho người khác sẽ trở thành người hướng dẫn. Hiện tại, người hướng dẫn chính là Lý Minh Nhật ([LinkedIn](https://www.linkedin.com/in/nh%E1%BA%ADt-l%C3%BD/)).
 
-Vì đây là dự án phục vụ nhu cầu và dựa trên thiết kế lộ trình làm việc của bạn, nên bọn mình cho rằng **bạn nên được quyền quyết định giá trị của buổi hướng dẫn**. Bọn mình khuyến khích bạn đề xuất giá trị của buổi hướng dẫn này với đa dạng hình thức chi trả/trao đổi nhu cầu (ví dụ: tiền hoặc các tác vụ hỗ trợ Quả Cầu theo thoả thuận). Để tham gia hãy điền vào phiếu đăng ký ở dưới. Sau khi xem xét các đăng ký, bọn mình sẽ lựa chọn để trao đổi và hợp tác với những nhu cầu phù hợp.
+Bọn mình cho rằng **bạn nên được quyền quyết định giá trị của buổi hướng dẫn**. Bọn mình khuyến khích bạn đề xuất giá trị của buổi hướng dẫn này với đa dạng hình thức chi trả/trao đổi nhu cầu (ví dụ: tiền hoặc các tác vụ hỗ trợ Quả Cầu theo thoả thuận). Để tham gia hãy điền vào phiếu đăng ký ở dưới. Sau khi xem xét các đăng ký, bọn mình sẽ lựa chọn để trao đổi và hợp tác với những nhu cầu phù hợp.
 
 Đọc thêm các bài sau đây để hiểu hơn về ý tưởng này:
 - [[Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình|Khi nào thì chiến lược định giá "trả tuỳ tâm" đạt được sự bền vững?]]
@@ -101,18 +117,6 @@ Bảng này so sánh đặc điểm các mô hình học tập khác nhau để 
 | Trình độ người hướng dẫn cao                        | Tuỳ                            | ✔                               | ✔                                                          | ✔                                                   |
 | Không cần dùng tiền để được tham gia                | ✔                              | ❌                              | Tuỳ                                                        | ✔                                                   |
 Điểm giống và khác của các mô hình học tập
-
-
-
-
-Mục tiêu
-1. Phần description quá dài lại không ghi rõ purpose và objectives của khoá học. Cần ghi rõ hơn mối quan hệ giữa kiến thức và kỹ năng nhóm em định dạy và việc nghiên cứu khoa học
-2. Thời gian học
-3. Nếu là trao đổi nhu cầu thì em có thể ghi là nó có thể free, vid có thể các bạn sẽ hiểu lầm là phải trả tiền hoặc tương tự thì mới có thể học
-
-Em viết như một bài proposal hay giới thiệu workshop thì mọi người đọc hiểu dễ hơn nhé.
-Profile của người sẽ dạy khoá học:
-
 
 
 

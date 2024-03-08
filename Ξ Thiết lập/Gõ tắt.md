@@ -1,6 +1,6 @@
 ---
 created: 2023-05-26T14:51
-updated: 2024-02-28T13:44
+updated: 2024-03-01T15:35
 ---
 Nhu cầu:: 		nc, dy, tl
 Nhu cầu dẫn tới:: 		ncdt, ch, mt
@@ -21,7 +21,10 @@ Nguồn:: 		ng
 Xem thêm:: 		xt
 Mâu thuẫn với:: 		mtv
 
+Nhu cầu công việc:: 		nccv
+Nhu cầu công nghệ:: 		nccn
 Lĩnh vực:: 		lv
+Giải pháp kỹ thuật:: 		gpkt
 # Code nhanh
 ## Bảng
 | Thành quả mong muốn | Giả thiết | Công việc |\n| ------------------- | --------- | --------- |		tqmm
@@ -37,7 +40,7 @@ Các note cũng nói về chủ đề này:\n```dataview \nList\nWhere contains(
 
 ## Mermaid
 ```mermaid\ngantt\ndateFormat  D/M H:m\naxisFormat  %d/%m\ntitle       Biểu đồ mẫu\n\nsection Phần A\nViệc 1                 : 5/5 4:30, 3d\nViệc 2                 : 5d \n\nsection Phần B\nMilestone            : milestone, 4/5 04:30\n```		mmgantt
-```mermaid\nflowchart TB\nc1-->a2\nsubgraph one\na1-->a2\nend\n\nsubgraph two\nb1-->b2\nend\n\nsubgraph three\nc1-->c2\nend\n```	 		mmflowchart
+```mermaid\nflowchart TB\nc1["This ❤ Unicode"]-->a2\nsubgraph one\na1-->a2\nend\n\nsubgraph two\nb1-->b2\nend\n\nsubgraph three\nc1-->c2\nend\n```	 		mmflowchart
 
 [label="|"]		ll
 

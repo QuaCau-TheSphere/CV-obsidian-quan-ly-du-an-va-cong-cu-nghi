@@ -1,7 +1,6 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-02-27T15:35
+updated: 2024-03-01T01:42
 ---
-Nhu cầu công nghệ::
-Giải pháp kỹ thuật::
+Giải pháp kỹ thuật:: [[VS Code]]

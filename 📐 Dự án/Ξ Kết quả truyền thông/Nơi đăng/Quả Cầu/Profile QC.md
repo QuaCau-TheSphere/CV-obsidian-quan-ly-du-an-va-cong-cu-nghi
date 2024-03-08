@@ -1,10 +1,13 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-26T16:58
+updated: 2024-02-29T23:59
 ---
-# [[16-11]]
-23:55 [[Các buổi đáp ứng nhu cầu học lập trình]] share từ [[Facebook page QC]] https://www.facebook.com/qua.cau.the.sphere/posts/pfbid02J7yUYGFa5ijJMG79h1fXbrn1g7tvdDC5RMPxzTe4QQdddyypAF4yJFbqRymXjrLjl
+# [[Các buổi đáp ứng nhu cầu học lập trình]]
+[[16-11]] 23:55 share từ [[Facebook page QC]] https://www.facebook.com/qua.cau.the.sphere/posts/pfbid02J7yUYGFa5ijJMG79h1fXbrn1g7tvdDC5RMPxzTe4QQdddyypAF4yJFbqRymXjrLjl
+[[29-02]] 23:56 4 react, 1 share
+[[29-02]] 23:52 đăng ảnh [[Đồ thị nhu cầu.svg]]
+23:59 2 like
 
 # [[29-12]]
 22:30 [[Bàn làm việc Google Calendar]] share từ [[Facebook page QC]] https://www.facebook.com/qua.cau.the.sphere/posts/pfbid02coaf6JZ4P3qLTBrGjncTaXpLPwjgRtHZXpQDYf2E16nuCpGHKzEKtn1xS4PYvbGfl
@@ -17,3 +20,4 @@ updated: 2024-02-26T16:58
 
 # [[Câu hỏi khảo sát]]
 [[24-02]] 14:33 https://www.facebook.com/qua.cau.the.sphere/posts/pfbid0am81HWBQLSxBMY9ZCZwxLxRQtmipmA6tYrcb68McLr1oq2kYMHbasFz154biUqYWl
+

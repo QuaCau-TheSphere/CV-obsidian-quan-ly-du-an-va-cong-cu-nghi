@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-24T13:34
+updated: 2024-03-01T14:07
 description: Nhập dữ liệu và tạo bảng phân loại ngay trên hệ thống bạn đang dùng
 alias:
   - Tích hợp Trấn Kỳ vào hệ thống của bạn
@@ -75,8 +75,10 @@ Các chức năng mở rộng khác:
 ![](https://i.imgur.com/SIG0zj7.png)
 
 ### Lưu kết quả tiếp thị trên mạng xã hội
+Chỉ dùng khi không cào được web
 ### Tạo thông tin chứng từ cho kế toán
 ### Hệ thống chấm điểm cảm xúc
+Dành cho người hay quên rằng mình có nhiều 
 
 ## Các tính năng hỗ trợ khác (a.k.a. yêu cầu phi chức năng) 
 - **Viết cho người Việt** nên:

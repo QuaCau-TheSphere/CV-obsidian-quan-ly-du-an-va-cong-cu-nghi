@@ -1,13 +1,12 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-26T16:58
+updated: 2024-02-29T23:43
 ---
 # [[Các buổi đáp ứng nhu cầu học lập trình]]
 ## Pending
 [[07-02]] Dear Our Community - Sự Nghiệp Hạnh Phúc https://www.facebook.com/groups/410336910706612/my_pending_content
 [[07-02]] Project community https://www.facebook.com/groups/1027036950828309/my_pending_content
-[[07-02]] Vietnamese Humanities & Social Sciences Association (VHSSA) https://www.facebook.com/groups/3687586671347776/my_pending_content
 [[08-02]] VSRM-Vietnam Social Research Methodology https://www.facebook.com/groups/277566036004587/my_pending_content/
     [[09-02]] 17:06 gửi trong chat
     [[14-02]] từ chối
@@ -19,9 +18,9 @@ updated: 2024-02-26T16:58
 14:50 duyệt sau khi hỏi anh Sơn tại sao chưa được duyệt https://www.facebook.com/groups/mangluoisnpo/permalink/1438222743706828
 21:55 4 react
 
-## WORKSHOP CHO NGƯỜI TRẺ
-### [[07-02]]
-https://www.facebook.com/groups/1870723840010036/posts/1938176049931481
+# 1 like
+[[07-02]] 11:28 WORKSHOP CHO NGƯỜI TRẺ https://www.facebook.com/groups/1870723840010036/posts/1938176049931481
+[[29-02]] 20:00 Vietnamese Humanities & Social Sciences Association (VHSSA) https://www.facebook.com/groups/viethssa/posts/6699423853497361/
 
 # [[Câu hỏi khảo sát#Việc nhập liệu và gắn nhãn dữ liệu áp dụng vào công việc gì trong công tác xã hội?]]
 ## Pending

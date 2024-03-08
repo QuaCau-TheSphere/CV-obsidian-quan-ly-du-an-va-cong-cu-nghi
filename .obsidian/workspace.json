@@ -4,23 +4,76 @@
     "type": "split",
     "children": [
       {
-        "id": "08abac00ec6c9e34",
+        "id": "48bbef509c90b0e9",
         "type": "tabs",
         "children": [
           {
-            "id": "38225126dca54d4f",
+            "id": "743483e39be12943",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kendy cần gì.md",
+                "file": "📜 Tài nguyên/Thủ thuật phần mềm/Delightful humane design.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0eca25d7adbad524",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/Trấn Kỳ.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "1e2f33127c6a3773",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/Gia công giải pháp/Kết nối nhu cầu di chuyển của người khuyết tật.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
+          },
+          {
+            "id": "53a1228f5ce6a0a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Tổ chức nhỏ/Mục tiêu và câu hỏi nghiên cứu tổ chức nhỏ cần trích xuất dữ liệu có cấu trúc từ dữ liệu phi cấu trúc.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "6986934cb211668d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/9 Blog/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -70,8 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "c337a3ea5e852bbb",
@@ -87,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kendy cần gì.md",
+                "file": "📐 Dự án/Gia công giải pháp/Kết nối nhu cầu di chuyển của người khuyết tật.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kendy cần gì.md",
+                "file": "📐 Dự án/Gia công giải pháp/Kết nối nhu cầu di chuyển của người khuyết tật.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kendy cần gì.md"
+                "file": "📐 Dự án/Gia công giải pháp/Kết nối nhu cầu di chuyển của người khuyết tật.md"
               }
             }
           }
@@ -152,44 +204,45 @@
       "dbfolder:Create a new database table": false
     }
   },
-  "active": "38225126dca54d4f",
+  "active": "8df4115b70014980",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả/Về nguyên tắc, sự cạnh tranh của thị trường sẽ đòi hỏi bên bán phải cải tiến sản phẩm. Trên thực tế một công ty có sản phẩm không tốt bằng nhưng làm marketing tốt sẽ khiến người dùng không biết về sản phẩm tốt hơn.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/Đôi khi, giá trị thị trường lấn át những giá trị phi thị trường đáng quan tâm.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/❓Miễn phí, trả tuỳ tâm, tự định giá sức lao động.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/Về nguyên tắc, sự cạnh tranh của thị trường sẽ đòi hỏi bên bán phải cải tiến sản phẩm. Trên thực tế một công ty có sản phẩm không tốt bằng nhưng làm marketing tốt sẽ khiến người dùng không biết về sản phẩm tốt hơn.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/Thị trường không định giá. Ta mới là người định giá.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/Thị trường không chỉ phân bố hàng hoá mà còn bộc lộ, khuyến khích con người có những thái độ nhất định với các loại hàng hoá.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/Sự hấp dẫn của tư duy thị trường ở chỗ nó không phán xét.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/Nền kinh tế thị trường khác với xã hội thị trường.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/Những sản phẩm quá mới mẻ khó theo hình thức trả giá tuỳ tâm được, vì người mua không có cách nào để đoán giá.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/Những gì “thị trường muốn” có xu hướng đồng nghĩa với những gì các doanh nghiệp và ông chủ của nó muốn.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/Các từ ngữ do chủ nghĩa tân tự do sử dụng thường có tính che giấu nhiều hơn là được làm sáng tỏ.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/Giá cao làm tăng kỳ vọng, nhưng không làm thay đổi cảm nhận về chất lượng.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/Chúng ta cần có tiền, nhưng không cần giàu có.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường/Chỉ khi có sự trao đổi thì giá cả mới xuất hiện.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả, thị trường",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Chủ nghĩa tân tự do/Đôi khi, giá trị thị trường lấn át những giá trị phi thị trường đáng quan tâm.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả/Thị trường không chỉ phân bố hàng hoá mà còn bộc lộ, khuyến khích con người có những thái độ nhất định với các loại hàng hoá.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả/Sự hấp dẫn của tư duy thị trường ở chỗ nó không phán xét.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả/Những gì “thị trường muốn” có xu hướng đồng nghĩa với những gì các doanh nghiệp và ông chủ của nó muốn.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả/Nền kinh tế thị trường khác với xã hội thị trường.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả/Đôi khi, giá trị thị trường lấn át những giá trị phi thị trường đáng quan tâm.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả/Chúng ta cần có tiền, nhưng không cần giàu có.md",
-    "⚡Hiểu biết sâu/Kinh tế học và chủ nghĩa tân tự do. Tâm lý học quản lý và lao động/Kinh tế học, chủ nghĩa tân tự do/Giá trị, giá cả/Các từ ngữ do chủ nghĩa tân tự do sử dụng thường có tính che giấu nhiều hơn là được làm sáng tỏ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kendy cần gì.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Truyền thông/Lời mời tham gia đầu tư vào Trấn Kỳ.md",
+    "📐 Dự án/Gia công giải pháp/Nhập khẩu kế toán.md",
+    "📐 Dự án/Gia công giải pháp/Kết nối nhu cầu di chuyển của người khuyết tật.md",
+    "📐 Dự án/Gia công giải pháp/Tạo báo cáo tiếp thị quản lý được theo từng cấp.md",
+    "📐 Dự án/Gia công giải pháp",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Xây dựng dự án/Hiện tượng khuếch tán trách nhiệm, người ngoài đứng nhìn.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/Trấn Kỳ.md",
+    "📐 Dự án/Công cụ cho hệ sinh thái/Truyền thông/Email gửi Hanoi Grapevine.md",
+    "Ξ Thiết lập/Templates/Quang cảnh.md",
+    "Ξ Thiết lập/test.md",
+    "Ξ Thiết lập/Danh sách tất cả các tag.md",
+    "Ξ Thiết lập/Code supplement.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/1 Nhu cầu.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Tổ chức nhỏ/Mục tiêu và câu hỏi nghiên cứu tổ chức nhỏ cần trích xuất dữ liệu có cấu trúc từ dữ liệu phi cấu trúc.md",
+    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Nghề nghiệp/Web dev, GA, Ads, SEO, MMO.md",
+    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Nghề nghiệp/Marketing.md",
+    "Ξ Thiết lập/Gõ tắt.md",
+    "📐 Dự án/Gia công phần mềm/UTM",
+    "📐 Dự án/Gia công phần mềm/Phân loại thu chi",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Khoa học máy tính/Lập trình viên biết lập trình chủ yếu là nhờ biết google.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Lý do viết Trấn Kỳ.md",
+    "📐 Dự án/Công cụ cho hệ sinh thái/9 Blog/Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền.md",
+    "📜 Tài nguyên/Làm dự án/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/Hà Nội/Cricket.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công việc/Nhu cầu công việc.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ/Viết plugin.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật/JavaScript.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công việc/Nghiên cứu/Xây dựng kho tri thức.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ/Hệ thống quản lý kiến thức.md",
     "📐 Dự án/Trấn Kỳ/9 Blog/Mô hình kinh doanh Trấn Kỳ.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Lĩnh vực/Sắp chữ & thiết kế.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Lĩnh vực",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/New folder",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công việc",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/New folder",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Trải nghiệm sau buổi học",
-    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Quả Cầu/Discord QC",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Kiểm định giả thuyết/Để có thể thiết kế một giải pháp một cách nhanh chóng và tự tin, ta cần được thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra.md",
+    "Ξ Thiết lập/Ảnh/Đồ thị nhu cầu.svg",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công việc/Cá nhân",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công việc/Nghiên cứu",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công việc/New folder",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức nhỏ",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công việc/Doanh nghiệp",
+    "⚡Hiểu biết sâu/Kinh tế. Tâm lý học quản lý và lao động/Kinh tế/Giá trị, giá cả, thị trường/~syncthing~❓Truyền miệng là cách để sản phẩm tốt hơn chiến thắng trên thị trường.md.tmp",
     "Ξ Thiết lập/Ảnh/Pasted image 20240221020431.png",
     "Ξ Thiết lập/Ảnh/Pasted image 20240216111339.png",
     "Ξ Thiết lập/Ảnh/Trấn Kỳ/Demo.gif",
@@ -198,7 +251,6 @@
     "Ξ Thiết lập/Ảnh/Các buổi đáp ứng nhu cầu học lập trình/1. Điểm giống và khác của các mô hình học tập.png",
     "Ξ Thiết lập/Ảnh/Các buổi đáp ứng nhu cầu học lập trình/Bàn làm việc Google Calendar.png",
     "Ξ Thiết lập/Ảnh/Các buổi đáp ứng nhu cầu học lập trình/Bàn làm việc Google Calendar demo.png",
-    "Ξ Thiết lập/Ảnh/Các buổi đáp ứng nhu cầu học lập trình/Một số nhu cầu công việc ví dụ và những sản phẩm và kiến thức cần có để làm được chúng.png",
-    "Ξ Thiết lập/Ảnh/Các buổi đáp ứng nhu cầu học lập trình/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc.png"
+    "Ξ Thiết lập/Ảnh/Các buổi đáp ứng nhu cầu học lập trình/Một số nhu cầu công việc ví dụ và những sản phẩm và kiến thức cần có để làm được chúng.png"
   ]
 }

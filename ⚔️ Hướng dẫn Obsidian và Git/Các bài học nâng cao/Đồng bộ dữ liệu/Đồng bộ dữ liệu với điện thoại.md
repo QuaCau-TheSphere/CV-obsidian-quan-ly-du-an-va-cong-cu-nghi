@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-10T12:00
-updated: 2023-10-06T16:09
+updated: 2024-03-02T21:13
 ---
 # B1: Tải Syncthing
 Tệp cài đặt Syncthing cho [Windows](https://github.com/canton7/SyncTrayzor/releases/download/v1.1.29/SyncTrayzorSetup-x64.exe), [Mac](https://github.com/syncthing/syncthing-macos/releases/download/v1.21.0-1/Syncthing-1.21.0-1.dmg). Cả hai đều có app trên Android và iOS. 

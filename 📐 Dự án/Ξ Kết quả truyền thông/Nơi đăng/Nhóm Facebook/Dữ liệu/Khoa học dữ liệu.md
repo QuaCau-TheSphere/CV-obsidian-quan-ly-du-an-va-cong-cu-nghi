@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-15T14:55
+updated: 2024-02-29T19:22
 ---
 # [[Phân loại câu nhập]]
 ## Pending
@@ -10,8 +10,6 @@ updated: 2024-02-15T14:55
 22:41 12 react
 [[10-02]] 11:26 18 react
 [[15-02]] 14:55 29 react
-## Phân tích dữ liệu khoa học
-https://www.facebook.com/groups/phantichdulieukhoahoc/posts/7627433240602184/
 
 ## Data Science for Vietnam
 [[09-02]] 05:29 https://www.facebook.com/groups/BigDataStartUp/posts/2293562524168084
@@ -29,3 +27,6 @@ https://www.facebook.com/groups/phantichdulieukhoahoc/posts/7627433240602184/
 [[05-02]] 01:17 13 react, 2 comment, 7 share
 [[08-02]] 03:07 37 react, 6 comment, 19 share
 [[08-02]] 21:16 38 react, 6 comment, 20 share
+
+## Phân tích dữ liệu khoa học
+[[28-02]] 9:29 https://www.facebook.com/groups/phantichdulieukhoahoc/posts/7627433240602184/
