@@ -1,13 +1,12 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-02-26T16:58
+updated: 2024-03-21T20:41
 ---
-# [[09-11]]
-15:38 đăng [[Các buổi đáp ứng nhu cầu học lập trình]] https://www.facebook.com/quacau.sphere/posts/pfbid0ePQADgc8zmQH7FyVa2GjHtmaMF1Rv4h8MnwMiy3f7LgSn3YQf9tDtvUzCwwuYJmQl
+# [[Các buổi đáp ứng nhu cầu học lập trình]]
+[[09-11]] 15:38 https://www.facebook.com/quacau.sphere/posts/pfbid0ePQADgc8zmQH7FyVa2GjHtmaMF1Rv4h8MnwMiy3f7LgSn3YQf9tDtvUzCwwuYJmQl
 
-# [[16-11]]
-23:56: [[Các buổi đáp ứng nhu cầu học lập trình]]:
+[[16-11]] 23:56: 
 - Post impressions: 127
 - Post reach: 121
 - Engagement: 17
@@ -17,11 +16,12 @@ updated: 2024-02-26T16:58
 - Shares: 0
 - Other clicks: 3
 
-# [[29-12]]
-17:06 đăng  [[Bàn làm việc Google Calendar]] https://www.facebook.com/quacau.sphere/posts/pfbid02zVMWHfUYFZ7rv5gnLnx4TJfxmi273DBZ9XrXRtKxgoFKt9wN9ptm6CgYdnS3TZnyl
+[[21-03]] 20:41 7 react, 14 share
+
+# [[Bàn làm việc Google Calendar]]
+[[29-12]] 17:06  https://www.facebook.com/quacau.sphere/posts/pfbid02zVMWHfUYFZ7rv5gnLnx4TJfxmi273DBZ9XrXRtKxgoFKt9wN9ptm6CgYdnS3TZnyl
 22:46 46 46 5
-# [[31-12]]
-15:08 104 104 11
+[[31-12]] 15:08 104 104 11
 
 # [[Tự động tạo liên kết UTM hoàn chỉnh chỉ bằng những thông tin tối thiểu (tên bài, nơi đăng)]]
 [[20-02]] 02:33 https://www.facebook.com/quacau.sphere/posts/pfbid028r4PfZ2SiamuaSVT5CMMzgfjQfkVLnjkTrNU7dfLNoWiNNW1o1ceBV8bv1DS5gH2l

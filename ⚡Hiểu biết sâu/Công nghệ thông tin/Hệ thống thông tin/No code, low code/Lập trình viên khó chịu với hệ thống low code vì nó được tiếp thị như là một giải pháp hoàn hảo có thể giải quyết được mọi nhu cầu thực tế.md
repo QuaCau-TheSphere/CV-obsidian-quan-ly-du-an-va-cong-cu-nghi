@@ -2,7 +2,7 @@
 share: true
 title: Lập trình viên khó chịu với hệ thống low code không phải vì nó ưu tiên sự tiện lợi và chi phí thấp cho người dùng, mà vì nó được tiếp thị như là một giải pháp hoàn hảo có thể giải quyết được mọi nhu cầu thực tế
 created: 2023-09-05T16:17
-updated: 2024-02-11T16:03
+updated: 2024-03-26T14:47
 ---
 Khái niệm:: [[Đánh đổi]], [[Ưu tiên]]
 [[Dùng low code để xây dựng hệ thống là đang mang nợ kỹ thuật vào người]] 
@@ -13,5 +13,8 @@ Nguồn:: [If the concept of low code/no code program is nothing new, then why d
 [[When someone's taking time to do something right in the present, they're a perfectionist with no ability to prioritize, whereas when someone took time to do something right in the past, they're a master artisan of great foresight]]
 [[Có người giới thiệu về vấn đề có lẽ là cách duy nhất để làm được những thứ mình muốn làm nhưng không khẩn cấp]]
 [kelseyhightower/nocode: The best way to write secure and reliable applications. Write nothing; deploy nowhere.](https://github.com/kelseyhightower/nocode "kelseyhightower/nocode: The best way to write secure and reliable applications. Write nothing; deploy nowhere.")
+[[Các tiếp thị về low code hàm ý rằng việc code là việc khó nhất trong việc tạo sản phẩm, nhưng thực ra việc thảo luận và lên kế hoạch mới là thứ quan trọng nhất]]
 
 ![](https://i.stack.imgur.com/ARBSs.jpg) 
+
+[[Một công ty không có sản phẩm tốt nhưng tiếp thị tốt sẽ khiến người dùng không biết về sản phẩm tốt hơn]]

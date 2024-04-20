@@ -1,6 +1,6 @@
 ---
 created: 2023-05-26T14:51
-updated: 2024-03-01T15:35
+updated: 2024-04-17T21:01
 ---
 Nhu cầu:: 		nc, dy, tl
 Nhu cầu dẫn tới:: 		ncdt, ch, mt
@@ -17,9 +17,10 @@ Khái niệm:: 		kn
 Lý do:: 		ld
 Liên quan:: 		lq
 Câu hỏi:: 		ch
-Nguồn:: 		ng
 Xem thêm:: 		xt
 Mâu thuẫn với:: 		mtv
+Nguồn:: 		ng
+Trích từ:: 		tt
 
 Nhu cầu công việc:: 		nccv
 Nhu cầu công nghệ:: 		nccn

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-11T16:03
+updated: 2024-04-15T14:30
 ---
 ### Các ERP được dựng sẵn không đủ khả năng đáp ứng những luồng làm việc và suy nghĩ đặc thù
 ![[Dùng ERP dựng sẵn.png]]
@@ -16,3 +16,4 @@ Chưa kể, cái gọi là chi phí thấp ở đây chỉ là miễn phí trong
 
 [[Dùng low code để xây dựng hệ thống là đang mang nợ kỹ thuật vào người]]
 [[Chấp nhận giải pháp mì ăn liền là đang mang nợ vào người]] 
+![](https://www.commitstrip.com/wp-content/uploads/2020/10/Strip-PM-et-le-Nocode650-finalenglish.jpg) 

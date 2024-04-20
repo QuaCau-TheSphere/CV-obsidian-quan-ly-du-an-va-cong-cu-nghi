@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-29T23:43
+updated: 2024-03-21T20:34
 ---
 # [[Các buổi đáp ứng nhu cầu học lập trình]]
 ## Pending
@@ -11,16 +11,17 @@ updated: 2024-02-29T23:43
     [[09-02]] 17:06 gửi trong chat
     [[14-02]] từ chối
 
-[[26-02]] Vietnamese Humanities & Social Sciences Association (VHSSA) https://www.facebook.com/groups/3687586671347776/my_pending_content
+## 1 like
+[[07-02]] 11:28 WORKSHOP CHO NGƯỜI TRẺ https://www.facebook.com/groups/1870723840010036/posts/1938176049931481
 
 ## SNPO
 ### [[07-02]]
 14:50 duyệt sau khi hỏi anh Sơn tại sao chưa được duyệt https://www.facebook.com/groups/mangluoisnpo/permalink/1438222743706828
 21:55 4 react
 
-# 1 like
-[[07-02]] 11:28 WORKSHOP CHO NGƯỜI TRẺ https://www.facebook.com/groups/1870723840010036/posts/1938176049931481
-[[29-02]] 20:00 Vietnamese Humanities & Social Sciences Association (VHSSA) https://www.facebook.com/groups/viethssa/posts/6699423853497361/
+## Vietnamese Humanities & Social Sciences Association (VHSSA) 
+[[29-02]] 20:00 https://www.facebook.com/groups/viethssa/posts/6699423853497361/
+[[21-03]] 20:33 3 like, 2 share
 
 # [[Câu hỏi khảo sát#Việc nhập liệu và gắn nhãn dữ liệu áp dụng vào công việc gì trong công tác xã hội?]]
 ## Pending
@@ -49,15 +50,17 @@ Vd: chatbot của cty chứng khoán cần diễn dịch câu hỏi của khách
 
 Cái này gần với semantic tagging trong frame semantics, loại frame là spending, các khái niệm được coi là frame elements, mỗi khái niệm có một semantic role trong frame đó.
 
-
-## Diễn đàn Công tác xã hội - Phát triển cộng đồng
-[[15-02]] 10:55 https://www.facebook.com/groups/509845572360041/posts/7533535453324316/
+## 1 react
+[[15-02]] 10:55 Diễn đàn Công tác xã hội - Phát triển cộng đồng https://www.facebook.com/groups/509845572360041/posts/7533535453324316/
 13:43 1 react
 
-## VSRM-Vietnam Social Research Methodology 
-[[15-02]] 13:42 https://www.facebook.com/groups/277566036004587/posts/1791134827981026
+[[15-02]] 13:42 VSRM-Vietnam Social Research Methodology https://www.facebook.com/groups/277566036004587/posts/1791134827981026
 22:36 0 0 0
 
+## Thống Kê Y Học
+[[14-03]] 22:44 https://www.facebook.com/groups/thongkeyhocandr/posts/2120466424990496
+Làm suốt, dùng R, tạo một nhóm từ theo list phân loại sẵn để tâch nội dung.
+[[21-03]] 10:06 8 react 25 comment 2 share
 ## Dữ liệu nghệ thuật Việt Nam / Vietnam Art Archive / VAA
 [[15-02]] 17:54 https://www.facebook.com/groups/1176033822752394/posts/2084805781875189
 22:35 3 react
@@ -69,5 +72,7 @@ Cái này gần với semantic tagging trong frame semantics, loại frame là s
 [[16-02]] 20:01 11 react, 4 comment
 
 # [[Chuyển từ giả định nghiên cứu sang bảng hỏi định lượng thế nào cho hiệu quả]]
-## Pending
-[[25-02]] VSRM-Vietnam Social Research Methodology  https://www.facebook.com/groups/277566036004587/my_pending_content
+## VSRM-Vietnam Social Research Methodology
+[[25-02]] submit
+[[16-03]] 07:31 Accept https://www.facebook.com/groups/277566036004587/posts/1797587164002459/
+[[21-03]] 20:30 21 react, 9 share https://www.facebook.com/groups/277566036004587/posts/1797587164002459/

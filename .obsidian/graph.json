@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "path:\"📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu\"  ",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -32,6 +32,6 @@
   "repelStrength": 9.32880518678605,
   "linkStrength": 1,
   "linkDistance": 30,
-  "scale": 0.362887369301215,
-  "close": false
+  "scale": 0.21860383599018887,
+  "close": true
 }

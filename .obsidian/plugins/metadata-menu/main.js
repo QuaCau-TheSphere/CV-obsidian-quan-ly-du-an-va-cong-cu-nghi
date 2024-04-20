@@ -563,11 +563,10 @@ var BaseValueModal = class extends import_obsidian3.Modal {
   }
   onOpen() {
     this.contentEl.setAttr("id", `field_${this.managedField.id}_update_modal`);
-    this.containerEl.onkeydown = (e) => {
+    this.containerEl.onkeydown = async (e) => {
       if (e.key == "Enter" && e.altKey) {
         e.preventDefault();
-        this.managedField.save();
-        this.close();
+        this.save();
       }
       if (e.key === "Escape" && e.altKey) {
         this.close();
@@ -575,55 +574,15 @@ var BaseValueModal = class extends import_obsidian3.Modal {
     };
     this.managedField.plugin.app.workspace.trigger("metadata-menu:field-update-modal-built", this);
   }
-  async goToPreviousModal() {
-    var _a, _b, _c;
-    const pM = this.managedField.previousModal;
-    if (pM && this.managedField.indexedPath && isSingleTargeted(pM.managedField)) {
-      const upperPath2 = upperIndexedPathObjectPath(this.managedField.indexedPath);
-      const { index: upperFieldIndex } = getIdAndIndex(upperPath2.split("____").last());
-      const eF = await Note.getExistingFieldForIndexedPath(this.managedField.plugin, pM.managedField.target, pM.managedField.indexedPath);
-      const pField = (_a = pM.managedField.eF) == null ? void 0 : _a.field;
-      const pFile = pM.managedField.target;
-      const pIndexedPath = pM.managedField.indexedPath;
-      if (upperFieldIndex && isSingleTargeted(this.managedField)) {
-        pM.close();
-        const uEF = await Note.getExistingFieldForIndexedPath(this.managedField.plugin, this.managedField.target, upperPath2);
-        if (uEF)
-          (_b = fieldValueManager(this.managedField.plugin, uEF.field.id, uEF.field.fileClassName, this.managedField.target, uEF, uEF.indexedPath)) == null ? void 0 : _b.openModal();
-      } else if (pField && pFile) {
-        pM.close();
-        (_c = fieldValueManager(
-          this.managedField.plugin,
-          pField.id,
-          pField.fileClassName,
-          pFile,
-          eF,
-          pIndexedPath,
-          pM.managedField.lineNumber,
-          pM.managedField.asList,
-          pM.managedField.asBlockquote,
-          pM.managedField.previousModal
-        )) == null ? void 0 : _c.openModal();
-      } else {
-        pM.open();
-      }
-    }
-  }
-  buildSimpleSaveBtn(fieldContainer) {
-    fieldContainer.createDiv({ cls: "spacer" });
-    const infoContainer = fieldContainer.createDiv({ cls: "info" });
-    infoContainer.setText("Alt+Enter to save");
-    const saveBtn = new import_obsidian3.ButtonComponent(fieldContainer);
-    saveBtn.setIcon("checkmark");
-    saveBtn.onClick(() => {
-      this.managedField.save();
-    });
-  }
   async onClose() {
     var _a;
     if (!this.saved)
       (_a = this.managedField.previousModal) == null ? void 0 : _a.open();
     this.saved = false;
+  }
+  async save() {
+    this.saved = true;
+    this.managedField.save();
   }
 };
 function basicModal(managedField, plugin) {
@@ -650,10 +609,6 @@ function basicSuggestModal(managedField, plugin) {
     onChooseSuggestion(item, evt) {
       throw new Error("Method not implemented.");
     }
-    goToPreviousModal() {
-    }
-    buildSimpleSaveBtn(fieldContainer) {
-    }
   };
 }
 function basicFuzzySuggestModal(managedField, plugin) {
@@ -670,10 +625,6 @@ function basicFuzzySuggestModal(managedField, plugin) {
     }
     onChooseItem(item, evt) {
       throw new Error("Method not implemented.");
-    }
-    goToPreviousModal() {
-    }
-    buildSimpleSaveBtn(fieldContainer) {
     }
   };
 }
@@ -870,7 +821,7 @@ in <${this.managedField.name}> ${this.managedField.fileClassName ? this.managedF
         this.renderedValue.setPlaceholder("Multiple values");
       }
       this.renderedValue.setValue(this.managedField.value);
-      this.renderedValue.onChange((value) => this.managedField.value = value);
+      this.renderedValue.onChange((value) => this.managedField.value = `${value}`);
     }
     buildInputEl(container) {
       const inputEl = new import_obsidian4.TextAreaComponent(container);
@@ -878,11 +829,11 @@ in <${this.managedField.name}> ${this.managedField.fileClassName ? this.managedF
       inputEl.inputEl.focus();
       inputEl.inputEl.addClass("full-width");
       if (isSingleTargeted(this.managedField)) {
-        inputEl.setValue(this.managedField.value);
+        inputEl.setValue(`${this.managedField.value || ""}`);
       } else {
         inputEl.setPlaceholder("Multiple values");
       }
-      inputEl.onChange((value) => this.managedField.value = value);
+      inputEl.onChange((value) => this.managedField.value = `${value}`);
     }
     buildFooterBtn() {
       const buttonContainer = this.containerEl.createDiv({ cls: "footer-actions" });
@@ -903,6 +854,7 @@ in <${this.managedField.name}> ${this.managedField.fileClassName ? this.managedF
       this.modalEl.appendChild(buttonContainer);
     }
     async save() {
+      this.saved = true;
       this.managedField.save();
       this.close();
     }
@@ -919,7 +871,7 @@ function createDvField(managedField, dv, p, fieldContainer, attrs = {}) {
   var _a, _b;
   attrs.cls = "value-container";
   const editBtn = fieldContainer.createEl("button");
-  const fieldValue = dv.el("span", p[managedField.name] || "", attrs);
+  const fieldValue = dv.el("span", managedField.value || "", attrs);
   fieldContainer.appendChild(fieldValue);
   const spacer = fieldContainer.createDiv({ cls: "spacer-1" });
   if ((_a = attrs.options) == null ? void 0 : _a.alwaysOn)
@@ -1142,10 +1094,8 @@ function valueModal2(managedField, plugin) {
         this.numberInput.inputEl.setAttr("class", "is-invalid");
         return;
       }
-      managedField.save();
       this.saved = true;
-      if (this.managedField.previousModal)
-        await this.goToPreviousModal();
+      managedField.save();
       this.close();
     }
   };
@@ -1161,7 +1111,7 @@ function createDvField2(managedField, dv, p, fieldContainer, attrs = {}) {
   var _a, _b;
   attrs.cls = "value-container";
   const editBtn = fieldContainer.createEl("button");
-  const fieldValue = dv.el("span", p[managedField.name] || "", attrs);
+  const fieldValue = dv.el("span", managedField.value || "", attrs);
   fieldContainer.appendChild(fieldValue);
   const spacer = fieldContainer.createDiv({ cls: "spacer-1" });
   if ((_a = attrs.options) == null ? void 0 : _a.alwaysOn)
@@ -3277,12 +3227,6 @@ function valueModal3(managedField, plugin) {
       this.buildAddButton(inputContainer);
       this.buildFooterActions(footerActionsContainer);
     }
-    close(openPreviousModal = true) {
-      var _a;
-      if (openPreviousModal)
-        (_a = this.managedField.previousModal) == null ? void 0 : _a.open();
-      super.close();
-    }
     getSuggestions(query) {
       const values = getOptionsList(this.managedField).filter((o) => o.toLowerCase().includes(query.toLowerCase()));
       if (this.addButton) {
@@ -3296,6 +3240,7 @@ function valueModal3(managedField, plugin) {
       el.addClass("value-container");
     }
     onChooseSuggestion(item, evt) {
+      this.saved = true;
       managedField.save(item);
     }
     async onAdd() {
@@ -3488,6 +3433,7 @@ function valueModal4(managedField, plugin) {
         el.addClass("value-checked");
     }
     onChooseSuggestion(item, evt) {
+      this.saved = true;
       managedField.save(item);
     }
   };
@@ -3501,7 +3447,7 @@ function displayValue4(managedField, container, onClicked) {
 function createDvField3(managedField, dv, p, fieldContainer, attrs = {}) {
   var _a;
   attrs.cls = "value-container";
-  fieldContainer.appendChild(dv.el("span", p[managedField.name] || "", attrs));
+  fieldContainer.appendChild(dv.el("span", managedField.value || "", attrs));
   const spacer = fieldContainer.createEl("div", { cls: "spacer-1" });
   const dropDownButton = fieldContainer.createEl("button");
   (0, import_obsidian9.setIcon)(dropDownButton, "down-chevron-glyph");
@@ -3726,7 +3672,7 @@ function valueModal5(managedField, plugin) {
 function createDvField4(managedField, dv, p, fieldContainer, attrs = {}) {
   var _a;
   attrs.cls = "value-container";
-  const values = p[managedField.name];
+  const values = managedField.value;
   const buildItem = (_value) => fieldContainer.appendChild(dv.el("span", _value || "", attrs));
   if (Array.isArray(values))
     values.forEach((value) => buildItem(value));
@@ -3840,7 +3786,10 @@ check your settings`, 3e3);
           return [...a, ...convertDataviewArrayOfLinkToArrayOfPath(v)];
         return a;
       }, []);
-      return managedField.plugin.app.vault.getMarkdownFiles().filter((f) => filesPath.includes(f.path));
+      const sortingMethod = managedField.options.customSorting ? new Function("a", "b", `return ${managedField.options.customSorting}`) : function(a, b) {
+        return a.basename < b.basename ? -1 : 1;
+      };
+      return managedField.plugin.app.vault.getMarkdownFiles().filter((f) => filesPath.includes(f.path)).sort(sortingMethod);
     } catch (error) {
       throw error;
     }
@@ -3906,7 +3855,6 @@ function valueModal6(managedField, plugin) {
       this.containerEl.onkeydown = async (e) => {
         if (e.key == "Enter" && e.altKey) {
           await this.save();
-          this.close();
         }
       };
     }
@@ -3920,6 +3868,7 @@ function valueModal6(managedField, plugin) {
       this.close();
     }
     async save() {
+      this.saved = true;
       const options2 = this.selectedOptions;
       managedField.save(options2.join(", "));
       this.close();
@@ -3983,11 +3932,11 @@ function createDvField5(managedField, dv, p, fieldContainer, attrs = {}) {
   var _a, _b;
   let valueHovered = false;
   let currentValues = [];
-  if (p[managedField.name]) {
-    if (Object.keys(p[managedField.name]).includes("path")) {
-      currentValues = [`[[${p[managedField.name].path.replace(".md", "")}]]`];
-    } else if (Array.isArray(p[managedField.name])) {
-      p[managedField.name].forEach((item) => {
+  if (managedField.value) {
+    if (Object.keys(managedField.value).includes("path")) {
+      currentValues = [`[[${managedField.value.path.replace(".md", "")}]]`];
+    } else if (Array.isArray(managedField.value)) {
+      managedField.value.forEach((item) => {
         if (Object.keys(item).includes("path")) {
           currentValues.push(`[[${item.path.replace(".md", "")}]]`);
         } else {
@@ -3995,7 +3944,7 @@ function createDvField5(managedField, dv, p, fieldContainer, attrs = {}) {
         }
       });
     } else {
-      const value = p[managedField.name];
+      const value = managedField.value;
       currentValues = value ? `${value}`.split(",").map((v) => v.trim()) : [];
     }
   }
@@ -4109,8 +4058,7 @@ function displayValue7(managedField, container, onClicked) {
 }
 function createDvField6(managedField, dv, p, fieldContainer, attrs = {}) {
   var _a;
-  attrs.cls = "value-container";
-  fieldContainer.appendChild(dv.el("span", p[managedField.name] || "", attrs));
+  fieldContainer.appendChild(dv.el("span", managedField.value || "", attrs));
   const spacer = fieldContainer.createEl("div", { cls: "spacer-1" });
   const cycleBtn = fieldContainer.createEl("button");
   (0, import_obsidian12.setIcon)(cycleBtn, getIcon(managedField.type));
@@ -4258,7 +4206,8 @@ function valueModal8(managedField, plugin) {
         this.save();
       });
     }
-    save() {
+    async save() {
+      this.saved = true;
       this.managedField.save();
       this.close();
     }
@@ -4272,9 +4221,8 @@ function displayValue8(managedField, container, onClicked = () => {
   return baseDisplayValue(managedField, container, onClicked);
 }
 function createDvField7(managedField, dv, p, fieldContainer, attrs = {}) {
-  attrs.cls = "value-container";
   const checkbox = dv.el("input", "", { ...attrs, "type": "checkbox" });
-  checkbox.checked = p[managedField.name];
+  checkbox.checked = managedField.value;
   fieldContainer.appendChild(checkbox);
   checkbox.onchange = () => managedField.save((!managedField.value).toString());
 }
@@ -4556,18 +4504,14 @@ function valueModal9(managedField, plugin) {
         const sourcePath = isSingleTargeted(this.managedField) ? this.managedField.target.path : destPath;
         const linkPath = this.managedField.plugin.app.metadataCache.getFirstLinkpathDest(destPath, sourcePath);
         const formattedValue = this.insertAsLink ? `[[${renderedPath || ""}${newValue.format(this.format)}${linkPath ? "|" + linkPath.basename : ""}]]` : newValue.format(this.format);
-        this.managedField.save(formattedValue);
         this.saved = true;
-        if (this.managedField.previousModal)
-          await this.goToPreviousModal();
+        this.managedField.save(formattedValue);
         if (this.nextIntervalField && this.pushNextInterval && this.nextShift && isSingleTargeted(this.managedField))
           updateIntervalField(this.managedField, this.nextIntervalField, this.nextShift);
         this.close();
       } else if (!this.value) {
-        this.managedField.save("");
         this.saved = true;
-        if (this.managedField.previousModal)
-          await this.goToPreviousModal();
+        this.managedField.save("");
         this.close();
       } else {
         this.errorField.show();
@@ -4713,8 +4657,7 @@ function actions9(plugin, field2, file, location, indexedPath) {
 function createDvField8(managedField, dv, p, fieldContainer, attrs = {}) {
   var _a;
   attrs.cls = "value-container";
-  managedField.value = p[managedField.name];
-  const fieldValue = dv.el("span", p[managedField.name] || "", attrs);
+  const fieldValue = dv.el("span", managedField.value || "", attrs);
   const dateBtn = fieldContainer.createEl("button");
   (0, import_obsidian14.setIcon)(dateBtn, getIcon(managedField.type));
   const spacer = fieldContainer.createDiv({ cls: "spacer-1" });
@@ -5065,6 +5008,7 @@ function valueModal13(managedField, plugin) {
     }
     async onChooseItem(item) {
       var _a;
+      this.saved = true;
       let alias = void 0;
       const dvApi = (_a = plugin.app.plugins.plugins.dataview) == null ? void 0 : _a.api;
       if (dvApi && this.managedField.options.customRendering) {
@@ -5220,6 +5164,7 @@ function valueModal14(managedField, plugin) {
       this.modalEl.appendChild(buttonContainer);
     }
     async save() {
+      this.saved = true;
       const result = this.selectedFiles.map((file) => {
         var _a;
         const dvApi = (_a = plugin.app.plugins.plugins.dataview) == null ? void 0 : _a.api;
@@ -5633,13 +5578,12 @@ function valueModal16(managedField, plugin) {
       }
     }
     async onChooseItem(item) {
-      var _a;
+      this.saved = true;
       const embed = managedField.options.embed;
       const alias = extensionMediaTypes[item.extension] === "Image" /* Image */ ? managedField.options.thumbnailSize : void 0;
       const baseValue = buildMediaLink(plugin, item, item.path, embed ? alias : void 0);
       const value = managedField.options.embed ? baseValue : baseValue.replace(/^\!/, "");
       managedField.save(value);
-      (_a = this.managedField.previousModal) == null ? void 0 : _a.open();
     }
   };
 }
@@ -5758,6 +5702,7 @@ function valueModal17(managedField, plugin) {
       this.modalEl.appendChild(buttonContainer);
     }
     async save() {
+      this.saved = true;
       const embed = managedField.options.embed;
       const result = this.selectedFiles.map((file) => {
         const alias = extensionMediaTypes[file.extension] === "Image" /* Image */ ? managedField.options.thumbnailSize : void 0;
@@ -5767,7 +5712,9 @@ function valueModal17(managedField, plugin) {
       managedField.save(result.join(", "));
     }
     async clearValues() {
+      this.saved = true;
       managedField.save("");
+      this.close();
     }
     renderSelected() {
       const chooser = this.chooser;
@@ -6965,10 +6912,8 @@ function valueModal18(managedField, plugin) {
     }
     async save() {
       const newContent = this.editor.state.doc.toString().trim();
-      this.managedField.save(newContent);
       this.saved = true;
-      if (this.managedField.previousModal)
-        await this.goToPreviousModal();
+      this.managedField.save(newContent);
       this.close();
     }
   };
@@ -7106,7 +7051,7 @@ function displayValue24(managedField, container, onClicked) {
 function createDvField18(managedField, dv, p, fieldContainer, attrs = {}) {
   var _a, _b;
   attrs.cls = "value-container";
-  const fieldValue = dv.el("span", p[managedField.name] || "", attrs);
+  const fieldValue = dv.el("span", managedField.value || "", attrs);
   fieldContainer.appendChild(fieldValue);
   const editBtn = fieldContainer.createEl("button");
   const spacer = fieldContainer.createDiv({ cls: "spacer-1" });
@@ -13457,7 +13402,7 @@ function displayValue25(managedField, container, onClicked) {
 function createDvField19(managedField, dv, p, fieldContainer, attrs = {}) {
   var _a, _b;
   attrs.cls = "value-container";
-  const fieldValue = dv.el("span", p[managedField.name] || "", attrs);
+  const fieldValue = dv.el("span", managedField.value || "", attrs);
   fieldContainer.appendChild(fieldValue);
   const editBtn = fieldContainer.createEl("button");
   const spacer = fieldContainer.createDiv({ cls: "spacer-1" });
@@ -19485,13 +19430,9 @@ function valueModal21(managedField, plugin) {
       this.close();
     }
     buildBackButton(container) {
-      const backButton = new import_obsidian60.ButtonComponent(container);
-      backButton.setIcon("left-arrow");
-      backButton.onClick(async () => {
+      new import_obsidian60.ButtonComponent(container).setIcon("left-arrow").onClick(async () => {
         this.onEscape();
-      });
-      backButton.setCta();
-      backButton.setTooltip("Go to parent field");
+      }).setCta().setTooltip("Go to parent field");
       const infoContainer = container.createDiv({ cls: "info" });
       infoContainer.setText("Alt+Esc to go back");
     }
@@ -19513,14 +19454,14 @@ async function getExistingAndMissingFields(plugin, file, indexedPath) {
 function createDvField20(managedField, dv, p, fieldContainer, attrs = {}) {
   attrs.cls = "value-container";
   const editBtn = fieldContainer.createEl("button");
-  managedField.value = p[managedField.name] || {};
+  managedField.value = managedField.value || {};
   const value = valueString26(managedField.type)(managedField);
   const fieldValue = dv.el("span", value || "", attrs);
   fieldContainer.appendChild(fieldValue);
   (0, import_obsidian60.setIcon)(editBtn, getIcon(managedField.type));
   editBtn.onclick = async () => {
     const file = managedField.plugin.app.vault.getAbstractFileByPath(p["file"]["path"]);
-    const _eF = file instanceof import_obsidian60.TFile && await Note.getExistingFieldForIndexedPath(managedField.plugin, file, managedField.id);
+    const _eF = file instanceof import_obsidian60.TFile && await Note.getExistingFieldForIndexedPath(managedField.plugin, file, managedField.indexedPath);
     if (!_eF)
       return;
     managedField.eF = _eF;
@@ -19593,14 +19534,6 @@ function valueModal22(managedField, plugin) {
       const mF = this.managedField;
       if (!isSingleTargeted(mF))
         return;
-      const reOpen = async () => {
-        var _a2;
-        const eF = await Note.getExistingFieldForIndexedPath(mF.plugin, mF.target, mF.indexedPath);
-        if (eF) {
-          (_a2 = fieldValueManager(mF.plugin, mF.id, mF.fileClassName, mF.target, eF, mF.indexedPath, void 0, void 0, void 0, this.managedField.previousModal)) == null ? void 0 : _a2.openModal();
-          this.close();
-        }
-      };
       if (item instanceof ExistingField2) {
         const cF = item.field;
         const cFVM = fieldValueManager(mF.plugin, cF.id, cF.fileClassName, mF.target, item, item.indexedPath, void 0, void 0, void 0, this);
@@ -19609,12 +19542,10 @@ function valueModal22(managedField, plugin) {
         switch (item.field.type) {
           case "Boolean":
             await (cFVM == null ? void 0 : cFVM.save(`${!cFVM.value}`));
-            await reOpen();
             break;
           case "Cycle":
             const nextOptions = getNextOption(cFVM);
             await cFVM.save(`${nextOptions}`);
-            await reOpen();
             break;
           default:
             cFVM.openModal();
@@ -19626,7 +19557,6 @@ function valueModal22(managedField, plugin) {
           this.open();
         } else if (item.type === "Object") {
           await postValues(mF.plugin, [{ indexedPath: `${mF.indexedPath}____${item.id}`, payload: { value: "" } }], mF.target);
-          await mF.plugin.fieldIndex.indexFields();
           const cF = await Note.getExistingFieldForIndexedPath(mF.plugin, mF.target, `${mF.indexedPath}____${item.id}`);
           (_a = fieldValueManager(mF.plugin, item.id, item.fileClassName, mF.target, cF, cF == null ? void 0 : cF.indexedPath, void 0, void 0, void 0, this)) == null ? void 0 : _a.openModal();
         } else {
@@ -19658,7 +19588,7 @@ function valueString27(managedField) {
         if (childrenNames.includes(pattern)) {
           const child = children.find((c) => c.name === pattern);
           const cFVM = fieldValueManager(managedField.plugin, child.id, child.fileClassName, managedField.target, void 0, void 0);
-          if (!cFVM)
+          if (!cFVM || !managedField.value)
             defaultDisplay(pattern);
           else {
             cFVM.value = managedField.value[child.name];
@@ -20351,7 +20281,6 @@ function getActions(type) {
 function createDvField23(managedField, dv, p, fieldContainer, attrs) {
   if (!managedField)
     return;
-  managedField.value = p[managedField.name] || "";
   switch (managedField.type) {
     case "Input":
       return createDvField(managedField, dv, p, fieldContainer, attrs);
@@ -20390,7 +20319,7 @@ function createDvField23(managedField, dv, p, fieldContainer, attrs) {
     case "ObjectList":
       return createDvField22(managedField, dv, p, fieldContainer, attrs);
     default: {
-      const fieldValue = dv.el("span", p[managedField.name], attrs);
+      const fieldValue = dv.el("span", managedField.value, attrs);
       fieldContainer.appendChild(fieldValue);
     }
   }
@@ -20990,16 +20919,53 @@ function FieldValueManager(plugin, Base25, target, existingField, indexedPath, l
       this._modal = getFieldModal(this, plugin);
       return this._modal;
     }
+    async goToPreviousModal() {
+      var _a, _b;
+      const pM = this.previousModal;
+      if (pM && this.indexedPath && isSingleTargeted(pM.managedField)) {
+        const upperPath2 = upperIndexedPathObjectPath(this.indexedPath);
+        const { index: upperFieldIndex } = getIdAndIndex(upperPath2.split("____").last());
+        const eF = await Note.getExistingFieldForIndexedPath(this.plugin, pM.managedField.target, pM.managedField.indexedPath);
+        const pField = (_a = pM.managedField.eF) == null ? void 0 : _a.field;
+        const pFile = pM.managedField.target;
+        const pIndexedPath = pM.managedField.indexedPath;
+        if (upperFieldIndex !== void 0 && !isNaN(parseInt(upperFieldIndex)) && isSingleTargeted(this)) {
+          const i = parseInt(upperFieldIndex);
+          const upperObjectListEF = await Note.getExistingFieldForIndexedPath(plugin, this.target, upperPath2.replace(/\[\d+\]$/, ""));
+          const item = (await (upperObjectListEF == null ? void 0 : upperObjectListEF.getChildrenFields(this.plugin, this.target)) || [])[i];
+          const itemFVM = getPseudoObjectValueManagerFromObjectItem(this, item);
+          itemFVM.openModal();
+          pM.close();
+        } else if (pField && pFile) {
+          (_b = fieldValueManager(
+            this.plugin,
+            pField.id,
+            pField.fileClassName,
+            pFile,
+            eF,
+            pIndexedPath,
+            pM.managedField.lineNumber,
+            pM.managedField.asList,
+            pM.managedField.asBlockquote,
+            pM.managedField.previousModal
+          )) == null ? void 0 : _b.openModal();
+          pM.close();
+        } else {
+          pM.open();
+        }
+      }
+      this.plugin.fieldIndex.updatedManagedField = void 0;
+    }
     async save(value) {
       if (value !== void 0)
         this.value = value;
       if (isSingleTargeted(this)) {
-        await postValues(plugin, [{ indexedPath: this.indexedPath || this.id, payload: { value: this.value } }], this.target, this.lineNumber, this.asList, this.asBlockquote);
+        if (this.previousModal)
+          this.plugin.fieldIndex.updatedManagedField = this;
+        await postValues(plugin, [{ indexedPath: this.indexedPath || this.id, payload: { value: `${this.value || ""}` } }], this.target, this.lineNumber, this.asList, this.asBlockquote);
       } else if (isMultiTargeted(this)) {
         new MultiTargetModificationConfirmModal(this).open();
       }
-      if (this.previousModal)
-        this.previousModal.open();
     }
   };
 }
@@ -21603,7 +21569,7 @@ var Note = class {
 ${"  ".repeat(indentationLevel + 1)}`;
         return `${indentation}${_rawValue.split("\n").join(indentation)}`;
       } else {
-        return (0, import_obsidian64.parseYaml)(_rawValue);
+        return (0, import_obsidian64.parseYaml)(_rawValue) === _rawValue || (0, import_obsidian64.parseYaml)(_rawValue) === false || !isNaN(parseFloat(_rawValue)) ? (0, import_obsidian64.parseYaml)(_rawValue) : `"${_rawValue}"`;
       }
       ;
     } else {
@@ -21820,8 +21786,7 @@ ${"  ".repeat(indentationLevel + 1)}`;
             node.line.renderLine();
           } else {
             const newItemLine = new Line(this.plugin, upperNode.line.note, position, "", upperNode.line.number + 1);
-            const shift = /^(\s+)-(\s+)?(.*)/.test(upperNode.rawContent) ? 1 : 0;
-            new LineNode(this.plugin, newItemLine, upperNode.buildIndentedListItem("", shift));
+            new LineNode(this.plugin, newItemLine, upperNode.buildIndentedListItem(""));
             newItemLine.renderLine();
           }
         }
@@ -23937,6 +23902,8 @@ var FieldIndex = class extends FieldIndexBuilder {
     await this.getCanvasesFiles();
     await this.getValuesListNotePathValues();
     this.getFilesLookupAndFormulaFieldsExists();
+    if (this.updatedManagedField)
+      await this.updatedManagedField.goToPreviousModal();
     MDM_DEBUG && console.log("indexed FIELDS for ", indexedFiles, " files in ", (Date.now() - start2) / 1e3, "s");
   }
   pushPayloadToUpdate(filePath, fieldsPayloadToUpdate) {
@@ -24327,10 +24294,14 @@ var FieldIndex = class extends FieldIndexBuilder {
     if (!this.dvReady())
       return;
     [...this.filesFields.entries()].forEach(([filePath, fields]) => {
-      const dvFormulaFields = fields.filter((f) => f.isRoot() && f.type === "Formula" && f.name in this.dv.api.page(filePath));
+      const dvFormulaFields = fields.filter(
+        (f) => f.isRoot() && f.type === "Formula" && this.dv.api.page(filePath) && f.name in this.dv.api.page(filePath)
+      );
       if (!this.settings.isAutoCalculationEnabled)
         dvFormulaFields.forEach((field2) => this.fileFormulaFieldsStatus.set(`${filePath}__${field2.name}`, "mayHaveChanged" /* mayHaveChanged */));
-      const dvLookupFields = fields.filter((f) => f.isRoot() && f.type === "Lookup" && f.name in this.dv.api.page(filePath));
+      const dvLookupFields = fields.filter(
+        (f) => f.isRoot() && f.type === "Lookup" && this.dv.api.page(filePath) && f.name in this.dv.api.page(filePath)
+      );
       if (!this.settings.isAutoCalculationEnabled)
         dvLookupFields.forEach((field2) => this.fileLookupFieldsStatus.set(`${filePath}__${field2.name}`, "mayHaveChanged" /* mayHaveChanged */));
       this.filesLookupAndFormulaFieldsExists.set(filePath, [...dvFormulaFields, ...dvLookupFields]);
@@ -24509,98 +24480,95 @@ function buildAndOpenModal(plugin, file, fieldName, attrs) {
     }
   }
 }
-function createDvField24(plugin, dv, p, fieldContainer, fieldName, attrs) {
+function fieldModifier(plugin, dv, p, fieldName, attrs = {}) {
   var _a;
-  const field2 = (_a = plugin.fieldIndex.filesFields.get(p.file.path)) == null ? void 0 : _a.filter((f) => f.isRoot()).find((field3) => field3.name === fieldName);
-  if (!(field2 == null ? void 0 : field2.isRoot())) {
-    dv.el("span", p[field2.name], attrs);
-    return;
-  }
-  if (field2 == null ? void 0 : field2.type) {
-    const target = plugin.app.vault.getAbstractFileByPath(p.file.path);
-    const fieldVM = fieldValueManager(plugin, field2.id, field2.fileClassName, target, void 0);
-    createDvField23(fieldVM, dv, p, fieldContainer);
-  } else {
-    const field3 = buildField(plugin, fieldName, "", "", void 0, void 0, void 0, void 0, "Input", {});
-    const file = plugin.app.vault.getAbstractFileByPath(p.file.path);
-    if (file instanceof import_obsidian75.TFile) {
-      const fieldVM = new (FieldValueManager(plugin, field3, file, void 0))();
-      createDvField23(fieldVM, dv, p, fieldContainer, attrs);
-    }
-  }
-}
-function fieldModifier(plugin, dv, p, fieldName, attrs) {
-  var _a, _b;
+  attrs.cls = (attrs == null ? void 0 : attrs.cls) || {} + "value-container";
   const fieldContainer = dv.el("div", "");
   fieldContainer.setAttr("class", `metadata-menu-dv-field-container ${fieldName}`);
-  if (p[fieldName] === void 0) {
+  const file = plugin.app.vault.getAbstractFileByPath(p.file.path);
+  if (!(file instanceof import_obsidian75.TFile && file.extension == "md")) {
+    throw Error("path doesn't correspond to a proper file");
+  }
+  const { indexedPath, field: field2 } = getFullIndexedPathFromDottedPath(fieldName, plugin.fieldIndex.filesFields.get(file.path));
+  const fieldSegments = fieldName.replaceAll("[", ".").replaceAll("]", "").split(".");
+  const fieldValue = fieldSegments.reduce((acc, cur) => acc == null ? void 0 : acc[cur], p);
+  if (fieldValue === void 0) {
     if (!((_a = attrs == null ? void 0 : attrs.options) == null ? void 0 : _a.showAddField)) {
       const emptyField = dv.el("span", null, attrs);
       fieldContainer.appendChild(emptyField);
-    } else {
-      const addFieldBtn = dv.el("button", attrs);
-      (0, import_obsidian75.setIcon)(addFieldBtn, positionIcon.inline);
-      addFieldBtn.onclick = async () => {
-        var _a2;
-        const file = plugin.app.vault.getAbstractFileByPath(p.file.path);
-        if (file instanceof import_obsidian75.TFile && file.extension == "md") {
-          const field2 = (_a2 = plugin.fieldIndex.filesFields.get(file.path)) == null ? void 0 : _a2.filter((f) => f.isRoot()).find((field3) => field3.name === fieldName);
-          if (field2) {
-            buildAndOpenModal(plugin, file, fieldName, attrs);
-          } else {
-            new chooseSectionModal(
-              plugin,
-              file,
-              (lineNumber, asList, asBlockquote) => {
-                const field3 = buildField(plugin, fieldName, "", "", void 0, void 0, void 0, void 0, "Input", {});
-                const file2 = plugin.app.vault.getAbstractFileByPath(p.file.path);
-                if (file2 instanceof import_obsidian75.TFile) {
-                  const fieldVM = new (FieldValueManager(plugin, field3, file2, void 0, void 0, lineNumber, asList, asBlockquote))();
-                  fieldVM == null ? void 0 : fieldVM.openModal();
-                }
-              }
-            ).open();
-          }
-        } else {
-          throw Error("path doesn't correspond to a proper file");
-        }
-      };
-      fieldContainer.appendChild(addFieldBtn);
-      const addInFrontmatterFieldBtn = dv.el("button", attrs);
-      (0, import_obsidian75.setIcon)(addInFrontmatterFieldBtn, positionIcon.yaml);
-      addInFrontmatterFieldBtn.onclick = async () => {
-        var _a2;
-        const file = plugin.app.vault.getAbstractFileByPath(p.file.path);
-        if (file instanceof import_obsidian75.TFile && file.extension == "md") {
-          const field2 = (_a2 = plugin.fieldIndex.filesFields.get(file.path)) == null ? void 0 : _a2.filter((f) => f.isRoot()).find((field3) => field3.name === fieldName);
-          if (field2) {
-            const _field = buildField(plugin, field2.name, field2.id, field2.path, field2.fileClassName, field2.command, field2.display, field2.style, field2.type, {});
-            const fieldVM = new (FieldValueManager(plugin, _field, file, void 0, void 0, -1, false, false))();
+      return fieldContainer;
+    }
+    const addFieldBtn = dv.el("button", attrs);
+    (0, import_obsidian75.setIcon)(addFieldBtn, positionIcon.inline);
+    addFieldBtn.onclick = async () => {
+      if (field2) {
+        buildAndOpenModal(plugin, file, fieldName, attrs);
+      } else {
+        new chooseSectionModal(
+          plugin,
+          file,
+          (lineNumber, asList, asBlockquote) => {
+            const fieldVM = new (FieldValueManager(plugin, field2, file, void 0, indexedPath, lineNumber, asList, asBlockquote))();
             fieldVM == null ? void 0 : fieldVM.openModal();
           }
-        } else {
-          throw Error("path doesn't correspond to a proper file");
-        }
-      };
-      fieldContainer.appendChild(addInFrontmatterFieldBtn);
-    }
-  } else {
-    const file = plugin.app.vault.getAbstractFileByPath(p.file.path);
-    if (file instanceof import_obsidian75.TFile && file.extension == "md") {
-      const field2 = (_b = plugin.fieldIndex.filesFields.get(file.path)) == null ? void 0 : _b.filter((f) => f.isRoot()).find((field3) => field3.name === fieldName);
-      if (field2) {
-        createDvField24(plugin, dv, p, fieldContainer, fieldName, attrs);
-      } else {
-        const field3 = buildField(plugin, fieldName, "", "", void 0, void 0, void 0, void 0, "Input", {});
-        const file2 = plugin.app.vault.getAbstractFileByPath(p.file.path);
-        if (file2 instanceof import_obsidian75.TFile) {
-          const fieldVM = new (FieldValueManager(plugin, field3, file2, void 0))();
-          createDvField23(fieldVM, dv, p, fieldContainer, attrs);
-        }
+        ).open();
       }
+    };
+    fieldContainer.appendChild(addFieldBtn);
+    const addInFrontmatterFieldBtn = dv.el("button", attrs);
+    (0, import_obsidian75.setIcon)(addInFrontmatterFieldBtn, positionIcon.yaml);
+    addInFrontmatterFieldBtn.onclick = async () => {
+      if (field2) {
+        const _field = buildField(plugin, field2.name, field2.id, field2.path, field2.fileClassName, field2.command, field2.display, field2.style, field2.type, {});
+        const fieldVM = new (FieldValueManager(plugin, _field, file, void 0, indexedPath, -1, false, false))();
+        fieldVM == null ? void 0 : fieldVM.openModal();
+      }
+    };
+    fieldContainer.appendChild(addInFrontmatterFieldBtn);
+  } else {
+    if (field2 && (field2 == null ? void 0 : field2.type)) {
+      const fieldVM = fieldValueManager(plugin, field2.id, field2.fileClassName, file, void 0, indexedPath);
+      if (!fieldVM) {
+        return fieldContainer;
+      }
+      fieldVM.value = fieldValue;
+      if (field2.type === "ObjectList" && !isNaN(parseInt(fieldSegments.last()))) {
+        const index = parseInt(fieldSegments.last());
+        const editBtn = fieldContainer.createEl("button");
+        const displayValue30 = dv.el("span", displayItem(fieldVM, fieldValue, parseInt(fieldSegments.last())) || "", attrs);
+        fieldContainer.appendChild(displayValue30);
+        (0, import_obsidian75.setIcon)(editBtn, getIcon("Object"));
+        editBtn.onclick = async () => {
+          const upperObjectListEF = await Note.getExistingFieldForIndexedPath(plugin, file, indexedPath.replace(/\[\d+\]$/, ""));
+          const item = (await (upperObjectListEF == null ? void 0 : upperObjectListEF.getChildrenFields(fieldVM.plugin, fieldVM.target)) || [])[index];
+          const itemFVM = getPseudoObjectValueManagerFromObjectItem(fieldVM, item);
+          itemFVM.openModal();
+        };
+      } else {
+        createDvField23(fieldVM, dv, p, fieldContainer, attrs);
+      }
+    } else {
+      const field3 = buildField(plugin, fieldName, "", "", void 0, void 0, void 0, void 0, "Input", {});
+      const fieldVM = new (FieldValueManager(plugin, field3, file, void 0, indexedPath))();
+      fieldVM.value = fieldValue;
+      createDvField23(fieldVM, dv, p, fieldContainer, attrs);
     }
   }
   return fieldContainer;
+}
+function getFullIndexedPathFromDottedPath(dottedPath, fileFields2) {
+  const dottedFields = dottedPath.replaceAll("[", ".").replaceAll("]", "").split(".");
+  var parent = "";
+  const fields = [];
+  for (const field2 of dottedFields) {
+    const f = fileFields2 == null ? void 0 : fileFields2.find((x) => x.name === field2 && x.path === parent);
+    if (f) {
+      fields.push(f);
+      parent = `${f.path}${f.isRoot() ? "" : "____"}${f.id}`;
+    }
+  }
+  fields.forEach((x) => dottedPath = dottedPath.replaceAll(x.name, x.id));
+  return { indexedPath: dottedPath.replaceAll(".", "____"), field: fields[fields.length - 1] };
 }
 
 // src/commands/fileFields.ts

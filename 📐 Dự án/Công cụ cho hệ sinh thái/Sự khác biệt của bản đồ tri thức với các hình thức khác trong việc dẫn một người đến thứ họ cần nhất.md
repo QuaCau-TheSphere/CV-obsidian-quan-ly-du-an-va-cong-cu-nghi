@@ -1,0 +1,33 @@
+---
+share: true
+created: 2023-09-05T16:17
+updated: 2024-03-22T11:21
+---
+| Hình thức                                                                                                                                                                                                                                                          | Ví dụ                                                                                                                                                                    | Giống | Khác |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----- | ---- |
+| Infographic                                                                                                                                                                                                                                                        |                                                                                                                                                                          |       |      |
+| Đồ thị, lưu đồ                                                                                                                                                                                                                                                     | Nhu cầu công việc và nhu cầu công nghệ, OVA, Kialo                                                                                                                       |       |      |
+| Hướng dẫn nhập môn, bài giới thiệu, nghiên cứu tổng quan                                                                                                                                                                                                           | Obsidian Hub, giáo trình đại học, bot hướng dẫn cho người mới                                                                                                            |       |      |
+| Danh sách                                                                                                                                                                                                                                                          | [Project-Awesome.org](https://project-awesome.org/), [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists "List of lists of lists - Wikipedia") |       |      |
+| Bầu chọn theo tập thể, đóng góp cộng đồng                                                                                                                                                                                                                          | Bình chọn trên reddit, truyền miệng, trang tin tức, thuật toán PageRank                                                                                                  |       |      |
+| Tiếp thị                                                                                                                                                                                                                                                           | Sau một thời gian được chia sẻ thì cũng hết                                                                                                                              |       |      |
+| Vét cạn từ khoá cho máy tìm kiếm                                                                                                                                                                                                                                   | Tìm trên Obsidian, SEO                                                                                                                                                   |       |      |
+| Hệ thống quản lý nội dung                                                                                                                                                                                                                                          | MediaWiki                                                                                                                                                                |       |      |
+| Môi trường tạo khả năng ([enabling environment](https://notes.andymatuschak.org/z492hGrHvRvJiEY9UfB4Mby?stackedNotes=z8ZWYXFwXV38qiCgRx7zf2ySy9WCxWvcizNVr&stackedNotes=z2qBbdZidZNjbpdggRbmgeUeVf2H7aCevSYvE&stackedNotes=z8DyCwRiC8HT89mMvtBjwcGVs5ucHPHcrScch)) | [The Humane Representation of Thought](https://vimeo.com/115154289 "The Humane Representation of Thought on Vimeo")                                                      |       |      |
+| Không gian vector từ                                                                                                                                                                                                                                               | Phần giới thiệu cái mình có thể quan tâm ở YouTube, Netflix, Spotify                                                                                                     |       |      |
+
+Nếu là vấn đề liên kết giữa các khái niệm thì khác gì Tana, Neo4j, Xanadu?                                                         
+Câu hỏi:
+- Vấn đề nào thì nên dành thời gian để làm? Vấn đề nào có thể bỏ qua?
+- Có dễ dàng làm với số lượng lớn không?
+- Tốt nhất ở đây là tốt nhất về mặt lý thuyết hay là về sự khả thi
+- Không phải lúc nào con người cũng dùng thứ tốt nhất. Nếu có cái không tốt bằng nhưng tiện hơn thì họ sẽ dùng ([[Excel là người bạn tuổi thơ tuyệt vời, nhưng là kẻ thù của tuổi dậy thì]]) 
+- 
+
+# Điều gì khiến cho sản phẩm của mình không bị lạc hậu?
+Vấn đề lạc hậu khó tránh, nhưng em không nghĩ làm việc với lịch sử là một việc sẽ có ngày lạc hậu, nếu có thì cùng lắm là cách mình làm chứ không hẳn là thứ mình tạo ra, tất nhiên trong quá trình đó em cũng cố nghĩ giải pháp tốt hơn. Em nghĩ vậy là bởi dù ở tương lai mọi thứ càng tân tiến hiện đại nhưng chừng nào họ còn chưa thể quay ngược về quá khứ, thì quan điểm trong quá khứ vẫn là thứ có giá trị hơn bởi nó có thể lưu giữ những context mà theo thời gian đã có thể mất đi và không có cách nào truy lại được chính xác
+
+# Điều gì khiến cho người cần tới sản phẩm của mình nhất tìm ra được nó?
+
+[[Cách nhanh nhất để tìm được thứ ta cần khi ta không biết từ khoá chính xác của nó là đọc các bài tổng quan]]
+

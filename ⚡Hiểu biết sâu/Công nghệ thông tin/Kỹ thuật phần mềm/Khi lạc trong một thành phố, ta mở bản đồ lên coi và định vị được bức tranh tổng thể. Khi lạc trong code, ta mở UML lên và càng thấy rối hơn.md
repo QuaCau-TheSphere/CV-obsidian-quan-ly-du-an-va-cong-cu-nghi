@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-17T12:16
+updated: 2024-03-15T21:10
 ---
 Lý do:: [[Ngành kỹ thuật phần mềm không có một ngôn ngữ thị giác chung]] 
 

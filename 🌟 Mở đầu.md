@@ -3,8 +3,10 @@ share: true
 filename: index
 alias:
   - C Obsidian, quản lý dự án và công cụ nghĩ
+  - Homepage
+  - Trang chủ
 created: 2023-06-25T19:58
-updated: 2023-12-30T20:46
+updated: 2024-04-06T22:25
 ---
   
 ![[logo.svg|200]]

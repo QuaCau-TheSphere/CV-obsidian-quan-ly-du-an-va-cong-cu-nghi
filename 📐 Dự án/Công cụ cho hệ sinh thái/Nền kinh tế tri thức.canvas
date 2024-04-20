@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"d77fd1663ec18bba","type":"group","x":-114,"y":-300,"width":3234,"height":2540,"label":"b-nền-kinh-tế-không-dùng-tiền"},
+		{"id":"7f170259fb26cae3","type":"text","text":"##### **Những khái niệm cần làm rõ:**\nThế nào là một nền kinh tế\nVai trò của tiền trong nền kinh tế\n_phong_\n\n\n","x":-80,"y":-260,"width":300,"height":100},
+		{"id":"44ca570e55a916ea","type":"link","url":"https://slo.vn/phien-cho-mua-hang-bang-la-thay-tien/","x":300,"y":-260,"width":420,"height":100},
+		{"id":"66eb524af18e095c","type":"text","text":"Phong: Nền kinh tế tri thức (không phải cái định nghĩa của mấy ông ngày nay) mà trao đổi tri thức như hình thức người ta trao đổi thông tin tình báo giá trị cho nhau,... Cái hay của tri thức khi nó là capital là thực sự nó sinh ra capital được, vì nó nhân bản rất dễ, chỉ là ta ứng dụng nó như nào, mất bao lâu thôi","x":360,"y":-120,"width":300,"height":290},
+		{"id":"080789837384b002","type":"text","text":"19/3/2024","x":385,"y":-360,"width":250,"height":60},
+		{"id":"260581023f387ce7","type":"text","text":"Value: \n1. Khả năng nhân bản dễ\n2. Capital đẻ ra capital","x":1926,"y":1664,"width":373,"height":386},
+		{"id":"02b662cff301f438","type":"text","text":"Problem:\n1. Sử dụng cái capital knowlegde như nào, nhanh hay chậm còn chưa thể chắc chắn","x":2299,"y":1664,"width":372,"height":386},
+		{"id":"1edec442db02c32a","type":"link","url":"https://en.wikipedia.org/wiki/Knowledge_economy\r\n","x":300,"y":470,"width":420,"height":150},
+		{"id":"64667403bb333e66","type":"text","text":"Làm rõ phần cơ chế_1: \n- Trao đổi trực tiếp: Trao đổi lượng kiến thức mà người\n- Vật trao đổi: sản phẩm là kiến thức có ích (có thể áp dụng với đối phương) - bản chất là lao động trên cái tri thức mình có để giúp người ta biến nó thành của người ta","x":785,"y":1181,"width":275,"height":199},
+		{"id":"5f9b59c0fef47393","type":"text","text":"Comment: Phong tự chia sẻ mô hình của mình","x":660,"y":-120,"width":250,"height":110},
+		{"id":"b532477b04c46c40","type":"text","text":"Ooker: nó có giống như kiểu mấy cái subreddit, kiểu em muốn đăng bài nhờ người ta cho phản hồi thì trước hết em phải cho phản hồi cho người khác trước vài lần ko?","x":360,"y":220,"width":300,"height":180},
+		{"id":"9ec7e1b593ca7a1e","type":"text","text":"# Nền kinh tế tri thức","x":1926,"y":720,"width":745,"height":215},
+		{"id":"c6e931b655ffa3d0","type":"text","text":"Capital is knowledge\nPast: Capital is money, ?, ?, ? (quan niệm của kinh tế chính trị hiện đại)","x":1926,"y":1170,"width":745,"height":322},
+		{"id":"ccfbed4da020ebca","type":"text","text":"Cơ chế trao đổi:\nMô hình sơ cấp: trao đổi thông tin tình báo\n\n\n","x":1380,"y":1170,"width":457,"height":300},
+		{"id":"d9d9b59f03202dcc","type":"text","text":"# SubReddit\nroot:: Reddit\n","x":960,"y":620,"width":250,"height":100},
+		{"id":"af8b8825927ead78","type":"text","text":"Phong: trao đổi trực tiếp cái anh có và cái em có, khi trao đổi tức ta tìm cách áp dụng kiến thức đó cho hoàn cảnh người kia, kiến thức đã được đem ra trao đổi ở thị trường đều thành kiến thức public, cái mình bán thực chất là sự hướng dẫn, sự tổng hợp liên kết kiến thức (tức lao động với tri thức) thì sao hả anh","x":360,"y":670,"width":300,"height":300},
+		{"id":"29960001e145a698","type":"text","text":"Nghi vấn phần cơ chế","x":660,"y":220,"width":250,"height":60},
+		{"id":"eb8765476ebd6bd5","type":"text","text":"Làm rõ phần cơ chế_1","x":660,"y":670,"width":250,"height":60},
+		{"id":"7f9a68d64e617e4e","type":"text","text":"Cho đi trước vài lần thì mới có quyền đòi\n\nGốc: \"muốn nhờ phản hồi thì phải phản hồi cho người khác trước vài lần\"\n","x":960,"y":770,"width":250,"height":200},
+		{"id":"6997f9832308037a","type":"text","text":"##### **Câu hỏi cần trả lời:**\nTại sao lại có kênh này?\n\n##### **Tại sao cần trả lời câu hỏi trên?**\nVì insight có thể đến từ cảm giác hoặc từ dẫn chứng thuyết phục của người đưa ra, và để tất cả cùng hiểu động cơ, tư tưởng của nhau cho dễ làm việc\n\n_phong_\n\n","x":-80,"y":-120,"width":300,"height":220}
+	],
+	"edges":[
+		{"id":"ae644b890041f9b9","fromNode":"66eb524af18e095c","fromSide":"right","toNode":"9ec7e1b593ca7a1e","toSide":"left","color":"4"},
+		{"id":"b6c38b33c6e84a11","fromNode":"9ec7e1b593ca7a1e","fromSide":"bottom","toNode":"ccfbed4da020ebca","toSide":"top","color":"4","label":"\n\n\n"},
+		{"id":"9cb6206b2524619d","fromNode":"9ec7e1b593ca7a1e","fromSide":"bottom","toNode":"c6e931b655ffa3d0","toSide":"top","color":"4"},
+		{"id":"393fd5253918d077","fromNode":"260581023f387ce7","fromSide":"top","toNode":"c6e931b655ffa3d0","toSide":"bottom","color":"4"},
+		{"id":"e9b32679629697d4","fromNode":"02b662cff301f438","fromSide":"top","toNode":"c6e931b655ffa3d0","toSide":"bottom","color":"4"},
+		{"id":"5b585aae0443ca96","fromNode":"b532477b04c46c40","fromSide":"right","toNode":"d9d9b59f03202dcc","toSide":"top","color":"4"},
+		{"id":"ad3edf5135c462a0","fromNode":"d9d9b59f03202dcc","fromSide":"bottom","toNode":"7f9a68d64e617e4e","toSide":"top","color":"4"},
+		{"id":"3338850053ef572c","fromNode":"eb8765476ebd6bd5","fromSide":"bottom","toNode":"64667403bb333e66","toSide":"left","color":"4"},
+		{"id":"2d3a1931ab2735fc","fromNode":"ccfbed4da020ebca","fromSide":"left","toNode":"64667403bb333e66","toSide":"right","color":"4"},
+		{"id":"00ba498967e3404e","fromNode":"ccfbed4da020ebca","fromSide":"left","toNode":"7f9a68d64e617e4e","toSide":"right","color":"1"}
+	]
+}

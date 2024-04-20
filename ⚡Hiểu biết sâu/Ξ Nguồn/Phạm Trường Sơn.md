@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-17T23:26
+updated: 2024-03-30T11:41
 ---
 Khái niệm:: 
 [[Các câu hỏi về việc thành lập quỹ tín dụng, nền kinh tế phi chính thức, bản chất CSR của doanh nghiệp và tâm lý con người về tiền]]
@@ -23,7 +23,7 @@ Tiền giải ngân của tphcm chỉ giải ngân được 12% mà quy trình k
 LIN theo sứ mệnh quản lý tổ chức, chứ ko phải là phát triển cộng đồng, chỉ có kết nối
 Sứ mạng của họ là thương người chứ không phải là phát triển cộng đồng. 
 ## Điều gì khiến một người có tiền nhiều tới mức đầu tư cũng ko hết vẫn ko muốn cho tiền? Tại sao việc đáp ứng nhu cầu người khác lại không mạnh hơn việc tối đa hoá tiền? 
-HỌc viện mà Mark Zuckerberg ọc ở cấp 3 là nhân bản
+Học viện mà Mark Zuckerberg học ở cấp 3 là nhân bản
 - truyền thống thì mình có, nhưng phải nuôi dưỡng. Nuôi dưỡng thông qua giáo dục thì mình ko có. Và phải
 
 - Mỹ: đề cao tư bản, nhưng có luật sòng phẳng. Định hình thể chế philanthropy thông qua luật
@@ -44,29 +44,6 @@ LIN khác vì dữ liệu đối tác rất lớn
 Không có con người biết đủ các tố chất 2 bên: doanh nghiệp
 tầm nhìn của weshare rất lớn, nhưng ko toàn tâm toàn ý được để có tiền để xây dựng đội ngũ
 
-### Trong tháng vừa qua anh đã phân loại dữ liệu bao nhiêu lần?
-### Mỗi lần phân loại anh tốn bao nhiêu thời gian?
-### Anh thường phải phân loại những gì?
-### Bao lâu anh phân loại một lần?
-### Mỗi lần phân loại tốn bao nhiêu thời gian?
-### Sau khi phân loại xong thì anh làm những gì tiếp theo?
-### Có lúc nào anh không phân loại không? Tại sao?
-## Giá trị của việc phân loại
-### Việc phân loại giúp ích được những gì cho anh?
-### Thứ anh có được sau khi phân loại xong giúp ích được những gì cho anh?
-### Nếu không phải tốn thời gian cho việc phân loại thì anh sẽ làm gì?
-### Anh cảm thấy như thế nào vào lúc phải phân loại?
-
-## Giải pháp phân loại tự động
-### Anh có bao giờ nghĩ giá như có một giải pháp giúp tự động hoá những chuyện này không?
-### Anh có nghĩ giải pháp đó là đơn giản không?
-### Theo anh tại sao anh chưa có giải pháp đó?
-### Anh nghĩ rằng giải pháp cho anh nên là như thế nào?
-### Nếu là AI thì sao?
-### Anh nghĩ giá của nó nên như thế nào?
-### Giả sử như bây giờ anh đã có giải pháp đó luôn rồi, thì anh có dành thời gian để áp dụng nó ngay không?
-#### Điều gì quan trọng hơn cả việc đấy?
-
 # Nhu cầu về quản lý dữ liệu
 - Các hoạt động của bọn anh có cái nào mở không. Em có thể đọc các tài liệu của bọn anh được không?
 - Tại sao LIN lại cần bảo mật dữ liệu? 
@@ -74,6 +51,10 @@ tầm nhìn của weshare rất lớn, nhưng ko toàn tâm toàn ý được đ
 - Số đối tác của LIN là rất lớn, nhưng các bên liên quan của các tổ chức cũng lớn mà
 
 - Anh còn quan tâm đến việc tích luỹ kiến thức để có thể tư vấn cho các tổ chức được tốt hơn không?
+## Ai cũng nói về sự hợp tác, nhưng tại sao không ai quan tâm đến việc lưu trữ dữ liệu?
+Tại sao ai cũng lấy bản đồ các bên liên quan ra, nhưng việc lập một bản đồ thực sự không ai quan tâm?
+
+
 
 - Anh cảm thấy mình muốn chia sẻ điều gì nhất cho mọi người? 
 - Anh có ý định mở các buổi chia sẻ không?
@@ -81,3 +62,7 @@ tầm nhìn của weshare rất lớn, nhưng ko toàn tâm toàn ý được đ
 - Hệ thống tri thức cá nhân của anh và chia sẻ cho mọi người
 
 - SNPO khác gì LIN
+- DRD, quỹ hoà bình và phát triển có gì phucwsc tạp như LIN ko?
+- vì  sao kiểm toán 
+- Các tổ chức đầu tàu có quan tâm đến minh bạch dữ liệu nội bộ ko?
+- trao đổi thoongtin kém có là lý do hệ sinh thái kém phát triển?

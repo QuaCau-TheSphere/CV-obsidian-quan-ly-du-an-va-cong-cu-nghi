@@ -892,7 +892,13 @@ function equalsAsHotkey(hotkey, keyDownEvent) {
 }
 
 // src/settings.ts
-var searchTargetList = ["file", "backlink", "link", "2-hop-link"];
+var searchTargetList = [
+  "file",
+  "opened file",
+  "backlink",
+  "link",
+  "2-hop-link"
+];
 var createDefaultHotkeys = () => ({
   main: {
     up: [{ modifiers: ["Mod"], key: "p" }],
@@ -1282,8 +1288,8 @@ var DEFAULT_SETTINGS = {
   showFuzzyMatchScore: false
 };
 var AnotherQuickSwitcherSettingTab = class extends import_obsidian2.PluginSettingTab {
-  constructor(app2, plugin) {
-    super(app2, plugin);
+  constructor(app, plugin) {
+    super(app, plugin);
     this.resetLock = true;
     this.hotkeyExpandedStatus = {
       main: false,
@@ -1944,8 +1950,8 @@ function isFrontMatterLinkCache(x) {
   return x.position == null;
 }
 var AppHelper = class {
-  constructor(app2) {
-    this.unsafeApp = app2;
+  constructor(app) {
+    this.unsafeApp = app;
   }
   getActiveFile() {
     return this.unsafeApp.workspace.getActiveFile();
@@ -1954,13 +1960,13 @@ var AppHelper = class {
     if (!this.unsafeApp.workspace.getActiveViewOfType(import_obsidian3.FileView)) {
       return null;
     }
-    return this.unsafeApp.workspace.activeLeaf.view;
+    return this.unsafeApp.workspace.getLeaf().view;
   }
   getMarkdownViewInActiveLeaf() {
     if (!this.unsafeApp.workspace.getActiveViewOfType(import_obsidian3.MarkdownView)) {
       return null;
     }
-    return this.unsafeApp.workspace.activeLeaf.view;
+    return this.unsafeApp.workspace.getLeaf().view;
   }
   getCurrentEditor() {
     var _a, _b;
@@ -2032,7 +2038,7 @@ var AppHelper = class {
   }
   findFirstHeaderOffset(file, header) {
     var _a, _b;
-    const cache = app.metadataCache.getFileCache(file);
+    const cache = this.unsafeApp.metadataCache.getFileCache(file);
     if (!cache) {
       return null;
     }
@@ -2111,7 +2117,7 @@ var AppHelper = class {
     var _a;
     const isToOffset = typeof to === "number";
     const activeFile = this.getActiveFile();
-    const activeLeaf = this.unsafeApp.workspace.activeLeaf;
+    const activeLeaf = this.unsafeApp.workspace.getLeaf();
     if (!activeFile || !activeLeaf) {
       return;
     }
@@ -2141,11 +2147,17 @@ var AppHelper = class {
     }
     return abstractFile;
   }
+  getFilePathsInActiveWindow() {
+    return this.unsafeApp.workspace.getLeavesOfType("markdown").filter(
+      (x) => x.getContainer() === this.unsafeApp.workspace.getLeaf().getContainer()
+    ).map((x) => x.getViewState().state.file);
+  }
   captureState(initialLeaf) {
-    const currentLeaf = this.unsafeApp.workspace.activeLeaf;
-    const newLeaf = app.workspace.getLeaf();
+    const currentLeaf = this.unsafeApp.workspace.getLeaf();
+    const newLeaf = this.unsafeApp.workspace.getLeaf();
     const newState = newLeaf.getViewState();
     const newEState = newLeaf.getEphemeralState();
+    const unsafeApp = this.unsafeApp;
     return {
       leaf: newLeaf,
       async restore() {
@@ -2164,7 +2176,7 @@ var AppHelper = class {
             newEState
           );
           if (newLeaf !== currentLeaf) {
-            app.workspace.setActiveLeaf(currentLeaf, { focus: true });
+            unsafeApp.workspace.setActiveLeaf(currentLeaf, { focus: true });
           }
         }
         this.leaf = void 0;
@@ -2178,24 +2190,27 @@ var AppHelper = class {
     }
     return { type, state: { file: file.path } };
   }
+  findLeaf(file) {
+    return this.unsafeApp.workspace.getLeavesOfType("markdown").find((x) => x.getViewState().state.file === file.path);
+  }
   async openFile(file, option = {}, captureState) {
-    var _a, _b;
+    var _a, _b, _c;
     const opt = {
-      ...{ leaf: "same-tab", inplace: false },
+      ...{ leafType: "same-tab", inplace: false },
       ...option
     };
-    const priorNewLeaf = (option == null ? void 0 : option.preventDuplicateTabs) ? this.unsafeApp.workspace.getLeavesOfType("markdown").find((x) => x.getViewState().state.file === file.path) : void 0;
+    const priorLeaf = (option == null ? void 0 : option.preventDuplicateTabs) ? this.findLeaf(file) : void 0;
     let leaf;
     let background = false;
-    switch (opt.leaf) {
+    switch (opt.leafType) {
       case "same-tab":
-        leaf = (_a = captureState == null ? void 0 : captureState.leaf) != null ? _a : this.unsafeApp.workspace.getLeaf();
+        leaf = (_b = (_a = option.leafPriorToSameTab) != null ? _a : captureState == null ? void 0 : captureState.leaf) != null ? _b : this.unsafeApp.workspace.getLeaf();
         break;
       case "new-tab":
-        leaf = priorNewLeaf != null ? priorNewLeaf : this.unsafeApp.workspace.getLeaf(true);
+        leaf = priorLeaf != null ? priorLeaf : this.unsafeApp.workspace.getLeaf(true);
         break;
       case "new-tab-background":
-        leaf = priorNewLeaf != null ? priorNewLeaf : this.unsafeApp.workspace.getLeaf(true);
+        leaf = priorLeaf != null ? priorLeaf : this.unsafeApp.workspace.getLeaf(true);
         background = true;
         break;
       case "new-pane-horizontal":
@@ -2209,12 +2224,12 @@ var AppHelper = class {
         break;
       case "popup":
         const hoverEditorInstance = this.unsafeApp.plugins.plugins["obsidian-hover-editor"];
-        leaf = (_b = hoverEditorInstance == null ? void 0 : hoverEditorInstance.spawnPopover()) != null ? _b : this.unsafeApp.workspace.getLeaf(true);
+        leaf = (_c = hoverEditorInstance == null ? void 0 : hoverEditorInstance.spawnPopover()) != null ? _c : this.unsafeApp.workspace.getLeaf(true);
         break;
       default:
-        throw new ExhaustiveError(opt.leaf);
+        throw new ExhaustiveError(opt.leafType);
     }
-    if (opt.inplace && opt.leaf === "same-tab") {
+    if (opt.inplace && opt.leafType === "same-tab") {
       await leaf.setViewState({
         ...leaf.getViewState(),
         active: !background,
@@ -2343,12 +2358,13 @@ var AppHelper = class {
     return file.stat.ctime === 0;
   }
   isActiveLeafCanvas() {
-    var _a;
-    return ((_a = this.unsafeApp.workspace.activeLeaf) == null ? void 0 : _a.view.getViewType()) === "canvas";
+    return this.unsafeApp.workspace.getLeaf().view.getViewType() === "canvas";
+  }
+  isCacheInitialized() {
+    return this.unsafeApp.metadataCache.initialized;
   }
   addFileToCanvas(file, offset = { x: 0, y: 0 }) {
-    var _a;
-    const unsafeView = (_a = this.unsafeApp.workspace.activeLeaf) == null ? void 0 : _a.view;
+    const unsafeView = this.unsafeApp.workspace.getLeaf().view;
     const { x, y } = unsafeView.canvas.posCenter();
     return unsafeView.canvas.createFileNode({
       file,
@@ -3047,6 +3063,10 @@ var AnotherQuickSwitcherModal = class extends import_obsidian4.SuggestModal {
       switch (command.searchTarget) {
         case "file":
           break;
+        case "opened file":
+          const paths = this.appHelper.getFilePathsInActiveWindow();
+          items = items.filter((x) => paths.includes(x.file.path));
+          break;
         case "backlink":
           const backlinksMap = this.appHelper.createBacklinksMap();
           items = items.filter(
@@ -3263,8 +3283,8 @@ var AnotherQuickSwitcherModal = class extends import_obsidian4.SuggestModal {
   navigate(cb) {
     this.navQueue = this.navQueue.then(cb);
   }
-  async chooseCurrentSuggestion(leaf, option = {}) {
-    var _a, _b, _c, _d;
+  async chooseCurrentSuggestion(leafType, option = {}) {
+    var _a, _b, _c, _d, _e, _f;
     const item = (_a = this.chooser.values) == null ? void 0 : _a[this.chooser.selectedItem];
     if (!item) {
       return null;
@@ -3274,12 +3294,21 @@ var AnotherQuickSwitcherModal = class extends import_obsidian4.SuggestModal {
       fileToOpened = await this.app.vault.create(item.file.path, "");
     }
     let offset;
+    let leafPriorToSameTab;
     switch (this.command.searchTarget) {
       case "file":
         if (((_b = item.matchResults[0]) == null ? void 0 : _b.type) === "header") {
           const firstHeader = item.matchResults[0].meta[0];
           offset = (_c = this.appHelper.findFirstHeaderOffset(item.file, firstHeader)) != null ? _c : void 0;
         }
+        break;
+      case "opened file":
+        if (((_d = item.matchResults[0]) == null ? void 0 : _d.type) === "header") {
+          const firstHeader = item.matchResults[0].meta[0];
+          offset = (_e = this.appHelper.findFirstHeaderOffset(item.file, firstHeader)) != null ? _e : void 0;
+        }
+        this.appHelper.getFilePathsInActiveWindow;
+        leafPriorToSameTab = this.appHelper.findLeaf(fileToOpened);
         break;
       case "backlink":
         offset = this.appHelper.findFirstLinkOffset(
@@ -3297,17 +3326,18 @@ var AnotherQuickSwitcherModal = class extends import_obsidian4.SuggestModal {
     if (!option.keepOpen) {
       this.close();
       this.navigate(() => this.isClosed);
-    } else if (leaf === "same-tab") {
-      (_d = this.stateToRestore) != null ? _d : this.stateToRestore = this.appHelper.captureState(this.initialLeaf);
+    } else if (leafType === "same-tab") {
+      (_f = this.stateToRestore) != null ? _f : this.stateToRestore = this.appHelper.captureState(this.initialLeaf);
     }
     this.navigate(
       () => this.appHelper.openFile(
         fileToOpened,
         {
-          leaf,
+          leafType,
           offset,
           inplace: option.keepOpen,
-          preventDuplicateTabs: this.settings.preventDuplicateTabs
+          preventDuplicateTabs: this.settings.preventDuplicateTabs,
+          leafPriorToSameTab
         },
         this.stateToRestore
       )
@@ -3328,7 +3358,7 @@ var AnotherQuickSwitcherModal = class extends import_obsidian4.SuggestModal {
     }
     this.close();
     this.navigate(() => this.isClosed);
-    this.navigate(() => this.appHelper.openFile(file, { leaf: leafType }));
+    this.navigate(() => this.appHelper.openFile(file, { leafType }));
     return false;
   }
   registerKeys(key, handler) {
@@ -3407,7 +3437,7 @@ var AnotherQuickSwitcherModal = class extends import_obsidian4.SuggestModal {
       }
       this.chooser.values.slice().reverse().forEach(
         (x) => this.appHelper.openFile(x.file, {
-          leaf: "new-tab-background",
+          leafType: "new-tab-background",
           preventDuplicateTabs: this.settings.preventDuplicateTabs
         })
       );
@@ -3467,7 +3497,7 @@ var AnotherQuickSwitcherModal = class extends import_obsidian4.SuggestModal {
         activeWindow.open(urls[0]);
       } else {
         this.appHelper.openFile(fileToOpened, {
-          leaf: "same-tab"
+          leafType: "same-tab"
         });
       }
     });
@@ -3666,9 +3696,9 @@ function stampMatchType(item, queries, isNormalizeAccentsDiacritics) {
   return item;
 }
 var MoveModal = class extends import_obsidian5.SuggestModal {
-  constructor(app2, settings) {
-    super(app2);
-    this.appHelper = new AppHelper(app2);
+  constructor(app, settings) {
+    super(app);
+    this.appHelper = new AppHelper(app);
     this.settings = settings;
     this.setHotkeys();
     this.originItems = this.appHelper.getFolders().filter((x) => !x.isRoot()).map((x) => ({
@@ -3774,12 +3804,12 @@ var MoveModal = class extends import_obsidian5.SuggestModal {
 // src/ui/HeaderModal.ts
 var import_obsidian6 = require("obsidian");
 var HeaderModal = class extends import_obsidian6.SuggestModal {
-  constructor(app2, settings, floating) {
-    super(app2);
+  constructor(app, settings, floating) {
+    super(app);
     this.hitItems = [];
     this.unsafeSelectedIndex = 0;
     this.limit = 1e3;
-    this.appHelper = new AppHelper(app2);
+    this.appHelper = new AppHelper(app);
     this.settings = settings;
     this.floating = floating;
     this.autoPreview = settings.autoPreviewInFloatingHeaderSearch && floating;
@@ -4053,8 +4083,8 @@ var globalInternalStorage2 = {
   selected: void 0
 };
 var GrepModal = class extends import_obsidian7.SuggestModal {
-  constructor(app2, settings, initialLeaf) {
-    super(app2);
+  constructor(app, settings, initialLeaf) {
+    super(app);
     this.isClosed = new Promise((resolve) => {
       this.markClosed = resolve;
     });
@@ -4063,7 +4093,7 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
     this.vaultRootPath = normalizePath(
       this.app.vault.adapter.basePath
     );
-    this.appHelper = new AppHelper(app2);
+    this.appHelper = new AppHelper(app);
     this.settings = settings;
     this.logger = Logger.of(this.settings);
     this.initialLeaf = initialLeaf;
@@ -4332,7 +4362,7 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
       () => this.appHelper.openFile(
         item.file,
         {
-          leaf,
+          leafType: leaf,
           line: item.lineNumber - 1,
           inplace: option.keepOpen,
           preventDuplicateTabs: this.settings.preventDuplicateTabs
@@ -4342,7 +4372,7 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
     );
     return item.file;
   }
-  async onChooseSuggestion(item, evt) {
+  async onChooseSuggestion() {
     await this.chooseCurrentSuggestion("same-tab");
   }
   registerKeys(key, handler) {
@@ -4445,7 +4475,7 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
       }
       this.chooser.values.slice().reverse().forEach(
         (x) => this.appHelper.openFile(x.file, {
-          leaf: "new-tab-background",
+          leafType: "new-tab-background",
           preventDuplicateTabs: this.settings.preventDuplicateTabs
         })
       );
@@ -4472,8 +4502,8 @@ var GrepModal = class extends import_obsidian7.SuggestModal {
 // src/ui/BacklinkModal.ts
 var import_obsidian8 = require("obsidian");
 var BacklinkModal = class extends import_obsidian8.SuggestModal {
-  constructor(app2, settings, initialLeaf) {
-    super(app2);
+  constructor(app, settings, initialLeaf) {
+    super(app);
     this.lastOpenFileIndexByPath = {};
     this.suggestions = [];
     this.isClosed = new Promise((resolve) => {
@@ -4483,7 +4513,7 @@ var BacklinkModal = class extends import_obsidian8.SuggestModal {
     this.vaultRootPath = normalizePath(
       this.app.vault.adapter.basePath
     );
-    this.appHelper = new AppHelper(app2);
+    this.appHelper = new AppHelper(app);
     this.settings = settings;
     this.logger = Logger.of(this.settings);
     this.initialLeaf = initialLeaf;
@@ -4713,7 +4743,7 @@ var BacklinkModal = class extends import_obsidian8.SuggestModal {
       () => this.appHelper.openFile(
         item.file,
         {
-          leaf,
+          leafType: leaf,
           line: item.lineNumber - 1,
           inplace: option.keepOpen,
           preventDuplicateTabs: this.settings.preventDuplicateTabs
@@ -4723,7 +4753,7 @@ var BacklinkModal = class extends import_obsidian8.SuggestModal {
     );
     return item.file;
   }
-  async onChooseSuggestion(item, evt) {
+  async onChooseSuggestion() {
     await this.chooseCurrentSuggestion("same-tab");
   }
   registerKeys(key, handler) {
@@ -4793,7 +4823,7 @@ var BacklinkModal = class extends import_obsidian8.SuggestModal {
       }
       this.chooser.values.slice().reverse().forEach(
         (x) => this.appHelper.openFile(x.file, {
-          leaf: "new-tab-background",
+          leafType: "new-tab-background",
           preventDuplicateTabs: this.settings.preventDuplicateTabs
         })
       );
@@ -4824,8 +4854,8 @@ var BacklinkModal = class extends import_obsidian8.SuggestModal {
 // src/ui/LinkModal.ts
 var import_obsidian9 = require("obsidian");
 var LinkModal = class extends import_obsidian9.SuggestModal {
-  constructor(app2, settings, initialLeaf) {
-    super(app2);
+  constructor(app, settings, initialLeaf) {
+    super(app);
     this.lastOpenFileIndexByPath = {};
     this.suggestions = [];
     this.isClosed = new Promise((resolve) => {
@@ -4835,7 +4865,7 @@ var LinkModal = class extends import_obsidian9.SuggestModal {
     this.vaultRootPath = normalizePath(
       this.app.vault.adapter.basePath
     );
-    this.appHelper = new AppHelper(app2);
+    this.appHelper = new AppHelper(app);
     this.settings = settings;
     this.logger = Logger.of(this.settings);
     this.initialLeaf = initialLeaf;
@@ -5014,7 +5044,7 @@ var LinkModal = class extends import_obsidian9.SuggestModal {
       () => this.appHelper.openFile(
         this.appHelper.getActiveFile(),
         {
-          leaf,
+          leafType: leaf,
           line: item.lineNumber - 1,
           inplace: option.keepOpen,
           preventDuplicateTabs: this.settings.preventDuplicateTabs
@@ -5024,7 +5054,7 @@ var LinkModal = class extends import_obsidian9.SuggestModal {
     );
     return this.appHelper.getActiveFile();
   }
-  async onChooseSuggestion(item, evt) {
+  async onChooseSuggestion() {
     await this.chooseCurrentSuggestion("same-tab");
   }
   registerKeys(key, handler) {
@@ -5094,7 +5124,7 @@ var LinkModal = class extends import_obsidian9.SuggestModal {
       }
       this.chooser.values.slice().reverse().map((x) => x.file).filter(isPresent).forEach(
         (x) => this.appHelper.openFile(x, {
-          leaf: "new-tab-background",
+          leafType: "new-tab-background",
           preventDuplicateTabs: this.settings.preventDuplicateTabs
         })
       );
@@ -5129,11 +5159,11 @@ var globalInternalStorage3 = {
   selected: null
 };
 var InFileModal = class extends import_obsidian10.SuggestModal {
-  constructor(app2, settings, initialLeaf) {
-    super(app2);
+  constructor(app, settings, initialLeaf) {
+    super(app);
     this.unsafeSelectedIndex = 0;
     this.suggestions = [];
-    this.appHelper = new AppHelper(app2);
+    this.appHelper = new AppHelper(app);
     this.settings = settings;
     this.logger = Logger.of(this.settings);
     this.initialLeaf = initialLeaf;
@@ -5440,15 +5470,15 @@ var InFileModal = class extends import_obsidian10.SuggestModal {
 
 // src/commands.ts
 var SEARCH_COMMAND_PREFIX = "search-command";
-function showSearchDialog(app2, settings, command) {
+function showSearchDialog(app, settings, command) {
   var _a, _b, _c, _d, _e;
-  const activeFileLeaf = (_b = (_a = app2.workspace.getActiveViewOfType(import_obsidian11.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
-  const editor = (_d = (_c = app2.workspace.getActiveViewOfType(import_obsidian11.MarkdownView)) == null ? void 0 : _c.editor) != null ? _d : null;
+  const activeFileLeaf = (_b = (_a = app.workspace.getActiveViewOfType(import_obsidian11.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
+  const editor = (_d = (_c = app.workspace.getActiveViewOfType(import_obsidian11.MarkdownView)) == null ? void 0 : _c.editor) != null ? _d : null;
   const modal = new AnotherQuickSwitcherModal({
-    app: app2,
+    app,
     settings,
     command,
-    originFile: app2.workspace.getActiveFile(),
+    originFile: app.workspace.getActiveFile(),
     inputQuery: settings.useSelectionWordsAsDefaultInputQuery ? (_e = editor == null ? void 0 : editor.getSelection()) != null ? _e : null : null,
     navigationHistories: [],
     currentNavigationHistoryIndex: 0,
@@ -5457,14 +5487,14 @@ function showSearchDialog(app2, settings, command) {
   });
   modal.open();
 }
-function showMoveDialog(app2, settings) {
-  if (!app2.workspace.getActiveFile()) {
+function showMoveDialog(app, settings) {
+  if (!app.workspace.getActiveFile()) {
     return;
   }
-  const modal = new MoveModal(app2, settings);
+  const modal = new MoveModal(app, settings);
   modal.open();
 }
-async function showGrepDialog(app2, settings) {
+async function showGrepDialog(app, settings) {
   var _a, _b;
   if (!import_obsidian11.Platform.isDesktop) {
     new import_obsidian11.Notice("Grep is not supported on mobile.");
@@ -5476,57 +5506,57 @@ async function showGrepDialog(app2, settings) {
     );
     return;
   }
-  const activeFileLeaf = (_b = (_a = app2.workspace.getActiveViewOfType(import_obsidian11.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
-  const modal = new GrepModal(app2, settings, activeFileLeaf);
+  const activeFileLeaf = (_b = (_a = app.workspace.getActiveViewOfType(import_obsidian11.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
+  const modal = new GrepModal(app, settings, activeFileLeaf);
   modal.open();
 }
-async function showBacklinkDialog(app2, settings) {
+async function showBacklinkDialog(app, settings) {
   var _a, _b;
-  if (!app2.workspace.getActiveFile()) {
+  if (!app.workspace.getActiveFile()) {
     return;
   }
-  const activeFileLeaf = (_b = (_a = app2.workspace.getActiveViewOfType(import_obsidian11.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
-  const modal = new BacklinkModal(app2, settings, activeFileLeaf);
+  const activeFileLeaf = (_b = (_a = app.workspace.getActiveViewOfType(import_obsidian11.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
+  const modal = new BacklinkModal(app, settings, activeFileLeaf);
   await modal.init();
   modal.open();
 }
-async function showLinkDialog(app2, settings) {
+async function showLinkDialog(app, settings) {
   var _a, _b;
-  if (!app2.workspace.getActiveFile()) {
+  if (!app.workspace.getActiveFile()) {
     return;
   }
-  const activeFileLeaf = (_b = (_a = app2.workspace.getActiveViewOfType(import_obsidian11.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
-  const modal = new LinkModal(app2, settings, activeFileLeaf);
+  const activeFileLeaf = (_b = (_a = app.workspace.getActiveViewOfType(import_obsidian11.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
+  const modal = new LinkModal(app, settings, activeFileLeaf);
   await modal.init();
   modal.open();
 }
-async function showInFileDialog(app2, settings) {
+async function showInFileDialog(app, settings) {
   var _a, _b;
-  if (!app2.workspace.getActiveFile()) {
+  if (!app.workspace.getActiveFile()) {
     return;
   }
-  const activeFileLeaf = (_b = (_a = app2.workspace.getActiveViewOfType(import_obsidian11.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
-  const modal = new InFileModal(app2, settings, activeFileLeaf);
+  const activeFileLeaf = (_b = (_a = app.workspace.getActiveViewOfType(import_obsidian11.FileView)) == null ? void 0 : _a.leaf) != null ? _b : null;
+  const modal = new InFileModal(app, settings, activeFileLeaf);
   await modal.init();
   modal.open();
 }
-function showHeaderDialog(app2, settings, floating) {
-  if (!app2.workspace.getActiveFile()) {
+function showHeaderDialog(app, settings, floating) {
+  if (!app.workspace.getActiveFile()) {
     return;
   }
-  const modal = new HeaderModal(app2, settings, floating);
+  const modal = new HeaderModal(app, settings, floating);
   modal.open();
 }
-function createCommands(app2, settings) {
+function createCommands(app, settings) {
   return [
     {
       id: "header-search-in-file",
       name: "Header search in file",
       checkCallback: (checking) => {
         if (checking) {
-          return Boolean(app2.workspace.getActiveFile());
+          return Boolean(app.workspace.getActiveFile());
         }
-        showHeaderDialog(app2, settings, false);
+        showHeaderDialog(app, settings, false);
       }
     },
     {
@@ -5534,9 +5564,9 @@ function createCommands(app2, settings) {
       name: "Header floating search in file",
       checkCallback: (checking) => {
         if (checking) {
-          return Boolean(app2.workspace.getActiveFile());
+          return Boolean(app.workspace.getActiveFile());
         }
-        showHeaderDialog(app2, settings, true);
+        showHeaderDialog(app, settings, true);
       }
     },
     {
@@ -5545,9 +5575,9 @@ function createCommands(app2, settings) {
       hotkeys: [{ modifiers: ["Mod", "Shift"], key: "m" }],
       checkCallback: (checking) => {
         if (checking) {
-          return Boolean(app2.workspace.getActiveFile());
+          return Boolean(app.workspace.getActiveFile());
         }
-        showMoveDialog(app2, settings);
+        showMoveDialog(app, settings);
       }
     },
     {
@@ -5558,7 +5588,7 @@ function createCommands(app2, settings) {
         if (checking) {
           return import_obsidian11.Platform.isDesktop;
         }
-        showGrepDialog(app2, settings);
+        showGrepDialog(app, settings);
       }
     },
     {
@@ -5567,9 +5597,9 @@ function createCommands(app2, settings) {
       hotkeys: [],
       checkCallback: (checking) => {
         if (checking) {
-          return Boolean(app2.workspace.getActiveFile());
+          return Boolean(app.workspace.getActiveFile());
         }
-        showBacklinkDialog(app2, settings);
+        showBacklinkDialog(app, settings);
       }
     },
     {
@@ -5578,9 +5608,9 @@ function createCommands(app2, settings) {
       hotkeys: [],
       checkCallback: (checking) => {
         if (checking) {
-          return Boolean(app2.workspace.getActiveFile());
+          return Boolean(app.workspace.getActiveFile());
         }
-        showLinkDialog(app2, settings);
+        showLinkDialog(app, settings);
       }
     },
     {
@@ -5589,9 +5619,9 @@ function createCommands(app2, settings) {
       hotkeys: [],
       checkCallback: (checking) => {
         if (checking) {
-          return Boolean(app2.workspace.getActiveFile());
+          return Boolean(app.workspace.getActiveFile());
         }
-        showInFileDialog(app2, settings);
+        showInFileDialog(app, settings);
       }
     },
     ...settings.searchCommands.map((command) => {
@@ -5600,7 +5630,7 @@ function createCommands(app2, settings) {
         name: command.name,
         hotkeys: [],
         callback: () => {
-          showSearchDialog(app2, settings, command);
+          showSearchDialog(app, settings, command);
         }
       };
     })
@@ -5611,13 +5641,23 @@ function createCommands(app2, settings) {
 var import_ts_deepmerge2 = __toESM(require_dist());
 var AnotherQuickSwitcher = class extends import_obsidian12.Plugin {
   async onload() {
+    this.appHelper = new AppHelper(this.app);
     await this.loadSettings();
     this.addSettingTab(new AnotherQuickSwitcherSettingTab(this.app, this));
-    this.reloadCommands();
+    if (this.appHelper.isCacheInitialized()) {
+      this.reloadCommands();
+    } else {
+      const cacheResolvedRef = this.app.metadataCache.on(
+        "resolved",
+        async () => {
+          this.reloadCommands();
+          this.app.metadataCache.offref(cacheResolvedRef);
+        }
+      );
+    }
   }
   reloadCommands() {
-    const appHelper = new AppHelper(this.app);
-    appHelper.getCommandIds(this.manifest.id).forEach((x) => appHelper.removeCommand(x));
+    this.appHelper.getCommandIds(this.manifest.id).forEach((x) => this.appHelper.removeCommand(x));
     createCommands(this.app, this.settings).forEach((x) => this.addCommand(x));
   }
   async loadSettings() {

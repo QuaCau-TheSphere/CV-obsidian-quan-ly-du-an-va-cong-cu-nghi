@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-17T23:30
+updated: 2024-03-09T23:55
 aliases:
   - Phát triển Trấn Kỳ
   - Chiến lược phát triển Trấn Kỳ
@@ -13,6 +13,32 @@ alias: Khái niệm
 Thành quả cần có:: [[Lợi nhuận mỗi tuần 2tr5]]
 - Mỗi tháng làm việc hiệu quả cho một bên [[Tiêu chí làm việc và ra quyết định]]
 
+# [[09-03]]
+| Giải pháp gợi ý         | Điểm mạnh                                                              | Điểm yếu                                                                   | Effort |
+| ----------------------- | ---------------------------------------------------------------------- | -------------------------------------------------------------------------- | ------ |
+| UTM freelance           | • có tiền ngay<br>• họ muốn làm với mình vì mình có kinh nghiệm        | • Giả sử có tiềm năng thật thì bỏ lỡ<br>                                   |        |
+| UTM startup             | • Đã có sẵn tập khách hàng, không cần đi bán<br>• Khả năng tiền đủ lớn | • Chưa chắc chắn về tiềm năng của nó<br>• Chưa có tiền ngay                |        |
+| Thu chi SME             |                                                                        |                                                                            |        |
+| Thu chi người dùng cuối | • Có research về user cụ thể<br>• Giúp Trí tạo thêm nguồn thu nhập                                           | • Đối thủ cạnh tranh<br>• Phải bỏ công và tiền ngay<br>• Chưa có tiền ngay |        |
+
+A. Startup UTM 
+B. Freelance UTM 
+C. Thu chi người dùng cuối
+D. Thu chi SME
+
+Thì mong muốn của em là A > B > C > D. Còn đánh giá về độ khả thi thì là B > A > C > D
+
+Cái doanh nghiệp kia nếu có e vs a rất khó để làm
+
+Huy
+
+Cái C có người làm độ khả thi cao hơn vì e có kinh nghiệm
+
+Huy
+
+![Huy Viết Lưu](https://www.facebook.com/messaging/lightspeed/media_fallback/?entity_id=100004166111754&entity_type=1&width=100&height=100&efg=eyJkdHciOiIifQ%3D%3D)
+
+D gần như là mù và k đánh giá đx thị trường
 # [[16-02]]
 Em cũng nghĩ là mình nên tập trung vào tìm khách hàng thực sự trả tiền hơn là code thêm. Hiện tại em thấy mình có 2 tập đối tượng mà mình có thể đáp ứng nhu cầu của họ:
 # Người cần quản lý chi tiêu cá nhân hoặc bán nhỏ lẻ

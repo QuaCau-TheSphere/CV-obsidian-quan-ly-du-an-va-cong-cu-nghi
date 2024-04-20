@@ -4,6 +4,10 @@
     "repo": "CW-obsidian-quan-ly-du-an-va-cong-cu-nghi",
     "branch": "main",
     "automaticallyMergePR": true,
+    "dryRun": {
+      "enable": false,
+      "folderName": "github-publisher"
+    },
     "tokenPath": "%configDir%/plugins/%pluginID%/env",
     "api": {
       "tiersForApi": "Github Free/Pro/Team (default)",
@@ -31,7 +35,9 @@
         "workflow": {
           "name": "",
           "commitMessage": "[skip netlify] PUBLISHER"
-        }
+        },
+        "verifiedRepo": false,
+        "rateLimit": 5000
       }
     ],
     "verifiedRepo": true,
@@ -116,10 +122,16 @@
       "enable": false,
       "links": "",
       "removePart": [],
-      "addCmd": false
+      "addCmd": false,
+      "transform": {
+        "toUri": true,
+        "slugify": "lower",
+        "applyRegex": []
+      }
     },
     "noticeError": false,
     "displayModalRepoEditing": true,
+    "setFrontmatterKey": "Set",
     "migrated": true,
     "dev": true
   },
