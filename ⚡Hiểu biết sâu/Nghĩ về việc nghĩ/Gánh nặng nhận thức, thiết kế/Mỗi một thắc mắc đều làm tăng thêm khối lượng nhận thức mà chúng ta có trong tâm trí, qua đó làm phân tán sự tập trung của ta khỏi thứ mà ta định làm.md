@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-04-14T20:51
+updated: 2024-06-21T22:10
 ---
 > Luật bất thành văn, người ta không thích phải chật vật giải câu đố để làm 1 thứ gì đó. Họ thích giải câu đố nhưng phải ở đúng hoàn cảnh, khi mà họ muốn được giải trí hoặc thách thức, không phải khi họ đang muốn biết cái tiệm giặt sấy khô mấy giờ đóng cửa. Việc team dựng web không bận tâm để làm cho mọi thứ đơn giản và dễ dàng, có thể làm tiêu hao đi niềm tin của người dùng vào trang web và đội ngũ phát triển nó.
 
@@ -16,5 +16,7 @@ Nguồn:: [[Đừng bắt tôi nghĩ]]
 [[Nhiều khi để trả lời được một câu hỏi ta phải tìm hiểu cả một lĩnh vực]] 
 [[Những câu trả lời luôn giả định người đọc hiểu trước một vài khái niệm]]
 [[Đọc hướng dẫn sử dụng cũng nhức đầu]]
+[[Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google]]
+[[Việc kiểm định giả thuyết thường bị bỏ qua khi có quá nhiều việc]]
 
 Mâu thuẫn với:: [[Để có thể thiết kế một giải pháp một cách nhanh chóng và tự tin, ta cần được thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra]] 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-04-16T01:43
+updated: 2024-04-20T23:00
 ---
 Khái niệm:: 
 Coders often work alone, unsupported, unpaid, at labours of love. They must build tenuous trust relations, be clever diplomats and team leaders, and be articulate in stating their needs and aims.
@@ -11,7 +11,7 @@ Nguồn:: [Poison Code.](https://cybershow.uk/blog/posts/poison-code/)
 
 ![](https://www.commitstrip.com/wp-content/uploads/2014/05/Strip-Vision-Open-source-650-finalenglish.jpg) 
 ![](https://img.devrant.com/devrant/rant/r_2059869_GwsdC.jpg) 
+Lý do:: [[Viết code dễ hơn đọc code]]
+Lý do:: [[Phản hồi và sự giúp đỡ trả lại là những thứ xa xỉ với người được giúp]]
 
 [[Quyên góp cho mã nguồn mở thiếu sự khẩn cấp và đồng cảm cá nhân mà các tổ chức từ thiện hay có]]
-
-Lý do:: [[Viết code dễ hơn đọc code]]

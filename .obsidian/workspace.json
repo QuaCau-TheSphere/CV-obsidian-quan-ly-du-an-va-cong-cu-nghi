@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0b606195e41c1a25",
+        "id": "6318211ad57180f1",
         "type": "tabs",
         "children": [
           {
-            "id": "e36b5dea37711bac",
+            "id": "ab29a72c49c93093",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở, phần mềm tự do.md",
+                "file": "📐 Dự án/Kế hoạch tạo lợi nhuận.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "9b77a87bf100db86",
+            "id": "6f7d382918073493",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Phần mềm tự do/FSF muốn bảo vệ con người khỏi bị khai thác, thao túng.md",
+                "file": "📐 Dự án/VNPAY.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -34,33 +34,20 @@
             }
           },
           {
-            "id": "3b8bad21911330f0",
+            "id": "51fb81955022afae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở, phần mềm tự do.md",
+                "file": "📐 Dự án/đối ⊷ thoại/Liên kết tiếng Việt.md",
                 "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9fb7481b0b7cf2fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Kinh tế. Tâm lý học quản lý và lao động/Kinh tế/Giá trị, giá cả, thị trường/Độc quyền, ngoại tác, hàng hoá công, thông tin bất cân xứng, mất cân bằng vĩ mô là các thất bại của thị trường.md",
-                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -126,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở, phần mềm tự do.md",
+                "file": "📐 Dự án/VNPAY.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở, phần mềm tự do.md",
+                "file": "📐 Dự án/VNPAY.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,11 +153,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở, phần mềm tự do.md"
+                "file": "📐 Dự án/VNPAY.md"
               }
             }
+          },
+          {
+            "id": "8656cf98fcc3f9b1",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -185,57 +181,91 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "3b8bad21911330f0",
+  "floating": {
+    "id": "c6078058c4ee821e",
+    "type": "floating",
+    "children": [
+      {
+        "id": "06643c7497c73b0c",
+        "type": "window",
+        "children": [
+          {
+            "id": "8842cc4a8f125638",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "e2deb50a6e2edf80",
+                "type": "leaf",
+                "state": {
+                  "type": "reveal-preview-view",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 759,
+        "y": 1106,
+        "width": 601,
+        "height": 746,
+        "maximize": true,
+        "zoom": 1.5
+      }
+    ]
+  },
+  "active": "6f7d382918073493",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở/Những người ly khai khỏi phong trào phần mềm tự do chán nản với việc RMS chỉ nói về cái mình muốn chứ không nói cái người ta muốn.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở, phần mềm tự do.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Phần mềm tự do/Khi nói đến mã nguồn mở, đa số chỉ để ý tới việc được đọc mã nguồn, chứ không để ý đến quyền được chỉnh sửa và phân phối nó.md",
-    "📐 Dự án/Trấn Kỳ/9 Blog/Kiếm tiền từ Trấn Kỳ.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Phần mềm tự do/Những trường hợp sử dụng phần mềm không tự do nhưng không gây hại.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Phần mềm tự do/FSF muốn bảo vệ con người khỏi bị khai thác, thao túng.md",
-    "⚡Hiểu biết sâu/Kinh tế. Tâm lý học quản lý và lao động/Việc khai thác điểm yếu của con người đem lại lợi nhuận.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Phần mềm tự do/Từ ❝mở❞ dễ bị lạm dụng hoặc hiểu sai hơn là ❝tự do❞.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở/Việc sử dụng từ ❝mở❞ đã khiến cho O'Reilly thành công trong việc đánh đồng internet với mã nguồn mở.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở/Việc sử dụng từ ❝mở❞ đã khiến cho O'Reilly thành công trong việc PR mã nguồn mở.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở/Ý tưởng rằng làm dự án mã nguồn mở sẽ có cộng đồng lớn có lẽ không tồn tại trước thời OSI.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở/O'Reilly ứng dụng lý thuyết structural differential của Korzybski vào việc tạo ra khái niệm open source và web 2.0.md",
-    "Ξ Thiết lập/Gõ tắt.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở/Trước đây, khái niệm ❝chính phủ mở❞ là để nói về trách nhiệm giải trình minh bạch của chính phủ. Sau khi O'Reilly sử dụng nó như một dạng kết hợp giữa chính phủ và mã nguồn mở, ý niệm này đã bị lu mờ.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở/Ai muốn nói về sự tích cực của mình cũng đều có thể dùng từ ❝mở❞.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở/Từ nào mà mọi người đều nhìn thấy nó theo cách của mình thì là một từ thành công với O'Reilly.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở/Thời gian trung bình từ lúc một phần mềm đến lúc có phần mềm mã nguồn mở tương đương là 7 năm.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Bản đồ không phải là vùng đất.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Phần mềm.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/No code, low code/Excel/Excel dịch chuyển một phần quyền lực của chuyên gia IT vào người sử dụng.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở/Các công ty đầu tư vào dự án mã nguồn mở khi nó nó là hàng hoá bổ sung cho sản phẩm chính của họ.md",
-    "⚡Hiểu biết sâu/Kinh tế. Tâm lý học quản lý và lao động/Kinh tế/Giá trị, giá cả, thị trường/Độc quyền, ngoại tác, hàng hoá công, thông tin bất cân xứng, mất cân bằng vĩ mô là các thất bại của thị trường.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Kinh tế học/Thị trường và thất bại của thị trường.pdf",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở/OSI muốn các công ty đón nhận mã nguồn mở bằng việc nhấn mạnh vào cộng đồng và lợi thế cạnh tranh từ phương thức sản xuất mới này.md",
-    "⚡Hiểu biết sâu/Kinh tế. Tâm lý học quản lý và lao động/Kinh tế/Giá trị, giá cả, thị trường/Con người không giả định miễn phí là kém chất lượng với sản phẩm số.md",
-    "⚡Hiểu biết sâu/Kinh tế. Tâm lý học quản lý và lao động/Kinh tế/Giá trị, giá cả, thị trường/Những tài nguyên vô hạn sẽ làm những tài nguyên không vô hạn đi kèm với nó trở nên khan hiếm hơn.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Gánh nặng nhận thức, thiết kế/Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Phần mềm tự do",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do/Mã nguồn mở",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Tự trị dữ liệu",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Nhân học. Khoa học nhận thức",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT/Mã nguồn mở, phần mềm tự do",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Nhân học, kinh tế, khoa học nhận thức trong CNTT",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Thị trường. Tự trị dữ liệu/Nhân học. Khoa học nhận thức",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Thị trường. Tự trị dữ liệu/New folder",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Thị trường. Tự trị dữ liệu/Mã nguồn mở, phần mềm tự do/Phần mềm tự do",
-    "📐 Dự án/Công cụ cho hệ sinh thái/Nền kinh tế tri thức.canvas",
-    "Screenshot_2024-03-21-22-51-05-413_com.facebook.orca.jpg",
-    "Ξ Thiết lập/Ảnh/Persona.webp",
-    "Ξ Thiết lập/Ảnh/Đồ thị nhu cầu.svg",
-    "Ξ Thiết lập/Ảnh/Pasted image 20240221020431.png",
-    "Ξ Thiết lập/Ảnh/Pasted image 20240216111339.png",
-    "Ξ Thiết lập/Ảnh/Trấn Kỳ/Demo.gif",
-    "Ξ Thiết lập/Ảnh/Trấn Kỳ/firefox_2024-02-14_20-32-48.gif",
-    "Ξ Thiết lập/Ảnh/Các buổi đáp ứng nhu cầu học lập trình/2. Một số nhu cầu công việc ví dụ và những sản phẩm và kiến thức cần có để làm được chúng.png",
-    "Ξ Thiết lập/Ảnh/Các buổi đáp ứng nhu cầu học lập trình/1. Điểm giống và khác của các mô hình học tập.png",
-    "Ξ Thiết lập/Ảnh/Các buổi đáp ứng nhu cầu học lập trình/Bàn làm việc Google Calendar.png"
+    "export/VNPAY/plugin/chalkboard/img/whiteboard.png",
+    "export/VNPAY/plugin/chalkboard/img/sponge.png",
+    "export/VNPAY/plugin/chalkboard/img/chalk-yellow.png",
+    "export/VNPAY/plugin/chalkboard/img/chalk-white.png",
+    "export/VNPAY/plugin/chalkboard/img/chalk-red.png",
+    "export/VNPAY/plugin/chalkboard/img/chalk-purple.png",
+    "export/VNPAY/plugin/chalkboard/img/chalk-orange.png",
+    "export/VNPAY/plugin/chalkboard/img/chalk-green.png",
+    "export/VNPAY/plugin/chalkboard/img/chalk-blue.png",
+    "export/VNPAY/plugin/chalkboard/img/boardmarker-yellow.png",
+    "export/VNPAY/plugin/chalkboard/img/boardmarker-red.png",
+    "export/VNPAY/plugin/chalkboard/_style.css",
+    "export/VNPAY/plugin/chalkboard/style.css",
+    "export/VNPAY/plugin/chalkboard/README.md",
+    "export/VNPAY/plugin/chalkboard/plugin.js",
+    "export/VNPAY/plugin/chalkboard/plugin (copy).js",
+    "export/VNPAY/plugin/chalkboard/img",
+    "export/VNPAY/plugin/chalkboard",
+    "export/VNPAY/plugin/customcontrols/style.css",
+    "export/VNPAY/plugin/customcontrols/README.md",
+    "export/VNPAY/plugin/customcontrols/plugin.js",
+    "export/VNPAY/plugin/customcontrols",
+    "export/VNPAY/plugin/elapsed-time-bar/elapsed-time-bar.js",
+    "export/VNPAY/plugin/chart/README.md",
+    "export/VNPAY/plugin/menu/README.md",
+    "export/VNPAY/plugin/menu/CONTRIBUTING.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Tổ chức nhỏ/Mục tiêu và câu hỏi nghiên cứu tổ chức nhỏ cần trích xuất dữ liệu có cấu trúc từ dữ liệu phi cấu trúc.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Người dùng cá nhân/Sự tiếp nhận với các bài viết/Kết quả/Duy Phong.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Người dùng cá nhân/Sự tiếp nhận với các bài viết/Kết quả/Hải Yến.md",
+    "📐 Dự án/VNPAY.md",
+    "📐 Dự án/Kế hoạch tạo lợi nhuận.md",
+    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Nghề nghiệp/Marketing.md",
+    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Nghề nghiệp/Untitled.md",
+    "📐 Dự án/đối ⊷ thoại/Chia sẻ kho kiến thức, tài nguyên đến với mọi người.md",
+    "📐 Dự án/đối ⊷ thoại/Rút gọn liên kết và thống kê lưu lượng truy cập cho các dự án, tổ chức hiện diện trên nhiều nền tảng.md",
+    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Nghề nghiệp/Web dev, GA, Ads, SEO, MMO.md",
+    "📐 Dự án/đối ⊷ thoại/Giới thiệu đối ⊷ thoại.md",
+    "📐 Dự án/đối ⊷ thoại/đối ⊷ thoại lấy nhu cầu của các tổ chức phi lợi nhuận làm trung tâm.md",
+    "📐 Dự án/đối ⊷ thoại/đối ⊷ thoại.md",
+    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Hỗ trợ tổ chức/Dự án xã hội, NPO, nghiên cứu khoa học, nghệ thuật, hội hoạ.md",
+    "📐 Dự án/đối ⊷ thoại/Tăng độ nhận biết và huy động sự quan tâm tới những nguồn tài nguyên quan trọng.md",
+    "📐 Dự án/đối ⊷ thoại/Mở các cuộc đối thoại với cộng đồng.md",
+    "📐 Dự án/đối ⊷ thoại/Thử nghiệm các ý tưởng đối thoại với cộng đồng hiệu quả hơn.md",
+    "📜 Tài nguyên/Thủ thuật phần mềm/Quản lý phiên bản bằng Git/Vấn đề hay gặp khi dùng Git.md",
+    "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Phần mềm xây dựng cộng đồng/Server Discord.md",
+    "📐 Dự án/Công cụ cho hệ sinh thái/Nền kinh tế tri thức.canvas"
   ]
 }
