@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-26T16:58
+updated: 2024-07-06T14:59
 ---
 # [[Bàn làm việc Google Calendar]]
 ## Pending
@@ -35,3 +35,10 @@ updated: 2024-02-26T16:58
 2 react, 1 comment
 
 [[Web dev, GA, Ads, SEO, MMO]] 
+
+# [[Rút gọn liên kết và thống kê lưu lượng truy cập cho các dự án, tổ chức hiện diện trên nhiều nền tảng]]
+## Reject 
+[[05-07]] 19:33 [Log in to Facebook](https://www.facebook.com/groups/826780827386335/pending_posts/8016738338390512/)
+[[06-07]] 14:58 [Page not found | Facebook](https://www.facebook.com/groups/826780827386335/pending_posts/?search=&has_selection=false&is_notif_background=false&post_id=8021023211295358)
+## UAN Telegram
+[[05-07]] 20:47 https://t.me/uan_mkt/864/2738

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-06T15:32
-updated: 2023-11-15T20:44
+updated: 2024-05-02T20:56
 ---
 [12ft Ladder](https://12ft.io/)
 ### What?
@@ -10,7 +10,7 @@ Prepend **12ft.io/** to the URL of any paywalled page, and we'll try our best to
 
 ### Why?
 
-I believe Google Adwords killed the web. Google Adwords incentivized sites to peddle SEO optimized garbage. Sites who aren't are forced to optimize for email capture so they can market directly to you. Search results now show "news", ads, and SEO spam instead of surfacing information.
+I believe Google Adwords killed the web. Google Adwords incentivized sites to peddle SEO optimized garbage. SiteBêns who aren't are forced to optimize for email capture so they can market directly to you. Search results now show "news", ads, and SEO spam instead of surfacing information.
 
 You ought to be able to search something on Google and get an answer to your question without signing up for some newsletter. This is why I created [12ft.io](https://12ft.io/).
 

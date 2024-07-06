@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-03-21T20:38
+updated: 2024-07-05T23:07
 ---
 # [[Tự động tạo liên kết UTM hoàn chỉnh chỉ bằng những thông tin tối thiểu (tên bài, nơi đăng)]]
 ## Pending
@@ -28,3 +28,5 @@ Học Lập Trình Web (Freetuts.net) https://www.facebook.com/groups/freetutsdo
 ## 1 like
 [[26-02]] 17:46 Cộng đồng SEO Mũ Trắng Việt Nam https://www.facebook.com/groups/seomutrangvietnam/posts/389043517074520/
 [[21-03]] bị xoá
+
+# [[Rút gọn liên kết và thống kê lưu lượng truy cập cho các dự án, tổ chức hiện diện trên nhiều nền tảng]]

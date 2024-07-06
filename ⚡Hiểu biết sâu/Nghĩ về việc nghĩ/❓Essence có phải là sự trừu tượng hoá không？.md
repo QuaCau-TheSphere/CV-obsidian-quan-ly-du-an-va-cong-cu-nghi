@@ -4,4 +4,4 @@ created: 2023-05-26T14:51
 updated: 2023-10-06T16:09
 ---
 Nguồn:: 
-[[Essence của một cuốn sách chính là mục lục của nó]] 
+[[Tinh túy của một cuốn sách chính là mục lục của nó]] 

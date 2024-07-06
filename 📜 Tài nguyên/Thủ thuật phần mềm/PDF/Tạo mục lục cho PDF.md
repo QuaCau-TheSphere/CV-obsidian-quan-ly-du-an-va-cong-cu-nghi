@@ -4,7 +4,7 @@ created: 2023-05-26T14:51
 updated: 2024-02-10T18:22
 ---
 # Khi xuất ở Word 
-Việc tạo mục lục là tối quan trọng. Không có mục lục thì chỉ thấy cây mà không thấy rừng. Bản thân mục lục cũng là những bảng tóm tắt. Chính việc nhớ mục lục khiến ta có thể ứng biến với tình huống khác nhau. [[Essence của một cuốn sách chính là mục lục của nó]]
+Việc tạo mục lục là tối quan trọng. Không có mục lục thì chỉ thấy cây mà không thấy rừng. Bản thân mục lục cũng là những bảng tóm tắt. Chính việc nhớ mục lục khiến ta có thể ứng biến với tình huống khác nhau. [[Tinh túy của một cuốn sách chính là mục lục của nó]]
 ![](https://i.imgur.com/pybO2se.png)
 
 # Creating hierarchical bookmarks/table of content
