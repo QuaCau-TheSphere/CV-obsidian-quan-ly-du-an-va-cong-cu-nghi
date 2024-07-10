@@ -55,6 +55,7 @@
     "replaceTitle": [],
     "replacePath": [],
     "autoclean": {
+      "includeAttachments": true,
       "enable": true,
       "excluded": [
         "docs/assets/js",
@@ -108,6 +109,19 @@
     "folder": "docs/assets/attachments",
     "convertEmbedToLinks": "keep",
     "charConvert": "->",
+    "unHandledObsidianExt": [
+      "xml",
+      "html",
+      "css",
+      "js",
+      "ts",
+      "jsx",
+      "tsx",
+      "json",
+      "jsonc",
+      "yaml"
+    ],
+    "sendSimpleLinks": true,
     "forcePushAttachments": [],
     "useObsidianFolder": false
   },
@@ -135,5 +149,6 @@
     "migrated": true,
     "dev": true
   },
-  "tabsID": "text-conversion"
+  "tabsID": "text-conversion",
+  "tabsId": "upload-configuration"
 }

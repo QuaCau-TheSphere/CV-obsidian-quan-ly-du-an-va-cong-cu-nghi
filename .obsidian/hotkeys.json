@@ -315,6 +315,13 @@
         "Mod"
       ],
       "key": "P"
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "P"
     }
   ],
   "obsidian42-brat:BRAT-opentPluginSettings": [
@@ -455,6 +462,14 @@
         "Shift"
       ],
       "key": "Tab"
+    }
+  ],
+  "obsidian-mkdocs-publisher:upload-all-edited-new": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
     }
   ]
 }

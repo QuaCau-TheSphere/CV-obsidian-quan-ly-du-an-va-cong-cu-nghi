@@ -1,19 +1,19 @@
 {
   "main": {
-    "id": "831d85164d01ca88",
+    "id": "8bf0e571c91c50a9",
     "type": "split",
     "children": [
       {
-        "id": "6318211ad57180f1",
+        "id": "12be94a9d40e619c",
         "type": "tabs",
         "children": [
           {
-            "id": "ab29a72c49c93093",
+            "id": "f9b3a12d67c04632",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Kế hoạch tạo lợi nhuận.md",
+                "file": "📜 Tài nguyên/Cộng đồng, hệ sinh thái/Đóng góp vào Wikipedia.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "6f7d382918073493",
+            "id": "7c96ffe094e55e82",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/VNPAY.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "51fb81955022afae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/đối ⊷ thoại/Liên kết tiếng Việt.md",
+                "file": "📐 Dự án/Gia công giải pháp, đáp ứng nhu cầu doanh nghiệp/Đáp ứng nhu cầu doanh nghiệp.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -53,15 +40,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "200797c3ceecf6b6",
+    "id": "2d8f307e38e31876",
     "type": "split",
     "children": [
       {
-        "id": "1fc05884ff0e58cd",
+        "id": "48b0ccac391536af",
         "type": "tabs",
         "children": [
           {
-            "id": "8df4115b70014980",
+            "id": "776a43425fc4ec1e",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -71,12 +58,12 @@
             }
           },
           {
-            "id": "4c148c657008221a",
+            "id": "0ef979fa3da220f9",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "themat",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +73,7 @@
             }
           },
           {
-            "id": "2ed5a115d7403bff",
+            "id": "a13cf94dec68cc87",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -100,20 +87,20 @@
     "width": 300
   },
   "right": {
-    "id": "c337a3ea5e852bbb",
+    "id": "058d2be84526927e",
     "type": "split",
     "children": [
       {
-        "id": "68c978a776f01070",
+        "id": "728331c0ed2f1d97",
         "type": "tabs",
         "children": [
           {
-            "id": "69b629f2ddf0bd4a",
+            "id": "dcec014384cb2a9e",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/VNPAY.md",
+                "file": "📐 Dự án/Gia công giải pháp, đáp ứng nhu cầu doanh nghiệp/Đáp ứng nhu cầu doanh nghiệp.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,19 +112,19 @@
             }
           },
           {
-            "id": "324e889c539d5364",
+            "id": "b0d685f03805e1d1",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/VNPAY.md",
+                "file": "📐 Dự án/Gia công giải pháp, đáp ứng nhu cầu doanh nghiệp/Đáp ứng nhu cầu doanh nghiệp.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "a10401d29c8d2ca0",
+            "id": "30b982237b07c592",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -148,25 +135,16 @@
             }
           },
           {
-            "id": "f810395d29380df6",
+            "id": "3654ebe218592e69",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/VNPAY.md"
+                "file": "📐 Dự án/Gia công giải pháp, đáp ứng nhu cầu doanh nghiệp/Đáp ứng nhu cầu doanh nghiệp.md"
               }
             }
-          },
-          {
-            "id": "8656cf98fcc3f9b1",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -177,95 +155,44 @@
     "hiddenItems": {
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
+      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "command-palette:Open command palette": false
     }
   },
-  "floating": {
-    "id": "c6078058c4ee821e",
-    "type": "floating",
-    "children": [
-      {
-        "id": "06643c7497c73b0c",
-        "type": "window",
-        "children": [
-          {
-            "id": "8842cc4a8f125638",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "e2deb50a6e2edf80",
-                "type": "leaf",
-                "state": {
-                  "type": "reveal-preview-view",
-                  "state": {}
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "vertical",
-        "x": 759,
-        "y": 1106,
-        "width": 601,
-        "height": 746,
-        "maximize": true,
-        "zoom": 1.5
-      }
-    ]
-  },
-  "active": "6f7d382918073493",
+  "active": "7c96ffe094e55e82",
   "lastOpenFiles": [
-    "export/VNPAY/plugin/chalkboard/img/whiteboard.png",
-    "export/VNPAY/plugin/chalkboard/img/sponge.png",
-    "export/VNPAY/plugin/chalkboard/img/chalk-yellow.png",
-    "export/VNPAY/plugin/chalkboard/img/chalk-white.png",
-    "export/VNPAY/plugin/chalkboard/img/chalk-red.png",
-    "export/VNPAY/plugin/chalkboard/img/chalk-purple.png",
-    "export/VNPAY/plugin/chalkboard/img/chalk-orange.png",
-    "export/VNPAY/plugin/chalkboard/img/chalk-green.png",
-    "export/VNPAY/plugin/chalkboard/img/chalk-blue.png",
-    "export/VNPAY/plugin/chalkboard/img/boardmarker-yellow.png",
-    "export/VNPAY/plugin/chalkboard/img/boardmarker-red.png",
-    "export/VNPAY/plugin/chalkboard/_style.css",
-    "export/VNPAY/plugin/chalkboard/style.css",
-    "export/VNPAY/plugin/chalkboard/README.md",
-    "export/VNPAY/plugin/chalkboard/plugin.js",
-    "export/VNPAY/plugin/chalkboard/plugin (copy).js",
-    "export/VNPAY/plugin/chalkboard/img",
-    "export/VNPAY/plugin/chalkboard",
-    "export/VNPAY/plugin/customcontrols/style.css",
-    "export/VNPAY/plugin/customcontrols/README.md",
-    "export/VNPAY/plugin/customcontrols/plugin.js",
-    "export/VNPAY/plugin/customcontrols",
-    "export/VNPAY/plugin/elapsed-time-bar/elapsed-time-bar.js",
-    "export/VNPAY/plugin/chart/README.md",
-    "export/VNPAY/plugin/menu/README.md",
-    "export/VNPAY/plugin/menu/CONTRIBUTING.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Tổ chức nhỏ/Mục tiêu và câu hỏi nghiên cứu tổ chức nhỏ cần trích xuất dữ liệu có cấu trúc từ dữ liệu phi cấu trúc.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Người dùng cá nhân/Sự tiếp nhận với các bài viết/Kết quả/Duy Phong.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Người dùng cá nhân/Sự tiếp nhận với các bài viết/Kết quả/Hải Yến.md",
-    "📐 Dự án/VNPAY.md",
-    "📐 Dự án/Kế hoạch tạo lợi nhuận.md",
-    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Nghề nghiệp/Marketing.md",
-    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Nghề nghiệp/Untitled.md",
-    "📐 Dự án/đối ⊷ thoại/Chia sẻ kho kiến thức, tài nguyên đến với mọi người.md",
-    "📐 Dự án/đối ⊷ thoại/Rút gọn liên kết và thống kê lưu lượng truy cập cho các dự án, tổ chức hiện diện trên nhiều nền tảng.md",
-    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Nghề nghiệp/Web dev, GA, Ads, SEO, MMO.md",
-    "📐 Dự án/đối ⊷ thoại/Giới thiệu đối ⊷ thoại.md",
-    "📐 Dự án/đối ⊷ thoại/đối ⊷ thoại lấy nhu cầu của các tổ chức phi lợi nhuận làm trung tâm.md",
-    "📐 Dự án/đối ⊷ thoại/đối ⊷ thoại.md",
-    "📐 Dự án/Ξ Kết quả truyền thông/Nơi đăng/Nhóm Facebook/Hỗ trợ tổ chức/Dự án xã hội, NPO, nghiên cứu khoa học, nghệ thuật, hội hoạ.md",
-    "📐 Dự án/đối ⊷ thoại/Tăng độ nhận biết và huy động sự quan tâm tới những nguồn tài nguyên quan trọng.md",
-    "📐 Dự án/đối ⊷ thoại/Mở các cuộc đối thoại với cộng đồng.md",
-    "📐 Dự án/đối ⊷ thoại/Thử nghiệm các ý tưởng đối thoại với cộng đồng hiệu quả hơn.md",
-    "📜 Tài nguyên/Thủ thuật phần mềm/Quản lý phiên bản bằng Git/Vấn đề hay gặp khi dùng Git.md",
-    "📜 Tài nguyên/Làm dự án/Phần mềm làm việc nhóm (groupware)/Phần mềm xây dựng cộng đồng/Server Discord.md",
-    "📐 Dự án/Công cụ cho hệ sinh thái/Nền kinh tế tri thức.canvas"
+    "📜 Tài nguyên/Cộng đồng, hệ sinh thái/Stack Overflow.md",
+    "📐 Dự án/Gia công giải pháp, đáp ứng nhu cầu doanh nghiệp/Đáp ứng nhu cầu doanh nghiệp.md",
+    "Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
+    "📜 Tài nguyên/Cộng đồng, hệ sinh thái/Đóng góp vào Wikipedia.md",
+    "📐 Dự án/Gia công giải pháp, đáp ứng nhu cầu doanh nghiệp/Untitled.md",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Thuý Hoà.jpg",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Keep to Fibery.png",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Mai Quang.jpg",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/whiteboard.png",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/sponge.png",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/chalk-yellow.png",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/chalk-white.png",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/chalk-red.png",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/_style.css",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/style.css",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/README.md",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/plugin.js",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/plugin (copy).js",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chart/README.md",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chart/plugin.js",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/customcontrols/README.md",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/menu/README.md",
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/menu/CONTRIBUTING.md"
   ]
 }
