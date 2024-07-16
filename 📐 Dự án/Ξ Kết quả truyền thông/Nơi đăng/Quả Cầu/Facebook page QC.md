@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-06-13T21:16
+updated: 2024-07-16T17:00
 ---
 # [[Các buổi đáp ứng nhu cầu học lập trình]]
 [[09-11]] 15:38 https://www.facebook.com/quacau.sphere/posts/pfbid0ePQADgc8zmQH7FyVa2GjHtmaMF1Rv4h8MnwMiy3f7LgSn3YQf9tDtvUzCwwuYJmQl
@@ -50,3 +50,7 @@ dạng ảnh https://www.facebook.com/quacau.sphere/posts/pfbid02KYRdxC6aAXdkDJL
 | Ảnh sihouette                     | 46    | 46         | 1                 |
 | Ảnh trang chủ                     | 26    | 26         | 1                 |
 | Ảnh trang chủ , link dưới comment |       |            |                   |
+
+# [[Tạo website]]
+[[16-07]] 17:00 [Quả Cầu](https://www.facebook.com/quacau.sphere/posts/pfbid02tZzzoSvaY1rgPJCL1fj2rS9AKjGbQMmJ3JkPw8ZJ5MY42ekARQEaXJPXy86MEYXjl)
+không có gì cả chỉ chèn link

@@ -1,6 +1,0 @@
----
-share: true
-created: 2023-09-05T16:17
-updated: 2024-02-18T13:22
----
-Giải pháp gợi ý:: [[Chương trình kế toán văn bản thuần]]

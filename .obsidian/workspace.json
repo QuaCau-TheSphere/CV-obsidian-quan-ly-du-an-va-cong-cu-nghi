@@ -8,33 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f9b3a12d67c04632",
+            "id": "a543f27c60587cbf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Tài nguyên/Cộng đồng, hệ sinh thái/Đóng góp vào Wikipedia.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "7c96ffe094e55e82",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📐 Dự án/Gia công giải pháp, đáp ứng nhu cầu doanh nghiệp/Đáp ứng nhu cầu doanh nghiệp.md",
-                "mode": "source",
+                "file": "📜 Tài nguyên/📜Tài nguyên.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/Gia công giải pháp, đáp ứng nhu cầu doanh nghiệp/Đáp ứng nhu cầu doanh nghiệp.md",
+                "file": "📜 Tài nguyên/📜Tài nguyên.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/Gia công giải pháp, đáp ứng nhu cầu doanh nghiệp/Đáp ứng nhu cầu doanh nghiệp.md",
+                "file": "📜 Tài nguyên/📜Tài nguyên.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/Gia công giải pháp, đáp ứng nhu cầu doanh nghiệp/Đáp ứng nhu cầu doanh nghiệp.md"
+                "file": "📜 Tài nguyên/📜Tài nguyên.md"
               }
             }
           }
@@ -163,36 +149,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7c96ffe094e55e82",
+  "active": "a543f27c60587cbf",
   "lastOpenFiles": [
-    "📜 Tài nguyên/Cộng đồng, hệ sinh thái/Stack Overflow.md",
-    "📐 Dự án/Gia công giải pháp, đáp ứng nhu cầu doanh nghiệp/Đáp ứng nhu cầu doanh nghiệp.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Truyền thông/Bàn làm việc Google Calendar.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Phiếu đăng ký/Trần Hoà.md",
+    "📜 Tài nguyên/Chưa phân loại.md",
+    "📜 Tài nguyên/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức/Xây dựng mạng lưới đối tác, các bên liên quan.md",
+    "📜 Tài nguyên/Lĩnh vực/Phát triển cộng đồng.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Lập trình/YAML.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/YAML.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Obsidian.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/LaTeX, SILE, Typst.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Kỹ thuật dữ liệu/Python.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Kỹ thuật dữ liệu/R.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Kỹ thuật dữ liệu/SQL.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Kỹ thuật dữ liệu/Regex.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Kỹ thuật dữ liệu/Jupyter.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Kỹ thuật dữ liệu",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Kỹ thuật dữ liệu/SQL.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Kỹ thuật dữ liệu/Regex.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Kỹ thuật dữ liệu/Jupyter.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Kỹ thuật dữ liệu",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Làm việc với dữ liệu/Regex.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Làm việc với dữ liệu/Jupyter.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Làm việc với dữ liệu/SQL.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Làm việc với dữ liệu",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/New folder",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Tự động hoá/AutoHotKey.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Tự động hoá/CopyQ.md",
+    "📜 Tài nguyên/Nhu cầu công nghệ/Tự động hoá/Chỉnh sửa ảnh hàng loạt bằng ImageMagick.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Tự động hoá/Tạo phím tắt bằng AutoHotKey.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Tự động hoá/Chụp màn hình.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Tự động hoá/Chỉnh sửa ảnh hàng loạt bằng ImageMagick.md",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Tự động hoá",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/WhatEvery1Says",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Ghi chép, xuất bản",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Lập trình",
+    "📜 Tài nguyên/Giải pháp kỹ thuật/Web",
     "Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
-    "📜 Tài nguyên/Cộng đồng, hệ sinh thái/Đóng góp vào Wikipedia.md",
-    "📐 Dự án/Gia công giải pháp, đáp ứng nhu cầu doanh nghiệp/Untitled.md",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Thuý Hoà.jpg",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Keep to Fibery.png",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Mai Quang.jpg",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/whiteboard.png",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/sponge.png",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/chalk-yellow.png",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/chalk-white.png",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/chalk-red.png",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/_style.css",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/style.css",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/README.md",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/plugin.js",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/plugin (copy).js",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chart/README.md",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chart/plugin.js",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/customcontrols/README.md",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/menu/README.md",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/menu/CONTRIBUTING.md"
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/chalk-red.png"
   ]
 }

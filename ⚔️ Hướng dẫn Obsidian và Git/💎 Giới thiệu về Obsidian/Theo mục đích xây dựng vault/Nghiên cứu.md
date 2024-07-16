@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-29T18:39
-updated: 2023-11-16T22:48
+updated: 2024-07-16T23:14
 ---
 # [Linking Your Thinking](https://notes.linkingyourthinking.com) 
 
@@ -11,4 +11,4 @@ MaxQDA, NVivo, Atlas.ti, and a variety of other apps are designed to help resear
 
 [The Academic Knowledge Management (AKM) system that 10x’d my research productivity | Chris Lovejoy](https://www.chrislovejoy.me/akm)
 
-Xem thêm:: [[Tài nguyên NLP và nhân văn số]]
+Xem thêm:: [[Nhân văn số]]

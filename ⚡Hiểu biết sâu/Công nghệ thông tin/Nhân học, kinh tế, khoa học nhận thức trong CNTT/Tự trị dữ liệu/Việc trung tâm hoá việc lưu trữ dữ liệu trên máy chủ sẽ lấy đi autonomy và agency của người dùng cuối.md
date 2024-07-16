@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-04-16T17:32
+updated: 2024-07-16T00:59
 ---
 Lý do:: [[Việc hợp tác làm việc thời gian thực với dữ liệu được lưu ở local là một bài toán khó]]
 
 [[Bạn có quyền chỉnh sửa dữ liệu của mình dưới bất kỳ hình thức nào]] 
-[[Việc trung tâm hoá đáp ứng economy of scale]] 
+[[Việc trung tâm hoá tạo ra lợi thế kinh tế nhờ quy mô lớn]] 
 [[Việc phải trả tiền cho phần mềm để được đọc dữ liệu của mình không khác gì bị tống tiền]]
 
 we became borrowers of our own data
