@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "12be94a9d40e619c",
+        "id": "3f98b73d79a643dd",
         "type": "tabs",
         "children": [
           {
-            "id": "a543f27c60587cbf",
+            "id": "e2ecb15e3e9190c3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜 Tài nguyên/📜Tài nguyên.md",
+                "file": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM/Quán không có phòng riêng ở TPHCM.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "\"Làm dự án/Hậu cần\"",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜 Tài nguyên/📜Tài nguyên.md",
+                "file": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM/Quán không có phòng riêng ở TPHCM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜 Tài nguyên/📜Tài nguyên.md",
+                "file": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM/Quán không có phòng riêng ở TPHCM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜 Tài nguyên/📜Tài nguyên.md"
+                "file": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM/Quán không có phòng riêng ở TPHCM.md"
               }
             }
           }
@@ -149,44 +149,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a543f27c60587cbf",
+  "active": "e2ecb15e3e9190c3",
   "lastOpenFiles": [
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Truyền thông/Bàn làm việc Google Calendar.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/4 Thành phẩm/Phiếu đăng ký/Trần Hoà.md",
-    "📜 Tài nguyên/Chưa phân loại.md",
-    "📜 Tài nguyên/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức/Xây dựng mạng lưới đối tác, các bên liên quan.md",
-    "📜 Tài nguyên/Lĩnh vực/Phát triển cộng đồng.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Lập trình/YAML.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/YAML.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Obsidian.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/LaTeX, SILE, Typst.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Kỹ thuật dữ liệu/Python.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Kỹ thuật dữ liệu/R.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Kỹ thuật dữ liệu/SQL.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Kỹ thuật dữ liệu/Regex.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Kỹ thuật dữ liệu/Jupyter.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Kỹ thuật dữ liệu",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Kỹ thuật dữ liệu/SQL.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Kỹ thuật dữ liệu/Regex.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Kỹ thuật dữ liệu/Jupyter.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Kỹ thuật dữ liệu",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Làm việc với dữ liệu/Regex.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Làm việc với dữ liệu/Jupyter.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Làm việc với dữ liệu/SQL.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Làm việc với dữ liệu",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/New folder",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Tự động hoá/AutoHotKey.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Tự động hoá/CopyQ.md",
-    "📜 Tài nguyên/Nhu cầu công nghệ/Tự động hoá/Chỉnh sửa ảnh hàng loạt bằng ImageMagick.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Tự động hoá/Tạo phím tắt bằng AutoHotKey.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Tự động hoá/Chụp màn hình.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Tự động hoá/Chỉnh sửa ảnh hàng loạt bằng ImageMagick.md",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Tự động hoá",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/WhatEvery1Says",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Ghi chép, xuất bản",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Lập trình",
-    "📜 Tài nguyên/Giải pháp kỹ thuật/Web",
+    "📜Tài nguyên/Nhu cầu công nghệ/Nhập sự kiện vào Google Calendar.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/9 Blog/Theo mục tiêu/Các buổi hướng dẫn cào dữ liệu web vào Google Calendar.md",
+    "📜Tài nguyên/Nhu cầu công nghệ/Phân loại dữ liệu tự động.md",
+    "📜Tài nguyên/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức/Tạo danh sách hạch toán hàng loạt vào các phần mềm kế toán.md",
+    "📜Tài nguyên/Nhu cầu công nghệ/Phân loại, gán nhãn theo quy tắc.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Trấn Kỳ là gì.md",
+    "📜Tài nguyên/Lĩnh vực/Xử lý ngôn ngữ tự nhiên (NLP).md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM/Quán không có phòng riêng ở TPHCM.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán có phòng riêng ở TPHCM/Quán có phòng riêng ở TPHCM.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Phòng họp riêng ở TPHCM/Phòng họp riêng ở TPHCM.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Phòng họp riêng ở TPHCM/Cái Tổ nhỏ.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Không gian làm việc chung ở TPHCM/Không gian làm việc chung ở TPHCM.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Không gian làm việc chung ở TPHCM/Flat White.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/Hà Nội/Hà Nội.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Địa điểm công cộng ở TPHCM/Địa điểm công cộng ở TPHCM.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/TPHCM.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo loại hình/Địa điểm công cộng.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo loại hình/Theo loại hình.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Kinh nghiệm setup khi có cả online và offline.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Kinh nghiệm làm livestream và video.md",
+    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Nghiên cứu.md",
+    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Dịch/Phương án dịch một số từ.md",
+    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Dịch/Từ cách một từ được đổ nghĩa đến việc dịch khái niệm philanthropy sang tiếng Việt.md",
+    "🌟 Mở đầu.md",
+    "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/9 Blog/Nơi này là nơi nào？.md",
+    "📜Tài nguyên/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức/Tạo báo cáo.md",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Địa điểm công cộng ở TPHCM",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán có phòng riêng ở TPHCM",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Phòng họp riêng ở TPHCM",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Nhà riêng",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Không gian làm việc chung ở TPHCM",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/Hà Nội",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố",
+    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo loại hình",
     "Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Thuý Hoà.jpg",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",

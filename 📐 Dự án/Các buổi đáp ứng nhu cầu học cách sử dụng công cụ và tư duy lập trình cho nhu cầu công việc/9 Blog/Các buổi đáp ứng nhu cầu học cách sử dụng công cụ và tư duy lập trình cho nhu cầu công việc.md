@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-26T15:55
-updated: 2024-03-13T18:00
+updated: 2024-07-18T00:23
 cssClasses: wide-table
 ---
 Nếu bạn muốn:
@@ -60,7 +60,7 @@ Các giải pháp kỹ thuật chỉ là những giải pháp thường được
 
 Một số buổi có bài viết chi tiết:
  - [[Các buổi hướng dẫn tích hợp Trấn Kỳ vào hệ thống quản lý\|Tích hợp Trấn Kỳ vào hệ thống của bạn]]{ .md-button .md-button--primary } 
- - [[Các buổi hướng dẫn cào dữ liệu web vào Google Calendar\|Cào dữ liệu web vào Google Calendar]]{ .md-button .md-button--primary } 
+ - [[Nhập sự kiện vào Google Calendar\|Cào dữ liệu web vào Google Calendar]]{ .md-button .md-button--primary } 
 # Lộ trình
 Vì đây là dự án phục vụ nhu cầu của bạn, nên số lượng buổi học, thời gian học, và hình thức học (trực tuyến hay trực tiếp) đều do bạn quyết định. 
 

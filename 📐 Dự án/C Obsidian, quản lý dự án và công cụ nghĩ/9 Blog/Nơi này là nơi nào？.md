@@ -1,13 +1,13 @@
 ---
 share: true
 created: 2023-07-25T10:54
-updated: 2023-12-25T19:53
+updated: 2024-07-18T00:09
 ---
 # Mục tiêu
 Đây là một vault Obsidian dành riêng cho người Việt với mục tiêu:
 - Hỗ trợ những ai chưa từng làm quen với Obsidian và Git cũng như kiến thức về phát triển sản phẩm có thể nhanh chóng học những ứng dụng và kiến thức này từng bước một để làm một kho dữ liệu quản lý dự án. Bạn có thể dùng vault này để tự học hoặc như một giáo án để hỗ trợ bạn bè của mình ([[⚔️ Hướng dẫn Obsidian và Git]]) 
 - Thu thập những hiểu biết sâu (insight) mà những người đang tự học quản lý dự án nhiều khi cũng lờ mờ nhận ra nhưng không có ai ở ngay đó để đẩy vấn đề đi xa hơn, hoặc chưa biết diễn giải làm sao. còn những người mới học thì thấy quá tải, nhức đầu vì những lời khuyên, bài viết trên mạng dù hay đến mấy cũng rời rạc.  ([[⚡Hiểu biết sâu]]) 
-- Tổng hợp những nguồn tài nguyên hay, đặc biệt cho những nhóm dự án chưa có nhiều kinh nghiệm và quá thiếu người. Hướng tới phát triển bền vững ([[📜 Tài nguyên]])  
+- Tổng hợp những nguồn tài nguyên hay, đặc biệt cho những nhóm dự án chưa có nhiều kinh nghiệm và quá thiếu người. Hướng tới phát triển bền vững ([[📜Tài nguyên])  
 - Thử nghiệm một dự án mở ([[📐 Dự án]]) 
 
 Nhiều cái rất bình thường và hiển nhiên với người có kinh nghiệm, lại là những thử gây trắc trở với những người mới. Có thể ở đâu đó có những bài viết chất lượng, đậm đặc insight, nhưng nó lại không cạnh tranh nổi với các bài viết chú trọng vào SEO.
@@ -47,7 +47,7 @@ Không học bài bản ngôn ngữ, nhưng đụng vấn đề nào cần
 Tất nhiên, học được bài bản thì rất tốt, nhưng [[Việc mò mẫm vui, đỡ phải nghĩ và thường là hiệu quả hơn là đọc hướng dẫn cẩn thận]], [[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]]. 
 Không ai đến với lập trình vì muốn lập trình cả, mà là vì họ cần giải quyết vấn đề khác, mà vấn đề đó cần lập trình
 
-## [[📜 Tài nguyên]]
+## [[📜Tài nguyên]
 
 Lao ngay vào code trong product thì hổng kiến thức do nhiều chỗ viết tắt cho dễ đọc, dễ quản lý. Học từ từ thì thấy lãng phí thời gian.
 Để đọc được tới dòng này là cả một sự nỗ lực ở lại của bạn. Dù bạn có từng đọc bao nhiêu trang khác rồi thì 

@@ -3,7 +3,7 @@ share: true
 title: Kendy cần gì?
 description: Cần giảm áp lực trả nợ, tạo dòng tiền, xây dựng hệ thống quản lý, giảm tiền cho các nhu cầu
 created: 2023-09-05T16:17
-updated: 2024-02-28T15:26
+updated: 2024-07-18T00:23
 ---
 Cảm ơn bạn đã quan tâm tới Kendy. Thực ra bọn mình nghĩ việc góp tiền cũng làm khó khăn cho bạn, và về lâu dài cũng không bền vững. Trừ phi bạn có thể cho mượn một số tiền lớn với kỳ hạn dài, còn không thì chỉ nên quyên góp vào những thời điểm bí bách.
 
@@ -15,13 +15,13 @@ Một trong những cách để ngân hàng cấp lại tín dụng của mình 
 Như vậy, bọn mình cần tìm nguồn có thể cho Kendy mượn tầm 100tr để trong ngân hàng qua đêm, sáng hôm sau trả lại cũng được. Chỉ cần đến trước 5h chiều thì lại cho mượn tiếp. 
 
 # Tạo dòng tiền
-Việc bọn mình tạo ra Trấn Kỳ cũng như việc tổ chức [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]] như [[Các buổi hướng dẫn tích hợp Trấn Kỳ vào hệ thống quản lý]] hoặc [[Các buổi hướng dẫn cào dữ liệu web vào Google Calendar]] là để tạo ra dòng tiền để giúp Kendy. Bạn có thể giúp đăng bài hỗ trợ.
+Việc bọn mình tạo ra Trấn Kỳ cũng như việc tổ chức [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]] như [[Các buổi hướng dẫn tích hợp Trấn Kỳ vào hệ thống quản lý]] hoặc [[Nhập sự kiện vào Google Calendar]] là để tạo ra dòng tiền để giúp Kendy. Bạn có thể giúp đăng bài hỗ trợ.
 
 Xem thêm:: [[Kiếm tiền từ Trấn Kỳ]]
 
 Ngoài ra thì Kendy cũng đã tính đến chuyện xây dựng mô hình kinh doanh một người. Việc này đi một hồi thì cũng là MMO. Ý tưởng là nhanh chóng nắm bắt được các trào lưu, sự kiện mới nhất trên mạng, sau đó dùng AI chế biến thêm, rồi bán sản phẩm hàng loạt trên các mạng xã hội. Việc này cần giải quyết ở cả khâu đầu vào và đầu ra:
 - **Đầu vào:** 
-    - Nạp các sự kiện sắp diễn ra trên Ticketbox, Liquidpedia vào Google Calendar ([[Các buổi hướng dẫn cào dữ liệu web vào Google Calendar|đã xong]]) 
+    - Nạp các sự kiện sắp diễn ra trên Ticketbox, Liquidpedia vào Google Calendar ([[Nhập sự kiện vào Google Calendar|đã xong]]) 
     - Cào Reddit hay Facebook
 - **Đầu ra:** 
     - Bán hàng loạt trên Douyin thì cần có sđt TQ để nhận mã OTP → cần kiếm người ở TQ đồng ý cho mã OTP gửi về sđt của mình
