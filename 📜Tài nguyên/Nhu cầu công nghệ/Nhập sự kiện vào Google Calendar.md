@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-18T00:23
+updated: 2024-07-27T17:16
 alias: Cào dữ liệu web vào Google Calendar
 description: Các buổi hướng dẫn cào dữ liệu web vào Google Calendar
 ---
@@ -50,3 +50,8 @@ Thông tin liên hệ:
 Rất mong được đồng hành cùng bạn.
 
 [[Giả thiết về tiếp nhận của người đọc bài giới thiệu buổi hướng dẫn cụ thể]]
+
+
+Các sự kiện trên fb event nó ko thuần tuý là 1 events như dạng ticketbox mà nó giống quảng bá hơn
+
+Cần ticketbox hơn vì nó là dạng bán vé ở cấp độ chuyên nghiệp hơn, nội dung và giá trị đc chỉnh chu hơn. VD, em ko fai fan hài kịch, nhưng e biết đc có các loại hình hài kịch: standup comedy, hài bài banrm, sân khấu kịch, các vở kịch về các câu chuyện sắp tới, khiến e có thể cân nhắc tham gia để hiểu biết hơn. Hoặc nếu e thấy toàn workshop về bánh và mùa thu → e có thể cân nhắc viết content hay các bài viết về topic này. vậy rộng hơn đây, e thấy có water show: ah e có thể cân nhắc dẫn con em đi xem, hoặc workshop yêu hoà bình, e sẽ xem có gì relevant ko mà lại làm topic này tại thời điểm này, nghĩa là nội title của có thể hint cho em nhiều thứ

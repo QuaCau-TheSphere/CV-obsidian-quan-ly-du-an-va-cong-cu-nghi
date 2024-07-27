@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-07-16T22:42
+updated: 2024-07-27T13:37
 description: Người dùng cá nhân hoặc dự án nhỏ có nên dùng WordPress hay không?
 ---
 Nhu cầu công nghệ:: [[Tiếp thị số]], [[Lập trình web]]
 
-Nếu bạn chỉ cần một nơi lưu lại những gì mình ghi viết bài chia sẻ cho mọi người đọc, các mạng xã hội như Facebook là đủ. Nếu như Facebook đại trà quá và bạn muốn tạo một thương hiệu rõ hơn, Substack, Medium, Spiderum, LinkedIn Page sẽ là những trang sẽ  cho khách ghé thăm ấn tượng sơ về phong cách và nội dung của bạn. Nếu bạn muốn tạo một góc thầm lặng, không quá xô bồ, hoặc ngược lại muốn xây dựng một không gian làm cho khách ghé thăm phải cảm thấy ấn tượng, trầm trồ với giao diện độc đáo, thì Wix, Squarepage, Blogger, WordPress.com sẽ giúp bạn đạt được điều đó. Chỉ khi nào bạn muốn có sự kiểm soát tối đa toàn bộ trang web của bạn với chi phí thấp, thì lúc đó bạn mới cần có một website riêng.
+Nếu bạn chỉ cần một nơi lưu lại những gì mình ghi viết bài chia sẻ cho mọi người đọc, các mạng xã hội như Facebook là đủ. Nếu như Facebook đại trà quá và bạn muốn tạo một thương hiệu rõ hơn, Substack, Medium, Spiderum, LinkedIn Page sẽ là những trang sẽ  cho khách ghé thăm ấn tượng sơ về phong cách và nội dung của bạn. Nếu bạn muốn tạo một góc thầm lặng, không quá xô bồ, hoặc ngược lại muốn xây dựng một không gian làm cho khách ghé thăm phải cảm thấy ấn tượng, trầm trồ với giao diện độc đáo, thì Wix, Squarespace, Shopify, Blogger, WordPress.com sẽ giúp bạn đạt được điều đó. Chỉ khi nào bạn muốn có sự kiểm soát tối đa toàn bộ trang web của bạn với chi phí thấp, thì lúc đó bạn mới cần có một website riêng.
 
 Nhiều người khi có nhu cầu tạo web thường được bạn bè giới thiệu WordPress. WordPress được xếp vào nhóm web động. Ngoài web động ra thì còn có web tĩnh. Web động với web tĩnh bản chất thế nào thì mình nghĩ đợi đến khi bạn đã quen thuộc với web rồi thì giải thích sẽ dễ hiểu hơn, còn giờ nói sớm quá thì bạn lại rối. Quan trọng là chúng sẽ đáp ứng nhu cầu của bạn thế nào thôi. Mình nghĩ rằng đây là những tiêu chí mà một người dùng cá nhân hoặc cho tổ chức nhỏ sẽ cần để ý đến:
 
@@ -53,6 +53,7 @@ Tương tự việc [[Lý do viết Trấn Kỳ#Các ERP được dựng sẵn k
 
 Xem thêm:: [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]]
 
-
+## Nơi thảo luận
+![](https://i.imgur.com/4fq665i.png)
 
 [blog - What made WordPress become dominance for small websites, comparing to static CMSes? - Webmasters Stack Exchange](https://webmasters.stackexchange.com/q/145281/52079)

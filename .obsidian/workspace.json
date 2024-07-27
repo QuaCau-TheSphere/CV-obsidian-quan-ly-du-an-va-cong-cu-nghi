@@ -8,16 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2ad8f361382fdc9d",
+            "id": "f4493a96084eedaa",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình viên biết lập trình chủ yếu là nhờ biết google.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -86,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình viên biết lập trình chủ yếu là nhờ biết google.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình viên biết lập trình chủ yếu là nhờ biết google.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình viên biết lập trình chủ yếu là nhờ biết google.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -149,44 +140,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ad8f361382fdc9d",
+  "active": "f4493a96084eedaa",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc/Ngôn ngữ lập trình không giúp con người làm được nhiều hơn những gì ngôn ngữ lập trình bậc thấp làm được. Nó chỉ giúp con người làm ra ít lỗi hơn mà thôi.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc/Không phải vì một thứ có thể làm một điều mà ta nên dùng nó để làm điều đó.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc/Cấu trúc kỹ thuật của sản phẩm phản ánh giới hạn xã hội của tổ chức tạo ra nó.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc/Các cuốn sách về phương pháp lập trình được viết bởi những người làm phần mềm nội bộ.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc/Phần mềm nội bộ không cần dễ dùng và không phải kiểm thử trên nhiều môi trường khác nhau, cũng không sợ bị cạnh tranh.md",
+    "📐 Dự án/Trấn Kỳ/9 Blog/Kiếm tiền từ Trấn Kỳ.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kendy cần gì (2).md",
+    "📜Tài nguyên/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức/Chia sẻ lịch với nhau.md",
+    "📜Tài nguyên/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức/Gom tất cả thông tin lại vào một chỗ.md",
+    "📜Tài nguyên/Nhu cầu công nghệ/Tự động hoá các công việc lặp đi lặp lại.md",
+    "📜Tài nguyên/Nhu cầu công nghệ/Nhập sự kiện vào Google Calendar.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kendy cần gì.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Xù ngân hàng.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Xây dựng mô hình kinh doanh một người.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Tìm nguồn có thể cho mượn 100tr trong vài tháng.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Tìm người có tiền nhàn rỗi lớn.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Tìm hiểu mức độ căng thẳng tối đa của một người trong một ngày.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Nói chuyện với người có thể muốn giúp nhưng sợ bị lừa.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/money lover.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Đi năn nỉ.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Các câu hỏi về việc thành lập quỹ tín dụng, nền kinh tế phi chính thức, bản chất CSR của doanh nghiệp và tâm lý con người về tiền.md",
+    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Chiến lược/Kế hoạch phát triển Trấn Kỳ.md",
+    "📜Tài nguyên/Lĩnh vực/Lập trình web.md",
+    "📜Tài nguyên/Lĩnh vực/Nhân văn số.md",
+    "📜Tài nguyên/Lĩnh vực/Lĩnh vực.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Obsidian (giải pháp kỹ thuật).md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Obsidian.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin & công cụ nghĩ.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu",
+    "📜Tài nguyên/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức/Tạo website.md",
     "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc",
     "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/New folder",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Người mới lập trình thường chỉ biết muốn biết làm sao để code chạy được. Người có kinh nghiệm còn quan tâm đến tính dễ bảo trì, mở rộng và bắt lỗi của code.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Người mới lập trình thường hỏi nên dùng cú pháp, thư viện, hay ngôn ngữ nào. Lập trình viên nhiều kinh nghiệm thường tập trung vào các khái niệm trừu tượng.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Lập trình là lĩnh vực dễ nhức đầu vì cần phải học rất nhiều công cụ.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Viết code dễ hơn đọc code.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Người mới lập trình thường hỏi nên dùng cú pháp, thư viện, hay ngôn ngữ nào. Lập trình viên nhiều kinh nghiệm thường tập trung vào các khái niệm trừu tượng.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Người mới lập trình thường chỉ biết muốn biết làm sao để code chạy được. Người có kinh nghiệm còn quan tâm đến tính dễ bảo trì, mở rộng và bắt lỗi của code.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Ngành kỹ thuật phần mềm không thể viết nên một phần mềm để tạo bản thiết kế cho chính ngành của mình.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Ngành kỹ thuật phần mềm không có một ngôn ngữ thị giác chung.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Mỗi lần nghiên cứu thư viện mới là lại phải gom tất cả quyết tâm và năng lượng để làm.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Lý do không dùng lại code của người khác.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Khi lạc trong một thành phố, ta mở bản đồ lên coi và định vị được bức tranh tổng thể. Khi lạc trong code, ta mở UML lên và càng thấy rối hơn.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Đọc hướng dẫn sử dụng cũng nhức đầu.md",
     "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Lập trình là lĩnh vực dễ nhức đầu vì cần phải học rất nhiều công cụ.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Triết học ngôn ngữ là trung tâm của triết học khoa học máy tính.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Người viết code thường làm một mình, không được hỗ trợ, không được trả tiền, chỉ vì sự đam mê. Họ cần xây dựng rất nhiều mối quan hệ tin tưởng được nhau.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Người không học về lập trình thấy việc lập trình như làm phép thuật.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình viên biết lập trình chủ yếu là nhờ biết google.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình là một cái gì đó thâm nhập vào đời sống của chúng ta, nhưng lại gần như vô hình.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình là lĩnh vực dễ nhức đầu vì cần phải học rất nhiều công cụ.md",
     "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Khoa học nhận thức/Việc web dùng ẩn dụ trang giấy giới hạn cách nghĩ của ta về web.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Khoa học nhận thức/Lập trình thực ra là dùng ẩn dụ.md",
     "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Khoa học nhận thức",
     "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/New folder",
     "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/AI. Dữ liệu lớn/Trung tâm dữ liệu",
     "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/AI. Dữ liệu lớn",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Tự trị dữ liệu",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do",
     "Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Thuý Hoà.jpg",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
