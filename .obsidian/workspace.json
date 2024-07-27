@@ -8,13 +8,13 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e2ecb15e3e9190c3",
+            "id": "2ad8f361382fdc9d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM/Quán không có phòng riêng ở TPHCM.md",
-                "mode": "preview",
+                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình viên biết lập trình chủ yếu là nhờ biết google.md",
+                "mode": "source",
                 "backlinks": true,
                 "source": true
               }
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"Làm dự án/Hậu cần\"",
+                "query": "I shrink 10x every 21s until I'm an atom",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM/Quán không có phòng riêng ở TPHCM.md",
+                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình viên biết lập trình chủ yếu là nhờ biết google.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM/Quán không có phòng riêng ở TPHCM.md",
+                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình viên biết lập trình chủ yếu là nhờ biết google.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM/Quán không có phòng riêng ở TPHCM.md"
+                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình viên biết lập trình chủ yếu là nhờ biết google.md"
               }
             }
           }
@@ -149,44 +149,44 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e2ecb15e3e9190c3",
+  "active": "2ad8f361382fdc9d",
   "lastOpenFiles": [
-    "📜Tài nguyên/Nhu cầu công nghệ/Nhập sự kiện vào Google Calendar.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/9 Blog/Theo mục tiêu/Các buổi hướng dẫn cào dữ liệu web vào Google Calendar.md",
-    "📜Tài nguyên/Nhu cầu công nghệ/Phân loại dữ liệu tự động.md",
-    "📜Tài nguyên/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức/Tạo danh sách hạch toán hàng loạt vào các phần mềm kế toán.md",
-    "📜Tài nguyên/Nhu cầu công nghệ/Phân loại, gán nhãn theo quy tắc.md",
-    "📐 Dự án/Trấn Kỳ/9 Blog/Trấn Kỳ là gì.md",
-    "📜Tài nguyên/Lĩnh vực/Xử lý ngôn ngữ tự nhiên (NLP).md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM/Quán không có phòng riêng ở TPHCM.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán có phòng riêng ở TPHCM/Quán có phòng riêng ở TPHCM.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Phòng họp riêng ở TPHCM/Phòng họp riêng ở TPHCM.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Phòng họp riêng ở TPHCM/Cái Tổ nhỏ.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Không gian làm việc chung ở TPHCM/Không gian làm việc chung ở TPHCM.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Không gian làm việc chung ở TPHCM/Flat White.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/Hà Nội/Hà Nội.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Địa điểm công cộng ở TPHCM/Địa điểm công cộng ở TPHCM.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/TPHCM.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo loại hình/Địa điểm công cộng.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo loại hình/Theo loại hình.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Kinh nghiệm setup khi có cả online và offline.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Kinh nghiệm làm livestream và video.md",
-    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Nghiên cứu.md",
-    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Dịch/Phương án dịch một số từ.md",
-    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Dịch/Từ cách một từ được đổ nghĩa đến việc dịch khái niệm philanthropy sang tiếng Việt.md",
-    "🌟 Mở đầu.md",
-    "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/9 Blog/Nơi này là nơi nào？.md",
-    "📜Tài nguyên/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức/Tạo báo cáo.md",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Địa điểm công cộng ở TPHCM",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán có phòng riêng ở TPHCM",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Phòng họp riêng ở TPHCM",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Nhà riêng",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Không gian làm việc chung ở TPHCM",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/Hà Nội",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố",
-    "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo loại hình",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc/Ngôn ngữ lập trình không giúp con người làm được nhiều hơn những gì ngôn ngữ lập trình bậc thấp làm được. Nó chỉ giúp con người làm ra ít lỗi hơn mà thôi.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc/Không phải vì một thứ có thể làm một điều mà ta nên dùng nó để làm điều đó.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc/Cấu trúc kỹ thuật của sản phẩm phản ánh giới hạn xã hội của tổ chức tạo ra nó.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc/Các cuốn sách về phương pháp lập trình được viết bởi những người làm phần mềm nội bộ.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc/Phần mềm nội bộ không cần dễ dùng và không phải kiểm thử trên nhiều môi trường khác nhau, cũng không sợ bị cạnh tranh.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/New folder",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Người mới lập trình thường chỉ biết muốn biết làm sao để code chạy được. Người có kinh nghiệm còn quan tâm đến tính dễ bảo trì, mở rộng và bắt lỗi của code.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Người mới lập trình thường hỏi nên dùng cú pháp, thư viện, hay ngôn ngữ nào. Lập trình viên nhiều kinh nghiệm thường tập trung vào các khái niệm trừu tượng.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Lập trình là lĩnh vực dễ nhức đầu vì cần phải học rất nhiều công cụ.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Viết code dễ hơn đọc code.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Người mới lập trình thường hỏi nên dùng cú pháp, thư viện, hay ngôn ngữ nào. Lập trình viên nhiều kinh nghiệm thường tập trung vào các khái niệm trừu tượng.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Người mới lập trình thường chỉ biết muốn biết làm sao để code chạy được. Người có kinh nghiệm còn quan tâm đến tính dễ bảo trì, mở rộng và bắt lỗi của code.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Ngành kỹ thuật phần mềm không thể viết nên một phần mềm để tạo bản thiết kế cho chính ngành của mình.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Ngành kỹ thuật phần mềm không có một ngôn ngữ thị giác chung.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Mỗi lần nghiên cứu thư viện mới là lại phải gom tất cả quyết tâm và năng lượng để làm.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Lý do không dùng lại code của người khác.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Khi lạc trong một thành phố, ta mở bản đồ lên coi và định vị được bức tranh tổng thể. Khi lạc trong code, ta mở UML lên và càng thấy rối hơn.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu/Đọc hướng dẫn sử dụng cũng nhức đầu.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Lập trình là lĩnh vực dễ nhức đầu vì cần phải học rất nhiều công cụ.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Triết học ngôn ngữ là trung tâm của triết học khoa học máy tính.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Người viết code thường làm một mình, không được hỗ trợ, không được trả tiền, chỉ vì sự đam mê. Họ cần xây dựng rất nhiều mối quan hệ tin tưởng được nhau.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Người không học về lập trình thấy việc lập trình như làm phép thuật.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình viên biết lập trình chủ yếu là nhờ biết google.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình là một cái gì đó thâm nhập vào đời sống của chúng ta, nhưng lại gần như vô hình.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học/Lập trình là lĩnh vực dễ nhức đầu vì cần phải học rất nhiều công cụ.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Khoa học nhận thức/Việc web dùng ẩn dụ trang giấy giới hạn cách nghĩ của ta về web.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Khoa học nhận thức/Lập trình thực ra là dùng ẩn dụ.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Khoa học nhận thức",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/New folder",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/AI. Dữ liệu lớn/Trung tâm dữ liệu",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/AI. Dữ liệu lớn",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Tự trị dữ liệu",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do",
     "Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Thuý Hoà.jpg",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",

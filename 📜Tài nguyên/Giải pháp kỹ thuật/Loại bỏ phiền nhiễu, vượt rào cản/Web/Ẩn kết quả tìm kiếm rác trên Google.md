@@ -1,7 +1,8 @@
 ---
 share: true
 created: 2023-05-30T16:07
-updated: 2024-07-17T00:09
+updated: 2024-07-25T20:25
+slug: ẨnSEORác
 ---
 Các trang dưới đây chia thành 2 loại:
 - Từ điển copy của từ điển mở của Hồ Ngọc Đức
@@ -19,8 +20,8 @@ englishteststore.net
 chiasekienthuc24h.com
 tratu.soha.vn
 dict.vietfun.com
-dict.laban.vn
 www.indifferentlanguages.com
+dict.laban.vn
 vi.aliexpress.com
 nghialagi.net
 qastack.vn
@@ -57,9 +58,12 @@ vi.tr2tr.wiki
 vi.upwiki.one
 vi.eferrit.com
 hashdork.com
+hubm.edu.vn
+pgdxuyenmoc.edu.vn
 ```
 # Cách dùng
-![Google Hit Hider 1-Minute Intro - YouTube](https://youtu.be/u0431tculpg)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/u0431tculpg?si=eQC7fXJ5k2Bd_svs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Download: [Google Hit Hider by Domain](http://www.jeffersonscher.com/gm/google-hit-hider/)
 
 Xem thêm:: [[Cách nhanh nhất để tìm được thứ ta cần khi ta không biết từ khoá chính xác của nó là đọc các bài tổng quan]]

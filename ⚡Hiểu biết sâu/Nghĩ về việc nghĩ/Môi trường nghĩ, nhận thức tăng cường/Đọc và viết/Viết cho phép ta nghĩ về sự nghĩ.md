@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-02T10:34
+updated: 2024-07-21T15:39
 ---
 [[Sự phát minh của việc viết phát minh ra việc lập luận]] 
 [[Giấy và bút không thể hiện hành vi của hệ thống đang được nghiên cứu]]

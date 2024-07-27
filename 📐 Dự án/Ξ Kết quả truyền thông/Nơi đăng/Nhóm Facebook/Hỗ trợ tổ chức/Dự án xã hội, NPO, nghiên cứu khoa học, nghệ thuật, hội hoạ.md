@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-06-17T18:17
+updated: 2024-07-21T21:43
 ---
 # [[Các buổi đáp ứng nhu cầu học lập trình]]
 ## Pending
@@ -77,6 +77,6 @@ Làm suốt, dùng R, tạo một nhóm từ theo list phân loại sẵn để 
 [[16-03]] 07:31 Accept https://www.facebook.com/groups/277566036004587/posts/1797587164002459/
 [[21-03]] 20:30 21 react, 9 share https://www.facebook.com/groups/277566036004587/posts/1797587164002459/
 
-# [[đối ⊷ thoại lấy nhu cầu của các tổ chức phi lợi nhuận làm trung tâm]]
+# đối ⊷ thoại lấy nhu cầu của các tổ chức phi lợi nhuận làm trung tâm
 ## SNPO
 [[17-06]] 18:16 https://www.facebook.com/groups/mangluoisnpo/posts/1515032052692563

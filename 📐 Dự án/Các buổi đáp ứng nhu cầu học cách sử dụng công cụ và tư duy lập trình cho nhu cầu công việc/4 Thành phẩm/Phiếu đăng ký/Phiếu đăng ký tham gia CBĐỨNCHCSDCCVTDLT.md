@@ -1,9 +1,30 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-02T16:48
+updated: 2024-07-24T19:31
 ---
-Thời gian sắp xếp cho buổi hướng dẫn đầu tiên
+Dùng mẫu sau để đăng ký một buổi huấn luyện (coaching) tạo giải pháp cho vấn đề của bạn:
+```
+# [Tên vấn đề]
+Vấn đề của tôi là... 
+
+Điều tôi đã thử là... 
+
+[Đính kèm ảnh chụp màn hình] 
+- **Thời gian tôi rảnh:** 
+- **Mức độ gấp:** [tôi không có vấn đề gì khi phải chờ tới ngày có nhiều bạn khác cùng tham gia không?]
+- **Để Quả Cầu đáp ứng được nhu cầu của tôi, đây là những nhu cầu của Quả Cầu tôi muốn đáp ứng lại:**
+- **Lý do tôi muốn đáp ứng những nhu cầu này:**
+- **Cách thức tôi sẽ đáp ứng những nhu cầu này:** 
+- **Lý do tôi thấy sự trao đổi này là tương xứng cho những gì mỗi bên nhận được:**
+- **Thời điểm tôi có thể bắt đầu làm:**
+- **Những khó khăn hoặc sự nhức đầu tôi chưa thấy được giải toả:**
+- **Những suy nghĩ khác:**
+```
+
+Không tìm cách để đạt được cái mình thấy là sự tương xứng, mà tìm cách làm sao để họ thấy cần phải làm những gì để họ thoả mãn, và cái họ thấy là tương xứng với điều đó là như thế nào
+
+%%Thời gian sắp xếp cho buổi hướng dẫn đầu tiên
 
 Lý do bạn muốn tham gia là gì? Mục đích học cách sử dụng công cụ của bạn?
 
@@ -25,10 +46,9 @@ Bạn còn muốn nói điều gì không?
 
 
 
-Không tìm cách để đạt được cái mình thấy là sự tương xứng, mà tìm cách làm sao để họ thấy cần phải làm những gì để họ thoả mãn, và cái họ thấy là tương xứng với điều đó là như thế nào
 
 
 
 Tiêu chí cho sự tương xứng của bạn là gì?
 Làm thế nào để chúng ta có được một sự hợp tác mà bạn thấy là tương xứng và phù hợp với khả năng của cả hai bên? 
-Bạn muốn học một mình hay có thêm bạn cùng học? 
+Bạn muốn học một mình hay có thêm bạn cùng học? %%

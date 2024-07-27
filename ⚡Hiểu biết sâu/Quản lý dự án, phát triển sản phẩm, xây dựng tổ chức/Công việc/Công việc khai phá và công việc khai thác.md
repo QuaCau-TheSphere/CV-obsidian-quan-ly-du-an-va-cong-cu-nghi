@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-07-14T00:08
+updated: 2024-07-20T23:17
 cssClass: wide-table
 ---
 | Khía cạnh                                                           | Công việc khai phá (exploration)                                                                                                                                          | Công việc khai thác (exploitation)                                                                                                                                                                                                     |
@@ -80,4 +80,4 @@ Xem thêm::
 - [[Chỉ có thể ước lượng được thời gian cần có để hoàn thành khi công việc của ta gần như chỉ gồm công việc khai thác]]
 - [[Học là quá trình cấu trúc hoá những thứ phi cấu trúc]]
 - [[Hệ thống 1 dựa vào trí nhớ dài hạn. Hệ thống 2 dựa vào trí nhớ ngắn hạn]] 
-- [[Người người vạch chiến lược hay nhiều khi được giao triển khai luôn, hoặc người làm chuyên môn tốt nhiều khi được đề bạt lên làm quản lý, lãnh đạo. Trong khi tư duy cần dùng cho mỗi loại công việc này là khác nhau]]
+- [[Người người vạch chiến lược hay nhiều khi được giao triển khai luôn, hoặc người làm chuyên môn tốt nhiều khi được đề bạt lên làm quản lý, lãnh đạo]]

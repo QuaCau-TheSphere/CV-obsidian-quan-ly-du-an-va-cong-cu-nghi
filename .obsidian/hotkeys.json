@@ -369,15 +369,6 @@
       "key": "V"
     }
   ],
-  "obsidian-git:list-changed-files": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "S"
-    }
-  ],
   "obsidian-discord-share:discord:share-embed": [
     {
       "modifiers": [

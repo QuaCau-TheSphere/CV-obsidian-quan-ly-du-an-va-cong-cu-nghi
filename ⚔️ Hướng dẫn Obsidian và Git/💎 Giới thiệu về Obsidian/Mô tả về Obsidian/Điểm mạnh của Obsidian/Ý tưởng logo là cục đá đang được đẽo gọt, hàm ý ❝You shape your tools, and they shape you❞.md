@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-02T12:36
-updated: 2023-10-06T16:09
+updated: 2024-07-27T12:47
 ---
 ### Sharpen your thinking
 
@@ -15,3 +15,5 @@ We believe that Obsidian should adapt to your way of thinking, not the other way
 
 Nguồn:: [The new Obsidian icon - Obsidian](https://obsidian.md/blog/new-obsidian-icon/)
 [[Giàn giáo nhận thức cần phải tuỳ biến với quá trình hiểu biết của người dùng]]
+![Flintknapping an Obsidian Crescent. Ancient Stone Age Tool. - YouTube](https://www.youtube.com/watch?v=Kdn4bdhoUpE)
+[[Khi sử dụng công nghệ, ta không nghĩ là nó sẽ thay đổi bản thân mình]]
