@@ -11,8 +11,13 @@
             "id": "f4493a96084eedaa",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md",
+                "mode": "preview",
+                "backlinks": true,
+                "source": true
+              }
             }
           }
         ]
@@ -81,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md"
+              }
             }
           }
         ]
@@ -142,51 +151,51 @@
   },
   "active": "f4493a96084eedaa",
   "lastOpenFiles": [
-    "📐 Dự án/Trấn Kỳ/9 Blog/Kiếm tiền từ Trấn Kỳ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/4 Thành phẩm.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kendy cần gì (2).md",
-    "📜Tài nguyên/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức/Chia sẻ lịch với nhau.md",
-    "📜Tài nguyên/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức/Gom tất cả thông tin lại vào một chỗ.md",
-    "📜Tài nguyên/Nhu cầu công nghệ/Tự động hoá các công việc lặp đi lặp lại.md",
-    "📜Tài nguyên/Nhu cầu công nghệ/Nhập sự kiện vào Google Calendar.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Kendy cần gì.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Xù ngân hàng.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Xây dựng mô hình kinh doanh một người.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Tìm nguồn có thể cho mượn 100tr trong vài tháng.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Tìm người có tiền nhàn rỗi lớn.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Tìm hiểu mức độ căng thẳng tối đa của một người trong một ngày.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Nói chuyện với người có thể muốn giúp nhưng sợ bị lừa.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/money lover.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Đi năn nỉ.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Kế hoạch/Kế hoạch giúp đỡ người đang kiệt quệ vì nợ/Các câu hỏi về việc thành lập quỹ tín dụng, nền kinh tế phi chính thức, bản chất CSR của doanh nghiệp và tâm lý con người về tiền.md",
-    "📐 Dự án/Trấn Kỳ/4 Thành phẩm/Chiến lược/Kế hoạch phát triển Trấn Kỳ.md",
-    "📜Tài nguyên/Lĩnh vực/Lập trình web.md",
-    "📜Tài nguyên/Lĩnh vực/Nhân văn số.md",
-    "📜Tài nguyên/Lĩnh vực/Lĩnh vực.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Obsidian (giải pháp kỹ thuật).md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Nghiên cứu/Obsidian.md",
-    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin & công cụ nghĩ.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu",
-    "📜Tài nguyên/Nhu cầu công việc/Doanh nghiệp hoặc tổ chức/Tạo website.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Kiến trúc",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/New folder",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Nhức đầu",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Nhân học",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/Khoa học nhận thức",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/New folder",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/AI. Dữ liệu lớn/Trung tâm dữ liệu",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hiểu biết liên ngành trong CNTT/AI. Dữ liệu lớn",
+    "⚡Hiểu biết sâu/Cộng đồng, hệ sinh thái, hệ phức hợp/Truyền thông, xây dựng cộng đồng/Hữu xạ tự nhiên hương và sản phẩm phù hợp thị trường là một.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Đơn giản.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Điều đối tượng thấy.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Điều kiện.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Điều kiện đủ.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Điều kiện cần.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Ý tưởng tốt hơn.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Yếu tố hỗ trợ.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Tác vụ.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Thước đo, đo lường, chỉ số, KPI.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Quản trị kiến thức.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Quản lý công việc.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Phi tuyến.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Nhu cầu.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Mục tiêu.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Kế hoạch.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Josh Seiden - Outcomes Over Output_ Why customer behavior is the key metric for business success-Sense & Respond Press (2019).epub",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Impact.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Hướng tới một thứ gì đó.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Hoạt động.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Goal.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Công việc.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Công việc thành phần.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Chỉ số trước.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Chỉ số sau.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Achievement.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch/Josh Seiden - Outcomes Over Output_ Why customer behavior is the key metric for business success-Sense & Respond Press (2019).epub",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển cộng đồng",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Kinh tế",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/New folder (2)",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/New folder",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm.png",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (neato).png",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (dot).png",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức",
     "Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Thuý Hoà.jpg",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Keep to Fibery.png",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Mai Quang.jpg",
     "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/whiteboard.png",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/sponge.png",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/chalk-yellow.png",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/chalk-white.png",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/chalk-red.png"
+    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/sponge.png"
   ]
 }

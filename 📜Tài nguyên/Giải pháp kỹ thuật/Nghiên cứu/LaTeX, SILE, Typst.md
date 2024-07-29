@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-16T23:19
+updated: 2024-07-27T21:26
 ---
 ![](https://uploads-ssl.webflow.com/614e03b8b6446368c68222e3/6172eaa3c7df09246db4efa5_latex_effort_complexity.jpg) 
 [Social sciences and humanities researchers, what is the final push that you decided to use LaTeX? : r/LaTeX](https://www.reddit.com/r/LaTeX/comments/1b14zgm/social_sciences_and_humanities_researchers_what/)
 [Are there illustrations on the struggle of Word on formatting in comparing with LaTeX? : r/LaTeX](https://www.reddit.com/r/LaTeX/comments/1b2t1sw/are_there_illustrations_on_the_struggle_of_word/?utm_source=embedv2&utm_medium=post_embed&utm_content=post_title&embed_host_url=https://publish.reddit.com/embed "Are there illustrations on the struggle of Word on formatting in comparing with LaTeX? : r/LaTeX")
-[[Dễ dàng chèn ảnh, bảng, sơ đồ, mục lục, ghi chú, song ngữ, trích dẫn theo đúng ý]]
+[[Chèn ảnh, bảng, sơ đồ, mục lục, ghi chú, song ngữ, trích dẫn theo đúng ý]]
 figures, graphics, index, table of contents, table of abbreviations, footnotes, references, bibliography, etc.
 ![](https://i.imgur.com/0ApXpPU.png)
 [20220103\_Appt\_Brief.pdf](https://www.dropbox.com/scl/fi/f86hos68v828p020pzswp/20220103_Appt_Brief.pdf?rlkey=pvmu54w64yxsukp54ewd0pftj&e=1&dl=0)

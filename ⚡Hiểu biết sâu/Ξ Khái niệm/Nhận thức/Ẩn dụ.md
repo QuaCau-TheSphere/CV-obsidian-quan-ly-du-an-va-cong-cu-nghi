@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-28T10:50
+updated: 2024-07-28T21:54
 ---
-Khái niệm:: 
-
-Nguồn:: [[Nguyễn Đức Lộc]] 
+```dataview
+LIST
+WHERE contains(khái-niệm, [[]])
+```

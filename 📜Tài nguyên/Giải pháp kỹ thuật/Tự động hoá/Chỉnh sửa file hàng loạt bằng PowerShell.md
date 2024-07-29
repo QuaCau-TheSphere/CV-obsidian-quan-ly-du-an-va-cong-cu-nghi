@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-07-16T23:17
+updated: 2024-07-27T21:08
 ---
 [[PowerShell là một ngôn ngữ shell]]
 [The Complete Guide to PowerShell Punctuation - Simple Talk](https://www.red-gate.com/simple-talk/sysadmin/powershell/the-complete-guide-to-powershell-punctuation/)
@@ -23,13 +23,13 @@ $list|ForEach-Object {"`"$_`"," } |clip
 ```
 # Đổi tên hàng loạt
 ```PowerShell
-Get-ChildItem *.md -recurse | Where-Object {$_.name -cmatch '^2[A-Z]'}  | Rename-Item -newname { $_.name -replace '^2(.*)', '4$1'} -whatif 
+Get-ChildItem *.md, *.json -recurse | Where-Object {$_.name -cmatch '^2[A-Z]'}  | Rename-Item -newname { $_.name -replace '^2(.*)', '4$1'} -whatif 
 ```
 - `-cmatch`: match có case sensitive
 # Tìm và thay chuỗi hàng loạt
 [[VS Code nhiều khi không tìm hết được do tên file dài quá]]
 ```PowerShell
-Get-ChildItem *.md -recurse | ForEach-Object { (Get-Content $_).Replace('Kết quả cần có::','Thành quả cần có::') | Set-Content $_ } 
+Get-ChildItem *.md, *.json -recurse | ForEach-Object { (Get-Content $_).Replace('Kết quả cần có::','Thành quả cần có::') | Set-Content $_ } 
 ```
 # Xoá tất cả desktop.ini 
 ```PowerShell

@@ -37,7 +37,7 @@
           "commitMessage": "[skip netlify] PUBLISHER"
         },
         "verifiedRepo": false,
-        "rateLimit": 5000
+        "rateLimit": 4997
       }
     ],
     "verifiedRepo": true,

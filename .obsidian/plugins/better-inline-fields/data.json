@@ -41,20 +41,16 @@
       "folder": "⚡Hiểu biết sâu"
     },
     {
-      "field": "Giải pháp gợi ý",
-      "folder": "📐 Dự án/Trấn Kỳ/1 Quang cảnh/Giải pháp"
-    },
-    {
       "field": "Giải pháp kỹ thuật",
-      "folder": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật"
+      "folder": "📜Tài nguyên/Giải pháp kỹ thuật"
     },
     {
       "field": "Nhu cầu công nghệ",
-      "folder": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ"
+      "folder": "📜Tài nguyên/Nhu cầu công nghệ"
     },
     {
       "field": "Lĩnh vực",
-      "folder": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Lĩnh vực"
+      "folder": "📜Tài nguyên/Lĩnh vực"
     }
   ],
   "regexpTrigger": "/",

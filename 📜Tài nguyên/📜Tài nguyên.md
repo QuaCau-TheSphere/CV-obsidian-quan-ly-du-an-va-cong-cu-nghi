@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-16T23:06
+updated: 2024-07-27T21:27
 ---
 
 ```mermaid
@@ -30,8 +30,14 @@ Phiên bản đồ thị: 0.2. Bài chi tiết sẽ có phiên bản mới nhấ
 
 ---
 
-Theo sơ đồ trên, thì không nên tạo liên kết ở một ghi chú về lĩnh vực đến ghi chú về nhu cầu công nghệ. [[Sắp chữ, thiết kế, xuất bản]] là một lĩnh vực. Nhưng khi làm thì cảm giác rất muốn để nhu cầu công nghệ là [[WYSIWYM]], và nhu cầu công việc là [[Dễ dàng chèn ảnh, bảng, sơ đồ, mục lục, ghi chú, song ngữ, trích dẫn theo đúng ý]], vì chỉ thấy việc sắp chữ chỉ có cái này.
+```mermaid
+flowchart LR
+nccv[Nhu cầu công việc] --> nccn[Nhu cầu công nghệ] --> lv[Lĩnh vực] 
+nccv --> lv --> gpkt[Giải pháp kỹ thuật] 
+nccn --> gpkt --> gpkt
+```
+Xét ghi chú [[Sắp chữ, thiết kế, xuất bản]]. Nó là một lĩnh vực. Theo sơ đồ trên, thì trong ghi chú này không nên tạo liên kết đến ghi chú về nhu cầu công nghệ. Nhưng trong lúc viết thì cảm giác rất muốn để nhu cầu công nghệ là [[WYSIWYM]], và nhu cầu công việc là [[Chèn ảnh, bảng, sơ đồ, mục lục, ghi chú, song ngữ, trích dẫn theo đúng ý]], vì chỉ thấy việc sắp chữ chỉ có cái này.
 
-Tuy nhiên để ý là [[Nhân văn số]] cũng là một lĩnh vực, mà không thấy cần để nhu cầu công nghệ là [[Xác định các chủ đề có trong ngữ liệu]], và nhu cầu công việc là [[Nắm bắt xu hướng mạng]] hay [[Nghiên cứu cộng đồng mạng]], vì tự thấy rằng nhân văn số còn nhiều thứ hơn cái này
+Tuy nhiên, để ý là [[Nhân văn số]] cũng là một lĩnh vực, mà không thấy cần để nhu cầu công nghệ là [[Xác định các chủ đề có trong ngữ liệu]], và nhu cầu công việc là [[Nắm bắt xu hướng mạng]] hay [[Nghiên cứu cộng đồng mạng]], vì tự thấy rằng nhân văn số còn nhiều thứ hơn cái này.
 
-Trong [[Giải pháp kỹ thuật]] thì có thể chia lại folder theo nhu cầu công việc, công nghệ hoặc lĩnh vực, vì lúc đó các file thường là rời rạc
+Trong [[Giải pháp kỹ thuật]] thì có thể chia lại thư mục theo nhu cầu công việc, công nghệ hoặc lĩnh vực, vì lúc đó các ghi chú thường là rời rạc
