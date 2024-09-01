@@ -1,0 +1,10 @@
+{
+	"nodes":[
+		{"id":"39654f2bd10e8a68","x":20,"y":-270,"width":400,"height":400,"color":"4","type":"file","file":"⚡Hiểu biết sâu/Công nghệ thông tin/Kỹ thuật phần mềm/Lập trình hướng vật thể/Khái niệm cơ bản/Hàm/callback.md"},
+		{"id":"76afa05738ddb58e","x":-1055,"y":-240,"width":400,"height":400,"type":"file","file":"⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Lên kế hoạch/Nên ưu tiên làm những việc có thể sẽ khiến ta phải viết lại kế hoạch.md"},
+		{"id":"33cc42ec3c250532","x":-980,"y":240,"width":1400,"height":1070,"type":"file","file":"⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm.png"}
+	],
+	"edges":[
+		{"id":"1d7d82bdd802859c","fromNode":"39654f2bd10e8a68","fromSide":"left","toNode":"76afa05738ddb58e","toSide":"right"}
+	]
+}

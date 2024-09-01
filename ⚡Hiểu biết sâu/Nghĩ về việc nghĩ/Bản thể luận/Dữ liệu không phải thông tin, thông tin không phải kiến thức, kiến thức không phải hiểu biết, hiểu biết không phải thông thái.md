@@ -1,7 +1,7 @@
 ---
 share: true
-created: 2023-05-26T14:51
-updated: 2024-03-03T18:18
+created: 2023-10-22T21:45
+updated: 2024-08-13T07:58
 ---
 > Data is not information, information is not knowledge, knowledge is not understanding, understanding is not wisdom.
 — Clifford Stoll

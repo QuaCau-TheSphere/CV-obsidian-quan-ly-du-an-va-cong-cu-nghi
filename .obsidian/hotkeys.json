@@ -26,15 +26,6 @@
     }
   ],
   "obsidian-auto-link-title:enhance-url-with-title": [],
-  "workspace:close-others": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "W"
-    }
-  ],
   "obsidian-editor-shortcuts:insertLineBelow": [],
   "workspace:copy-path": [
     {
@@ -226,17 +217,10 @@
   "quick-explorer:go-next": [
     {
       "modifiers": [
-        "Mod"
+        "Mod",
+        "Shift"
       ],
       "key": "PageDown"
-    }
-  ],
-  "quick-explorer:go-prev": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "PageUp"
     }
   ],
   "switcher:open": [],
@@ -252,15 +236,6 @@
     }
   ],
   "editor:toggle-checklist-status": [],
-  "editor:toggle-comments": [],
-  "editor:toggle-fold": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "/"
-    }
-  ],
   "markdown:toggle-preview": [
     {
       "modifiers": [],
@@ -361,14 +336,6 @@
       "key": "M"
     }
   ],
-  "app:open-vault": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "V"
-    }
-  ],
   "obsidian-discord-share:discord:share-embed": [
     {
       "modifiers": [
@@ -429,7 +396,6 @@
       "key": "H"
     }
   ],
-  "markdown:add-metadata-property": [],
   "open-with-default-app:show": [
     {
       "modifiers": [
@@ -444,6 +410,12 @@
         "Ctrl"
       ],
       "key": "Tab"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "PageDown"
     }
   ],
   "workspace:previous-tab": [
@@ -453,6 +425,12 @@
         "Shift"
       ],
       "key": "Tab"
+    },
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "PageUp"
     }
   ],
   "obsidian-mkdocs-publisher:upload-all-edited-new": [
@@ -461,6 +439,102 @@
         "Alt"
       ],
       "key": "S"
+    }
+  ],
+  "darlal-switcher-plus:switcher-plus:open-vaults": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "V"
+    }
+  ],
+  "file-explorer:new-folder": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-explorer:new-file-in-new-pane": [],
+  "editor:toggle-fold": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "["
+    },
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "]"
+    }
+  ],
+  "markdown:add-metadata-property": [],
+  "editor:add-cursor-above": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowUp"
+    }
+  ],
+  "editor:add-cursor-below": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "ArrowDown"
+    }
+  ],
+  "workspace:move-to-new-window": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "obsidian-editor-shortcuts:insertLineAbove": [],
+  "quick-explorer:go-prev": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "PageUp"
+    }
+  ],
+  "table-editor-obsidian:move-column-left": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "["
+    }
+  ],
+  "table-editor-obsidian:move-column-right": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "]"
+    }
+  ],
+  "obsidian-mkdocs-publisher:publish-all": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "U"
     }
   ]
 }

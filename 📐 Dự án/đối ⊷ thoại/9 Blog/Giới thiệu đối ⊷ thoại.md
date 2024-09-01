@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-18T13:17
+updated: 2024-08-02T13:04
 ---
 ## *đối ⊷ thoại* dành cho ai?
 - [[Mở các cuộc đối thoại với cộng đồng|Người muốn mở các cuộc đối thoại với cộng đồng]]
@@ -21,6 +21,7 @@ updated: 2024-07-18T13:17
 - [Obsidian, quản lý dự án và công cụ nghĩ](https://obsidian.quảcầu.cc/?utm_source=W+Giới+thiệu+đối+⊷+thoại&utm_medium=Website&utm_campaign=&utm_content=&utm_term=)
 - [Lập trình và các công cụ số](https://lậptrình.quảcầu.cc/?utm_source=W+Giới+thiệu+đối+⊷+thoại&utm_medium=Website&utm_campaign=&utm_content=&utm_term=)
 - [Tồn tại trong thế giới tư bản](https://kiếmtiền.quảcầu.cc/?utm_source=W+Giới+thiệu+đối+⊷+thoại&utm_medium=Website&utm_campaign=&utm_content=&utm_term=)
+
 Sẽ ra mắt:
 - Vùng đất Quả Cầu
 - Mạng kết nối nhu cầu
@@ -29,6 +30,6 @@ Sẽ ra mắt:
 - Niềm tin và đối thoại
 - Nghiên cứu liên ngành
 
-Bạn có thể vào thư mục [Cấu hình và dữ liệu](https://doi-thoai.deno.dev/Cấu hình và dữ liệu.1n.1) để xem toàn bộ danh sách bài đăng và nơi đăng đã được nạp sẵn.
+Bạn có thể vào thư mục [Cấu hình và dữ liệu](https://doi-thoai.deno.dev/Cấu%20%hình%20%và%20%dữ%20%liệu.1n.1) để xem toàn bộ danh sách bài đăng và nơi đăng đã được nạp sẵn.
 
 [[Hướng dẫn sử dụng]]

@@ -1,15 +1,12 @@
 ---
+share: true
 created: 2023-06-12T00:57
-updated: 2024-07-29T13:45
+updated: 2024-07-29T14:12
 ---
-Câu hỏi liên quan đến chủ đề này:
+Xem thêm:: [[Quỹ]], [[Quỹ, gọi vốn]]
 ```dataview
-List from "3 Kiến thức, câu hỏi/32 Câu hỏi" where contains(chủ-đề,[[]]) 
-```
-
-Chủ đề quan tâm đến chủ đề này:
-```dataview
-List from "3 Kiến thức, câu hỏi/31 Khái niệm" where contains(chủ-đề,[[]]) 
+LIST
+WHERE contains(khái-niệm, [[]])
 ```
 ![[Tìm kiếm và tiếp cận nhà tài trợ tiềm năng.pdf]]
 # Chuẩn bị

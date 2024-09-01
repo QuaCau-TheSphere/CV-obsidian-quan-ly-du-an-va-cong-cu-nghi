@@ -1,5 +1,4 @@
 ---
-created: 2023-05-26T14:51
 updated: 2024-04-17T21:01
 ---
 Nhu cầu:: 		nc, dy, tl
@@ -17,15 +16,18 @@ Khái niệm:: 		kn
 Lý do:: 		ld
 Liên quan:: 		lq
 Câu hỏi:: 		ch
-Xem thêm:: 		xt
 Mâu thuẫn với:: 		mtv
+Xem thêm:: 		xt
+
 Nguồn:: 		ng
 Trích từ:: 		tt
+Tham khảo:: 		tk
 
 Nhu cầu công việc:: 		nccv
 Nhu cầu công nghệ:: 		nccn
 Lĩnh vực:: 		lv
 Giải pháp kỹ thuật:: 		gpkt
+
 # Code nhanh
 ## Bảng
 | Thành quả mong muốn | Giả thiết | Công việc |\n| ------------------- | --------- | --------- |		tqmm

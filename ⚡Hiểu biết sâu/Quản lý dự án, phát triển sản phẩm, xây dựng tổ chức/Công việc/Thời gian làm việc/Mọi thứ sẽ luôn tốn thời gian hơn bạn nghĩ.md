@@ -1,10 +1,11 @@
 ---
 share: true
 created: 2023-09-29T12:05
-updated: 2024-07-28T20:49
+updated: 2024-07-29T19:01
 alias:
   - "Định luật Hofstadter: Mọi thứ sẽ luôn tốn thời gian hơn bạn nghĩ, kể cả khi bạn đã tính đến định luật Hofstadter"
 ---
+Khái niệm:: [[Kế hoạch]]
 [Định luật Hofstadter](https://en.wikipedia.org/wiki/Hofstadter%27s_law): 
 >Mọi thứ sẽ luôn tốn thời gian hơn bạn nghĩ, kể cả khi bạn đã tính đến định luật Hofstadter.
 
@@ -14,3 +15,4 @@ alias:
 [[Ai cũng có một kế hoạch cho tới khi bị đấm vào mồm]]
 [[Mọi thứ luôn nằm ở chỗ cuối cùng bạn tìm thấy nó]]
 [[Hãy nhắm còn đủ tiền cho khoảng 20 đến 30 lần thất bại]]
+[[Nên ưu tiên làm những việc có thể sẽ khiến ta phải viết lại kế hoạch]]

@@ -1,60 +1,9 @@
 {
+  "version": "3.10.0",
   "templates": {
     "common": {
       "main": "title",
-      "fallback": "fallback_title"
-    },
-    "explorer": {
-      "main": null,
-      "fallback": null
-    },
-    "explorer:sort": {
-      "main": null,
-      "fallback": null
-    },
-    "graph": {
-      "main": null,
-      "fallback": null
-    },
-    "header": {
-      "main": null,
-      "fallback": null
-    },
-    "starred": {
-      "main": null,
-      "fallback": null
-    },
-    "search": {
-      "main": null,
-      "fallback": null
-    },
-    "tab": {
-      "main": null,
-      "fallback": null
-    },
-    "alias": {
-      "main": null,
-      "fallback": null
-    },
-    "suggest": {
-      "main": null,
-      "fallback": null
-    },
-    "inlineTitle": {
-      "main": null,
-      "fallback": null
-    },
-    "canvas": {
-      "main": null,
-      "fallback": null
-    },
-    "backlink": {
-      "main": null,
-      "fallback": null
-    },
-    "noteLink": {
-      "main": null,
-      "fallback": null
+      "fallback": "_basename"
     }
   },
   "rules": {
@@ -69,51 +18,104 @@
   },
   "debug": false,
   "boot": {
-    "delay": 1000
+    "delay": 5000
   },
   "features": {
     "alias": {
       "enabled": true,
       "strategy": "ensure",
-      "validator": "fr"
+      "validator": "fr",
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
     },
     "explorer": {
-      "enabled": true
-    },
-    "explorer:sort": {
-      "enabled": true
+      "enabled": true,
+      "sort": false,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
     },
     "tab": {
-      "enabled": false
+      "enabled": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
     },
     "header": {
-      "enabled": true
+      "enabled": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
     },
     "graph": {
-      "enabled": true
+      "enabled": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
     },
-    "starred": {
-      "enabled": true
+    "bookmarks": {
+      "enabled": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
     },
     "search": {
-      "enabled": true
+      "enabled": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
     },
     "suggest": {
-      "enabled": true
+      "enabled": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
     },
     "inlineTitle": {
-      "enabled": true
+      "enabled": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
     },
     "canvas": {
-      "enabled": true
+      "enabled": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
     },
     "backlink": {
-      "enabled": true
+      "enabled": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
+    },
+    "windowFrame": {
+      "enabled": true,
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
     },
     "noteLink": {
       "enabled": true,
+      "strategy": "onlyEmpty",
       "approval": true,
-      "strategy": "onlyEmpty"
+      "templates": {
+        "main": "",
+        "fallback": ""
+      }
     }
   },
   "processor": {

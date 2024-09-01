@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-27T19:22
+updated: 2024-08-24T12:06
 ---
 [[Obsidian không gọi vốn để theo đúng định hướng của mình]] 
 
@@ -20,4 +20,4 @@ action https://discord.gg/obsidianmd
 color blue
 ```
 ^button-n8na
-[[Obsidian không mạnh về quản lý công việc]]
+[[Obsidian không mạnh về quản lý tác vụ]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-29T19:22
+updated: 2024-08-20T21:48
 ---
 # [[Phân loại câu nhập]]
 ## Pending
@@ -30,3 +30,13 @@ updated: 2024-02-29T19:22
 
 ## Phân tích dữ liệu khoa học
 [[28-02]] 9:29 https://www.facebook.com/groups/phantichdulieukhoahoc/posts/7627433240602184/
+
+
+```yaml
+Cộng đồng Data Engineer Việt Nam:
+    2023:
+        Tháng 11:
+            Ngày 8:
+                Bài: [[một số ghi chép của mình về tiếp thị số, xử lý dữ liệu và lập trình]]
+                URL: https://www.facebook.com/groups/dataengineering.vn/posts/7562816120412554
+```

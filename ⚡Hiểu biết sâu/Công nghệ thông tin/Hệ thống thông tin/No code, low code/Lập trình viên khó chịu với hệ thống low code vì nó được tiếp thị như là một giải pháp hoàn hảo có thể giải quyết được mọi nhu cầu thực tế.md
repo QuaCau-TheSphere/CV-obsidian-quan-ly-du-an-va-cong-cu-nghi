@@ -2,7 +2,7 @@
 share: true
 title: Lập trình viên khó chịu với hệ thống low code không phải vì nó ưu tiên sự tiện lợi và chi phí thấp cho người dùng, mà vì nó được tiếp thị như là một giải pháp hoàn hảo có thể giải quyết được mọi nhu cầu thực tế
 created: 2023-09-05T16:17
-updated: 2024-03-26T14:47
+updated: 2024-09-02T15:18
 ---
 Khái niệm:: [[Đánh đổi]], [[Ưu tiên]]
 [[Dùng low code để xây dựng hệ thống là đang mang nợ kỹ thuật vào người]] 

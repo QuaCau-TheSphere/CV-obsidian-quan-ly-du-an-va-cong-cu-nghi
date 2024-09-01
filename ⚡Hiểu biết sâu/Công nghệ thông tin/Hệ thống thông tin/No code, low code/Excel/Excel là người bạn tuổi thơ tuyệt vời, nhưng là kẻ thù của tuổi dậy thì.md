@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-03-16T14:35
+updated: 2024-09-02T15:18
 ---
 Lý do:: [[Excel không cản ta làm điều mà ta sẽ hối tiếc]]
 Hệ quả của việc này là [[Người không làm lĩnh vực lập trình không được tạo điều kiện để trưởng thành về mặt quản trị dữ liệu]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-17T11:07
+updated: 2024-09-02T15:18
 ---
 Lý do:: [[Công việc khai phá chính là quản lý kiến thức]] 
 Lý do:: [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]
@@ -10,7 +10,7 @@ Lý do:: [[Cần nghĩ về công việc như là một cách để kiểm đị
 [[Công việc khai phá và công việc khai thác]]
 [[Insight through making]] 
 [[Ý tưởng sinh ra không theo độ khẩn cấp]]
-Thách thức:: [[Obsidian không mạnh về quản lý công việc]]
+Thách thức:: [[Obsidian không mạnh về quản lý tác vụ]]
 
 ---
 #### 🚨 Organizations accumulate information in different places

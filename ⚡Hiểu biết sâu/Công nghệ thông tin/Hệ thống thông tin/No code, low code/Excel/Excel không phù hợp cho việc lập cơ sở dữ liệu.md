@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-02-11T16:03
+updated: 2024-09-02T15:18
 ---
 Lý do:: [[Excel không cản ta làm điều mà ta sẽ hối tiếc]]
 
 [[Excel là sản phẩm low code tồn tại lâu dài nhất]] 
-[[Những đánh đổi phổ biến trong việc phát triển phần mềm]]
+[[Việc lập trình ít trực giác hơn nhưng lại có nhiều đánh đổi hơn các ngành khác]]
 
 ---
 ## [Excel as a database - Neopoleon](https://www.neopoleon.com/blog/excel-as-a-database/)

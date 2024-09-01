@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3f98b73d79a643dd",
+        "id": "65b65ed11396be90",
         "type": "tabs",
         "children": [
           {
-            "id": "f4493a96084eedaa",
+            "id": "5c6f373046d25c8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md",
+                "file": "📜Tài nguyên/Lĩnh vực/Lĩnh vực.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "I shrink 10x every 21s until I'm an atom",
+                "query": "row",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "058d2be84526927e",
@@ -86,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md",
+                "file": "📜Tài nguyên/Lĩnh vực/Lĩnh vực.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md",
+                "file": "📜Tài nguyên/Lĩnh vực/Lĩnh vực.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md"
+                "file": "📜Tài nguyên/Lĩnh vực/Lĩnh vực.md"
               }
             }
           }
@@ -141,61 +142,64 @@
     "hiddenItems": {
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "digitalgarden:Digital Garden Publication Center": false
     }
   },
-  "active": "f4493a96084eedaa",
+  "active": "5c6f373046d25c8b",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Cộng đồng, hệ sinh thái, hệ phức hợp/Truyền thông, xây dựng cộng đồng/Hữu xạ tự nhiên hương và sản phẩm phù hợp thị trường là một.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Đơn giản.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Điều đối tượng thấy.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Điều kiện.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Điều kiện đủ.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Điều kiện cần.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Ý tưởng tốt hơn.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Yếu tố hỗ trợ.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Tác vụ.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Thước đo, đo lường, chỉ số, KPI.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Quản trị kiến thức.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Quản lý công việc.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Phi tuyến.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Nhu cầu.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Mục tiêu.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Kế hoạch.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Josh Seiden - Outcomes Over Output_ Why customer behavior is the key metric for business success-Sense & Respond Press (2019).epub",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Impact.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Hướng tới một thứ gì đó.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Hoạt động.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Goal.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Công việc.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Công việc thành phần.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Chỉ số trước.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Chỉ số sau.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Achievement.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch/Josh Seiden - Outcomes Over Output_ Why customer behavior is the key metric for business success-Sense & Respond Press (2019).epub",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển cộng đồng",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Kinh tế",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/New folder (2)",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/New folder",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm.png",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (neato).png",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (dot).png",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức",
-    "Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Thuý Hoà.jpg",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Keep to Fibery.png",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Mai Quang.jpg",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/whiteboard.png",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/sponge.png"
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Lập trình là việc hướng dẫn máy làm theo đúng ý mình, chứ không phải chỉ mỗi viết code.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/No code, low code/Lập trình viên khó chịu với hệ thống low code vì nó được tiếp thị như là một giải pháp hoàn hảo có thể giải quyết được mọi nhu cầu thực tế.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Sự khác biệt giữa các ứng dụng quản lý chủ yếu ở nghiệp vụ cần giải quyết chứ không nằm ở yếu tố kỹ thuật.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Dữ liệu dưới dạng văn bản phù hợp cho việc quản lý kiến thức.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Cấu trúc/Những gì ta viết thì nên được tự động được cấu trúc.md",
+    "🌟 Mở đầu.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Ẩn dụ và mental model/Triết học ngôn ngữ là trung tâm của triết học khoa học máy tính.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Việc lưu trữ dữ liệu tại máy cá nhân và ở định dạng đơn giản sẽ giúp người dùng quen thuộc hơn với việc lập trình.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Người không làm lĩnh vực lập trình không được tạo điều kiện để trưởng thành về mặt quản trị dữ liệu.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Người không làm lĩnh vực lập trình không được tạo điều kiện để trưởng thành về mặt quản trị dữ liệu.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Dữ liệu chính là lập trình.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Dữ liệu chính là lập trình.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Khoa học dữ liệu.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Việc lưu trữ dữ liệu tại máy cá nhân và ở định dạng đơn giản sẽ giúp người dùng quen thuộc hơn với việc lập trình.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Sử dụng phương pháp đánh chỉ số tập tin giúp dễ tìm kiếm (search) hơn là truy cập (navigate).md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Việc phân loại thư mục chỉ cần theo đúng thư mục đó, không nhất thiết phải tạo thành một cây thống nhất.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Hệ thống thông tin.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Cơ sở dữ liệu/Cơ sở dữ liệu dạng đồ thị/Thế mạnh của RDF triplestore là tạo ra những liên kết mới không có sẵn lúc nhập vào.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Cơ sở dữ liệu/Cơ sở dữ liệu dạng đồ thị/The Semantic Web is essentially a distributed-objects framework.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Cơ sở dữ liệu/Cơ sở dữ liệu dạng đồ thị/Semantic web là một giấc mơ để tạo ra một thế giới có cấu trúc.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Cơ sở dữ liệu/Dữ liệu dưới dạng cơ sở dữ liệu đảm bảo các bên tham gia nhập dữ liệu cùng một định dạng.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Cơ sở dữ liệu/DBMS cấu trúc những cách ta tổ chức và tương tác với mọi dữ liệu được lưu trữ.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Cơ sở dữ liệu/Cơ sở dữ liệu dạng đồ thị",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Cơ sở dữ liệu",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Block/Khó có thể copy dữ liệu dạng block giữa các app khác nhau.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Block/Giao diện block cho phép người dùng linh hoạt hơn mà vẫn giữ được sự cấu trúc.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Block",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Văn bản thuần/Văn bản thuần là dạng dữ liệu đơn giản nhất.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Văn bản thuần/Tệp là thứ mà nhiều chương trình khác nhau đều đọc được.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Văn bản thuần",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin",
+    "📜Tài nguyên/Lĩnh vực/New folder",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Cơ sở dữ liệu/Cơ sở dữ liệu dạng đồ thị",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Văn bản thuần",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Cơ sở dữ liệu",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Block",
+    "Ξ Thiết lập/Ảnh/Persona.webp",
+    "Ξ Thiết lập/Ảnh/Pasted image 20240221020431.png",
+    "Ξ Thiết lập/Ảnh/Pasted image 20240216111339.png",
+    "Ξ Thiết lập/Ảnh/Pasted image 20231111161912.png",
+    "Ξ Thiết lập/Ảnh/Pasted image 20231109153144.png",
+    "Ξ Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
+    "Ξ Thiết lập/Ảnh/Người giàu nghĩ gì về quan điểm tiền không mua được hạnh phúc.jpg",
+    "Ξ Thiết lập/Ảnh/440512325_813700394138855_2975689979954753250_n.png",
+    "Ξ Thiết lập/Ảnh/Flat White.png",
+    "Ξ Thiết lập/Excalidraw/Các lĩnh vực trong vault.png",
+    "📐 Dự án/Công cụ cho hệ sinh thái/Nền kinh tế tri thức.canvas",
+    "Untitled.canvas"
   ]
 }

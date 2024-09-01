@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-21T00:29
+updated: 2024-08-20T21:03
 ---
 # Lộ trình hướng dẫn cho chị Hoà (kế toán, dữ liệu) 
 ## Chương trình Beancount

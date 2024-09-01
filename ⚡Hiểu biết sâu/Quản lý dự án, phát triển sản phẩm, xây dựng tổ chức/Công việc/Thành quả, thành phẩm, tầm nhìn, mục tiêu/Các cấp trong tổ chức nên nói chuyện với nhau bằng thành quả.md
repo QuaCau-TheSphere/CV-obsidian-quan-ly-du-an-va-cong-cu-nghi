@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-07-21T22:02
+updated: 2024-08-20T12:55
 ---
+Khái niệm:: [[Thành quả]]
 [[Dựa vào KPI thì bộ phận kinh doanh sẽ có tiếng nói lớn nhất, còn đội phát triển sản phẩm rất ít có tiếng nói]]
 [[Thành quả (outcome) là kết quả thu được do sự thay đổi về hành vi của người dùng khi tương tác với sản phẩm đã được cải tiến (hoặc sản phẩm mới)]]
 [[❓Nhu cầu = impact = vấn đề = điểm đau = động lực = lý do bắt đầu]]

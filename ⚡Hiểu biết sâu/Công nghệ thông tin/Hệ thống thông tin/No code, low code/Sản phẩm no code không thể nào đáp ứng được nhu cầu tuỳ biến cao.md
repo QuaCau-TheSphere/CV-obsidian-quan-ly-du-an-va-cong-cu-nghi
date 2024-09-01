@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-04-15T14:30
+updated: 2024-09-02T15:18
 ---
 ### Các ERP được dựng sẵn không đủ khả năng đáp ứng những luồng làm việc và suy nghĩ đặc thù
 ![[Dùng ERP dựng sẵn.png]]

@@ -15,24 +15,40 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "/",
-      "template": "Ξ Thiết lập/Templates/Ý tưởng.md"
-    },
-    {
       "folder": "📜Tài nguyên/Nhu cầu công việc",
-      "template": "Ξ Thiết lập/Templates/Nhu cầu công việc.md"
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nhu cầu công việc.md"
     },
     {
       "folder": "📜Tài nguyên/Nhu cầu công nghệ",
-      "template": "Ξ Thiết lập/Templates/Nhu cầu công nghệ.md"
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nhu cầu công nghệ (template).md"
+    },
+    {
+      "folder": "📜Tài nguyên/Tài nguyên/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Địa điểm công cộng ở TPHCM",
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Địa điểm công cộng.md"
+    },
+    {
+      "folder": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Không gian làm việc chung ở TPHCM",
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Không gian làm việc chung.md"
+    },
+    {
+      "folder": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Phòng họp riêng ở TPHCM",
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Phòng họp riêng.md"
+    },
+    {
+      "folder": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán có phòng riêng ở TPHCM",
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Quán có phòng riêng.md"
+    },
+    {
+      "folder": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM",
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Quán không có phòng riêng.md"
     },
     {
       "folder": "⚡Hiểu biết sâu/Ξ Khái niệm",
       "template": "Ξ Thiết lập/Templates/Khái niệm.md"
     },
     {
-      "folder": "",
-      "template": ""
+      "folder": "/",
+      "template": "Ξ Thiết lập/Templates/Ý tưởng.md"
     }
   ],
   "syntax_highlighting": true,

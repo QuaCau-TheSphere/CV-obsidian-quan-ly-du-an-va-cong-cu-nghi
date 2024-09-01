@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-10T15:18
+updated: 2024-08-20T12:55
 ---
+Khái niệm:: [[Thành quả]]
 Ví dụ: tăng retention rate, tăng giá trị đơn hàng mỗi lần mua, tăng frequency mua hàng
 
 [[Thành phẩm (output) là các kết quả trực tiếp của các công việc]]. [[Thành quả quan trọng hơn thành phẩm]]
