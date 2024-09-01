@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-25T10:54
-updated: 2024-07-18T00:09
+updated: 2024-08-24T21:00
 ---
 # Mục tiêu
 Đây là một vault Obsidian dành riêng cho người Việt với mục tiêu:
@@ -62,6 +62,6 @@ Nguồn đánh dấu những cái ở trên nó. Trang nào không có nguồn l
 
 Vault này được khởi xướng bởi Quả Cầu.
 
-Bọn mình khuyến khích bạn tải vault trực tiếp hơn là đọc trên web. [[Tại sao lại cần tải vault về hơn là đọc trên web？|Tại sao tôi lại nên làm vậy?]] 
+Bọn mình khuyến khích bạn tải vault trực tiếp hơn là đọc trên web. [[Tại sao lại cần tải kho về hơn là đọc trên web|Tại sao tôi lại nên làm vậy?]] 
 
 Nếu bạn có một phản hồi về một ý tưởng của vault, hoặc có nhu cầu được trao đổi 1-1, hoặc bất cứ vấn đề gì, hãy xem [[Mọi người hay thảo luận ở đâu？]]

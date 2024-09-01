@@ -2,7 +2,7 @@
 share: true
 title: Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ
 created: 2023-09-05T16:17
-updated: 2023-10-12T20:26
+updated: 2024-08-02T11:30
 ---
 Một phần quan trọng của sự kiến tạo cuộc đá gà thành một văn bản là một quá trình hội thoại và đối mặt với một số người Bali chứ không phải là việc đọc và diễn giải văn hóa đằng sau lưng họ
 

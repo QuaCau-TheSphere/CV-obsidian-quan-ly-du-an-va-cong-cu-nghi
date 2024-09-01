@@ -3,6 +3,6 @@
   "deleteOutsideNoteWithFolder": false,
   "indexName": "_about_",
   "autoRename": true,
-  "folderNoteTemplate": "---\nshare: true\n---\n\n```dataview\nLIST rows.file.link\nFROM \"{{FOLDER_PATH}}\" \nWHERE file.name!=this.file.name\nGROUP BY split(file.folder, \"/\")[2]\n```",
+  "folderNoteTemplate": "---\nshare: true\n---\n```dataviewjs\nconst thưMụcHiệnTại = dv.current().file.folder\nconst danhSáchGhiChú = dv.pages(`\"${thưMụcHiệnTại}\"`)\nconst danhSáchLiênKếtTớiGhiChú = danhSáchGhiChú.map(i => i.file.link)\ndv.span(danhSáchLiênKếtTớiGhiChú)\n```\n",
   "logLevel": 4
 }

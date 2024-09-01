@@ -4,23 +4,76 @@
     "type": "split",
     "children": [
       {
-        "id": "3f98b73d79a643dd",
+        "id": "65b65ed11396be90",
         "type": "tabs",
         "children": [
           {
-            "id": "f4493a96084eedaa",
+            "id": "5c6f373046d25c8b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md",
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/9 Blog/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "e846b3cddfd9b672",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Ξ Nguồn/Paul Graham.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "4f6e00b93c833109",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Quản lý tổ chức.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
+          },
+          {
+            "id": "3d7579742219835b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Công nghệ mới đem lại thêm lựa chọn cho người làm chính sách.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a570ea0c31b41d1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Email không được sinh ra để trao đổi thông tin, mà là để làm todo list.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -49,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "I shrink 10x every 21s until I'm an atom",
+                "query": "row",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md",
+                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Công nghệ mới đem lại thêm lựa chọn cho người làm chính sách.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md",
+                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Công nghệ mới đem lại thêm lựa chọn cho người làm chính sách.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md"
+                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Công nghệ mới đem lại thêm lựa chọn cho người làm chính sách.md"
               }
             }
           }
@@ -141,61 +194,64 @@
     "hiddenItems": {
       "obsidian42-brat:BRAT": false,
       "templater-obsidian:Templater": false,
-      "obsidian-advanced-slides:Show Slide Preview": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "digitalgarden:Digital Garden Publication Center": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4493a96084eedaa",
+  "active": "3d7579742219835b",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Cộng đồng, hệ sinh thái, hệ phức hợp/Truyền thông, xây dựng cộng đồng/Hữu xạ tự nhiên hương và sản phẩm phù hợp thị trường là một.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Đơn giản.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Điều đối tượng thấy.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Điều kiện.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Điều kiện đủ.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Điều kiện cần.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Ý tưởng tốt hơn.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Yếu tố hỗ trợ.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Tác vụ.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Thước đo, đo lường, chỉ số, KPI.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Sản phẩm.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Quản trị kiến thức.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Quản lý công việc.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Phi tuyến.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Nhu cầu.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Mục tiêu.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Kế hoạch.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Josh Seiden - Outcomes Over Output_ Why customer behavior is the key metric for business success-Sense & Respond Press (2019).epub",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Impact.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Hướng tới một thứ gì đó.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Hoạt động.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Goal.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Công việc.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Công việc thành phần.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Chỉ số trước.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Chỉ số sau.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Achievement.md",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch/Josh Seiden - Outcomes Over Output_ Why customer behavior is the key metric for business success-Sense & Respond Press (2019).epub",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển cộng đồng",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Kinh tế",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/New folder (2)",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/New folder",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm.png",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (neato).png",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm/93.01 Đồ thị nội hàm các khái niệm (dot).png",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/93 Thống nhất nội hàm, khái niệm",
-    "⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức",
-    "Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Thuý Hoà.jpg",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Trần Nam.jpg",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Keep to Fibery.png",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/Ξ Thiết lập/Ảnh/Trấn Kỳ/Mai Quang.jpg",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/whiteboard.png",
-    "Slides/Đáp ứng nhu cầu doanh nghiệp/plugin/chalkboard/img/sponge.png"
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Các nhóm làm việc qua mạng ngày càng nhiều.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/❓Học qua dự án hay học bài bản.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Các tổ chức thường chỉ lưu trữ kiến thức mà ít khi dành nhiều sự chú ý tới kết nối chúng.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Dữ liệu chính là lập trình.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Người không làm lĩnh vực lập trình không được tạo điều kiện để trưởng thành về mặt quản trị dữ liệu.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Quản lý công việc và quản lý kiến thức không thể tách rời nhau.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng nhóm, quản lý nhân sự/❓Thành viên nòng cốt là người chịu trách nhiệm lớn nhất hay là người có nhiều đóng góp nhất.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng nhóm, quản lý nhân sự/Gốc của thương hiệu là văn hoá doanh nghiệp.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng nhóm, quản lý nhân sự/Không nên có quá 20 nhân sự khi chưa có sản phẩm phù hợp thị trường.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng nhóm, quản lý nhân sự/Văn hoá giao tiếp low-context thường có ở tổ chức phẳng. Văn hoá giao tiếp high-context thường có ở tổ chức phân cấp.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng nhóm, quản lý nhân sự/Sociocracy.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Email không được sinh ra để trao đổi thông tin, mà là để làm todo list.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Ghi chú thì linh hoạt, nhưng tĩnh. App thì cứng nhắc, nhưng động.md",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Rhizome.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Quản lý tổ chức.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Quản lý dữ liệu cho dự án, sản phẩm.md",
+    "⚡Hiểu biết sâu/Ξ Nguồn/Paul Graham.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Startup/Ý tưởng startup lớn thách thức căn tính của bạn.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Làm thứ một số người rất cần quan trọng hơn là làm thứ nhiều người thấy hay.md",
+    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Startup/Đa số startup không chết vì cạnh tranh với đối thủ, mà vì không có người dùng sản phẩm của mình.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/9 Blog/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Các loại alias.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Web/Người dùng cá nhân hoặc dự án nhỏ có nên dùng WordPress hay không？.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Web/Các vấn đề của plugin Digital Garden trong việc tạo trang web từ kho.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Web/Nền tảng viết trên mạng.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Untitled.md",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Cơ sở dữ liệu/Cơ sở dữ liệu dạng đồ thị",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Cơ sở dữ liệu",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Block",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Văn bản thuần",
+    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin",
+    "📜Tài nguyên/Lĩnh vực/New folder",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Cơ sở dữ liệu/Cơ sở dữ liệu dạng đồ thị",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Văn bản thuần",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Cơ sở dữ liệu",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Block",
+    "Ξ Thiết lập/Ảnh/Persona.webp",
+    "Ξ Thiết lập/Ảnh/Pasted image 20240221020431.png",
+    "Ξ Thiết lập/Ảnh/Pasted image 20240216111339.png",
+    "Ξ Thiết lập/Ảnh/Pasted image 20231111161912.png",
+    "Ξ Thiết lập/Ảnh/Pasted image 20231109153144.png",
+    "Ξ Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
+    "Ξ Thiết lập/Ảnh/Người giàu nghĩ gì về quan điểm tiền không mua được hạnh phúc.jpg",
+    "Ξ Thiết lập/Ảnh/440512325_813700394138855_2975689979954753250_n.png",
+    "Ξ Thiết lập/Ảnh/Flat White.png",
+    "Ξ Thiết lập/Excalidraw/Các lĩnh vực trong vault.png",
+    "📐 Dự án/Công cụ cho hệ sinh thái/Nền kinh tế tri thức.canvas",
+    "Untitled.canvas"
   ]
 }

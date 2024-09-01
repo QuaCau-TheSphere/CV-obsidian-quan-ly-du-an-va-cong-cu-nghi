@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-29T13:00
+updated: 2024-09-01T15:28
 ---
-Khái niệm:: [[Marketing]], [[Động lực]], [[Cạnh tranh]]
+Khái niệm:: [[Marketing]], [[Động lực]], [[Cạnh tranh]], [[Sản phẩm]]
 Lý do:: [[❓Truyền miệng là cách duy nhất để sản phẩm thực sự tốt hơn chiến thắng trên thị trường]]
 Lý do:: [[Có người giới thiệu về vấn đề có lẽ là cách duy nhất để làm được những thứ mình muốn làm nhưng không khẩn cấp]]
 

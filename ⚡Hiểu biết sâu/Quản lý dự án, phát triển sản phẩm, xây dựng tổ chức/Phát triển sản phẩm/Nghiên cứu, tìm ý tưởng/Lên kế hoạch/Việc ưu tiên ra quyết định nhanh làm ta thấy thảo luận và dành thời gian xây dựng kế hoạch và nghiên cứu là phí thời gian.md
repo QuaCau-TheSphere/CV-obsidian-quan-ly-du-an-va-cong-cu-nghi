@@ -1,10 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-10T21:37
+updated: 2024-07-29T19:18
 ---
-Khái niệm:: [[Ra quyết định]], [[Thảo luận]]
-
+Khái niệm:: [[Ra quyết định]], [[Thảo luận]], [[Kế hoạch]]
 [[1 nghiên cứu 20 ngày khác với 4 nghiên cứu 5 ngày]]
 [[Nhiều khi vấn đề chỉ được phát hiện ra khi đến khâu triển khai ý tưởng]]
 [[Ai cũng có một kế hoạch cho tới khi bị đấm vào mồm]]
@@ -13,6 +12,7 @@ Khái niệm:: [[Ra quyết định]], [[Thảo luận]]
 [[Độ tác động của quyết định, độ có sẵn của thông tin, trạng thái của môi trường là một trong nhiều thứ bất định]]
 
 [[Để không bị đối thủ đấm vào mồm mà còn đấm được vào mồm hắn thì phải lên kế hoạch]]
+[[Nên ưu tiên làm những việc có thể sẽ khiến ta phải viết lại kế hoạch]]
 [[When someone's taking time to do something right in the present, they're a perfectionist with no ability to prioritize, whereas when someone took time to do something right in the past, they're a master artisan of great foresight]]
 [[Muốn thấy được những vấn đề lớn cần sự thong thả]]
 [[Nỗi ám ảnh với sự hiệu quả có thể đến từ nỗi sợ chết]]

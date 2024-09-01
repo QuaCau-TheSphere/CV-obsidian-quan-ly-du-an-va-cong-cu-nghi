@@ -37,7 +37,7 @@
           "commitMessage": "[skip netlify] PUBLISHER"
         },
         "verifiedRepo": false,
-        "rateLimit": 4997
+        "rateLimit": 4239
       }
     ],
     "verifiedRepo": true,
@@ -52,17 +52,21 @@
       "enable": true,
       "key": "filename"
     },
-    "replaceTitle": [],
+    "replaceTitle": [
+      {
+        "regex": "%",
+        "replacement": "％",
+        "type": "title"
+      }
+    ],
     "replacePath": [],
     "autoclean": {
       "includeAttachments": true,
       "enable": true,
       "excluded": [
-        "docs/assets/js",
-        "docs/assets/meta",
-        "docs/assets/css",
-        "tags.md",
-        "graph.md"
+        "/docs/assets/.*/",
+        "docs/_data.yaml",
+        "/docs/_includes/.*/"
       ]
     },
     "folderNote": {
@@ -81,8 +85,8 @@
     "dataview": true,
     "censorText": [
       {
-        "entry": "/\\!\\[\\]\\(https:\\/\\/.*(youtube\\.com|youtu\\.be)\\/(.*).*\\)/",
-        "replace": "<iframe id=\"ytplayer\" type=\"text/html\" width=\"640\" height=\"360\" src=\"https://www.youtube.com/embed/$2\" frameborder=\"0\"></iframe>",
+        "entry": "/\\!\\[.*\\]\\(https:\\/\\/.*(youtube\\.com|youtu\\.be)\\/(.*).*\\)/",
+        "replace": "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/$2\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" referrerpolicy=\"strict-origin-when-cross-origin\" allowfullscreen></iframe>",
         "after": true,
         "inCodeBlocks": true
       }
@@ -96,7 +100,7 @@
       "internal": true,
       "unshared": false,
       "wiki": true,
-      "slugify": true
+      "slugify": "disable"
     }
   },
   "embed": {
@@ -106,7 +110,7 @@
       "image"
     ],
     "notes": true,
-    "folder": "docs/assets/attachments",
+    "folder": "docs/attachments",
     "convertEmbedToLinks": "keep",
     "charConvert": "->",
     "unHandledObsidianExt": [

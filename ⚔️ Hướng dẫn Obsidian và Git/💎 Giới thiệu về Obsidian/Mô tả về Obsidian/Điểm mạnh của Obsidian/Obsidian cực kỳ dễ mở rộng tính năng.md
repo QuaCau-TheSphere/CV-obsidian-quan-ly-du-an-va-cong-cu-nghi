@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-06T16:09
+updated: 2024-08-02T20:15
 ---
-Lý do:: [[Obsidian lưu dữ liệu nằm trên máy của người dùng]]
+Lý do:: [[Obsidian lưu dữ liệu trên máy của người dùng]]
 
 Obsidian tự xem mình là **IDE của suy nghĩ**. IDE hiểu đơn giản là phần mềm viết code chứ cũng không có gì phức tạp. Nhưng sự khác biệt giữa nó với các phần mềm viết lách khác như Word ở chỗ người sử dụng nó - lập trình viên - là người đang sáng tạo ra phần mềm, hay cao hơn nữa là đang thao túng phần mềm. Nhà lập trình viên sử dụng IDE để phát triển phần mềm, nhưng chính vì IDE cũng là một phần mềm, nên nó cũng sẽ biến đổi trong quá trình viết. Khi Obsidian tự xem mình là IDE của suy nghĩ, nghĩa là Obsidian tự giao cho mình cái trách nhiệm biến hóa cùng với dòng suy nghĩ của người dùng. Quá trình phác thảo là một quá trình đập đi xây lại từng câu từng chữ, và bạn cũng sẽ thấy mình làm vậy với Obsidian. Obsidian trước khi bạn viết dòng đầu tiên và sau khi bạn hoàn thành sản phẩm là hai thứ khác nhau.
 
