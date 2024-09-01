@@ -12,7 +12,6 @@
   "file-diff",
   "folder-note-core",
   "obsidian-front-matter-title-plugin",
-  "obsidian-git",
   "obsidian-mkdocs-publisher",
   "obsidian-heading-shifter",
   "global-search-and-replace",
@@ -31,6 +30,12 @@
   "various-complements",
   "obsidian-version-history-diff",
   "obsidian-editor-shortcuts",
-  "obsidian-advanced-slides",
-  "obsidian-html-tags-autocomplete"
+  "obsidian-html-tags-autocomplete",
+  "darlal-switcher-plus",
+  "hot-reload",
+  "safe-filename-linter",
+  "digitalgarden",
+  "open-vscode",
+  "obsidian-imgur-plugin",
+  "modules"
 ]

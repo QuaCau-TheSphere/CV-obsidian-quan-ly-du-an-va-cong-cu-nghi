@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-13T19:21
-updated: 2024-02-06T17:59
+updated: 2024-07-30T15:45
 ---
 %%
 #file/thành-phẩm/bài-viết 
@@ -44,7 +44,6 @@ Một số thứ sẽ giúp bạn hiểu code nói gì:
 - Biết một số kỹ thuật debug: console.log, debugger, unit test
 # Thao tác với IDE
 [[Phím tắt cho VS Code]]
-Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 
 # Hiểu quy tắc viết tài liệu
 ```js

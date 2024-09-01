@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-29T12:50
-updated: 2023-12-02T10:37
+updated: 2024-08-02T11:58
 ---
 Sự tập trung của chúng ta chỉ có một khoảng nhất định, và ta sẽ chỉ có thể làm thứ quan trọng nhất. Nếu ta ráng làm cái khác, thì một cơn nhức đầu sẽ kéo thôi thúc ta nhanh chóng bỏ cuộc để quay trở lại làm điều dang dở. Bạn có thể trải nghiệm cơn nhức đầu này mỗi khi đang tập trung làm một việc gì đó mà có tiếng điện thoại reo.
 
@@ -28,7 +28,7 @@ Giải pháp tối ưu cho vấn đề này, hiển nhiên, là hãy biết sẵ
 
 Tức là giải pháp tối ưu thì không khả thi, còn giải pháp khả thi thì lại không đạt yêu cầu. Nếu muốn đảm bảo việc xử lý đa nhiệm này không xảy ra, bạn cần tìm thông tin ở một nguồn còn đáng tin cậy hơn cả Google, mà ở đó luôn đảm bảo là bạn chắc chắn sẽ hiểu câu trả lời trong vòng một vài giây. Nguồn đó, không ở đâu khác, chính là những người đã biết câu trả lời rồi. Nó cũng giống như việc mặc dù bạn vẫn có thể đọc bản hướng dẫn sử dụng, nhưng việc có người hướng dẫn bạn thao tác vẫn hiệu quả vậy. Tôi đồ rằng việc có sự giao tiếp xã hội bản thân nó cũng khiến cho việc xử lý đa nhiệm nếu buộc phải xảy ra cũng nhẹ nhàng hơn.
 
-<sub>(Đây cũng chính là lý do tại sao nhiều người mắc các [bệnh văn phòng](https://vi.wikipedia.org/wiki/B%E1%BB%87nh_v%C4%83n_ph%C3%B2ng) như [[Viêm loét dạ dày]], [[Thoái hóa cột sống]], v.v. Cơ thể hẳn đã báo hiệu sự bất ổn cho người bệnh từ ngày này sang ngày khác, từ năm này sang năm khác, nhưng não của bệnh nhân đã lờ đi những cảnh báo đó, bởi vì khi công việc vẫn còn chưa xong thì việc quan tâm đến chúng thực sự là rất nhức đầu. Khi bạn đang ở trong trạng thái tập trung cao độ, thì cá ngừng lội, chim ngừng bay, Trái đất ngừng quay, còn bạn thì mất khả năng tự chăm sóc bản thân. Bạn hoàn toàn phụ thuộc vào việc có người hỗ trợ bạn những công việc quan trọng khác hay không, chứ bạn thì bất lực.)</sub>
+<sub>(Đây cũng chính là lý do tại sao nhiều người mắc các [bệnh văn phòng](https://vi.wikipedia.org/wiki/B%E1%BB%87nh_v%C4%83n_ph%C3%B2ng) như viêm loét dạ dày, thoái hóa cột sống, v.v. Cơ thể hẳn đã báo hiệu sự bất ổn cho người bệnh từ ngày này sang ngày khác, từ năm này sang năm khác, nhưng não của bệnh nhân đã lờ đi những cảnh báo đó, bởi vì khi công việc vẫn còn chưa xong thì việc quan tâm đến chúng thực sự là rất nhức đầu. Khi bạn đang ở trong trạng thái tập trung cao độ, thì cá ngừng lội, chim ngừng bay, Trái đất ngừng quay, còn bạn thì mất khả năng tự chăm sóc bản thân. Bạn hoàn toàn phụ thuộc vào việc có người hỗ trợ bạn những công việc quan trọng khác hay không, chứ bạn thì bất lực.)</sub>
 
 Nếu đến cả tín hiệu trong cơ thể còn trở nên không quan trọng, thì bạn làm gì có cửa nào để đi google nữa. Nói cách khác, việc được hỏi những câu hỏi có thể google phát là ra hoá ra quan trọng hơn chúng ta tưởng nhiều. Việc hỏi những câu như vậy giờ đây thể hiện ý thức biết chăm sóc cho sức khỏe tinh thần của bản thân. Môi trường làm việc nào biết yêu quý vùng vỏ não trước trán của nhân viên, môi trường đó sẽ là nơi có năng suất lao động cao hơn hẳn.
 

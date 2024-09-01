@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-11T20:14
+updated: 2024-07-29T17:50
 ---
-Khái niệm:: [[Công việc]], [[Quản trị kiến thức]], [[Quản lý công việc]]
+Khái niệm:: [[Công việc]], [[Quản trị kiến thức]]
 Lý do:: [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]
 [[Công việc khai phá và công việc khai thác]]
 [[Knowledge forms when we accumulate, mix, connect and visualize information]] 

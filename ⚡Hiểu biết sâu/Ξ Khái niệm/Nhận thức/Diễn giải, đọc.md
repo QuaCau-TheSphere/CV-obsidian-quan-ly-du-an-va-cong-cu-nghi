@@ -1,6 +1,10 @@
 ---
 share: true
-created: 2023-09-05T16:17
-updated: 2023-12-19T19:53
+created: 2023-10-22T21:45
+updated: 2024-08-10T16:35
 ---
-Khái niệm:: 
+```dataview
+LIST rows.file.link
+WHERE contains(khái-niệm, [[]])
+GROUP BY split(file.folder, "/")[3]
+```

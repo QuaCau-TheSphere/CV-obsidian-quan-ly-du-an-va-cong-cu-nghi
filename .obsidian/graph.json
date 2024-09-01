@@ -1,6 +1,6 @@
 {
   "collapse-filter": false,
-  "search": "",
+  "search": "path:\"⚡Hiểu biết sâu\" -path:\"⚡Hiểu biết sâu/Ξ Nguồn\"  ",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
@@ -8,14 +8,14 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
-      "query": "path:\"📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Giải pháp kỹ thuật\"  ",
+      "query": "path:\"⚡Hiểu biết sâu/Nghĩ về việc nghĩ\"  ",
       "color": {
         "a": 1,
         "rgb": 14048348
       }
     },
     {
-      "query": "path:\"📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ\"  ",
+      "query": "path:\"⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức\"  ",
       "color": {
         "a": 1,
         "rgb": 14069084
@@ -25,13 +25,13 @@
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0.2,
-  "nodeSizeMultiplier": 0.996704967894559,
+  "nodeSizeMultiplier": 1.10753318925594,
   "lineSizeMultiplier": 0.44913258983891,
   "collapse-forces": false,
-  "centerStrength": 0.403210867551714,
-  "repelStrength": 9.32880518678605,
+  "centerStrength": 0.608706390861377,
+  "repelStrength": 12.1741278172275,
   "linkStrength": 1,
-  "linkDistance": 30,
-  "scale": 0.21860383599018887,
-  "close": true
+  "linkDistance": 141,
+  "scale": 0.16348370567220524,
+  "close": false
 }

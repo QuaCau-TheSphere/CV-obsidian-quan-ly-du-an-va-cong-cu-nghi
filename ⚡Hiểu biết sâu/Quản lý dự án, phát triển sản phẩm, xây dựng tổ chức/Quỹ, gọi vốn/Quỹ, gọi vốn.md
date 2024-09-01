@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-12-19T17:41
-updated: 2024-07-27T22:40
+updated: 2024-07-29T14:12
 ---
-
+Khái niệm:: [[Quỹ]], [[Gây quỹ]]
 ```dataview
 LIST rows.file.link
 FROM "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Quỹ, gọi vốn" 

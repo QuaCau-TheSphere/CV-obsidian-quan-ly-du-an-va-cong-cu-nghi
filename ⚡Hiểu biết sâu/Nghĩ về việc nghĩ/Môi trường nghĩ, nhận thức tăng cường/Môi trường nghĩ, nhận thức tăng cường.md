@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-23T16:08
+updated: 2024-08-09T15:57
 alias: Làm sao để tìm được những công cụ hay ho?
 description: Làm sao để tìm được những công cụ hay ho?
 ---
@@ -13,6 +13,8 @@ Mình nghĩ cái mà bạn đang tìm kiếm là một từ khoá. Và mình ngh
 Mình bắt đầu bước vào thế giới của công cụ nghĩ khi đọc ghi chú này của kepano (hồi đó chưa làm CEO của Obsidian): [Evergreen notes turn ideas into objects that you can manipulate](https://stephanango.com/evergreen-notes). Sau đó tìm hiểu về Andy Matuschak rồi càng ngày càng dính sâu hơn. Nếu bạn muốn tìm hiểu thêm nữa thì có thể đọc thêm về Bret Victor với Maggie Appleton. Phong cách mỗi người đều có một cái gì đó đặc trưng. Bret Victor mình thấy phảng phất tính nghệ sĩ, lãng mạn, vị lai, nhấn mạnh vào trải nghiệm giác quan và mối quan hệ giữa cơ thể và không thời gian. Công ty mà Bret Victor tạo ra, [Dynamicland](https://dynamicland.org/), đang tìm cách xây dựng một môi trường lập trình bằng toàn bộ cơ thể và giác quan. Maggie Appleton mạnh về tiếp cận nhân học, thiết kế, ngôn ngữ học và lịch sử. Các công ty và hội thảo mà Maggie tham gia thì thiên về sự liên thông dữ liệu để tạo thành một nguồn tài nguyên cho cộng đồng. Andy Matuschak và Michael Nielsen thì thiên về khoa học nhận thức, tương tác máy-người, giáo dục. Andy cũng là nhà nghiên cứu độc lập, gây quỹ qua Patreon chứ không có thuộc biên chế của trường hay công ty nào, nên cũng có bàn về vị trí của lĩnh vực này trong môi trường học thuật cũng như môi trường kinh doanh.
 
 Rộng hơn công cụ nghĩ là **nhận thức tăng cường (augmented cognition)**. Andy bảo rằng cái này còn thú vị hơn là AI hay cấy chíp vào não. 
+
+[[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]
 
 [[Bret Victor]], [[Andy Matuschak]], [[Maggie Appleton]]
 

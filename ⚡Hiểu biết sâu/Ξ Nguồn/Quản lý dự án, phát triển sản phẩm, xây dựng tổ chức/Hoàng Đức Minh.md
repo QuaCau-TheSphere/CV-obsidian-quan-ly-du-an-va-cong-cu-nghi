@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-26T15:33
+updated: 2024-08-02T12:54
 ---
 ```dataview
 LIST file.cday
@@ -113,7 +113,7 @@ Họ đang tổ chức tài liệu ntn. Họ có gặp khó khăn gì trong vi�
 
 Cứ đi bán trực tiếp, nếu ko mua thì đi hỏi tại sao
 
-[[⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Phân loại người dùng khi phát triển sản phẩm khác với phân khúc khách hàng]]. Lý thuyết phổ biến về phân khúc khách hàng ví dụ như early adopter. CÒn với phát triển sản phẩm, cùng với app loyalty, cùng nhà hàng thì có bình dân, 5 sao, chuỗi. Mỗi bên có tập khách hàng của riêng họ. 
+[[Phân loại người dùng khi phát triển sản phẩm khác với phân khúc khách hàng]]. Lý thuyết phổ biến về phân khúc khách hàng ví dụ như early adopter. CÒn với phát triển sản phẩm, cùng với app loyalty, cùng nhà hàng thì có bình dân, 5 sao, chuỗi. Mỗi bên có tập khách hàng của riêng họ. 
 Nên cơ bản phải đi từ giả thiết. Họ là ai. Họ cần gì. Từ đó mới chia nhỏ hơn thành các mục tiêu nghiên cứu
 
 [Product Maker Vietnam](https://zalo.me/g/chxnnm846)

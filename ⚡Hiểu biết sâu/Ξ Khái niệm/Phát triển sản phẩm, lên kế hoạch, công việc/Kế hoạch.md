@@ -1,8 +1,25 @@
 ---
 share: true
-created: 2023-09-05T16:17
-updated: 2024-07-29T13:46
+created: 2024-07-28T21:54
+updated: 2024-08-02T19:28
 ---
-Khái niệm:: 
+```dataviewjs
+const inlinks = dv.current().file.inlinks
+const linkList = []
+for (const inlink of inlinks) {
+    const data = dv.page(inlink)["Khái niệm"]
+    if (!Array.isArray(data)) {
+        linkList.push(data)
+    } 
+}
+const result = [] 
+console.log(inlinks)
+console.log(linkList)
+for (const i of linkList) {
+    result.push(i.path) 
+    console.log("result", result)
+} 
+dv.span(result)
+```
 
-Nguồn:: 
+[[backup]]

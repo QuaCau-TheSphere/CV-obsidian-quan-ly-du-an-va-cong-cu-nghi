@@ -3,7 +3,7 @@ Alias: Động lực dự án, Tại sao lại chọn Obsidian, Sứ mệnh
 description: Động lực dự án này là gì? Tại sao lại chọn Obsidian?
 share: true
 created: 2023-07-26T10:33
-updated: 2023-12-25T19:51
+updated: 2024-08-02T20:15
 ---
 <sub>English below</sub>
 
@@ -16,7 +16,7 @@ Việc tìm kiếm người hợp tác cho các dự án mới có ý tưởng �
 # Hướng giải quyết: Tạo thói quen sử dụng dữ liệu ở tại chỗ cho mọi người
 Trong những phần mềm quản lý công việc trên thị trường hiện nay, mình thấy có duy nhất Obsidian (và Git) là có thể đáp ứng nhu cầu đó. Triết lý của Obsidian là:
 
-- [[Obsidian lưu dữ liệu nằm trên máy của người dùng|Dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản]]
+- [[Obsidian lưu dữ liệu trên máy của người dùng|Dữ liệu nằm trên máy của người dùng và ở định dạng đơn giản]]
 - [[Obsidian xem liên kết là công dân hạng nhất|Liên kết là công dân hạng nhất]]
 - [[Obsidian cực kỳ dễ mở rộng tính năng|Cực kỳ dễ mở rộng tính năng]]
 

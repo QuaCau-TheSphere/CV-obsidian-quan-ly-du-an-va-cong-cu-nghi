@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-09T12:40
+updated: 2024-08-02T11:26
 ---
 Khái niệm:: [[Diễn giải, đọc]], [[Văn bản]]
 Chân trời là giới hạn của sự hiểu. Ta có thể thấy được chân trời nhưng không bao giờ đến được chân trời. Cái quan sát của chúng ta tưởng là sẽ hiểu nhưng sẽ không bao giờ hiểu thực sự. Chỉ có một giải pháp duy nhất là sự gặp gỡ, sự giao thoa, sự tương giao của thế giới văn bản và thế giới của người đọc.
@@ -10,4 +10,4 @@ Chân trời là giới hạn của sự hiểu. Ta có thể thấy được ch
 Nguồn:: [[Nguyễn Đức Lộc]]
 
 [Tổng Quan Về Thông Diễn Học (Hermeneutics)](https://www.simonhoadalat.com/hochoi/triethoc/hermeneuticschapter%201.htm "Tổng Quan Về Thông Diễn Học (Hermeneutics)")
-[[Những câu trả lời luôn giả định người đọc hiểu trước một vài khái niệm]]
+[[Những câu trả lời luôn giả định người hỏi hiểu trước một vài khái niệm]]

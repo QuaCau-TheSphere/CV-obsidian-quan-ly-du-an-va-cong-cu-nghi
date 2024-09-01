@@ -6,9 +6,8 @@ alias:
   - Homepage
   - Trang chủ
 created: 2023-06-25T19:58
-updated: 2024-07-18T00:09
+updated: 2024-08-19T16:27
 ---
-  
 ![[logo.svg|200]]
 
 Obsidian là một phần mềm ghi chú mới xuất hiện từ năm 2020. Điểm khác biệt của nó với Word hoặc Google Docs là khả năng liên kết các ghi chú lại như Wikipedia mà không bị ràng buộc bởi việc nên phân loại theo thư mục nào. Điểm khác biệt của nó với Notion hoặc Google Docs là nó lưu dữ liệu trên máy bạn chứ không lưu trên máy chủ, khiến cho bạn có sự tự chủ và tự do tuyệt đối với dữ liệu của mình.  
@@ -22,9 +21,7 @@ Sau khi đọc xong những điều này, hiện có những câu hỏi nào xu�
 | Câu hỏi của bạn                                                                               | Loại câu hỏi | Nơi cho câu trả lời           |
 | --------------------------------------------------------------------------------------------- | ------------ | ----------------------------- |
 | Obsidian có gì hay? Nó giúp ích gì trong việc tư duy, hệ thống kiến thức, hoặc quản lý dự án? | What         | [[💎 Giới thiệu về Obsidian]] |
-| Tôi cần thành thạo thêm những công cụ gì để dự án của tôi được trôi chảy?                     | How          | [[📜Tài nguyên             |
+| Tôi cần thành thạo thêm những công cụ gì để dự án của tôi được trôi chảy?                     | How          | [[📜Tài nguyên]]              |
 | Hmm, bản chất của những vấn đề này là gì? Còn những gì tôi không biết là tôi không biết?      | Why          | [[⚡Hiểu biết sâu]]           |
-
-
 
 [[Nơi này là nơi nào？|Nơi này là nơi nào?]] | [[Mọi người hay thảo luận ở đâu？|Mọi người hay thảo luận ở đâu?]] | [[Tôi có thể giúp gì|Tôi có thể giúp gì?]] 

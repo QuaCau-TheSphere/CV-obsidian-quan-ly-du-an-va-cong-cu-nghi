@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-26T15:55
-updated: 2024-07-18T00:23
+updated: 2024-08-10T17:22
 cssClasses: wide-table
 ---
 Nếu bạn muốn:
@@ -33,15 +33,16 @@ Thì các buổi đáp ứng nhu cầu học cách sử dụng công cụ và t�
 # Một số nhu cầu ví dụ và những kiến thức cần có để làm được chúng
 ### Các nhu cầu công việc ví dụ
 ```dataview
-LIST without id file.name
-FROM "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công việc" 
+LIST
+FROM "📜Tài nguyên/Nhu cầu công việc" 
 where file.name!="Nhu cầu công việc" 
+where !contains(file.folder, "Hậu cần")
 ```
 
 ### Các nhu cầu công nghệ ví dụ
 ```dataview
-LIST without id file.name
-FROM "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/1 Nhu cầu/Nhu cầu công nghệ" 
+LIST
+FROM "📜Tài nguyên/Nhu cầu công nghệ" 
 where file.name!="Nhu cầu công nghệ" 
 ```
 

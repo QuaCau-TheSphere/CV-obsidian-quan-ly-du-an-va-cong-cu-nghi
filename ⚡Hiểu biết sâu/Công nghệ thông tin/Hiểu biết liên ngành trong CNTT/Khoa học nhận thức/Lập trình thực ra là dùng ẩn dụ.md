@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-03T09:36
-updated: 2024-07-27T12:55
+updated: 2024-08-28T13:36
 ---
 Khái niệm:: [[Ẩn dụ]]
 
@@ -26,4 +26,3 @@ Lý do:: [[Chúng ta sống bằng ẩn dụ]]
 > Funnily enough, it also fits our definition of a metaphor. _Programming is just a giant stack of metaphors._ Each layer of the metaphorical stack moves us further away from machine world, and closer to human world.
 
 Nguồn:: [[Maggie Appleton]], [How to Draw Invisible Programming Concepts: Part I](https://maggieappleton.com/drawinginvisibles1)
-
