@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-04-24T09:02
-updated: 2024-09-02T16:28
+updated: 2024-09-21T15:09
 title: Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?
 alias: Đâu là nơi dễ gặp được từ khoá cần tìm nhất?
 description: Đâu là nơi dễ gặp được từ khoá cần tìm nhất?
@@ -24,7 +24,7 @@ Nhược điểm của việc này là không ít chủ đề bị tấn công b
 - Từ điển các từ đồng nghĩa, gần nghĩa (synonyms) 
 - Phần mục lục của [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists "List of lists of lists - Wikipedia")
 
-ChatGPT hay Gemini thực ra cũng nằm trong nhóm này, nhưng có lẽ chúng không hiệu quả bằng các công cụ trên trong nhiệm vụ này.
+ChatGPT hay Gemini thực ra cũng nằm trong nhóm này, nhưng có lẽ chúng không hiệu quả bằng các công cụ trên trong nhiệm vụ này. Xem thêm:: [[AI là định dạng ảnh mờ của web]].
 
 ### Các cộng đồng chuyên môn
 Diễn đàn chuyên về hỏi đáp [[Stack Exchange]] có cơ chế bầu chọn theo tập thể, giúp đưa thông tin hữu ích nhất lên cao. Quora cũng là một diễn đàn hỏi đáp có cơ chế bầu chọn theo tập thể, nhưng có vẻ nó thiên về nghe những câu chuyện từ những người có uy tín hơn. Với những câu hỏi để tìm từ khoá thì bạn không có nhiều không gian để giải thích vấn đề, và cũng dễ gặp tình trạng câu trả lời chỉ chung chung. Nếu muốn có những cuộc thảo luận mở thì mình thấy Reddit tốt hơn.
@@ -40,9 +40,12 @@ Nếu cần nơi tổng hợp tiếng Việt thì mình có tổng hợp [500 nh
 Nếu dành thời gian để viết những gì bạn đã thử mà không được thì câu hỏi của bạn sẽ trở nên hấp dẫn hơn, tạo được nhiều tương tác hơn.
 
 ### Các hệ thống tri thức cộng đồng
-- Phần mục lục của [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists "List of lists of lists - Wikipedia"). Có thời gian thì tìm hiểu thêm về [[Uy quyền sự thật của Wikipedia]]
-- Awesome
-- Các kho kiến thức. Với tiếng Việt thì có [trang giới thiệu về đối ⊷ thoại](https://doi-thoai.deno.dev/blog?utm_source=Vault+C+Obsidian%2C+quản+lý+dự+án+và+công+cụ+nghĩ+(Hiểu+biết+sâu)&utm_medium=Vault&utm_campaign=đối+⊷+thoại&utm_content=⚡Hiểu+biết+sâu%2FNghĩ+về+việc+nghĩ%2FHọc+tập%2C+hiểu+biết%2FLàm+sao+để+tìm+được+thứ+ta+cần+khi+ta+không+biết+từ+khoá+chính+xác+của+nó.md&utm_term=).
+Thường đó sẽ là các danh sách được tuyển chọn, ví dụ như:
+- Phần mục lục của [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists "List of lists of lists - Wikipedia") trên Wikipedia (có thể tìm hiểu thêm về [[Uy quyền sự thật của Wikipedia]])
+- Phần mục lục của [Awesome Projects](https://imq.github.io/awesome-projects/#/?id=books) trên GitHub
+
+Các kho kiến thức:
+ - Với tiếng Việt thì có [trang giới thiệu về đối ⊷ thoại](https://doi-thoai.deno.dev/blog?utm_source=Vault+C+Obsidian%2C+quản+lý+dự+án+và+công+cụ+nghĩ+(Hiểu+biết+sâu)&utm_medium=Vault&utm_campaign=đối+⊷+thoại&utm_content=⚡Hiểu+biết+sâu%2FNghĩ+về+việc+nghĩ%2FHọc+tập%2C+hiểu+biết%2FLàm+sao+để+tìm+được+thứ+ta+cần+khi+ta+không+biết+từ+khoá+chính+xác+của+nó.md&utm_term=).
 
 Xem thêm:: [[Xây dựng hệ thống tri thức cộng đồng|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]]
 ### Các nghiên cứu tổng quan, sách nhập môn, bài giảng đại học
@@ -67,7 +70,7 @@ Như có đề cập ở đầu bài, trong rất nhiều trường hợp, thứ
 Trong trường hợp vẫn phải tự tìm hiểu một mình, thì câu hỏi ban đầu thực chất là câu hỏi:
 > Từ khoá nào sẽ giúp tôi đi tìm từ khoá tôi chưa biết một cách hiệu quả?
 
-Ban đầu mình nghĩ từ khoá đó là *Chiến lược tìm kiếm (Search strategy)*, là một chủ đề nằm trong ngành [Khoa học thông tin](https://en.wikipedia.org/wiki/Information_science "Information science - Wikipedia"). Nhưng sau đó mình nhận ra nó thiên về việc tìm kiếm tài liệu liên quan, vốn là phần đã được nói ở trên, hơn là đưa ra những lập luận để có một kết luận rằng liệu những gì đã nói ở trên là đã vét cạn mọi cách hiệu quả nhất chưa. Dù sao thì mình cũng chưa tìm hiểu sâu về nó nên cũng có thể kết luận sai.
+Ban đầu mình nghĩ từ khoá đó là *Chiến lược tìm kiếm (Search strategy)*, là một chủ đề nằm trong ngành [Khoa học thông tin](https://en.wikipedia.org/wiki/Information_science "Information science - Wikipedia"). Nhưng sau đó mình nhận ra nó thiên về việc tìm kiếm tài liệu liên quan, vốn là phần đã được nói ở trên, hơn là đưa ra những lập luận để chứng minh hoặc bác bỏ giả định rằng những gì được nói ở trên là cách hiệu quả nhất để tìm một thứ khi không biết tên chính xác của nó. Dù sao thì mình cũng chưa tìm hiểu sâu về nó nên cũng có thể kết luận sai.
 
 Mình nghĩ câu hỏi ban đầu là một chủ đề trong công cụ nghĩ. Và theo mình hiểu thì hiện tại cũng chỉ là chịu khó lần mò để xem người ta bàn thế nào, rồi đọc trong đống họ bàn để biết được từ khóa thôi. Rốt cuộc thì tất cả những gì bạn có từ bên ngoài là gợi ý, và bạn phải tự đánh giá xem gợi ý đó có giải quyết khúc mắc của bạn hay không. Hên thì thỏa mãn hết còn xui thì bạn cũng chỉ có thể cảm ơn sự giúp đỡ của họ rồi phải tự đi tiếp. Xếp hạng của Google hay câu trả lời của chuyên gia hay người có kinh nghiệm cũng chỉ là gợi ý mà thôi. Chứ bạn nghĩ với những nhà nghiên cứu thì khi họ đang đứng ở biên giới tri thức thì làm gì có cái khái niệm có sẵn nào trả lời cho họ được. Họ chính là những người **tạo ra khái niệm** cho những người như chúng ta xài. Thì về bản chất mình cũng đang làm công việc giống như họ thôi, chỉ là đi sau họ thôi. Bộ công cụ họ sử dụng để tạo ra khái niệm mới cũng là bộ công cụ bạn dùng để đi tìm khái niệm họ đã tạo ra. 
 

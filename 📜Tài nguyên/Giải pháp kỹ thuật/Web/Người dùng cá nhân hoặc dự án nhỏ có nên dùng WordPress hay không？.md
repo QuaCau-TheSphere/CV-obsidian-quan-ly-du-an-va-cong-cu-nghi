@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-02-27T15:45
-updated: 2024-09-02T17:26
+updated: 2024-09-21T21:45
 title: Người dùng cá nhân hoặc dự án nhỏ có nên dùng WordPress hay không?
 description: WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ tạo web hiệu quả nhất
 alias:
@@ -55,7 +55,7 @@ Còn không thì với nhu cầu nhỏ thì dùng web tĩnh có lợi về lâu 
 
 WordPress ra đời năm 2003. 21 năm đã trôi qua, và công nghệ web cũng đã có nhiều thứ mới. Thời điểm đó không có Git, Node, Stack Overflow, VS Code, Astro, Obsidian, ChatGPT. Những cái tên mình liệt kê ra ở đây có thể bạn không hiểu nó là gì, nhưng chúng đã làm cho việc sử dụng web tĩnh trở nên nhẹ nhàng hơn, hoặc có nhiều lợi ích hơn. Nhưng kể cả là ngay bây giờ, khi đã có những công cụ đó, thì mình vẫn phải thừa nhận là với người không biết gì thì đi bước đầu tiên bằng WordPress vẫn dễ hơn đi bước đầu tiên bằng web tĩnh. 
 
-Tương tự việc [[Lý do viết Trấn Kỳ#Các ERP được dựng sẵn không đủ khả năng đáp ứng những luồng làm việc và suy nghĩ đặc thù|các ERP được dựng sẵn không đủ khả năng đáp ứng những luồng làm việc và suy nghĩ đặc thù]], [[Việc lập trình ít trực giác hơn nhưng lại có nhiều đánh đổi hơn các ngành khác|có rất nhiều đánh đổi trong cái ngành công nghệ thông tin này]]. Hãy chọn loại đánh đổi nào đem lại hiệu quả nhất cho bạn.
+Tương tự việc [[Xây dựng kho tri thức, hệ thống quản lý kiến thức hoặc quản lý dự án|các ERP được dựng sẵn không đủ khả năng đáp ứng những luồng làm việc và suy nghĩ đặc thù]], [[Việc lập trình ít trực giác hơn nhưng lại có nhiều đánh đổi hơn các ngành khác|có rất nhiều đánh đổi trong cái ngành công nghệ thông tin này]]. Hãy chọn loại đánh đổi nào đem lại hiệu quả nhất cho bạn.
 
 
 Xem thêm:: [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]]

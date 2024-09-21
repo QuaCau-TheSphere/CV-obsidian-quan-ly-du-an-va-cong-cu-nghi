@@ -1,13 +1,12 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-02T14:52
+updated: 2024-09-10T15:32
 alias: Các dự án, công cụ, tài nguyên cho nhân văn số
 title: Các dự án, công cụ, tài nguyên cho nhân văn số
 description: Nhân văn số là một lĩnh vực giao thoa giữa ngành khoa học máy tính và các ngành khoa học xã hội và nhân văn.
 ---
-
-[Nhân văn số thức: Một lát cắt của xã hội toàn cầu - Tạp chí Tia sáng](https://tiasang.com.vn/khoa-hoc-cong-nghe/nhan-van-so-thuc-mot-lat-cat-cua-xa-hoi-toan-cau-11139/)
+Giới thiệu: [Nhân văn số thức: Một lát cắt của xã hội toàn cầu - Tạp chí Tia sáng](https://tiasang.com.vn/khoa-hoc-cong-nghe/nhan-van-so-thuc-mot-lat-cat-cua-xa-hoi-toan-cau-11139/)
 
 ## Dự án
 ### Giáo dục số: [[Xây dựng hệ thống tri thức cộng đồng|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]]
@@ -42,6 +41,8 @@ Mục tiêu cuối cùng của dự án WE1S là cung cấp cho những người
 - [Kho Obsidian](https://publish.obsidian.md/we1s/WE1S) thể hiện mối liên hệ giữa các bộ sưu tập, phương pháp, công cụ, phát hiện và kêu gọi hành động/giao tiếp của dự án
 
 ## Công cụ
+### [Text Encoding Initiative](https://en.wikipedia.org/wiki/Text_Encoding_Initiative)
+Quy chuẩn hoá định dạng dữ liệu cho các dự án nhân văn số
 ### [Qualitative Analysis Environment](https://axle.design/an-integrated-qualitative-analysis-environment-with-obsidian): kho Obsidian mẫu cho phân tích định tính
 Một vault Obsidian mẫu cho phân tích định tính. MaxQDA, NVivo, Atlas.ti, và các phần mềm tương tự tuy mạnh, nhưng lại phức tạp và tốn nhiều tiền. Nếu cần một cái đủ đơn giản và miễn phí thì có thể dùng cái này.
 
@@ -79,5 +80,9 @@ HEURIST gets results. You can **perform sophisticated filtering**, then **save, 
 - [UC Davis DataLab Text and NLP Toolkit](https://ucdavisdatalab.github.io/research-toolkits/nlp_researcher_toolkit.html)
 - [Projects :: Digital Humanities @ Stanford](https://digitalhumanities.stanford.edu/projects/)
 
+## Nơi thảo luận
+![](https://i.imgur.com/NHkJF2N.png)
+ 
 Nhu cầu công nghệ:: [[Hệ thống quản lý kiến thức]]
 Giải pháp kỹ thuật:: 
+

@@ -1,8 +1,8 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-26T13:25
+updated: 2024-09-03T01:18
 ---
-Khái niệm:: 
+Khái niệm:: [[Mẫu hình (pattern)]]
 
 Nguồn:: 

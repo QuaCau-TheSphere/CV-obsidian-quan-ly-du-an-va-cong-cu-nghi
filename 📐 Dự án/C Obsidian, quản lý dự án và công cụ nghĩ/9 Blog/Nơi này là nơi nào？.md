@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-25T10:54
-updated: 2024-08-24T21:00
+updated: 2024-09-16T21:04
 ---
 # Mục tiêu
 Đây là một vault Obsidian dành riêng cho người Việt với mục tiêu:
@@ -25,7 +25,7 @@ Là nơi để mọi người biết được thêm về các chuyên ngành kh�
 # Cách tổ chức dữ liệu
 Cách vault này tổ chức cũng giống Wikipedia, nhưng tiêu đề từng trang không phải là một chủ đề mà là một câu. Như vậy thì sự tập trung vào một ý niệm sẽ được đẩy lên cao hơn, cũng sẽ dễ làm mình thấy được sự liên kết giữa các ý lại với nhau hơn. 
 
-[[Evergreen notes biến ý tưởng trở thành đối tượng để mình thao tác]]
+[[Evergreen notes biến ý tưởng trở thành vật thể để mình thao tác]]
 
 Giới thiệu khái niệm như trong [[Lập trình]], so sánh sự khác nhau. Vì thực chất thuật ngữ mới là thứ người mới cảm thấy loạn, rối, mất phương hướng. Ngoài việc khi tiếp cận một lĩnh vực mới ta thấy những thuật ngữ, khái niệm khó nhó, mà sự tiện lợi của người đã hiểu rồi và lịch sử phát triển của lĩnh vực cũng tạo nên sự rối rắm đó. 
 Chú trọng ghi lại những mối quan hệ giữa các khái niệm, chứ không cố gắng giải thích khái niệm đó là gì. Cái nào không quá khó để mò hoặc google ra thì không ghi. Cái nào phải loay hoay một lúc mới nhận ra thì sẽ ghi

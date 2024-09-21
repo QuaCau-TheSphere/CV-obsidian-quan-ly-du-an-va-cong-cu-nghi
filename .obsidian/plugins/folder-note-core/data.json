@@ -1,8 +1,0 @@
-{
-  "folderNotePref": 1,
-  "deleteOutsideNoteWithFolder": false,
-  "indexName": "_about_",
-  "autoRename": true,
-  "folderNoteTemplate": "---\nshare: true\n---\n```dataviewjs\nconst thưMụcHiệnTại = dv.current().file.folder\nconst danhSáchGhiChú = dv.pages(`\"${thưMụcHiệnTại}\"`)\nconst danhSáchLiênKếtTớiGhiChú = danhSáchGhiChú.map(i => i.file.link)\ndv.span(danhSáchLiênKếtTớiGhiChú)\n```\n",
-  "logLevel": 4
-}

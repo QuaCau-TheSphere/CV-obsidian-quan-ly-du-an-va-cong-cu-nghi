@@ -1,8 +1,8 @@
 ---
 share: true
 created: 2024-08-24T12:00
-updated: 2024-09-02T13:21
+updated: 2024-09-07T21:29
 ---
 Khái niệm:: 
-[[Quản lý tác vụ là quản lý thời gian]]
+[[Quản lý công việc là quản lý thời gian]]
 Nguồn:: 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-09-01T16:57
+updated: 2024-09-09T17:41
 ---
 # Tôi học được gì sau khi viết Graphvidian?
 Đây là các mong muốn của tôi khi viết Graphvidian:
@@ -28,3 +28,14 @@ Có lẽ để nó hữu ích hơn thì cần làm nó có thể tương tác đ
 Lúc đó có thử in ra giấy A3 nhưng chữ vẫn còn quá bé. Thứ chiếm nhiều diện tích nhất là cái khoảng không gian giữa các nút. Hình như thuật toán của GraphViz không cho tăng tỉ lệ `cỡ chữ:độ dài trung bình của các cạnh` thì phải. Chứ nếu làm được thì đã làm rồi. Chắc phải in ra giấy cỡ A0 mới nhìn được chữ. Mà cái này thì chắc làm workshop thì hợp.
 
 Cuối cùng là lúc đó còn mù mờ về phát triển sản phẩm, hệ thống thông tin hay khoa học dữ liệu, nên lúc đó mới thấy cần làm cái này. Giờ biết rồi thì thấy có nhiều thứ cho tác động lớn hơn. Ví dụ như là thiết kế hệ thống để truy xuất dữ liệu.
+
+
+
+cho các trường hợp sử dụng của bạn?
+Thường anh sẽ có 2 loại biểu đồ: sơ đồ các khái niệm (không phải concept map) và cái schema của nó. VD như hình 1 là cái sơ đồ các khái niệm anh export ra Graphviz. Cái chú thích hoặc hình 2 là schema của nó.
+
+Liệu lúc đó bạn sẽ làm sao?
+Cố gắng ngồi xuống, bật máy và vẽ chúng ra, tìm các biểu tượng thích hợp để điền vào chỗ trống trong bức tranh hình dung ban đầu 
+Image
+Image
+nhưng anh thấy vẽ đồ thị chỉ có tác dụng kích thích sự chú ý ban đầu, với nếu nó tạo ra được các cụm rõ ràng (community) thì hữu ích. Ví dụ như mấy cái hình ở đây. Còn ở những trường hợp khác thì tạo database rồi kiếm sẽ tốt hơn https://forum.obsidian.md/t/some-graphs-of-plugins-and-their-categories-in-obsidian-hub/87863?u=ooker

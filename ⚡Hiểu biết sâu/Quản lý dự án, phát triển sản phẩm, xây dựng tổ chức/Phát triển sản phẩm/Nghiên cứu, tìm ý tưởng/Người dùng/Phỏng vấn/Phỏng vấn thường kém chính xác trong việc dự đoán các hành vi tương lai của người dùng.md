@@ -2,7 +2,7 @@
 share: true
 description: Hỏi một người liệu sau này họ có làm điều này điều kia không là không chắc đúng
 created: 2023-05-26T14:51
-updated: 2024-06-21T22:14
+updated: 2024-09-07T21:45
 ---
 Lý do:: [[Con người nhiều khi không nói dối mà chỉ đang lý tưởng hoá bản thân]]
 Ví dụ về một số câu hỏi cho ra kết quả không đáng tin cậy:
@@ -21,3 +21,5 @@ Nguồn:: [[Hoàng Đức Minh]]
 [[Về mặt nhận thức, con người tương lai của chính mình không liên quan gì đến mình]]
 Mâu thuẫn với:: [[Dữ liệu nhỏ cũng có tính dự báo xu hướng giống như dữ liệu lớn]]
 Mâu thuẫn với:: [[Con người không muốn mâu thuẫn với những điều mình nói ra]]
+
+[Value-action gap - Wikipedia](https://en.wikipedia.org/wiki/Value-action_gap)

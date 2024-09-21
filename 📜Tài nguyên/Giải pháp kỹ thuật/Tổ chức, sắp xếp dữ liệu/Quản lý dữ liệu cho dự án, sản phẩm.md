@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-09-02T16:34
+updated: 2024-09-03T01:05
 ---
 Sau một thời gian loay hoay để quản lý dữ liệu cho việc phát triển sản phẩm, Trấn Kỳ
 
@@ -60,10 +60,13 @@ Chưa hiểu được cái này thì không làm được gì cả.
 | --------------- | -------------------- | --------- | --------- |
 | 
 
-
-| Nơi cho câu trả lời | Câu hỏi của bạn                                                                          | Loại câu hỏi | Loại biết                     |
-| ------------------- | ---------------------------------------------------------------------------------------- | ------------ | ----------------------------- |
-| [[⚡Hiểu biết sâu]] | Hmm, bản chất của những vấn đề này là gì? Còn những gì tôi không biết là tôi không biết? | Why          | Không biết là mình không biết |
-| [[📜Tài nguyên]]    | Tôi cần thành thạo thêm những công cụ gì để dự án của tôi được trôi chảy?                | How          | Biết là mình không biết       |
+| Nơi cho câu trả lời | [[⚡Hiểu biết sâu]]                                                                      | [[📜Tài nguyên]]                                                          |
+| ------------------- | ---------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| Câu hỏi của bạn     | Hmm, bản chất của những vấn đề này là gì? Còn những gì tôi không biết là tôi không biết? | Tôi cần thành thạo thêm những công cụ gì để dự án của tôi được trôi chảy? |
+| Loại câu hỏi        | Why                                                                                      | How                                                                       |
+| Loại biết           | Không biết là mình không biết                                                            | Biết là mình không biết                                                   |
+|                     | Thiên về công việc khai phá                                                              | Thiên về công việc khai thác                                              |
+|                     | Có tính liên ngành cao                                                                   | Không thường liên ngành                                                   |
+|                     | Xoay quanh các chủ đề                                                                    | Thiên về chọn giải pháp trên thị trường phù hợp với nhu cầu               | 
 
 [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]

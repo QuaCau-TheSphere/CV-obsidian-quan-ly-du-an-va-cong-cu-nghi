@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-10-06T16:09
+updated: 2024-09-16T20:58
 ---
 Khái niệm:: [[Diễn giải, đọc]], [[Văn bản]]
 
@@ -9,4 +9,4 @@ Vậy việc xem xét văn hóa như một tập hợp các văn bản bày ra �
 
 Nguồn:: [[James Clifford, Về Tính Uy Quyền của Khảo tả Dân Tộc Học]]
 
-[[Một văn bản không phải chỉ để truyền đạt thông tin hay hiểu biết, mà còn nên trở thành một sân chơi cho người đọc khám phá]]
+[[Một văn bản không nên chỉ là thứ để truyền đạt thông tin hay hiểu biết một chiều và thụ động, mà còn nên trở thành một sân chơi cho người đọc khám phá]]

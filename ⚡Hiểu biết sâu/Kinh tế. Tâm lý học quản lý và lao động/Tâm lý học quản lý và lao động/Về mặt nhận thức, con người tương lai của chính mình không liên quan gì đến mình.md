@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-22T12:57
-updated: 2024-03-14T21:06
+updated: 2024-09-07T21:46
 ---
 “We really weren’t designed to think ahead into the further future because we needed to focus on providing for ourselves in the here and now,” said psychologist Dr. Hal Hershfield, a professor of marketing at the U.C.L.A. Anderson School of Management.
 
@@ -13,3 +13,5 @@ Nguồn:: [Why You Procrastinate (It Has Nothing to Do With Self-Control)](https
 
 [[Chúng ta thường nhìn hiện tại và tương lai bằng những khái niệm học trong quá khứ]]
 [[Phản hồi và sự giúp đỡ trả lại là những thứ xa xỉ với người được giúp]]
+
+[Value-action gap - Wikipedia](https://en.wikipedia.org/wiki/Value-action_gap)

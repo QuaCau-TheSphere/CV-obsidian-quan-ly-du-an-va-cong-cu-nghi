@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5c6f373046d25c8b",
+            "id": "3d7579742219835b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/9 Blog/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc.md",
+                "file": "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/6 Kế hoạch/Quý II – 2023.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,25 +21,12 @@
             }
           },
           {
-            "id": "e846b3cddfd9b672",
+            "id": "37f94f34f8ac8667",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Ξ Nguồn/Paul Graham.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4f6e00b93c833109",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Quản lý tổ chức.md",
+                "file": "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Nghiên cứu cộng đồng mạng.md",
                 "mode": "preview",
                 "backlinks": true,
                 "source": true
@@ -47,25 +34,25 @@
             }
           },
           {
-            "id": "3d7579742219835b",
+            "id": "08bd3042b470aeae",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Công nghệ mới đem lại thêm lựa chọn cho người làm chính sách.md",
-                "mode": "source",
+                "file": "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Kinh nghiệm mua sách giấy.md",
+                "mode": "preview",
                 "backlinks": true,
                 "source": true
               }
             }
           },
           {
-            "id": "a570ea0c31b41d1b",
+            "id": "59aa01660463c821",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Email không được sinh ra để trao đổi thông tin, mà là để làm todo list.md",
+                "file": "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Các loại alias.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -73,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "row",
+                "query": "andy bret",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -139,7 +126,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Công nghệ mới đem lại thêm lựa chọn cho người làm chính sách.md",
+                "file": "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Kinh nghiệm mua sách giấy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +143,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Công nghệ mới đem lại thêm lựa chọn cho người làm chính sách.md",
+                "file": "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Kinh nghiệm mua sách giấy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,11 +166,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Công nghệ mới đem lại thêm lựa chọn cho người làm chính sách.md"
+                "file": "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Kinh nghiệm mua sách giấy.md"
               }
             }
+          },
+          {
+            "id": "1700fa1e25e7bfed",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -196,51 +192,51 @@
       "templater-obsidian:Templater": false,
       "darlal-switcher-plus:Open in Headings Mode": false,
       "darlal-switcher-plus:Open Symbols for the active editor": false,
-      "digitalgarden:Digital Garden Publication Center": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "3d7579742219835b",
+  "active": "08bd3042b470aeae",
   "lastOpenFiles": [
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Các nhóm làm việc qua mạng ngày càng nhiều.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/❓Học qua dự án hay học bài bản.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Các tổ chức thường chỉ lưu trữ kiến thức mà ít khi dành nhiều sự chú ý tới kết nối chúng.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Dữ liệu chính là lập trình.md",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Người không làm lĩnh vực lập trình không được tạo điều kiện để trưởng thành về mặt quản trị dữ liệu.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Quản lý công việc và quản lý kiến thức không thể tách rời nhau.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng nhóm, quản lý nhân sự/❓Thành viên nòng cốt là người chịu trách nhiệm lớn nhất hay là người có nhiều đóng góp nhất.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng nhóm, quản lý nhân sự/Gốc của thương hiệu là văn hoá doanh nghiệp.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng nhóm, quản lý nhân sự/Không nên có quá 20 nhân sự khi chưa có sản phẩm phù hợp thị trường.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng nhóm, quản lý nhân sự/Văn hoá giao tiếp low-context thường có ở tổ chức phẳng. Văn hoá giao tiếp high-context thường có ở tổ chức phân cấp.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Xây dựng nhóm, quản lý nhân sự/Sociocracy.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Email không được sinh ra để trao đổi thông tin, mà là để làm todo list.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/Ghi chú thì linh hoạt, nhưng tĩnh. App thì cứng nhắc, nhưng động.md",
-    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Bản thể luận/Rhizome.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Quản lý tổ chức.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Quản lý dữ liệu cho dự án, sản phẩm.md",
-    "⚡Hiểu biết sâu/Ξ Nguồn/Paul Graham.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Startup/Ý tưởng startup lớn thách thức căn tính của bạn.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Làm thứ một số người rất cần quan trọng hơn là làm thứ nhiều người thấy hay.md",
-    "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án/Startup/Đa số startup không chết vì cạnh tranh với đối thủ, mà vì không có người dùng sản phẩm của mình.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc/9 Blog/Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Các loại alias.md",
     "📜Tài nguyên/Giải pháp kỹ thuật/Web/Người dùng cá nhân hoặc dự án nhỏ có nên dùng WordPress hay không？.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Web/Các vấn đề của plugin Digital Garden trong việc tạo trang web từ kho.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Web/Nền tảng viết trên mạng.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Untitled.md",
-    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Cơ sở dữ liệu/Cơ sở dữ liệu dạng đồ thị",
-    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Cơ sở dữ liệu",
-    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Block",
-    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Văn bản thuần",
-    "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin",
-    "📜Tài nguyên/Lĩnh vực/New folder",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Cơ sở dữ liệu/Cơ sở dữ liệu dạng đồ thị",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Văn bản thuần",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Cơ sở dữ liệu",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/Hình thức lưu trữ/Block",
+    "📜Tài nguyên/Nhu cầu công việc/Xây dựng kho tri thức, hệ thống quản lý kiến thức hoặc quản lý dự án.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Giải pháp kỹ thuật.md",
+    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Sách, dịch thuật.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/PDF/Tạo mục lục cho PDF.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/PDF/PDF là để in ra giấy, không phải để đọc trên máy.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/PDF/Chỉnh sửa PDF hàng loạt bằng cpdf.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/PDF/Cách setup cho việc đọc PDF thường xuyên.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Kinh nghiệm tìm thuật ngữ tiếng Việt.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Kinh nghiệm mua sách giấy.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/PDF/Cách setup cho việc đọc PDF thường xuyên.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/PDF",
+    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Phân tích dữ liệu định tính.md",
+    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Quản lý kiến thức và lập luận.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Phương án dịch một số từ.md",
+    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Nghiên cứu cộng đồng mạng.md",
+    "📜Tài nguyên/Nhu cầu công việc/Nhu cầu công việc.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Tổng quan tài liệu.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Quản lý kiến thức cá nhân.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Khai thác một từ khoá.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Bản đồ lập luận.md",
+    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Quản lý kiến thức và lập luận/Khai thác một từ khoá.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Quản lý kiến thức và lập luận/Tổng quan tài liệu.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Quản lý kiến thức và lập luận/Quản lý kiến thức cá nhân.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Quản lý kiến thức và lập luận/Khai thác một từ khoá.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Quản lý kiến thức và lập luận/Bản đồ lập luận.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Quản lý kiến thức và lập luận",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật",
+    "📜Tài nguyên/📜Tài nguyên.md",
+    "📐 Dự án/Công cụ cho hệ sinh thái/Nền kinh tế tri thức.canvas",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Mô hình ngôn ngữ lớn/~syncthing~AI không làm nghệ thuật được, vì nghệ thuật đòi hỏi ta phải đưa ra rất nhiều lựa chọn.md.tmp",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Mô hình ngôn ngữ lớn/Tiềm năng",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Mô hình ngôn ngữ lớn/Lập trình",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Mô hình ngôn ngữ lớn",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/AI/Mô hình ngôn ngữ lớn/Tiềm năng",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/AI/Mô hình ngôn ngữ lớn/Lập trình",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/AI/Mô hình ngôn ngữ lớn",
     "Ξ Thiết lập/Ảnh/Persona.webp",
     "Ξ Thiết lập/Ảnh/Pasted image 20240221020431.png",
     "Ξ Thiết lập/Ảnh/Pasted image 20240216111339.png",
@@ -251,7 +247,6 @@
     "Ξ Thiết lập/Ảnh/440512325_813700394138855_2975689979954753250_n.png",
     "Ξ Thiết lập/Ảnh/Flat White.png",
     "Ξ Thiết lập/Excalidraw/Các lĩnh vực trong vault.png",
-    "📐 Dự án/Công cụ cho hệ sinh thái/Nền kinh tế tri thức.canvas",
     "Untitled.canvas"
   ]
 }

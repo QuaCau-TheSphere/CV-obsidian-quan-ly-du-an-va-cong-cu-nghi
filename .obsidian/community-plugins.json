@@ -1,7 +1,6 @@
 [
   "advanced-toolbar",
   "table-editor-obsidian",
-  "alx-folder-note",
   "obsidian-another-quick-switcher",
   "obsidian-auto-link-title",
   "better-inline-fields",
@@ -10,7 +9,6 @@
   "dataview",
   "obsidian-divide-and-conquer",
   "file-diff",
-  "folder-note-core",
   "obsidian-mkdocs-publisher",
   "obsidian-heading-shifter",
   "global-search-and-replace",
@@ -32,11 +30,11 @@
   "obsidian-html-tags-autocomplete",
   "darlal-switcher-plus",
   "hot-reload",
-  "safe-filename-linter",
-  "digitalgarden",
   "open-vscode",
   "obsidian-imgur-plugin",
-  "modules",
   "hk-code-block",
-  "obsidian-front-matter-title-plugin"
+  "obsidian-front-matter-title-plugin",
+  "metadata-menu",
+  "obsidian-meta-bind-plugin",
+  "folder-notes"
 ]

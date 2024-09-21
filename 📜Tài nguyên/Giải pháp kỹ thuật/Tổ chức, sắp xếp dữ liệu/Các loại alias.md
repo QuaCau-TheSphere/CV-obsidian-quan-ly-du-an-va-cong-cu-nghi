@@ -1,13 +1,14 @@
 ---
 share: true
 created: 2024-09-02T13:14
-updated: 2024-09-02T19:43
+updated: 2024-09-18T16:03
 ---
-Alias dùng để nối tiếp dòng suy nghĩ.
+Mục đích của alias là để nối tiếp dòng suy nghĩ.
 
 Các loại alias:
 - Liệt kê từ đồng nghĩa không có trong tiêu đề
 - Liệt kê các phiên bản của tiêu đề
+- Liệt kê các cách diễn đạt khác nhau
 - Liệt kê các ý khác nhau của một đoạn lập luận thống nhất
 
 Xem thêm:: [[Các loại tiêu đề và cách dùng chúng]]
@@ -30,6 +31,12 @@ Biến câu khẳng định thành câu hỏi hoặc ngược lại:
 - Người dùng cá nhân hoặc dự án nhỏ có nên dùng WordPress hay không?
 
 Xem thêm:: [[Quản lý dữ liệu cho dự án, sản phẩm]]
+
+## Liệt kê các cách diễn đạt khác nhau
+VD:
+- [[AI không tất định mà tạo sinh kết quả mỗi lần mỗi khác dù với cùng một câu nhập]]
+- Kết quả từ AI không phải từ sự lựa chọn mà chỉ là từ việc lắc một cái xí ngầu không đồng đều
+
 ## Liệt kê các ý khác nhau của một đoạn lập luận thống nhất
 Thường thấy trong [[⚡Hiểu biết sâu]]. VD:
   - Ham muốn là việc đáp ứng nhu cầu khi chưa quan sát được nhu cầu của bản thân

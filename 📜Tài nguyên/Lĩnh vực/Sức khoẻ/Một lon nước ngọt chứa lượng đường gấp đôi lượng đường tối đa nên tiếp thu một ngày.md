@@ -1,17 +1,17 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-01T17:27
+updated: 2024-09-03T01:27
 ---
+# Thôi đừng hảo ngọt nữa
 Tổ chức Y tế thế giới (WHO) kêu gọi mọi người đừng hảo ngọt nữa: lượng đường tiêu thụ mỗi ngày chỉ nên dưới 10% mức đóng góp calo trong khẩu phần.  
   
 Mức sử dụng mà WHO thực sự mong muốn là thấp hơn 5%, nghĩa là chỉ nên dùng không quá 25g đường/ngày.  
   
 WHO nói thẳng rằng, họ có bằng chứng rất cứng, hảo ngọt trên 10% là dính dáng tới lên cân, béo phì và sâu răng.  
   
-# Chưa bị lộ mới nguy hiểm  
-  
-Mỗi ngày trung bình cần khoảng 2.000 calo từ thực phẩm.10% là 200 calo.Mỗi gram đường cung cấp 4 calo. Như vậy mỗi ngày chỉ nên ăn dưới 50g đường (200/4), WHO nói thế.  
+## Chưa bị lộ mới nguy hiểm    
+Mỗi ngày trung bình cần khoảng 2.000 calo từ thực phẩm.10% là 200 calo. Mỗi gram đường cung cấp 4 calo. Như vậy mỗi ngày chỉ nên ăn dưới 50g đường (200/4), WHO nói thế.  
   
 Một muỗng cà phê đường, hay một gói đường nho nhỏ để uống cà phê chừng 4g (ở Việt Nam gói nhỏ này 6g). Nhằm nhò gì! 50g đường là 12 muỗng rưỡi chứ đâu phải ít… Coi vậy chứ không phải vậy. Một lon nước ngọt có gas (330ml) chứa 36g đường, một lon nước tăng lực nhỏ (250ml) chứa 30g đường. Uống chơi chơi một lon, coi như gần hết quota.  
   
@@ -21,8 +21,7 @@ Chỉ có đường trong rau quả, trái cây tươi, sữa thì WHO không t�
   
 Những thứ ngọt bị lộ (liễu) như chè, nước ngọt có gas, nước sinh tố, bánh bông lan… không đáng ngại lắm vì biết rõ hàng kiêng kỵ thì né. Điều e ngại là những thứ ngọt chưa bị lộ (hidden sugar), một muỗng tương cà có tới 4g đường, rồi BBQ, sườn nướng, sườn xào chua ngọt, mắm nêm, mắm ruốc, mắm kho quẹt… chưng lên là phải thêm đường. Mặn và ngọt mà trộn với nhau thì mới thấy quota 50g đường/ngày là mức nghiệt ngã.  
   
-# WHO còn tiếp tục nghiệt nữa  
-  
+## WHO còn tiếp tục nghiệt nữa  
 WHO nhấn mạnh là họ có bằng chứng rất “cứng” (solid evidence) rằng, xài trên 50g đường/ngày là dễ bị tăng cân, béo phì và sâu răng, so với những người dùng dưới mức này. Đó là chưa kể bằng chứng “từ trời rơi xuống”. Số là, trước thế chiến 2, mức xài đường bình quân mỗi năm là 15kg/người. Trong chiến tranh do thiếu lương thực nên xài ít lại, và sau kết thúc cuộc chiến, một năm (1946), mức tiêu thụ đường chỉ còn 0,2kg/người. Trong khoảng thời gian “kiêng ngọt” miễn cưỡng đó, tỷ lệ sâu răng giảm đi thấy rõ.  
   
 Theo số liệu của STINFO (Tạp chí Thông tin khoa học công nghệ), thì mức tiêu thụ đường mỗi năm ở Việt Nam là 15kg/người, khoảng 41g đường/ngày. Đó chỉ là mới tính đường ăn, chưa kể các loại đường khác, và cũng chỉ tính xa cạ, nông thôn thành thị, từ trẻ sơ sinh cho tới người già 90, chứ nếu tính riêng nhóm đô thị thì chắc vượt qua con số khuyến cáo 50g của WHO. Theo viện Dinh dưỡng, tỷ lệ trẻ em dưới năm tuổi bị béo phì là 5,6%, người lớn từ 50 – 60 tuổi, cũng chiếm tỷ lệ đó, và con số này còn tiếp tục tăng. Thực ra, WHO đã đưa ra khuyến cáo giảm ngọt ở mức 10% hay 50g đường/ngày từ năm 1989. Sau khi thu thập thêm bằng chứng và thảo luận, đầu năm 2015 mới chính thức khuyến cáo mạnh mẽ để chính phủ các nước đưa ra chính sách thích hợp. Những biện pháp bao gồm, yêu cầu ghi lượng đường trên nhãn sản phẩm để người dùng lựa chọn, hạn chế marketing các sản phẩm có nhiều đường, và thảo luận với các nhà chế biến thực phẩm trong nước nhằm hạ mức sử dụng đường hiện nay.  
