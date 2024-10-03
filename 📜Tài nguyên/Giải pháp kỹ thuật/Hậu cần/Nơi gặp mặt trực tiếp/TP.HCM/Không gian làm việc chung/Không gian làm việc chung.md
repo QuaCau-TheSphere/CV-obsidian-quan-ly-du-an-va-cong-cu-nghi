@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-03T01:21
+updated: 2024-09-26T12:15
 title: Không gian làm việc chung ở TPHCM
 ---
 Không bị ồn từ bên ngoài:: ✔
@@ -13,9 +13,8 @@ Có thể vận động cơ thể:: ✔
 
 ```dataview
 LIST
-FROM "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Không gian làm việc chung ở TPHCM"
+FROM "📜Tài nguyên/Giải pháp kỹ thuật/Hậu cần/Nơi gặp mặt trực tiếp/TP.HCM/Không gian làm việc chung"
 Where file.name!=this.file.name
 ```
-### 
 
-[Review Co-working Space](https://www.facebook.com/groups/1773972416068355)
+Nhóm Facebook:[Review Co-working Space](https://www.facebook.com/groups/1773972416068355)

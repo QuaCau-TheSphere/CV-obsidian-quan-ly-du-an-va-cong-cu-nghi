@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-10-16T22:57
-updated: 2023-11-01T14:26
+updated: 2024-09-27T22:07
 ---
+https://simpleproductmind.notion.site/Kh-a-h-c-Product-Management-101-1b2501eab8a242b4a74f36695f40aa9a?p=4f4005989c2b4052960ef0d0b6c71d8a&pm=s
 
 ```dataview
 LIST rows.file.link

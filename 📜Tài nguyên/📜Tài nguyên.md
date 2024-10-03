@@ -1,8 +1,12 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-09-01T17:04
+updated: 2024-09-29T21:21
+alias: Ý đồ thiết kế thư mục
 ---
+# Ý đồ thiết kế thư mục
+Những gì được ghi chú trong thư mục này sẽ giúp bạn [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|tìm được thứ bạn cần tìm khi không biết từ khoá chính xác của nó]].
+
 ```mermaid
 flowchart LR
 nccv[Nhu cầu công việc] --> nccn[Nhu cầu công nghệ] --> lv[Lĩnh vực] 

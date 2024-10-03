@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2024-03-13T00:58
-updated: 2024-09-01T21:08
+updated: 2024-09-22T14:22
 ---
 
 ```dataview
 LIST rows.file.link
-FROM "📜Tài nguyên/Lĩnh vực/Hệ thống thông tin/Hợp tác làm việc" 
+FROM "📜Tài nguyên/Lĩnh vực/Hợp tác làm việc" 
 WHERE file.name!=this.file.name
 GROUP BY split(file.folder, "/")[3]
 ```

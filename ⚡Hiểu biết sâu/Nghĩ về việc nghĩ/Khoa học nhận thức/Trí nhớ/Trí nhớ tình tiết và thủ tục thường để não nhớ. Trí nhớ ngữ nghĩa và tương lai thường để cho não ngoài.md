@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-05T17:16
-updated: 2024-08-26T13:54
+updated: 2024-09-24T11:41
 ---
 Khái niệm:: 
 ## Bộ nhớ trong (internal memory)

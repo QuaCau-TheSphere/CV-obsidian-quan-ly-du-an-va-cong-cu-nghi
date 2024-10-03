@@ -41,7 +41,7 @@
       }
     ],
     "verifiedRepo": true,
-    "rateLimit": 4359
+    "rateLimit": 4998
   },
   "upload": {
     "behavior": "obsidian",
@@ -154,5 +154,5 @@
     "dev": true
   },
   "tabsID": "text-conversion",
-  "tabsId": "upload-configuration"
+  "tabsId": "github-configuration"
 }

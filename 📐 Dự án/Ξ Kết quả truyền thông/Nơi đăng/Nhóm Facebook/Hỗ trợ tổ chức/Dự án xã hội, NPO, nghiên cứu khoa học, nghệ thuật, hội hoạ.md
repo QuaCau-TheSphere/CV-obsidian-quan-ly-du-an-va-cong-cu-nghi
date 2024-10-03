@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-21T21:43
+updated: 2024-10-01T23:22
 ---
 # [[Các buổi đáp ứng nhu cầu học lập trình]]
 ## Pending
@@ -22,7 +22,7 @@ updated: 2024-07-21T21:43
 ## Vietnamese Humanities & Social Sciences Association (VHSSA) 
 [[29-02]] 20:00 https://www.facebook.com/groups/viethssa/posts/6699423853497361/
 [[21-03]] 20:33 3 like, 2 share
-
+[[22-09-24]] 16:25 up
 # [[Câu hỏi khảo sát#Việc nhập liệu và gắn nhãn dữ liệu áp dụng vào công việc gì trong công tác xã hội?]]
 ## Pending
 [[15-02]] Mạng lưới liên kết các dự án, cộng đồng trên toàn quốc https://www.facebook.com/groups/524373501783128/my_pending_content
@@ -80,3 +80,19 @@ Làm suốt, dùng R, tạo một nhóm từ theo list phân loại sẵn để 
 # đối ⊷ thoại lấy nhu cầu của các tổ chức phi lợi nhuận làm trung tâm
 ## SNPO
 [[17-06]] 18:16 https://www.facebook.com/groups/mangluoisnpo/posts/1515032052692563
+
+# Bạn đang có nhu cầu được hướng dẫn, thảo luận về kỹ năng gì?
+# BẠN ĐANG CÓ NHU CẦU ĐƯỢC HƯỚNG DẪN, THẢO LUẬN VỀ KỸ NĂNG GÌ?
+## ABG Network Official
+[[22-09-24]] 16:22 https://www.facebook.com/groups/abgnetworkofficial/posts/2882848618536052
+[[23-09-24]] 20:43 https://www.facebook.com/groups/abgnetworkofficial/posts/2884117178409196
+22:28 Bài mời: 0, 0, 0. Trong khi đó [bài đăng 20 phút trước về AI](https://www.facebook.com/groups/abgnetworkofficial/posts/2884100345077546/) được 33, 7
+12, 9, 7, 4
+
+# Tổ chức các buổi workshop đáp ứng nhu cầu các tổ chức và hỗ trợ kiếm khách hàng tiềm năng cho nhân viên?
+## SNPO
+[[01-10-24]] 23:22 https://www.facebook.com/groups/562933844569060/pending_posts/1586199662242468/
+
+
+
+[[Buổi thảo luận về việc xây dựng mạng lưới đối tác, các bên liên quan]]

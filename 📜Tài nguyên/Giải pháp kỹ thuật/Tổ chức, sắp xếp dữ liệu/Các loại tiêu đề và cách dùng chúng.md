@@ -1,12 +1,55 @@
 ---
 share: true
 created: 2023-10-27T18:59
-updated: 2024-09-17T18:37
+updated: 2024-10-03T22:26
 alias: heading
+cssClass: wide-table
 ---
-Lý tưởng nhất thì chỉ cần dùng một thứ để đặt cho tất cả những cái này. Và đó là filename. Chính vì như vậy, nên filename nên là thứ mặc định. Nhưng có những lúc nó chứa ký tự đặc biệt hoặc đường dẫn quá dài thì Windows hoặc Git sẽ không chịu, nên nên có một trường khác có chức năng làm mặc định cho những thứ còn lại. Đó chính là `title`. 
+Một tiêu đề có rất nhiều chức năng:
+- Tạo kích thích cho người đọc, khiến họ thấy vì sao họ cần đọc bài đó, dù họ đang không tìm kiếm thông tin về nó
+- Tóm tắt vấn đề
+- Quản lý tập tin
 
-Nếu tiêu đề Khi truy cập từ cây thư mục thì đang đinh ninh tiêu đề phải giống, nếu khác thì sẽ bị khựng. Nhưng nếu để nguyên tiêu đề của cây thư mục thì sẽ bị lệch so với nội dung, nên cần phải có thể một tiêu đề khác để chuẩn bị cho mình rằng nội dung mới có tiêu đề khác với tiêu đề từ cây thư mục (VD: [[Tạo website]])
+Lý tưởng nhất thì chỉ cần dùng một thứ để đặt cho tất cả những cái này. Và đó là filename. Chính vì như vậy, nên filename nên là thứ mặc định. Nhưng có những lúc nó chứa ký tự đặc biệt hoặc đường dẫn quá dài thì Windows hoặc Git sẽ không chịu, nên ta nên có một trường khác có chức năng làm mặc định cho những thứ còn lại. Đó chính là `title` trong frontmatter hoặc `<h1>` trong body. 
+
+Trên Obsidian có plugin [Front Matter Title](https://github.com/snezhig/obsidian-front-matter-title) giúp ta quản lý được những chuyện này.
+
+## Khi nào dùng `title` trong frontmatter, còn khi nào dùng `<h1>` trong body? 
+Khi bạn mở một ghi chú lên, bạn sẽ thấy ngay lập tức có một tiêu đề đập vào mắt bạn. Ví dụ, với ghi chú này thì nó sẽ trông thế này: 
+![](https://i.imgur.com/1HydSvK.png)
+
+Đặc điểm của `title` là sẽ làm thay đổi tiêu đề trên cao này, còn `<h1>` thì không. Như vậy, việc lựa chọn cái nào tuỳ thuộc vào việc tiêu đề mới có đúng ngay câu chữ ta đang đinh ninh khi truy cập từ cây thư mục hay không.
+
+### Dùng `<h1>` khi tiêu đề đọc từ cây thư mục khác với tiêu đề nội dung về mặt ngữ nghĩa
+
+Ví dụ, trong thư mục `📜Tài nguyên/Giải pháp kỹ thuật/Web` có [[WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ tạo web hiệu quả nhất|ghi chú này]]. Tên của nó trong cây thư mục là:
+```
+WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ tạo web hiệu quả nhất
+```
+Nhưng nếu bạn mở ra, thì bạn sẽ thấy nó là một bài viết dài. Nếu đọc bài đó thì sẽ thấy đặt tên nó thế này sẽ là hợp nhất.
+```
+Người dùng cá nhân hoặc dự án nhỏ có nên dùng WordPress hay không?
+```
+![](https://i.imgur.com/koC5yyi.png)
+
+
+Giờ, nếu bạn không có tiêu : thì đang đinh ninh tiêu đề phải giống, nếu khác thì sẽ bị khựng. Nhưng nếu để nguyên tiêu đề của cây thư mục thì sẽ bị lệch so với nội dung, nên cần phải có thể một tiêu đề khác để chuẩn bị cho mình rằng nội dung mới có tiêu đề khác với tiêu đề từ cây thư mục.
+
+Các ghi chú tương tự: [[📜Tài nguyên]], [[📜Tài nguyên/Nhu cầu công việc/Nhu cầu công việc]]
+
+### Dùng `title` khi tiêu đề đọc từ cây thư mục giống với tiêu đề nội dung về mặt ngữ nghĩa
+Ví dụ, trong thư mục `📜Tài nguyên/Giải pháp kỹ thuật/Hậu cần/Nơi gặp mặt trực tiếp/TP.HCM` có [[TP.HCM|ghi chú này]]. Nó cần có tên là 
+```
+TP.HCM
+```
+bởi vì nó là ghi chú thư mục. Nhưng chỉ, nên đổi tiêu đề trên cao là "
+```
+Nơi gặp mặt trực tiếp tại TP.HCM
+```
+
+Bổ sung những thông tin được hiểu ngầm trong lúc truy cập từ cây thư mục, nhưng không có khi liên kết từ nơi khác.
+
+Nên trong trường hợp này là dùng `title` để thay đổi tiêu đề trên cao luôn.
 
 | Vai trò                                                                                                            | Vị trí xuất hiện                                                    | Cách điều chỉnh | Nếu không điều chỉnh thì mặc định sẽ lấy giá trị từ | Lý do cần điều chỉnh mà không dùng mặc định được                                   |
 | ------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------- | --------------- | --------------------------------------------------- | ---------------------------------------------------------------------------------- |
@@ -18,7 +61,6 @@ Nếu tiêu đề Khi truy cập từ cây thư mục thì đang đinh ninh tiê
 |                                                                                                                    | Search autocomplete, kết quả Google                                 | Không cần chỉnh | `alias`, `title`, filename                          |                                                                                    |
 | Tiêu đề lúc chia sẻ trên Facebook                                                                                  | Tiêu đề trong Open Graph (`meta property="og:title"`)               | `ogTitle`       | `title`, filename                                   |                                                                                    |
 
-Plugin [Front Matter Title](https://github.com/snezhig/obsidian-front-matter-title) có thể đọc những cái này để thay đổi trên Obsidian.
 
 Xem thêm:: [[Các loại alias]]
 ## Path

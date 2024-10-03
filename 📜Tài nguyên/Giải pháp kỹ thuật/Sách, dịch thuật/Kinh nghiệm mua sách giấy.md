@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-01T15:32
+updated: 2024-09-22T15:47
 ---
 Có những cuốn ta quyết định không mua vì không thấy có ích trong việc gì hết. Nhưng lúc nhìn vào thì lại thấy là bổ sung cho một thứ mình cần phải có định mua.
 
@@ -19,3 +19,5 @@ Các lý do muốn đi nhà sách:
 - Cảm xúc lúc đó
 
 Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
+
+[Notes: Sống đời những tiệm sách - nhà văn Đức Anh](https://ducanhwriter.substack.com/p/notes-song-oi-nhung-tiem-sach)

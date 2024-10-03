@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-04-24T09:02
-updated: 2024-09-21T15:09
+updated: 2024-10-03T13:48
 title: Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?
 alias: Đâu là nơi dễ gặp được từ khoá cần tìm nhất?
 description: Đâu là nơi dễ gặp được từ khoá cần tìm nhất?
@@ -23,6 +23,7 @@ Nhược điểm của việc này là không ít chủ đề bị tấn công b
 - [Không gian vector từ của Google](https://projector.tensorflow.org/)
 - Từ điển các từ đồng nghĩa, gần nghĩa (synonyms) 
 - Phần mục lục của [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists "List of lists of lists - Wikipedia")
+- [Six Degrees of Wikipedia](https://www.sixdegreesofwikipedia.com)
 
 ChatGPT hay Gemini thực ra cũng nằm trong nhóm này, nhưng có lẽ chúng không hiệu quả bằng các công cụ trên trong nhiệm vụ này. Xem thêm:: [[AI là định dạng ảnh mờ của web]].
 
@@ -61,7 +62,7 @@ Xem thêm:: [[Tinh túy của một cuốn sách chính là mục lục của n�
 Quay trở lại câu hỏi ban đầu:
 > Làm sao để tìm được thứ ta cần khi ta không biết từ khoá chính xác của nó?
 
-Như có đề cập ở đầu bài, trong rất nhiều trường hợp, thứ cản trở ta có được từ khoá không hẳn là ở việc không biết phải bắt đầu tìm hiểu ở đâu, mà ở việc không có thời gian tìm hiểu. [[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]]. [[Các dự án xã hội không tập trung vào việc đối thoại với người bên cạnh mình]]Cho nên, giải pháp tốt nhất cho vấn đề ban đầu không phải là hỏi xem "Nếu tôi phải tự tìm hiểu một mình, thì đâu là nơi có tôi dễ gặp được từ khoá cần tìm nhất?", mà là:
+Như có đề cập ở đầu bài, trong rất nhiều trường hợp, thứ cản trở ta có được từ khoá không hẳn là ở việc không biết phải bắt đầu tìm hiểu ở đâu, mà ở việc không có thời gian tìm hiểu. [[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]]. [[Các dự án xã hội không tập trung vào việc đối thoại với người bên cạnh mình]]. Cho nên, giải pháp tốt nhất cho vấn đề ban đầu không phải là hỏi xem "Nếu tôi phải tự tìm hiểu một mình, thì đâu là nơi có tôi dễ gặp được từ khoá cần tìm nhất?", mà là:
 
 > Làm sao để tôi có thể luôn tìm được người sẵn sàng chia sẻ hiểu biết của mình với chi phí chấp nhận được?
 

@@ -16,7 +16,7 @@
   "folder_templates": [
     {
       "folder": "📜Tài nguyên/Nhu cầu công việc",
-      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nhu cầu công việc.md"
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nhu cầu công việc (template).md"
     },
     {
       "folder": "📜Tài nguyên/Nhu cầu công nghệ",
@@ -24,23 +24,27 @@
     },
     {
       "folder": "📜Tài nguyên/Tài nguyên/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Địa điểm công cộng ở TPHCM",
-      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Địa điểm công cộng.md"
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Địa điểm công cộng (template).md"
     },
     {
       "folder": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Không gian làm việc chung ở TPHCM",
-      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Không gian làm việc chung.md"
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Không gian làm việc chung (template).md"
     },
     {
       "folder": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Phòng họp riêng ở TPHCM",
-      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Phòng họp riêng.md"
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Phòng họp riêng (template).md"
     },
     {
       "folder": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán có phòng riêng ở TPHCM",
-      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Quán có phòng riêng.md"
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Quán có phòng riêng (template).md"
     },
     {
       "folder": "📜Tài nguyên/Nhu cầu công việc/Hậu cần/Nơi gặp mặt trực tiếp/Theo thành phố/TPHCM/Quán không có phòng riêng ở TPHCM",
-      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Quán không có phòng riêng.md"
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Nơi gặp mặt trực tiếp/Quán không có phòng riêng (template).md"
+    },
+    {
+      "folder": "📜Tài nguyên/Giải pháp kỹ thuật/Hệ thống tri thức cộng đồng",
+      "template": "Ξ Thiết lập/Templates/Tài nguyên/Hệ thống tri thức cộng đồng (template).md"
     },
     {
       "folder": "⚡Hiểu biết sâu/Ξ Khái niệm",

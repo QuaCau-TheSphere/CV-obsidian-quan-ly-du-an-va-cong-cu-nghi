@@ -387,10 +387,14 @@ var IncreaseHeading = class {
         new import_obsidian4.Notice("Cannot Increase (contains more than Heading 6)");
         return true;
       }
+      const isOneline = editor.getCursor("from").line === editor.getCursor("to").line;
       const editorChange = composeLineChanges(editor, headingLines, increaseHeading, this.settings);
       editor.transaction({
         changes: editorChange
       });
+      if (isOneline) {
+        editor.setCursor(editor.getCursor("anchor").line);
+      }
       return editorChange.length ? true : false;
     });
     __publicField(this, "createCommand", () => {
@@ -417,10 +421,14 @@ var DecreaseHeading = class {
         new import_obsidian4.Notice(`Cannot Decrease (contains less than Heading${Number(this.settings.limitHeadingFrom)})`);
         return true;
       }
+      const isOneline = editor.getCursor("from").line === editor.getCursor("to").line;
       const editorChange = composeLineChanges(editor, headingLines, decreaseHeading, this.settings);
       editor.transaction({
         changes: editorChange
       });
+      if (isOneline) {
+        editor.setCursor(editor.getCursor("anchor").line);
+      }
       return editorChange.length ? true : false;
     });
     __publicField(this, "createCommand", () => {

@@ -1,13 +1,13 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-27T21:28
+updated: 2024-10-02T15:26
 ---
 %%
 #file/thành-quả
 %%
 Trạng thái:: #tt/đang-làm
-Độ cấp thiết:: #đct/cao, [[Các tổ chức trong lúc mới hình thành rất mong có ai kết nối giùm]], [[Việc phải nói chuyện nhu cầu của nhau là mệt mỏi]], [[Việc có sẵn dữ liệu của các bên khác trong csdl của mình sẽ giúp mình hoạch định tốt hơn]], [[Người dùng sử dụng dễ dàng Obsidian]], [[Obsidian hữu ích để quản lý công việc]], [[Chỉ Obsidian mới có thể giúp liên thông dữ liệu một cách dễ dàng nhất]]
+Độ cấp thiết:: #đct/cao, [[Các tổ chức trong lúc mới hình thành rất mong có ai kết nối giùm]], [[Việc phải nói chuyện nhu cầu của nhau là mệt mỏi]], [[Việc có sẵn dữ liệu của các bên khác trong CSDL của mình sẽ giúp mình hoạch định tốt hơn]], [[Người dùng sử dụng dễ dàng Obsidian]], [[Obsidian hữu ích để quản lý công việc]], [[Chỉ có việc lưu dữ liệu ở dạng văn bản và ở trên máy người dùng mới có thể giúp liên thông dữ liệu một cách dễ dàng nhất]]
 Đối tượng thụ hưởng:: [[Người muốn xây dựng cộng đồng hoặc mạng lưới]]
 
 Phục vụ cho thành quả:

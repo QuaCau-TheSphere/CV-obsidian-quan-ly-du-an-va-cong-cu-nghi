@@ -1,10 +1,10 @@
 ---
 share: true
 created: 2024-08-23T15:06
-updated: 2024-09-03T01:21
+updated: 2024-09-26T13:16
 alias: Hướng dẫn sử dụng
 ---
-## Các loại địa điểm gặp mặt
+Đây là một hệ thống tổng hợp các địa điểm gặp mặt trực tiếp, bao gồm:
 - Địa điểm công cộng
 - Không gian làm việc chung
 - Phòng họp riêng
@@ -12,13 +12,23 @@ alias: Hướng dẫn sử dụng
 - Quán không có phòng riêng
 - Nhà riêng
 
-## Sự mặc định về các thuộc tính
+Chọn [[TP.HCM|TP.HCM]] hoặc [[Hà Nội|Hà Nội]] để bắt đầu. 
+
+## Tiêu chí thêm địa điểm
+- Có chính sách hỗ trợ các dự án phi lợi nhuận, hoặc có lợi ích cho người làm phi lợi nhuận (VD: gần nhà nhau, có người quen)
+- Được đề xuất trong nơi thảo luận, hoặc tạo PR trên GitHub
+- Có điểm cộng khác lạ
+
+Bạn có thể fork repo này để làm bộ tài nguyên cho riêng bạn.
+
+## Ý đồ thiết kế
+### Sự mặc định về các thuộc tính
 Vì đây là cho việc gặp mặt để thảo luận, nên sẽ xét về những thứ mà một cuộc thảo luận đòi hỏi, cùng với mặc định về không gian mà cuộc thảo luận sẽ diễn ra ở đó.
 
 - Những thuộc tính được xem là **điểm cộng** khi ta không mặc định là nó luôn có ở đó. Có thì tốt, không có thì thường là không sao. Nên với những thuộc tính này, nếu địa điểm đó có thì sẽ liệt kê ra, còn nếu không thì sẽ không nói gì
 - Những thuộc tính được xem là **điểm trừ** khi ta mặc định là nó luôn có ở đó. Nếu không có thì thường là có sao. Nên với những thuộc tính này, nếu địa điểm đó không có thì sẽ có cảnh báo, còn nếu có thì sẽ không nói gì
 
-### Những thuộc tính mặc định là luôn có
+#### Những thuộc tính mặc định là luôn có
 Các thuộc tính này nếu không có thì là điểm trừ:
 - [x] Nhà vệ sinh
 - [x] Xe lăn tiếp cận được
@@ -27,7 +37,7 @@ Các thuộc tính này nếu không có thì là điểm trừ:
 - [x] Không có đèn nhấp nháy hoặc quảng cáo động
 - [x] Giá đã bao gồm thuế
 
-### Những thuộc tính mặc định là không có
+#### Những thuộc tính mặc định là không có
 Các thuộc tính này nếu có thì là điểm cộng:
 - [x] Nằm la liệt được
 - [x] Không gian ngoài trời
@@ -35,7 +45,7 @@ Các thuộc tính này nếu có thì là điểm cộng:
 - [x] Nuôi chó mèo
 - [x] Webcam
 
-### Những thuộc tính mà sự mặc định tuỳ vào loại địa điểm
+#### Những thuộc tính mà sự mặc định tuỳ vào loại địa điểm
 Với **không gian ngoài trời** thì mặc định là không có, nếu có thì là điểm cộng. Với các loại hình khác thì mặc định là luôn có, nếu không có thì là điểm trừ:
 - [x] Wifi 
 - [x] Ổ điện
@@ -51,12 +61,7 @@ Với **phòng họp riêng** hoặc **quán có phòng riêng** thì mặc đ�
 - [x] Bảng và bút lông
 - [x] Không bị ồn từ bên ngoài
 
-## Tiêu chí thêm vào danh sách
-- Có chính sách hỗ trợ các dự án phi lợi nhuận, hoặc có lợi ích cho người làm phi lợi nhuận (VD: gần nhà nhau, có người quen)
-- Được đề xuất trong nơi thảo luận, hoặc tạo PR trên GitHub
-- Có điểm cộng khác lạ
-
-## Cách thông tin được ghi chú
+### Cách thông tin được ghi chú
 Với các **quán nước**, giá nước sẽ là giá món đắt nhất trong 5 món rẻ nhất. Lý do là vì một người muốn tiết kiệm vẫn có thể sẵn sàng mua một thứ đắt hơn thứ rẻ nhất một chút. Trong các bảng so sánh thì giá sẽ bằng tổng của giá nước và giá giữ xe.
 
 Các **quán có phòng riêng**  thu tiền bằng việc bán nước cho khách, nên cơ bản là họ cũng không có giá phòng, mà chỉ có giá nước. Điều này khiến cho quán ràng buộc số lượng người đi tối thiểu để được mượn phòng. Cộng với việc người tổ chức quan tâm xem có phòng nào đủ cho sự kiện hay không, trường `Số lượng` sẽ được ghi dưới dạng sau:
@@ -70,7 +75,7 @@ Các **dịch vụ cho thuê phòng họp**, khác với các quán nước, thu
 
 Khi một địa điểm có điểm cộng thì ghi đơn giản là *Điểm cộng*, nhưng khi nó có điểm trừ thì lại không ghi là *Điểm trừ*, mà ghi là *Lưu ý*. Bởi vì từ "điểm trừ" tạo cảm giác không thay đổi được, chắc chắn sẽ tạo ra vấn đề, còn từ "lưu ý" thì tạo cảm giác tuỳ nhu cầu của mỗi người, có người quan tâm nhiều có người quan tâm ít. Nó cũng tạo cảm giác có thể có cách xử lý (dù tất nhiên không phải xử lý gì thì cũng tốt hơn).
 
-## Các xử lý kỹ thuật
+### Các xử lý kỹ thuật
 Các điểm cộng sẽ được ghi ở thể khẳng định và ở định dạng ô chọn (checkbox). Các điểm trừ sẽ được ghi ở thể phủ định và ở định dạng chấm đầu dòng (bullet). Việc này không những để phù hợp với việc ô chọn thường dùng cho những điều cần có, còn chấm đầu dòng thì thường dùng cho những điểm cần lưu ý, mà còn dễ để xử lý trong Dataview hơn. 
 
 Mẫu tạo mới (template) sẽ liệt kê hết tất cả điểm cộng và điểm trừ, khi áp dụng bạn thấy cái nào sai thì xoá đi. Việc thấy sai thì dễ hơn là nhớ xem mình còn thiếu cái nào, và việc xoá đi thì dễ hơn là viết vào (chỉ cần bấm <kbd>Ctrl+Shift+K</kbd>). Các mẫu tạo mới cho những loại hình khác nhau sẽ khác nhau, vì ở đó có những điểm không bao giờ xảy ra, nên có thể bỏ luôn. Ví dụ, ta có thể yên tâm là vào quán thì luôn có nhà vệ sinh, wifi và ổ điện, hoặc vào phòng họp riêng thì luôn có bàn đúng kích thước làm việc và không có không gian ngoài trời.

@@ -36,5 +36,7 @@
   "obsidian-front-matter-title-plugin",
   "metadata-menu",
   "obsidian-meta-bind-plugin",
-  "folder-notes"
+  "folder-notes",
+  "datacore",
+  "obsidian-snippet-downloader"
 ]

@@ -1,6 +1,6 @@
 ---
 created: 2023-09-05T16:17
-updated: 2024-09-01T15:28
+updated: 2024-09-22T14:33
 share: true
 alias:
   - Sự hiệu quả của loại cạnh tranh tạo động lực cải tiến sản phẩm hoàn toàn phụ thuộc vào sự truyền miệng
@@ -15,7 +15,7 @@ Tức là, để có sản phẩm tốt hơn, sự cạnh tranh trên thị trư
 
 Có phải sự hiệu quả của loại cạnh tranh tạo động lực cải tiến sản phẩm hoàn toàn phụ thuộc vào sự truyền miệng?
 
-Phản ví dụ: [[Tạo website|WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ tạo web hiệu quả nhất]]. Nó là sản phẩm được truyền miệng.
+Phản ví dụ: [[WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ tạo web hiệu quả nhất|WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ tạo web hiệu quả nhất]]. Nó là sản phẩm được truyền miệng.
 
 [[Có người giới thiệu về vấn đề có lẽ là cách duy nhất để làm được những thứ mình muốn làm nhưng không khẩn cấp]]
 [[Các cách xác định sản phẩm đã phù hợp thị trường hay chưa]] 

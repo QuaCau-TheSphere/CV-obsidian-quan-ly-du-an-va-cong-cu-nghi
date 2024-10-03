@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-08-20T20:53
+updated: 2024-09-27T18:19
 ---
 ## [[Các buổi đáp ứng nhu cầu học lập trình]]
 [[09-11]] 15:38 https://www.facebook.com/quacau.sphere/posts/pfbid0ePQADgc8zmQH7FyVa2GjHtmaMF1Rv4h8MnwMiy3f7LgSn3YQf9tDtvUzCwwuYJmQl
@@ -51,7 +51,7 @@ dạng ảnh https://www.facebook.com/quacau.sphere/posts/pfbid02KYRdxC6aAXdkDJL
 | Ảnh trang chủ                     | 26    | 26         | 1                 |
 | Ảnh trang chủ , link dưới comment |       |            |                   |
 
-## [[Tạo website]]
+## [[WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ tạo web hiệu quả nhất]]
 [[16-07]] 17:00 [Quả Cầu](https://www.facebook.com/quacau.sphere/posts/pfbid02tZzzoSvaY1rgPJCL1fj2rS9AKjGbQMmJ3JkPw8ZJ5MY42ekARQEaXJPXy86MEYXjl)
 [[18-07]] 10:45 link có 2 đoạn đầu
 
@@ -61,3 +61,10 @@ dạng ảnh https://www.facebook.com/quacau.sphere/posts/pfbid02KYRdxC6aAXdkDJL
 | Link có 2 đoạn đầu                | 46    | 46         | 1     |
 | Ảnh trang chủ                     | 26    | 26         | 1     |
 | Ảnh trang chủ , link dưới comment |       |            |       |
+| 
+
+## [[Những nơi khó chỉ mục được là những nơi gặp được nhiều cuộc trò chuyện lành mạnh]]
+[[26-09-24]] 21:30 https://www.facebook.com/quacau.sphere/posts/pfbid02aDMNAynJcwmRKMkcqDevWL321zWDibviKexY9D3UmvhZFP55neQ3mwHB7wKuztoXl
+[[27-09-24]] 18:19 6 react, 2 share. Share về profile
+## [[Buổi thảo luận về việc xây dựng mạng lưới đối tác, các bên liên quan]]
+[[27-09-24]] 18:01 https://www.facebook.com/quacau.sphere/posts/pfbid0qC7uHfEj58mbZ7hsJLuBJN8K69VvqUJiBHzTvfUz794heigfuwLCiu3i1cQSmCwhl

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-29T19:18
+updated: 2024-10-03T22:30
 ---
-Khái niệm:: [[Kế hoạch]]
+Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Kế hoạch]]
 [[Nên ưu tiên làm những việc có thể sẽ khiến ta phải viết lại kế hoạch]]

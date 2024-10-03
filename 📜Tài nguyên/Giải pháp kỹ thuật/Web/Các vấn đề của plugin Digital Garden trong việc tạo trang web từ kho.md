@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-17T11:00
-updated: 2024-09-02T17:20
+updated: 2024-09-26T12:05
 description: Plugin này sử dụng 11ty làm chương trình tạo website, và Vercel làm dịch vụ hosting. Chúng có những nhược điểm gì?
 ---
 Nếu bạn không muốn mua gói Publish nhưng vẫn muốn tạo một website từ kho của bạn thì bạn cần 3 thứ sau:
@@ -40,10 +40,10 @@ Mkdocs được viết bằng Python, một ngôn ngữ đề cao việc dễ đ
 - Số lượng tính năng phong phú, đặc biệt là có nhiều kiểu markdown cho các nhu cầu đặc thù
 
 Nhược điểm:
-- Cài Python trên Windows có thể gặp trục trặc về đường dẫn. Cái này tuỳ người. Nếu bị thì thêm `py -m` trước mọi dòng lệnh. Ví dụ `mkdocs serve` → `py -m mkdocs serve`
+- Cài Python trên Windows có thể gặp trục trặc về đường dẫn. Cái này thì có người bị có người không. Nếu bị thì thêm `py -m` trước mọi dòng lệnh. Ví dụ `mkdocs serve` → `py -m mkdocs serve`
 
 ### Lume
-Lume viết bằng JavaScript. Obsidian cũng viết bằng JavaScript. Nên dùng Lume bạn chỉ cần học một ngôn ngữ để có thể thao tác với Obsidian tốt hơn. Nó phù hợp cho các trang blog hoặc wiki đơn giản.
+Lume viết bằng JavaScript, Obsidian cũng viết bằng JavaScript, nên với Lume bạn chỉ cần học một ngôn ngữ để là đã có thể thao tác với Obsidian tốt hơn, ví dụ như viết DataviewJS, TemplaterJS. Nó phù hợp cho các trang blog hoặc wiki đơn giản.
 
 Ưu điểm:
 - Với mỗi thư mục bạn có thể đặt một tập tin cấu hình `_data.yaml` để cấu hình cho toàn bộ thư mục. Nếu bạn muốn một thư mục con có cấu hình khác thì chỉ cần tạo một tập tin `_data.yaml` khác vào trong thư mục con đó
@@ -60,7 +60,6 @@ Nhược điểm:
 - Có sẵn đồ thị và backlink
 
 Nhược điểm: 
-- Không có nút ba que để mở menu cho người dùng điện thoại (có thể dùng các bản fork của cộng đồng). Tác giả hình như cũng đuối nên không tương tác nhiều với cộng đồng
 - Tập tin cấu hình là `quartz.config.ts` hoặc `quartz.layout.ts`, nghĩa là để cấu hình là bạn phải dùng TypeScript để chỉnh
 - Dùng Node
 

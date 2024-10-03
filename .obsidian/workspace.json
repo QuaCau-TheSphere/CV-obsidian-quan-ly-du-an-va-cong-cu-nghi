@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "65b65ed11396be90",
+        "id": "6463290385466643",
         "type": "tabs",
         "children": [
           {
-            "id": "3d7579742219835b",
+            "id": "91de20b624ae295c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/C Obsidian, quản lý dự án và công cụ nghĩ/6 Kế hoạch/Quý II – 2023.md",
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Nhu cầu công việc.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
@@ -21,46 +21,19 @@
             }
           },
           {
-            "id": "37f94f34f8ac8667",
+            "id": "67ccea871858d203",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Nghiên cứu cộng đồng mạng.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "08bd3042b470aeae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Kinh nghiệm mua sách giấy.md",
-                "mode": "preview",
-                "backlinks": true,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "59aa01660463c821",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Các loại alias.md",
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Đào Phương Anh.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -126,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Kinh nghiệm mua sách giấy.md",
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Nhu cầu công việc.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Kinh nghiệm mua sách giấy.md",
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Nhu cầu công việc.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Kinh nghiệm mua sách giấy.md"
+                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Nhu cầu công việc.md"
               }
             }
           },
@@ -179,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -198,55 +171,55 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "08bd3042b470aeae",
+  "active": "91de20b624ae295c",
   "lastOpenFiles": [
-    "📜Tài nguyên/Giải pháp kỹ thuật/Web/Người dùng cá nhân hoặc dự án nhỏ có nên dùng WordPress hay không？.md",
-    "📜Tài nguyên/Nhu cầu công việc/Xây dựng kho tri thức, hệ thống quản lý kiến thức hoặc quản lý dự án.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Giải pháp kỹ thuật.md",
-    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Sách, dịch thuật.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/PDF/Tạo mục lục cho PDF.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/PDF/PDF là để in ra giấy, không phải để đọc trên máy.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/PDF/Chỉnh sửa PDF hàng loạt bằng cpdf.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/PDF/Cách setup cho việc đọc PDF thường xuyên.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Kinh nghiệm tìm thuật ngữ tiếng Việt.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Kinh nghiệm mua sách giấy.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/PDF/Cách setup cho việc đọc PDF thường xuyên.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/PDF",
-    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Phân tích dữ liệu định tính.md",
-    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Quản lý kiến thức và lập luận.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật/Phương án dịch một số từ.md",
-    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Nghiên cứu cộng đồng mạng.md",
     "📜Tài nguyên/Nhu cầu công việc/Nhu cầu công việc.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Tổng quan tài liệu.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Quản lý kiến thức cá nhân.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Khai thác một từ khoá.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu/Bản đồ lập luận.md",
-    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Quản lý kiến thức và lập luận/Khai thác một từ khoá.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Quản lý kiến thức và lập luận/Tổng quan tài liệu.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Quản lý kiến thức và lập luận/Quản lý kiến thức cá nhân.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Quản lý kiến thức và lập luận/Khai thác một từ khoá.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Quản lý kiến thức và lập luận/Bản đồ lập luận.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Quản lý kiến thức và lập luận",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Sách, dịch thuật",
-    "📜Tài nguyên/📜Tài nguyên.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Nhu cầu công việc.md",
+    "Ξ Thiết lập/Templates/Tài nguyên/Nhu cầu công việc (template).md",
+    "Ξ Thiết lập/Templates/Thành quả.md",
+    "Ξ Thiết lập/Templates/Vấn đề.md",
+    "Ξ Thiết lập/Templates/Phỏng vấn/Câu hỏi phỏng vấn.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Phần mềm làm việc nhóm (groupware)/Phần mềm minh hoạ cho nhóm/ExcaliDraw.md",
+    "⚔️ Hướng dẫn Obsidian và Git/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/2. Hệ thống hoá thông tin/Excalidraw.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Đào Phương Anh.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với ý tưởng/Mục tiêu và câu hỏi phỏng vấn.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Chuyển từ giả định nghiên cứu sang bảng hỏi định lượng thế nào cho hiệu quả.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu học lập trình/Bản khảo sát nhu cầu học lập trình.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/2 Giả thuyết/Giả thiết về tiếp nhận của người đọc bài giới thiệu buổi hướng dẫn cụ thể.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/2 Giả thuyết/Giả thiết về tiếp nhận của người đã đọc bài Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/2 Giả thuyết/Giả thiết về nhu cầu công việc.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/2 Giả thuyết/Giả thiết về đối tượng cần học cách lập trình.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/2 Giả thuyết/Giả thiết về người tham gia.md",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc",
+    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Võ Hoàng Thông.md",
+    "Ξ Thiết lập/Templates/Thành phẩm.md",
+    "Ξ Thiết lập/Templates/Quang cảnh.md",
+    "Ξ Thiết lập/Templates/Phiếu phỏng vấn.md",
+    "Ξ Thiết lập/Templates/Phỏng vấn/Mục tiêu và câu hỏi phỏng vấn cho bài đọc.md",
+    "Ξ Thiết lập/Templates/Phỏng vấn",
+    "Ξ Thiết lập/Templates/New folder",
+    "Ξ Thiết lập/Templates/Mục tiêu và câu hỏi phỏng vấn cho bài đọc.md",
+    "📐 Dự án/Công cụ cho hệ sinh thái/Truyền thông/Buổi thảo luận về việc xây dựng mạng lưới đối tác, các bên liên quan.md",
+    "📐 Dự án/Công cụ cho hệ sinh thái/Thành phẩm/Nghiên cứu người dùng/~syncthing~Đào Phương Anh.md.tmp",
+    "📐 Dự án/Công cụ cho hệ sinh thái/Truyền thông/Email/Hanoi Grapevine.md",
+    "📐 Dự án/Công cụ cho hệ sinh thái/Thành phẩm/Kế hoạch/Kế hoạch phát triển công cụ cho hệ sinh thái.md",
+    "📐 Dự án/Công cụ cho hệ sinh thái/Thành phẩm/Nghiên cứu người dùng",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Hệ hình nghiên cứu/Hệ hình nghiên cứu",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Hệ hình nghiên cứu/New folder",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Hệ hình nghiên cứu/Phương pháp luận",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Hệ hình nghiên cứu/Nhận thức luận",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Hệ hình nghiên cứu/Bản thể luận",
+    "Ξ Thiết lập/Ảnh/Logo/logo.png",
+    "Ξ Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
     "📐 Dự án/Công cụ cho hệ sinh thái/Nền kinh tế tri thức.canvas",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Mô hình ngôn ngữ lớn/~syncthing~AI không làm nghệ thuật được, vì nghệ thuật đòi hỏi ta phải đưa ra rất nhiều lựa chọn.md.tmp",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Mô hình ngôn ngữ lớn/Tiềm năng",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Mô hình ngôn ngữ lớn/Lập trình",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Mô hình ngôn ngữ lớn",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/AI/Mô hình ngôn ngữ lớn/Tiềm năng",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/AI/Mô hình ngôn ngữ lớn/Lập trình",
-    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/AI/Mô hình ngôn ngữ lớn",
     "Ξ Thiết lập/Ảnh/Persona.webp",
     "Ξ Thiết lập/Ảnh/Pasted image 20240221020431.png",
     "Ξ Thiết lập/Ảnh/Pasted image 20240216111339.png",
     "Ξ Thiết lập/Ảnh/Pasted image 20231111161912.png",
     "Ξ Thiết lập/Ảnh/Pasted image 20231109153144.png",
-    "Ξ Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
     "Ξ Thiết lập/Ảnh/Người giàu nghĩ gì về quan điểm tiền không mua được hạnh phúc.jpg",
     "Ξ Thiết lập/Ảnh/440512325_813700394138855_2975689979954753250_n.png",
     "Ξ Thiết lập/Ảnh/Flat White.png",
-    "Ξ Thiết lập/Excalidraw/Các lĩnh vực trong vault.png",
     "Untitled.canvas"
   ]
 }

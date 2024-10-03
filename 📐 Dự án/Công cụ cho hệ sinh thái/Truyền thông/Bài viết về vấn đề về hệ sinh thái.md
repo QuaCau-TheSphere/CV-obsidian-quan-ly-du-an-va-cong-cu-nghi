@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-26T18:11
+updated: 2024-10-02T15:26
 ---
 %%
 #file/thành-phẩm/bài-viết
@@ -37,7 +37,7 @@ Xem thêm: Một đám mây chim sáo: https://quacau.space/f025
 # Giả thuyết
 - [[Các tổ chức trong lúc mới hình thành rất mong có ai kết nối giùm]]
 - [[Việc phải nói chuyện nhu cầu của nhau là mệt mỏi]]
-- [[Việc có sẵn dữ liệu của các bên khác trong csdl của mình sẽ giúp mình hoạch định tốt hơn]]
+- [[Việc có sẵn dữ liệu của các bên khác trong CSDL của mình sẽ giúp mình hoạch định tốt hơn]]
 - [[Người dùng sử dụng dễ dàng Obsidian]]
 - [[Obsidian hữu ích để quản lý công việc]]
-- [[Chỉ Obsidian mới có thể giúp liên thông dữ liệu một cách dễ dàng nhất]]
+- [[Chỉ có việc lưu dữ liệu ở dạng văn bản và ở trên máy người dùng mới có thể giúp liên thông dữ liệu một cách dễ dàng nhất]]

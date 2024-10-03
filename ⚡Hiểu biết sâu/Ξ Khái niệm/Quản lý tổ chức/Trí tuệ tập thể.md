@@ -1,6 +1,6 @@
 ---
 created: 2023-06-12T00:57
-updated: 2024-07-29T13:42
+updated: 2024-09-23T19:41
 ---
 Câu hỏi liên quan đến chủ đề này:
 ```dataview
@@ -12,7 +12,7 @@ Chủ đề quan tâm đến chủ đề này:
 List from "3 Kiến thức, câu hỏi/31 Khái niệm" where contains(chủ-đề,[[]]) 
 ```
 
-Chủ đề:: [[Phát triển cộng đồng]]
+Chủ đề:: [[Xây dựng hệ sinh thái]]
 Chủ đề:: [[Rhizome]]
 
 ❓:: [[Liệu có thể có trí tuệ tập thể mà không có người dẫn dắt không？]] 
