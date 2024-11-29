@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-08-05T23:02
+updated: 2024-11-25T23:48
 ---
 [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
 [[Chúng ta không chọn phương án tối ưu khi chọn sai cũng chẳng hại gì]] 
 [[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]] 
-
+[[Ta không có đầu óc để đứng trên vai những người khổng lồ. Tự mò mẫm đỡ nhức đầu hơn]]
 ## Sự thật #1: Chúng ta không đọc các trang web, chúng ta chỉ lướt mắt qua chúng thôi (scanning)
 - Vì ta thường đang có việc gì đó cần phải làm
 - Vì ta biết chắc rằng mình không cần đọc tất cả mọi thứ
@@ -22,6 +22,7 @@ updated: 2024-08-05T23:02
 - Vì nó không quan trọng với mình
 - Vì nếu ta tìm được cách nào dùng được, ta sẽ dính với cách đó
 
+[[Trải nghiệm truy cập web giống như trải nghiệm được dịch chuyển tức thời đến một nơi xa lạ]]
 Nguồn:: [[Đừng bắt tôi nghĩ]]
 [[Chơi là sự thử nghiệm các kỹ năng mới học trong những môi trường mới]]
 [[Con người chuyển từ kỹ năng này sang kỹ năng khác ngay cả khi họ chỉ có một khái niệm mơ hồ về đích đến cuối cùng]]

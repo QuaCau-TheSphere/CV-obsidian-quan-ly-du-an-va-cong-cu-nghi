@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-03-17T21:05
-updated: 2024-09-26T13:06
+updated: 2024-11-01T21:22
 alias:
   - Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?
   - Xây dựng hệ thống tri thức cộng đồng: Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?
@@ -18,13 +18,15 @@ IDE sẽ không chỉ là viết code mà còn là instruction, mental model, wo
 
 Xem thêm:: [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]
 Xem thêm:: [[Nền kinh tế tri thức.canvas|Nền kinh tế tri thức]]
+[[Ta không có đầu óc để đứng trên vai những người khổng lồ. Tự mò mẫm đỡ nhức đầu hơn]]
 
 ```dataview
 Table ví-dụ as "Ví dụ", ưu-điểm as "Ưu điểm" 
 FROM "📜Tài nguyên/Giải pháp kỹ thuật/Hệ thống tri thức cộng đồng"
 ```
 
-Nếu là vấn đề liên kết giữa các khái niệm thì khác gì Tana, Neo4j, Xanadu?                                   [A Short History of Bi-Directional Links](https://maggieappleton.com/bidirectionals)                      
+Nếu là vấn đề liên kết giữa các khái niệm thì khác gì Tana, Neo4j, Xanadu?
+[A Short History of Bi-Directional Links](https://maggieappleton.com/bidirectionals)                      
 Câu hỏi:
 - Vấn đề nào thì nên dành thời gian để làm? Vấn đề nào có thể bỏ qua?
 - Có dễ dàng làm với số lượng lớn không?
@@ -38,7 +40,7 @@ Vấn đề lạc hậu khó tránh, nhưng em không nghĩ làm việc với l�
 Phải chăng rốt cuộc cũng quay trở lại thành wiki: được lên đầu Google ở nhiều lĩnh vực nhất có thể?
 [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|Làm sao để tìm được thứ ta cần khi ta không biết từ khoá chính xác của nó?]]
 [[❓Bản đồ là cách để ta biết mình cần gì khi còn chưa cảm nhận được thứ mình cần là gì]]
-
+[Anna’s Archive](https://annas-archive.org/)
 [[Trí nhớ tình tiết và thủ tục thường để não nhớ. Trí nhớ ngữ nghĩa và tương lai thường để cho não ngoài]]
 ![](https://i.imgur.com/USfoDXS.jpeg)
 

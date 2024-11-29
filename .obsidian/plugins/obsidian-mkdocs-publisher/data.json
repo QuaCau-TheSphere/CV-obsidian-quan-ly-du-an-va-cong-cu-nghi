@@ -100,7 +100,8 @@
       "internal": true,
       "unshared": false,
       "wiki": true,
-      "slugify": "disable"
+      "slugify": "disable",
+      "unlink": false
     }
   },
   "embed": {
@@ -126,6 +127,7 @@
       "yaml"
     ],
     "sendSimpleLinks": true,
+    "forcePush": true,
     "forcePushAttachments": [],
     "useObsidianFolder": false
   },

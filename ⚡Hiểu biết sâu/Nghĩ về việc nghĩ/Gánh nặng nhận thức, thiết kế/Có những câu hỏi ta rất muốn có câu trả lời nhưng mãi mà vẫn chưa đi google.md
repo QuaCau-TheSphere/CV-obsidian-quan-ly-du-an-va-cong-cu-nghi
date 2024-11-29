@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-22T21:45
-updated: 2024-08-02T12:27
+updated: 2024-11-24T12:31
 ---
 Khái niệm:: [[Hỏi]], [[Gánh nặng nhận thức]]
 Lý do:: [[Nội việc đặt câu hỏi thôi đã đủ áp lực rồi, chứ đừng nói đến việc đi google hay đặt câu hỏi tốt hơn]]
@@ -9,7 +9,7 @@ Lý do:: [[Nội việc đặt câu hỏi thôi đã đủ áp lực rồi, ch�
 [[Ta thường không sẵn sàng để đọc một tài liệu khi ta mới thấy nó]]
 [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
 [[] ] 
-[[Khi bị hỏi là sao không google, nói rằng có thể làm họ]] 
+[[Khi bạn bị hỏi là sao không google, hãy trả lời rằng liệu có bao giờ họ cũng đi hỏi người ta mà không google không]] 
 Sự tập trung của chúng ta chỉ có một khoảng nhất định, và ta sẽ chỉ có thể làm thứ quan trọng nhất. Nếu ta ráng làm cái khác, thì một cơn nhức đầu sẽ kéo thôi thúc ta nhanh chóng bỏ cuộc để quay trở lại làm điều dang dở. Bạn có thể trải nghiệm cơn nhức đầu này mỗi khi đang tập trung làm một việc gì đó mà có tiếng điện thoại reo.
 
 ![How Smartphones Sabotage Your Brain's Ability to Focus | WSJ](https://www.youtube.com/watch?v=Ig6I3prnlnE)

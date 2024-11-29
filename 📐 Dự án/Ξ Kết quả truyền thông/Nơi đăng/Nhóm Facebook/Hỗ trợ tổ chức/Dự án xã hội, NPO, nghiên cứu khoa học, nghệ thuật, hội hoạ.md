@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-10-01T23:22
+updated: 2024-10-17T00:43
 ---
 # [[Các buổi đáp ứng nhu cầu học lập trình]]
 ## Pending
@@ -82,7 +82,6 @@ Làm suốt, dùng R, tạo một nhóm từ theo list phân loại sẵn để 
 [[17-06]] 18:16 https://www.facebook.com/groups/mangluoisnpo/posts/1515032052692563
 
 # Bạn đang có nhu cầu được hướng dẫn, thảo luận về kỹ năng gì?
-# BẠN ĐANG CÓ NHU CẦU ĐƯỢC HƯỚNG DẪN, THẢO LUẬN VỀ KỸ NĂNG GÌ?
 ## ABG Network Official
 [[22-09-24]] 16:22 https://www.facebook.com/groups/abgnetworkofficial/posts/2882848618536052
 [[23-09-24]] 20:43 https://www.facebook.com/groups/abgnetworkofficial/posts/2884117178409196
@@ -93,6 +92,20 @@ Làm suốt, dùng R, tạo một nhóm từ theo list phân loại sẵn để 
 ## SNPO
 [[01-10-24]] 23:22 https://www.facebook.com/groups/562933844569060/pending_posts/1586199662242468/
 
+# [[Bạn gặp khó khăn nào về nhu cầu nào|Trong các nhu cầu, kỹ năng sau đây, nhu cầu nào bạn đang gặp khó khăn trong việc giải quyết và muốn được hướng dẫn, thảo luận thêm?]]
+## SNPO
+[[05-10-24]] 22:27 https://www.facebook.com/groups/562933844569060/pending_posts/1589179501944484/
+[[16-10-24]] 13:15 duyệt https://www.facebook.com/groups/mangluoisnpo/posts/1589179501944484/
+[[17-10-24]] 00:39 23 vote, 2 react, 1 comment
 
-
+# [[Kho địa điểm để chọn nơi gặp mặt|Kho địa điểm để chọn nơi gặp mặt]]
+## Project Community
+https://www.facebook.com/groups/1027036950828309/pending_posts/2496992517166071/
+## SNPO
+[[08-10-24]] 20:38 https://www.facebook.com/groups/562933844569060/pending_posts/1591228385072929/
+[[16-10-24]] 13:15 duyệt https://www.facebook.com/groups/mangluoisnpo/posts/1591228385072929/
+[[17-10-24]] 00:39 1 react
+## ABG 
+[[08-10-24]] 20:44 Đăng
+[[09-10-24]] 14:34 Được duyệt https://www.facebook.com/groups/abgnetworkofficial/posts/2900536680100579/
 [[Buổi thảo luận về việc xây dựng mạng lưới đối tác, các bên liên quan]]

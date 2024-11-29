@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-10-03T22:30
+updated: 2024-10-17T00:31
 ---
-Khái niệm:: [[Ra quyết định]], [[Thảo luận]], [[⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Kế hoạch]]
+Khái niệm:: [[Ra quyết định]], [[Thảo luận]], [[Kế hoạch (khái niệm)]]
 [[1 nghiên cứu 20 ngày khác với 4 nghiên cứu 5 ngày]]
 [[Nhiều khi vấn đề chỉ được phát hiện ra khi đến khâu triển khai ý tưởng]]
 [[Ai cũng có một kế hoạch cho tới khi bị đấm vào mồm]]

@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-02T15:18
+updated: 2024-11-18T14:07
 ---
-Lý do:: [[Công việc khai phá chính là quản lý kiến thức]] 
+Lý do:: [[Công việc khai phá chính là việc nghiên cứu và quản lý kiến thức]] 
 Lý do:: [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]
 [[Công việc và cuộc sống không thể tách rời nhau]]
 

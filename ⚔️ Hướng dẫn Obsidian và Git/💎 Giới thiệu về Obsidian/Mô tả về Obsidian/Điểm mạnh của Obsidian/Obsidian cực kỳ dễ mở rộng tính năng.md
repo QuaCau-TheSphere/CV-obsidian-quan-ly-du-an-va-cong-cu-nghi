@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-08-02T20:15
+updated: 2024-10-28T20:41
 ---
 Lý do:: [[Obsidian lưu dữ liệu trên máy của người dùng]]
 

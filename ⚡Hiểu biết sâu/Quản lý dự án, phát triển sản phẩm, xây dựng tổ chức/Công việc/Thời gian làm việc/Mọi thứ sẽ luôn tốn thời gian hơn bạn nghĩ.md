@@ -1,11 +1,11 @@
 ---
 share: true
 created: 2023-09-29T12:05
-updated: 2024-10-03T22:30
+updated: 2024-10-17T00:31
 alias:
   - "Định luật Hofstadter: Mọi thứ sẽ luôn tốn thời gian hơn bạn nghĩ, kể cả khi bạn đã tính đến định luật Hofstadter"
 ---
-Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Kế hoạch]]
+Khái niệm:: [[Kế hoạch (khái niệm)]]
 [Định luật Hofstadter](https://en.wikipedia.org/wiki/Hofstadter%27s_law): 
 >Mọi thứ sẽ luôn tốn thời gian hơn bạn nghĩ, kể cả khi bạn đã tính đến định luật Hofstadter.
 

@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-13T20:02
+updated: 2024-11-18T14:04
 ---
+Khái niệm:: [[Công việc]]
 Yêu cầu:
 - Biết trước được công việc sẽ hoàn thành trong bao lâu với xác suất là bao nhiêu (hàm xác suất làm xong theo thời gian) 
 - Định lượng được yêu cầu đầu vào và độ tác động của đầu ra của thành công việc
@@ -21,3 +22,6 @@ VD: số hàng trong kho,
 
 Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 - Công việc không làm tự động được thì cũng làm thủ công được nhưng sẽ rất lâu và ko hiệu quả
+
+
+Lý do:: [[Chỉ có thể ước lượng được thời gian cần có để hoàn thành khi công việc của ta gần như chỉ gồm công việc khai thác]]

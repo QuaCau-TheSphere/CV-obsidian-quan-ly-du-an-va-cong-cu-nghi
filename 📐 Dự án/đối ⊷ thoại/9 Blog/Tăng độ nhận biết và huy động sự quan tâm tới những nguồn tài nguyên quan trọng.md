@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-08-21T18:23
+updated: 2024-11-02T12:38
 ---
 Bài này chưa viết xong. Nhưng bạn có thể đọc một bài có nhiều liên quan tới nó tại
 
@@ -9,7 +9,7 @@ Bài này chưa viết xong. Nhưng bạn có thể đọc một bài có nhiề
 
 
 Bằng quan sát cá nhân, chúng tôi thấy dù có rất nhiều tổ chức mong muốn đem lại nhiều đối thoại cho cộng đồng, và ý thức được tầm quan trọng của các bên liên quan và người thụ hưởng, nhưng kết quả thì các cuộc đối thoại vẫn bị tản mát và không có được sự chú ý 
-[[Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền]]
+[[Vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản|Phá vỡ silo thông tin và nắm bắt nhu cầu các bên một cách hiệu quả: tầm quan trọng của các phần mềm ghi chú động và lưu dữ liệu tại máy người dùng]]
 
 [[Chưa thấy có dự án nào nói về việc làm giảm tải gánh nặng công việc cho người bên cạnh mình]] 
 

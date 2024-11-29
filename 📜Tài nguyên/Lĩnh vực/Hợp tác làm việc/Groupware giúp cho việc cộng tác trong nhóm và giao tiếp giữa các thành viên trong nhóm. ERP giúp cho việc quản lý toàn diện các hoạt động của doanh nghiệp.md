@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-01T21:08
+updated: 2024-10-07T23:12
 ---
 Groupware là phần mềm nhóm, giúp các cá nhân cộng tác trên các dự án với mục tiêu chung từ các địa điểm phân tán về mặt địa lý thông qua giao diện Internet chia sẻ như một phương tiện để giao tiếp trong nhóm[1](https://filegi.com/tech-term/groupware-3057/). Groupware có thể bao gồm hệ thống lưu trữ truy cập từ xa để lưu trữ thường xuyên sử dụng các file dữ liệu[1](https://filegi.com/tech-term/groupware-3057/).
 
@@ -12,7 +12,7 @@ Vậy Groupware và ERP có điểm khác biệt cơ bản là Groupware giúp c
 # Các cách phân loại groupware
 ## Theo không thời gian
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Cscwmatrix.jpg/703px-Cscwmatrix.jpg) 
-Nguồn:: [[⚡Hiểu biết sâu/Ξ Nguồn/Wikipedia]], [Computer-supported cooperative work](https://en.wikipedia.org/wiki/Computer-supported_cooperative_work), [[Bing AI]], [Collaborative software](https://en.wikipedia.org/wiki/Collaborative_software)
+Nguồn:: [[Wikipedia]], [Computer-supported cooperative work](https://en.wikipedia.org/wiki/Computer-supported_cooperative_work), [[Bing AI]], [Collaborative software](https://en.wikipedia.org/wiki/Collaborative_software)
 
 ## Theo mức độ hợp tác
 - Giao tiếp
@@ -44,3 +44,6 @@ Collaborative management tools facilitate and manage group activities. Examples 
 -   [Social software](https://en.wikipedia.org/wiki/Social_software "Social software") systems — organize social relations of groups
 -   [Online spreadsheets](https://en.wikipedia.org/wiki/Online_spreadsheet "Online spreadsheet") — collaborate and share structured data and information
 -   [Client portals](https://en.wikipedia.org/wiki/Client_portal "Client portal") — interact and share with your clients in a private online environment[_[citation needed](https://en.wikipedia.org/wiki/Wikipedia:Citation_needed "Wikipedia:Citation needed")_]
+
+[[Các ERP được dựng sẵn không đủ khả năng đáp ứng những luồng làm việc và suy nghĩ đặc thù]]
+[[CRM tập trung vào tăng sale, ERP tập trung vào cắt giảm chi phí]]

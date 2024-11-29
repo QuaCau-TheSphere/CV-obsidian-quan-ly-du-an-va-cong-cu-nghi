@@ -1,13 +1,17 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-01-01T15:04
+updated: 2024-11-18T14:22
+Alias: 
 ---
-Khái niệm:: [[Đơn giản]]
+Khái niệm:: [[Đơn giản]], [[Ra quyết định]]
 Nguồn:: [Don’t measure your product using a north star metric](https://kashishhora.com/dont-measure-your-product-using-a-north-star-metric/)
 Mâu thuẫn với:: [[Sự đơn giản ép ta phải làm nó cực kỳ tốt]]
 
+Không phải cái gì đơn giản cũng là đúng. Hệ thống nhị nguyên cũng đơn giản. Và ngoài ra, có những thứ đơn giản nhưng ta không thấy được sự đơn giản đó. Hệ thống nhị phân không hề đơn giản với ta.
+
 [[Phân tích quyết định đa tiêu chí (MCDA) là phương pháp để tìm điểm đánh đổi tối ưu nhất]]
+[[❓Bản chất của phân tích quyết định đa tiêu chí vẫn là quy về một chỉ số]]
 [[Hiểu biết không chỉ để mình làm một cái gì đó, mà còn để mình không làm một cái gì đó]]
 [[Con người sẽ theo đuổi kỹ năng mới với giá trị tiềm năng trong phạm vi dự đoán]]
 

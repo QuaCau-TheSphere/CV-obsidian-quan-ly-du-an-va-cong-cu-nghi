@@ -1,10 +1,8 @@
 ---
 share: true
 created: 2024-09-23T15:29
-updated: 2024-10-03T22:30
+updated: 2024-10-04T11:46
 ---
-[[📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Nhu cầu công việc]]
-
 Theo khảo sát hôm qua về các nhu cầu mà các bạn trong nhóm cần được thảo luận, hướng dẫn thì **Xây dựng mạng lưới đối tác, các bên liên quan** là nhu cầu được mọi người quan tâm nhất. Mọi người nghĩ sao nếu chúng ta có một buổi thảo luận để bàn về:
 # Buổi thảo luận về việc xây dựng mạng lưới đối tác, các bên liên quan
 Nội dung dự kiến:

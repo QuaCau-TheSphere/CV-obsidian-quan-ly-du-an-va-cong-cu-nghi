@@ -35,8 +35,8 @@
   "hk-code-block",
   "obsidian-front-matter-title-plugin",
   "metadata-menu",
-  "obsidian-meta-bind-plugin",
   "folder-notes",
   "datacore",
-  "obsidian-snippet-downloader"
+  "obsidian-snippet-downloader",
+  "obsidian-excalidraw-plugin"
 ]

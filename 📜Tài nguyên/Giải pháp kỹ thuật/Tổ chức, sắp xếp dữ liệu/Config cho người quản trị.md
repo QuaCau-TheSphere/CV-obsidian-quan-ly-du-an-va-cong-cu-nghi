@@ -1,8 +1,10 @@
 ---
 share: true
 created: 2024-09-13T09:51
-updated: 2024-09-13T10:04
+updated: 2024-10-07T16:03
+cssClass: wide-table
 ---
+
 |                                                                                             | Thay đổi thường xuyên phía NQT | Bản mới nhất của NQT nên là bản cho người mới cài | Bản mặc định của Obsidian là không đúng ý                            | Cần tiếp tục cập nhật cho những người đã cài rồi | Thay đổi thường xuyên phía người dùng | Người dùng cần cập nhật cho mọi người |
 | ------------------------------------------------------------------------------------------- | ------------------------------ | ------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------ | ------------------------------------- | ------------------------------------- |
 | app.json<br><sub>"livePreview": false, "defaultViewMode": "source"<br>mobileToolbarCommands | ❌                             | ❌                                                | ✔<br><sub>("livePreview": false, "defaultViewMode": "preview")</sub> | ❌                                               | ✔                                     | ❌                                    |

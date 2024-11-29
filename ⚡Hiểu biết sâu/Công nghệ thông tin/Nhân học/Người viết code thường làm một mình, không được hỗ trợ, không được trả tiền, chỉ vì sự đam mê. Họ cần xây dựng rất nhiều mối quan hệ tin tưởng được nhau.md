@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-09-02T14:26
+updated: 2024-10-20T17:39
 ---
 Khái niệm:: 
 Coders often work alone, unsupported, unpaid, at labours of love. They must build tenuous trust relations, be clever diplomats and team leaders, and be articulate in stating their needs and aims.
@@ -17,3 +17,4 @@ Lý do:: [[Phản hồi và sự giúp đỡ trả lại là những thứ xa x�
 [[Quyên góp cho mã nguồn mở thiếu sự khẩn cấp và đồng cảm cá nhân mà các tổ chức từ thiện hay có]]
 [[Chưa thấy có dự án nào nói về việc làm giảm tải gánh nặng công việc cho người bên cạnh mình]] 
 [[Lập trình là lĩnh vực dễ nhức đầu vì cần phải học rất nhiều công cụ khác nhau trong lúc làm việc]]
+[[Phản hồi và sự giúp đỡ trả lại là những thứ xa xỉ với người được giúp]]

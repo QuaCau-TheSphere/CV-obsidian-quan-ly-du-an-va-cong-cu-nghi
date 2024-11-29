@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-10-03T22:30
+updated: 2024-10-17T00:31
 ---
-Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Kế hoạch]], [[Ưu tiên]]
+Khái niệm:: [[Kế hoạch (khái niệm)]], [[Ưu tiên]]
 
 ![Lecture 15 - How to Manage (Ben Horowitz) - YouTube](https://youtu.be/uVhTvQXfibU?si=TJEwubrYwssLj9kD&t=2002)
 Nguồn:: 

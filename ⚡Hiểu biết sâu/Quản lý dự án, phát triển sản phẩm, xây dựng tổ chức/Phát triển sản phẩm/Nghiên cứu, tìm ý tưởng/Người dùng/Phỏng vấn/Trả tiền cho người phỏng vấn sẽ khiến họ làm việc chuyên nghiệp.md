@@ -10,3 +10,4 @@ Nếu không trả tiền thì họ sẽ có cảm giác ban ơn, và dễ mất
 Còn khảo sát thì nếu trả tiền thì người tham gia sẽ muốn làm cho xong
 
 Lý do:: [[Tiền làm người sở hữu tưởng rằng mình độc lập]]
+Nhưng điều đó đâu có nghĩa là sẽ ngăn được việc họ nói dối? [[❓Câu hỏi khiến cho đáp viên muốn nói dối]]

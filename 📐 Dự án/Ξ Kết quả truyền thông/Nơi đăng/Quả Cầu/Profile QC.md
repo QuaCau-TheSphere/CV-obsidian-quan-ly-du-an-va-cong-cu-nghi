@@ -1,7 +1,6 @@
 ---
-share: true
 created: 2023-09-05T16:17
-updated: 2024-03-21T20:46
+updated: 2024-10-10T01:13
 ---
 # [[Các buổi đáp ứng nhu cầu học lập trình]]
 [[16-11]] 23:55 share từ [[Facebook page QC]] https://www.facebook.com/qua.cau.the.sphere/posts/pfbid02J7yUYGFa5ijJMG79h1fXbrn1g7tvdDC5RMPxzTe4QQdddyypAF4yJFbqRymXjrLjl
@@ -23,3 +22,5 @@ updated: 2024-03-21T20:46
 # [[Câu hỏi khảo sát]]
 [[24-02]] 14:33 https://www.facebook.com/qua.cau.the.sphere/posts/pfbid0am81HWBQLSxBMY9ZCZwxLxRQtmipmA6tYrcb68McLr1oq2kYMHbasFz154biUqYWl
 
+# [[Những nơi khó chỉ mục được là những nơi gặp được nhiều cuộc trò chuyện lành mạnh|Thuyết rừng âm u của web]] (Story)
+[[10-10-24]] 01:11 80 view. Vinh Uông thả tim

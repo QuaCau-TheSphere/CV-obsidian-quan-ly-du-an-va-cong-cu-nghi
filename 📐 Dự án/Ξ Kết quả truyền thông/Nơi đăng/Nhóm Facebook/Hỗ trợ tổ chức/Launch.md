@@ -1,6 +1,6 @@
 ---
 created: 2023-09-05T16:17
-updated: 2024-02-22T12:32
+updated: 2024-10-09T14:33
 share: true
 ---
 # [[29-10]]
@@ -30,3 +30,6 @@ share: true
 17:49 được duyệt lại [[Phân loại câu nhập]]
 17:50 75 react
 22:00 80 react
+
+# [[Bạn gặp khó khăn nào về nhu cầu nào|]]
+[[09-10-24]] 14:33 https://www.facebook.com/groups/153841081324271/pending_posts/27127004953581185/

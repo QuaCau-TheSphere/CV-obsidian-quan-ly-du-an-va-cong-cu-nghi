@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2024-09-03T00:32
-updated: 2024-09-03T00:33
+updated: 2024-11-12T21:24
 ---
+Khái niệm:: [[Quản trị kiến thức]]
 Trước tiên hãy nói về cách đánh số thư mục. Cách đánh số này lấy ý tưởng từ cách đánh số [Johnny•Decimal](https://johnnydecimal.com/).
 - Những sự kiện sẽ được đánh số riêng theo dạng YYMM
 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-22T15:23
-updated: 2024-09-07T21:37
+updated: 2024-11-18T14:07
 ---
 Khái niệm:: [[Công việc]], [[Thời gian, lịch]]
 
@@ -18,3 +18,6 @@ Làm xong trở thành bài học
 
 [[Quản lý tác vụ chỉ có thể giải quyết khi nó kết hợp được lịch để time blocking]]
 Nguồn:: [[Kendy]]
+[[Lên lịch khối thời gian giúp cân bằng sự quan trọng và khẩn cấp]]
+[[Nỗi ám ảnh với sự hiệu quả có thể đến từ nỗi sợ chết]]
+https://nhanam.vn/bon-nghin-tuan-nha-nam

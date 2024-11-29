@@ -4,36 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "6463290385466643",
+        "id": "db47e6b56e65369d",
         "type": "tabs",
         "children": [
           {
-            "id": "91de20b624ae295c",
+            "id": "1fff17ae80e95156",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Nhu cầu công việc.md",
+                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/FSF/Việc công bố thông tin bằng phần mềm không tự do không tạo ra vấn đề như việc xử lý dữ liệu bằng phần mềm không tự do.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Việc công bố thông tin bằng phần mềm không tự do không tạo ra vấn đề như việc xử lý dữ liệu bằng phần mềm không tự do"
             }
           },
           {
-            "id": "67ccea871858d203",
+            "id": "969c1c6a5e51944d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Đào Phương Anh.md",
+                "file": "📜Tài nguyên/Nhu cầu công nghệ/Viết và quản lý nội dung/Chèn ảnh, bảng, sơ đồ, mục lục, ghi chú, song ngữ, trích dẫn theo đúng ý.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": true
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Chèn ảnh, bảng, sơ đồ, mục lục, ghi chú, song ngữ, trích dẫn theo đúng ý"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -53,7 +58,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -62,13 +69,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "andy bret",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -76,10 +85,13 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Nhu cầu công việc.md",
+                "file": "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Minh hoạ, sơ đồ hóa kiến thức.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +119,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Minh hoạ, sơ đồ hóa kiến thức"
             }
           },
           {
@@ -116,10 +130,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Nhu cầu công việc.md",
+                "file": "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Mô hình ngôn ngữ lớn/Các câu hỏi về AI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Các câu hỏi về AI"
             }
           },
           {
@@ -130,7 +146,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -139,8 +157,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Nhu cầu công việc.md"
-              }
+                "file": "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Minh hoạ, sơ đồ hóa kiến thức.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Minh hoạ, sơ đồ hóa kiến thức"
             }
           },
           {
@@ -148,7 +168,9 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
         ],
@@ -161,54 +183,56 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian42-brat:BRAT": false,
-      "templater-obsidian:Templater": false,
-      "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templater-obsidian:Templater": false,
+      "darlal-switcher-plus:Open in Headings Mode": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "obsidian42-brat:BRAT": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "91de20b624ae295c",
+  "active": "969c1c6a5e51944d",
   "lastOpenFiles": [
-    "📜Tài nguyên/Nhu cầu công việc/Nhu cầu công việc.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Nhu cầu công việc.md",
-    "Ξ Thiết lập/Templates/Tài nguyên/Nhu cầu công việc (template).md",
-    "Ξ Thiết lập/Templates/Thành quả.md",
-    "Ξ Thiết lập/Templates/Vấn đề.md",
-    "Ξ Thiết lập/Templates/Phỏng vấn/Câu hỏi phỏng vấn.md",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Phần mềm làm việc nhóm (groupware)/Phần mềm minh hoạ cho nhóm/ExcaliDraw.md",
-    "⚔️ Hướng dẫn Obsidian và Git/💎 Giới thiệu về Obsidian/Theo tính năng của plugin/2. Hệ thống hoá thông tin/Excalidraw.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Đào Phương Anh.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Sự tiếp nhận với ý tưởng/Mục tiêu và câu hỏi phỏng vấn.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Chuyển từ giả định nghiên cứu sang bảng hỏi định lượng thế nào cho hiệu quả.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu học lập trình/Bản khảo sát nhu cầu học lập trình.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/2 Giả thuyết/Giả thiết về tiếp nhận của người đọc bài giới thiệu buổi hướng dẫn cụ thể.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/2 Giả thuyết/Giả thiết về tiếp nhận của người đã đọc bài Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/2 Giả thuyết/Giả thiết về nhu cầu công việc.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/2 Giả thuyết/Giả thiết về đối tượng cần học cách lập trình.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/2 Giả thuyết/Giả thiết về người tham gia.md",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc",
-    "📐 Dự án/Các buổi đáp ứng nhu cầu công việc/4 Thành phẩm/Nghiên cứu người dùng/Nhu cầu công việc/Võ Hoàng Thông.md",
-    "Ξ Thiết lập/Templates/Thành phẩm.md",
-    "Ξ Thiết lập/Templates/Quang cảnh.md",
-    "Ξ Thiết lập/Templates/Phiếu phỏng vấn.md",
-    "Ξ Thiết lập/Templates/Phỏng vấn/Mục tiêu và câu hỏi phỏng vấn cho bài đọc.md",
-    "Ξ Thiết lập/Templates/Phỏng vấn",
-    "Ξ Thiết lập/Templates/New folder",
-    "Ξ Thiết lập/Templates/Mục tiêu và câu hỏi phỏng vấn cho bài đọc.md",
-    "📐 Dự án/Công cụ cho hệ sinh thái/Truyền thông/Buổi thảo luận về việc xây dựng mạng lưới đối tác, các bên liên quan.md",
-    "📐 Dự án/Công cụ cho hệ sinh thái/Thành phẩm/Nghiên cứu người dùng/~syncthing~Đào Phương Anh.md.tmp",
-    "📐 Dự án/Công cụ cho hệ sinh thái/Truyền thông/Email/Hanoi Grapevine.md",
-    "📐 Dự án/Công cụ cho hệ sinh thái/Thành phẩm/Kế hoạch/Kế hoạch phát triển công cụ cho hệ sinh thái.md",
-    "📐 Dự án/Công cụ cho hệ sinh thái/Thành phẩm/Nghiên cứu người dùng",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Hệ hình nghiên cứu/Hệ hình nghiên cứu",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Hệ hình nghiên cứu/New folder",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Hệ hình nghiên cứu/Phương pháp luận",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Hệ hình nghiên cứu/Nhận thức luận",
-    "📜Tài nguyên/Giải pháp kỹ thuật/Hệ hình nghiên cứu/Bản thể luận",
+    "📜Tài nguyên/Nhu cầu công nghệ/Tự động/Tự động nhập sự kiện vào lịch.md",
+    "📜Tài nguyên/Nhu cầu công việc/Vận hành/Cập nhật thông tin bên ngoài, tổng hợp sự kiện sẽ diễn ra.md",
+    "📜Tài nguyên/Nhu cầu công việc/Nghiên cứu/Thu thập dữ liệu/Nắm bắt xu hướng mạng.md",
+    "📜Tài nguyên/Nhu cầu công nghệ/Tổng hợp nội dung, tin tức từ các website.md",
+    "📜Tài nguyên/Nhu cầu công nghệ/Viết và quản lý nội dung/Hệ thống quản lý kiến thức.md",
+    "📜Tài nguyên/Nhu cầu công nghệ/Tự động/Tổng hợp sự kiện sẽ diễn ra.md",
+    "📜Tài nguyên/Nhu cầu công nghệ/Tự động/Cào web.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Cộng đồng online/Tôi học được gì khi tôi học Promise trong JavaScript.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Mô hình ngôn ngữ lớn/Các câu hỏi về AI.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Cộng đồng online/GitHub không phải là dịch vụ mã nguồn mở, dù nó tự nhận rằng nó là ngôi nhà của mã nguồn mở.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/FSF/Việc công bố thông tin bằng phần mềm không tự do không tạo ra vấn đề như việc xử lý dữ liệu bằng phần mềm không tự do.md",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Cộng đồng online/Chuyện tôi tự học Promise trong JavaScript.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/Phần mềm tự do và mã nguồn mở.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Dữ liệu, AI/Mô hình ngôn ngữ lớn/~syncthing~Các câu hỏi về AI.md.tmp",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Quyền được đọc là quyền được cào.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/FSF/Với FSF, vấn đề chính là thế giới đừng bắt tôi phải dùng phần mềm không tự do, kể cả lúc giao tiếp với thế giới.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/Mã nguồn mở, phần mềm tự do.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/So với mã nguồn đóng, mã nguồn mở làm giảm thu nhập đáng kể nhưng lại tăng khối lượng công việc hơn nhiều lần.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/FSF/Xử lý mở là lý do đòi hỏi phải có phần mềm tự do.md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Kế hoạch (khái niệm).md",
+    "⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Untitled.md",
+    "Ξ Thiết lập/Templates/Ý tưởng.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/FSF/FSF muốn bảo vệ con người khỏi bị khai thác, thao túng.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/OSI/Việc sử dụng từ ❝mở❞ đã khiến cho O'Reilly thành công trong việc PR mã nguồn mở.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/OSI/Ý tưởng rằng làm dự án mã nguồn mở sẽ có cộng đồng lớn có lẽ không tồn tại trước thời OSI.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/OSI/Việc sử dụng từ ❝mở❞ đã khiến cho O'Reilly thành công trong việc đánh đồng internet với mã nguồn mở.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/OSI/Từ nào mà mọi người đều nhìn thấy nó theo cách của mình thì là một từ thành công với O'Reilly.md",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/OSI",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/FSF",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở/Mã nguồn mở",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/Phần mềm tự do và mã nguồn mở",
+    "⚡Hiểu biết sâu/Công nghệ thông tin/Tự trị dữ liệu. Mã nguồn mở, phần mềm tự do/New folder",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Hệ hình nghiên cứu/~syncthing~Khi thiết lập xong ta sẽ mong đợi là không phải đụng lại nó lần nữa.md.tmp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/~syncthing~Việc rút gọn cả bài thành câu tóm tắt chỉ có tác dụng khi mình hiểu dược những khái niệm quan trọng trong bài.md.tmp",
+    "⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Khoa học nhận thức/~syncthing~Hiểu biết sâu làm ta thấy khoái cảm.md.tmp",
+    "📜Tài nguyên/Giải pháp kỹ thuật/Cộng đồng online/~syncthing~Chuyện tôi tự học Promise trong JavaScript.md.tmp",
+    "Untitled.canvas",
     "Ξ Thiết lập/Ảnh/Logo/logo.png",
     "Ξ Thiết lập/Ảnh/Mối quan tâm chung.jpeg",
     "📐 Dự án/Công cụ cho hệ sinh thái/Nền kinh tế tri thức.canvas",
@@ -219,7 +243,6 @@
     "Ξ Thiết lập/Ảnh/Pasted image 20231109153144.png",
     "Ξ Thiết lập/Ảnh/Người giàu nghĩ gì về quan điểm tiền không mua được hạnh phúc.jpg",
     "Ξ Thiết lập/Ảnh/440512325_813700394138855_2975689979954753250_n.png",
-    "Ξ Thiết lập/Ảnh/Flat White.png",
-    "Untitled.canvas"
+    "Ξ Thiết lập/Ảnh/Flat White.png"
   ]
 }

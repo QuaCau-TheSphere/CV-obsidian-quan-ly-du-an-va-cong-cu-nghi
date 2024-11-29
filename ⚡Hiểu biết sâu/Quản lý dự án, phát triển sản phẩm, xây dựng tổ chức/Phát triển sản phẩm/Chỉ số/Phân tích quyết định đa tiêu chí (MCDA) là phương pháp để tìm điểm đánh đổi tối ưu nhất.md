@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-10-03T14:45
+updated: 2024-11-18T14:20
 ---
+Khái niệm:: [[Ra quyết định]]
 Không biết phương pháp này đã tối ưu nhất chưa? Không biết nó đã phải đánh đổi cái gì với cái gì?
 Bản chất là bài toán tính thể tích vật đa chiều
 Nguồn:: [[Wikipedia]], [Multiple-criteria decision analysis - Wikipedia](https://en.wikipedia.org/wiki/Multiple-criteria_decision_analysis)

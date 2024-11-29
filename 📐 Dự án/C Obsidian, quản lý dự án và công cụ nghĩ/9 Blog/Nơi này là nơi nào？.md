@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-25T10:54
-updated: 2024-09-16T21:04
+updated: 2024-11-02T12:38
 ---
 # Mục tiêu
 Đây là một vault Obsidian dành riêng cho người Việt với mục tiêu:
@@ -20,7 +20,7 @@ Những vấn đề mà một dự án nhỏ, không có nhiều tiền và cả
 Không phát minh lại bánh xe, cái nào người khác làm rồi mà làm hay hơn mình thì chỉ dẫn link hoặc copy
 
 Là nơi để mọi người biết được thêm về các chuyên ngành khác, tránh việc phân mảnh kiến thức
-Để hiểu thêm về động lực thực hiện dự án này, xem bài [[Từ việc lưu dữ liệu tại chỗ đến sự hợp tác đa phương và liên ngành và nền kinh tế không dùng tiền]]
+Để hiểu thêm về động lực thực hiện dự án này, xem bài [[Vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản|Phá vỡ silo thông tin và nắm bắt nhu cầu các bên một cách hiệu quả: tầm quan trọng của các phần mềm ghi chú động và lưu dữ liệu tại máy người dùng]]
 
 # Cách tổ chức dữ liệu
 Cách vault này tổ chức cũng giống Wikipedia, nhưng tiêu đề từng trang không phải là một chủ đề mà là một câu. Như vậy thì sự tập trung vào một ý niệm sẽ được đẩy lên cao hơn, cũng sẽ dễ làm mình thấy được sự liên kết giữa các ý lại với nhau hơn. 

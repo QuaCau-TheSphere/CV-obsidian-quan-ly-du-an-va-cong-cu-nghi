@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-22T21:45
-updated: 2024-08-02T15:33
+updated: 2024-10-18T15:35
 ---
 Nguồn:: [[Bret Victor]], [Up and Down the Ladder of Abstraction](http://worrydream.com/LadderOfAbstraction/)
 
@@ -11,7 +11,7 @@ Nguồn:: [[Bret Victor]], [Up and Down the Ladder of Abstraction](http://worryd
 [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
 [[Giả định có mặt ở khắp nơi]]. [[Giả định đến từ trực giác]]
 [[Thang đo năng lực dựa trên việc có thể đưa ra phân tích và trực giác đúng hay không]]
-[[Sự chuyên gia (expertise) đến từ việc nhìn ra mẫu hình]]
+[[Sự chuyên gia đến từ việc nhìn ra mẫu hình]]
 
 [[Ghi chú thì linh hoạt, nhưng tĩnh. App thì cứng nhắc, nhưng động]]
 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-02-27T15:45
-updated: 2024-09-22T15:42
+updated: 2024-10-07T22:28
 description: WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ tạo web hiệu quả nhất
 alias:
   - Người dùng cá nhân hoặc dự án nhỏ có nên dùng WordPress hay không?
@@ -40,7 +40,12 @@ Nếu bạn để ý, ở trên mình có nói là nếu bạn muốn tạo mộ
 <iframe width="560" height="315" src="https://videopress.com/embed/FmtB9Wcw" frameborder="0" allowfullscreen allow="clipboard-write"></iframe>
 <script src="https://videopress.com/videopress-iframe.js"></script>
 
-Web động cũng như web tĩnh đều đòi hỏi bạn phải cài đặt, cấu hình phần mềm. Nhưng vì người dùng web động phải trả thêm cả tiền host khiến cho các công ty hosting có thêm nhiều tiền từ các phần mềm tạo web động hơn các phần mềm tạo web tĩnh. WordPress vào thời điểm ra mắt là phần mềm tạo web động duy nhất có giao diện thân thiện với người dùng. Những điều này đã thúc đẩy các công ty này tập trung vào WordPress, quảng cáo cho nó nhiều hơn. Các công ty này có lợi hơn nếu như người dùng nghĩ đến WordPress đầu tiên khi họ muốn tạo website. Từ đó WordPress bước vào vòng lặp dương, và trở thành một hệ thống quản lý nội dung tiện lợi hơn với người dùng cũng như có được một hệ sinh thái theme và plugin đồ sộ như bây giờ. Việc bạn được bạn bè giới thiệu dùng WordPress cũng là vì nó là thứ giúp bạn đi bước đi đầu tiên dễ dàng nhất, chứ không phải vì nó là thứ giúp bạn đi cả con đường hiệu quả nhất.
+Web động cũng như web tĩnh đều đòi hỏi bạn phải cài đặt, cấu hình phần mềm. Nhưng nó được biết tới rộng rãi như bây giờ bởi vì vào thời điểm nó ra đời (2003), nó là chương trình tạo web duy nhất:
+- hướng tới người dùng cá nhân cho việc tạo blog,
+- có thể dựng trang web bằng giao diện người dùng đồ hoạ (GUI page builder),
+- là phần mềm tự do và miễn phí (FOSS)
+
+Từ đó WordPress bước vào vòng lặp dương, và trở thành một hệ thống quản lý nội dung tiện lợi hơn với người dùng cũng như có được một hệ sinh thái theme và plugin đồ sộ như bây giờ. Việc bạn được bạn bè giới thiệu dùng WordPress cũng là vì nó là thứ giúp bạn đi bước đi đầu tiên dễ dàng nhất, chứ không phải vì nó là thứ giúp bạn đi cả con đường hiệu quả nhất.
 
 Cho nên mình nghĩ, câu chuyện giữa web tĩnh và WordPress là câu chuyện đánh đổi giữa dài hạn và ngắn hạn, giữa việc có và không có người đi cùng bạn bước đi đầu tiên. Mình nghĩ WordPress chỉ có lợi nếu bạn cần dùng web động (mà nếu bạn đã hiểu được web động là gì và tại sao mình lại cần web động thì trình độ của bạn đã đi xa hơn bài này rồi. Bạn không còn cần nghe lời khuyên của mình làm gì), hoặc cần một hệ thống quản lý nội dung **đáp ứng được cả 3 yêu cầu sau**:
 - [[Để có thể thiết kế một giải pháp một cách nhanh chóng và tự tin, ta cần được thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra|Cho bạn  phản hồi tức thời khi tuỳ chỉnh giao diện và chức năng]],
@@ -51,11 +56,16 @@ Còn không thì với nhu cầu nhỏ thì dùng web tĩnh có lợi về lâu 
 
 WordPress ra đời năm 2003. 21 năm đã trôi qua, và công nghệ web cũng đã có nhiều thứ mới. Thời điểm đó không có Git, Node, Stack Overflow, VS Code, Astro, Obsidian, ChatGPT. Những cái tên mình liệt kê ra ở đây có thể bạn không hiểu nó là gì, nhưng chúng đã làm cho việc sử dụng web tĩnh trở nên nhẹ nhàng hơn, hoặc có nhiều lợi ích hơn. Nhưng kể cả là ngay bây giờ, khi đã có những công cụ đó, thì mình vẫn phải thừa nhận là với người không biết gì thì đi bước đầu tiên bằng WordPress vẫn dễ hơn đi bước đầu tiên bằng web tĩnh. 
 
-Tương tự việc [[Xây dựng kho tri thức, hệ thống quản lý kiến thức hoặc quản lý dự án|các ERP được dựng sẵn không đủ khả năng đáp ứng những luồng làm việc và suy nghĩ đặc thù]], [[Việc lập trình ít trực giác hơn nhưng lại có nhiều đánh đổi hơn các ngành khác|có rất nhiều đánh đổi trong cái ngành công nghệ thông tin này]]. Hãy chọn loại đánh đổi nào đem lại hiệu quả nhất cho bạn.
+Điều mình muốn nhấn mạnh, với tư cách là một người đã đi khá nhiều trong lĩnh vực lập trình web, là WordPress sẽ làm những bước đi tiếp theo của bạn kém thoải mái hơn nhiều. Tương tự việc [[Các ERP được dựng sẵn không đủ khả năng đáp ứng những luồng làm việc và suy nghĩ đặc thù]], [[Việc lập trình ít trực giác hơn nhưng lại có nhiều đánh đổi hơn các ngành khác|có rất nhiều đánh đổi trong cái ngành công nghệ thông tin này]]. Hãy chọn loại đánh đổi nào đem lại hiệu quả nhất cho bạn.
 
 Xem thêm:: [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]]
 
 ## Nơi thảo luận
 ![](https://i.imgur.com/4fq665i.png)
 
+
+%% 
+Web động cũng như web tĩnh đều đòi hỏi bạn phải cài đặt, cấu hình phần mềm. Nhưng vì người dùng web động phải trả thêm cả tiền host khiến cho các công ty hosting có thêm nhiều tiền từ các phần mềm tạo web động hơn các phần mềm tạo web tĩnh. WordPress vào thời điểm ra mắt là phần mềm tạo web động duy nhất có giao diện thân thiện với người dùng. Những điều này đã thúc đẩy các công ty này tập trung vào WordPress, quảng cáo cho nó nhiều hơn. Các công ty này có lợi hơn nếu như người dùng nghĩ đến WordPress đầu tiên khi họ muốn tạo website. 
+
 Có vẻ như lập luận dùng web động có lợi hơn cho dịch vụ web là chưa hoàn toàn chính xác: [blog - What made WordPress become dominance for small websites, comparing to static CMSes? - Webmasters Stack Exchange](https://webmasters.stackexchange.com/q/145281/52079)
+%%

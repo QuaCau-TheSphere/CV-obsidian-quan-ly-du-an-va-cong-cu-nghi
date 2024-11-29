@@ -16,11 +16,12 @@ Khái niệm:: 		kn
 Lý do:: 		ld
 Liên quan:: 		lq
 Câu hỏi:: 		ch
-Mâu thuẫn với:: 		mtv
 Xem thêm:: 		xt
+Mâu thuẫn với:: 		mtv
 
 Nguồn:: 		ng
 Trích từ:: 		tt
+Hỏi thêm:: 		ht
 Tham khảo:: 		tk
 
 Nhu cầu công việc:: 		nccv
@@ -35,7 +36,8 @@ Giải pháp kỹ thuật:: 		gpkt
 | Giải pháp gợi ý | Hành vi cần đạt được | Giả thiết | Công việc |\n| --------------- | -------------------- | --------- | --------- |		gp
 
 ## Dataview
-```dataview\nLIST\nFROM |\nWHERE\n```		dtv
+```dataview\nLIST\nFROM |\nWHERE file.name != this.file.name\n```		dtv
+```dataview\nLIST rows.file.link\nFROM |\nGROUP BY split(file.folder, "/")[3]\nWHERE file.name != this.file.name\n```		dtvv
 Các note cũng nói về chủ đề này:\n```dataview \nList\nWhere contains(file.name,split(this.file.name," \(")[0]) and file.path!=this.file.path\n```		cungchude
 
 (#đct-🔥🔥Phảilàmngay or #đct-🔥/muốnlàmngay or #đct-🔥/nênlàmngay)		PNM, dct1
@@ -49,4 +51,4 @@ Các note cũng nói về chủ đề này:\n```dataview \nList\nWhere contains(
 
 > [!Tip] Phím tắt\n> <kbd>|</kbd>		pt
 
-> [!Tip] Terminal\n> <kbd>|</kbd>		tm
+> [!Tip] Lệnh trên terminal\n> <kbd>|</kbd>		tm

@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-10-27T18:59
-updated: 2024-10-03T22:26
-alias: heading
+updated: 2024-11-12T21:18
 cssClass: wide-table
+alias: heading
 ---
 Một tiêu đề có rất nhiều chức năng:
 - Tạo kích thích cho người đọc, khiến họ thấy vì sao họ cần đọc bài đó, dù họ đang không tìm kiếm thông tin về nó
@@ -38,14 +38,16 @@ Giờ, nếu bạn không có tiêu : thì đang đinh ninh tiêu đề phải g
 Các ghi chú tương tự: [[📜Tài nguyên]], [[📜Tài nguyên/Nhu cầu công việc/Nhu cầu công việc]]
 
 ### Dùng `title` khi tiêu đề đọc từ cây thư mục giống với tiêu đề nội dung về mặt ngữ nghĩa
-Ví dụ, trong thư mục `📜Tài nguyên/Giải pháp kỹ thuật/Hậu cần/Nơi gặp mặt trực tiếp/TP.HCM` có [[TP.HCM|ghi chú này]]. Nó cần có tên là 
+Ví dụ, trong thư mục `📜Tài nguyên/Giải pháp kỹ thuật/Hậu cần/Nơi gặp mặt trực tiếp/TP.HCM` có [[TP.HCM|ghi chú này]]. Bởi vì nó là ghi chú thư mục, nên nó cần có tên là:
 ```
 TP.HCM
 ```
-bởi vì nó là ghi chú thư mục. Nhưng chỉ, nên đổi tiêu đề trên cao là "
+Nhưng lúc mở ra thì thấy hơi khó hiểu. Nếu tiêu đề trên cao là như này thì sẽ rõ nghĩa hơn:
 ```
 Nơi gặp mặt trực tiếp tại TP.HCM
 ```
+
+Ví dụ khác, [[Kế hoạch (khái niệm)|Kế hoạch (khái niệm)]] phải mở ngoặc vì nếu không nó sẽ trùng tên với [[kế hoạch|Kế hoạch tổ chức các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình]]. Dùng `title` để không phải thấy cái ngoặc.
 
 Bổ sung những thông tin được hiểu ngầm trong lúc truy cập từ cây thư mục, nhưng không có khi liên kết từ nơi khác.
 
@@ -71,3 +73,4 @@ Phản đối:
 
 
 Có lúc chỉ muốn đặt tiêu đề là câu hỏi, dù có thể đặt theo chủ đề: [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]. Có lúc thì chỉ muốn đặt theo chủ đề, dù có thể đặt theo câu hỏi: [[Các loại tiêu đề và cách dùng chúng]]
+

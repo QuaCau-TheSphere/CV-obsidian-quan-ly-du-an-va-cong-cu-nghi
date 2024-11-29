@@ -1,38 +1,14 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-03-30T11:41
+updated: 2024-10-14T09:28
 ---
-Khái niệm:: 
-[[Các câu hỏi về việc thành lập quỹ tín dụng, nền kinh tế phi chính thức, bản chất CSR của doanh nghiệp và tâm lý con người về tiền]]
-
-## Ai là người muốn có giải pháp cho người đang ngập trong nợ nhất?
-Không có tổ chức nào có đối tượng thụ hưởng là người đang nợ
-## Nếu [[Cho vay ngang hàng]], [[Cho mượn theo nhóm đảm bảo hơn]], tại sao các doanh nghiệp, ngân hàng không áp dụng?
-mô hình vay nhóm chỉ áp dụng cho người nghèo, còn kinh doanh thì có nhiều hình thức khác. Người nghèo hầu như không có theo nhóm được
-## Các chương trình hỗ trợ người lao động của chính phủ gặp vấn đề gì mà không phát triển được?
-Họ vô vì xoasd đói giảm nghèo, hết bệnh. Cho mượn là lồng ghép để thoát nghèo thôi
-Bangladesh thế giới 3 không. Chưa thấy có tổ chức chuyên về tiết kiệm tín dụng vì nó rất khó. Gặp nghị định của chính phủ muốn kiểm soát dòng tiền
-dariu foudation
-Chính phủ làm từ thiện thì được, chứ không nên thúc đẩy xã hội. Như hồi covid quận 8 bị bùng dịch chính phủ có làm được gì đâu. Bộ đội vô cũng ko làm đc gì. Tốt nhất là có cơ chế mở đường cho các nhóm xã hội vào hỗ trợ
-quận 8 hồi covid. Vấn đề xã hội phức tạp rất khác biệt. 
-
 ## Vì sao anh không lo lắng là mình đang bị để ý? Dù sao anh cũng là người có tiếng trong cộng đồng mà
 Tiền giải ngân của tphcm chỉ giải ngân được 12% mà quy trình ko phê duyệt được. Nó là một bí ẩn
-## Anh có biết những người có tiền nhàn rỗi lớn và hay cho từ thiện nào không? Ví dụ như các cơ sở tôn giáo? Điều gì khiến mình có thể vay được từ họ?
-LIN theo sứ mệnh quản lý tổ chức, chứ ko phải là phát triển cộng đồng, chỉ có kết nối
-Sứ mạng của họ là thương người chứ không phải là phát triển cộng đồng. 
-## Điều gì khiến một người có tiền nhiều tới mức đầu tư cũng ko hết vẫn ko muốn cho tiền? Tại sao việc đáp ứng nhu cầu người khác lại không mạnh hơn việc tối đa hoá tiền? 
-Học viện mà Mark Zuckerberg học ở cấp 3 là nhân bản
-- truyền thống thì mình có, nhưng phải nuôi dưỡng. Nuôi dưỡng thông qua giáo dục thì mình ko có. Và phải
 
-- Mỹ: đề cao tư bản, nhưng có luật sòng phẳng. Định hình thể chế philanthropy thông qua luật
-- Châu Âu: thuế thu nhập rất cao
-# Mạng kết nối nhu cầu
-- Các nhóm xã hội như bọn anh lấy tiền từ đâu? Bà Tôn Nữ Thị Ninh
 # Nhu cầu của các tổ chức về phân loại dữ liệu tự động
 - Làm sao để nhóm thấy bài viết liên quan để duyệt? 
-[[📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Người dùng cá nhân/Nhu cầu phân loại tự động/Mục tiêu và câu hỏi nghiên cứu người dùng cá nhân cần phân loại tự động]], [[📐 Dự án/Trấn Kỳ/4 Thành phẩm/Người dùng/Tổ chức nhỏ hoặc người cần kỷ luật tài chính/Nhu cầu phân loại tự động/Câu hỏi phỏng vấn|Câu hỏi phỏng vấn]]
+
 ## Hành vi phân loại
 ### Anh có thể phân loại mẫu được không?
 Phân loại theo số nhân viên hoặc tổng số tiền.
@@ -64,5 +40,7 @@ Tại sao ai cũng lấy bản đồ các bên liên quan ra, nhưng việc lậ
 - SNPO khác gì LIN
 - DRD, quỹ hoà bình và phát triển có gì phucwsc tạp như LIN ko?
 - vì  sao kiểm toán 
-- Các tổ chức đầu tàu có quan tâm đến minh bạch dữ liệu nội bộ ko?
-- trao đổi thoongtin kém có là lý do hệ sinh thái kém phát triển?
+- Các tổ chức đầu tàu có quan tâm đến việc chia sẻ dữ liệu nội bộ ko?
+- trao đổi thôn tin kém có là lý do hệ sinh thái kém phát triển?
+
+Anh bảo các tổ chức giờ rã hết, nhưng em thấy vẫn có nhiều nhóm trên fb. VD như chính nhóm ung thư vú anh làm cố vấn. Vậy sao anh vẫn nói là ko có?

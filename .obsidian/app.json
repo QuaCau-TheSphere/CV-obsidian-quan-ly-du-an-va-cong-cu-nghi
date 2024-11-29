@@ -4,5 +4,31 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "Ξ Thiết lập/Ảnh",
   "alwaysUpdateLinks": true,
-  "trashOption": "local"
+  "trashOption": "local",
+  "mobileToolbarCommands": [
+    "editor:insert-wikilink",
+    "editor:insert-embed",
+    "editor:swap-line-up",
+    "editor:swap-line-down",
+    "obsidian-editor-shortcuts:duplicateLine",
+    "obsidian-editor-shortcuts:deleteLine",
+    "editor:insert-tag",
+    "editor:attach-file",
+    "editor:set-heading",
+    "editor:toggle-bold",
+    "editor:toggle-italics",
+    "editor:toggle-strikethrough",
+    "editor:toggle-highlight",
+    "editor:toggle-code",
+    "editor:toggle-blockquote",
+    "editor:insert-link",
+    "editor:toggle-bullet-list",
+    "editor:toggle-numbered-list",
+    "editor:toggle-checklist-status",
+    "editor:indent-list",
+    "editor:unindent-list",
+    "editor:undo",
+    "editor:redo",
+    "editor:configure-toolbar"
+  ]
 }
