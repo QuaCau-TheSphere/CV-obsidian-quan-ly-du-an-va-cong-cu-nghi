@@ -1,17 +1,19 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-08-30T21:03
-alias:
+updated: 2025-06-07T10:27
+aliases:
   - Những đánh đổi phổ biến trong việc phát triển phần mềm
   - Ngành lập trình có rất nhiều đánh đổi
+  - Các đánh đổi trong ngành lập trình
 description: Đâu là những đánh đổi phổ biến trong việc phát triển phần mềm?
 ---
 
 Khái niệm:: [[Đánh đổi]], [[Trực giác]]
 Đó chính là lý do [[Lập trình thực ra là dùng ẩn dụ]], vì [[Ẩn dụ là cách ta hiểu code bằng cơ thể]]
 [[Các ngành khác đều làm việc với những vật thể cụ thể trong không gian. Chỉ có ngành lập trình là không có điều đó]]
-[[Khi đang có việc và phải bỏ dở để học một công cụ, ta không nhức đầu khi đó là công cụ vật lý, nhưng lại nhức đầu khi đó là công cụ số]] 
+[[Khi đang dành tâm trí cho một công việc nhưng phải tạm hoãn giữa chừng để học một công cụ, ta sẽ không nhức đầu khi đó là công cụ vật lý, nhưng lại nhức đầu khi đó là công cụ số]] 
+[[Học lập trình nhức đầu hơn học các ngành khác vì nó có quá nhiều đánh đổi, đồng thời cũng kém tính vận động trong không gian hơn, nên ta ít có khả năng nảy sinh trực giác hơn]]
 
 ---
 Mỗi loại công nghệ đều có những ưu, khuyết điểm trong những trường hợp nhất định (về yêu cầu, quy mô, nhân lực, timeline, bảo mật, ông lead, bà PM, vân vân mây mây...)
@@ -88,3 +90,4 @@ Simplicity in software design promotes ease of understanding and maintenance. Ho
 At different stages of software development, architects and development teams encountered some of the above trade-offs to to meet project objectives effectively. Understanding these trade-offs and finding the optimal balance is crucial for successful software delivery. Striking the right balance requires a holistic approach, considering project requirements, available resources, and stakeholder expectations. By consciously evaluating and managing trade-offs, software professionals can deliver successful software solutions that meet user needs while maintaining a balance between competing factors.
 
 Nguồn:: [Common Trade-offs in Software Development](https://medium.com/@i.vikas/common-trade-offs-in-software-development-13d6f322e83b)
+![](https://www.monkeyuser.com/2021/trolley-conundrum/209-trolley-conundrum.png)

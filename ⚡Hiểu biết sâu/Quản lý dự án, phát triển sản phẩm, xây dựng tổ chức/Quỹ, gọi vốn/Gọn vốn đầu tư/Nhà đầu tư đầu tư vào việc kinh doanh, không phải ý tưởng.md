@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-06T19:52
+updated: 2025-05-26T19:55
 ---
-Khái niệm:: [[Ý tưởng]], [[Đầu tư]]
+Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Nhận thức/Ý tưởng]], [[Đầu tư]]
 - You must show them scalable and sustainable opportunities
 - Demonstrate awareness of comprehensive business management
 - You must create confidence that youưqq221b understand boring business operations

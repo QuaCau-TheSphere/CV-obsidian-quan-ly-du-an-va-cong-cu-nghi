@@ -1,9 +1,12 @@
 ---
-alias: coreteam, core team, thành viên nòng cốt
+aliases:
+  - coreteam
+  - core team
+  - thành viên nòng cốt
 Nội dung:
   - thảo luận chung
 created: 2023-06-12T00:57
-updated: 2024-07-29T13:42
+updated: 2025-09-19T11:22
 ---
 
 Câu hỏi liên quan đến chủ đề này:

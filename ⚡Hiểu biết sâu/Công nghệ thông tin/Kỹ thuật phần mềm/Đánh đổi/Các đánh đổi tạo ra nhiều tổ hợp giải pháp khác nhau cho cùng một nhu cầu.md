@@ -2,7 +2,8 @@
 share: true
 created: 2023-09-05T16:17
 updated: 2024-08-28T13:45
-alias: Tại sao có nhiều giải pháp khác nhau cho cùng một vấn đề đến như vậy?
+aliases:
+  - Tại sao có nhiều giải pháp khác nhau cho cùng một vấn đề đến như vậy?
 description: Tại sao có nhiều giải pháp khác nhau cho cùng một vấn đề đến như vậy?
 ---
 Khái niệm:: [[Đánh đổi]]

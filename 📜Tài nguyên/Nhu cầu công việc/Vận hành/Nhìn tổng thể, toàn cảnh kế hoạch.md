@@ -1,13 +1,13 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-10-18T15:39
+updated: 2025-09-27T11:38
 ---
 Lĩnh vực:: 
-Nhu cầu công nghệ:: [[Tạo dashboard]]
+Nhu cầu công nghệ:: [[Tạo dashboard]], [[Tài liệu động]]
 
 [[Trực giác là việc nhìn ra mẫu hình không hơn không kém]]
-[[Minh hoạ, sơ đồ hóa kiến thức]]
+[[Sơ đồ hóa kiến thức, tạo canvas]]
 [[❓Bản đồ là cách để ta biết mình cần gì khi còn chưa cảm nhận được thứ mình cần là gì]]
 [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|Làm sao để tìm được thứ ta cần khi ta không biết từ khoá chính xác của nó?]]
 

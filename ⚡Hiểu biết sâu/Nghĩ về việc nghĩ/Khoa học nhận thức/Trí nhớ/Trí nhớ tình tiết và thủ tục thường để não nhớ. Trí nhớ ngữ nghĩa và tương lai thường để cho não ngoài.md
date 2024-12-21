@@ -1,9 +1,10 @@
 ---
 share: true
 created: 2024-08-05T17:16
-updated: 2024-09-24T11:41
+updated: 2025-06-09T18:05
 ---
-Khái niệm:: 
+Khái niệm:: [[Trí nhớ]]
+
 ## Bộ nhớ trong (internal memory)
 Mục đích chính:
 - Ký ức theo tình tiết (Episodic)
@@ -54,3 +55,4 @@ Nguồn::![](https://i.imgur.com/7Akkvmx.png)
 [[Nhiều khi ta nhớ nơi lưu trữ thông tin hơn là chính thông tin đó]]
 
 [[Trường phái bớt và trường phái thêm]]
+

@@ -1222,3 +1222,5 @@ var FileDiffPlugin = class extends import_obsidian5.Plugin {
     return syncConflicts;
   }
 };
+
+/* nosourcemap */

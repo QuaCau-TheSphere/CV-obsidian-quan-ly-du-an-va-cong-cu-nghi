@@ -1,20 +1,25 @@
 ---
 share: true
 created: 2024-04-24T09:02
-updated: 2024-11-12T22:26
+updated: 2025-09-25T09:51
 title: Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?
-alias: Đâu là nơi dễ gặp được từ khoá cần tìm nhất?
+aliases:
+  - Đâu là nơi dễ gặp được từ khoá cần tìm nhất?
 description: Đâu là nơi dễ gặp được từ khoá cần tìm nhất?
 ---
-Khái niệm:: [[Mental modal]]
-
 > The difference between the almost right word and the right word is really a large matter - 'tis the difference between the lightning-bug and the lightning.
 > — Mark Twain
 
 Thực ra trong rất nhiều trường hợp, thứ cản trở ta có được từ khoá không hẳn là ở việc không biết phải bắt đầu tìm hiểu ở đâu, mà ở việc không có thời gian tìm hiểu. [[Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google]], và [[ta thường không sẵn sàng để đọc một tài liệu khi ta mới thấy nó|kể cả khi đã có được bài viết rồi thì ta cũng thường không sẵn sàng để đọc nó]], vì [[mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]. Sẽ thật tốt nếu như bạn có ngay một người am hiểu về lĩnh vực đó và sẵn sàng trả lời cho bạn. Nhưng nếu bạn không có ai am hiểu lĩnh vực quanh mình, hoặc bạn không muốn làm phiền họ nên không muốn hỏi họ, hoặc họ cũng không biết câu trả lời, thì lúc này câu hỏi "Làm sao để tìm được thứ ta cần khi ta không biết từ khoá chính xác của nó" sẽ trở thành:
 
+## Điều mà làm một mình không thể có được
+
 ## Nếu tôi phải tự tìm hiểu một mình, thì đâu là nơi dễ gặp được từ khoá cần tìm nhất?
 Các gợi ý được sắp xếp theo mức độ tiêu tốn năng lượng.
+
+### Mô hình ngôn ngữ lớn
+[[LLM làm rất tốt việc gợi ý từ khoá]]. Tuy nhiên, nhớ rằng [[LLM là định dạng ảnh mờ của web]]. [[Việc truy xuất thông tin cần có accuracy, sourcing, consistency, and fragility. LLM không có những thứ đó]].
+
 ### Máy tìm kiếm
 Nhược điểm của việc này là không ít chủ đề bị tấn công bởi SEO rác. Có thể giảm thiểu điều này bằng việc [[Ẩn kết quả tìm kiếm rác trên Google]], tuy nhiên cũng chỉ hạn chế được phần nào. Hơn nữa, kể cả khi không bị SEO rác, thì cũng có khả năng [[❓Tác giả của một bài viết không bao giờ vét cạn được mọi từ khoá mà người đọc có thể sẽ nhập vào máy tìm kiếm để được gợi ý tới bài viết đó]].
 
@@ -28,9 +33,8 @@ Có thể giảm bớt vấn đề này bằng việc thêm vào các từ khoá
 - [Không gian vector từ của Google](https://projector.tensorflow.org/)
 - Từ điển các từ đồng nghĩa, gần nghĩa (synonyms) 
 - Phần mục lục của [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists "List of lists of lists - Wikipedia")
-- [Six Degrees of Wikipedia](https://www.sixdegreesofwikipedia.com)
+- [Wikipedia Map](https://wikipedia.luk.ke/), [Six Degrees of Wikipedia](https://www.sixdegreesofwikipedia.com)
 
-ChatGPT hay Gemini thực ra cũng nằm trong nhóm này, nhưng bởi vì [[AI là định dạng ảnh mờ của web]], nên dùng chúng sẽ không hiệu quả bằng. 
 
 ### Các cộng đồng chuyên môn
 Diễn đàn chuyên về hỏi đáp [[Stack Exchange]] có cơ chế bầu chọn theo tập thể, giúp đưa thông tin hữu ích nhất lên cao. Quora cũng là một diễn đàn hỏi đáp có cơ chế bầu chọn theo tập thể, nhưng có vẻ nó thiên về nghe những câu chuyện từ những người có uy tín hơn. Với những câu hỏi để tìm từ khoá thì bạn không có nhiều không gian để giải thích vấn đề, và cũng dễ gặp tình trạng câu trả lời chỉ chung chung. Nếu muốn có những cuộc thảo luận mở thì mình thấy Reddit tốt hơn.
@@ -51,7 +55,7 @@ Nếu dành thời gian để viết những gì bạn đã thử mà không đ�
 Thường đó sẽ là các danh sách được tuyển chọn, ví dụ như:
 - Phần mục lục của [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists "List of lists of lists - Wikipedia") trên Wikipedia (có thể tìm hiểu thêm về [[Uy quyền sự thật của Wikipedia]])
 - Phần mục lục của [Awesome Projects](https://imq.github.io/awesome-projects/#/?id=books) trên GitHub
-
+- [Outline of academic disciplines - Wikipedia](https://en.wikipedia.org/wiki/Outline_of_academic_disciplines)
 Các kho kiến thức:
  - Với tiếng Việt thì có [trang giới thiệu về đối ⊷ thoại](https://doi-thoai.deno.dev/blog?utm_source=Vault+C+Obsidian%2C+quản+lý+dự+án+và+công+cụ+nghĩ+(Hiểu+biết+sâu)&utm_medium=Vault&utm_campaign=đối+⊷+thoại&utm_content=⚡Hiểu+biết+sâu%2FNghĩ+về+việc+nghĩ%2FHọc+tập%2C+hiểu+biết%2FLàm+sao+để+tìm+được+thứ+ta+cần+khi+ta+không+biết+từ+khoá+chính+xác+của+nó.md&utm_term=).
 
@@ -59,10 +63,11 @@ Xem thêm:: [[Xây dựng hệ thống tri thức cộng đồng|Làm sao để 
 ### Các nghiên cứu tổng quan, sách nhập môn, bài giảng đại học
 Hết cách rồi, phải lao đầu vào nghiên cứu thật kỹ thôi.
 
+- Lên trang Wikipedia của khái niệm gần nhất mà bạn biết và đọc nó. Đọc luôn cả phần *Category* ở dưới
 - Lên YouTube kiếm playlist bài giảng
 - Tìm trên Google Scholars bằng truy vấn `[chủ đề] literature review`
 - Lên [[LibGen]] tải sách 
-
+- [Cách tìm kiếm các bài viết học thuật](https://phunghuy.wordpress.com/2016/01/05/academicsearch/)
 Xem thêm:: [[Tinh túy của một cuốn sách chính là mục lục của nó]]
 
 ## Liệu đây đã là cách hiệu quả nhất chưa? 
@@ -93,6 +98,7 @@ Hoặc cũng có thể có câu trả lời rồi mà mình chưa biết. Nếu 
 - [[Xây dựng hệ thống tri thức cộng đồng|Xây dựng hệ thống tri thức cộng đồng: Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]] 
 - [[Sự chuyên gia đến từ việc nhìn ra mẫu hình|Làm sao để giỏi hơn: Sự chuyên gia (expertise) đến từ việc nhìn ra mẫu hình]]
 
+Khái niệm:: [[Mental modal]], [[Điều không biết]]
 
 %%
 Đầu tiên, hãy hiểu rằng một từ được định nghĩa bởi một tổ hợp các từ khoá khác. Ví dụ, một người nước ngoài đang học tiếng Việt khi muốn nói về con mèo nhưng không biết tiếng Việt gọi con mèo như thế nào, thì có thể họ sẽ hỏi một câu như này:

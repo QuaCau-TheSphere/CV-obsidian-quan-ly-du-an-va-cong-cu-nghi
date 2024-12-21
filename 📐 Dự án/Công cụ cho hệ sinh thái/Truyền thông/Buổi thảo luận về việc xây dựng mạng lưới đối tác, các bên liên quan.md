@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-09-23T15:29
-updated: 2024-10-04T11:46
+updated: 2025-09-06T16:54
 ---
 Theo khảo sát hôm qua về các nhu cầu mà các bạn trong nhóm cần được thảo luận, hướng dẫn thì **Xây dựng mạng lưới đối tác, các bên liên quan** là nhu cầu được mọi người quan tâm nhất. Mọi người nghĩ sao nếu chúng ta có một buổi thảo luận để bàn về:
 # Buổi thảo luận về việc xây dựng mạng lưới đối tác, các bên liên quan
@@ -41,6 +41,6 @@ Khảo sát cũ: https://www.facebook.com/groups/abgnetworkofficial/posts/288284
 
 Mình dự tính nếu có nhiều thời gian chúng ta cũng sẽ thử lập một mạng lưới giữa chúng ta luôn. Điều đó sẽ đòi hỏi chúng ta phải cài đặt chương trình, nhập liệu và truy vấn kho dữ liệu của bạn. Cho nên mình khuyến khích các bạn đem theo laptop, đồng thời mình cũng sẽ tập trung  cần thiết và có dữ liệu đem về nhà dùng được ngay luôn. Cũng chính vì có thể phải cài đặt, hướng dẫn sử dụng chương trình nên mình sẽ ưu tiên làm một buổi gặp mặt trực tiếp tại TPHCM trước để thao tác thuận tiện.
 
-[[Xây dựng mạng lưới đối tác, các bên liên quan]]
+[[Xây dựng mạng lưới đối tác, các bên liên quan. Kết nối nguồn lực nhàn rỗi]]
 
 [[Dự án xã hội, NPO, nghiên cứu khoa học, nghệ thuật, hội hoạ]]

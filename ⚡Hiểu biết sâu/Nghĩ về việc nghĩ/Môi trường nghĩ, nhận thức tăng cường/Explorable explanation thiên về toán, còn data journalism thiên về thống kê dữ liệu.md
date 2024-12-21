@@ -1,8 +1,8 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-28T13:13
+updated: 2025-06-25T16:24
 ---
 Khái niệm:: 
 
-Nguồn:: 
+Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]

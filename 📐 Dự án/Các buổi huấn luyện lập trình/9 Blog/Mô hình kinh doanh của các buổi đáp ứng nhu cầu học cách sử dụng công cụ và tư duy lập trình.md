@@ -1,8 +1,8 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-10-18T15:35
-alias:
+updated: 2025-01-15T23:22
+aliases:
   - Khi nào thì chiến lược định giá "trả tuỳ tâm" đạt được sự bền vững?
   - Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình
 title: Khi nào thì chiến lược định giá "trả tuỳ tâm" đạt được sự bền vững?
@@ -39,7 +39,7 @@ Khách hàng không muốn mình bị xem là thiếu sòng phẳng, trục lợ
 ## Người mua và người bán có mối quan hệ tốt
 Việc tạo thiện cảm cho khách hàng làm họ tự động muốn họ trả lại lòng tốt. Đây là một số cách mà Quả Cầu làm để đạt được điều này:
  - Thể hiện mình đặt nhu cầu của họ lên trên bằng cách cho họ tự định giá sức lao động của mình
- - Cung cấp kiến thức sâu: [[Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình|Khi nào thì chiến lược định giá "trả tuỳ tâm" đạt được sự bền vững?]], [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]], [[Lý do viết Trấn Kỳ|Tại sao các phần mềm nocode hay ChatGPT vẫn không đủ để thay thế lập trình trong việc quản trị?]]
+ - Cung cấp kiến thức sâu: [[Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình|Khi nào thì chiến lược định giá "trả tuỳ tâm" đạt được sự bền vững?]], [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]], [[Các ERP được dựng sẵn không đủ khả năng đáp ứng những luồng làm việc và suy nghĩ đặc thù]]
  - [[📐 Dự án/Các buổi huấn luyện lập trình/4 Thành phẩm/Kế hoạch/Kế hoạch|Kế hoạch tổ chức các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình]] ([[Nhìn thấy được người kia đang làm gì làm tăng sự tin tưởng đối với họ]])
 
 Điều này cũng có nghĩa là điều kiện này chỉ xảy ra khi khách hàng đã chịu khó đọc bài trước. Với những người không có thời gian đọc bài thì cảm giác tin tưởng sẽ không được phát triển. Xem thêm phần [[Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình#Vấn đề về sự không đầy đủ thông tin|Vấn đề về sự không đầy đủ thông tin]].

@@ -1,8 +1,18 @@
 ---
 share: true
 created: 2023-09-08T21:32
-updated: 2024-09-02T13:21
+updated: 2025-06-07T10:39
 ---
+Fibery cũng là một sản phẩm low code. Nó *hứa hẹn* giải quyết được 2 vấn đề sau:
+- Một nơi vừa để quản lý công việc vừa quản lý kiến thức
+- Có thể xây dựng hệ thống quản lý cho mình ngay mà không cần dùng tới code trong thời gian đầu
+
+Đây là lý do Kendy đã chọn Fibery, vì những cái rất cần trước mắt thì nó có thể đáp ứng. 
+
+Phải nói là điểm bán hàng độc nhất (unique selling point) của Fibery là sự đặt trọng tâm vào ý tưởng [[Quản lý công việc và quản lý kiến thức không thể tách rời nhau]] mà những ERP khác không làm được. Ngay tại trang chủ, Fibery đã tự giới thiệu bản thân là:
+> If you've outgrown Jira, Notion, Airtable, and ClickUp — and are ready to replace them
+
+Tức là nó hiểu rất rõ nhược điểm của đối thủ. Nhưng rốt cuộc thì **nó vẫn là một sản phẩm dựng sẵn** không khác gì các đối thủ của nó. Việc Kendy sử dụng nó là vì từ đầu Kendy đã ở trong tình trạng phải xây dựng hệ thống quản lý càng sớm càng tốt, và không có ai có thể hỗ trợ giải đáp các vấn đề về lập trình. Không thể nói nó là giải pháp tạm đủ, mà nó là sự thoả hiệp đỡ tệ hại nhất trong hoàn cảnh hiện tại. Con đường này là con đường bất đắc dĩ lắm mới phải đi. 
 1. raw data từ user research vs highlight from literature note là như nhau
 
 

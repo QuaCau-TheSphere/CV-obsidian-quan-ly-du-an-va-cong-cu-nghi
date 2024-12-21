@@ -1,14 +1,13 @@
 ---
 share: true
 created: 2023-10-22T21:45
-updated: 2024-11-24T12:31
+updated: 2025-09-10T09:40
 ---
 Khái niệm:: [[Hỏi]], [[Gánh nặng nhận thức]]
 Lý do:: [[Nội việc đặt câu hỏi thôi đã đủ áp lực rồi, chứ đừng nói đến việc đi google hay đặt câu hỏi tốt hơn]]
 [[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]]
 [[Ta thường không sẵn sàng để đọc một tài liệu khi ta mới thấy nó]]
 [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
-[[] ] 
 [[Khi bạn bị hỏi là sao không google, hãy trả lời rằng liệu có bao giờ họ cũng đi hỏi người ta mà không google không]] 
 Sự tập trung của chúng ta chỉ có một khoảng nhất định, và ta sẽ chỉ có thể làm thứ quan trọng nhất. Nếu ta ráng làm cái khác, thì một cơn nhức đầu sẽ kéo thôi thúc ta nhanh chóng bỏ cuộc để quay trở lại làm điều dang dở. Bạn có thể trải nghiệm cơn nhức đầu này mỗi khi đang tập trung làm một việc gì đó mà có tiếng điện thoại reo.
 
@@ -17,7 +16,6 @@ Sự tập trung của chúng ta chỉ có một khoảng nhất định, và ta
 Thông thường, những thứ ở trên sẽ bị coi là sao nhãng, và được khuyến khích loại bỏ để đảm bảo sự tập trung. Tuy nhiên, có những loại công việc tuy không liên quan đến công việc bạn đang cần tập trung, nhưng lại quan trọng để hoàn thành nó. Một ví dụ điển hình nhất là ta cần phải dừng công việc lại để hỏi ý kiến ai đó, hoặc vì gặp phải một kiến thức hoặc cần phải học một kỹ năng mới. Có những lúc nếu không hoàn thành những thứ đó, ta sẽ không thể hoàn thành được công việc hoặc làm nó kém hiệu quả. Nhưng nếu hoàn thành nó, thì nó lại là một sự sao lãng.
 
 ![TEDxSanJoseCA - Adam Gazzaley, MD, PhD - Brain: Memory and Multitasking](https://www.youtube.com/watch?v=tiANn5PZ4BI)
-
 Quay trở lại vấn đề, những câu hỏi được đánh giá là chỉ cần google phát là ra thường có đặc điểm là những câu hỏi mang tính định nghĩa, nhưng nếu không có đáp án thì thứ ta đang tiếp thu dang dở sẽ trở nên khó hiểu. Nó không khác gì việc đọc một bài tiếng Anh mà gặp một từ khó hiểu vậy.
 
 Hãy thử đọc một đoạn văn chứa một từ bạn chưa biết rồi thử xem chuyện gì sẽ xảy ra?

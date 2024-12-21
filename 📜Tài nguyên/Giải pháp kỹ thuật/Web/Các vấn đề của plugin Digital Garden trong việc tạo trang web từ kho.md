@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-17T11:00
-updated: 2024-09-26T12:05
+updated: 2025-05-23T19:43
 description: Plugin này sử dụng 11ty làm chương trình tạo website, và Vercel làm dịch vụ hosting. Chúng có những nhược điểm gì?
 ---
 Nếu bạn không muốn mua gói Publish nhưng vẫn muốn tạo một website từ kho của bạn thì bạn cần 3 thứ sau:
@@ -9,7 +9,7 @@ Nếu bạn không muốn mua gói Publish nhưng vẫn muốn tạo một websi
 - Một chương trình tạo website từ các ghi chú
 - Một dịch vụ hosting để ai cũng có thể truy cập web của bạn
 
-Qua buổi hướng dẫn tạo web từ kho đầu tiên thì mình thấy một điểm chung là dường như nhiều bạn bắt đầu hành trình của mình bằng plugin **[Digital Garden](https://github.com/oleeskild/obsidian-digital-garden "oleeskild/obsidian-digital-garden")**. Có thể là vì cái tên của nó khiến cho nó dễ được tìm đến nhất. 
+Qua buổi hướng dẫn tạo web từ kho đầu tiên thì mình thấy một điểm chung là dường như nhiều bạn bắt đầu hành trình của mình bằng plugin [Digital Garden](https://github.com/oleeskild/obsidian-digital-garden "oleeskild/obsidian-digital-garden"). Có thể là vì cái tên của nó khiến cho nó dễ được tìm đến nhất. 
 
 Tuy nhiên, plugin này sử dụng **11ty** làm chương trình tạo website, và **Vercel** làm dịch vụ hosting. Mình thấy chúng có những bất cập sau:
 ## Digital Garden ít chức năng và ít cập nhật
@@ -27,7 +27,7 @@ Nếu mục đích là làm sao để tạo website cho nhanh để mà còn là
 Để tạo ra website từ các tập tin markdown, bạn cần dùng một chương trình tạo website tĩnh (static site generator):
 ![Fetching Title#vu93](https://cdn-media-1.freecodecamp.org/images/0*CCMaHN9JpmvIFNdi)
 
-11ty là chương trình tạo website tĩnh được tích hợp với Digital Garden. Nó dùng một môi trường thực thi tên là Node và nhập plugin bằng CommonJS. CommonJS thì lạc hậu, Node thì bất tiện với người dùng mới. Dưới đây là 3 chương trình tạo web tĩnh mình nghĩ sẽ tốt hơn 11ty:
+11ty là chương trình tạo website tĩnh được tích hợp với Digital Garden. Nó dùng một môi trường thực thi tên là Node và nhập plugin bằng CommonJS. CommonJS thì lạc hậu, Node thì bất tiện với người dùng mới. Thay vì dùng 11ty thì mình giới thiệu 3 chương trình tạo web tĩnh mà mình nghĩ là tốt hơn:
 
 > [!Attention] Ý đồ trình bày 
 > Với mỗi một chương trình sẽ có một phần giới thiệu chung, và phần nói về ưu điểm và nhược điểm. Phần ưu điểm và nhược điểm **chỉ liên quan đến nhu cầu tạo web cá nhân từ kho**. Những ưu điểm và nhược điểm đối với các nhu cầu khác sẽ được để vào phần giới thiệu.

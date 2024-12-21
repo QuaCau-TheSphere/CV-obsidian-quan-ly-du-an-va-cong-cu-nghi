@@ -1,7 +1,7 @@
 ---
 share: true
 filename: index
-alias:
+aliases:
   - C Obsidian, quản lý dự án và công cụ nghĩ
   - Homepage
   - Trang chủ

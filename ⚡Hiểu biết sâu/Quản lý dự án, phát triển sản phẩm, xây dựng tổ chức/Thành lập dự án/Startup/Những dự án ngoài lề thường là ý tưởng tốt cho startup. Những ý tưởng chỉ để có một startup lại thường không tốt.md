@@ -1,8 +1,8 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-06T16:27
-alias:
+updated: 2025-05-27T23:51
+aliases:
   - Những dự án phụ thường là ý tưởng tốt cho startup. Những ý tưởng chỉ để có một startup lại thường không tốt
 ---
 Khái niệm:: 
@@ -11,6 +11,6 @@ Nguồn:: [[Y Combinator]], ![Lecture 3 - Before the Startup (Paul Graham) - You
 [[Những công cụ nghĩ tốt đa phần là sản phẩm phụ của những nỗ lực giải quyết những vấn đề nghiêm túc]]
 [[When someone's taking time to do something right in the present, they're a perfectionist with no ability to prioritize, whereas when someone took time to do something right in the past, they're a master artisan of great foresight]]
 
-[[Phần thưởng ngoại sinh làm tăng sự tập trung vào đích đến và giảm sự quan sát tới những thứ khác]]
+[[Động lực ngoại sinh làm tăng sự tập trung vào đích đến và giảm sự quan sát tới những thứ khác]]
 [[Ý tưởng sinh ra không theo độ khẩn cấp]]
 [[Có những lúc đầu tư vào một người để họ tạo ra sản phẩm của họ sẽ đem lại nhiều lợi nhuận hơn trả lương cho họ để họ làm cho sản phẩm của mình]] 

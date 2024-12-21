@@ -2,7 +2,8 @@
 share: true
 created: 2024-09-23T20:01
 updated: 2024-10-08T23:50
-alias: Mục tiêu và câu hỏi nghiên cứu về nhu cầu công việc
+aliases:
+  - Mục tiêu và câu hỏi nghiên cứu về nhu cầu công việc
 ---
 # Mục tiêu và câu hỏi nghiên cứu về nhu cầu công việc
 ## Mục tiêu nghiên cứu

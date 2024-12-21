@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-26T13:26
+updated: 2025-06-25T12:12
 ---
+Khái niệm:: [[Cấu trúc]]
 “Vấn đề có cấu trúc” và “vấn đề phi cấu trúc” được phân biệt bằng mức độ hiểu biết của người giải quyết vấn đề về cấu trúc, quy luật, quy tắc, khái niệm và tham số của các vấn đề đó.
 
 Một vấn đề sẽ là “có cấu trúc” nếu người giải quyết nó đã hiểu rõ về “cơ chế” phát sinh vấn đề, rằng vấn đề này được cấu thành hay tạo ra bởi các tham số hay yếu tố nào, các yếu tố ấy vận hành và tương tác với nhau theo quy luật ra sao, và áp dụng cách tiếp cận bài bản nào để giải quyết được vấn đề này. Ví dụ, vấn đề “máy tính không vào được Windows” là một vấn đề “có cấu trúc” đối với một người chuyên sử chữa máy tính, bởi vì người đó hiểu rõ các cơ chế nào dẫn đến việc máy tính không vào được Windows, và từ đó dễ dàng xác định ra nguyên nhân (có thể chỉ do lỏng RAM mà thôi).
@@ -15,3 +16,6 @@ Nguồn:: [Tiếp cận có cấu trúc và tiếp cận phi cấu trúc: Bạn 
 [[Mental model là những niềm tin của người dùng vào hệ thống]]
 [[Hiểu biết sâu làm ta thấy khoái cảm]]
 [[Công việc khai phá và công việc khai thác]]
+[[Kiến thức là các niềm tin đúng có cơ sở]]
+[[Việc quản lý công việc thường cần một cấu trúc]]
+

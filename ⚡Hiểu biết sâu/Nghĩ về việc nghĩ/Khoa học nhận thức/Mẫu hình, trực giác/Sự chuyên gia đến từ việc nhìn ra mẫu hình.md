@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-07-26T10:33
-updated: 2024-10-18T15:35
+updated: 2025-05-13T11:20
 description: 4 yếu tố để một người trở thành chuyên gia":" (1) Dành nhiều thời gian tập luyện, (2) Quy luật trong lĩnh vực đó không thay đổi theo thời gian, (3) Nhận được sự phản hồi nhanh chóng cho những gì mình làm, (4) Luôn tìm cách bước ra ngoài vùng thoải mái
-alias:
+aliases:
   - Làm sao để giỏi hơn?
   - Làm sao để giỏi hơn: Sự chuyên gia đến từ việc nhìn ra mẫu hình
 ---
@@ -20,6 +20,8 @@ Nếu một lĩnh vực nào mà kết quả chủ yếu dựa vào xác suất 
 Nếu quy luật trong lĩnh vực bạn muốn trở nên giỏi hơn không thay đổi theo thời gian, thì như bạn thấy, các điều kiện còn lại không có điều kiện nào là về năng khiếu cả. Nếu bạn chịu khó dành nhiều thời gian tập luyện và tìm cách giải quyết những vấn đề khó, thì bạn đã đáp ứng được 3/4 điều kiện. Bạn chỉ còn cần đi kiếm sự phản hồi cho những gì mình làm mà thôi. 
 
 Tham khảo:: [[Veritasium]], ![The 4 things it takes to be an expert - YouTube](https://www.youtube.com/watch?v=5eW6Eagr9XA)
+
+[[Kiến thức là các niềm tin đúng có cơ sở]]
 [[Con người cố gắng nhìn ra mẫu hình, kể cả khi đó chỉ là sự ngẫu nhiên]] 
 [[Cờ vua trông như là tư duy logic, nhưng thật ra chỉ là nhìn thấy mẫu hình]]
 [[Trực giác là việc nhìn ra mẫu hình không hơn không kém]] 

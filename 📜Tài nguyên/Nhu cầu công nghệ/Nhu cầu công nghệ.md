@@ -1,13 +1,17 @@
 ---
 share: true
 created: 2024-02-29T23:53
-updated: 2024-07-27T22:06
+updated: 2025-07-11T18:29
 ---
-
 ```dataview
-LIST giải-pháp-kỹ-thuật
+LIST rows.file.link
 FROM "📜Tài nguyên/Nhu cầu công nghệ" 
-WHERE file.name!=this.file.name
+GROUP BY split(file.folder, "/")[2]
+WHERE file.name != this.file.name
 ```
+
 Lĩnh vực:: [[Lĩnh vực]]
 Giải pháp kỹ thuật:: [[Giải pháp kỹ thuật]]
+[Outline of computer science - Wikipedia](https://en.wikipedia.org/wiki/Outline_of_computer_science)
+[There's an AI for that](https://theresanaiforthat.com/)
+[[No code so với có code giống như so xe Lego so với ô tô thực sự]]

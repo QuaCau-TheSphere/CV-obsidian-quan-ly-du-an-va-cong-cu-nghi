@@ -1,10 +1,15 @@
 ---
 share: true
 created: 2023-05-26T14:51
-cssClass: wide-table
-updated: 2024-11-22T21:14
+cssclasses:
+  - wide-table
+updated: 2025-05-28T15:03
+aliases:
+  - Công việc khai phá
+  - Công việc khai thác
 ---
-Khái niệm:: [[Công việc]]
+Khái niệm:: [[Công việc]], [[Cấu trúc]]
+
 | Khía cạnh                                                           | Công việc khai phá (exploration)                                                                                                                                          | Công việc khai thác (exploitation)                                                                                                                                                                                                     |
 | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Tên gọi khác                                                        | Công việc khám phá                                                                                                                                                        | Công việc quy trình                                                                                                                                                                                                                    |
@@ -18,10 +23,12 @@ Khái niệm:: [[Công việc]]
 | Kiểu dữ liệu                                                        | Phi cấu trúc                                                                                                                                                              | Cấu trúc                                                                                                                                                                                                                               |
 | Ví dụ                                                               | Xây dựng nhóm                                                                                                                                                             | Thêm chức năng của vault, thiết kế, dịch                                                                                                                                                                                               |
 
+![The knowledge funnel - Sketchplanations](https://sketchplanations.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fsketchplanations%2F32457931-56d8-4349-9049-1730a9ef5324_60308893361.jpg%3Fauto%3Dcompress%2Cformat&w=3840&q=75)
+
 Trước đây có chia ra công việc cấp ban, công việc cấp tiểu ban, công việc cấp cá nhân, và  công việc thành phần, nhưng giờ bỏ.
 
 ## \*Ví dụ về mối quan hệ với các thực thể (entity) khác
-Ở bảng trên, phần *Mối quan hệ tói các thực thể khác* của công việc khai phá được ghi là:
+Ở bảng trên, phần *Mối quan hệ tới các thực thể khác* của công việc khai phá được ghi là:
 > Kết nối trực tiếp tới một hoặc nhiều mục tiêu, và cũng có thể là một thành phần của một hoặc nhiều công việc khai phá khác
 
 Điều này có nghĩa là gì?
@@ -80,3 +87,4 @@ Xem thêm::
 - [[Học là quá trình cấu trúc hoá những thứ phi cấu trúc]]
 - [[Hệ thống 1 dựa vào trí nhớ dài hạn. Hệ thống 2 dựa vào trí nhớ ngắn hạn]] 
 - [[Người người vạch chiến lược hay nhiều khi được giao triển khai luôn, hoặc người làm chuyên môn tốt nhiều khi được đề bạt lên làm quản lý, lãnh đạo]]
+- [[Những thứ có thể làm trong khi không có được thời gian để tập trung lâu]]

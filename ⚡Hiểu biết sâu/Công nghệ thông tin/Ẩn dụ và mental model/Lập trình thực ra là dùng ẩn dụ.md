@@ -1,13 +1,13 @@
 ---
 share: true
 created: 2023-06-03T09:36
-updated: 2024-11-23T14:04
+updated: 2025-04-22T14:07
 ---
 Khái niệm:: [[Ẩn dụ]]
 
 Lý do:: [[Chúng ta sống bằng ẩn dụ]]
 [[Ta mô phỏng thế giới qua những vật thể]]
-[[Ngôn ngữ lập trình không giúp con người làm được nhiều hơn những gì ngôn ngữ lập trình bậc thấp làm được. Nó chỉ giúp con người làm ra ít lỗi hơn mà thôi]]
+[[Ngôn ngữ lập trình bậc cao không giúp con người làm được nhiều hơn những gì ngôn ngữ lập trình bậc thấp làm được. Nó chỉ giúp con người làm ra ít lỗi hơn mà thôi]]
 
 ---
 

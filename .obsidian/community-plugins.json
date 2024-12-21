@@ -15,7 +15,6 @@
   "mrj-jump-to-link",
   "copy-url-in-preview",
   "language-translator",
-  "multi-column-markdown",
   "nldates-obsidian",
   "note-refactor-obsidian",
   "obsidian-plugin-groups",
@@ -31,12 +30,14 @@
   "darlal-switcher-plus",
   "hot-reload",
   "open-vscode",
-  "obsidian-imgur-plugin",
   "hk-code-block",
   "obsidian-front-matter-title-plugin",
   "metadata-menu",
   "folder-notes",
   "datacore",
   "obsidian-snippet-downloader",
-  "obsidian-excalidraw-plugin"
+  "obsidian-local-rest-api",
+  "image-to-text-ocr",
+  "obsidian-excalidraw-plugin",
+  "obsidian-image-uploader"
 ]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-10-17T00:31
+updated: 2025-05-26T20:41
 ---
 Khái niệm:: [[Kế hoạch (khái niệm)]], [[Ưu tiên]]
 
@@ -15,3 +15,4 @@ Nguồn::
 [[Có những vấn đề lúc cần nói ra thì không không nghĩ ra nhưng vẫn cảm thấy chưa vét cạn]]
 [[Giả định có mặt ở khắp nơi]]. [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]
 [[Nên ưu tiên làm những việc có thể sẽ khiến ta phải viết lại kế hoạch]] 
+[[Nghiên cứu những điều đã biết mà không biết, lập kế hoạch A cho điều đã biết là đã biết, và lập kế hoạch B cho điều không biết mà đã biết]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-27T18:19
+updated: 2025-06-09T14:21
 ---
 ## [[Các buổi đáp ứng nhu cầu học lập trình]]
 [[09-11]] 15:38 https://www.facebook.com/quacau.sphere/posts/pfbid0ePQADgc8zmQH7FyVa2GjHtmaMF1Rv4h8MnwMiy3f7LgSn3YQf9tDtvUzCwwuYJmQl
@@ -51,7 +51,7 @@ dạng ảnh https://www.facebook.com/quacau.sphere/posts/pfbid02KYRdxC6aAXdkDJL
 | Ảnh trang chủ                     | 26    | 26         | 1                 |
 | Ảnh trang chủ , link dưới comment |       |            |                   |
 
-## [[WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ tạo web hiệu quả nhất]]
+## [[WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ quản lý web hiệu quả nhất]]
 [[16-07]] 17:00 [Quả Cầu](https://www.facebook.com/quacau.sphere/posts/pfbid02tZzzoSvaY1rgPJCL1fj2rS9AKjGbQMmJ3JkPw8ZJ5MY42ekARQEaXJPXy86MEYXjl)
 [[18-07]] 10:45 link có 2 đoạn đầu
 
@@ -68,3 +68,14 @@ dạng ảnh https://www.facebook.com/quacau.sphere/posts/pfbid02KYRdxC6aAXdkDJL
 [[27-09-24]] 18:19 6 react, 2 share. Share về profile
 ## [[Buổi thảo luận về việc xây dựng mạng lưới đối tác, các bên liên quan]]
 [[27-09-24]] 18:01 https://www.facebook.com/quacau.sphere/posts/pfbid0qC7uHfEj58mbZ7hsJLuBJN8K69VvqUJiBHzTvfUz794heigfuwLCiu3i1cQSmCwhl
+
+## [HỌC GIT](https://www.facebook.com/quacau.sphere/posts/pfbid02PZLvWZ18jNUSTo1xakB1VddQBcT1h9zMrrCQ9RrMDqqX5xrHupmpQ5AnSeauDhCil)
+[[30-04-25]] 18:55 đăng
+19:02 1 like
+00:13 2 like, 1 share, 1 save. 214 view, 129 reach, 4 interactions
+
+00:31 share lại trên [Quả Cầu \| Facebook](https://www.facebook.com/qua.cau.the.sphere/posts/pfbid02Mdd5LTYnqyg5i5eCnFVoQzMQdUsG2WT69gFcCHzeNyegBJQEn1nWxmjvJmKiqUesl)
+02:30 1 like
+
+[[02-05-25]]
+15:10 536 view, 316 reach, 10 interaction, 1 click, 32% non follower, 68% follower, 7 like

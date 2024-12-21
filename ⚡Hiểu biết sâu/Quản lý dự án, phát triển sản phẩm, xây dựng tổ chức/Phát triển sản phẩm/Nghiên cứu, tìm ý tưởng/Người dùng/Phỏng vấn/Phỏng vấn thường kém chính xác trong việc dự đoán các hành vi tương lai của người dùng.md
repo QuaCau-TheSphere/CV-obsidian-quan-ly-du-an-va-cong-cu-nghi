@@ -2,7 +2,7 @@
 share: true
 description: Hỏi một người liệu sau này họ có làm điều này điều kia không là không chắc đúng
 created: 2023-05-26T14:51
-updated: 2024-09-07T21:45
+updated: 2025-08-13T09:48
 ---
 Lý do:: [[Con người nhiều khi không nói dối mà chỉ đang lý tưởng hoá bản thân]]
 Ví dụ về một số câu hỏi cho ra kết quả không đáng tin cậy:
@@ -16,7 +16,7 @@ Mặc dù phỏng vấn khó có thể dự đoán hành vi, nhưng [[Phỏng v�
 [[Kết quả phỏng vấn phải actionable]]
 
 Nguồn:: [[Hoàng Đức Minh]]
-
+[[Phỏng vấn là để hiểu vấn đề người dùng gặp phải, không phải để cải thiện giải pháp]]
 [[Người dùng nói thích một tính năng không có nghĩa là họ sẽ bỏ những sản phẩm khác để đến với tính năng của mình]] 
 [[Về mặt nhận thức, con người tương lai của chính mình không liên quan gì đến mình]]
 Mâu thuẫn với:: [[Dữ liệu nhỏ cũng có tính dự báo xu hướng giống như dữ liệu lớn]]

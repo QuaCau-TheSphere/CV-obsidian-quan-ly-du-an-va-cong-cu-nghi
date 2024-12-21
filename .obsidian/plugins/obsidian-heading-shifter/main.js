@@ -80,7 +80,19 @@ var HEADINGS = [0, 1, 2, 3, 4, 5, 6];
 var DEFAULT_SETTINGS = {
   limitHeadingFrom: 1,
   overrideTab: false,
-  styleToRemove: { ul: true, ol: true }
+  styleToRemove: {
+    beginning: { ul: true, ol: true, userDefined: [] },
+    surrounding: { bold: false, italic: false, userDefined: [] }
+  },
+  autoOutdent: {
+    enable: true,
+    hotKey: {
+      key: "Tab",
+      shift: true,
+      ctrl: false,
+      alt: false
+    }
+  }
 };
 var HeadingShifterSettingTab = class extends import_obsidian.PluginSettingTab {
   constructor(app, plugin) {
@@ -105,15 +117,96 @@ var HeadingShifterSettingTab = class extends import_obsidian.PluginSettingTab {
       yield this.plugin.saveSettings();
     })));
     containerEl.createEl("h3", { text: "Style to remove" });
-    containerEl.createEl("p", { text: "If this style is at the beginning of a line, replace it by a Heading:" });
-    new import_obsidian.Setting(containerEl).setName("Unordered list").setDesc("-").addToggle((toggle) => toggle.setValue(this.plugin.settings.styleToRemove.ul).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.styleToRemove.ul = value;
-      yield this.plugin.saveSettings();
-    })));
-    new import_obsidian.Setting(containerEl).setName("Ordered list").setDesc("1., 2. ,3. ,...").addToggle((toggle) => toggle.setValue(this.plugin.settings.styleToRemove.ol).onChange((value) => __async(this, null, function* () {
-      this.plugin.settings.styleToRemove.ol = value;
-      yield this.plugin.saveSettings();
-    })));
+    containerEl.createEl("p", {
+      text: "If this style is at the <position> of a line, remove it"
+    });
+    containerEl.createEl("b", { text: "Beginning" });
+    new import_obsidian.Setting(containerEl).setName("Unordered list").setDesc("-").addToggle((toggle) => {
+      var _a, _b;
+      return toggle.setValue((_b = (_a = this.plugin.settings.styleToRemove) == null ? void 0 : _a.beginning) == null ? void 0 : _b.ul).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.styleToRemove.beginning.ul = value;
+        yield this.plugin.saveSettings();
+      }));
+    });
+    new import_obsidian.Setting(containerEl).setName("Ordered list").setDesc("1., 2. ,3. ,...").addToggle((toggle) => {
+      var _a, _b;
+      return toggle.setValue((_b = (_a = this.plugin.settings.styleToRemove) == null ? void 0 : _a.beginning) == null ? void 0 : _b.ol).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.styleToRemove.beginning.ol = value;
+        yield this.plugin.saveSettings();
+      }));
+    });
+    new import_obsidian.Setting(containerEl).setName("User defined").setDesc("Arbitrary string (regular expression)").addTextArea((str) => {
+      var _a, _b;
+      str.setValue((_b = (_a = this.plugin.settings.styleToRemove.beginning) == null ? void 0 : _a.userDefined) == null ? void 0 : _b.join("\n")).onChange((str2) => __async(this, null, function* () {
+        this.plugin.settings.styleToRemove.beginning.userDefined = str2.split("\n");
+        yield this.plugin.saveSettings();
+      }));
+    });
+    containerEl.createEl("b", {
+      text: "Surrounding"
+    });
+    new import_obsidian.Setting(containerEl).setName("Bold").setDesc("**|__").addToggle((toggle) => {
+      var _a, _b;
+      return toggle.setValue((_b = (_a = this.plugin.settings.styleToRemove) == null ? void 0 : _a.surrounding) == null ? void 0 : _b.bold).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.styleToRemove.surrounding.bold = value;
+        yield this.plugin.saveSettings();
+      }));
+    });
+    new import_obsidian.Setting(containerEl).setName("Italic").setDesc("*|_").addToggle((toggle) => {
+      var _a, _b;
+      return toggle.setValue((_b = (_a = this.plugin.settings.styleToRemove) == null ? void 0 : _a.surrounding) == null ? void 0 : _b.italic).onChange((value) => __async(this, null, function* () {
+        this.plugin.settings.styleToRemove.surrounding.italic = value;
+        yield this.plugin.saveSettings();
+      }));
+    });
+    new import_obsidian.Setting(containerEl).setName("User defined").setDesc("Arbitrary string (regular expression)").addTextArea((str) => {
+      var _a, _b, _c;
+      str.setValue((_c = (_b = (_a = this.plugin.settings.styleToRemove) == null ? void 0 : _a.surrounding) == null ? void 0 : _b.userDefined) == null ? void 0 : _c.join("\n")).onChange((str2) => __async(this, null, function* () {
+        this.plugin.settings.styleToRemove.surrounding.userDefined = str2.split("\n");
+        yield this.plugin.saveSettings();
+      }));
+    });
+    containerEl.createEl("h3", { text: "Auto Outdent" });
+    containerEl.createEl("p", {
+      text: "When heading is applied to a list, if outdent is needed for lists after that line, execute it."
+    });
+    new import_obsidian.Setting(containerEl).setName("Enable").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.autoOutdent.enable).onChange((v) => {
+        this.plugin.settings.autoOutdent.enable = v;
+        this.plugin.saveSettings();
+      });
+    });
+    containerEl.createEl("b", {
+      text: "Hotkey"
+    });
+    containerEl.createEl("p", {
+      text: "Basically, we expect you to apply `Shift + Tab` from https://github.com/vslinko/obsidian-outliner, but if you want to use something else, apply a hotkey with equivalent functionality.",
+      cls: "setting-item-description"
+    });
+    new import_obsidian.Setting(containerEl).setName("Key").addText((toggle) => {
+      toggle.setValue(this.plugin.settings.autoOutdent.hotKey.key).onChange((v) => {
+        this.plugin.settings.autoOutdent.hotKey.key = v;
+        this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Shift").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.autoOutdent.hotKey.shift).onChange((v) => {
+        this.plugin.settings.autoOutdent.hotKey.shift = v;
+        this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Ctrl").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.autoOutdent.hotKey.ctrl).onChange((v) => {
+        this.plugin.settings.autoOutdent.hotKey.ctrl = v;
+        this.plugin.saveSettings();
+      });
+    });
+    new import_obsidian.Setting(containerEl).setName("Alt").addToggle((toggle) => {
+      toggle.setValue(this.plugin.settings.autoOutdent.hotKey.alt).onChange((v) => {
+        this.plugin.settings.autoOutdent.hotKey.alt = v;
+        this.plugin.saveSettings();
+      });
+    });
   }
 };
 
@@ -125,7 +218,7 @@ var ObsidianService = class {
   getEditorFromState(state) {
     return state.field(import_obsidian2.editorInfoField).editor;
   }
-  createKeymapRunCallback(config) {
+  createKeyMapRunCallback(config) {
     const check = config.check || (() => true);
     const { run } = config;
     return (view) => {
@@ -224,23 +317,6 @@ var InterfaceService = class {
 // src/features/shiftHeading/operation.ts
 var import_obsidian4 = require("obsidian");
 
-// src/utils/editorChange.ts
-var composeLineChanges = (editor, lineNumbers, changeCallback, settings) => {
-  const editorChange = [];
-  for (const line of lineNumbers) {
-    const shifted = changeCallback(editor.getLine(line), settings);
-    editorChange.push({
-      text: shifted,
-      from: { line, ch: 0 },
-      to: {
-        line,
-        ch: editor.getLine(line).length
-      }
-    });
-  }
-  return editorChange;
-};
-
 // src/utils/range.ts
 var setMin = (prev, cur) => {
   if (prev == void 0 || prev !== void 0 && cur < prev) {
@@ -313,21 +389,164 @@ var getPreviousHeading = (editor, from) => {
   }
   return void 0;
 };
+var replaceFunc = (str, regExp) => {
+  try {
+    const replaced = str.replace(regExp, "$1");
+    if (replaced !== str) {
+      return replaced;
+    }
+  } catch (error) {
+    console.error(error);
+  }
+  return void 0;
+};
+var removeUsingRegexpStrings = (str, regExpStrings) => {
+  var _a, _b;
+  let removed = str;
+  for (const regExpStr of (_a = regExpStrings.beginning) != null ? _a : []) {
+    const regExp = new RegExp(`^${regExpStr}(.*)`);
+    const result = replaceFunc(removed, regExp);
+    if (result !== void 0) {
+      removed = result;
+      break;
+    }
+  }
+  for (const regExpStr of (_b = regExpStrings.surrounding) != null ? _b : []) {
+    const regExp = new RegExp(`${regExpStr}(.*)${regExpStr}`);
+    const result = replaceFunc(removed, regExp);
+    if (result !== void 0) {
+      removed = result;
+      break;
+    }
+  }
+  return removed;
+};
+var getNeedsOutdentLines = (startLineNumber, editor) => {
+  let currentLineNumber = startLineNumber;
+  const needsOutdentLines = [];
+  while (currentLineNumber < editor.lineCount()) {
+    const line = editor.getLine(currentLineNumber);
+    const indentLevel = isNeedsOutdent(line);
+    if (!indentLevel)
+      return needsOutdentLines;
+    needsOutdentLines.push(currentLineNumber);
+    currentLineNumber++;
+  }
+  return needsOutdentLines;
+};
+var isNeedsOutdent = (line) => {
+  var _a;
+  const matched = line.match(new RegExp("^(?<space>(\\s|\\S|\\t)+)(?:-|\\*)\\s.+"));
+  if (!matched)
+    return void 0;
+  const space = (_a = matched.groups) == null ? void 0 : _a["space"];
+  if (!space)
+    return void 0;
+  return space.length;
+};
+
+// src/utils/event.ts
+var simulateHotkey = (key, modifiers = []) => {
+  var _a;
+  const event = new KeyboardEvent("keydown", {
+    key,
+    code: key,
+    ctrlKey: modifiers.includes("Ctrl"),
+    shiftKey: modifiers.includes("Shift"),
+    altKey: modifiers.includes("Alt"),
+    metaKey: modifiers.includes("Meta")
+  });
+  (_a = document.activeElement) == null ? void 0 : _a.dispatchEvent(event);
+};
+
+// src/utils/editorChange.ts
+var composeLineChanges = (editor, lineNumbers, changeCallback, settings) => {
+  const editorChange = [];
+  for (const line of lineNumbers) {
+    const shifted = changeCallback(editor.getLine(line), settings);
+    editorChange.push({
+      text: shifted,
+      from: { line, ch: 0 },
+      to: {
+        line,
+        ch: editor.getLine(line).length
+      }
+    });
+  }
+  return editorChange;
+};
+var execOutdent = (startLineNumber, editor, settings) => {
+  if (!settings.autoOutdent.enable)
+    return;
+  const currentSelection = {
+    head: editor.getCursor("head"),
+    anchor: editor.getCursor("anchor")
+  };
+  const lineNumbers = getNeedsOutdentLines(startLineNumber, editor);
+  if (lineNumbers.length === 0)
+    return;
+  editor.setSelection({ line: Math.min(...lineNumbers), ch: 0 }, {
+    line: Math.max(...lineNumbers),
+    ch: editor.getLine(Math.max(...lineNumbers)).length
+  });
+  const modifiers = [];
+  if (settings.autoOutdent.hotKey.shift)
+    modifiers.push("Shift");
+  if (settings.autoOutdent.hotKey.ctrl)
+    modifiers.push("Ctrl");
+  if (settings.autoOutdent.hotKey.alt)
+    modifiers.push("Alt");
+  simulateHotkey(settings.autoOutdent.hotKey.key, modifiers);
+  const lineNumbersAfter = getNeedsOutdentLines(startLineNumber, editor);
+  if (JSON.stringify(lineNumbers) === JSON.stringify(lineNumbersAfter)) {
+    editor.setSelection(currentSelection.anchor, currentSelection.head);
+    return;
+  }
+  if (lineNumbersAfter.length === 0) {
+    editor.setSelection(currentSelection.anchor, currentSelection.head);
+    return;
+  }
+  execOutdent(startLineNumber, editor, settings);
+};
+
+// src/constant/regExp.ts
+var RegExpExample = {
+  beginning: {
+    ol: String.raw`\d+\. `,
+    ul: String.raw`(?:\-|\*) `
+  },
+  surrounding: {
+    italic: String.raw`(?:(?<!\*)\*(?!\*)|(?<!_)_(?!_))`,
+    bold: String.raw`(?:(?<!\*)\*\*(?!\*)|(?<!_)__(?!_))`
+  }
+};
 
 // src/features/applyHeading/module.ts
-var regExp = { ol: new RegExp("\\d+\\."), ul: new RegExp("\\-|\\*") };
 var applyHeading = (chunk, headingSize, settings) => {
-  var _a;
-  const replacer = Object.entries((_a = settings == null ? void 0 : settings.styleToRemove) != null ? _a : {}).flatMap(([k, v]) => {
-    return v ? regExp[k].source : [];
-  });
-  const replaceStyleRegExp = new RegExp(`^(${replacer.join("|")}) `, "");
-  const remove = chunk.replace(replaceStyleRegExp, "").replace(/^#+ /, "");
+  const extractRegExp = (settingObj, regExpObj) => {
+    return Object.entries(settingObj != null ? settingObj : {}).flatMap(([k, v]) => {
+      if (Array.isArray(v)) {
+        return v;
+      }
+      if (k in regExpObj && v == true) {
+        return regExpObj[k];
+      }
+      return [];
+    });
+  };
+  let removed = chunk;
+  if (!checkHeading(chunk)) {
+    removed = (settings == null ? void 0 : settings.styleToRemove) ? removeUsingRegexpStrings(chunk, {
+      beginning: extractRegExp(settings.styleToRemove.beginning, RegExpExample.beginning),
+      surrounding: extractRegExp(settings.styleToRemove.surrounding, RegExpExample.surrounding)
+    }) : chunk;
+  }
+  removed = removed.replace(/^#+ /, "");
   if (headingSize <= 0)
-    return remove;
+    return removed;
   return new Array(headingSize).fill("#").reduce((prev, cur) => {
     return cur + prev;
-  }, " ") + remove;
+  }, " ") + removed;
 };
 
 // src/features/applyHeading/operation.ts
@@ -337,11 +556,12 @@ var ApplyHeading = class {
     __publicField(this, "headingSize");
     __publicField(this, "editorCallback", (editor) => {
       const lines = createRange(editor.getCursor("from").line, editor.getCursor("to").line - editor.getCursor("from").line + 1);
-      const isOneline = editor.getCursor("from").line === editor.getCursor("to").line;
+      const isOneLine = editor.getCursor("from").line === editor.getCursor("to").line;
       editor.transaction({
         changes: composeLineChanges(editor, lines, (chunk) => applyHeading(chunk, this.headingSize, this.settings))
       });
-      if (isOneline) {
+      execOutdent(Math.max(...lines) + 1, editor, this.settings);
+      if (isOneLine) {
         editor.setCursor(editor.getCursor("anchor").line);
       }
       return true;
@@ -387,12 +607,12 @@ var IncreaseHeading = class {
         new import_obsidian4.Notice("Cannot Increase (contains more than Heading 6)");
         return true;
       }
-      const isOneline = editor.getCursor("from").line === editor.getCursor("to").line;
+      const isOneLine = editor.getCursor("from").line === editor.getCursor("to").line;
       const editorChange = composeLineChanges(editor, headingLines, increaseHeading, this.settings);
       editor.transaction({
         changes: editorChange
       });
-      if (isOneline) {
+      if (isOneLine) {
         editor.setCursor(editor.getCursor("anchor").line);
       }
       return editorChange.length ? true : false;
@@ -405,7 +625,10 @@ var IncreaseHeading = class {
         editorCallback: this.editorCallback
       };
     });
-    __publicField(this, "check", () => {
+    __publicField(this, "check", (editor) => {
+      const { maxHeading } = getHeadingLines(editor, editor.getCursor("from").line, editor.getCursor("to").line);
+      if (maxHeading === void 0)
+        return false;
       return this.settings.overrideTab;
     });
     this.settings = settings;
@@ -421,12 +644,12 @@ var DecreaseHeading = class {
         new import_obsidian4.Notice(`Cannot Decrease (contains less than Heading${Number(this.settings.limitHeadingFrom)})`);
         return true;
       }
-      const isOneline = editor.getCursor("from").line === editor.getCursor("to").line;
+      const isOneLine = editor.getCursor("from").line === editor.getCursor("to").line;
       const editorChange = composeLineChanges(editor, headingLines, decreaseHeading, this.settings);
       editor.transaction({
         changes: editorChange
       });
-      if (isOneline) {
+      if (isOneLine) {
         editor.setCursor(editor.getCursor("anchor").line);
       }
       return editorChange.length ? true : false;
@@ -439,7 +662,10 @@ var DecreaseHeading = class {
         editorCallback: this.editorCallback
       };
     });
-    __publicField(this, "check", () => {
+    __publicField(this, "check", (editor) => {
+      const { maxHeading } = getHeadingLines(editor, editor.getCursor("from").line, editor.getCursor("to").line);
+      if (maxHeading === void 0)
+        return false;
       return this.settings.overrideTab;
     });
     this.settings = settings;
@@ -456,8 +682,9 @@ var InsertHeadingAtCurrentLevel = class {
       const lastHeadingLine = getPreviousHeading(editor, cursorLine);
       const headingLevel = lastHeadingLine != void 0 ? checkHeading(editor.getLine(lastHeadingLine)) : 0;
       editor.transaction({
-        changes: composeLineChanges(editor, [cursorLine], (chunk) => applyHeading(chunk, headingLevel))
+        changes: composeLineChanges(editor, [cursorLine], (chunk) => applyHeading(chunk, headingLevel, this.settings))
       });
+      execOutdent(cursorLine + 1, editor, this.settings);
       editor.setCursor(editor.getCursor().line);
       return true;
     });
@@ -484,8 +711,9 @@ var InsertHeadingAtDeeperLevel = class {
         return true;
       }
       editor.transaction({
-        changes: composeLineChanges(editor, [cursorLine], (chunk) => applyHeading(chunk, headingLevel + 1))
+        changes: composeLineChanges(editor, [cursorLine], (chunk) => applyHeading(chunk, headingLevel + 1, this.settings))
       });
+      execOutdent(cursorLine + 1, editor, this.settings);
       editor.setCursor(editor.getCursor().line);
       return true;
     });
@@ -510,6 +738,7 @@ var InsertHeadingAtHigherLevel = class {
       editor.transaction({
         changes: composeLineChanges(editor, [cursorLine], (chunk) => applyHeading(chunk, headingLevel - 1, this.settings))
       });
+      execOutdent(cursorLine + 1, editor, this.settings);
       editor.setCursor(editor.getCursor().line);
       return true;
     });
@@ -540,7 +769,7 @@ var RegisterService = class {
     const increaseHeading2 = new IncreaseHeading(this.plugin.settings, false);
     const increaseHeadingForced = new IncreaseHeading(this.plugin.settings, true);
     const decreaseHeading2 = new DecreaseHeading(this.plugin.settings);
-    const insertHeadingAtCurrentLebel = new InsertHeadingAtCurrentLevel(this.plugin.settings);
+    const insertHeadingAtCurrentLabel = new InsertHeadingAtCurrentLevel(this.plugin.settings);
     const insertHeadingAtDeeperLevel = new InsertHeadingAtDeeperLevel(this.plugin.settings);
     const insertHeadingAtHigherLevel = new InsertHeadingAtHigherLevel(this.plugin.settings);
     HEADINGS.forEach((heading) => {
@@ -550,13 +779,13 @@ var RegisterService = class {
     this.plugin.addCommand(increaseHeading2.createCommand());
     this.plugin.addCommand(increaseHeadingForced.createCommand());
     this.plugin.addCommand(decreaseHeading2.createCommand());
-    this.plugin.addCommand(insertHeadingAtCurrentLebel.createCommand());
+    this.plugin.addCommand(insertHeadingAtCurrentLabel.createCommand());
     this.plugin.addCommand(insertHeadingAtDeeperLevel.createCommand());
     this.plugin.addCommand(insertHeadingAtHigherLevel.createCommand());
     this.plugin.registerEditorExtension(import_state.Prec.highest(import_view.keymap.of([
       {
         key: "Tab",
-        run: this.plugin.obsidianService.createKeymapRunCallback({
+        run: this.plugin.obsidianService.createKeyMapRunCallback({
           check: increaseHeading2.check,
           run: increaseHeading2.editorCallback
         })
@@ -565,7 +794,7 @@ var RegisterService = class {
     this.plugin.registerEditorExtension(import_state.Prec.highest(import_view.keymap.of([
       {
         key: "s-Tab",
-        run: this.plugin.obsidianService.createKeymapRunCallback({
+        run: this.plugin.obsidianService.createKeyMapRunCallback({
           check: decreaseHeading2.check,
           run: decreaseHeading2.editorCallback
         })
@@ -573,6 +802,42 @@ var RegisterService = class {
     ])));
   }
 };
+
+// src/utils/object.ts
+var assignUnknownObjectFromDefaultObject = (defaultObject, targetObject) => {
+  Object.entries(defaultObject).map(([k, v]) => {
+    if (v === null) {
+      return;
+    }
+    if (isPlainRecord(v)) {
+      const newTargetObject = targetObject[k];
+      if (isPlainRecord(newTargetObject)) {
+        assignUnknownObjectFromDefaultObject(v, newTargetObject);
+      } else {
+        targetObject[k] = v;
+      }
+      return;
+    }
+    if (targetObject[k] === null || targetObject[k] === void 0) {
+      targetObject[k] = v;
+      return;
+    }
+  });
+};
+function isPlainRecord(value) {
+  if (typeof value !== "object" || value === null) {
+    return false;
+  }
+  if (Array.isArray(value) || value instanceof Map || value instanceof Set) {
+    return false;
+  }
+  for (const key in value) {
+    if (typeof key !== "string") {
+      return false;
+    }
+  }
+  return true;
+}
 
 // src/main.ts
 var HeadingShifter = class extends import_obsidian6.Plugin {
@@ -591,6 +856,7 @@ var HeadingShifter = class extends import_obsidian6.Plugin {
       yield this.loadSettings();
       this.registerService.exec();
       this.interfaceService.exec();
+      assignUnknownObjectFromDefaultObject(DEFAULT_SETTINGS, this.settings);
       this.addSettingTab(new HeadingShifterSettingTab(this.app, this));
     });
   }
@@ -607,3 +873,5 @@ var HeadingShifter = class extends import_obsidian6.Plugin {
     });
   }
 };
+
+/* nosourcemap */

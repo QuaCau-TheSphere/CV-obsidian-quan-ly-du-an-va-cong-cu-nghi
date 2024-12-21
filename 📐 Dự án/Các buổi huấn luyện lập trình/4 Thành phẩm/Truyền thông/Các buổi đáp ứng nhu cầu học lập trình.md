@@ -2,7 +2,7 @@
 share: true
 created: 2023-07-26T15:55
 updated: 2024-10-08T23:50
-alias:
+aliases:
   - Kế hoạch tiếp thị các buổi đáp ứng nhu cầu học lập trình
 ---
 # Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc

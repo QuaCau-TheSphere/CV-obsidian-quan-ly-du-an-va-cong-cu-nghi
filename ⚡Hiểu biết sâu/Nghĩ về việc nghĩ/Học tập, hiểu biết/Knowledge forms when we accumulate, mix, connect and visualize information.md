@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-26T13:26
+updated: 2025-05-23T20:33
 ---
-Khái niệm:: 
+Khái niệm:: [[Kiến thức]]
 Knowledge forms when we accumulate, mix, connect and visualize information. Indeed we should accumulate facts to generate any insight, this is just a preliminary condition. But what’s next? How we form new knowledge? There are several ways.
 
 ![conceptual framework](https://fibery.io/blog/static/52c0d916c1fb3875a157ce1d35e89788/99f37/conceptual-framework.png)
@@ -15,3 +15,5 @@ Then, we can **connect information together** using various kinds of links. Thes
 Finally, we can **visualize structured information** using List, Table, Timeline, Calendar, Board, or Chart views. That is how we get the most value from connections since we can view the same information from different angles and play with it. For example, you create a list of features sorted by score (which is calculated of all connected feedback) and discover what feature is the most important now.
 
 Most likely we will get a _synergetic effect if all three ways of knowledge formation exist in a single tool_. Indeed if you can mix, visualize and connect structured and unstructured information, you have all you need to produce new knowledge and insights.
+
+[[Dữ liệu không phải thông tin, thông tin không phải kiến thức, kiến thức không phải hiểu biết, hiểu biết không phải thông thái]]

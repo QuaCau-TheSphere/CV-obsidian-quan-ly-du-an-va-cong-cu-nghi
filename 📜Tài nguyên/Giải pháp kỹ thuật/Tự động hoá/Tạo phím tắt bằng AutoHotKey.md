@@ -1,7 +1,7 @@
 ---
 share: true
-created: 2023-05-30T15:56
-updated: 2024-07-16T23:17
+created: 2023-05-26T14:51
+updated: 2024-12-11T12:12
 ---
 Autohotkey là một phần mềm hỗ trợ người dùng Window, giúp thực hiện các thao tác nhanh và thuận tiện hơn, phù hợp với người làm văn phòng.
 

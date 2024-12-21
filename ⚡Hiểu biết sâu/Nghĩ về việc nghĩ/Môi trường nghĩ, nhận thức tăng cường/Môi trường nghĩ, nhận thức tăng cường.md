@@ -2,7 +2,8 @@
 share: true
 created: 2023-09-05T16:17
 updated: 2024-08-09T15:57
-alias: Làm sao để tìm được những công cụ hay ho?
+aliases:
+  - Làm sao để tìm được những công cụ hay ho?
 description: Làm sao để tìm được những công cụ hay ho?
 ---
 [Có một bạn hỏi mình Discord của Obsidian](https://discord.com/channels/686053708261228577/944662832585277511/1158060165120151673):

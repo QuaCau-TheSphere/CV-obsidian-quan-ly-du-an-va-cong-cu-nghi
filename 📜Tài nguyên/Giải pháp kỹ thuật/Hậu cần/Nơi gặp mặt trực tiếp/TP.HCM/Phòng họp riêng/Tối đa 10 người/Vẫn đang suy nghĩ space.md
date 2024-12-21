@@ -2,13 +2,12 @@
 share: true
 description: Tầng 6, 73 Cao Thắng, Q3
 created: 2023-07-21T11:54
-updated: 2024-09-03T01:21
+updated: 2025-05-20T22:34
 ---
 Địa chỉ:: Tầng 6, 73 Cao Thắng, Q3
 Giá thuê:: 
 Ưu đãi giá:: 
-Số người tối thiểu:: 
-Số người tối đa:: 
+Số lượng:: 20
  
 Giá giữ xe:: 
 Liên hệ::

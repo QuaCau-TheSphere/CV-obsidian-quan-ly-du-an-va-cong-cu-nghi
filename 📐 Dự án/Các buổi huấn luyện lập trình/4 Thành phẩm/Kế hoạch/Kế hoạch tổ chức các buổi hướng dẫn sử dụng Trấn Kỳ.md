@@ -2,7 +2,7 @@
 share: true
 created: 2023-05-26T14:51
 updated: 2024-02-14T15:41
-alias:
+aliases:
   - Tổ chức các buổi hướng dẫn sử dụng Trấn Kỳ
   - Các buổi hướng dẫn sử dụng Trấn Kỳ
 ---

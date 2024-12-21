@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-10-18T15:44
-alias: Việc đáp ứng nhu cầu công việc tạo ra thành phẩm
+updated: 2025-05-27T23:53
+aliases:
+  - Việc đáp ứng nhu cầu công việc tạo ra thành phẩm
 description: một bản nghiên cứu, một tính năng mới, một sản phẩm mới, một trang web quảng cáo, một bài viết, một sự kiện, v.v
 ---
 Ví dụ: một bản nghiên cứu, một tính năng mới, một sản phẩm mới, một trang web quảng cáo, một bài viết, một sự kiện, v.v.
@@ -13,4 +14,4 @@ Nguồn:: [[Hoàng Đức Minh]]
 
 [[Một sản phẩm được tạo nên bởi nhiều thành phẩm. Thứ ta gọi là sản phẩm thành phần, hoặc sản phẩm nhỏ hơn, chính là thành phẩm]]
 [[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]], trong khi sản phẩm nhỏ hơn/sản phẩm thành phần là thành phẩm.
-[[Việc nghĩ về sản phẩm lôi cuốn hơn việc nghĩ về thành quả rất nhiều]]
+[[Việc nghĩ về sản phẩm lôi cuốn hơn việc nghĩ về thành quả cần có hơn nhiều]]

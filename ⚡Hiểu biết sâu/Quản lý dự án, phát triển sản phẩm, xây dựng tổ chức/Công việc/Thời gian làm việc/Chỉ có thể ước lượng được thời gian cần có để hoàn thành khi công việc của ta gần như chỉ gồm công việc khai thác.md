@@ -1,10 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-11-18T14:04
+updated: 2025-05-27T20:44
 ---
 Khái niệm:: [[Công việc]]
-[[Các công việc trong một dự án chủ yếu là các công việc khai phá. Các công việc trong một chiến dịch chủ yếu là các công việc khai thác]]
+[[Dự án chủ yếu gồm các công việc khai phá. Chiến dịch chủ yếu gồm các công việc khai thác]]
 Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 
 [[Công việc khai phá và công việc khai thác]]

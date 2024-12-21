@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-14T11:49
+updated: 2025-05-26T19:55
 ---
-Khái niệm:: [[Ý tưởng]]
+Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Nhận thức/Ý tưởng]]
 
 Nguồn:: [To Solve Your Hardest Problems Don’t Think About Them — For a While](https://www.thomasessl.com/blog/2017/11/15/how-to-solve-your-hardest-problems-dont-think-about-themfor-awhile)
 Nguồn:: [[⚡Hiểu biết sâu/Ξ Nguồn/Wikipedia]], [Incubation (psychology) - Wikipedia](https://en.wikipedia.org/wiki/Incubation_(psychology))

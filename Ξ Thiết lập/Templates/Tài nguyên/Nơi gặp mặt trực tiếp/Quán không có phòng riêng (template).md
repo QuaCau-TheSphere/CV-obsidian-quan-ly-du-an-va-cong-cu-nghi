@@ -4,6 +4,7 @@ updated: 2024-08-22T15:14
 description: =địa chỉ
 ---
 Địa chỉ:: 
+Quận::
 Số lượng:: 
 
 Giá nước::
@@ -19,7 +20,7 @@ Giờ đóng cửa::
 Ghi chú::
 
 > [!Attention] Phần lưu ý và điểm cộng chưa đánh giá chính xác
-> Lý do là vì mẫu tạo mới (template) được thiết kế theo kiểu thấy sai thì xoá, chứ không phải kiểu thấy đúng thì ghi.  Đọc bài [[📜Tài nguyên/Giải pháp kỹ thuật/Hậu cần/Nơi gặp mặt trực tiếp/Nơi gặp mặt trực tiếp]] để biết thêm chi tiết.
+> Lý do là vì mẫu tạo mới (template) được thiết kế theo kiểu thấy sai thì xoá, chứ không phải kiểu thấy đúng thì ghi.  Đọc bài [[Nơi gặp mặt trực tiếp|Hướng dẫn sử dụng kho địa điểm để chọn nơi gặp mặt]] để biết thêm chi tiết.
 
 Lưu ý:
 - Xe lăn không tiếp cận được
@@ -27,6 +28,7 @@ Lưu ý:
 - Bàn không đúng kích thước làm việc
 - Có khói thuốc lá 
 - Giá chưa bao gồm thuế
+- Dùng ly giấy để phục vụ khách ngồi tại chỗ
 
 Điểm cộng:
 - [x] Nói to được

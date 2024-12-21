@@ -2,14 +2,8 @@
 share: true
 description: 11 Trần Quý Khoách, P. Tân Định, Q1
 created: 2024-08-22T15:13
-updated: 2024-09-03T01:21
+updated: 2025-05-20T22:14
 ---
-```dataviewjs
-const a = dv.current().file.path
-const file = await app.vault.cachedRead(app.vault.getAbstractFileByPath(a))
-dv.span(a)
-console.log(file)
-```
 Địa chỉ:: 11 Trần Quý Khoách, P. Tân Định, Q1
 
 | Giờ `→`<br>Phòng `↓` | 1h   | 4h   | 8h     |

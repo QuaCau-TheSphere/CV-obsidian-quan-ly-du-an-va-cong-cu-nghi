@@ -3,7 +3,8 @@ share: true
 created: 2023-10-22T21:45
 updated: 2024-09-02T13:22
 description: Cùng là một tập tin hỗ trợ, khi đang làm việc A thì đầu óc ta sẽ nghĩ đến nó với cái tên và ở cấu trúc phân cấp khác với khi đang làm việc B. Ngoài ra khi quản lý các tập tin như vậy thì muốn tách chúng ra ngoài kho và để riêng vào một thư mục, trong khi lúc cần dùng thì lại cần để vào trong kho. Nên xử lý việc này thế nào?
-alias: Dùng một script để lấy các tập tin bổ trợ về thư mục
+aliases:
+  - Dùng một script để lấy các tập tin bổ trợ về thư mục
 ---
 Bài viết [The Knowledge Organization](https://fibery.io/blog/gems/the-knowledge-organization/) của Fibery có nói đến việc [[Cấu trúc phân cấp thường cứng nhắc và nhân tạo|cấu trúc phân cấp của cây thư mục thường cứng nhắc và nhân tạo]]. Cùng là một tập tin, khi đang làm việc A thì đầu óc ta sẽ nghĩ đến nó với cái tên và ở cấu trúc phân cấp khác với khi đang làm việc B:
 ![](https://fibery.io/blog/static/7bae05409fa1f5c4550c798c2725fe3a/573d3/competing-hierarchies.png) 

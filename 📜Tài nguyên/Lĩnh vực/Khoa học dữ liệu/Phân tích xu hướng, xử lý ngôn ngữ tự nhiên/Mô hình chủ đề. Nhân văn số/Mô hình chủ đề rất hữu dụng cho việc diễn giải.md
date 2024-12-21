@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-10T16:10
-updated: 2024-09-02T14:52
+updated: 2024-12-27T18:00
 ---
 Khái niệm:: [[Diễn giải, đọc]]
 
@@ -19,3 +19,4 @@ Chính vì [[❓Nhân văn chỉ quan tâm đến việc lưu trữ, hiểu dữ
 
 [[Bản chất của mô hình chủ đề là tô màu cho văn bản và từ]]
 [[Topic modelling trong NLP dùng cho máy và cần tập dữ liệu lớn. Còn thematic analysis trong nhân học thì dành cho người, nhấn mạnh vào yếu tố thị giác]]
+[[Mô hình ngôn ngữ lớn làm việc với ngôn ngữ, không phải kiến thức]]

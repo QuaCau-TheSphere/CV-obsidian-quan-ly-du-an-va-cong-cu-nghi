@@ -1,15 +1,14 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-03T01:21
+updated: 2025-05-20T22:34
 description: 193/31 Nguyễn Đình Chính, Phú Nhuận
 ---
 Địa chỉ:: 193/31 Nguyễn Đình Chính
 Quận:: Phú Nhuận
 Giá:: 
 Ưu đãi giá:: 
-Số người tối thiểu:: 5
-Số người tối đa:: 20
+Số lượng:: 5 - 20
  
 Giá giữ xe:: 
 Liên hệ:: 0987 076901

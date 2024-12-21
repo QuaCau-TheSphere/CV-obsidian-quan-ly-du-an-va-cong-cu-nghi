@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-02T22:08
+updated: 2024-12-20T22:19
 description: Chuyển đổi số = CNTT + Số hoá toàn diện + Dữ liệu + Đổi mới sáng tạo + Công nghệ số
 ---
 ![](https://binhphuoc.gov.vn/uploads/binhphuoc/news/2023_03/it-dti-1300-3000-px-1300-3200-px-1.png)
@@ -46,3 +46,5 @@ _Chuyển từ công nghệ thông tin sang công nghệ thông tin +._ Công n
 **Bộ trưởng Bộ Thông tin và Truyền thông**
 
 Nguồn:: [Bộ trưởng Nguyễn Mạnh Hùng nói về sự khác nhau giữa công nghệ thông tin và chuyển đổi số](https://mic.gov.vn/mic_2020/Pages/TinTuc/154276/Bo-truong-Nguyen-Manh-Hung-noi-ve-su-khac-nhau-giua-cong-nghe-thong-tin-va-chuyen-doi-so.html)
+
+[[]]

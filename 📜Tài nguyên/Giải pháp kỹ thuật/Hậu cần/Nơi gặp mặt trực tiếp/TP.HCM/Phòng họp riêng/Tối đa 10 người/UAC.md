@@ -2,12 +2,14 @@
 share: true
 description: 56 Nguyễn Đình Chiểu, Q1
 created: 2023-07-18T11:21
-updated: 2024-09-03T01:21
+updated: 2025-05-20T22:35
 ---
 Địa chỉ:: 56 Nguyễn Đình Chiểu, Q1
-Giá:: 0
-Số người tối thiểu:: 
-Số người tối đa:: 4, 20
+
+| Giờ `→`<br>Phòng `↓`           | 4h  |
+| ------------------------------ | --- |
+| 4 người                        | 0   |
+| 20 người (sảnh làm việc chung) | 0   |
  
 Giá giữ xe:: 
 Liên hệ::

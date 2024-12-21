@@ -2,7 +2,7 @@
 share: true
 created: 2023-09-05T16:17
 updated: 2024-09-02T14:38
-alias:
+aliases:
   - 4 cấp độ phân tích dữ liệu: mô tả hiện tượng, lý giải nguyên nhân, dự đoán kết quả, đề xuất hành động
 title: "4 cấp độ phân tích dữ liệu: mô tả hiện tượng, lý giải nguyên nhân, dự đoán kết quả, đề xuất hành động"
 ---

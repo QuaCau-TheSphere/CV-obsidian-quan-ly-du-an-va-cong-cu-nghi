@@ -2,7 +2,8 @@
 share: true
 created: 2024-11-02T00:20
 updated: 2024-11-02T00:22
-alias: Nguyên lý Peter
+aliases:
+  - Nguyên lý Peter
 ---
 Khái niệm:: 
 Trong một công ty giáo dục nọ tại Sài Gòn, chị X được biết đến là một chuyên viên kinh doanh xuất sắc. Với những thành tích ấn tượng trong việc phát triển doanh số, chị nhanh chóng được thăng chức lần lượt lên các vị trí quản lý rồi lãnh đạo một đơn vị quan trọng. Tuy nhiên, trong vai trò mới này, chị ta bắt đầu gặp khó khăn. Chị ấy thường bị trễ kỳ hạn, tài liệu bắt đầu sai sót, chiến lược đề ra bắt đầu sơ sài, nhiều nhược điểm. Quả thật, nhiều kỹ năng lãnh đạo như tư duy chiến lược, quản lý dự án - những yếu tố then chốt cho vị trí mới - lại không phải là thế mạnh của chị ấy. Câu chuyện của chị X vốn có một tên gọi trong tâm lý học tổ chức. Nó chính là một minh họa điển hình cho Nguyên lý Peter trong môi trường công sở.

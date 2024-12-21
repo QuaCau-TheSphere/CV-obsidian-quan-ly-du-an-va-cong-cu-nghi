@@ -3,7 +3,11 @@ share: true
 created: 2024-04-16T15:27
 updated: 2024-11-27T13:37
 description: Việc hợp nhất copyright, patent và trademark dưới một cái tên là tài sản trí tuệ giống như hợp nhất Hàn Quốc, Mông Cổ, Pakistan lại thành nước Hàn Cổ Stan, rồi cố tìm điểm chung giữa chúng cho dù ngay từ đầu chúng chẳng liên quan gì đến nhau, dù đó là địa lý, chủng tộc, văn hoá, ngôn ngữ, chính trị, v.v.
-alias: Việc hợp nhất copyright, patent và trademark dưới một cái tên là tài sản trí tuệ giống như hợp nhất Hàn Quốc, Mông Cổ, Pakistan lại thành nước Hàn Cổ Stan
+aliases:
+  - Việc hợp nhất copyright
+  - patent và trademark dưới một cái tên là tài sản trí tuệ giống như hợp nhất Hàn Quốc
+  - Mông Cổ
+  - Pakistan lại thành nước Hàn Cổ Stan
 ---
 Khái niệm:: 
 Copyright, patent và trademark là 3 loại luật khác nhau. Việc hợp nhất chúng dưới một cái tên là tài sản trí tuệ giống như hợp nhất Hàn Quốc, Mông Cổ, Pakistan lại thành nước Hàn Cổ Stan, rồi cố tìm điểm chung giữa chúng cho dù ngay từ đầu chúng chẳng liên quan gì đến nhau, dù đó là địa lý, chủng tộc, văn hoá, ngôn ngữ, chính trị, v.v.

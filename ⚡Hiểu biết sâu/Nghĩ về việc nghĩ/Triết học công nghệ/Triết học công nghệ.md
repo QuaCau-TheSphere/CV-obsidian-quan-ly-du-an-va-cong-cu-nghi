@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-27T12:48
+updated: 2025-04-22T13:46
 ---
-Khái niệm:: 
+Khái niệm:: [[Triết học]]
 
 ```dataview
 LIST
@@ -14,7 +14,7 @@ WHERE file.name != this.file.name
 ![](https://i.imgur.com/dthVmJc.png)
 
 [[Khi hành động của một người được tạo bởi thiên kiến, ta thường nói là nó phi lý. Khi một đồ vật được tạo bởi thiên kiến, ta thường bảo rằng nó trung lập]]
-
+[[Triết học là việc đặt câu hỏi về những giả định của mình]]
 
 [[Những app quản lý công việc mang trong mình những giá trị văn hoá]]
 

@@ -2,7 +2,8 @@
 share: true
 created: 2023-06-10T13:39
 updated: 2023-11-27T22:26
-alias: chân dung khách hàng
+aliases:
+  - chân dung khách hàng
 ---
 ![](https://miro.medium.com/v2/resize:fit:1400/format:webp/1*lwr2g0HvLOVr5IPVNoYxLg.png) 
 Nguồn:: [Fetching Title#roh6](https://jtbd.info/replacing-the-user-story-with-the-job-story-af7cdee10c27)

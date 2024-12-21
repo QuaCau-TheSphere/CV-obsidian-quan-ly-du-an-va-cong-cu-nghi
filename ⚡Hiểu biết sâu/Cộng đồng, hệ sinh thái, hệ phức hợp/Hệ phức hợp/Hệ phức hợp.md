@@ -1,22 +1,21 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-21T13:22
+updated: 2025-09-27T11:14
 ---
 Chủ đề:: [[Sự tự tổ chức sự tạo mẫu hình một cách phi tuyến]]
 - Theo lý thuyết mạng lưới: có độ kết nối cao 
 - theo lý thuyết tiến hóa: hệ bắt đầu từ đơn giản sau đó có sự chuyên môn hóa và kết hợp lẫn nhau
-# Hệ mở
+## Hệ đóng, hệ mở
 | Hệ đóng                                                                                               | Hệ mở                                            |
 | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------ |
-| có ranh giới rõ ràng, có thể kiểm soát hoàn toàn trong ranh giới đó. Có trật tự và sự đoán trước được |                                                  |
+| Có ranh giới rõ ràng, có thể kiểm soát hoàn toàn trong ranh giới đó. Có trật tự và sự đoán trước được |                                                  |
 | Nhấn mạnh đến thành phần                                                                              | Nhấn mạnh đến sự liên kết                        |
 | Các thành phần không có sự tự chủ                                                                     | Các thành phần có tính tự chủ                    |
 | Có lợi thế trong môi trường ổn định                                                                   | Có lợi thế trong môi trường không ổn định        |
 | Được định nghĩa bởi các thành phần                                                                    | Được định nghĩa bằng dòng tài nguyên chảy qua nó |
-|                                                                                                       |                                                  |
 
-# Hệ phi tuyến, động 
+## Hệ phi tuyến, động 
 - Tuyến tính: quan hệ nhân quả, thường không để ý tới thời gian diễn ra. Chịu ảnh hưởng của tư duy Newton
 - Phi tuyến: có phản hồi, không dự đoán được mối liên hệ giữa nhân và quả
 
@@ -36,7 +35,7 @@ Chủ đề:: [[Sự tự tổ chức sự tạo mẫu hình một cách phi tuy
 Có thể xảy ra nhiều hiệu ứng bươm bướm và thiên nga đen 
 
 
-# Hệ dịch vụ
+## Hệ dịch vụ
 Thế giới hậu công nghiệp bị bão hoà bởi sản phẩm. Con người không hứng thú đến việc có thêm sản phẩm nữa, mà hứng thú tới việc có thêm tính năng. Chúng ta không cần phải có xe để có thể hưởng được dịch vụ đi xe
 
 | Sản phẩm                                   | Dịch vụ                                                                                                                                             |
@@ -47,7 +46,7 @@ Thế giới hậu công nghiệp bị bão hoà bởi sản phẩm. Con ngườ
 | Once-off                                   | thời gian, mqh. Nike bán dịch vụ huấn luyện sau khi mua giày, khiến người dùng phải mua lại dày của Nike để tiếp tục sử dụng dịch vụ huấn luyện này |
 | Không tự đáp ứng. Giống nhau trong mọi lúc |                                                                                                                                                     |
 
-# Hệ đáp ứng
+## Hệ đáp ứng
 | Hệ kháng | Hệ đáp ứng |
 | -------- | ---------- |
 |          |            |

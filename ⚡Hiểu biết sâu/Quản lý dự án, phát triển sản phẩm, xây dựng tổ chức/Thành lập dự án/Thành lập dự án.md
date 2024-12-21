@@ -1,14 +1,14 @@
 ---
 share: true
 created: 2023-11-05T19:53
-updated: 2023-11-13T13:28
+updated: 2025-07-14T19:00
 ---
 
 ```dataview
 LIST rows.file.link
-FROM "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Startup" 
+FROM "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Thành lập dự án" 
 WHERE file.name!=this.file.name
-GROUP BY split(file.folder, "/")[2]
+GROUP BY split(file.folder, "/")[3]
 ```
 
 

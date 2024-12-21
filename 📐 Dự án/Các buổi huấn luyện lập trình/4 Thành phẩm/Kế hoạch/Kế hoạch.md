@@ -3,7 +3,7 @@ share: true
 created: 2023-11-19T14:44
 updated: 2024-11-29T12:21
 title: Kế hoạch tổ chức các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình
-alias:
+aliases:
   - Kế hoạch tổ chức các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình
 ---
 - [ ] Kiểm chứng các giả định

@@ -1,8 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-29T13:41
+updated: 2025-05-26T19:55
 ---
-Khái niệm:: 
-
-Nguồn:: 
+```dataview
+LIST
+WHERE file.name != this.file.name
+WHERE contains(khái-niệm, [[]])
+```

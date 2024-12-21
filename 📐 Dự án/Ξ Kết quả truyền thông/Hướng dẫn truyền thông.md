@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-11-02T12:38
+updated: 2025-05-23T19:46
 ---
 Nếu bạn có thời gian thì làm, còn không thì cũng không sao.
 
 # Nội dung giới thiệu
-Giới thiệu chung thì có thể dựa vào [[Vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản|Phá vỡ silo thông tin và nắm bắt nhu cầu các bên một cách hiệu quả: tầm quan trọng của các phần mềm ghi chú động và lưu dữ liệu tại máy người dùng]], đặc biệt là phần [[Vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản#Liên thông dữ liệu giữa các nhóm dự án|Liên thông dữ liệu giữa các nhóm dự án]], hoặc có thể điều chỉnh tuỳ vào [[4 Các bên liên quan]]
+Giới thiệu chung thì có thể dựa vào [[Mô tả dự án|Phá vỡ silo thông tin và nắm bắt nhu cầu các bên một cách hiệu quả: tầm quan trọng của các phần mềm ghi chú động và lưu dữ liệu tại máy người dùng]], đặc biệt là phần [[Mô tả dự án#Liên thông dữ liệu giữa các nhóm dự án|Liên thông dữ liệu giữa các nhóm dự án]], hoặc có thể điều chỉnh tuỳ vào [[4 Các bên liên quan]]
 
 # Link
 Trước tiên bạn cần hiểu mã UTM là gì. Bài chi tiết: [Hướng Dẫn Tạo Mã UTM Nhằm Đo Lường Chính Xác Mức Độ Hiệu Quả Các Chiến Dịch Quảng Cáo - A1 DigiHub](https://a1digihub.com/huong-dan-tao-ma-utm-nham-do-luong-chinh-xac-muc-do-hieu-qua-cac-chien-dich-quang-cao/)
@@ -43,7 +43,7 @@ Trước tiên bạn cần hiểu mã UTM là gì. Bài chi tiết: [Hướng D�
 - **Campaign medium:** `social`
 - **Campaign name:** `Giới thiệu vault`
 
-### Chia sẻ trang [[Vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản|Phá vỡ silo thông tin và nắm bắt nhu cầu các bên một cách hiệu quả: tầm quan trọng của các phần mềm ghi chú động và lưu dữ liệu tại máy người dùng]] khi bình luận về bài DEF trong nhóm ABC trên Facebook
+### Chia sẻ trang [[Mô tả dự án|Phá vỡ silo thông tin và nắm bắt nhu cầu các bên một cách hiệu quả: tầm quan trọng của các phần mềm ghi chú động và lưu dữ liệu tại máy người dùng]] khi bình luận về bài DEF trong nhóm ABC trên Facebook
 - **Campaing source:** `F G » ABC » DEF`
 - **Campaign medium:** `social`
 - **Campaign name:** `Nói về sự hợp tác`
@@ -58,7 +58,7 @@ Trước tiên bạn cần hiểu mã UTM là gì. Bài chi tiết: [Hướng D�
 - **Campaign medium:** `chat`
 - **Campaign name:** `Bàn luận hiểu biết`
 
-### Chia sẻ trang [[Vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản|Phá vỡ silo thông tin và nắm bắt nhu cầu các bên một cách hiệu quả: tầm quan trọng của các phần mềm ghi chú động và lưu dữ liệu tại máy người dùng]] trong phiếu đăng ký tham gia chương trình ABC
+### Chia sẻ trang [[Mô tả dự án|Phá vỡ silo thông tin và nắm bắt nhu cầu các bên một cách hiệu quả: tầm quan trọng của các phần mềm ghi chú động và lưu dữ liệu tại máy người dùng]] trong phiếu đăng ký tham gia chương trình ABC
 - **Campaing source:** `ABC`
 - **Campaign medium:** `form`
 - **Campaign name:** `Nói về sự hợp tác`

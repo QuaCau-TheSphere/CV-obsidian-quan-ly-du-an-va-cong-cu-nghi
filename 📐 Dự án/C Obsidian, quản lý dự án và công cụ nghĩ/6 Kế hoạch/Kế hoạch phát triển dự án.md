@@ -1,14 +1,15 @@
 ---
-alias: Khi nào thì có thể nói là thành công
+aliases:
+  - Khi nào thì có thể nói là thành công
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-27T21:28
+updated: 2025-05-17T16:07
 ---
 Nhu cầu:: các nhóm liên thông dữ liệu với nhau, Quả Cầu có thêm người quan tâm
 
 # Thành quả mong muốn
 %%
-Thành quả cần có:: [[50 nhóm dự án sử dụng Obsidian để quản lý công việc]]
+Thành quả cần có:: [[50 nhóm dự án sử dụng Obsidian để quản lý kiến thức và công việc]]
 
 Thành quả hỗ trợ:: [[10 người đóng góp xây vault]]
 

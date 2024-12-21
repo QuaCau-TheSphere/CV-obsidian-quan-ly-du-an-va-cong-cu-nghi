@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-02T14:26
+updated: 2025-02-08T12:22
 ---
 Lý do:: [[Việc hợp tác làm việc thời gian thực với dữ liệu được lưu ở máy cá nhân là một bài toán khó]]
 
@@ -15,3 +15,5 @@ we became borrowers of our own data
 Nguồn:: [Local-first software: You own your data, in spite of the cloud](https://www.inkandswitch.com/local-first/)
 [[Những người tự thấy mình ngu công nghệ đơn giản là vì họ không được trao quyền tự trị dữ liệu]]
 [[Lập trình viên biết lập trình chủ yếu là nhờ biết google]]
+
+![Home-cooked Software and Barefoot Programmers: Maggie Appleton (Local-First Conf) - YouTube](https://youtu.be/qo5m92-9_QI?si=p9QofuYskpRD-0RD)

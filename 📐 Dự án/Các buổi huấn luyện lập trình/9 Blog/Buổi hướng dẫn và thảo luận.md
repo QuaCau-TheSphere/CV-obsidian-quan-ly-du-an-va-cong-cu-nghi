@@ -2,7 +2,8 @@
 share: true
 created: 2024-08-21T15:49
 updated: 2024-08-22T16:35
-alias: workshop
+aliases:
+  - workshop
 ---
 Thiếu nguồn lực để có nhân sự chuyên môn về thiết kế, kỹ thuật, thuyết trình, đo lường, truyền thông, quản lý kiến thức, hợp tác và bạn phải tự làm bằng tay
 Đặc biệt là các dự án cần một lượng nghiên cứu nhất định

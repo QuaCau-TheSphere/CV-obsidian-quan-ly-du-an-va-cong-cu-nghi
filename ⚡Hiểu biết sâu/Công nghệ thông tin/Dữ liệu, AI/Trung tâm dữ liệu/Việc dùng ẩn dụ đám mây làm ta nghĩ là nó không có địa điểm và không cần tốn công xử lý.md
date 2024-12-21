@@ -1,0 +1,77 @@
+---
+share: true
+created: 2025-05-26T19:55
+updated: 2025-09-14T10:22
+---
+Khái niệm:: 
+Data is currently dislocated – our narratives and metaphors around it try to convince us it is immaterial"
+
+Actually it’s worse than dislocated – our narratives and metaphors around data are determined to convince us it **needs no location** because it is *immaterial*.
+
+It lives in **“The Cloud.”** It doesn’t have a geographical home. It floats about as small fluffy terrabytes circling the globe, able to rain data down on us at the click of a button.
+
+Clouds are such a pleasant metaphor. Weighing nothing, they require no energy sources or physical land or building materials or human labour to maintain. They’re transcedental and mystical - playing into our cultural belief system that technology is a form of magic that lives in an alternate land.
+
+That land would be *Cyberspace* – the parallel universe William Gibson described in the 1980’s sci-fi novel . We know it well as the blue, slightly transparent, glowing realm of floating dots
+
+![](https://www.securitymagazine.com/ext/resources/cyber.jpg?1588203186)
+
+![](https://images.unsplash.com/photo-1620393470010-fd62b8ab841d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=900&q=80)
+
+![](https://www.chinausfocus.com/d/file/201801/df053bcb9421dd240bad6270f30e7c44.jpg)
+
+![](https://betanews.com/wp-content/uploads/2018/02/Digital-data.jpg)
+
+Cyberspace is an evocative image that kicked off a unfortunate cultural lie: That the digital world is some place different to the “real,” meatspace world. A place that is not subject to the grounded realities of earth. It’s free from gravity, time, place, identity, scarcity, law, borders, and data storage limits.
+
+This story created what Nathan Jurgenson calls – the notion that the “ *online* ” and “ *offline* ” worlds are two distinct and seperate places rather than one continous reality.
+
+---
+
+If you work in DevOps or backend programming, you’re acutely aware the cloud is a series of enormous physical warehouses. Primarily owned by Amazon Web Services.
+
+They require energy and materials and resources to run, and pump out 14% of global carbon emissions.
+
+Actual humans have to work there. They are responsible for maintenance, cleaning, repair, security, and optimizing “uptime.”
+
+**“The Cloud”** renders all those people, materials, places, and resources invisible.
+
+As an overarching mission of the last two decades, this is mostly what “technology” does – it renders human labour and material costs invisible.
+
+It builds tiny black boxes around complex systems and sticks a shiny app on the front. When people ask how the systems work, we mumble something about algorithms and machine learning.
+
+---
+
+“The Cloud” makes it difficult for us to think about data the way we need to.
+
+As something we create, that might belong to us. Something we might even be responsible for and need to protect. Something that has economic value that other people are actively buying and selling to one another right now.
+
+None of those options seem real at the moment. Most of the data you and I have created over the last decade of clicking through the web is in someone else’s S3 bucket.
+
+What would it look like for data to become grounded, local, and material?
+
+What would it looks like if data storage went the way of coffee into local, artisan, organic data storage shops?
+
+What if these shops focused on creating ways for you to ‘see’ your data?
+
+What kind of visual design affordances would help us understand that data lives on physcial, material hardware?
+
+Amazon is clearly the Starbucks of the data storage world.
+
+![A pair of coffee cups bearing a logo similar to starbucks, but replaced with amazon's aws logo](https://res.cloudinary.com/dg3gyk0gu/image/upload/c_scale,f_auto,q_auto:good,w_1200/v1610492195/maggieappleton.com/notes/organic-artisan-data/amazon-coffee_shrink.png)
+
+A pair of coffee cups bearing a logo similar to starbucks, but replaced with amazon's aws logo
+
+What if the the same way the artisan coffee movement kicked back against Double Soy Venti Caramel Lattes, the artisan data storage movement made the equivalent of an organic, free-trade Chemex pour over?
+
+---
+
+There are obvious issues with these provocations. Cheap, reliable data storage is only possible because of centralised systems of energy and security. Decentralised localisation would need to overcome a whole host of standardisation and security measures.
+
+Research projects like [Protocol Labs](https://protocol.ai/) and Tim Berners-Lee’s [Solid Project](https://solidproject.org/) sound like they’re at least exploring solutions. Yes, it involves blockchain. No, of course I don’t fully understand.
+
+There are real-life up and running in the world like which suggest ways we might share and monetise our data on our own terms.
+
+It might be a terrible idea. I don’t know know enough to know yet. If you have civil, reasonable thoughts, chat to me on Twitter.
+
+Nguồn:: [Organic, Local, Artisan Data Storage](https://maggieappleton.com/artisan-data)

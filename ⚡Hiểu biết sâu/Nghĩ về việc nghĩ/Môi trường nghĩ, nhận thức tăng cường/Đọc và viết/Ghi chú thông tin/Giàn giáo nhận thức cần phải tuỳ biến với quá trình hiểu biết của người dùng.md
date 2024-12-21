@@ -1,10 +1,8 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-02-09T13:07
+updated: 2025-03-05T19:30
 ---
-# Cognitive scaffolding
-
 When thinking or doing something new and challenging, one common failure mode is that the smallest possible incremental step might still be too difficult to conceive. In these instances, it’s best to adopt an environment which will erect _cognitive scaffolding_ to support part of the cognitive load, enabling that next step. As the actor builds capacity, the scaffolding can be gradually removed, either by him or by his environment. The temporary nature of the scaffolding makes this a subset of mechanisms for augmenting cognition.
 
 Scaffolding is usually authored. Occasionally unauthored scaffolding occurs; for instance, a series of gradually deepening tide pools might provide a great natural environment for learning to swim.

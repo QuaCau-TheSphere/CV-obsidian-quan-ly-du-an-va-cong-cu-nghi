@@ -1,7 +1,9 @@
 ---
 share: true
 created: 2024-08-02T17:03
-updated: 2024-09-21T21:29
+updated: 2025-03-10T22:16
+aliases:
+  - Làm gì với một khái niệm?
 ---
 ## Phân Tích Ngôn Ngữ (Linguistic Analysis)
 - Từ điển định nghĩa (dictionary definition) từ này như thế nào?

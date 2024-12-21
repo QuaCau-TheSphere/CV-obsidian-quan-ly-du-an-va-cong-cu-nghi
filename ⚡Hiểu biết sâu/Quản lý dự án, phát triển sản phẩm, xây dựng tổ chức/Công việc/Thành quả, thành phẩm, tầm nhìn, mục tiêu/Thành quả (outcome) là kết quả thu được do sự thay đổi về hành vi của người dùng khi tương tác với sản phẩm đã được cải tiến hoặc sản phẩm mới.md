@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-29T22:18
+updated: 2025-05-28T16:27
 ---
 Khái niệm:: [[Thành quả]]
 Ví dụ: tăng retention rate, tăng giá trị đơn hàng mỗi lần mua, tăng frequency mua hàng
@@ -23,9 +23,10 @@ Có cuốn sách "Outcome over output" nói về vấn đề này.
 
 Tham khảo:: [[Hoàng Đức Minh]]
 
-[[❓Nhu cầu = impact = vấn đề = điểm đau = động lực = lý do bắt đầu]]
+[[❓Nhu cầu = impact = vấn đề = điểm đau = động lực = lý do bắt đầu = thành quả mong muốn nguyên thuỷ]]
 [[Tầm nhìn = thành quả lớn nhất]]
 [[❓Tại sao không gọi thẳng là kết quả từ sự thay đổi hành vi của người dùng？Dùng thành quả dễ gây nhầm lẫn cho người chưa biết]] 
 
 [[Tiêu đề của thành quả mong muốn bắt đầu bằng người dùng]] 
 [[Đổi những câu hỏi chất vấn giả định của một thành quả về dạng khẳng định thì ta sẽ có những thành quả mong muốn thành phần]]
+[[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng]]

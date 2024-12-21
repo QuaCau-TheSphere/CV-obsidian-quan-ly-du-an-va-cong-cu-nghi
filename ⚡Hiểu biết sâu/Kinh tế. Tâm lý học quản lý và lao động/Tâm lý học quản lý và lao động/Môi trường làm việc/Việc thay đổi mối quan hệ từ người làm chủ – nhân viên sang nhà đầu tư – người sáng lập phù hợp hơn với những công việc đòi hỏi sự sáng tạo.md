@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-28T12:56
+updated: 2024-12-20T20:28
 ---
-Khái niệm:: 
+Khái niệm:: [[Sáng tạo]]
 [[Quản lý công việc và quản lý kiến thức không thể tách rời nhau]]
 [[Có những lúc đầu tư vào một người để họ tạo ra sản phẩm của họ sẽ đem lại nhiều lợi nhuận hơn trả lương cho họ để họ làm cho sản phẩm của mình]]
 

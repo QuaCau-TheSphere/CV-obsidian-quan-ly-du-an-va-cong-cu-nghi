@@ -536,5 +536,21 @@
       ],
       "key": "U"
     }
+  ],
+  "file-diff:find-sync-conflicts-and-merge": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "D"
+    }
+  ],
+  "image-to-text-ocr:append": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
   ]
 }

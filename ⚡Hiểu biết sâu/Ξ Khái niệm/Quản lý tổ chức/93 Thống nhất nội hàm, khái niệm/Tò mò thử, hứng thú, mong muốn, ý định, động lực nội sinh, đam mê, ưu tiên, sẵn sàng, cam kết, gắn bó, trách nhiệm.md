@@ -1,7 +1,8 @@
 ---
-Alias: "93.04"
+aliases:
+  - "93.04"
 created: 2023-06-12T00:57
-updated: 2024-07-29T13:42
+updated: 2025-05-28T16:06
 ---
 Tài liệu:: [[Thoả mãn, vui, thoải mái]]
 Tài liệu:: [[Tò mò thử, hứng thú, mong muốn, ý định, động lực nội sinh, đam mê, ưu tiên, sẵn sàng, cam kết, gắn bó, trách nhiệm]]
@@ -17,7 +18,7 @@ Tài liệu:: [[Tò mò thử, hứng thú, mong muốn, ý định, động l�
 Chủ đề:: [[Hứng thú]]
 Chủ đề:: [[Tò mò]]
 Chủ đề:: [[Động lực]]
-Chủ đề:: [[Hiện tượng khuếch tán trách nhiệm, người ngoài đứng nhìn]]
+Chủ đề:: [[Hiện tượng khuếch tán trách nhiệm, người ngoài đứng nhìn khiến cho ngay cả khi ta thấy người khác chịu khổ sở và rất cần được giúp thì mong muốn giúp đỡ cũng bị tê liệt]]
 
 ❓:: [[Biết rằng một người phải đi làm để kiếm tiền, nhưng tại sao họ lại phải cảm thấy có trách nhiệm nếu phải làm một thứ họ cảm thấy hứng thú？]]
 ❓:: [[Khi nào một người cần và họ sẽ đóng góp, và khi nào họ thấy rất cần nhưng họ cũng không đóng góp？]]

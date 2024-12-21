@@ -1,7 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-24T14:29
+updated: 2025-05-28T13:53
+aliases:
+  - số mũ
+  - cấp số nhân
 ---
 Khái niệm:: [[Phi tuyến]]
 

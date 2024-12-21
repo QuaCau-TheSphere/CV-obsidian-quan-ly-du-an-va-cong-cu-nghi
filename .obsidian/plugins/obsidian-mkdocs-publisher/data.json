@@ -41,7 +41,7 @@
       }
     ],
     "verifiedRepo": true,
-    "rateLimit": 4998
+    "rateLimit": 4996
   },
   "upload": {
     "behavior": "obsidian",
@@ -101,7 +101,9 @@
       "unshared": false,
       "wiki": true,
       "slugify": "disable",
-      "unlink": false
+      "unlink": false,
+      "relativePath": true,
+      "textPrefix": "/"
     }
   },
   "embed": {

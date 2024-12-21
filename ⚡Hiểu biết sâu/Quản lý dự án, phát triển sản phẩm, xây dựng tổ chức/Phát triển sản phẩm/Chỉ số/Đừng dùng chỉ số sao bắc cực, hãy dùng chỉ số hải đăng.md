@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-11-26T15:37
+updated: 2025-05-27T16:10
 ---
+Khái niệm:: [[Thước đo, đo lường, chỉ số, KPI]]
 [[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng]]
 > What should stand out in the definition above are the expressions: _“grow this metric”_ and _“driving sustainable growth.”_ These two simple sentences make it crystal clear what the goal of the NSM should be. What’s less obvious and the part that companies always fail to spot is the “_core value that your product delivers to customers.”_ This is the purpose of the NSM! And yet, as I look around at product teams I’ve worked with, I cannot help but feel that somehow, somewhere we _lost our way, following the wrong star._
 

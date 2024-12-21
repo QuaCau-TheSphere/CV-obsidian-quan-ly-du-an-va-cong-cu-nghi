@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-06-13T00:06
-updated: 2024-02-05T23:27
+updated: 2025-05-27T21:53
 ---
+Khái niệm:: [[Ưu tiên]]
 ![](https://www.explainxkcd.com/wiki/images/f/f3/the_general_problem.png) 
 Nguồn:: [974: The General Problem - explain xkcd](https://www.explainxkcd.com/wiki/index.php/974:_The_General_Problem)
 [[Những công cụ nghĩ tốt đa phần là sản phẩm phụ của những nỗ lực giải quyết những vấn đề nghiêm túc]]
