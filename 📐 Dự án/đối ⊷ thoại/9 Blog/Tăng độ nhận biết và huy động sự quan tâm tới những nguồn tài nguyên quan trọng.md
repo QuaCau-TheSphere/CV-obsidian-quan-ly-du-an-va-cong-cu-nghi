@@ -17,4 +17,4 @@ Bằng quan sát cá nhân, chúng tôi thấy dù có rất nhiều tổ chức
 
 kiếm được các tài nguyên đã được tạo ra bởi các dự án khác, 
 
-Xem thêm:: [[Xây dựng hệ thống tri thức cộng đồng|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]]
+Xem thêm:: [[Chia sẻ kho tri thức của mình cho mọi người|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]]

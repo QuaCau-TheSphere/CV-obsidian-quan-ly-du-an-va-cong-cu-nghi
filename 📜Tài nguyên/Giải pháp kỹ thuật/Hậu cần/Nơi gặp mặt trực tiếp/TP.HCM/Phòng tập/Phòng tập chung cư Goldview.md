@@ -1,0 +1,45 @@
+---
+share: true
+created: 2025-05-26T19:55
+updated: 2025-10-08T15:45
+description: Tầng 5, chung cư The GoldView, 346 Bến Vân Đồn, Q4
+---
+Địa chỉ:: Tầng 5, chung cư The GoldView, 346 Bến Vân Đồn, Q4
+Số lượng:: 15 người
+Giá:: 0
+ 
+Giá giữ xe:: 5k
+Liên hệ:: https://www.facebook.com/quacau.sphere/
+Website:: [CHUNG CƯ THE GOLDVIEW](https://thegoldview-thapa.com)
+
+Giờ mở cửa::
+Giờ đóng cửa:: 21:30
+
+Ghi chú:
+- Cọc trước 1tr. Trả cọc sau 2 tuần
+- Cần có người dắt lên
+- Wifi: `PHONG HOP`. Pass: `12345678`
+
+Lưu ý:
+- Không được bày đồ ăn
+- Không có sẵn bình nước
+
+## Hướng dẫn di chuyển
+Khi đến TNL Plaza, bạn xuống hầm gửi xe rồi đi lên mặt đất lại. Đi men theo bờ tường bên phải, tới ngã ba thì quẹo trái, vào cửa an ninh gần nhất. Sau khi đi qua cửa thì lên thang máy lên tầng 5:
+![[Hướng di chuyển dưới đất.png]]
+[[Hướng di chuyển dưới đất.excalidraw|excalidraw]]
+
+Từ thang máy tầng 5 khu A1, bạn sẽ thấy có một cái hành lang. Đi hết một nửa hành lang đó bạn sẽ tới thang máy của khu A2. Đối diện phòng gym bạn sẽ thấy có một cái hành lang nữa. Phòng họp ở cuối hành lang này:
+![[Hướng di chuyển tầng 5.png]]
+[[Hướng di chuyển tầng 5.excalidraw|excalidraw]]
+
+Hình ảnh phòng tập:
+![[IMG_20251004_182229.jpg]]
+![[IMG_20251004_182241.jpg]]
+
+Mọi người đến sớm 10 phút, tập trung ở Chuk để Nhật dắt lên cho tiện. Nếu Nhật dắt lên thì khỏi làm vân tay. 
+
+## Địa điểm gần đó
+- [[Sân vườn chung cư GoldView]]
+- [[Bàn ghế siêu thị chung cư GoldView]]
+- [[Phòng sinh hoạt chung cư GoldView]]

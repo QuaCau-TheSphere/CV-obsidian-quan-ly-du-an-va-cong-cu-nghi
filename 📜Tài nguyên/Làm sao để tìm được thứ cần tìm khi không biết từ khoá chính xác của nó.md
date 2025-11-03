@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-04-24T09:02
-updated: 2025-09-25T09:51
+updated: 2025-11-03T18:50
 title: Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?
 aliases:
   - Đâu là nơi dễ gặp được từ khoá cần tìm nhất?
@@ -10,7 +10,7 @@ description: Đâu là nơi dễ gặp được từ khoá cần tìm nhất?
 > The difference between the almost right word and the right word is really a large matter - 'tis the difference between the lightning-bug and the lightning.
 > — Mark Twain
 
-Thực ra trong rất nhiều trường hợp, thứ cản trở ta có được từ khoá không hẳn là ở việc không biết phải bắt đầu tìm hiểu ở đâu, mà ở việc không có thời gian tìm hiểu. [[Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google]], và [[ta thường không sẵn sàng để đọc một tài liệu khi ta mới thấy nó|kể cả khi đã có được bài viết rồi thì ta cũng thường không sẵn sàng để đọc nó]], vì [[mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]. Sẽ thật tốt nếu như bạn có ngay một người am hiểu về lĩnh vực đó và sẵn sàng trả lời cho bạn. Nhưng nếu bạn không có ai am hiểu lĩnh vực quanh mình, hoặc bạn không muốn làm phiền họ nên không muốn hỏi họ, hoặc họ cũng không biết câu trả lời, thì lúc này câu hỏi "Làm sao để tìm được thứ ta cần khi ta không biết từ khoá chính xác của nó" sẽ trở thành:
+Thực ra trong rất nhiều trường hợp, thứ cản trở ta có được từ khoá không hẳn là ở việc không biết phải bắt đầu tìm hiểu ở đâu, mà ở việc không có thời gian tìm hiểu. [[Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google]], và [[ta thường không sẵn sàng để đọc một tài liệu khi ta mới thấy nó|kể cả khi đã có được bài viết rồi thì ta cũng thường không sẵn sàng để đọc nó]], vì [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]. Sẽ thật tốt nếu như bạn có ngay một người am hiểu về lĩnh vực đó và sẵn sàng trả lời cho bạn. Nhưng nếu bạn không có ai am hiểu lĩnh vực quanh mình, hoặc bạn không muốn làm phiền họ nên không muốn hỏi họ, hoặc họ cũng không biết câu trả lời, thì lúc này câu hỏi "Làm sao để tìm được thứ ta cần khi ta không biết từ khoá chính xác của nó" sẽ trở thành:
 
 ## Điều mà làm một mình không thể có được
 
@@ -59,7 +59,7 @@ Thường đó sẽ là các danh sách được tuyển chọn, ví dụ như:
 Các kho kiến thức:
  - Với tiếng Việt thì có [trang giới thiệu về đối ⊷ thoại](https://doi-thoai.deno.dev/blog?utm_source=Vault+C+Obsidian%2C+quản+lý+dự+án+và+công+cụ+nghĩ+(Hiểu+biết+sâu)&utm_medium=Vault&utm_campaign=đối+⊷+thoại&utm_content=⚡Hiểu+biết+sâu%2FNghĩ+về+việc+nghĩ%2FHọc+tập%2C+hiểu+biết%2FLàm+sao+để+tìm+được+thứ+ta+cần+khi+ta+không+biết+từ+khoá+chính+xác+của+nó.md&utm_term=).
 
-Xem thêm:: [[Xây dựng hệ thống tri thức cộng đồng|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]]
+Xem thêm:: [[Chia sẻ kho tri thức của mình cho mọi người|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]]
 ### Các nghiên cứu tổng quan, sách nhập môn, bài giảng đại học
 Hết cách rồi, phải lao đầu vào nghiên cứu thật kỹ thôi.
 
@@ -95,7 +95,7 @@ Hoặc cũng có thể có câu trả lời rồi mà mình chưa biết. Nếu 
 - [[Khai thác một từ khoá]]
 - [Bản chất của sự mơ hồ](https://quảcầu.cc/ly-thuyet-ve-goc-nhin?utm_source=Vault+C+Obsidian%2C+quản+lý+dự+án+và+công+cụ+nghĩ+(Hiểu+biết+sâu)&utm_medium=Vault&utm_campaign=hiểu+lầm%2Cnét+nghĩa+ẩn%2Cthay+đổi+góc+nhìn%2CHiện+tượng+học%2C+khoa+học+nhận+thức%2C+vật+lý+luận%2Chiện+tượng+học&utm_content=⚡Hiểu+biết+sâu%2FNghĩ+về+việc+nghĩ%2FHọc+tập%2C+hiểu+biết%2FLàm+sao+để+tìm+được+thứ+ta+cần+khi+ta+không+biết+từ+khoá+chính+xác+của+nó.md&utm_term=)
 - [[Nghịch lý triển ngôn|Nghịch lý triển ngôn: Ý tưởng có trước hay sự triển khai ngôn ngữ có trước?]]
-- [[Xây dựng hệ thống tri thức cộng đồng|Xây dựng hệ thống tri thức cộng đồng: Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]] 
+- [[Chia sẻ kho tri thức của mình cho mọi người|Xây dựng hệ thống tri thức cộng đồng: Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]] 
 - [[Sự chuyên gia đến từ việc nhìn ra mẫu hình|Làm sao để giỏi hơn: Sự chuyên gia (expertise) đến từ việc nhìn ra mẫu hình]]
 
 Khái niệm:: [[Mental modal]], [[Điều không biết]]

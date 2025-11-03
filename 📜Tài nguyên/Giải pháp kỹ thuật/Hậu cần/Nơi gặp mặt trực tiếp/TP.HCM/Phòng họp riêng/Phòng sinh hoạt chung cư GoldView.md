@@ -2,24 +2,23 @@
 share: true
 created: 2023-05-26T14:51
 description: Tầng 5, chung cư The GoldView, 346 Bến Vân Đồn, Q4
-updated: 2025-06-22T20:31
+updated: 2025-10-31T20:20
 ---
 Địa chỉ:: Tầng 5, chung cư The GoldView, 346 Bến Vân Đồn, Q4
 Số lượng:: 15 người
 Giá:: 0
  
-Giá giữ xe:: 5k
+Giá giữ xe:: 5k/4 tiếng
 Liên hệ:: https://www.facebook.com/quacau.sphere/
 Website:: [CHUNG CƯ THE GOLDVIEW](https://thegoldview-thapa.com)
 
-Giờ mở cửa::
+Giờ mở cửa:: 6h
 Giờ đóng cửa:: 21:30
 
 Ghi chú:
 - Cọc trước 1tr. Trả cọc sau 2 tuần
 - Cần có người dắt lên
-- Wifi: `PHONG HOP`. Pass: `12345678`
-
+- Wifi: `Apple 15`, Pass: `Bqlthapa@123`
 Lưu ý:
 - Không được bày đồ ăn
 - Không có sẵn bình nước
@@ -42,3 +41,5 @@ Mọi người đến sớm 10 phút, tập trung ở Chuk để Nhật dắt l�
 ## Địa điểm gần đó
 - [[Sân vườn chung cư GoldView]]
 - [[Bàn ghế siêu thị chung cư GoldView]]
+
+Giấy Xác Nhận Sử Dụng Tiện Ích (amenities Usage Confirmation) PMD-BF-111-ASC 

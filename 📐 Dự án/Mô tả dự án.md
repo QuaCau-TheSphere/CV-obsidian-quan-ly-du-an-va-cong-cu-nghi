@@ -56,7 +56,7 @@ chắc anh bắt đầu cảm thấy hoài nghi về những tham vọng như v�
 Nhưng anh biết cái này chỉ có gặp nhau thì mới có đầu óc để xử lý. Chứ tự làm thì ai cũng đều có công việc riêng nên ko có đầu óc để làm cái này
 ## Hướng giải quyết: Phổ cập việc sử dụng các chương trình ghi chú động để xây dựng phần mềm cá nhân
 Để tạo nên được một hệ sinh thái hiệu quả hơn, mỗi cá nhân và tổ chức tham gia vào nó cần có thể làm được những điều sau:
-- [[Xây dựng hệ thống tri thức cộng đồng|Tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất]]
+- [[Chia sẻ kho tri thức của mình cho mọi người|Tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất]]
 - Đóng góp những hiểu biết sâu sắc, nhu cầu và các dữ liệu khác một cách **thụ động** vào kho tài nguyên chung. Sự đóng góp của họ chỉ là sản phẩm phụ của việc họ tập trung vào việc giải quyết nhu cầu của mình, hoặc ít nhất chỉ cần làm một lần là những lần sau có thể làm tự động
 - [[Để có thể thiết kế một giải pháp một cách nhanh chóng và tự tin, ta cần được thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra|Thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra ]]
 
@@ -83,7 +83,7 @@ Local traditionally means something close to your home, something familiar, inti
 ![](https://maggieappleton.com/_astro/hcs_11.BOJMPdw__1AdRwN.png)
 [Home-Cooked Software and Barefoot Developers](https://maggieappleton.com/home-cooked-software)
 
-- [[Xây dựng hệ thống tri thức cộng đồng]], giúp mọi người [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|tìm được thứ cần tìm khi không biết từ khoá chính xác của nó]]
+- [[Chia sẻ kho tri thức của mình cho mọi người]], giúp mọi người [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|tìm được thứ cần tìm khi không biết từ khoá chính xác của nó]]
 
 ## Tầm nhìn: Xây dựng nền kinh tế không dùng tiền
 Nếu sự hợp tác giữa các nhóm dự án nhỏ đạt được hiệu quả cao, thì ta sẽ xây dựng một mạng kết nối nhu cầu, nơi mà mọi người đáp ứng nhu cầu lẫn nhau. Họ có thể làm được như vậy vì tất cả mọi thành viên đều biết nhu cầu nào đang có nhiều người có nhất, ai đang có cùng nhu cầu với ai, v.v. Các nhu cầu của họ sẽ được thoả mãn bằng việc trao đổi nhu cầu cho nhau, hoặc cùng hợp tác để tạo giải pháp chung. Khi mạng lưới này lớn hơn nữa, thì nó sẽ hoạt động như một nền kinh tế. Bởi vì các nhu cầu trong đây được đáp ứng mà không cần dùng đến tiền làm trung gian, nên nó là một nền kinh tế không dùng tiền. Nó sẽ là sự kết hợp giữa nền kinh tế nền tảng (platform economy) và nền kinh tế quà tặng (gift economy). Nó cũng có liên hệ rất mật thiết tới [[Nền kinh tế chăm sóc]] (care economy).
@@ -92,7 +92,7 @@ Nếu sự hợp tác giữa các nhóm dự án nhỏ đạt được hiệu qu
 
 > [!info] Bài chi tiết: [Một đám mây chim sáo](https://quảcầu.cc/mot-dam-may-chim-sao/?utm_source=CV+%C2%BB+T%E1%BB%AB+vi%E1%BB%87c+l%C6%B0u+d%E1%BB%AF+li%E1%BB%87u+t%E1%BA%A1i+ch%E1%BB%97+%C4%91%E1%BA%BFn+s%E1%BB%B1+h%E1%BB%A3p+t%C3%A1c+%C4%91a+ph%C6%B0%C6%A1ng+v%C3%A0+li%C3%AAn+ng%C3%A0nh+v%C3%A0+n%E1%BB%81n+kinh+t%E1%BA%BF+kh%C3%B4ng+d%C3%B9ng+ti%E1%BB%81n&utm_medium=M%E1%BB%99t+%C4%91%C3%A1m+m%C3%A2y+chim+s%C3%A1o&utm_campaign=Giai+%C4%91o%E1%BA%A1n+2)
 
-Xem thêm:: [[Xây dựng hệ thống tri thức cộng đồng|Hệ thống tri thức cộng đồng]]
+Xem thêm:: [[Chia sẻ kho tri thức của mình cho mọi người|Hệ thống tri thức cộng đồng]]
 
 ## Kế hoạch
 Chương trình này sẽ có 3 giai đoạn:
@@ -100,7 +100,7 @@ Chương trình này sẽ có 3 giai đoạn:
 | Giai đoạn | Mục tiêu                                                                                                                                                                                                                  | Sản phẩm                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | 1         | Phổ cập việc xây dựng các [[Việc đổi mới sáng tạo bắt đầu bằng việc mỗi người có thể tự mình điều khiển được máy tính, chứ không phải có thêm một sản phẩm no code hay AI nữa\|phần mềm cá nhân]], [[Tài liệu động]] và [[khu vườn số]] | [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]] |
-| 2         | Liên thông dữ liệu giữa các nhóm dự án                                                                                                                                                                                    | [[Xây dựng hệ thống tri thức cộng đồng\|Hệ thống tri thức cộng đồng]]                           |
+| 2         | Liên thông dữ liệu giữa các nhóm dự án                                                                                                                                                                                    | [[Chia sẻ kho tri thức của mình cho mọi người\|Hệ thống tri thức cộng đồng]]                           |
 | 3         | Xây dựng nền kinh tế không dùng tiền                                                                                                                                                                                      | Mạng kết nối nhu cầu                                                                            |
 
 

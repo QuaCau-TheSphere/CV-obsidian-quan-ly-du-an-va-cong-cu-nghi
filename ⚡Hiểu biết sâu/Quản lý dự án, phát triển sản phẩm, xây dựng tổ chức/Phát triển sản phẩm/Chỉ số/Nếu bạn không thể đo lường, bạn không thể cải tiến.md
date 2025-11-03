@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-05-27T21:27
+updated: 2025-10-15T20:25
 ---
 Khái niệm:: [[Thước đo, đo lường, chỉ số, KPI]]
 

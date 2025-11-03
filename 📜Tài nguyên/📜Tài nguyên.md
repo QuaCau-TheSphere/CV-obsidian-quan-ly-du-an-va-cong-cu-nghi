@@ -47,4 +47,7 @@ Xét ghi chú [[Sắp chữ, thiết kế, xuất bản]]. Nó là một lĩnh v
 
 Tuy nhiên, ở một lĩnh vực khác là [[Nhân văn số|nhân văn số]], để ý là khi nghĩ về nó ta không thấy cần để nhu cầu công nghệ là [[Xác định các chủ đề có trong ngữ liệu]], và nhu cầu công việc là [[Nắm bắt xu hướng mạng]] hay [[Nghiên cứu cộng đồng mạng]], vì tự thấy rằng nhân văn số còn nhiều thứ hơn cái này.
 
+Ban đầu Nhu cầu công việc là Chia sẻ kho tri thức của mình cho mọi người, và nhu cầu công nghệ là Xây dựng hệ thống tri thức cộng đồng. Nhưng sau đó thấy ghi chú trong đó vẫn chỉ tập trung vào xây dựng nền tảng lý luận, nên gộp vào nhu cầu công việc và để làm alias
+
+
 Trong [[Giải pháp kỹ thuật]] thì có thể chia lại thư mục theo nhu cầu công việc, công nghệ hoặc lĩnh vực, vì lúc đó các ghi chú thường là rời rạc

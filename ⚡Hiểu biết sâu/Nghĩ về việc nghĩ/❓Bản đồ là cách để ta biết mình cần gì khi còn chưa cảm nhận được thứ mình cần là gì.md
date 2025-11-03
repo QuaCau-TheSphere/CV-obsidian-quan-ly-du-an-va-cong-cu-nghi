@@ -16,4 +16,4 @@ Nguồn:: ![Quả Cầu x Duy Phong: Writing Logseq Collins Dictionary Plugin - 
 [[Bản đồ không phải là vùng đất]]
 [[❓Những game có yếu tố bản đồ mới là những game tạo thành một cộng đồng nhiều ý tưởng]]
 [[Sơ đồ không phụ thuộc vào hướng. Bản đồ phụ thuộc vào hướng]]
-[[Xây dựng hệ thống tri thức cộng đồng]]
+[[Chia sẻ kho tri thức của mình cho mọi người]]

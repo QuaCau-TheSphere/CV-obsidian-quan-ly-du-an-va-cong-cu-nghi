@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-31T22:26
-updated: 2025-09-27T11:38
+updated: 2025-11-02T12:11
 ---
 Nhu cầu công nghệ:: [[Hệ thống quản lý kiến thức]], [[Tài liệu động]]
 Lĩnh vực:: [[Sắp chữ, thiết kế, xuất bản]], [[Hệ thống thông tin]]
@@ -16,3 +16,4 @@ Nguồn:: [The all-in-one workspace for your notes, tasks, wikis, and databases.
 
 [The Academic Knowledge Management (AKM) system that 10x'd my research productivity | Chris Lovejoy](https://chrislovejoy.me/akm)
 
+[Simplified Technical English - Wikipedia](https://en.wikipedia.org/wiki/Simplified_Technical_English)

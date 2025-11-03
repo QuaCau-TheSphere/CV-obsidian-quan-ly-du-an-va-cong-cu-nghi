@@ -18,7 +18,7 @@ Dự án mong muốn:
 - Giảm gánh nặng nhận thức trong việc quản lý và chia sẻ dữ liệu dự án, 
 - Xây dựng hệ sinh thái nơi các thành viên có thể đóng góp dữ liệu một cách thụ động và tự động vào các cơ sở dữ liệu chung
 - Tăng khả năng hợp tác và phát triển ý tưởng mới của đối tượng thụ hưởng với ít nỗ lực hơn
-- [[Xây dựng hệ thống tri thức cộng đồng]], giúp mọi người [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|tìm được thứ cần tìm khi không biết từ khoá chính xác của nó]]
+- [[Chia sẻ kho tri thức của mình cho mọi người]], giúp mọi người [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|tìm được thứ cần tìm khi không biết từ khoá chính xác của nó]]
 
 ## Đối tượng thụ hưởng 
 Đối tượng thụ hưởng là những người đang cảm thấy quá tải và thiếu công cụ hiệu quả để quản lý thông tin cho việc phát triển dự án, tổ chức, cộng đồng, mạng lưới, hệ sinh thái. Thường họ là nhà hoạt động xã hội hoặc khởi nghiệp, nhưng cũng có thể là nhà nghiên cứu. Các nhu cầu của họ bao gồm:

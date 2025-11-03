@@ -1,11 +1,16 @@
 ---
 share: true
 created: 2024-10-08T15:07
-updated: 2025-09-24T13:20
+updated: 2025-10-17T11:47
 ---
-Lĩnh vực:: 
+Lĩnh vực:: [[Kế toán]]
 Nhu cầu công nghệ:: [[Tạo danh sách hạch toán hàng loạt vào các phần mềm kế toán]]
 [[Lộ trình hướng dẫn về dữ liệu và lập trình cho dân kế toán]]
+
+Điểm giống và khác nhau giữa các chương trình quản lý tiền. Quang cảnh và sơ đồ giữa chúng: [Chương trình quản lý tiền](https://doi-thoai.deno.dev/Gm.6j.1)
+
+[Accounting for Programmers \| Bytestone Blog](https://www.bytestone.uk/afp/)
+[FinFam - Collaborative Financial Planning](https://finfam.app/)
 
 [Accounting for Computer Scientists — Martin Kleppmann’s blog](https://martin.kleppmann.com/2011/03/07/accounting-for-computer-scientists.html)
 [Double-Entry Bookkeeping as a Directed Graph · Matheus Portela](https://matheusportela.com/double-entry-bookkeeping-as-a-directed-graph)

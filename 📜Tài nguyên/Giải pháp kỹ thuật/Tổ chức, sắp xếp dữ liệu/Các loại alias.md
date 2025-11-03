@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-09-02T13:14
-updated: 2024-12-24T21:54
+updated: 2025-10-12T16:23
 ---
 Mục đích của alias là để nối tiếp dòng suy nghĩ.
 
@@ -52,5 +52,5 @@ Nhược điểm:
 - Có khi cả bài thì có nhiều ý, nhưng mỗi ý thì chỉ cần một đoạn lập luận thôi. Thấy ít chữ thì chịu khó đọc hơn
 
 Không hẳn là nhược điểm, nhưng khi có thông tin khác không ở trong đoạn lập luận đó hoặc khi mỗi ý có thể nằm ở các vị trí khác nhau trong cây thư mục thì cũng phải tách ra. Tách ra sớm thì tiện hơn. VD: 
-- [[Sử dụng phương pháp đánh chỉ số tập tin giúp dễ tìm kiếm (search) hơn là truy cập (navigate)]] thì nên ở *`=[[Sử dụng phương pháp đánh chỉ số tập tin giúp dễ tìm kiếm (search) hơn là truy cập (navigate)]].file.path`*, còn
-- [[Đánh số thư mục]] thì nên ở *`=[[Đánh số thư mục]].file.path`*
+- *Sử dụng phương pháp đánh chỉ số tập tin giúp dễ tìm kiếm (search) hơn là truy cập (navigate)* thì nên ở *`📜Tài nguyên/Lĩnh vực/Hệ thống thông tin`*, còn
+- [[Tạo chỉ mục cho các ghi chú]] thì nên ở *`📜Tài nguyên/Giải pháp kỹ thuật/Tổ chức, sắp xếp dữ liệu`*

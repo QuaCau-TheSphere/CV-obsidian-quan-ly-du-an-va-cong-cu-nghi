@@ -4,11 +4,23 @@ created: 2025-05-06T12:52
 description: Nó khác gì với những dự án tương tự khác? Nó chấp nhận những đánh đổi nào?
 aliases:
   - Động lực
-updated: 2025-09-27T11:38
+updated: 2025-11-02T10:31
 ---
 # Lý do ra đời kho địa điểm để chọn nơi gặp mặt, và hệ quả của những lý do đó
 ## Lý do ra đời
 [[Nơi gặp mặt trực tiếp|Kho địa điểm để chọn nơi gặp mặt]] đến từ mong muốn kết nối người cần tìm địa điểm .
+
+Người có địa điểm:
+- Nếu là kinh doanh hoặc muốn hỗ trợ cộng đồng thì có động lực đóng góp
+- Nếu là nhà riêng thì chỉ muốn cho người quen xài
+
+Người làm dự án
+[[Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0]]
+
+Người cần tìm địa điểm
+[[❓Liệu quy luật 90-9-1 vẫn còn đúng cho nhóm nòng cốt]]
+
+
  Khó khăn của người cho là
 - Sự khó khăn trong việc hợp tác và chia sẻ tài nguyên, nguồn lực giữa các dự án nhỏ do quá tải công việc
 - Các giới hạn của các hệ thống quản lý thông tin, lưu trữ và truy xuất kiến thức mà các dự án thường sử dụng
@@ -18,7 +30,7 @@ Dự án mong muốn:
 - Giảm gánh nặng nhận thức trong việc quản lý và chia sẻ dữ liệu dự án, 
 - Xây dựng hệ sinh thái nơi các thành viên có thể đóng góp dữ liệu một cách thụ động và tự động vào các cơ sở dữ liệu chung
 - Tăng khả năng hợp tác và phát triển ý tưởng mới của đối tượng thụ hưởng với ít nỗ lực hơn
-- [[Xây dựng hệ thống tri thức cộng đồng]], giúp mọi người [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá 
+- [[Chia sẻ kho tri thức của mình cho mọi người]], giúp mọi người [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|tìm được thứ cần tìm khi không biết từ khoá chính xác của nó]]
 
 Bài chi tiết: [[Mô tả dự án|Phá vỡ silo thông tin, nắm bắt nhu cầu các bên và sử dụng các nguồn tài nguyên cộng đồng hiệu quả]]
 
@@ -71,6 +83,8 @@ Tự động hoá việc đẩy dữ liệu. Phải tính đến việc họ kh�
 
 
 Thường gặp nhất là nhu cầu tùy biến cách phân loại, cấu trúc dữ liệu người dùng, và nhu cầu mở rộng chức năng.
+
+Các bộ chỉ số như esg, sử dụng mã nguồn mở 
 ### Tùy biến cách phân loại, cấu trúc dữ liệu người dùng
 
 [[Nhiệm vụ của kiến trúc sư không phải là liệt kê hết các tình huống sẽ xảy ra, mà là thiết kế để dù các tình huống không ngờ tới xảy ra thì vẫn hoạt động ổn định]]. Một ngày nào đó các tỉnh thành được sắp xếp lại
@@ -106,6 +120,9 @@ Khi cần trung tâm hóa thì mới
 
 Trung tâm hoá. Giảm gánh nặng cho người kế thừa
 
+[[Đừng chạy theo tính năng, mà hãy xác định vấn đề cần ưu tiên giải quyết và nhanh chóng kiểm tra các giả thuyết]]
+Phải đợi đến khi nhiều người chia sẻ thì mới bắt tay vào làm
+
 ## Phân tích ca
 Kho địa điểm này khác gì với những dự án tương tự khác?
 
@@ -119,11 +136,15 @@ Kiến thức để tự vận hành một cơ sở dữ liệu thế này phứ
 Dường như dự án đã ngừng hoạt động. Trong [trang giới thiệu dự án](https://www.drdvietnam.org/vi/du-an/ban-do-tiep-can-dmap/gioi-thieu/), lần cuối cùng cập nhật là 2021. Các app Andoird và iOS cũng đã bị gỡ xuống. Chức năng đăng ký không hoạt động được.
 
 ## Hệ quả của các lý do trên
-Giải pháp đáp ứng được tất cả các nhu cầu này là một [[Xây dựng hệ thống tri thức cộng đồng|hệ thống tri thức cộng đồng]] dưới hình thức là một [[Tài liệu động]] được lưu ở định dạng đơn giản nhất là văn bản thuần. 
+Giải pháp đáp ứng được tất cả các nhu cầu này là một [[Chia sẻ kho tri thức của mình cho mọi người|hệ thống tri thức cộng đồng]] dưới hình thức là một [[Tài liệu động]] được lưu ở định dạng đơn giản nhất là văn bản thuần. 
 [[📐 Dự án]]
 Local first 
 
 Về mặt kỹ thuật, nó được viết bằng TypeScript với môi trường thực thi là Deno.
 
 Nhược điểm 
-Chuyển đổi sang Base có vẻ như là một xu hướng chung. 
+- Đa số mọi người sẽ dùng Base? 
+
+Gold view nâng cao là cần thiết không? Và nếu để vô thì ntn? 
+Không chỉ là biết những đồ vậtowr trong đó, mà còn là môi trường và các thiết chế xung quanh
+

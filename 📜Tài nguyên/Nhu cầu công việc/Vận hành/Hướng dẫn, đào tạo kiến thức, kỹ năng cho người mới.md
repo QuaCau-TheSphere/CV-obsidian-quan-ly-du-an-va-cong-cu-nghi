@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-11-01T09:56
-updated: 2025-09-27T11:38
+updated: 2025-09-27T17:32
 aliases:
   - Đào tạo, tuyển dụng nhân sự
 ---

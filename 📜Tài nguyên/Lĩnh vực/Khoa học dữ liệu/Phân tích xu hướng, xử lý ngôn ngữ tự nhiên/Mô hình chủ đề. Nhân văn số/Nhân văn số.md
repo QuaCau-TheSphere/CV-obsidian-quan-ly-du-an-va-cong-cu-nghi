@@ -1,18 +1,14 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-10T15:32
-aliases:
-  - Các dự án
-  - công cụ
-  - tài nguyên cho nhân văn số
+updated: 2025-10-08T14:27
 title: Các dự án, công cụ, tài nguyên cho nhân văn số
 description: Nhân văn số là một lĩnh vực giao thoa giữa ngành khoa học máy tính và các ngành khoa học xã hội và nhân văn.
 ---
 Giới thiệu: [Nhân văn số thức: Một lát cắt của xã hội toàn cầu - Tạp chí Tia sáng](https://tiasang.com.vn/khoa-hoc-cong-nghe/nhan-van-so-thuc-mot-lat-cat-cua-xa-hoi-toan-cau-11139/)
 
 ## Dự án
-### Giáo dục số: [[Xây dựng hệ thống tri thức cộng đồng|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]]
+### Giáo dục số: [[Chia sẻ kho tri thức của mình cho mọi người|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]]
 Nhiều dự án nhân văn số rồi, nên chỉ tập trung vào các tài liệu giúp hướng dẫn một người tìm ra được dự án mình đang cần
 
 ### Xã hội học số: [Đồ thị mạng lưới 100+ niềm tin](https://xn--qucu-hr5aza.cc/phan-tich-mot-mang-luoi-100-niem-tin/?utm_source=CV+%C2%BB+T%C3%A0i+nguy%C3%AAn+NLP+v%C3%A0+nh%C3%A2n+v%C4%83n+s%E1%BB%91&utm_medium=Ph%C3%A2n+t%C3%ADch+m%E1%BB%99t+m%E1%BA%A1ng+l%C6%B0%E1%BB%9Bi+100%2B+ni%E1%BB%81m+tin&utm_campaign=Giai+%C4%91o%E1%BA%A1n+2) 
@@ -82,7 +78,8 @@ HEURIST gets results. You can **perform sophisticated filtering**, then **save, 
   Tên gọi trước đây là Digital Humanities Toychest (rương đồ chơi cho nhân văn số).
 - [UC Davis DataLab Text and NLP Toolkit](https://ucdavisdatalab.github.io/research-toolkits/nlp_researcher_toolkit.html)
 - [Projects :: Digital Humanities @ Stanford](https://digitalhumanities.stanford.edu/projects/)
-
+- [Information is Beautiful](https://informationisbeautiful.net/)
+- [Information is Beautiful Awards](https://www.informationisbeautifulawards.com/)
 ## Nơi thảo luận
 ![](https://i.imgur.com/NHkJF2N.png)
  

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2025-09-27T15:30
+updated: 2025-09-27T19:40
 ---
 Lĩnh vực:: [[Sắp chữ, thiết kế, xuất bản]]
 Nhu cầu công nghệ:: [[WYSIWYM]]

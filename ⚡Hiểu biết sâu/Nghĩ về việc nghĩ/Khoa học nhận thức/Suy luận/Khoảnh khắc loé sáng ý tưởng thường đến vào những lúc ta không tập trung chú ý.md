@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-05-26T19:55
+updated: 2025-10-20T14:23
 ---
 Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Nhận thức/Ý tưởng]]
 
 Nguồn:: [To Solve Your Hardest Problems Don’t Think About Them — For a While](https://www.thomasessl.com/blog/2017/11/15/how-to-solve-your-hardest-problems-dont-think-about-themfor-awhile)
-Nguồn:: [[⚡Hiểu biết sâu/Ξ Nguồn/Wikipedia]], [Incubation (psychology) - Wikipedia](https://en.wikipedia.org/wiki/Incubation_(psychology))
+Nguồn:: [[Wikipedia]], [Incubation (psychology) - Wikipedia](https://en.wikipedia.org/wiki/Incubation_(psychology))
 
 [[Khi khoảnh khắc loé sáng ý tưởng đến vào lúc ta đang tập trung làm việc khác, nó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm|Khi khoảnh khắc loé sáng ý tưởng đến vào lúc ta đang tập trung làm việc khác, nó làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
 [[Ý tưởng sinh ra không theo độ khẩn cấp]]

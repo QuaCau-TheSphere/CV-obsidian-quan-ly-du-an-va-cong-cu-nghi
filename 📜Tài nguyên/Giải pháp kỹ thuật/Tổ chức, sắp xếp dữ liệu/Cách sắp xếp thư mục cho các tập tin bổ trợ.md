@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-22T21:45
-updated: 2024-09-02T13:22
+updated: 2025-10-11T10:13
 description: Cùng là một tập tin hỗ trợ, khi đang làm việc A thì đầu óc ta sẽ nghĩ đến nó với cái tên và ở cấu trúc phân cấp khác với khi đang làm việc B. Ngoài ra khi quản lý các tập tin như vậy thì muốn tách chúng ra ngoài kho và để riêng vào một thư mục, trong khi lúc cần dùng thì lại cần để vào trong kho. Nên xử lý việc này thế nào?
 aliases:
   - Dùng một script để lấy các tập tin bổ trợ về thư mục
@@ -57,32 +57,31 @@ Mỗi lần chỉnh sửa ảnh mình lại phải sao chép vào tất cả cá
 
 Cách tiếp cận mình nghĩ là triệt để hơn là tạo một plugin để mỗi lần kho được mở lên thì nó sẽ kiểm tra trong thư mục ảnh xem ảnh gốc có thời điểm tạo mới hơn ảnh hiện tại hay không. Nếu có thì tự động chép đè vào ảnh trên kho. Không biết là đã có ai làm cái này chưa?
 
-1. Script PowerShell để tự động sao chép:
-
-```PowerShell
-$PROJ_NAME="C Obsidian, quản lý dự án và công cụ nghĩ" 
-$destList=
-    "$env:QC_CODE\Websites\$PROJ_NAME\Web chính\docs\assets\meta",
-    "$env:QC_CODE\Websites\$PROJ_NAME\Debugging version\docs\assets\meta",
-    "$env:QC_CODE\Installers\$PROJ_NAME\Resources",
-    "$env:QC_VAULTS\$PROJ_NAME\Vault chính\Thiết lập\Ảnh"
-    
-# temporarily change to the correct folder
-$scriptpath = $MyInvocation.MyCommand.Path
-$dir = Split-Path $scriptpath
-Write-host "My directory is $dir"
-Push-Location $dir
-    
-foreach ($dest in $destList) {
-    "Copy $(ls logo* -name) to $dest" 
-    New-Item -ItemType Directory -Force -Path $dest\Logo | Out-Null
-    copy-Item .\logo* -destination $dest\Logo
-}
-
-# now back to previous directory
-Pop-Location
-```
-
+[^1]: Script PowerShell để tự động sao chép:
+  ```PowerShell
+  $PROJ_NAME="C Obsidian, quản lý dự án và công cụ nghĩ" 
+  $destList=
+      "$env:QC_CODE\Websites\$PROJ_NAME\Web chính\docs\assets\meta",
+      "$env:QC_CODE\Websites\$PROJ_NAME\Debugging version\docs\assets\meta",
+      "$env:QC_CODE\Installers\$PROJ_NAME\Resources",
+      "$env:QC_VAULTS\$PROJ_NAME\Vault chính\Thiết lập\Ảnh"
+      
+  # temporarily change to the correct folder
+  $scriptpath = $MyInvocation.MyCommand.Path
+  $dir = Split-Path $scriptpath
+  Write-host "My directory is $dir"
+  Push-Location $dir
+      
+  foreach ($dest in $destList) {
+      "Copy $(ls logo* -name) to $dest" 
+      New-Item -ItemType Directory -Force -Path $dest\Logo | Out-Null
+      copy-Item .\logo* -destination $dest\Logo
+  }
+  
+  # now back to previous directory
+  Pop-Location
+  ```
+  
 %% 
 [Separation of content and presentation - Wikipedia](https://en.wikipedia.org/wiki/Separation_of_content_and_presentation)
 cho nên em đổi từ area sang insights em thấy dễ xử lý với em hơn. Cái nào mang tính là kiến thức thôi thì là insight. Kiến thức thì nó độc lập với mong muốn của mình. Còn cái nào đi từ một mục tiêu cụ thể thì là project.

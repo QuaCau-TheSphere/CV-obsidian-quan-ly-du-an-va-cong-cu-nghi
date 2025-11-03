@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-08-12T14:22
+updated: 2025-09-27T20:30
 ---
 Khái niệm:: [[Ẩn dụ]]
 Lý do:: [[Ẩn dụ được nhúng trong các neuron não. Chúng tồn tại dưới dạng vật lý]]

@@ -80,7 +80,7 @@ But let's be honest: we _like_ the fact that the term is profane. After all, pro
 In this course, we focus on bullshit as it often appears in the natural and social sciences: in the form of misleading models and data that drive erroneous conclusions.
 ![Calling Bullshit 6.4: Dataviz Ducks - YouTube](https://youtu.be/rmii1hfP6d4?si=s5VGdr2Oolz8yS5X)
 ![Calling Bullshit 10.3: Debunking Myths - YouTube](https://youtu.be/W3APikrtqqU?si=e-jy3fXrblKSTNAY)
-[[Xây dựng hệ thống tri thức cộng đồng|Hệ thống tri thức cộng đồng]]
+[[Chia sẻ kho tri thức của mình cho mọi người|Hệ thống tri thức cộng đồng]]
 Crackpot
 Không có Khoa học xã hội
 [The Bullshit Machines](https://thebullshitmachines.com/)

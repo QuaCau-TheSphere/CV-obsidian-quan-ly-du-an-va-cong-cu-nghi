@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-05-28T13:43
+updated: 2025-10-15T20:25
 title: 'Định luật Goodhart: "Khi một phép đo trở thành mục tiêu, nó thường mất đi sự hiệu quả của nó"'
 ---
 Khái niệm:: [[Thước đo, đo lường, chỉ số, KPI]]

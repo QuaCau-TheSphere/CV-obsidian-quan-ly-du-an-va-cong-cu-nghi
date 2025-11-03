@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-23T15:06
-updated: 2025-09-18T20:58
+updated: 2025-10-08T15:59
 aliases:
   - Kho địa điểm để chọn nơi gặp mặt
   - Hướng dẫn sử dụng kho địa điểm để chọn nơi gặp mặt
@@ -13,11 +13,12 @@ title: Kho địa điểm để chọn nơi gặp mặt
 Đây là một danh sách tổng hợp các địa điểm gặp mặt trực tiếp, bao gồm:
 - Địa điểm công cộng
 - Không gian làm việc chung
-- Phòng họp riêng
+- Phòng họp riêng, thư viện
 - Phòng tập nhảy
 - Quán có phòng riêng
 - Quán không có phòng riêng
 - Nhà riêng
+- Thư viện
 
 Chọn [[TP.HCM]] hoặc [[Hà Nội]] để bắt đầu. 
 
@@ -33,7 +34,7 @@ Bạn có thể fork repo này để làm bộ tài nguyên cho riêng bạn.
 - Những thuộc tính được xem là **điểm cộng** khi ta không mặc định là nó luôn có ở đó. Có thì tốt, không có thì thường là không sao. Nên với những thuộc tính này, nếu địa điểm đó có thì sẽ liệt kê ra, còn nếu không thì sẽ không nói gì
 - Những thuộc tính được xem là **điểm trừ** khi ta mặc định là nó luôn có ở đó. Nếu không có thì thường là có sao. Nên với những thuộc tính này, nếu địa điểm đó không có thì sẽ có cảnh báo, còn nếu có thì sẽ không nói gì
 
-#### Những thuộc tính là điểm trừ cho mọi loại địa điểm
+#### Những thuộc tính là điểm trừ cho mọi loại địa điểm nếu không có
 Đây là những thuộc tính mặc định là luôn có cho mọi loại địa điểm:
 - [x] Nhà vệ sinh
 - [x] Xe lăn tiếp cận được
@@ -46,7 +47,7 @@ Bạn có thể fork repo này để làm bộ tài nguyên cho riêng bạn.
 - [x] Ghế tựa tốt cho lưng 
 - [ ] Có sẵn nước uống
 
-#### Những thuộc tính là điểm cộng cho mọi loại địa điểm
+#### Những thuộc tính là điểm cộng cho mọi loại địa điểm nếu có
 Đây là những thuộc tính mặc định là luôn không có cho mọi loại địa điểm:
 - [x] Nằm la liệt được
 - [x] Không gian ngoài trời
@@ -60,6 +61,8 @@ Bạn có thể fork repo này để làm bộ tài nguyên cho riêng bạn.
 - [x] Không dùng đường
 - [x] Dùng nguyên liệu tại địa phương
 - [x] Có khu vực yên tĩnh
+- [x] Không dùng đồ nhựa
+- [x] Có xuất VAT
 
 #### Những thuộc tính mà việc là điểm cộng hoặc điểm trừ tuỳ vào loại địa điểm
 Với **không gian ngoài trời** thì những thuộc tính này mặc định là không có, nếu có thì là điểm cộng. Với các loại hình khác thì mặc định là luôn có, nếu không có thì là điểm trừ:

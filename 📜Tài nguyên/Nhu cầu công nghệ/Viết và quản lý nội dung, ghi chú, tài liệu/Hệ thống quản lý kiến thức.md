@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-01T17:10
+updated: 2025-09-27T16:29
 ---
 Lĩnh vực:: [[Hệ thống thông tin]]
 Giải pháp kỹ thuật:: [[Obsidian]]
