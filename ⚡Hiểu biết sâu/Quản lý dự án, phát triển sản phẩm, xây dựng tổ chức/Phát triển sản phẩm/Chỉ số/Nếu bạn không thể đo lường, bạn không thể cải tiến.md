@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-10-15T20:25
+updated: 2026-01-23T11:45
 ---
 Khái niệm:: [[Thước đo, đo lường, chỉ số, KPI]]
 
@@ -13,3 +13,4 @@ Nguồn:: Kelvin
 [[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng]]
 [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]
 [[Thứ nào được đo thì sẽ tốt lên, còn thứ nào khó đo thì sẽ tệ đi]]
+[[❓Việc theo đuổi chỉ số sẽ không phải là vấn đề nếu người tạo ra chỉ số là người quyết định dự án hoặc không để quyết định con người]]

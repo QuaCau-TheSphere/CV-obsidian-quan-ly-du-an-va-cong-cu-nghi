@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-08-02T13:04
+updated: 2026-01-14T13:11
 ---
 ## *đối ⊷ thoại* dành cho ai?
 - [[Mở các cuộc đối thoại với cộng đồng|Người muốn mở các cuộc đối thoại với cộng đồng]]

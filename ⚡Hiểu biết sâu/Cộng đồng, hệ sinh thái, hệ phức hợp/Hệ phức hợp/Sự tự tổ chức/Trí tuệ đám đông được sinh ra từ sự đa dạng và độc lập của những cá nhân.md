@@ -1,6 +1,6 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-12-18T11:13
+updated: 2026-01-14T13:10
 ---
 [[Working on niche, personally-meaningful projects brings weirder, more serendipitous inbounds]]

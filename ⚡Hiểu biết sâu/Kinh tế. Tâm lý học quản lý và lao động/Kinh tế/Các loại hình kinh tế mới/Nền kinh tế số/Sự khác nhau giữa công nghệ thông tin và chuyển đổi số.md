@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-12-20T22:19
+updated: 2026-01-14T13:10
 description: Chuyển đổi số = CNTT + Số hoá toàn diện + Dữ liệu + Đổi mới sáng tạo + Công nghệ số
 ---
 ![](https://binhphuoc.gov.vn/uploads/binhphuoc/news/2023_03/it-dti-1300-3000-px-1300-3200-px-1.png)

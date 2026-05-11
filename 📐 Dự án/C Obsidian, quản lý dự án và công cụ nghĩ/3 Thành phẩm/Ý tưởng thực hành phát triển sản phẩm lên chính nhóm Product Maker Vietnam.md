@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-10-28T13:05
+updated: 2026-01-14T13:11
 ---
 Có điều này từ hồi học mấy lớp đầu của anh Minh em đã có suy nghĩ, nhưng lúc đó bận quá không có thời gian để triển khai các ý cho nó mạch lạc được. Cơ bản là, nhóm của mình là nhóm để thảo luận, học hỏi về kỹ năng và kiến thức trong phát triển sản phẩm. Nhưng chẳng phải là chính nhóm mình cũng là một sản phẩm đó sao? Tại sao chúng ta không thực hành việc phát triển sản phẩm ngay trên chính sản phẩm này?
 

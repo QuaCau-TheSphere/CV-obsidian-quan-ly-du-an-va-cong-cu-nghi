@@ -1,11 +1,11 @@
 ---
 share: true
 created: 2024-10-05T16:06
-updated: 2025-05-26T17:06
+updated: 2026-01-14T13:10
 ---
-Khái niệm:: [[Điều không biết]]
+Khái niệm:: [[Sự không biết]]
 [[❓Bản đồ là cách để ta biết mình cần gì khi còn chưa cảm nhận được thứ mình cần là gì]]
-[[Nghiên cứu những điều đã biết mà không biết, lập kế hoạch A cho điều đã biết là đã biết, và lập kế hoạch B cho điều không biết mà đã biết]]
+[[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết là đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
 
 Khi một thứ xảy ra, nó sẽ tạo ra một hệ quả. Trong những thứ có thể xảy ra, có những thứ nếu xảy ra thì bạn biết hệ quả là gì, có thứ bạn cũng không biết luôn. Gọi:
 - A là thứ bạn biết có thể xảy ra nhưng biết hệ quả,

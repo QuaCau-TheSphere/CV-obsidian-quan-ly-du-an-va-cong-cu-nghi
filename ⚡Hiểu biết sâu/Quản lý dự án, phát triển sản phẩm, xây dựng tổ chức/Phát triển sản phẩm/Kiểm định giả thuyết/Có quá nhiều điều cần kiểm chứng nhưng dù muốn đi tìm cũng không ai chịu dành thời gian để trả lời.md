@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-14T11:05
-updated: 2023-12-01T21:47
+updated: 2026-01-14T13:11
 ---
 [[Việc kiểm định giả thuyết thường bị bỏ qua khi có quá nhiều việc]]
 

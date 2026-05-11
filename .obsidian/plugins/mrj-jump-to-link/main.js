@@ -702,7 +702,7 @@ class JumpToLink extends obsidian.Plugin {
         contentEl.addEventListener('keydown', grabKey, { capture: true });
     }
     handleHotkey(heldShiftKey, link) {
-        if ((link.linkText === undefined || link.linkText === '') && link.linkElement) {
+        if (link.linkElement) {
             const event = new MouseEvent("click", {
                 bubbles: true,
                 cancelable: true,

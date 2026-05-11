@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-22T15:33
-updated: 2025-04-24T13:00
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: 
 [[Cầm một cuốn sách vật lý, bạn có thể chế ra được một lò hạt nhân phức tạp. Cầm một cuốn sách về kỹ thuật phần mềm, bạn không thể chế ra được những phần mềm phức tạp]]. Lý do là vì [[Lập trình viên không chỉ không được giao một đề bài rõ ràng, đầy đủ ngay từ đầu, mà các yêu cầu cũng thay đổi theo thời gian]]. 

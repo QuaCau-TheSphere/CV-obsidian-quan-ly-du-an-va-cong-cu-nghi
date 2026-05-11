@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-10T21:51
-updated: 2024-10-29T10:17
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Mẫu hình (pattern)]], [[Đồ thị mạng lưới]]
 Nguồn:: ![A Skeptics Guide to Graph Databases - David Bechberger - YouTube](https://youtu.be/yOYodfN84N4?t=640)

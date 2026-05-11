@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-31T13:18
-updated: 2024-09-22T14:37
+updated: 2026-01-14T13:11
 ---
 SỰ THẬT LÀ: Đội marketing của chúng tôi khi mở Fanpage thì thường xuyên KHÔNG BIẾT VIẾT GÌ, ngược lại, khi mở Substack thì tự nhiên biến thành Jack Canfield hết cả lũ. Cuối tuần nào tôi cũng nhận được "e có idea mới triển không anh ơi"
 

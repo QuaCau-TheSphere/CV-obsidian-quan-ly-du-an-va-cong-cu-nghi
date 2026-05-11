@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-05-27T21:42
+updated: 2026-01-14T13:11
 ---
 Khái niệm:: 
 Tất cả những thứ khác đều không quan trọng bằng

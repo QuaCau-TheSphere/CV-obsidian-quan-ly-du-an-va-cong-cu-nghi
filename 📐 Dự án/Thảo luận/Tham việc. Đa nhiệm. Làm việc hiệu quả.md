@@ -1,6 +1,6 @@
 ---
 created: 2024-08-31T16:54
-updated: 2025-04-26T22:48
+updated: 2026-01-14T13:11
 ---
 Mình thấy có một bài viết và một quyển sách có vẻ liên quan đến chủ đề này, nên chia sẻ với chủ thớt:
 

@@ -1,10 +1,9 @@
 ---
 share: true
 created: 2024-09-03T00:36
-updated: 2024-09-03T00:37
+updated: 2026-02-10T11:50
 ---
-Chủ đề:: [[Lý thuyết đồ thị]], [[Giải trung tâm]]
-❓:: [[Sự phân loại]]
+Khái niệm:: [[Lý thuyết đồ thị]], [[Phân loại]], [[Giải trung tâm]]
 ## Sách rễ cọc
 Mô hình nhị phân có sự thống nhất căn bản, là sự thống nhất của rễ cọc, là trụ cột cho cấu trúc tư duy của con người
 

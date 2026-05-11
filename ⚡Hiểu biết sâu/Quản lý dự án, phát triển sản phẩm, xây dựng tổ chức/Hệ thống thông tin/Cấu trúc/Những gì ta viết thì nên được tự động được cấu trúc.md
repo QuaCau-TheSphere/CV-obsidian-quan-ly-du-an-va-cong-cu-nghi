@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-09-02T15:18
+updated: 2026-01-14T13:11
 ---
 Khái niệm:: 
 [Thoughts On Markdown — Smashing Magazine](https://www.smashingmagazine.com/2022/02/thoughts-on-markdown/)

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-10-08T15:07
-updated: 2025-10-17T11:47
+updated: 2026-02-27T22:04
 ---
 Lĩnh vực:: [[Kế toán]]
 Nhu cầu công nghệ:: [[Tạo danh sách hạch toán hàng loạt vào các phần mềm kế toán]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-26T16:58
+updated: 2026-04-18T21:12
 ---
 ## Product Owner Vietnam
 [[28-10]] Bị từ chối đăng [[Phân loại câu nhập]]. Lý do: Bài viết không liên quan đến PO, spam, hoặc seeding

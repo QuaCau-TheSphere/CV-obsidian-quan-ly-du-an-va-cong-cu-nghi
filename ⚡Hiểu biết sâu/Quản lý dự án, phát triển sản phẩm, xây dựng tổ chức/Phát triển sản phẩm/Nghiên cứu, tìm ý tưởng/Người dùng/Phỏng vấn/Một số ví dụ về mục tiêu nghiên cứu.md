@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-21T17:24
+updated: 2026-01-14T13:11
 description: Trước, trong và sau khi phát triển sản phẩm hoặc tính năng
 ---
 ## Trước khi phát triển sản phẩm/tính năng

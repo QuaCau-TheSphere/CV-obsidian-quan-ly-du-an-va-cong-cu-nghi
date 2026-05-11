@@ -1,8 +1,8 @@
 ---
 share: true
 created: 2025-04-27T10:22
-updated: 2025-05-28T00:09
+updated: 2026-04-26T12:47
 ---
 Khái niệm:: 
-[[When someone's taking time to do something right in the present, they're a perfectionist with no ability to prioritize, whereas when someone took time to do something right in the past, they're a master artisan of great foresight]]
+[[Khi một người dành thời gian để làm một điều đúng ở hiện tại, họ là một người cầu toàn không có khả năng ưu tiên. Còn khi một người dành thời gian làm một điều đúng trong quá khứ, họ là nghệ nhân bậc thầy với tầm nhìn xa trông rộng]]
 Nguồn:: ![CGP Grey was WRONG - YouTube](https://youtu.be/ua4QMFQATco?si=e2zeHY0-94fO89yZ)

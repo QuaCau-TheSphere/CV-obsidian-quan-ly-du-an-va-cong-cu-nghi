@@ -1,9 +1,8 @@
 ---
 share: true
 created: 2023-10-28T22:40
-updated: 2025-09-18T19:30
+updated: 2026-03-06T16:14
 ---
-
 > [!info] Bài chi tiết
 >[[Mô tả dự án|Phá vỡ silo thông tin, nắm bắt nhu cầu các bên và sử dụng các nguồn tài nguyên cộng đồng hiệu quả: vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản]]
 
@@ -18,7 +17,7 @@ Dự án mong muốn:
 - Giảm gánh nặng nhận thức trong việc quản lý và chia sẻ dữ liệu dự án, 
 - Xây dựng hệ sinh thái nơi các thành viên có thể đóng góp dữ liệu một cách thụ động và tự động vào các cơ sở dữ liệu chung
 - Tăng khả năng hợp tác và phát triển ý tưởng mới của đối tượng thụ hưởng với ít nỗ lực hơn
-- [[Chia sẻ kho tri thức của mình cho mọi người]], giúp mọi người [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|tìm được thứ cần tìm khi không biết từ khoá chính xác của nó]]
+- [[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người]], giúp mọi người [[Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó|tìm được thứ cần tìm khi không biết từ khoá chính xác của nó]]
 
 ## Đối tượng thụ hưởng 
 Đối tượng thụ hưởng là những người đang cảm thấy quá tải và thiếu công cụ hiệu quả để quản lý thông tin cho việc phát triển dự án, tổ chức, cộng đồng, mạng lưới, hệ sinh thái. Thường họ là nhà hoạt động xã hội hoặc khởi nghiệp, nhưng cũng có thể là nhà nghiên cứu. Các nhu cầu của họ bao gồm:
@@ -47,7 +46,7 @@ Nhà nghiên cứu
 - Vẽ biểu đồ Venn các nét nghĩa
 
 ### Xây dựng mạng kết nối nhu cầu
-- Tham gia với nhóm VCIL, Duy Phong
+- Tham gia với nhóm VCIL
 
 ### Giúp người thụ hưởng truy vấn, liên kết thông tin từ kho khác và tự động hoá việc đóng góp dữ liệu vào chúng 
 - Viết plugin Obsidian giúp đẩy dữ liệu trong kho lên các nền tảng khác nhau
@@ -80,7 +79,7 @@ Nhà nghiên cứu
 
 ## Kế hoạch hoạt động 
 [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]
-[[Nghiên cứu những điều đã biết mà không biết, lập kế hoạch A cho điều đã biết là đã biết, và lập kế hoạch B cho điều không biết mà đã biết]]
+[[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết là đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
 [[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng]]
 [[Thay vì lập ra danh sách công việc, hãy thử lập ra danh sách không phải công việc xem]]
 [[Đo lường]]

@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-06T17:22
+updated: 2026-01-14T13:11
 ---
+Khái niệm:: [[Dữ liệu]]
 Hơn 11 giờ đêm, màn hình điện thoại của Hồng Vy vẫn sáng bởi thông báo từ gần 20 nhóm chat công việc và trò chuyện cá nhân đang đổ về.
 
 Với Vy, nhân viên sáng tạo nội dung cho một công ty quảng cáo ở quận 3, TP HCM, việc nhận tin nhắn công việc hay tán gẫu trong nhóm chat lúc nửa đêm đã là một phần tất yếu của cuộc sống suốt bốn năm nay. Nhiều khi "phát sợ khi thấy có tin nhắn" nhưng cô gái 28 tuổi vẫn phải mở điện thoại và đọc toàn bộ cuộc trò chuyện vì sợ bỏ lỡ tin quan trọng.

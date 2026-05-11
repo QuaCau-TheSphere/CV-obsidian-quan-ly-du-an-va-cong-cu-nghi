@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-03-03T19:48
+updated: 2026-01-14T13:11
 ---
 Outcomes have nothing to do with making stuff—though they sometimes are created by making the right stuff. Instead, outcomes are the changes in customer, user, employee behavior that lead to good things for your company, your organization, or whomever is the focus of your work.
 

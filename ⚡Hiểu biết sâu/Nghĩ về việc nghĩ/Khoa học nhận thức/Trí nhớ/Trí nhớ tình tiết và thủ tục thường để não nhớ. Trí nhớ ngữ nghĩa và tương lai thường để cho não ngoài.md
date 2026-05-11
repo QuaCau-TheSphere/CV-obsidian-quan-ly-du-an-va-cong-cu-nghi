@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-05T17:16
-updated: 2025-06-09T18:05
+updated: 2026-02-14T20:44
 ---
 Khái niệm:: [[Trí nhớ]]
 
@@ -53,6 +53,5 @@ Nguồn::![](https://i.imgur.com/7Akkvmx.png)
 ![](https://i.imgur.com/USfoDXS.jpeg)
 
 [[Nhiều khi ta nhớ nơi lưu trữ thông tin hơn là chính thông tin đó]]
-
-[[Trường phái bớt và trường phái thêm]]
-
+[[Trường phái xóa và trường phái bao gộp]]
+[[Các hệ thống phân loại quyết định trước cái gì được nhớ và cái gì được quên]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-16T12:28
+updated: 2026-01-14T13:11
 ---
 Nguồn::
 ![The Block-Paved Path to Structured Data - Structured Content 2022 - YouTube](https://www.youtube.com/watch?v=AHblHPLoKKE)

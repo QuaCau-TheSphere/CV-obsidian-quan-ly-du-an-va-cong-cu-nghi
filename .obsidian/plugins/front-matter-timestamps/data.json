@@ -1,0 +1,14 @@
+{
+  "autoUpdate": true,
+  "autoAddTimestamps": true,
+  "createdPropertyName": "created",
+  "modifiedPropertyName": "updated",
+  "dateFormat": "yyyy-MM-DDTHH:mm",
+  "allowNonEmptyNewFile": false,
+  "delayAddingTimestamps": 1000,
+  "excludedFolders": [
+    "Ξ Thiết lập"
+  ],
+  "customCommand": "",
+  "debug": false
+}

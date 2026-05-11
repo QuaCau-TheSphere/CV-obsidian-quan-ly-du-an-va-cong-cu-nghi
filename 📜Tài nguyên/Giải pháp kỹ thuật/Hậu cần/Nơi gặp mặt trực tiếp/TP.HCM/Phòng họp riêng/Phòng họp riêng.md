@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-18T11:21
-updated: 2025-09-18T21:02
+updated: 2026-01-14T13:11
 title: Phòng họp riêng ở TPHCM
 aliases:
   - Phòng họp riêng ở TPHCM

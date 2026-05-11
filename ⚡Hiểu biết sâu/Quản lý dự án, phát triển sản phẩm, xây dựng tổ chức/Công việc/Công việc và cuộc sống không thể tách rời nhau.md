@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-06T17:51
+updated: 2026-01-14T13:11
 ---
 Lý do:: Sống trong cuộc sống chính là một dự án vĩ đại nhất của mỗi người
 [[Quản lý công việc và quản lý kiến thức không thể tách rời nhau]]

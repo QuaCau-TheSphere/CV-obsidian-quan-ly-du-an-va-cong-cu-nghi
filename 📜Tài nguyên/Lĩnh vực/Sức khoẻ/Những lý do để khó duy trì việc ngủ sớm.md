@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-02T10:46
-updated: 2024-09-01T17:27
+updated: 2026-01-14T13:11
 ---
 Việc lên giường lúc 22h và thức dậy lúc 5h có rất nhiều lợi ích: thêm nhiều ánh sáng hơn. Ngoài ra 
 - Easy to drift, hard to revert

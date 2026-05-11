@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-10T01:11
-updated: 2024-01-07T20:27
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Insight]]
 với 1 raw data ⇄ 1 highlight (author word) e sẽ có 1 hypothesis (own word) ⇄ pre-insight (đây chính là atomic note ⇄ 1 position cần em embed các luận cứ để support hoặc reject ▀ càng nhiều luận cứ thì pre-insight này dần chuyển sang insight ⇄ permanent note) và khác với user research, pkm càng đẻ nhiều permanent note ▄ forever càng tốt thì e càng có nhiều library riêng để build evergreen thing

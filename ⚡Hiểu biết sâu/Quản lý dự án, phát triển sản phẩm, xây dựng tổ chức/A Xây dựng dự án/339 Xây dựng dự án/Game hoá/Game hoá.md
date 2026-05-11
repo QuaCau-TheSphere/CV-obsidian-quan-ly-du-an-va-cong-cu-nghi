@@ -1,3 +1,7 @@
+---
+created: 2025-09-27T16:20
+updated: 2026-04-18T19:57
+---
 <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fludolabvn%2Fvideos%2F224665478665246&width=500&show_text=true&appId=630079444386739&height=654" width="500" height="654" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
 [https://mbpedia.com/vi/bai-viet/game-hoa-tro-choi-cuoc-doi-va-tro-doi](https://mbpedia.com/vi/bai-viet/game-hoa-tro-choi-cuoc-doi-va-tro-doi)
 ![](https://upload.wikimedia.org/wikipedia/commons/2/21/Octalysis_Framework.png)

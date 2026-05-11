@@ -12,19 +12,19 @@ FLATTEN ❓
 ```
 Câu hỏi liên quan đến chủ đề này:
 ```dataview
-List from "3 Kiến thức, câu hỏi/32 Câu hỏi" where contains(chủ-đề,[[]]) 
+List from "3 Kiến thức, câu hỏi/32 Câu hỏi" where contains(khái-niệm,[[]]) 
 ```
 
 Chủ đề quan tâm đến chủ đề này:
 ```dataview
-List from "3 Kiến thức, câu hỏi/31 Khái niệm" where contains(chủ-đề,[[]]) 
+List from "3 Kiến thức, câu hỏi/31 Khái niệm" where contains(khái-niệm,[[]]) 
 ```
  
-Chủ đề:: [[Động lực]]
-Chủ đề:: [[Vận động tham gia]]
-Chủ đề:: [[Xây dựng nhóm nòng cốt]]
-Chủ đề:: [[Cộng đồng tự quản, hợp tác xã (chủ đề)]]
-Chủ đề:: [[Gây quỹ]]
+Khái niệm:: [[Động lực]]
+Khái niệm:: [[Vận động tham gia]]
+Khái niệm:: [[Xây dựng nhóm nòng cốt]]
+Khái niệm:: [[Cộng đồng tự quản, hợp tác xã (chủ đề)]]
+Khái niệm:: [[Gây quỹ]]
 Chương trình phát triển nông hộ: đến tiếp cận nông dân để giới thiệu về mình. Thuyết phục họ thay đổi mô hình 
 Nhóm đồng đẳng trong ctxh
 ❓:: [[Cách tiếp cận số liệu cần được bảo mật]]

@@ -1,22 +1,27 @@
 ---
 share: true
 created: 2024-10-18T12:41
-updated: 2025-10-27T12:07
+updated: 2026-03-27T00:03
 aliases:
-  - Sơ đồ kiến thức, canvas
+  - Sơ đồ kiến thức, canvas, mindmap
 description: Thể hiện bức tranh toàn cảnh giữa các lập luận, ý tưởng
 ---
 Cơ bản là để nghĩ tốt hơn
+
+
 Canvas giống như một bàn làm việc được trải ra hơn là đơn thuần là nơi vẽ. Xem [Zsolt's Visual Personal Knowledge Management - YouTube](https://www.youtube.com/@VisualPKM)
+![MindMap Builder v3: PDF++ Integration, Folding & Markdown Import - YouTube](https://www.youtube.com/watch?v=5G9QF-u9w0Q)
 [Graphic facilitation - Wikipedia](https://en.wikipedia.org/wiki/Graphic_facilitation)
+
+
+[![What is a rich picture diagram — a group of people sketching a rich picture about planning a group holiday, showing connected ideas, icons, and notes on a large whiteboard to visualise a complex situation.](https://images.prismic.io/sketchplanations/aPdPDbpReVYa3gPX_SP948-RichPictures.png?auto=format%2Ccompress&fit=max&w=3840)](https://sketchplanations.com/rich-pictures)
 [Rich picture - Wikipedia](https://en.wikipedia.org/wiki/Rich_picture)
 [Rich pictures \| OpenLearn - Open University](https://www.open.edu/openlearn/science-maths-technology/engineering-technology/rich-pictures)
-[Rich Pictures: Making sense of Complex situations](https://sketchplanations.substack.com/p/rich-pictures?utm_source=share&utm_medium=android&r=o1jso&triedRedirect=true)
 [[Sơ đồ không phụ thuộc vào hướng. Bản đồ phụ thuộc vào hướng]]
 
 ## Các loại sơ đồ
 Lý thuyết phạm trù
-https://untools.co/
+[Tools for better thinking \| Untools](https://untools.co/)
 [UX Mapping Methods Compared: A Cheat Sheet - NN/G](https://www.nngroup.com/articles/ux-mapping-cheat-sheet/), [UX Mapping Methods: Study Guide - NN/G](https://www.nngroup.com/articles/ux-mapping-methods-study-guide/)
 [nihlibrary.nih.gov/sites/default/files/Creating\_Infographics\_with\_Inkscape.pdf](https://www.nihlibrary.nih.gov/sites/default/files/Creating_Infographics_with_Inkscape. pdf)
 ![[A SURVEY OF STAKEHOLDER VISUALIZATION APPROACHES.pdf]]
@@ -27,6 +32,7 @@ https://untools.co/
 - [The Flowchart - UKPersonalFinance Wiki](https://ukpersonal.finance/flowchart/)
 ## Tự nhập ý tưởng của mình
 ### Số lượng nhỏ
+[Chỉ cần mẩu khăn giấy](https://file.nhasachmienphi.com/pdf/nhasachmienphi-chi-can-mau-khan-giay.pdf)
 - UML, mermaid 
 - [Napkin AI - The visual AI for business storytelling](https://www.napkin.ai/)
 - [Excalidraw Whiteboard](https://excalidraw.com/)
@@ -54,4 +60,7 @@ Chỉ trừ khi nào mình xác định là phải đọc trên giấy, chứ n�
 
 Điều này sẽ dẫn đến việc tạo [[Tài liệu động]]
 
+[OMNI-Mapping](https://omnimapping.org/)
+
 Xem thêm:: [Towards a theory of quality in documentation - Diátaxis](https://diataxis.fr/quality/)
+[Report on Mapping Infrastructure.docx - Google Tài liệu](https://docs.google.com/document/d/1bNkQC8nsCJs6qnOnT5K1CBFNIWlKqZO1/edit)

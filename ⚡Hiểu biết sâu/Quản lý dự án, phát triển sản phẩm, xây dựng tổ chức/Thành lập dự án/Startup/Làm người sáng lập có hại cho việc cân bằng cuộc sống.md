@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-11-18T14:07
+updated: 2026-01-14T13:11
 ---
 Nguồn:: ![Sam Altman - How to Succeed with a Startup - YouTube](https://youtu.be/0lJKucu6HJc?si=KZSfIRxwf6NzLRPa&t=618)
 

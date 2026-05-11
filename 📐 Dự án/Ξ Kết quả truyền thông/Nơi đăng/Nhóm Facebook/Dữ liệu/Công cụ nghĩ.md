@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-08-20T19:43
+updated: 2026-01-14T13:11
 ---
 ## [[Chia sẻ kho kiến thức, tài nguyên đến với mọi người]]
 ### [Obsidian - Second Brain](https://www.facebook.com/groups/obsidian.secondbrain/)

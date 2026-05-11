@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-27T20:18
-updated: 2024-06-20T21:58
+updated: 2026-01-14T13:10
 ---
 Nguồn:: [[Tạp chí ngân hàng]], [Hoạt động cho vay ngang hàng tại Việt Nam](https://tapchinganhang.gov.vn/hoat-dong-cho-vay-ngang-hang-tai-viet-nam.htm)
 [[Cho mượn theo nhóm đảm bảo hơn]] 

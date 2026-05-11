@@ -2,7 +2,7 @@
 share: true
 description: 274 Lý Tự Trọng, Q1
 created: 2023-05-26T14:51
-updated: 2024-09-03T01:21
+updated: 2026-01-14T13:11
 ---
 Địa chỉ:: 274 Lý Tự Trọng, Q1
 Số người tối đa:: 20

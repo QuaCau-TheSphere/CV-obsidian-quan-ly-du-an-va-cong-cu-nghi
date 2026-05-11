@@ -1,11 +1,8 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-11-18T14:07
+updated: 2026-01-14T13:11
 ---
-Nhu cầu công nghệ:: 
-Giải pháp kỹ thuật:: [[Obsidian]]
-
 ## Liệu các phần mềm hoạch định tài nguyên doanh nghiệp (ERP) có giải quyết được vấn đề đảo thông tin này không?
 Các phần mềm hoạch định tài nguyên doanh nghiệp ([enterprise resource planning](https://en.wikipedia.org/wiki/Enterprise_resource_planning "Enterprise resource planning - Wikipedia"), ERP) sẽ có những mô đun chuyên về quản lý tài chính. Tuy nhiên, với Kendy điều đó là không đủ. Đây là những yêu cầu cho một phần mềm quản trị mà Kendy cần. Thiếu một trong 3 đều không được:
 - [ ] Có khả năng tuỳ chỉnh theo đúng luồng làm việc, suy nghĩ của mình

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-08-21T18:25
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: 
 [[Phản hồi và sự giúp đỡ trả lại là những thứ xa xỉ với người được giúp]]

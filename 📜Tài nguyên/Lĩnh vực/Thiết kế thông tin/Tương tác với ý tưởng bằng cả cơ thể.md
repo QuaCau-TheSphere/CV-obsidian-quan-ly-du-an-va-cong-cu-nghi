@@ -1,10 +1,11 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2025-10-08T14:34
+updated: 2026-01-Mo'T'21:47
 ---
 [[Các ẩn dụ tri nhận cơ bản dựa trên mối tương quan của cơ thể và xung quanh]]
-## Dance your phd
+## [Dance Your Ph.D.](https://www.science.org/content/article/watch-winners-year-s-dance-your-ph-d-contest)
+![John Bohannon: Dance vs. powerpoint, a modest proposal - YouTube](https://youtu.be/Qprd1VNNNec?si=WUf6Jzaa0EzuhG9a)
 ## VR
 ## [Data physicalization](https://en.wikipedia.org/wiki/Data_physicalization)
 
@@ -18,3 +19,5 @@ Since 2011, the annual Eyeo Festival brings together creative coders, data desig
 
 
 ## Nghệ thuật sắp đặt (installation art), [nghệ thuật ý niệm (conceptual art)](https://tiasang.com.vn/van-hoa/nghe-thuat-y-niem-1521/)
+
+[[Ta tương tác với thế giới qua cơ thể hàng triệu năm trước khi ngôn ngữ ra đời]]

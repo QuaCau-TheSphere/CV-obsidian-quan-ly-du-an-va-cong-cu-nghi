@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-08-09T15:57
+updated: 2026-01-14T13:10
 aliases:
   - Làm sao để tìm được những công cụ hay ho?
 description: Làm sao để tìm được những công cụ hay ho?
@@ -15,7 +15,7 @@ Mình bắt đầu bước vào thế giới của công cụ nghĩ khi đọc g
 
 Rộng hơn công cụ nghĩ là **nhận thức tăng cường (augmented cognition)**. Andy bảo rằng cái này còn thú vị hơn là AI hay cấy chíp vào não. 
 
-[[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]
+[[Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]
 
 [[Bret Victor]], [[Andy Matuschak]], [[Maggie Appleton]]
 

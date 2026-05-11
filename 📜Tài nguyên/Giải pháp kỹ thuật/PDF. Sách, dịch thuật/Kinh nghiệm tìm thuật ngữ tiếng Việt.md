@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-02T16:21
-updated: 2024-09-21T21:28
+updated: 2026-01-14T13:11
 ---
 Đặt mình vào tư thế của người thầy dạy sinh viên, của người có kiến thức nhưng chỉ tạm thời quên
 
@@ -100,3 +100,5 @@ ISS virtual tour: [http://esamultimedia.esa.int/multimedia/virtual-tour-iss/](ht
 :*:pdff::filetype:pdf `{backspace}
 :*:indexx::intitle:"index.of" -inurl:(html|htm|php|asp|jsp) type:(pdf|epub|mob)
 ```
+
+[[Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó|Đâu là nơi dễ gặp được từ khóa cần tìm nhất?]]

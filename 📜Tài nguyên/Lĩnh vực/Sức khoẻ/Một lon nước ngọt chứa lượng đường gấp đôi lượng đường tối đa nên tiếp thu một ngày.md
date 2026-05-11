@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-03T01:27
+updated: 2026-01-14T13:11
 ---
 # Thôi đừng hảo ngọt nữa
 Tổ chức Y tế thế giới (WHO) kêu gọi mọi người đừng hảo ngọt nữa: lượng đường tiêu thụ mỗi ngày chỉ nên dưới 10% mức đóng góp calo trong khẩu phần.  

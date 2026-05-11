@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-12-19T17:41
-updated: 2024-07-29T14:12
+updated: 2026-01-14T13:11
 ---
 Khái niệm:: [[Quỹ]], [[Gây quỹ]]
 ```dataview

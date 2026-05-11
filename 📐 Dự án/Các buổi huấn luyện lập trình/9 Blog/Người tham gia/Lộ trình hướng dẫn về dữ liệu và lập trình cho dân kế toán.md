@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-09-17T14:25
+updated: 2026-02-07T13:03
 ---
 ### Chương trình Beancount
 Demo:

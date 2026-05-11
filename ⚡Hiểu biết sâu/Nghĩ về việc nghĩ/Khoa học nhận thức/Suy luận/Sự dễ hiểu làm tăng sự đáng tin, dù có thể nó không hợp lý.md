@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-10T21:39
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: 
 [[Dùng thuật ngữ chính xác hơn dùng từ bình dân, nhưng ngay cả chuyên gia cũng không phàn nàn về việc dùng từ bình dân, miễn là việc đó không tạo ra sự mơ hồ]] 

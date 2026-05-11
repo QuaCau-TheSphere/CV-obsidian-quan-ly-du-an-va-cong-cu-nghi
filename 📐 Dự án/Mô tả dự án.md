@@ -1,15 +1,18 @@
 ---
 share: true
 created: 2025-05-23T19:46
-updated: 2025-09-27T11:38
+updated: 2026-03-06T16:14
 title: "Từ việc phá vỡ silo thông tin và sử dụng hiệu quả các nguồn lực cộng đồng, đến hệ thống quản lý niềm tin và nền kinh tế không dùng tiền: vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản"
 description: Chỉ khi nào nhu cầu của các bên liên quan hiện ra ngay trong kho dữ liệu của nhóm mà không cần phải hỏi họ hay thậm chí là nhập liệu, thì lúc đó chúng ta mới có thể bắt đầu nói về một hệ sinh thái mà những thành viên mới – vốn rất thiếu nhân lực – vẫn có thể hưởng lợi.
 aliases:
   - Mô tả dự án
   - Phá vỡ silo thông tin, nắm bắt nhu cầu các bên và sử dụng các nguồn tài nguyên cộng đồng hiệu quả
   - Vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản
-  - Từ việc phá vỡ silo thông tin và sử dụng hiệu quả các nguồn lực cộng đồng, đến hệ thống quản lý niềm tin và nền kinh tế không dùng tiền: vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản
+  - "Từ việc phá vỡ silo thông tin và sử dụng hiệu quả các nguồn lực cộng đồng, đến hệ thống quản lý niềm tin và nền kinh tế không dùng tiền: vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản"
 ---
+
+> [!NOTE] Bài viết đang hoàn thiện
+
 ## Vấn đề: Sự hợp tác giữa các nhóm dự án nhỏ chưa đạt được hiệu quả tối ưu do thiếu nhân lực và công cụ phù hợp
 Năm 2015, để giải quyết những thách thức phát triển lớn mà thế giới phải đối mặt, Liên Hợp Quốc đã đề ra **17 Mục tiêu Phát triển Bền vững (SDG)**. Đó là những mục tiêu mà các quốc gia cần hướng tới:
 
@@ -40,6 +43,7 @@ nói chung cũng thấy dự án này hấp dẫn. Nhưng nhìn lại thì anh t
 chắc anh bắt đầu cảm thấy hoài nghi về những tham vọng như vậy. Anh nghĩ mấu chốt vẫn là phải cho người dùng khả năng tự thao tác dữ liệu theo ý họ muốn. Anh nhìn vào cái sứ mệnh thì ko thấy đề cập như vậy, còn nhìn vào lộ trình thì thấy coơ bản vẫn là đi code outsource
 Nhưng anh biết cái này chỉ có gặp nhau thì mới có đầu óc để xử lý. Chứ tự làm thì ai cũng đều có công việc riêng nên ko có đầu óc để làm cái này
 
+Building, curating and keeping a network map up to date takes time and asking people to submit their data to centralised data silos isn’t great because once the data is collected (which takes ages) it’s hard to share elsewhere, goes out of date quickly, needs constantly updating, and people struggle to find the time to update multiple profiles on multiple platforms and sites… Plus, if you add data on behalf of your members it can be hard for them to edit when their data changes.[@murmuration]
 
 Being a founder is notoriously challenging for maintaining work-life balance [@altmanHowSucceedStartup2018]. Founders face a barrage of tasks: research, strategy planning, recruiting, marketing, fundraising, community development, event organization, and networking, among others [@TableContentsCommunity]. While this essay broadly addresses the overwhelming workload, it slightly focuses on networking and collaboration.
 
@@ -56,7 +60,7 @@ chắc anh bắt đầu cảm thấy hoài nghi về những tham vọng như v�
 Nhưng anh biết cái này chỉ có gặp nhau thì mới có đầu óc để xử lý. Chứ tự làm thì ai cũng đều có công việc riêng nên ko có đầu óc để làm cái này
 ## Hướng giải quyết: Phổ cập việc sử dụng các chương trình ghi chú động để xây dựng phần mềm cá nhân
 Để tạo nên được một hệ sinh thái hiệu quả hơn, mỗi cá nhân và tổ chức tham gia vào nó cần có thể làm được những điều sau:
-- [[Chia sẻ kho tri thức của mình cho mọi người|Tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất]]
+- [[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người|Tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất]]
 - Đóng góp những hiểu biết sâu sắc, nhu cầu và các dữ liệu khác một cách **thụ động** vào kho tài nguyên chung. Sự đóng góp của họ chỉ là sản phẩm phụ của việc họ tập trung vào việc giải quyết nhu cầu của mình, hoặc ít nhất chỉ cần làm một lần là những lần sau có thể làm tự động
 - [[Để có thể thiết kế một giải pháp một cách nhanh chóng và tự tin, ta cần được thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra|Thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra ]]
 
@@ -83,7 +87,7 @@ Local traditionally means something close to your home, something familiar, inti
 ![](https://maggieappleton.com/_astro/hcs_11.BOJMPdw__1AdRwN.png)
 [Home-Cooked Software and Barefoot Developers](https://maggieappleton.com/home-cooked-software)
 
-- [[Chia sẻ kho tri thức của mình cho mọi người]], giúp mọi người [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|tìm được thứ cần tìm khi không biết từ khoá chính xác của nó]]
+- [[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người]], giúp mọi người [[Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó|tìm được thứ cần tìm khi không biết từ khoá chính xác của nó]]
 
 ## Tầm nhìn: Xây dựng nền kinh tế không dùng tiền
 Nếu sự hợp tác giữa các nhóm dự án nhỏ đạt được hiệu quả cao, thì ta sẽ xây dựng một mạng kết nối nhu cầu, nơi mà mọi người đáp ứng nhu cầu lẫn nhau. Họ có thể làm được như vậy vì tất cả mọi thành viên đều biết nhu cầu nào đang có nhiều người có nhất, ai đang có cùng nhu cầu với ai, v.v. Các nhu cầu của họ sẽ được thoả mãn bằng việc trao đổi nhu cầu cho nhau, hoặc cùng hợp tác để tạo giải pháp chung. Khi mạng lưới này lớn hơn nữa, thì nó sẽ hoạt động như một nền kinh tế. Bởi vì các nhu cầu trong đây được đáp ứng mà không cần dùng đến tiền làm trung gian, nên nó là một nền kinh tế không dùng tiền. Nó sẽ là sự kết hợp giữa nền kinh tế nền tảng (platform economy) và nền kinh tế quà tặng (gift economy). Nó cũng có liên hệ rất mật thiết tới [[Nền kinh tế chăm sóc]] (care economy).
@@ -92,7 +96,7 @@ Nếu sự hợp tác giữa các nhóm dự án nhỏ đạt được hiệu qu
 
 > [!info] Bài chi tiết: [Một đám mây chim sáo](https://quảcầu.cc/mot-dam-may-chim-sao/?utm_source=CV+%C2%BB+T%E1%BB%AB+vi%E1%BB%87c+l%C6%B0u+d%E1%BB%AF+li%E1%BB%87u+t%E1%BA%A1i+ch%E1%BB%97+%C4%91%E1%BA%BFn+s%E1%BB%B1+h%E1%BB%A3p+t%C3%A1c+%C4%91a+ph%C6%B0%C6%A1ng+v%C3%A0+li%C3%AAn+ng%C3%A0nh+v%C3%A0+n%E1%BB%81n+kinh+t%E1%BA%BF+kh%C3%B4ng+d%C3%B9ng+ti%E1%BB%81n&utm_medium=M%E1%BB%99t+%C4%91%C3%A1m+m%C3%A2y+chim+s%C3%A1o&utm_campaign=Giai+%C4%91o%E1%BA%A1n+2)
 
-Xem thêm:: [[Chia sẻ kho tri thức của mình cho mọi người|Hệ thống tri thức cộng đồng]]
+Xem thêm:: [[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người|Hệ thống tri thức cộng đồng]]
 
 ## Kế hoạch
 Chương trình này sẽ có 3 giai đoạn:
@@ -100,7 +104,7 @@ Chương trình này sẽ có 3 giai đoạn:
 | Giai đoạn | Mục tiêu                                                                                                                                                                                                                  | Sản phẩm                                                                                        |
 | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
 | 1         | Phổ cập việc xây dựng các [[Việc đổi mới sáng tạo bắt đầu bằng việc mỗi người có thể tự mình điều khiển được máy tính, chứ không phải có thêm một sản phẩm no code hay AI nữa\|phần mềm cá nhân]], [[Tài liệu động]] và [[khu vườn số]] | [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]] |
-| 2         | Liên thông dữ liệu giữa các nhóm dự án                                                                                                                                                                                    | [[Chia sẻ kho tri thức của mình cho mọi người\|Hệ thống tri thức cộng đồng]]                           |
+| 2         | Liên thông dữ liệu giữa các nhóm dự án                                                                                                                                                                                    | [[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người\|Hệ thống tri thức cộng đồng]]                           |
 | 3         | Xây dựng nền kinh tế không dùng tiền                                                                                                                                                                                      | Mạng kết nối nhu cầu                                                                            |
 
 
@@ -209,7 +213,3 @@ Tôi cho rằng chiến lược hợp tác liên quan đến việc xem xét qua
 Người quản lý niềm tin nên giúp người dùng giảm chi phí để làm như vậy.
 
 ## Tài liệu tham khảo
-
-Khái niệm:: 
-
-Nguồn:: 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-22T20:37
-updated: 2025-05-01T22:36
+updated: 2026-01-14T13:10
 ---
 Nguồn:: ![The Philosophy of Architecture - Barry O'Reilly - NDC London 2025 - YouTube](https://www.youtube.com/watch?v=2Ki12Pi3hnc)
 Lý do:: [[Cấu trúc kỹ thuật của sản phẩm phản ánh giới hạn xã hội của tổ chức tạo ra nó]]

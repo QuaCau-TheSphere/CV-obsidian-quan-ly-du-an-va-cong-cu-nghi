@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-01T19:35
+updated: 2026-01-14T13:10
 ---
-[[Ta thường không sẵn sàng để đọc một tài liệu khi ta mới thấy nó]]
+[[Kể cả khi có được một tài liệu chắc chắn sẽ trả lời câu hỏi của ta, thì ta cũng thường không sẵn sàng để đọc nó]]
 
 Nguồn:: [[Andy Matuschak]], [Collecting material feels more useful than it usually is](https://notes.andymatuschak.org/z8QSUyNdq3CMK79KSnCW7QTR1MPHEFi4Q2LY8)
 

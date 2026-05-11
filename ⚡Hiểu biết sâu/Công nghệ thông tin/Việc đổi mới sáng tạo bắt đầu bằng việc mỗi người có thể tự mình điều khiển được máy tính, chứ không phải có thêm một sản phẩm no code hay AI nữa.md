@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-09-22T22:30
-updated: 2025-05-23T19:46
+updated: 2026-01-31T16:33
 aliases:
   - Phần mềm cá nhân
 ---
@@ -12,7 +12,7 @@ Các phần mềm no code hay AI có hỗ trợ giải quyết các nhu cầu n�
 - [[Mô hình ngôn ngữ lớn làm việc với ngôn ngữ, không phải kiến thức]]
 - [[Sản phẩm no code không thể nào đáp ứng được nhu cầu tuỳ biến cao]] ([[Các tiếp thị về no code hàm ý rằng việc code là việc khó nhất trong việc tạo sản phẩm, nhưng thực ra việc thảo luận và lên kế hoạch mới là thứ quan trọng nhất]])
 
-Kể cả khi ta không cần có nhu cầu tuỳ biến gì cả, thì đa số chủ của chúng đều mong muốn tối đa hoá lợi nhuận bằng việc [[Việc trung tâm hoá việc lưu trữ dữ liệu trên máy chủ sẽ lấy đi autonomy và agency của người dùng cuối|hạn chế autonomy và agency của ta]]. [[Việc lưu dữ liệu ở các công cụ khác nhau tạo thành các silo thông tin]]. [[Việc phải trả tiền cho phần mềm để được đọc dữ liệu của mình không khác gì bị tống tiền]]
+Kể cả khi ta không cần có nhu cầu tuỳ biến gì cả, thì đa số chủ của chúng đều mong muốn tối đa hoá lợi nhuận bằng việc [[Việc trung tâm hóa việc lưu trữ dữ liệu trên máy chủ sẽ lấy đi autonomy và agency của người dùng cuối|hạn chế autonomy và agency của ta]]. [[Việc lưu dữ liệu ở các công cụ khác nhau tạo thành các silo thông tin]]. [[Việc phải trả tiền cho phần mềm để được đọc dữ liệu của mình không khác gì bị tống tiền]]
 
 Những thứ đó chỉ có thể được giải quyết bằng việc mỗi người có thể tự mình điều khiển được máy tính. Tức là họ biết cách lập trình cơ bản. [[Lập trình là việc hướng dẫn máy làm theo đúng ý mình, chứ không phải chỉ mỗi viết code]]. [[Dữ liệu chính là lập trình]]. [[Việc lưu trữ dữ liệu tại máy cá nhân và ở định dạng đơn giản sẽ giúp người dùng quen thuộc hơn với việc lập trình]].
 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-10-18T15:10
-updated: 2025-09-27T11:08
+updated: 2026-01-14T13:11
 title: Tôi học được gì sau khi viết Graphvidian?
 description: Tôi có nhiều kỳ vọng, mong muốn khi viết Graphvidian. Một số hoàn toàn thoả mãn. Một số không.
 ---

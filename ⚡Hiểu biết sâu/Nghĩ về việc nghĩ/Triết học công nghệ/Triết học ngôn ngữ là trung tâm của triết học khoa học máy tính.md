@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-03T09:36
-updated: 2025-04-24T12:57
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Triết học]]
 [[Triết học là việc đặt câu hỏi về những giả định của mình]]

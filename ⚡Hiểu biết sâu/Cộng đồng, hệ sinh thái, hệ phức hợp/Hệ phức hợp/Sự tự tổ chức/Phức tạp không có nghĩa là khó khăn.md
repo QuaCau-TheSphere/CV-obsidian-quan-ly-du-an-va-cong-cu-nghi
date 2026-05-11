@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-11-29T17:11
-updated: 2024-12-18T11:13
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Phức tạp, phức hợp]]
 [[Phức tạp không phải là có nhiều thành phần, mà là có nhiều sự tương tác giữa các thành phần]]

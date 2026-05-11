@@ -1,7 +1,9 @@
 ---
 share: true
 created: 2023-05-30T14:31
-updated: 2023-11-27T22:22
+updated: 2026-04-26T12:47
+aliases:
+  - Ưu tiên
 ---
 ![[Eisenhower-Matrix-920x1024.png|300]]
 ![[Eisenhower-Matrix-Actions-539x600.png|300]]
@@ -25,7 +27,7 @@ Tạm dừng lại để làm cái khác thì sẽ có ý tưởng để giải 
 
 Gặp những thứ trời ơi như cúp điện
 
-Làn cái không đam mê lắm thì sẽ hãy đói, buồn ngủ, ngồi sai tư thế, mắc đi vệ sinh, thèm lên fb
+Làn cái không đam mê lắm thì sẽ hay thấy đói, buồn ngủ, ngồi sai tư thế, mắc đi vệ sinh, thèm lên fb
 
 ## Lý do không biết chọn
 
@@ -77,6 +79,8 @@ Thực tế:
 
 ![](https://i.imgur.com/eFOrfhD.png)
 
+Khi được hỏi một công việc có quan trọng và gấp hay không, em ko biết nói thế nào. Quan trọng cho những gì mình đang làm thì cũng ko tới mức quan trọng bằng những thứ khác, nhưng tác động của nó thì em thấy là tương đương, thậm chí có lúc còn thấy lớn hơn. Gấp thì cũng có thể nói là ko gấp, nhưng nó đã lỡ chiếm tâm trí em rồi, và giờ nếu bỏ xuống thì bị mất cái đà đang có, chưa kể chi phí do chuyển chủ đề nữa. Nên nói là gấp hay quan trọng thì em thấy chưa tới mức là đứng nhất, nhưng đem lại lợi ích thì em thấy có vẻ là vậy
+
 # Khi nào một người sẽ ưu tiên làm?
 > [[Điều quan trọng thì thường hiếm khi khẩn cấp, và điều khẩn cấp thì thường hiếm khi quan trọng]]
 > — Dwight Eisenhower, tổng thống đời 34 của Mỹ
@@ -101,3 +105,15 @@ I find that when someone's taking time to do something right in the present, the
 [[Không có giải pháp nào cho người sáng lập để giải quyết sự quá tải ngoài những lời khuyên chung chung]]
 [[Việc mải mê làm việc đến quên cả đói cho thấy phần thưởng từ việc làm việc là đủ lớn hơn việc được ăn]] 
 [[Vấn đề ngắn hạn hay dài hạn không quan trọng, quan trọng là làm cái này mà phải nghĩ về cái khác thì sẽ nhức đầu]] 
+[[Những công việc không đòi hỏi sự tập trung cao độ]]
+[[Khi một người dành thời gian để làm một điều đúng ở hiện tại, họ là một người cầu toàn không có khả năng ưu tiên. Còn khi một người dành thời gian làm một điều đúng trong quá khứ, họ là nghệ nhân bậc thầy với tầm nhìn xa trông rộng]]
+[[Những thứ không quan trọng có thể tự xử lý lẫn nhau]]
+[[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết là đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
+[[Việc nghĩ ra ý tưởng tốt hơn làm ta muốn theo đuổi nó hơn là làm tiếp thứ hiện tại]]
+[[Loạn chủ đề khi chat]]
+
+- Việc trò chuyện luôn làm nảy sinh những chủ đề mới, dù có muốn điều đó xảy ra hay ko
+- [[Muốn thấy điều không biết là mình không biết thì cần phải ở trạng thái khám phá]]
+- [[Nên ưu tiên làm những việc có thể sẽ khiến ta phải viết lại kế hoạch]]
+- [[Các quá trình nhận thức của con người có nhiều giới hạn, nên những thứ tiện và ít phải nghĩ sẽ luôn được ưu tiên]]
+- Vấn đề thông diễn, hòa trộn đường chân trời có vẻ là ko thể có điểm dừng

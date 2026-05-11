@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-16T13:20
-updated: 2024-09-02T13:21
+updated: 2026-01-14T13:11
 ---
 Khái niệm:: 
 umm, mình nghĩ nó là công cụ được thiết kế tốt, mature, elegant, phù hợp để tổ chức các ghi chú văn bản thuần (bao gồm cả các công thức toán học với latex, các dạng biểu diễn dựa trên văn bản, yml, xml, excaldraw files,...) 

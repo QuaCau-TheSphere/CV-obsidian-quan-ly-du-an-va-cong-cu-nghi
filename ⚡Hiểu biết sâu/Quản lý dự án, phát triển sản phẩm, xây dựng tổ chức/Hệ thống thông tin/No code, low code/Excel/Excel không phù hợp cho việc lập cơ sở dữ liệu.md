@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-02T15:18
+updated: 2026-01-14T13:11
 ---
+Khái niệm:: [[Dữ liệu]]
 Lý do:: [[Excel không cản ta làm điều mà ta sẽ hối tiếc]]
 
 [[Excel là sản phẩm low code tồn tại lâu dài nhất]] 

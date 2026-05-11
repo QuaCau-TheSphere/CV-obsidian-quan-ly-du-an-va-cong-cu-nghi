@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2025-04-20T23:26
+updated: 2026-01-Mo'T'15:23
 ---
 [Simple URL Tricks for Google Drive You Should Know - Digital Inspiration](https://www.labnol.org/internet/direct-links-for-google-drive/28356/)
 ## Tải nhiều folder cùng lúc

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-10-05T12:18
-updated: 2025-04-24T12:12
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: 
 [[Thật khó để nghe thấy sự nghĩ của chính mình]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-22T21:55
-updated: 2025-04-24T12:51
+updated: 2026-02-16T12:31
 ---
 Khái niệm:: 
 Ngày xưa có 2 trường phái:
@@ -10,7 +10,7 @@ Ngày xưa có 2 trường phái:
 
 Plato chọn quan điểm của Parmenides. Nó ảnh hưởng tới ngày nay. Trong số những người chịu ảnh hưởng là 
 [[Triết học sự tĩnh và triết học chuyển động]]
-[[Những người đặt nền móng cho khoa học máy tính đều là những người theo phái thực chứng]]
+[[Những người đặt nền móng cho khoa học máy tính đều là những người theo phái logic thực chứng]]
 
 
 Bạn viết một phần mềm bằng việc quan sát, thí nghiệm, hay qua việc đọc những bài viết thế này? Bạn tin rằng bạn là người thực chứng, nhưng thực ra bạn lại hành động như một người diễn giải

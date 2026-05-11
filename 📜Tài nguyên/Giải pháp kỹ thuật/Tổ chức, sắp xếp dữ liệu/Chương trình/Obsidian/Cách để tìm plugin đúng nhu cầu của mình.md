@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2024-09-03T14:13
-updated: 2024-09-28T09:45
+updated: 2026-01-07T11:43
 ---
+[[Cách để tìm công cụ đúng nhu cầu của mình]]
 ## Hỏi cộng đồng
 - Tiếng Anh: [#plugin-general](https://discord.com/channels/686053708261228577/707816848615407697)
 
@@ -34,7 +35,7 @@ Vào discord của dataview để hỏi xem
 
 ## Tìm hiểu xem cái chức năng mà bạn cần nằm trong lĩnh vực gì
 ## Tìm hiểu xem để làm một chương trình như vậy thì cần 
-Xem thêm:: [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]
+Xem thêm:: [[Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]
 Xem thêm:: [[Cách để tìm công cụ đúng nhu cầu của mình]]
 
 

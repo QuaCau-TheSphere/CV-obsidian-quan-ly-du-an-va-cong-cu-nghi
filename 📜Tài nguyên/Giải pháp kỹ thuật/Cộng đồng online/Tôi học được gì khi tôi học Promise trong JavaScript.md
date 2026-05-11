@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-11-24T21:23
-updated: 2025-06-25T12:19
+updated: 2026-01-14T13:11
 ---
 Tôi đang trong cơn muốn tìm hiểu về đường cú pháp, và tôi google [`syntactic sugar`](https://www.google.com/search?client=firefox-b-d&q=syntactic+sugar). Tôi bấm các liên kết tôi thấy hấp dẫn, và trong đó có bài [On syntactic sugar](https://evertpot.com/syntactic-sugar/). Dường như trong những kết quả được lên trang nhất Google, thì tôi thấy muốn đọc các blog cá nhân hơn, vì cảm giác mình sẽ dễ thu lượm được những thứ mà những nền tảng blog khác như dev.to, freeCodeCamp, Quora, v.v. ít khi cung cấp. Tôi nghĩ nhiều bài trên đó cũng đáng xem, nhưng để biết được những thứ thực sự rất rốt ráo thì . Bài viết dẫn tới hai bài này:
 - [Why Async/Await Is More Than Just Syntactic Sugar](https://www.zhenghao.io/posts/await-vs-promise)
@@ -59,6 +59,8 @@ có interactive editor như kiểu của Bret Victor
 
 [Foundations of asynchronous programming in JavaScript](https://exploringjs.com/js/book/ch_async-js.html#ch_async-js)
 [CodeAnalogies Blog – Visual explanations of HTML, CSS and JavaScript concepts](https://blog.codeanalogies.com/)
+[The JavaScript Universe \| Just JavaScript](https://justjavascript.com/the-javascript-universe)
+
 ## Bình luận
 Tất nhiên là khi đọc cái này rồi đọc cái kia thì mình cũng đã tiếp thu được phần nào rồi. Không có cái đầu trống trơn không biết gì. Nhưng nó cũng không quá đầy, vì đọc gần nhau, nên tận dụng việc chưa kịp thấm bài 1 để đánh giá sự dễ hiểu của bài 2
 [[Việc mò mẫm vui, đỡ phải nghĩ và thường là hiệu quả hơn là đọc hướng dẫn cẩn thận]]

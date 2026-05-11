@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-08-05T17:22
+updated: 2026-02-02T14:38
 ---
-Khái niệm:: 
+Khái niệm:: [[Công cụ, công nghệ]]
 Khi dùng búa để đập đinh, ta nghĩ là chỉ có đinh và gỗ bị biến dạng, chứ ta không nghĩ rằng búa có thể thay đổi bản thân ta. Nếu như búa đập vào tay thì ta chỉ nghĩ đó là tai nạn, chứ không trông đợi sự thay đổi đó. Trong khi đó, khi nói chuyện với con người, ta có nghĩ rằng sự nói chuyện đó sẽ thay đổi con người ta. 
 [[Khi hành động của một người được tạo bởi thiên kiến, ta thường nói là nó phi lý. Khi một đồ vật được tạo bởi thiên kiến, ta thường bảo rằng nó trung lập]]
 

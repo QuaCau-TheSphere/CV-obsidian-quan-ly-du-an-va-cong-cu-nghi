@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-20T14:56
-updated: 2025-05-27T21:14
+updated: 2026-01-20T13:53
 ---
 [[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng]]
 [[NPS trên 50% là đạt được sản phẩm phù hợp thị trường]]

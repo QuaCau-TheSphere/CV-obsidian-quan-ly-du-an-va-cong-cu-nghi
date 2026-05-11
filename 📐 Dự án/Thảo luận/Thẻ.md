@@ -1,6 +1,6 @@
 ---
 created: 2024-08-31T16:54
-updated: 2025-04-26T22:48
+updated: 2026-01-14T13:11
 ---
 It turns out that answering the question “how to write good cards?” requires thinking hard about your theory of knowledge and how to represent it, and your theory of learning. The better those theories, the better your cards will be. Small wonder it’s a rich, open-ended problem!
 [How can we develop transformative tools for thought?](https://numinous.productions/ttft/)

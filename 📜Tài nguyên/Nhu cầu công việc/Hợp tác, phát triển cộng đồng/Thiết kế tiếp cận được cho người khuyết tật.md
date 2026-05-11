@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-07-14T15:00
-updated: 2025-10-12T07:00
+updated: 2026-01-14T13:11
 ---
 Lĩnh vực:: [[Thiết kế bao trùm]]
 Nhu cầu công nghệ:: 

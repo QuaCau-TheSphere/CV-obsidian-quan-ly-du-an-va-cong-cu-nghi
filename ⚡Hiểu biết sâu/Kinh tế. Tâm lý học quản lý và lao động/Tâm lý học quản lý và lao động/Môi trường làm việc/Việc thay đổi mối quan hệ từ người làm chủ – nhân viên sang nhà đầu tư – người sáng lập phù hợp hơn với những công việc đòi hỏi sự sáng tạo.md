@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-12-20T20:28
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Sáng tạo]]
 [[Quản lý công việc và quản lý kiến thức không thể tách rời nhau]]

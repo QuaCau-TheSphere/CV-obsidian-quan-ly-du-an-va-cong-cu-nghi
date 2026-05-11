@@ -1,16 +1,16 @@
 ---
 share: true
 created: 2024-08-23T15:06
-updated: 2025-10-08T15:59
+updated: 2026-01-Mo'T'16:44
 aliases:
   - Kho địa điểm để chọn nơi gặp mặt
   - Hướng dẫn sử dụng kho địa điểm để chọn nơi gặp mặt
   - Tìm nơi gặp mặt trực tiếp
-description: Làm sao để tìm được nơi phù hợp để gặp mặt trực tiếp?
+description: Làm sao có thể tìm được địa điểm gặp mặt phù hợp với nhu cầu riêng biệt của mình một cách nhanh nhất?
 title: Kho địa điểm để chọn nơi gặp mặt
 ---
 ![](https://i.imgur.com/CXHXI7y.png)
-Đây là một danh sách tổng hợp các địa điểm gặp mặt trực tiếp, bao gồm:
+Đây là một danh sách tổng hợp các địa điểm gặp mặt trực tiếp, với mong muốn giúp nhau tìm được địa điểm gặp mặt phù hợp với nhu cầu riêng biệt của mình một cách nhanh nhất. Nó bao gồm:
 - Địa điểm công cộng
 - Không gian làm việc chung
 - Phòng họp riêng, thư viện
@@ -20,9 +20,13 @@ title: Kho địa điểm để chọn nơi gặp mặt
 - Nhà riêng
 - Thư viện
 
+Nó hướng đến việc:
+- Lấy người dùng làm trung tâm, chứ không phải xem họ như một loại tài nguyên để khai thác
+- Giảm gánh nặng nhận thức trong việc cung cấp, quản lý, sử dụng và chia sẻ dữ liệu theo những nhu cầu đặc thù của họ. 
+
 Chọn [[TP.HCM]] hoặc [[Hà Nội]] để bắt đầu. 
 
-## Tiêu chí thêm địa điểm
+## Tiêu chí ưu tiên khi thêm địa điểm
 - Có chính sách hỗ trợ các dự án cộng đồng hoặc phát triển bền vững, hoặc có lợi ích gián tiếp cho các bên liên quan của các dự án đó (VD: gần nhà nhau, có người quen, v.v.), hoặc
 - Được đề xuất trong nơi thảo luận, hoặc được yêu cầu kéo dữ liệu mới (pull request) trên GitHub, hoặc
 - Có điểm cộng khác lạ

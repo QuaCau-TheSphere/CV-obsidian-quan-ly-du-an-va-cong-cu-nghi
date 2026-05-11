@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-05-27T16:10
+updated: 2026-01-23T11:32
 aliases:
 ---
 Khái niệm:: [[Đơn giản]], [[Ra quyết định]], [[Thước đo, đo lường, chỉ số, KPI]]
@@ -13,7 +13,7 @@ Không phải cái gì đơn giản cũng là đúng. Hệ thống nhị nguyên
 [[Khi cố điều khiển một hệ phức hợp bằng một hệ đơn giản, ta dễ gặp những hệ quả không mong muốn]]
 
 [[Phân tích quyết định đa tiêu chí (MCDA) là phương pháp để tìm điểm đánh đổi tối ưu nhất]]
-[[❓Bản chất của phân tích quyết định đa tiêu chí vẫn là quy về một chỉ số]]
+[[❓Dù việc sử dụng phân tích quyết định đa tiêu chí vẫn là quy về một chỉ số, thì việc theo đuổi nó vẫn khác với theo đuổi một chỉ số thành phần, nên cũng không sợ nó quá đơn giản]][[❓Theo đuổi một bộ chỉ số thì không còn sợ là quá đơn giản nữa]]
 [[Hiểu biết không chỉ để mình làm một cái gì đó, mà còn để mình không làm một cái gì đó]]
 [[Con người sẽ theo đuổi kỹ năng mới với giá trị tiềm năng trong phạm vi dự đoán]]
 

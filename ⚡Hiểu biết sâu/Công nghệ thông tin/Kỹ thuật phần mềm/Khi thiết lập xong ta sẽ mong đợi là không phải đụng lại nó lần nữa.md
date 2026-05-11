@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-11-27T01:01
-updated: 2024-11-27T01:01
+updated: 2025-12-22T17:31
 ---
 Khái niệm:: 
 Những thứ được thiết lập là những thứ ta cho rằng sẽ không thay đổi, không có nghĩa là chúng sẽ luôn không đổi

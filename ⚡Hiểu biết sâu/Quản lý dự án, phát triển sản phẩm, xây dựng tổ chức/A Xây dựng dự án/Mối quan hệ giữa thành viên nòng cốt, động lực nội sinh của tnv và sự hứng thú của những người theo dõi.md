@@ -1,6 +1,6 @@
 ---
 created: 2024-08-31T16:54
-updated: 2025-06-17T22:49
+updated: 2026-01-14T13:11
 ---
 Câu hỏi:: [[Tại sao không nên cho TNV vòng ngoài tham gia các buổi họp nhóm nòng cốt？]] [[Liệu việc không đủ cam kết để vận hành khiến cho họ khác giá trị với mình？]] 
 
@@ -32,7 +32,7 @@ Quá trình mất hứng:
 - Người ta nhìn vào thấy ko cam kết → mất giá
 
 
-Chủ đề:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển cộng đồng/Phát triển cộng đồng]]
-Chủ đề:: [[Xây dựng nhóm nòng cốt]]
-Chủ đề:: [[Hứng thú]]
+Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Cộng đồng/Cộng đồng]]
+Khái niệm:: [[Nhóm nòng cốt]]
+Khái niệm:: [[Hứng thú]]
 #Hànhvitổchức/nhânsự 

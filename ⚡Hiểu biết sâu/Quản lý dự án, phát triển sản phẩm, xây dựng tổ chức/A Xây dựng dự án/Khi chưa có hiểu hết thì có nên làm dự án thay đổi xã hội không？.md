@@ -1,5 +1,7 @@
 ---
 Nội dung: true
+created: 2025-09-27T16:20
+updated: 2026-01-14T13:11
 ---
 
 Các nghiên cứu cũng cần có . Nhưng vấn đề là đối diện với sự giận dữ của đám đông khi đi ngược với quan điểm của họ.
@@ -10,4 +12,4 @@ Câu hỏi:: [[Khi chưa tìm hiểu về đạo đức học thì có nên ra n
 Câu hỏi:: [[Khi có nút nguồn khác nhau thì có nên thay đổi không？]]
 Câu hỏi:: [[Những người làm chính sách khi xảy ra rủi ro hoặc hậu quả không lường trước được thì sẽ phải chịu trách nhiệm thế nào？]]
 
-Chủ đề:: [[Hoạt động xã hội]] 
+Khái niệm:: [[Hoạt động xã hội]] 

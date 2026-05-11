@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-12-02T10:29
-updated: 2023-12-02T10:41
+updated: 2026-01-14T13:10
 ---
 [[Phản hồi và sự giúp đỡ trả lại là những thứ xa xỉ với người được giúp]]
 [[Tìm được người cùng muốn làm chung với mình và đủ rảnh là rất khó]]

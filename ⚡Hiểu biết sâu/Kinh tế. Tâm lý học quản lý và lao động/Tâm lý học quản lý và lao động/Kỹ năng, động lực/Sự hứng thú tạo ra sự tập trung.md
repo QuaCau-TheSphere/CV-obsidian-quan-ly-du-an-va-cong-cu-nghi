@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2025-05-27T23:51
+updated: 2026-01-14T13:10
 ---
 Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 [[Sự tập trung đòi hỏi người khác phải lo cho những nhu cầu khác của mình]] 

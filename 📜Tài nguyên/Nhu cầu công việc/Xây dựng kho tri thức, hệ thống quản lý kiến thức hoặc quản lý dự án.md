@@ -1,7 +1,9 @@
 ---
 share: true
 created: 2024-09-21T21:29
-updated: 2025-04-22T19:45
+updated: 2026-01-14T13:11
+aliases:
+  - Xây dựng hệ thống quản lý
 ---
 Lĩnh vực:: [[Hệ thống thông tin]]
 Nhu cầu công nghệ:: [[Hệ thống quản lý kiến thức]]

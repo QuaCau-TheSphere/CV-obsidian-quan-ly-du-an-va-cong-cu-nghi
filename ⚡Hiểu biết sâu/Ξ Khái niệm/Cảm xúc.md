@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-12-18T10:01
-updated: 2024-12-18T10:01
+updated: 2026-01-14T13:11
 ---
 ```dataview
 LIST rows.file.link

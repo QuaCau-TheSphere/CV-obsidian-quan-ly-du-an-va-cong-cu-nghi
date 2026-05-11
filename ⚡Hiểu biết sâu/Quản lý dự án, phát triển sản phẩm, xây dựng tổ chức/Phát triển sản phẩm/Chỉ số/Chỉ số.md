@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2025-05-27T14:34
+updated: 2026-01-20T14:15
 ---
 Khái niệm:: [[Thước đo, đo lường, chỉ số, KPI]]
 ```dataview
@@ -10,5 +10,3 @@ FROM "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xâ
 GROUP BY split(file.folder, "/")[4]
 WHERE file.name != this.file.name
 ```
-
-Nguồn:: 

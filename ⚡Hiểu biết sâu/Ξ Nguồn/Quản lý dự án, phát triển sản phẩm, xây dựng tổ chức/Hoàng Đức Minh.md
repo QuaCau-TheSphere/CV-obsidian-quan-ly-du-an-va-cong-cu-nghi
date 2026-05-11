@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-08-02T12:54
+updated: 2026-04-18T21:17
 ---
 ```dataview
 LIST file.cday
@@ -78,9 +78,9 @@ Giây phút ta tạo ra 2 team và phân biệt nghĩa vụ thì chắc chắn s
 
 Insight không nên lung tung, mà nên theo danh mục các biến, theo mục tiêu nghiên cứu
 
-Insight không dùng đi dùng lại
+[[Insight không dùng đi dùng lại]]
 
-Làm game không được tính là làm sản phẩm. Nó nên được xem là làm nghệ thuật, nhưng vì nó có data, cũng phải dev, nên nó lai lai
+[[Làm game không được tính là làm sản phẩm. Nó nên được xem là làm nghệ thuật, nhưng vì nó có data, cũng phải dev, nên nó lai lai]]
 
 [[Làm product thiên về cảm giác, làm growth thiên về dữ liệu]]
 

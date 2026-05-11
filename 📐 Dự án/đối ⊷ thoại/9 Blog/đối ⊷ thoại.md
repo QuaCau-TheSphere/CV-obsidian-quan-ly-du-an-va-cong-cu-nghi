@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-30T14:29
-updated: 2024-07-18T13:17
+updated: 2026-01-14T13:11
 ---
 # đối ⊷ thoại
 [Để có thể thiết kế một giải pháp một cách nhanh chóng và tự tin, bạn cần được thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra.](https://doi-thoai.deno.dev/LadderOfAbstraction.đốithoại.1 "Up and Down the Ladder of Abstraction") Nếu giải pháp đó cần sự đối thoại giữa các bên, bạn cần nhanh chóng tìm lại các cuộc thảo luận đã từng có trước đây và nắm được mức độ quan tâm của các bên liên quan.

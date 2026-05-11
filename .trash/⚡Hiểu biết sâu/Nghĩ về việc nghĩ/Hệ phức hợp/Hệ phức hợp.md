@@ -3,7 +3,7 @@ share: true
 created: 2023-05-26T14:51
 updated: 2023-10-06T16:09
 ---
-Chủ đề:: [[Sự tự tổ chức sự tạo mẫu hình một cách phi tuyến]]
+Khái niệm:: [[Sự tự tổ chức sự tạo mẫu hình một cách phi tuyến]]
 - Theo lý thuyết mạng lưới: có độ kết nối cao 
 - theo lý thuyết tiến hóa: hệ bắt đầu từ đơn giản sau đó có sự chuyên môn hóa và kết hợp lẫn nhau
 # Hệ mở

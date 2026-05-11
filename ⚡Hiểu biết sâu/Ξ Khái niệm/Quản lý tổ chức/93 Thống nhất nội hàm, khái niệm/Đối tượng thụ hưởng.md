@@ -1,6 +1,6 @@
 ---
 created: 2023-06-12T00:57
-updated: 2024-07-29T13:42
+updated: 2026-01-25T11:44
 ---
 **Đối tượng thụ hưởng**. Họ làm gì. Họ trải qua những gì. Segmentation
 **Nhu cầu của đối tượng**. Họ muốn gì? Họ đang có những mối quan tâm nào? Thứ họ nói họ muốn nhận

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-07-27T12:40
+updated: 2026-01-14T13:10
 ---
 ![](https://obsidian.md/images/screenshot-1.0-hero-combo.png) 
 # Mục đích xây vault của bạn là gì?

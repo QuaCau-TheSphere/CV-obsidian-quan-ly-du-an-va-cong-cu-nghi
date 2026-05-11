@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-11-26T22:01
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Diễn giải, đọc]], [[Tóm tắt, mục lục]]
 Nhiều khi việc đọc lên cũng mơ hồ, giống như những âm thanh vô nghĩa đi vào tai rồi đi ra. Chỉ khi đọc hết quyển sách thì nó mới rõ ràng

@@ -1,18 +1,15 @@
 ---
 share: true
 created: 2023-07-13T19:21
-updated: 2024-07-30T15:45
+updated: 2026-01-14T13:11
 ---
-%%
-#file/thành-phẩm/bài-viết 
-%%
 Bạn không muốn lệ thuộc.
 
 Bạn muốn biết lập trình chứ không phải là không, nhưng:
 - Còn nhiều nhu cầu khác bạn phải xử lý, nên dù bạn cứ suy nghĩ rằng một ngày nào đó mình phải dành thời gian cho nó, nhưng mãi mà bạn vẫn không thể biến nó trở thành ưu tiên cao nhất
 - Tài liệu hướng dẫn mang danh là dành cho người mới, nhưng nó vẫn quá nhiều thứ với bạn
 
-Vàààààààà đến một ngày bạn có một bài toán thực sự cần phải code, và bạn không thể nhờ ai khác code cho được. Thực sự là bạn phải xắn tay vào làm rồi.
+Vàààààààà đến một ngày bạn có một bài toán thực sự cần phải code, và AI không thể giúp bạn được, và bạn không thể nhờ ai khác code cho được. Thực sự là bạn phải xắn tay vào làm rồi.
 
 Nhưng thực sự là bạn không thể thong thả để làm được. Bạn biết là việc học thì sẽ mất thời gian, và nếu nó cần phải mất nhiều thời gian thì bạn cũng phải chịu thôi nhưng bạn vẫn cảm thấy mình cần phải . Cái trạng thái đó không phải là cái trạng thái phù hợp cho việc học, nhưng the brain is funny.
 
@@ -42,10 +39,10 @@ Một số thứ sẽ giúp bạn hiểu code nói gì:
 - Hiểu một số quy ước viết code
 - Hiểu được IDE đang cố gắng nói cho mình cái gì
 - Biết một số kỹ thuật debug: console.log, debugger, unit test
-# Thao tác với IDE
+## Thao tác với IDE
 [[Phím tắt cho VS Code]]
 
-# Hiểu quy tắc viết tài liệu
+## Hiểu quy tắc viết tài liệu
 ```js
 /**
  * Tên hàm

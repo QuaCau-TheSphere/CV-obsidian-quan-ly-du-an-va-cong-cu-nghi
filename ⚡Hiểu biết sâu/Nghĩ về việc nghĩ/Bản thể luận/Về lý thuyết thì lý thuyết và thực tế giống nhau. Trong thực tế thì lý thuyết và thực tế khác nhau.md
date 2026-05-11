@@ -1,10 +1,10 @@
 ---
 share: true
 created: 2025-05-26T15:27
-updated: 2025-05-26T17:08
+updated: 2026-01-14T13:10
 ---
-Khái niệm:: [[Điều không biết]]
+Khái niệm:: [[Sự không biết]]
 [[Bản đồ không phải là vùng đất]]
-[[Nghiên cứu những điều đã biết mà không biết, lập kế hoạch A cho điều đã biết là đã biết, và lập kế hoạch B cho điều không biết mà đã biết]]
+[[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết là đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
 [[Mọi mô hình đều sai, nhưng một số thì hữu ích]]
 Nguồn:: 

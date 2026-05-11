@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-05-23T20:33
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Kiến thức]]
 Knowledge forms when we accumulate, mix, connect and visualize information. Indeed we should accumulate facts to generate any insight, this is just a preliminary condition. But what’s next? How we form new knowledge? There are several ways.

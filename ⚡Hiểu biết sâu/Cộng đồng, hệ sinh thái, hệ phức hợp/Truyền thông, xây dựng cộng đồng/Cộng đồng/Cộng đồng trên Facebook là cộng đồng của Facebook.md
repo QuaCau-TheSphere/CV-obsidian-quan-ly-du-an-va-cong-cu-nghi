@@ -1,16 +1,17 @@
 ---
 share: true
 created: 2023-07-09T09:41
-updated: 2024-12-18T09:59
+updated: 2026-01-02T12:49
 ---
-# Nhược điểm của nhóm Facebook
+Khái niệm:: [[Cộng đồng]]
+## Nhược điểm của nhóm Facebook
 - Nếu bị report thì bị bay không biết bao giờ lấy lại được (Facebook không có người chuyên xử lý kiện cáo về group. Page thì còn có vì nó có chạy quảng cáo) 
 - Không bị kiểm soát về thuật toán
 - Không cài bot được
 - Không làm chủ được dữ liệu
 
-# Nhược điểm của cộng đồng dùng nền tảng riêng
+## Nhược điểm của cộng đồng dùng nền tảng riêng
 Rào cản gia nhập cao
-[[Group Facebook]]
+[[Nhóm Facebook]]
 
 Nguồn:: [[Bùi Quang Tinh Tú]]

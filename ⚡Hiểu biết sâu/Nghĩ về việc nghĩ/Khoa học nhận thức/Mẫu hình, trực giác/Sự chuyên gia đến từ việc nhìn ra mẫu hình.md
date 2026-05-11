@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-26T10:33
-updated: 2025-05-13T11:20
+updated: 2026-01-14T13:19
 description: 4 yếu tố để một người trở thành chuyên gia":" (1) Dành nhiều thời gian tập luyện, (2) Quy luật trong lĩnh vực đó không thay đổi theo thời gian, (3) Nhận được sự phản hồi nhanh chóng cho những gì mình làm, (4) Luôn tìm cách bước ra ngoài vùng thoải mái
 aliases:
   - Làm sao để giỏi hơn?
@@ -28,4 +28,4 @@ Tham khảo:: [[Veritasium]], ![The 4 things it takes to be an expert - YouTube]
 [[Chuyên nghiệp (professional) và chuyên gia (expertise) là hai vấn đề khác nhau]] 
 [[Thang đo năng lực dựa trên việc có thể đưa ra phân tích và trực giác đúng hay không]]
 [[Để có thể thiết kế một giải pháp một cách nhanh chóng và tự tin, ta cần được thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra]]
-[[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]
+[[Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]

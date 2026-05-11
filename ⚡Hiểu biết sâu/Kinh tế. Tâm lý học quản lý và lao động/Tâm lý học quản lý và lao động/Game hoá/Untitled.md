@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-01-10T14:22
-updated: 2025-01-10T14:23
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Động lực]]
 # **8 Động lực cốt lõi của Game hoá**

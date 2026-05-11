@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2025-06-19T22:09
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Ẩn dụ]]
 ![](https://res.cloudinary.com/dxj9qr5gj/image/upload/c_scale,f_auto,q_auto:good,w_1200/v1632316505/maggieappleton.com/essays/drawing-invisibles/frame_shrink_irt2qv.png)

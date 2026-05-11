@@ -2,7 +2,7 @@
 share: true
 description: Tầng 25, 346 Bến Vân Đồn, P1, Q4
 created: 2023-05-26T14:51
-updated: 2025-05-20T22:27
+updated: 2026-01-14T13:11
 ---
 Địa chỉ:: Tầng 25, 346 Bến Vân Đồn, P1, Q4
 Số lượng:: 30

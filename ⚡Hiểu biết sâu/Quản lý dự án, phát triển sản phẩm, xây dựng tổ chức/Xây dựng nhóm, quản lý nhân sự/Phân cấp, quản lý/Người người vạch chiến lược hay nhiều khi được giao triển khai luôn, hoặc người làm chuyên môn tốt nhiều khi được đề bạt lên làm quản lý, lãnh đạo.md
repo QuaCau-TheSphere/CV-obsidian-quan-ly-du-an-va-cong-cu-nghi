@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-26T23:44
+updated: 2026-01-14T13:11
 ---
 Trong khi tư duy cần dùng cho mỗi loại công việc này là khác nhau
 [[Công việc khai phá và công việc khai thác]]

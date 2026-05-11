@@ -4,14 +4,14 @@ updated: 2023-10-06T16:09
 ---
 Câu hỏi liên quan đến chủ đề này:
 ```dataview
-List from "3 Kiến thức, câu hỏi/32 Câu hỏi" where contains(chủ-đề,[[]]) 
+List from "3 Kiến thức, câu hỏi/32 Câu hỏi" where contains(khái-niệm,[[]]) 
 ```
 
 Chủ đề quan tâm đến chủ đề này:
 ```dataview
-List from "3 Kiến thức, câu hỏi/31 Khái niệm" where contains(chủ-đề,[[]]) 
+List from "3 Kiến thức, câu hỏi/31 Khái niệm" where contains(khái-niệm,[[]]) 
 ```
-Chủ đề:: [[Trách nhiệm]]
+Khái niệm:: [[Trách nhiệm]]
 Vai trò bao gồm:
 - Trách nhiệm
 - Kỳ vọng
@@ -20,5 +20,5 @@ Vai trò bao gồm:
 Người có vai trò này phải đáp ứng (fulfill) để thiết chế vận hành hiệu quả
 
 Tự động hoá các tương tác giữa các chủ thể (agent) để không phải cứ bàn lại 
-Chủ đề:: [[Sự chú ý]]
-Chủ đề:: [[Chức năng, nhiệm vụ (function)]]
+Khái niệm:: [[Sự chú ý]]
+Khái niệm:: [[Chức năng, nhiệm vụ (function)]]

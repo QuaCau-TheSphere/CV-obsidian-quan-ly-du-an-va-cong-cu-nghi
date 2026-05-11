@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2023-12-03T20:13
+updated: 2026-01-14T13:11
 description: Một số ý tưởng trao đổi với Hanoi Grapevine về nhân văn số và mạng lưới không gian văn hoá
 ---
 Em xin chào Hanoi Grapevine,  

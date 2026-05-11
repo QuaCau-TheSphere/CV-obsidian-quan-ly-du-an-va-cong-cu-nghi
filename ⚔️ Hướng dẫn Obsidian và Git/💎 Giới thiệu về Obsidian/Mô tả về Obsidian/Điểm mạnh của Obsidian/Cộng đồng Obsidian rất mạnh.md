@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-08-24T12:06
+updated: 2026-01-14T13:10
 ---
 [[Obsidian không gọi vốn để theo đúng định hướng của mình]] 
 

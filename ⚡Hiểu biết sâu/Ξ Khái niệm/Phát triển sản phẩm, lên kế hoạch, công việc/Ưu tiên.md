@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-07-28T21:54
-updated: 2024-10-17T00:31
+updated: 2026-03-11T13:56
 aliases:
   - ngắn hạn
   - khẩn cấp
@@ -11,6 +11,8 @@ aliases:
 ---
 Xem thêm:: [[Kế hoạch (khái niệm)]]
 ```dataview
-LIST 
+LIST rows.file.link
 WHERE contains(khái-niệm, [[]])
+GROUP BY split(file.folder, "/")[2]
+WHERE file.name != this.file.name
 ```

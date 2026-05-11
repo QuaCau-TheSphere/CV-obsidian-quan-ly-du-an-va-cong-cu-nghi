@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-10-18T17:25
-updated: 2025-09-29T18:11
+updated: 2026-01-14T13:11
 aliases:
   - Văn bản động
 ---

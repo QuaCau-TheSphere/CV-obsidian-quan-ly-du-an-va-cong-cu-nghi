@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-31T21:06
+updated: 2026-02-03T13:34
 description: Khi câu hỏi không rõ cần câu trả lời để làm gì
 ---
 Sự hữu ích, có lẽ cũng giống như cái đẹp, phụ thuộc rất nhiều vào người nhìn nhận. Cùng một ý tưởng có người sẽ thấy nó chấn động tâm can, có người lại thấy nó không khác gì là hoang tưởng. Nên việc một người cảm thấy câu hỏi không biết để làm gì, thậm chí là vô nghĩa, không có nghĩa là người khác cũng thấy thế. Họ không cảm thấy vậy vì có thể là họ chưa đủ nền tảng để hiểu nó có những tiềm năng gì.
@@ -25,3 +25,5 @@ Hoặc đó cũng có thể là vì người đặt câu hỏi hoàn toàn có t
 > - Giải Ig Nobel **Vật lý** vinh danh Ivan Maksymov và Andriy Pototsky vì nghiên cứu xác định hình dạng của giun thay đổi như thế nào khi chúng bị rung ở tần số âm thanh cao.
 > - Giải Ig Nobel **Tâm lý học** được trao cho hai nhà khoa học vì đã phát minh ra phương pháp xác định người tự ái bằng cách kiểm tra lông mày của họ. Các nhà nghiên cứu nhận thấy lông mày là một dấu hiệu phi ngôn ngữ đặc biệt quan trọng để đánh giá các đặc điểm tính cách tự ái. Nghiên cứu của họ được công bố trên Tạp chí Nhân cách năm 2018. Những người tham gia nghiên cứu đánh giá độ dày của lông mày là dấu hiệu rõ ràng nhất của lòng tự ái.
 > - Giải Ig Nobel **Khoa học vật liệu** được trao cho một nhóm các nhà khoa học vì đã "chỉ ra rằng dao được sản xuất từ ​​phân người đông lạnh hoạt động không tốt".
+
+Khái niệm:: [[Hiểu]]

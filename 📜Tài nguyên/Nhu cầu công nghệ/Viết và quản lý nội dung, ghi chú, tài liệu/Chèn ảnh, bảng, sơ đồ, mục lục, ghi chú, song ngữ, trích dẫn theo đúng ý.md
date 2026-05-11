@@ -1,0 +1,13 @@
+---
+share: true
+created: 2023-05-26T14:51
+updated: 2026-01-14T13:11
+---
+Lĩnh vực:: [[Sắp chữ, thiết kế, xuất bản]]
+Nhu cầu công nghệ:: [[WYSIWYM]]
+
+Mọi người thường dùng Word để viết, nhưng nó gây ra những vấn đề về định dạng. Cách giải quyết chuyện định dạng không được đúng ý là dùng công nghệ [[WYSIWYM]].
+
+![](https://www.explainxkcd.com/wiki/images/7/7e/invisible_formatting.png)
+
+<blockquote class="tiktok-embed" cite="https://www.tiktok.com/@callmebyyourcarl/video/7471300609229049130" data-video-id="7471300609229049130" style="max-width: 605px;min-width: 325px;" > <section> <a target="_blank" title="@callmebyyourcarl" href="https://www.tiktok.com/@callmebyyourcarl?refer=embed">@callmebyyourcarl</a> Who made it like this. I just want to talk. <a title="fyp" target="_blank" href="https://www.tiktok.com/tag/fyp?refer=embed">#fyp</a> <a title="foryou" target="_blank" href="https://www.tiktok.com/tag/foryou?refer=embed">#foryou</a> <a title="microsoft" target="_blank" href="https://www.tiktok.com/tag/microsoft?refer=embed">#microsoft</a> <a title="workhumor" target="_blank" href="https://www.tiktok.com/tag/workhumor?refer=embed">#workhumor</a> <a title="corporatehumor" target="_blank" href="https://www.tiktok.com/tag/corporatehumor?refer=embed">#corporatehumor</a> <a title="microsoftword" target="_blank" href="https://www.tiktok.com/tag/microsoftword?refer=embed">#microsoftword</a> <a title="outlook" target="_blank" href="https://www.tiktok.com/tag/outlook?refer=embed">#outlook</a> <a title="microsoftoutlook" target="_blank" href="https://www.tiktok.com/tag/microsoftoutlook?refer=embed">#microsoftoutlook</a> <a title="relatable" target="_blank" href="https://www.tiktok.com/tag/relatable?refer=embed">#relatable</a> <a title="workjokes" target="_blank" href="https://www.tiktok.com/tag/workjokes?refer=embed">#workjokes</a> <a title="worksatire" target="_blank" href="https://www.tiktok.com/tag/worksatire?refer=embed">#worksatire</a> <a title="officehumor" target="_blank" href="https://www.tiktok.com/tag/officehumor?refer=embed">#officehumor</a> <a title="officelife" target="_blank" href="https://www.tiktok.com/tag/officelife?refer=embed">#officelife</a> <a title="9to5life" target="_blank" href="https://www.tiktok.com/tag/9to5life?refer=embed">#9to5life</a> <a title="9to5" target="_blank" href="https://www.tiktok.com/tag/9to5?refer=embed">#9to5</a> <a target="_blank" title="♬ The Lonely Tree (Rain) - 1mady" href="https://www.tiktok.com/music/The-Lonely-Tree-Rain-7316163665119381506?refer=embed">♬ The Lonely Tree (Rain) - 1mady</a> </section> </blockquote> <script async src="https://www.tiktok.com/embed.js"></script>

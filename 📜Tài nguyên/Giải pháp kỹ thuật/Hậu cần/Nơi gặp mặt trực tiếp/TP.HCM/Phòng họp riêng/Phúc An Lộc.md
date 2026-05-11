@@ -2,7 +2,7 @@
 share: true
 description: 62 Nguyễn Sơn, Phú Thọ Hoà
 created: 2025-07-17T11:51
-updated: 2025-10-08T15:32
+updated: 2026-01-14T13:11
 ---
 Địa chỉ:: 62 Nguyễn Sơn
 Phường:: Phú Thọ Hoà

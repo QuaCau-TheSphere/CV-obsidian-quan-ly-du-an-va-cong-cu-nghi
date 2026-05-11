@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-05-23T20:32
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: 
 [[Nơi dễ kiếm những ý tưởng mới lạ với nhiều người là xung quanh những niềm tin sai phổ biến]] 

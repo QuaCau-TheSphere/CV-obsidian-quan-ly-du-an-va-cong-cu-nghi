@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-24T14:30
+updated: 2025-12-22T17:27
 ---
 Khái niệm:: [[Phi tuyến]]
 [[Môi trường nghĩ là nơi ta có thể có những loại suy nghĩ mới, những suy nghĩ mà trước đây ta không thể hình thành]]

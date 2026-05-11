@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-23T19:53
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Tiền]], [[⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển sản phẩm, lên kế hoạch, công việc/Nhu cầu]]
 [[Tiền có nhiệm vụ làm trung gian cho việc trao đổi nhu cầu]]. [[Tiền đơn giản hoá quá trình đáp ứng nhu cầu]]

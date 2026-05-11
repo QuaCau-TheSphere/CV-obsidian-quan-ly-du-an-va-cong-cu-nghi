@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-07-19T15:04
+updated: 2026-01-14T13:11
 ---
 # Thông tin cơ bản
 ## Điều gì khiến em nhận lời phỏng vấn?

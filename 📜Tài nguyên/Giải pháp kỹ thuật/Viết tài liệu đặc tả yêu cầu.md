@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-06-19T22:08
+updated: 2026-01-19T15:25
 ---
 Tuy [[Hình ảnh một phần mềm được xây dựng thuần tuý từ lý thuyết là một ảo tưởng]], nhưng [[Việc giả bộ là phần mềm được xây dựng bằng lý tính là có ích]]
 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-22T21:45
-updated: 2024-10-18T15:35
+updated: 2026-01-14T13:11
 ---
 Nguồn:: [[Bret Victor]], [Up and Down the Ladder of Abstraction](http://worrydream.com/LadderOfAbstraction/)
 
@@ -18,3 +18,4 @@ Nguồn:: [[Bret Victor]], [Up and Down the Ladder of Abstraction](http://worryd
 [[Chơi là sự thử nghiệm các kỹ năng mới học trong những môi trường mới]]
 [[Khi khoảnh khắc loé sáng ý tưởng đến vào lúc ta đang tập trung làm việc khác, nó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm|Khi khoảnh khắc loé sáng ý tưởng đến vào lúc ta đang tập trung làm việc khác, nó làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
 [[Việc kiểm định giả thuyết thường bị bỏ qua khi có quá nhiều việc]]
+[[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]

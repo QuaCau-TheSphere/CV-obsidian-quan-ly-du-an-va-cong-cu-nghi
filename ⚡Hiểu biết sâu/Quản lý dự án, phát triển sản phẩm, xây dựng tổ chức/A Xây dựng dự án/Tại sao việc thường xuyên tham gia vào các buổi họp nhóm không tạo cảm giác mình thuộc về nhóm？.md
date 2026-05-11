@@ -1,8 +1,8 @@
 ---
 created: 2024-08-31T16:54
-updated: 2025-06-17T22:49
+updated: 2026-01-14T13:11
 ---
-Chủ đề:: [[Động lực]]
-Chủ đề:: [[Nhân sự]]
-Chủ đề:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Phát triển cộng đồng/Phát triển cộng đồng]]
+Khái niệm:: [[Động lực]]
+Khái niệm:: [[Nhân sự]]
+Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Cộng đồng/Cộng đồng]]
 #Tâmlýhọc/xãhội

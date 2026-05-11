@@ -1,3 +1,7 @@
+---
+created: 2025-09-27T16:20
+updated: 2026-01-14T13:11
+---
 # Chúng ta đang quá coi trọng product delivery
 - Quá chú trọng ra mắt tính năng
 - Nghiên cứu mang tính chất one off

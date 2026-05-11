@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-27T22:26
+updated: 2026-01-14T13:11
 ---
 Việc trả tiền có thể mời những người không thích mình nhận phỏng vấn. 
 

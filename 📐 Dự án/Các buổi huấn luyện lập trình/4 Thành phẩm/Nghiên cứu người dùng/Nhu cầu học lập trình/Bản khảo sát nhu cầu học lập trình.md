@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-02-25T01:44
-updated: 2024-02-25T23:30
+updated: 2025-12-22T17:32
 ---
 [[Giả thiết về đối tượng cần học cách lập trình]]
 

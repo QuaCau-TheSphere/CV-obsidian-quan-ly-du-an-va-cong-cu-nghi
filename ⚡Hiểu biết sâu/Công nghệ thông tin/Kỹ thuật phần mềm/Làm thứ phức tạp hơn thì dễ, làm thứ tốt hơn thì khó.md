@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-12-18T11:07
+updated: 2025-12-22T17:31
 ---
 Khái niệm:: [[Phức tạp, phức hợp]]
 

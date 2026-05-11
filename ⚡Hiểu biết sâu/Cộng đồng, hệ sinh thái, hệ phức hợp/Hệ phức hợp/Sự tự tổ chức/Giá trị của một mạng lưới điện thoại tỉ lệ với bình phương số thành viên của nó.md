@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-09-06T21:44
-updated: 2024-12-18T11:13
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Phi tuyến]]
 [[Chúng ta không quen thuộc với luỹ thừa]]

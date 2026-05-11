@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-27T21:28
+updated: 2026-01-14T13:11
 ---
 # Khởi động
 Xin chào bạn. Mình là Lý Minh Nhật. Cảm ơn bạn đã nhận lời. Mình muốn mời bạn vào cuộc phỏng vấn này do thấy bạn tham gia tích cực trong kênh Obsidian tiếng Việt. Trước khi bắt đầu thì bạn có câu hỏi nào về cho mình không?

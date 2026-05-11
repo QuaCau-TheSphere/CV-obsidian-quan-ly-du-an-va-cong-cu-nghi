@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-10-27T21:28
+updated: 2026-01-14T13:11
 ---
 # Tôi không tải được bộ cài
 Theo quy định của Microsoft, các phần mềm khi cài đặt cần phải có một chứng chỉ ký mã hoá ([code signing certificate](https://www.youtube.com/watch?v=K98SSsKfcNs)). Hiện nay bọn mình chưa có tiền để mua chứng chỉ này, nên Windows sẽ rất gắt gao trong việc sử dụng nó. 

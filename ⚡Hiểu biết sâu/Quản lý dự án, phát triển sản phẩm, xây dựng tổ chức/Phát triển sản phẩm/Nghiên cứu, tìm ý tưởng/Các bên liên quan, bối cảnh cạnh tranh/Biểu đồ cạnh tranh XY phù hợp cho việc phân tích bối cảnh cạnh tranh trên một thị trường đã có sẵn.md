@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-27T22:26
+updated: 2026-01-14T13:11
 ---
 [[Biểu đồ cánh hoa phù hợp cho việc phân tích bối cảnh cạnh tranh ở một thị trường mới hoặc resegmented markets]]. [[Biểu đồ cạnh tranh giúp ta có được những giả định đầu tiên về những khách hàng đầu tiên của chúng ta]]
 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-06-07T10:27
+updated: 2026-01-14T13:10
 aliases:
   - Những đánh đổi phổ biến trong việc phát triển phần mềm
   - Ngành lập trình có rất nhiều đánh đổi

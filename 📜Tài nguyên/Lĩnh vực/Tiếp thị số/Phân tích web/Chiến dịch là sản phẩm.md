@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-05-27T20:44
+updated: 2026-01-14T13:11
 ---
 
 Khi trang web chỉ là những bài viết thì có thể dùng nhóm chủ đề. Nhưng tốt nhất là cố gắng tìm ra mục tiêu của mình khi viết những bài đó, biến nhóm chủ đề đó thành một dự án, đặt tên cho dự án đó, rồi dùng tên đó để làm tên chiến dịch.

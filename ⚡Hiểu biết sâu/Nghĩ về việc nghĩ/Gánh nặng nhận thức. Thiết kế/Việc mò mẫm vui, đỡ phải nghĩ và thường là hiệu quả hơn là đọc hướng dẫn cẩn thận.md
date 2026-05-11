@@ -1,11 +1,11 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-11-25T23:48
+updated: 2026-01-14T13:10
 ---
 [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
 [[Chúng ta không chọn phương án tối ưu khi chọn sai cũng chẳng hại gì]] 
-[[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]] 
+[[Kể cả khi có được một tài liệu chắc chắn sẽ trả lời câu hỏi của ta, thì ta cũng thường không sẵn sàng để đọc nó]] 
 [[Ta không có đầu óc để đứng trên vai những người khổng lồ. Tự mò mẫm đỡ nhức đầu hơn]]
 ## Sự thật #1: Chúng ta không đọc các trang web, chúng ta chỉ lướt mắt qua chúng thôi (scanning)
 - Vì ta thường đang có việc gì đó cần phải làm

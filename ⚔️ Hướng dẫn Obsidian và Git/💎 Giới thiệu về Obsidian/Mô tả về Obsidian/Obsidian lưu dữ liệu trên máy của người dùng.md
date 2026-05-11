@@ -1,8 +1,10 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-02T15:24
+updated: 2025-12-31T10:39
 ---
+Khái niệm:: [[Dữ liệu]]
+
 Việc **dữ liệu nằm trên máy của bạn** có nghĩa là nó là của bạn và luôn sẵn sàng chờ bạn. Bạn không còn phải lo về vấn đề bảo mật dữ liệu, bởi vì nó không có được chuyển qua một máy chủ nào hết. Bạn không cần phải lo lắng mỗi lần ra ngoài đường hay rớt mạng, vì bạn không phải tải dữ liệu về để làm việc. Việc [[Obsidian lưu dữ liệu ở định dạng đơn giản|dữ liệu được lưu ở định dạng đơn giản]] nghĩa là bạn không còn gặp khó khăn trong việc chuyển đổi định dạng. Điều này sẽ hữu ích nếu một ngày bạn chán Obsidian và muốn dùng công cụ khác, hoặc nếu Obsidian còn thiếu chức năng nào đó và bạn cần dùng công cụ khác để bổ sung. Một nền tảng có thể cung cấp tính năng xuất dữ liệu người dùng, và mỗi định dạng khác nhau sẽ có những phần mềm chuyên dụng để đọc nó. Nhưng nếu bạn còn phải tải về dữ liệu của mình, hoặc còn phải sử dụng một phần mềm riêng để có thể đọc được dữ liệu của mình, thì về lý thuyết, bạn sẽ còn chịu sự chi phối của nền tảng/phần mềm đó. Còn với triết lý này, thì bạn mới thực sự làm chủ dữ liệu của mình. [[Bạn có quyền chỉnh sửa dữ liệu của mình dưới bất kỳ hình thức nào]] 
 
 
@@ -16,4 +18,4 @@ Tuy nhiên, [[Có sự đánh đổi giữa sự dễ dàng tuỳ biến dữ li
 
 
 [[Việc lưu trữ dữ liệu tại máy cá nhân và ở định dạng đơn giản sẽ giúp người dùng quen thuộc hơn với việc lập trình]] 
-[[Việc trung tâm hoá việc lưu trữ dữ liệu trên máy chủ sẽ lấy đi autonomy và agency của người dùng cuối]]
+[[Việc trung tâm hóa việc lưu trữ dữ liệu trên máy chủ sẽ lấy đi autonomy và agency của người dùng cuối]]

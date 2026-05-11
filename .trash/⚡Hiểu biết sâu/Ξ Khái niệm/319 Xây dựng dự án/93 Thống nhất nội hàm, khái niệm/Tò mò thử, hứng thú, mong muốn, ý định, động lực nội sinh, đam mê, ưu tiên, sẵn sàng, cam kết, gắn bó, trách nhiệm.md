@@ -14,10 +14,10 @@ Tài liệu:: [[Tò mò thử, hứng thú, mong muốn, ý định, động l�
 | Ví dụ           |                                                             |                             |                     |                                                 | [[Mạng lưới Tròn Lành]], clip YouTube hay nhưng không có thời gian coi |                                                                                  |                                  |                   |            |            |                |
 |                 |                                                             |                             |                     |                                                 |                                                                        |                                                                                  |                                  |                   |            |            |                |
 
-Chủ đề:: [[Hứng thú]]
-Chủ đề:: [[Tò mò]]
-Chủ đề:: [[Động lực]]
-Chủ đề:: [[Hiện tượng khuếch tán trách nhiệm, người ngoài đứng nhìn]]
+Khái niệm:: [[Hứng thú]]
+Khái niệm:: [[Tò mò]]
+Khái niệm:: [[Động lực]]
+Khái niệm:: [[Hiện tượng khuếch tán trách nhiệm, người ngoài đứng nhìn]]
 
 ❓:: [[Biết rằng một người phải đi làm để kiếm tiền, nhưng tại sao họ lại phải cảm thấy có trách nhiệm nếu phải làm một thứ họ cảm thấy hứng thú？]]
 ❓:: [[Khi nào một người cần và họ sẽ đóng góp, và khi nào họ thấy rất cần nhưng họ cũng không đóng góp？]]
@@ -52,7 +52,7 @@ Actively prompting individuals to make plans increases their likelihood of follo
 - Second, the process helps to reduce the likelihood that someone will underestimate the time required by a task.
 - Third, plan creation helps people to remember to act.
 - Lastly, the formation of an action plan serves as a commitment to act. Research shows that breaking commitments generates discomfort. As such, plans are particularly effective when they are made as commitments to another person.
-Chủ đề:: [[Ý định]], [[Động lực]]
+Khái niệm:: [[Ý định]], [[Động lực]]
 
 # Các mức độ trách nhiệm
 Những mối quan hệ tự nguyện khi kéo dài lâu sẽ ngày càng trở nên kỳ quặc. Sự ra đời của cái gọi là "cam kết" chính bởi vì nhân loại biết rằng mọi thứ mang tính "tự nguyện" đều ngắn hạn và không bền vững (và nên như vậy).

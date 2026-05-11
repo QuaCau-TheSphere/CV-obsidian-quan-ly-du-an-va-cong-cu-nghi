@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-01T17:27
+updated: 2026-01-14T13:11
 ---
 Có bao giờ bạn quan sát ký hiệu các loại nhựa được in ở phía đáy sản phẩm nhựa chưa? Có bao giờ bạn thắc mắc loại nhựa này có an toàn cho sức khỏe không? Ở bài viết này, Thuận Thiên Plastic sẽ chia sẻ cụ thể về tất cả các loại nhựa phổ biến trên thị trường và các ký hiệu liên quan để dễ dàng nhận biết từ đây có cách sử dụng sao cho đúng. 
 

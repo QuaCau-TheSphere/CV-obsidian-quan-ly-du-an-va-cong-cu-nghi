@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-26T15:55
-updated: 2025-10-02T15:40
+updated: 2026-02-04T17:33
 cssClasses:
   - wide-table
 ---
@@ -119,8 +119,8 @@ Nếu bạn muốn bắt đầu từ nền tảng trước thì có lẽ nên đ
 
 Xem thêm:: [[Hướng dẫn đọc code cho người thấy việc biết lập trình là quan trọng nhưng không thể biến nó trở thành ưu tiên cao nhất]]
 
-[[Các buổi đáp ứng nhu cầu học lập trình]]
-
+[[Việc lập trình ít trực giác hơn nhưng lại có nhiều đánh đổi hơn các ngành khác|Các đánh đổi trong ngành lập trình]]
+[[Văn bản thuần là dạng tổ chức dữ liệu đơn giản nhất]]
 Bạn ưu tiên các tiêu chí nào sau đây:
 - [ ] Làm sớm
 - [ ] Gặp mặt

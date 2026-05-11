@@ -1,31 +1,31 @@
 ---
 share: true
 created: 2024-02-27T15:45
-updated: 2025-06-10T15:54
+updated: 2026-02-04T17:34
 description: WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ tạo web hiệu quả nhất
 blog: true
 aliases:
   - Người dùng cá nhân hoặc dự án nhỏ có nên dùng WordPress hay không?
 ---
 # Người dùng cá nhân hoặc dự án nhỏ có nên dùng WordPress hay không?
-Nếu bạn chỉ cần một nơi lưu lại những gì mình ghi viết bài chia sẻ cho mọi người đọc, các mạng xã hội như Facebook là đủ. Nếu như Facebook đại trà quá và bạn muốn tạo một thương hiệu rõ hơn, Substack, Medium, Spiderum, LinkedIn Page sẽ là những trang sẽ  cho khách ghé thăm ấn tượng sơ về phong cách và nội dung của bạn. Nếu bạn muốn tạo một góc thầm lặng, không quá xô bồ, hoặc ngược lại muốn xây dựng một không gian làm cho khách ghé thăm phải cảm thấy ấn tượng, trầm trồ với giao diện độc đáo, thì Weebly, Wix, Squarespace, Shopify, Blogger, WordPress.com sẽ giúp bạn đạt được điều đó. Chỉ khi nào bạn muốn có sự kiểm soát tối đa toàn bộ trang web của bạn với chi phí thấp, thì lúc đó bạn mới cần có một website riêng.
+Nếu bạn chỉ cần một nơi lưu lại những gì mình ghi viết bài chia sẻ cho mọi người đọc, các mạng xã hội như Facebook là đủ. Nếu như Facebook đại trà quá và bạn muốn tạo một thương hiệu rõ hơn, Substack, Medium, Spiderum, LinkedIn Page, Notion sẽ là những trang sẽ cho khách ghé thăm ấn tượng sơ về phong cách và nội dung của bạn. Nếu bạn muốn tạo một góc thầm lặng, không quá xô bồ, hoặc ngược lại muốn xây dựng một không gian làm cho khách ghé thăm phải cảm thấy ấn tượng, trầm trồ với giao diện độc đáo, thì Weebly, Wix, Squarespace, Shopify, Blogger, Webflow, WordPress.com sẽ giúp bạn đạt được điều đó. Chỉ khi nào bạn muốn có sự kiểm soát tối đa toàn bộ trang web của bạn với chi phí thấp, thì lúc đó bạn mới cần có một website riêng.
 
 Xem thêm:: [[Sự khác biệt giữa các nền tảng viết trên mạng]]
 
 Nhiều người khi có nhu cầu tạo web thường được bạn bè giới thiệu WordPress. WordPress được xếp vào nhóm web động. Ngoài web động ra thì còn có web tĩnh. Web động với web tĩnh bản chất thế nào thì mình nghĩ đợi đến khi bạn đã quen thuộc với web rồi thì giải thích sẽ dễ hiểu hơn, còn giờ nói sớm quá thì bạn lại rối. Quan trọng là chúng sẽ đáp ứng nhu cầu của bạn thế nào thôi. Mình nghĩ rằng đây là những tiêu chí mà một người dùng cá nhân hoặc cho tổ chức nhỏ sẽ cần để ý đến:
 
-| Tiêu chí                                    | WordPress                                                                                          | Web tĩnh                                                                                                     |
-| ------------------------------------------- | -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| Dễ bắt đầu cho người mới                    | <span style="color:green">Có người làm sẵn hết</span>                                              | Phải tự thiết lập                                                                                            |
-| Tuỳ chỉnh theo đúng nhu cầu                 | <span style="color:green">Có hướng dẫn ngay tại nơi thiết lập, chỉ cần bấm nút hoặc kéo thả</span> | Thiết lập bằng tệp văn bản, cần tham khảo hướng dẫn sử dụng                                                  |
-| Kho theme và plugin                         | <span style="color:green">Đồ sộ và dễ dàng cài đặt</span>                                          | Tuỳ vào chương trình được dùng, nhưng chắn chắn không nhiều và dễ cài bằng WordPress                         |
-| Nếu bài viết đổi URL                        | <span style="color:green">Người dùng truy cập vào URL cũ sẽ tự động chuyển sang URL mới</span>     | Phải tự thiết lập chuyển URL, nếu không sẽ bị lỗi 404                                                        |
-| Chi phí                                     | Phải mua tên miền và host                                                                          | <span style="color:green">Chỉ cần mua tên miền</span>                                                        |
-| Thiết bị dùng để thao tác                   | Chủ yếu là chuột                                                                                   | <span style="color:green">Chủ yếu là bàn phím</span>                                                         |
-| Cập nhật bài mới, chỉnh sửa bài cũ          | Mỗi lần điều chỉnh là phải mở web, chờ web tải rồi mới sao chép từ máy tính lên web được           | <span style="color:green">Chỉ cần gõ một lệnh là lên web ngay trên chương trình dùng để viết nội dung</span> |
-| Cơ hội nắm được tư duy và công cụ lập trình | Không nhiều                                                                                        | <span style="color:green">Rất tốt</span>                                                                     |
-| Tốc độ tải                                  | Trang hơi phức tạp là dễ bị chậm                                                                   | <span style="color:green">Luôn nhanh</span>                                                                  |
-| Độ bảo mật                                  | Dễ bị tấn công, phải cập nhật thường xuyên                                                         | <span style="color:green">Rất bảo mật</span>                                                                 |
+| Tiêu chí                                            | WordPress                                                                                          | Web tĩnh                                                                                                             |
+| --------------------------------------------------- | -------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| Dễ cài đặt cho người mới                            | <span style="color:green">Các hosting sẽ làm sẵn hết</span>                                        | Phải tự thiết lập                                                                                                    |
+| Tuỳ chỉnh theo đúng nhu cầu                         | <span style="color:green">Có hướng dẫn ngay tại nơi thiết lập, chỉ cần bấm nút hoặc kéo thả</span> | Thiết lập bằng tệp văn bản, cần tham khảo hướng dẫn sử dụng                                                          |
+| Kho theme và plugin                                 | <span style="color:green">Đồ sộ và dễ dàng cài đặt</span>                                          | Tuỳ vào chương trình được dùng, nhưng chắn chắn không nhiều và dễ cài bằng WordPress                                 |
+| Tự động chuyển trang nếu bài viết đổi URL           | <span style="color:green">Người dùng truy cập vào URL cũ sẽ tự động chuyển sang URL mới</span>     | Phải tự thiết lập chuyển URL, nếu không sẽ bị lỗi 404                                                                |
+| Chi phí                                             | Phải mua tên miền và host                                                                          | <span style="color:green">Chỉ cần mua tên miền</span>                                                                |
+| Thiết bị dùng để thao tác                           | Chủ yếu là chuột                                                                                   | <span style="color:green">Chủ yếu là bàn phím</span>                                                                 |
+| Thêm bài mới, chỉnh sửa bài cũ                      | Mỗi lần điều chỉnh là phải mở web, chờ web tải rồi mới sao chép từ máy tính lên web được           | <span style="color:green">Chỉ cần gõ một lệnh là lên web ngay trên chương trình chuyên cho việc viết nội dung</span> |
+| Cơ hội nắm được bản chất của dữ liệu và tự động hóa | Không nhiều                                                                                        | <span style="color:green">Rất tốt</span>                                                                             |
+| Tốc độ tải                                          | Trang hơi phức tạp là dễ bị chậm                                                                   | <span style="color:green">Luôn nhanh</span>                                                                          |
+| Độ bảo mật                                          | Dễ bị tấn công, phải cập nhật thường xuyên                                                         | <span style="color:green">Rất bảo mật</span>                                                                         |
 
 Hãy nói thêm về tiêu chí độ phức tạp khi cài đặt web mới. Nếu bạn tự làm một mình từ đầu đến cuối thì có thể web tĩnh dễ cài đặt hơn, vì với việc dùng GitHub Page bạn sẽ không phải lo vấn đề về host. Với một trang web động bạn sẽ phải mua host. Điểm thú vị là, các dịch vụ hosting thường sẽ cài các phần mềm cần thiết cho bạn luôn, để bạn mua xong là có web xài ngay được. Nên thành ra với người chưa biết gì thì việc tạo một trang WordPress mới lại dễ hơn so với web tĩnh, dù thực chất nó khó hơn.
 
@@ -60,19 +60,22 @@ Còn không thì với nhu cầu nhỏ thì dùng web tĩnh có lợi về lâu 
 
 WordPress ra đời năm 2003. 21 năm đã trôi qua, và công nghệ web cũng đã có nhiều thứ mới. Thời điểm đó không có Git, Node, Stack Overflow, VS Code, Astro, Obsidian, LLM. Những cái tên mình liệt kê ra ở đây có thể bạn không hiểu nó là gì, nhưng chúng đã làm cho việc sử dụng web tĩnh trở nên nhẹ nhàng hơn, hoặc có nhiều lợi ích hơn. Nhưng kể cả là ngay bây giờ, khi đã có những công cụ đó, thì mình vẫn phải thừa nhận là với người không biết gì thì đi bước đầu tiên bằng WordPress vẫn dễ hơn đi bước đầu tiên bằng web tĩnh. 
 
-Điều mình muốn nhấn mạnh, với tư cách là một người đã có một lượng trải nghiệm không tí trong lĩnh vực lập trình web, là WordPress sẽ làm những bước đi tiếp theo của bạn kém thoải mái hơn nhiều Tương tự việc [[các ERP được dựng sẵn không đủ khả năng đáp ứng những luồng làm việc và suy nghĩ đặc thù]], [[Việc lập trình ít trực giác hơn nhưng lại có nhiều đánh đổi hơn các ngành khác|có rất nhiều đánh đổi trong cái ngành công nghệ thông tin này]]. Hãy chọn loại đánh đổi nào đem lại hiệu quả nhất cho bạn.
+Điều mình muốn nhấn mạnh, với tư cách là một người đã có một lượng trải nghiệm không tí trong lĩnh vực lập trình web, là WordPress sẽ làm những bước đi tiếp theo của bạn kém thoải mái hơn nhiều. Tương tự việc [[các ERP được dựng sẵn không đủ khả năng đáp ứng những luồng làm việc và suy nghĩ đặc thù]], [[Việc lập trình ít trực giác hơn nhưng lại có nhiều đánh đổi hơn các ngành khác|có rất nhiều đánh đổi trong cái ngành công nghệ thông tin này]]. Hãy chọn loại đánh đổi nào đem lại hiệu quả nhất cho bạn.
 
 Xem thêm: 
 - [[Các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình cho nhu cầu công việc]]
 - [[Mô tả dự án|Phá vỡ silo thông tin, nắm bắt nhu cầu các bên và sử dụng các nguồn tài nguyên cộng đồng hiệu quả]]
 
-## Lưu ý cho người cần tìm người phụ đăng bài
-Nếu bạn đã có một trang web có theme đẹp rồi, và 
-Nếu bạn ưu tiên cắt giảm công đoạn đăng bài, chấp nhận ko có theme đẹp một thời gian thì mình đề xuất dùng web tĩnh. Một thời gian sau thì sẽ có, nhưng nếu bạn muốn nhờ mình làm theme thì sẽ tuỳ vào công việc của mình. Bạn có thể thuê người ngoài để làm nhanh. Còn nếu bạn không thể bỏ theme hiện tại được thì phải đợi có theme rồi mới chuyển web đc
+![State of the Word 2025 - YouTube](https://youtu.be/U_DF4-23C8Q?si=AzXOQUuvh6-C5BPI)
 
 ## Nơi thảo luận
 ![](https://i.imgur.com/4fq665i.png)
 
 
 %% 
+## Nháp
+## Lưu ý cho người cần tìm người phụ đăng bài
+Nếu bạn đã có một trang web có theme đẹp rồi, và 
+Nếu bạn ưu tiên cắt giảm công đoạn đăng bài, chấp nhận ko có theme đẹp một thời gian thì mình đề xuất dùng web tĩnh. Một thời gian sau thì sẽ có, nhưng nếu bạn muốn nhờ mình làm theme thì sẽ tuỳ vào công việc của mình. Bạn có thể thuê người ngoài để làm nhanh. Còn nếu bạn không thể bỏ theme hiện tại được thì phải đợi có theme rồi mới chuyển web đc
+
 web động cũng như web tĩnh đều đòi hỏi bạn phải cài đặt, cấu hình phần mềm. Nhưng vì người dùng web động phải trả thêm cả tiền host khiến cho các công ty hosting có thêm nhiều tiền từ các phần mềm tạo web động hơn các phần mềm tạo web tĩnh. WordPress vào thời điểm ra mắt là phần mềm tạo web động duy nhất có giao diện thân thiện với người dùng. Những điều này đã thúc đẩy các công ty này tập trung vào WordPress, quảng cáo cho nó nhiều hơn. Các công ty này có lợi hơn nếu như người dùng nghĩ đến WordPress đầu tiên khi họ muốn tạo website. %%

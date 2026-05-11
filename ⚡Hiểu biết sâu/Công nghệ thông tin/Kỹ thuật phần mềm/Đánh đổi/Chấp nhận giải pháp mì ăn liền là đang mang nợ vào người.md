@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-02-10T23:32
+updated: 2026-01-14T13:10
 ---
 ![technical_debt.jpg](https://images.viblo.asia/68cd9326-84a6-4c75-ae34-ecfd3ee8fc4d.jpg)
 

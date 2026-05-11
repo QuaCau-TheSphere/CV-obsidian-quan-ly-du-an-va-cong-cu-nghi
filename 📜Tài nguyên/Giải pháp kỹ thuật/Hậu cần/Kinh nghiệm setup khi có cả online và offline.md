@@ -2,7 +2,7 @@
 share: true
 description: Dành cho những người nghèo cần họp
 created: 2023-05-26T14:51
-updated: 2024-09-03T01:23
+updated: 2026-01-14T13:11
 ---
 > [!important] Nguyên tắc chung
 > Trong phòng chỉ có một thiết bị thu âm, và thiết bị đó cũng là thiết bị phát âm duy nhất

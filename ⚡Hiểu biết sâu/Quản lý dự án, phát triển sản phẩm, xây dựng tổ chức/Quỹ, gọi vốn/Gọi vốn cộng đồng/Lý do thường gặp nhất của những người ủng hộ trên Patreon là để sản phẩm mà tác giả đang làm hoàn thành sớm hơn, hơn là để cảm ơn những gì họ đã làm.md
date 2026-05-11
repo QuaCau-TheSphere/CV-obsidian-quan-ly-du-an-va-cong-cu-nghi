@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-30T21:42
+updated: 2026-01-25T11:42
 ---
 > In my interactions with patrons, I’ve been surprised to find that altruism is rarely the dominant force. Patrons mostly don’t think of themselves as paying for consumption of past work; they’re buying into production of future work.
 ![](https://andymatuschak.org/static/2020/graph.png) 
@@ -16,3 +16,4 @@ Nguồn:: [[Andy Matuschak]], [Reflections on 2020 as an independent researcher 
 [[Crowdfunding depends on highly visible public work]] [[Quyên góp cho mã nguồn mở thiếu sự khẩn cấp và đồng cảm cá nhân mà các tổ chức từ thiện hay có]]
 
 Khó khăn:: [[Phỏng vấn thường kém chính xác trong việc dự đoán các hành vi tương lai của người dùng]]
+Khái niệm:: [[Tác giả]]

@@ -1,0 +1,13 @@
+---
+share: true
+created: 2023-09-05T16:17
+updated: 2026-01-14T13:11
+---
+Khái niệm:: 
+![[growth.png]]
+
+Nguồn:: [[Y Combinator]], ![Lecture 7 - How to Build Products Users Love (Kevin Hale)](https://www.youtube.com/watch?v=sz_LgBAGYyo)
+
+[[Tỉ lệ quay lại là thứ quan trọng nhất trong tăng trưởng]]
+[[Tăng trưởng thị trường quan trọng hơn tăng trưởng doanh số]]
+[[Startup = tăng trưởng]]

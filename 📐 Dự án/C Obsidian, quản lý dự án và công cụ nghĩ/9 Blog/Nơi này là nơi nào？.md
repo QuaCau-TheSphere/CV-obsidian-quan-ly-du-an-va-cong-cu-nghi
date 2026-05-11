@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-25T10:54
-updated: 2025-05-23T19:46
+updated: 2026-03-25T12:44
 ---
 # Mục tiêu
 Đây là một vault Obsidian dành riêng cho người Việt với mục tiêu:
@@ -25,7 +25,7 @@ Là nơi để mọi người biết được thêm về các chuyên ngành kh�
 # Cách tổ chức dữ liệu
 Cách vault này tổ chức cũng giống Wikipedia, nhưng tiêu đề từng trang không phải là một chủ đề mà là một câu. Như vậy thì sự tập trung vào một ý niệm sẽ được đẩy lên cao hơn, cũng sẽ dễ làm mình thấy được sự liên kết giữa các ý lại với nhau hơn. 
 
-[[Evergreen notes biến ý tưởng trở thành vật thể để mình thao tác]]
+[[Ghi chú thường xanh biến ý tưởng trở thành vật thể để mình thao tác]]
 
 Giới thiệu khái niệm như trong [[Lập trình]], so sánh sự khác nhau. Vì thực chất thuật ngữ mới là thứ người mới cảm thấy loạn, rối, mất phương hướng. Ngoài việc khi tiếp cận một lĩnh vực mới ta thấy những thuật ngữ, khái niệm khó nhó, mà sự tiện lợi của người đã hiểu rồi và lịch sử phát triển của lĩnh vực cũng tạo nên sự rối rắm đó. 
 Chú trọng ghi lại những mối quan hệ giữa các khái niệm, chứ không cố gắng giải thích khái niệm đó là gì. Cái nào không quá khó để mò hoặc google ra thì không ghi. Cái nào phải loay hoay một lúc mới nhận ra thì sẽ ghi
@@ -44,7 +44,7 @@ Nếu bạn chưa rành về lập trình, thì khó khăn bạn gặp s
 Các bài tập không chỉ được thiết kế để bạn nắm được cách sử dụng Obsidian và các phần mềm bổ trợ khácChỉnh từ từ để không bị ngộp, nhưng sau đó vứt đi, mà còn chính là vault của bạn trong việc quản lý dự án
 Các bài học phải đến từ serious use of learner. Nó phải giải đáp được nhu cầu có thực của riêng họ, chứ không phải chỉ là một ví dụ cho dễ hiểu xong rồi xóa đi. Bài tập được giao cho họ phải là thứ họ rồi cũng sẽ phải làm
 Không học bài bản ngôn ngữ, nhưng đụng vấn đề nào cần giải thích thì sẽ giải thích, cũng như dẫn đến các tài liệu sâu hơn, bỏ qua những cái nhìn vào cũng đoán đoán, mò mò được
-Tất nhiên, học được bài bản thì rất tốt, nhưng [[Việc mò mẫm vui, đỡ phải nghĩ và thường là hiệu quả hơn là đọc hướng dẫn cẩn thận]], [[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]]. 
+Tất nhiên, học được bài bản thì rất tốt, nhưng [[Việc mò mẫm vui, đỡ phải nghĩ và thường là hiệu quả hơn là đọc hướng dẫn cẩn thận]], [[Kể cả khi có được một tài liệu chắc chắn sẽ trả lời câu hỏi của ta, thì ta cũng thường không sẵn sàng để đọc nó]]. 
 Không ai đến với lập trình vì muốn lập trình cả, mà là vì họ cần giải quyết vấn đề khác, mà vấn đề đó cần lập trình
 
 ## [[📜Tài nguyên]

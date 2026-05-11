@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2025-05-22T15:39
+updated: 2026-01-14T13:11
 ---
 Giá nước:: 0
 Giờ mở cửa:: 8:00 - 21:00

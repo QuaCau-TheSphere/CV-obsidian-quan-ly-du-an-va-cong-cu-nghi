@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-02T15:52
-updated: 2024-03-03T16:35
+updated: 2026-01-14T13:11
 ---
 Lý do:: [[Dữ liệu chính là lập trình]] 
 [[Lập trình là việc hướng dẫn máy làm theo đúng ý mình, chứ không phải chỉ mỗi viết code]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2025-05-26T19:55
+updated: 2026-01-14T13:11
 ---
 Khái niệm:: [[Insight]], [[⚡Hiểu biết sâu/Ξ Khái niệm/Nhận thức/Ý tưởng|Ý tưởng]]
 

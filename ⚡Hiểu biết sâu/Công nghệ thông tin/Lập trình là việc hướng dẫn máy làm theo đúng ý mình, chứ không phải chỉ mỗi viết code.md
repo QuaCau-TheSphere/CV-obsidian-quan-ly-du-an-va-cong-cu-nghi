@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-08T16:23
-updated: 2025-04-22T14:09
+updated: 2026-01-14T13:10
 ---
 [[Code được dùng nhiều hơn được đọc, được đọc nhiều hơn được viết]]
 [[Các tiếp thị về no code hàm ý rằng việc code là việc khó nhất trong việc tạo sản phẩm, nhưng thực ra việc thảo luận và lên kế hoạch mới là thứ quan trọng nhất]]

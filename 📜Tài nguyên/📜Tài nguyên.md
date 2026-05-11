@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-09-27T15:14
+updated: 2026-01-14T13:11
 aliases:
   - Ý đồ thiết kế thư mục
 ---
 # Ý đồ thiết kế thư mục
-Những gì được ghi chú trong thư mục này sẽ giúp bạn [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|tìm được thứ bạn cần tìm khi không biết từ khoá chính xác của nó]].
+Những gì được ghi chú trong thư mục này sẽ giúp bạn [[Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó|tìm được thứ bạn cần tìm khi không biết từ khoá chính xác của nó]].
 
 ```mermaid
 flowchart LR
@@ -24,6 +24,8 @@ nccn --> gpkt --> gpkt
 
 ## Nhận xét
 Việc có hiểu biết về một lĩnh vực hoặc một giải pháp kỹ thuật sẽ giúp giải quyết các nhu cầu đòi hỏi kiến thức về lĩnh vực/giải pháp kỹ thuật đó. Nên nếu lĩnh vực/giải pháp kỹ thuật ta am hiểu càng có nhiều nhu cầu đổ về nó, thì ta sẽ càng linh hoạt hơn trong tương lai. 
+
+Sự khác biệt giữa nhu cầu công việc và nhu cầu công nghệ đại khái cũng tương tự như sự khác biệt giữa [[công việc khai phá và công việc khai thác]].
 
 ## Lưu ý khác
 Các giải pháp kỹ thuật chỉ là những giải pháp thường được dùng, không nhất thiết là giải pháp duy nhất.

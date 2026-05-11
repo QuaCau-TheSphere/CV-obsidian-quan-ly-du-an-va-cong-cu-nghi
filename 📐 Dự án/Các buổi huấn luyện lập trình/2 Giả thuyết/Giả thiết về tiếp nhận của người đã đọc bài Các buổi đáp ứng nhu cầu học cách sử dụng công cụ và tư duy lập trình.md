@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-10-08T23:50
+updated: 2025-12-22T17:32
 ---
 - Hiểu được việc đáp ứng nhu cầu học không đồng nhất với giảng bài
 - Hiểu được mình nên có một nhu cầu rất cụ thể nào đó trước khi vào đây, chứ không phải để học căn bản

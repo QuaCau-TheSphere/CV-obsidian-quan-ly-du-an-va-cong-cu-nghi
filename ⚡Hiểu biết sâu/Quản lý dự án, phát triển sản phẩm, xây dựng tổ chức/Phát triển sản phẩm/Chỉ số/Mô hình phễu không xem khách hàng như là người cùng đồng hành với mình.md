@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2025-05-28T13:53
+updated: 2026-01-14T13:11
 ---
 Khái niệm:: 
 Mô hình bánh đà khắc phục vấn đề này

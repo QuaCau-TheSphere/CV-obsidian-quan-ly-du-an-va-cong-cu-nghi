@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-02T21:06
-updated: 2024-09-01T17:45
+updated: 2026-01-14T13:11
 ---
 - Người dùng ngày càng đòi hỏi cao hơn về sự riêng tư
 - Nhiều bộ luật và chính sách toàn cầu mới về dữ liệu

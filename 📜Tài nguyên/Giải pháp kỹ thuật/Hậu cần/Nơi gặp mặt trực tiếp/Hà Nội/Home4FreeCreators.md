@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-30T02:00
-updated: 2025-06-28T16:35
+updated: 2026-01-14T13:11
 description: Tầng 3, số 1, ngõ 189 Hoàng Hoa Thám, Ba Đình
 ---
 ![](https://i.imgur.com/CurhwTr.png)

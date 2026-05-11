@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-03-09T12:17
-updated: 2025-05-26T19:52
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Kiến thức]]
 [[Học là quá trình cấu trúc hoá những thứ phi cấu trúc]]

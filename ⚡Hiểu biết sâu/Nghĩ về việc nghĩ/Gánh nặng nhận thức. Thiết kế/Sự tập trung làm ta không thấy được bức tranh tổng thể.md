@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-12-01T19:50
-updated: 2025-05-27T23:51
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: 
 [[Quá tập trung vào tình tiết mà bỏ qua bối cảnh thì sẽ thành góc nhìn thượng đế]]

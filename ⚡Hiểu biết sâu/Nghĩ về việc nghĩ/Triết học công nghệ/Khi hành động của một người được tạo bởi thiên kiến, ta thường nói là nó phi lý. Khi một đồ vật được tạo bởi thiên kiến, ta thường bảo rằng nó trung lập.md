@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-07-26T13:19
-updated: 2024-07-26T14:39
+updated: 2026-01-14T13:10
 ---
 [[Khi sử dụng công nghệ, ta không nghĩ là nó sẽ thay đổi bản thân mình]]
 [[Một dụng cụ có sự lý tính rất rõ ràng]] 

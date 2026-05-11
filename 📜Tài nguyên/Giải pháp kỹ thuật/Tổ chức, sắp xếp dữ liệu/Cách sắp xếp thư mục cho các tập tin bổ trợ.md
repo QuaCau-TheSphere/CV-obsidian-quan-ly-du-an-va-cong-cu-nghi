@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-22T21:45
-updated: 2025-10-11T10:13
+updated: 2026-01-14T13:11
 description: Cùng là một tập tin hỗ trợ, khi đang làm việc A thì đầu óc ta sẽ nghĩ đến nó với cái tên và ở cấu trúc phân cấp khác với khi đang làm việc B. Ngoài ra khi quản lý các tập tin như vậy thì muốn tách chúng ra ngoài kho và để riêng vào một thư mục, trong khi lúc cần dùng thì lại cần để vào trong kho. Nên xử lý việc này thế nào?
 aliases:
   - Dùng một script để lấy các tập tin bổ trợ về thư mục

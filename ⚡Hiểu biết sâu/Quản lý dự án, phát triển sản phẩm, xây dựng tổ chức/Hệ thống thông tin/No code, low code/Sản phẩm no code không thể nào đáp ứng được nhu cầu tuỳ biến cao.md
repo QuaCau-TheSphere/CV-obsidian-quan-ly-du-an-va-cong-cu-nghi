@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-07-11T18:26
+updated: 2026-01-14T13:11
 ---
 Có hai loại công việc: [[Công việc khai phá và công việc khai thác]]. Công việc khai phá (exploration) là những công việc mà nếu ta chưa làm xong thì cũng không chắc lắm kết quả trông như thế nào, còn công việc khai thác (exploitation) là những công việc chưa làm cũng biết chính xác kết quả trông như thế nào. Công việc khai phá sử dụng dạng tư duy phi tuyến, và hợp với kiểu dữ liệu phi cấu trúc. Còn công việc khai thác sử dụng dạng tư duy tuyến tính, và hợp với kiểu dữ liệu có cấu trúc.
 

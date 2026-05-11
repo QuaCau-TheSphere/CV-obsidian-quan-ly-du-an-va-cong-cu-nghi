@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-07-28T22:09
+updated: 2026-01-14T13:10
 ---
 Sự từ chối cơ thể và sự chiến thắng của não
 [[Ẩn dụ là cách ta hiểu code bằng cơ thể]]

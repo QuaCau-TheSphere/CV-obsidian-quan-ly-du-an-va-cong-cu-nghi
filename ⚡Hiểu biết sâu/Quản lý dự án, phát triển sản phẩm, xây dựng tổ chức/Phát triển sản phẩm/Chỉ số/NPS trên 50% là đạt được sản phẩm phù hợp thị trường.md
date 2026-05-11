@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-05-28T13:52
+updated: 2026-01-14T13:11
 ---
 Khái niệm:: [[Thước đo, đo lường, chỉ số, KPI]]
 [[Tỉ lệ quay lại là thứ quan trọng nhất trong tăng trưởng]]

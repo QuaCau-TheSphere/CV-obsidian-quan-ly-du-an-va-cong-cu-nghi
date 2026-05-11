@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-10T14:59
-updated: 2023-11-27T22:26
+updated: 2026-01-14T13:11
 ---
 Nguồn:: ![Understanding the Job - YouTube](https://youtu.be/sfGtw2C95Ms)
 ![5 Tips for Conducting JTBD Interviews - YouTube](https://youtu.be/HSyC7M6u4zQ)

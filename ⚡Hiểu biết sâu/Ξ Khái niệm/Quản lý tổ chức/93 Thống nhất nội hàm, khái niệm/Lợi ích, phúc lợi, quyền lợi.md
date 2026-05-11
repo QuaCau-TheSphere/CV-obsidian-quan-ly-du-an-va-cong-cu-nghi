@@ -1,6 +1,6 @@
 ---
 created: 2023-06-12T00:57
-updated: 2024-07-29T13:42
+updated: 2026-01-25T11:44
 ---
 - **Quyền lợi:** Quyền được hưởng những lợi ích về chính trị xã hội, về vật chất, tinh thần do kết quả hoạt động của bản thân tạo nên hoặc do phúc lợi chung cho nhà nước, xã hội hoặc tập thể cơ quan, xí nghiệp, tổ chức nơi mình sống, làm việc đem lại. Quyền lợi gắn liền với trách nhiệm, nghĩa vụ là cơ sở pháp lí để được hưởng quyền lợi
   Nguồn: Từ điển Luật học trang 406

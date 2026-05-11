@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-02-21T22:06
-updated: 2024-08-02T12:56
+updated: 2026-01-14T13:11
 ---
 # [[Tự động tạo liên kết UTM hoàn chỉnh chỉ bằng những thông tin tối thiểu (tên bài, nơi đăng)]]
 ## Pending

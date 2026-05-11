@@ -1,13 +1,13 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-07-13T11:27
+updated: 2026-01-14T13:10
 aliases:
   - Đọc hướng dẫn sử dụng cũng nhức đầu
 ---
 Khái niệm:: [[Gánh nặng nhận thức|Nhức đầu]]
 Lý do:: [[Các ngành khác đều làm việc với những vật thể cụ thể trong không gian. Chỉ có ngành lập trình là không có điều đó]]
-Lý do:: [[Ta thường không sẵn sàng để đọc một tài liệu khi ta mới thấy nó]], [[Kể cả khi ta biết một trang web trả lời câu hỏi cho ta, thì việc đọc cũng nhức đầu]], [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
+Lý do:: [[Kể cả khi có được một tài liệu chắc chắn sẽ trả lời câu hỏi của ta, thì ta cũng thường không sẵn sàng để đọc nó]], [[Kể cả khi có được một tài liệu chắc chắn sẽ trả lời câu hỏi của ta, thì ta cũng thường không sẵn sàng để đọc nó]], [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
 
 [[Khi lạc trong một thành phố, ta mở bản đồ lên coi và định vị được bức tranh tổng thể. Khi lạc trong code, ta mở UML lên và càng thấy rối hơn]]
 [[Mỗi lần nghiên cứu thư viện mới là lại phải gom tất cả quyết tâm và năng lượng để làm]]

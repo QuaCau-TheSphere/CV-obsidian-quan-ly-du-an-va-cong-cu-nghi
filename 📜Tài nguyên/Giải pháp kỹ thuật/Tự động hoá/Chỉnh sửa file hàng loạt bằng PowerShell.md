@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-07-27T21:08
+updated: 2026-01-14T13:11
 ---
 [[PowerShell là một ngôn ngữ shell]]
 [The Complete Guide to PowerShell Punctuation - Simple Talk](https://www.red-gate.com/simple-talk/sysadmin/powershell/the-complete-guide-to-powershell-punctuation/)

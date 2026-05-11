@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-08-24T21:01
+updated: 2025-12-22T17:32
 ---
 
 > [!info ] [[Tại sao lại cần tải kho về hơn là đọc trên web|Tại sao lại cần tải kho về hơn là đọc trên web?]]

@@ -1,6 +1,6 @@
 ---
 created: 2023-05-26T14:51
-updated: 2024-09-26T12:55
+updated: 2026-01-14T13:11
 share: true
 ---
 Không bị ồn từ bên ngoài:: ✔

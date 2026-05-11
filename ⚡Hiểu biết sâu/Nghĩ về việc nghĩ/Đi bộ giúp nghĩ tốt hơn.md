@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2025-05-27T13:16
+updated: 2026-01-Mo'T'21:47
 ---
 Khái niệm:: 
 
@@ -12,3 +12,5 @@ Solvitur ambulando: This phrase from the Greek philosopher Diogenes translates m
 Try a walk to get a different perspective on a problem when you’ve been banging your head against one sat at your desk. Or try a walking meeting with the bonus that you get a bit of exercise in too.
 
 Nguồn:: [Solvitur ambulando - Sketchplanations](https://sketchplanations.com/solvitur-ambulando)
+
+[[Ta tương tác với thế giới qua cơ thể hàng triệu năm trước khi ngôn ngữ ra đời]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-04-03T13:41
+updated: 2026-01-14T13:11
 ---
 Khái niệm:: 
 Mô hình xoắn ốc (Spiral model) có thể được xem là sự kết hợp giữa mô hình thác nước (Waterfall model) và mô hình mẫu (Prototype model) và đồng thời thêm phân tích rủi ro (Risk assessment).

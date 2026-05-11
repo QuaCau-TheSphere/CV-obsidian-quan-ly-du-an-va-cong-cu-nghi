@@ -1,8 +1,9 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-09-03T01:05
+updated: 2026-02-23T00:24
 ---
+Khái niệm:: [[Dữ liệu]]
 Sau một thời gian loay hoay để quản lý dữ liệu cho việc phát triển sản phẩm, Trấn Kỳ
 
 
@@ -43,7 +44,7 @@ Quy hồi (recursive) là việc [[Một sản phẩm được tạo nên bởi 
 
 [[Bởi vì sản phẩm có tính quy hồi và có thể là thành phẩm chung của nhiều sản phẩm lớn hơn, nên để quản lý được nó ta phải biết lập trình]]
 
-[[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]], còn [[Thành phẩm (output) là các kết quả trực tiếp của các công việc]]. 
+[[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của nguồn lực]], còn [[Thành phẩm (output) là các kết quả trực tiếp của các công việc]]. 
 
 Oái oăm là, mặc dù về lý thuyết thì ta biết là nên đi từ thành quả mong muốn cao nhất rồi chẻ nhỏ ra, và phải luôn gắn giả thiết vào thành quả mong muốn đó, nhưng thực tế nhiều khi mình biết mình cần công việc gì luôn mà não chưa nghĩ ra được nó dùng để kiểm định giả thiết gì, và thành quả mong muốn ra sao. Thường đó là công việc nghiên cứu một cái gì đó, vì [[Thành quả mong muốn và giả định của một công việc tìm hiểu một vấn đề nào đó là chính nó|thành quả mong muốn và giả định của nó là chính nó]]. Cho nên, vào lúc chưa nghĩ ra thì để dưới dạng list, khi nghĩ ra rồi thì mới chuyển sang dạng bảng.
 
@@ -52,7 +53,7 @@ Ví dụ, lúc mới lên kế hoạch [[Đi năn nỉ]], thì phải hiểu đ�
 Chưa hiểu được cái này thì không làm được gì cả.
 
 
-[[93.01 Mục tiêu, yếu tố hỗ trợ, ý tưởng tốt hơn. Mục tiêu, sản phẩm, hoạt động, tác vụ]] [[93.01 Đồ thị nội hàm các khái niệm]]
+[[Mục tiêu, yếu tố hỗ trợ, ý tưởng tốt hơn. Mục tiêu, sản phẩm, hoạt động, tác vụ]] [[93.01 Đồ thị nội hàm các khái niệm]]
 
 [[Giải pháp gợi ý chính là thành phẩm]]
 
@@ -69,4 +70,4 @@ Chưa hiểu được cái này thì không làm được gì cả.
 |                     | Có tính liên ngành cao                                                                   | Không thường liên ngành                                                   |
 |                     | Xoay quanh các chủ đề                                                                    | Thiên về chọn giải pháp trên thị trường phù hợp với nhu cầu               | 
 
-[[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]
+[[Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]

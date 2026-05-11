@@ -2,7 +2,7 @@
 share: true
 description: Tầng 6, 73 Cao Thắng, Q3
 created: 2023-07-21T11:54
-updated: 2025-05-20T22:34
+updated: 2026-01-14T13:11
 ---
 Địa chỉ:: Tầng 6, 73 Cao Thắng, Q3
 Giá thuê:: 

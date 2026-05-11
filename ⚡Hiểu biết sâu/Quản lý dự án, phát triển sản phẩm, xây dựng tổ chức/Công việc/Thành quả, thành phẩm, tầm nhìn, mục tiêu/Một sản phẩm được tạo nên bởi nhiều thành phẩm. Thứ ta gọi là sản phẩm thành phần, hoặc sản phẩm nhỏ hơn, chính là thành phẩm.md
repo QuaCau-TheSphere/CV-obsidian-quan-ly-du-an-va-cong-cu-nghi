@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-11-30T14:40
+updated: 2026-02-23T00:24
 ---
-[[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức]], còn [[Thành phẩm (output) là các kết quả trực tiếp của các công việc]]. [[Sản phẩm là kết quả của các công việc]] 
+[[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của nguồn lực]], còn [[Thành phẩm (output) là các kết quả trực tiếp của các công việc]]. [[Sản phẩm là kết quả của các công việc]] 
 
 Ví dụ: sản phẩm `vault dạy Obsidian` có những thành phẩm sau:
 ```dataview 

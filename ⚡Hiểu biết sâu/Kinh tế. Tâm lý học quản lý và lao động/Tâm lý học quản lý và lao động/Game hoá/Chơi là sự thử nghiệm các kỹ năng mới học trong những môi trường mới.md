@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-02-10T23:35
+updated: 2026-01-14T13:10
 ---
 Sau khi có được một kỹ năng mới, người chơi sẽ muốn thử nghiệm nó. Họ sẽ thử nó trong các môi trường khác nhau để xem nó có thực sự hữu ích không. Đó là hoạt động "chơi" mà chúng ta thường thấy ở trẻ em. Ví dụ, khi một người mới thành thạo cách nhảy, bạn sẽ thấy họ liên tục nhảy một cách vui vẻ. Trông thì phù phiếm ngớ ngẩn, nhưng thực tế đó chính là quá trình học tập theo bản năng.
 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2025-05-20T22:34
+updated: 2026-01-14T13:11
 description: 193/31 Nguyễn Đình Chính, Phú Nhuận
 ---
 Địa chỉ:: 193/31 Nguyễn Đình Chính

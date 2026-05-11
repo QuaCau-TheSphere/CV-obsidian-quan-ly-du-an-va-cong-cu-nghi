@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-10-18T15:35
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: 
 Sự tồn tại của internet khiến cho những người làm chuyên nghiệp phải cạnh tranh với amateur ở trình độ rất cao

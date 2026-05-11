@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2025-04-22T15:03
+updated: 2026-01-14T13:11
 ---
 Khái niệm:: [[Cấu trúc]]
 Lý do:: [[Công việc khai phá và công việc khai thác]]

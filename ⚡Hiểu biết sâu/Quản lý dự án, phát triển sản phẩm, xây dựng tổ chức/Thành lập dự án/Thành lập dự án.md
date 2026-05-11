@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-11-05T19:53
-updated: 2025-07-14T19:00
+updated: 2026-01-14T13:11
 ---
 
 ```dataview
@@ -19,8 +19,8 @@ GROUP BY split(file.folder, "/")[3]
 [[Những dự án ngoài lề thường là ý tưởng tốt cho startup. Những ý tưởng chỉ để có một startup lại thường không tốt]]
 [[Startup = tăng trưởng]]
 [[Startup giải quyết những vấn đề nghe thì tồi]]
-[[Tăng trưởng của thị trường quan trọng hơn tăng trưởng doanh số]]
-[[Tăng trưởng là khoảng cách giữa chuyển đổi và rời bỏ]]
+[[Tăng trưởng thị trường quan trọng hơn tăng trưởng doanh số]]
+[[Tăng trưởng thị trường là khoảng cách giữa chuyển đổi và rời bỏ]]
 [[Trực giác về con người thường đúng. Trực giác về cách startup hoạt động thường sai]]
 [[Tỉ lệ quay lại là thứ quan trọng nhất trong tăng trưởng]]
 [[Từng làm chung với nhau trước khi tuyển dụng sẽ tốt hơn là phỏng vấn]]

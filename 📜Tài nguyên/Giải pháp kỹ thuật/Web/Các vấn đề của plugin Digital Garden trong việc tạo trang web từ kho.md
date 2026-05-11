@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-17T11:00
-updated: 2025-05-23T19:43
+updated: 2026-01-14T13:11
 description: Plugin này sử dụng 11ty làm chương trình tạo website, và Vercel làm dịch vụ hosting. Chúng có những nhược điểm gì?
 ---
 Nếu bạn không muốn mua gói Publish nhưng vẫn muốn tạo một website từ kho của bạn thì bạn cần 3 thứ sau:

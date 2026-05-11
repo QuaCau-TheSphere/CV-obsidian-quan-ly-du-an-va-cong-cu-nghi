@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-22T21:45
-updated: 2024-10-11T14:41
+updated: 2026-03-25T12:42
 ---
 Khái niệm:: [[Vật thể]]
 [[Ẩn dụ là nền tảng của mọi suy nghĩ và lập luận]]. [[Chúng ta sống bằng ẩn dụ]]
@@ -13,4 +13,7 @@ Khái niệm:: [[Vật thể]]
 Vật thể có thể trừu tượng, chẳng hạn như một khách hàng, một tài khoản ngân hàng, một đơn hàng, một đường thẳng hay đơn giản là một số nguyên, chứ không nhất thiết phải tồn tại trên thực tế
 
 [[Mỗi thuộc tính của vật thể tạo nên chiều của nó]]
+[[Ta thường chỉ nghĩ về vật thể khi ta gặp trục trặc với nó]]
+
+Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 

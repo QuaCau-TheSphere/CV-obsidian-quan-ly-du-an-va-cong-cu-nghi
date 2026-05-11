@@ -1,3 +1,7 @@
+---
+created: 2025-09-27T16:20
+updated: 2026-04-18T20:14
+---
 Game designers are some of the best teachers in the world. They create environments which reliably teach complex skills—often without words. And people love the experience, unlike most educational experiences.
 
 But beware, “educational game” designers: [Skill development in games is subservient to other intrinsically meaningful purposes](https://notes.andymatuschak.org/zeb2g4GbLPhXGKZavqQ7v7iuqe5B8jGhnFKw)

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2024-09-02T13:39
+updated: 2025-12-22T17:32
 ---
 # Những thứ Fibery muốn giải quyết
 1.  Knowledge lives in many tools (Notion, Miro, Canny, Slack, Jira)

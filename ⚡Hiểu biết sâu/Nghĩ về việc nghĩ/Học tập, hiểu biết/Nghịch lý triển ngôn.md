@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-07T18:31
-updated: 2024-10-07T12:19
+updated: 2026-01-14T13:10
 description: Ý tưởng có trước hay sự triển khai ngôn ngữ có trước?
 aliases:
   - Ý tưởng có trước hay sự triển khai ngôn ngữ về ý tưởng có trước?

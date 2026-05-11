@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-10-20T17:37
-updated: 2025-07-13T11:27
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Gánh nặng nhận thức|Nhức đầu]]
 Lý do:: [[Các ngành khác đều làm việc với những vật thể cụ thể trong không gian. Chỉ có ngành lập trình là không có điều đó]]

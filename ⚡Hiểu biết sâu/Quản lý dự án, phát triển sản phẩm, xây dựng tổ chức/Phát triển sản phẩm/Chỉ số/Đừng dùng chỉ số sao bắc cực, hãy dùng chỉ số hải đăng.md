@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2025-05-27T16:10
+updated: 2026-01-14T13:11
 ---
 Khái niệm:: [[Thước đo, đo lường, chỉ số, KPI]]
 [[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng]]

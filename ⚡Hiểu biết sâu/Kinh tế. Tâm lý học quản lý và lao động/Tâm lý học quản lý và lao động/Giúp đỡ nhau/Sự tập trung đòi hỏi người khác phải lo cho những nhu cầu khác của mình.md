@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-29T10:03
+updated: 2026-01-14T13:10
 aliases:
   - Sự tập trung đòi hỏi người khác phải giúp đỡ mình
 ---

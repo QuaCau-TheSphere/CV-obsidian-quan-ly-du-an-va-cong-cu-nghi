@@ -3,7 +3,7 @@ aliases:
   - lịch sử phát triển vault
 share: true
 created: 2023-05-26T14:51
-updated: 2025-05-17T22:13
+updated: 2025-12-22T17:32
 ---
 ## 2024
 - [Công nghệ và ký ức: trí nhớ của ta có còn nằm trong não của ta nữa không? - YouTube](https://www.youtube.com/watch?v=anEPsQCBPKI)

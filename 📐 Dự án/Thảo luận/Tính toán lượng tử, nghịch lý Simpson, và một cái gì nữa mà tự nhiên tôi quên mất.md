@@ -1,6 +1,6 @@
 ---
 created: 2024-08-31T16:54
-updated: 2025-04-26T22:48
+updated: 2026-01-14T13:11
 ---
 Nên nếu bạn bấm vào bài này để tìm hiểu về tính toán lượng tử hay nghịch lý Simpson, thì rất tiếc, tôi sẽ không giải thích chúng là gì. Để biết chúng là gì thì bạn hãy đọc bài gốc đi :))
 

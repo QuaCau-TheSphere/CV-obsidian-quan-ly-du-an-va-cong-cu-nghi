@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-06-21T20:24
-updated: 2024-07-21T21:43
+updated: 2026-01-14T13:11
 ---
 
 # Biết được phiếu khảo sát hoặc phiếu đăng ký được nhóm đối tượng nào quan tâm nhiều hơn

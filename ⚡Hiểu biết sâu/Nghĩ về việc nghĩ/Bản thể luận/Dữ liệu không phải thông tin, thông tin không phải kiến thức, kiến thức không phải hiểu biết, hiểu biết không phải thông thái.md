@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-10-22T21:45
-updated: 2025-05-23T20:34
+updated: 2026-01-14T13:10
 ---
-Khái niệm:: [[Kiến thức]]
+Khái niệm:: [[Kiến thức]], [[Dữ liệu]]
 > Data is not information, information is not knowledge, knowledge is not understanding, understanding is not wisdom.
 — Clifford Stoll
 

@@ -1,5 +1,8 @@
 ---
-Nội dung: [thảo luận chung]
+Nội dung:
+  - thảo luận chung
+created: 2025-09-27T16:20
+updated: 2026-01-14T13:11
 ---
 
 
@@ -8,4 +11,4 @@ Nội dung: [thảo luận chung]
 [Groupthink - Wikipedia](https://en.wikipedia.org/wiki/Groupthink "Groupthink - Wikipedia")
 [Unanimous consent](https://en.wikipedia.org/wiki/Unanimous_consent "Unanimous consent")
 [Silence procedure - Wikipedia](https://en.wikipedia.org/wiki/Silence_procedure "Silence procedure - Wikipedia")
-Chủ đề:: [[Tổ chức họp]]
+Khái niệm:: [[Tổ chức họp]]

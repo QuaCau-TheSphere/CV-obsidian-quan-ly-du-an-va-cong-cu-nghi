@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2023-12-01T19:40
+updated: 2026-01-14T13:11
 ---
 Bởi vì [[Giả định có mặt ở khắp nơi]], và vì [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]], nên [[Công việc sẽ được gắn ở khắp nơi]] 
 

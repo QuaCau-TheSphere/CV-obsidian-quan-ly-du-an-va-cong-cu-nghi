@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-27T18:59
-updated: 2025-06-09T14:21
+updated: 2026-01-14T13:11
 cssclasses:
   - wide-table
 aliases:
@@ -78,10 +78,10 @@ Xem thêm:: [[Các loại alias]]
 
 Điều đó khiến cho việc luôn dùng `title` luôn đảm bảo được các vấn đề kỹ thuật, và đỡ phải suy nghĩ phải lựa chọn cái nào.
 
-h1 dùng khi chắc chắn chỉ dùng tên thật chứ không dùng h1 khi liên kết. VD: `Prudential` chứ không phải `Làm đại lý ảo Prudential`
+`<h1>` dùng khi chắc chắn chỉ dùng tên thật chứ không dùng `<h1>` khi liên kết. VD: `Prudential` chứ không phải `Làm đại lý ảo Prudential`
 
 ---
-- Có lúc chỉ muốn đặt tiêu đề là câu hỏi, dù có thể đặt theo chủ đề. VD: [[Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]
+- Có lúc chỉ muốn đặt tiêu đề là câu hỏi, dù có thể đặt theo chủ đề. VD: [[Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó|Làm sao để tìm được thứ cần tìm khi không biết từ khoá chính xác của nó?]]
 - Có lúc thì chỉ muốn đặt theo chủ đề, dù có thể đặt theo câu hỏi. VD: [[Các loại tiêu đề và cách dùng chúng]]
 
 ## Path

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2024-11-25T17:22
+updated: 2026-01-14T13:10
 ---
 Khái niệm:: [[Diễn giải, đọc]], [[Đơn giản]], [[Chuyên gia]]
 Thứ làm người đọc thấy mình có giá trị là 
