@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-05T21:35
-updated: 2026-01-31T16:33
+updated: 2026-05-12T23:39
 ---
 We were promised bicycles but instead we got aircraft carriers
 - Bicycles: personal, light, moddable

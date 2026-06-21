@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-28T21:12
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Nguồn::
 [[Con người chuyển từ kỹ năng này sang kỹ năng khác ngay cả khi họ chỉ có một khái niệm mơ hồ về đích đến cuối cùng]]

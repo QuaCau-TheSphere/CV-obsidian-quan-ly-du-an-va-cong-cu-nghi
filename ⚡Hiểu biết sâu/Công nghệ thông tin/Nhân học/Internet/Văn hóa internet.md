@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-01-29T13:17
-updated: 2026-01-29T13:20
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 [Internet culture - Wikipedia](https://en.wikipedia.org/wiki/Internet_culture)

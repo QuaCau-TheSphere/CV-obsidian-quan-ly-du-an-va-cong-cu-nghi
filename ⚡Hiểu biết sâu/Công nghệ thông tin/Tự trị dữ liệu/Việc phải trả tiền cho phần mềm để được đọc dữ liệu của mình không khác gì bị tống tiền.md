@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-05-11T14:29
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 In fact, it is fair to say that _all proprietary software that makes use of proprietary formats is effectively indistinguishable from ransomware_: **if the user stops paying the developer for the software, they may well lose _all_ access to their own content created in that software**.

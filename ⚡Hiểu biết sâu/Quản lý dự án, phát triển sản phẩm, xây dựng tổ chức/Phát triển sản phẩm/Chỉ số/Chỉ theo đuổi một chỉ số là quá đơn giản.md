@@ -1,10 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-23T11:32
+updated: 2026-05-15T21:47
 aliases:
 ---
-Khái niệm:: [[Đơn giản]], [[Ra quyết định]], [[Thước đo, đo lường, chỉ số, KPI]]
+Khái niệm:: [[Đơn giản]], [[⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/Ra quyết định]], [[Thước đo, đo lường, chỉ số, KPI]]
 Nguồn:: [Don’t measure your product using a north star metric](https://kashishhora.com/dont-measure-your-product-using-a-north-star-metric/)
 Mâu thuẫn với:: [[Sự đơn giản ép ta phải làm nó cực kỳ tốt]]
 

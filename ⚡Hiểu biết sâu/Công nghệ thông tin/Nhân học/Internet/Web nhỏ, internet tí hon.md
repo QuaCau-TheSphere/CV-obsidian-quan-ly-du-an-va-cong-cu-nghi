@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-11-29T11:15
-updated: 2026-01-21T11:14
+updated: 2026-05-12T23:39
 aliases:
   - small web
   - cozy web

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-03-17T14:53
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 [[Nên ưu tiên làm những việc có thể sẽ khiến ta phải viết lại kế hoạch]]

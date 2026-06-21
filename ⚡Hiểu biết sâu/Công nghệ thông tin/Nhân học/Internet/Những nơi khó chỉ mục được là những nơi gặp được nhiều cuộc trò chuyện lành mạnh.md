@@ -6,7 +6,7 @@ aliases:
   - Những nơi gặp được nhiều tương tác thực sự từ con người là những nơi được sàng lọc kỹ
   - Thuyết rừng âm u của web
   - Để giữ được sự bình an cho bản thân, nhiều người tránh xa những nơi quá công khai, rút vào những địa bàn có sự sàng lọc kỹ hơn
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Nền tảng]]
 Hãy tưởng tượng một khu rừng về đêm. Nó thinh lặng chết người. Nó làm người ta tưởng rằng khu rừng không có sự sống. Nhưng thực ra không phải; khu rừng tràn ngập sự sống. Nó thinh lặng vì ban đêm là lúc hoạt động của rất nhiều loài săn mồi. Để sinh tồn, muôn thú giữ im lặng. 

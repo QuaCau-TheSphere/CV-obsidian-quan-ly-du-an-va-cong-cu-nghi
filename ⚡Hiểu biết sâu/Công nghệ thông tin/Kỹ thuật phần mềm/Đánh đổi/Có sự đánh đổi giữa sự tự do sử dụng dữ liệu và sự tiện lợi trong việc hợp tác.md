@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Dữ liệu]]
 Lý do:: [[Việc hợp tác làm việc thời gian thực với dữ liệu được lưu ở máy cá nhân là một bài toán khó]]

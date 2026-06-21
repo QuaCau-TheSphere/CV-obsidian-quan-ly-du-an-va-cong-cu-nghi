@@ -1,9 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-04-26T12:47
+updated: 2026-06-01T15:36
 ---
-Khái niệm:: [[Ra quyết định]], [[Thảo luận]], [[Kế hoạch (khái niệm)]]
+Khái niệm:: [[Ra quyết định]], [[Thảo luận]], [[Kế hoạch (khái niệm)]], [[⚡Hiểu biết sâu/Ξ Khái niệm/Nghiên cứu]]
+
 [[1 nghiên cứu 20 ngày khác với 4 nghiên cứu 5 ngày]]
 [[Nhiều khi vấn đề chỉ được phát hiện ra khi đến khâu triển khai ý tưởng]]
 [[Ai cũng có một kế hoạch cho tới khi bị đấm vào mồm]]
@@ -13,7 +14,7 @@ Khái niệm:: [[Ra quyết định]], [[Thảo luận]], [[Kế hoạch (khái 
 
 [[Để không bị đối thủ đấm vào mồm mà còn đấm được vào mồm hắn thì phải lên kế hoạch]]
 [[Nên ưu tiên làm những việc có thể sẽ khiến ta phải viết lại kế hoạch]]
-[[Khi một người dành thời gian để làm một điều đúng ở hiện tại, họ là một người cầu toàn không có khả năng ưu tiên. Còn khi một người dành thời gian làm một điều đúng trong quá khứ, họ là nghệ nhân bậc thầy với tầm nhìn xa trông rộng]]
+[[Khi một người dành thời gian làm một điều đúng trong quá khứ, họ là nghệ nhân bậc thầy với tầm nhìn xa trông rộng|Khi một người dành thời gian để làm một điều đúng ở hiện tại, họ là một người cầu toàn không có khả năng ưu tiên. Còn khi một người dành thời gian làm một điều đúng trong quá khứ, họ là nghệ nhân bậc thầy với tầm nhìn xa trông rộng]]
 [[Muốn thấy được những vấn đề lớn cần sự thong thả]]
 [[Nỗi ám ảnh với sự hiệu quả có thể đến từ nỗi sợ chết]]
 [[Việc bàn kế hoạch sẽ có nhiều chủ đề đâm ngang mà cũng phải bàn cho rốt ráo]] 

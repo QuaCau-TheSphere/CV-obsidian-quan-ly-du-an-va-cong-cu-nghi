@@ -14,18 +14,18 @@ var __getProtoOf = Object.getPrototypeOf;
 var __hasOwnProp = Object.prototype.hasOwnProperty;
 var __propIsEnum = Object.prototype.propertyIsEnumerable;
 var __defNormalProp = (obj, key, value) => key in obj ? __defProp(obj, key, { enumerable: true, configurable: true, writable: true, value }) : obj[key] = value;
-var __spreadValues = (a, b) => {
-  for (var prop in b || (b = {}))
-    if (__hasOwnProp.call(b, prop))
-      __defNormalProp(a, prop, b[prop]);
+var __spreadValues = (a2, b2) => {
+  for (var prop in b2 || (b2 = {}))
+    if (__hasOwnProp.call(b2, prop))
+      __defNormalProp(a2, prop, b2[prop]);
   if (__getOwnPropSymbols)
-    for (var prop of __getOwnPropSymbols(b)) {
-      if (__propIsEnum.call(b, prop))
-        __defNormalProp(a, prop, b[prop]);
+    for (var prop of __getOwnPropSymbols(b2)) {
+      if (__propIsEnum.call(b2, prop))
+        __defNormalProp(a2, prop, b2[prop]);
     }
-  return a;
+  return a2;
 };
-var __spreadProps = (a, b) => __defProps(a, __getOwnPropDescs(b));
+var __spreadProps = (a2, b2) => __defProps(a2, __getOwnPropDescs(b2));
 var __commonJS = (cb, mod) => function __require() {
   return mod || (0, cb[__getOwnPropNames(cb)[0]])((mod = { exports: {} }).exports, mod), mod.exports;
 };
@@ -56,18 +56,18 @@ var __async = (__this, __arguments, generator) => {
     var fulfilled = (value) => {
       try {
         step(generator.next(value));
-      } catch (e) {
-        reject(e);
+      } catch (e2) {
+        reject(e2);
       }
     };
     var rejected = (value) => {
       try {
         step(generator.throw(value));
-      } catch (e) {
-        reject(e);
+      } catch (e2) {
+        reject(e2);
       }
     };
-    var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+    var step = (x2) => x2.done ? resolve(x2.value) : Promise.resolve(x2.value).then(fulfilled, rejected);
     step((generator = generator.apply(__this, __arguments)).next());
   });
 };
@@ -129,8 +129,8 @@ var require_re = __commonJS({
     var safeRe = exports.safeRe = [];
     var src = exports.src = [];
     var safeSrc = exports.safeSrc = [];
-    var t = exports.t = {};
-    var R = 0;
+    var t2 = exports.t = {};
+    var R2 = 0;
     var LETTERDASHNUMBER = "[a-zA-Z0-9-]";
     var safeRegexReplacements = [
       ["\\s", 1],
@@ -145,9 +145,9 @@ var require_re = __commonJS({
     };
     var createToken = (name, value, isGlobal) => {
       const safe = makeSafeRegex(value);
-      const index = R++;
+      const index = R2++;
       debug(name, index, value);
-      t[name] = index;
+      t2[name] = index;
       src[index] = value;
       safeSrc[index] = safe;
       re[index] = new RegExp(value, isGlobal ? "g" : void 0);
@@ -156,46 +156,46 @@ var require_re = __commonJS({
     createToken("NUMERICIDENTIFIER", "0|[1-9]\\d*");
     createToken("NUMERICIDENTIFIERLOOSE", "\\d+");
     createToken("NONNUMERICIDENTIFIER", `\\d*[a-zA-Z-]${LETTERDASHNUMBER}*`);
-    createToken("MAINVERSION", `(${src[t.NUMERICIDENTIFIER]})\\.(${src[t.NUMERICIDENTIFIER]})\\.(${src[t.NUMERICIDENTIFIER]})`);
-    createToken("MAINVERSIONLOOSE", `(${src[t.NUMERICIDENTIFIERLOOSE]})\\.(${src[t.NUMERICIDENTIFIERLOOSE]})\\.(${src[t.NUMERICIDENTIFIERLOOSE]})`);
-    createToken("PRERELEASEIDENTIFIER", `(?:${src[t.NONNUMERICIDENTIFIER]}|${src[t.NUMERICIDENTIFIER]})`);
-    createToken("PRERELEASEIDENTIFIERLOOSE", `(?:${src[t.NONNUMERICIDENTIFIER]}|${src[t.NUMERICIDENTIFIERLOOSE]})`);
-    createToken("PRERELEASE", `(?:-(${src[t.PRERELEASEIDENTIFIER]}(?:\\.${src[t.PRERELEASEIDENTIFIER]})*))`);
-    createToken("PRERELEASELOOSE", `(?:-?(${src[t.PRERELEASEIDENTIFIERLOOSE]}(?:\\.${src[t.PRERELEASEIDENTIFIERLOOSE]})*))`);
+    createToken("MAINVERSION", `(${src[t2.NUMERICIDENTIFIER]})\\.(${src[t2.NUMERICIDENTIFIER]})\\.(${src[t2.NUMERICIDENTIFIER]})`);
+    createToken("MAINVERSIONLOOSE", `(${src[t2.NUMERICIDENTIFIERLOOSE]})\\.(${src[t2.NUMERICIDENTIFIERLOOSE]})\\.(${src[t2.NUMERICIDENTIFIERLOOSE]})`);
+    createToken("PRERELEASEIDENTIFIER", `(?:${src[t2.NONNUMERICIDENTIFIER]}|${src[t2.NUMERICIDENTIFIER]})`);
+    createToken("PRERELEASEIDENTIFIERLOOSE", `(?:${src[t2.NONNUMERICIDENTIFIER]}|${src[t2.NUMERICIDENTIFIERLOOSE]})`);
+    createToken("PRERELEASE", `(?:-(${src[t2.PRERELEASEIDENTIFIER]}(?:\\.${src[t2.PRERELEASEIDENTIFIER]})*))`);
+    createToken("PRERELEASELOOSE", `(?:-?(${src[t2.PRERELEASEIDENTIFIERLOOSE]}(?:\\.${src[t2.PRERELEASEIDENTIFIERLOOSE]})*))`);
     createToken("BUILDIDENTIFIER", `${LETTERDASHNUMBER}+`);
-    createToken("BUILD", `(?:\\+(${src[t.BUILDIDENTIFIER]}(?:\\.${src[t.BUILDIDENTIFIER]})*))`);
-    createToken("FULLPLAIN", `v?${src[t.MAINVERSION]}${src[t.PRERELEASE]}?${src[t.BUILD]}?`);
-    createToken("FULL", `^${src[t.FULLPLAIN]}$`);
-    createToken("LOOSEPLAIN", `[v=\\s]*${src[t.MAINVERSIONLOOSE]}${src[t.PRERELEASELOOSE]}?${src[t.BUILD]}?`);
-    createToken("LOOSE", `^${src[t.LOOSEPLAIN]}$`);
+    createToken("BUILD", `(?:\\+(${src[t2.BUILDIDENTIFIER]}(?:\\.${src[t2.BUILDIDENTIFIER]})*))`);
+    createToken("FULLPLAIN", `v?${src[t2.MAINVERSION]}${src[t2.PRERELEASE]}?${src[t2.BUILD]}?`);
+    createToken("FULL", `^${src[t2.FULLPLAIN]}$`);
+    createToken("LOOSEPLAIN", `[v=\\s]*${src[t2.MAINVERSIONLOOSE]}${src[t2.PRERELEASELOOSE]}?${src[t2.BUILD]}?`);
+    createToken("LOOSE", `^${src[t2.LOOSEPLAIN]}$`);
     createToken("GTLT", "((?:<|>)?=?)");
-    createToken("XRANGEIDENTIFIERLOOSE", `${src[t.NUMERICIDENTIFIERLOOSE]}|x|X|\\*`);
-    createToken("XRANGEIDENTIFIER", `${src[t.NUMERICIDENTIFIER]}|x|X|\\*`);
-    createToken("XRANGEPLAIN", `[v=\\s]*(${src[t.XRANGEIDENTIFIER]})(?:\\.(${src[t.XRANGEIDENTIFIER]})(?:\\.(${src[t.XRANGEIDENTIFIER]})(?:${src[t.PRERELEASE]})?${src[t.BUILD]}?)?)?`);
-    createToken("XRANGEPLAINLOOSE", `[v=\\s]*(${src[t.XRANGEIDENTIFIERLOOSE]})(?:\\.(${src[t.XRANGEIDENTIFIERLOOSE]})(?:\\.(${src[t.XRANGEIDENTIFIERLOOSE]})(?:${src[t.PRERELEASELOOSE]})?${src[t.BUILD]}?)?)?`);
-    createToken("XRANGE", `^${src[t.GTLT]}\\s*${src[t.XRANGEPLAIN]}$`);
-    createToken("XRANGELOOSE", `^${src[t.GTLT]}\\s*${src[t.XRANGEPLAINLOOSE]}$`);
+    createToken("XRANGEIDENTIFIERLOOSE", `${src[t2.NUMERICIDENTIFIERLOOSE]}|x|X|\\*`);
+    createToken("XRANGEIDENTIFIER", `${src[t2.NUMERICIDENTIFIER]}|x|X|\\*`);
+    createToken("XRANGEPLAIN", `[v=\\s]*(${src[t2.XRANGEIDENTIFIER]})(?:\\.(${src[t2.XRANGEIDENTIFIER]})(?:\\.(${src[t2.XRANGEIDENTIFIER]})(?:${src[t2.PRERELEASE]})?${src[t2.BUILD]}?)?)?`);
+    createToken("XRANGEPLAINLOOSE", `[v=\\s]*(${src[t2.XRANGEIDENTIFIERLOOSE]})(?:\\.(${src[t2.XRANGEIDENTIFIERLOOSE]})(?:\\.(${src[t2.XRANGEIDENTIFIERLOOSE]})(?:${src[t2.PRERELEASELOOSE]})?${src[t2.BUILD]}?)?)?`);
+    createToken("XRANGE", `^${src[t2.GTLT]}\\s*${src[t2.XRANGEPLAIN]}$`);
+    createToken("XRANGELOOSE", `^${src[t2.GTLT]}\\s*${src[t2.XRANGEPLAINLOOSE]}$`);
     createToken("COERCEPLAIN", `${"(^|[^\\d])(\\d{1,"}${MAX_SAFE_COMPONENT_LENGTH}})(?:\\.(\\d{1,${MAX_SAFE_COMPONENT_LENGTH}}))?(?:\\.(\\d{1,${MAX_SAFE_COMPONENT_LENGTH}}))?`);
-    createToken("COERCE", `${src[t.COERCEPLAIN]}(?:$|[^\\d])`);
-    createToken("COERCEFULL", src[t.COERCEPLAIN] + `(?:${src[t.PRERELEASE]})?(?:${src[t.BUILD]})?(?:$|[^\\d])`);
-    createToken("COERCERTL", src[t.COERCE], true);
-    createToken("COERCERTLFULL", src[t.COERCEFULL], true);
+    createToken("COERCE", `${src[t2.COERCEPLAIN]}(?:$|[^\\d])`);
+    createToken("COERCEFULL", src[t2.COERCEPLAIN] + `(?:${src[t2.PRERELEASE]})?(?:${src[t2.BUILD]})?(?:$|[^\\d])`);
+    createToken("COERCERTL", src[t2.COERCE], true);
+    createToken("COERCERTLFULL", src[t2.COERCEFULL], true);
     createToken("LONETILDE", "(?:~>?)");
-    createToken("TILDETRIM", `(\\s*)${src[t.LONETILDE]}\\s+`, true);
+    createToken("TILDETRIM", `(\\s*)${src[t2.LONETILDE]}\\s+`, true);
     exports.tildeTrimReplace = "$1~";
-    createToken("TILDE", `^${src[t.LONETILDE]}${src[t.XRANGEPLAIN]}$`);
-    createToken("TILDELOOSE", `^${src[t.LONETILDE]}${src[t.XRANGEPLAINLOOSE]}$`);
+    createToken("TILDE", `^${src[t2.LONETILDE]}${src[t2.XRANGEPLAIN]}$`);
+    createToken("TILDELOOSE", `^${src[t2.LONETILDE]}${src[t2.XRANGEPLAINLOOSE]}$`);
     createToken("LONECARET", "(?:\\^)");
-    createToken("CARETTRIM", `(\\s*)${src[t.LONECARET]}\\s+`, true);
+    createToken("CARETTRIM", `(\\s*)${src[t2.LONECARET]}\\s+`, true);
     exports.caretTrimReplace = "$1^";
-    createToken("CARET", `^${src[t.LONECARET]}${src[t.XRANGEPLAIN]}$`);
-    createToken("CARETLOOSE", `^${src[t.LONECARET]}${src[t.XRANGEPLAINLOOSE]}$`);
-    createToken("COMPARATORLOOSE", `^${src[t.GTLT]}\\s*(${src[t.LOOSEPLAIN]})$|^$`);
-    createToken("COMPARATOR", `^${src[t.GTLT]}\\s*(${src[t.FULLPLAIN]})$|^$`);
-    createToken("COMPARATORTRIM", `(\\s*)${src[t.GTLT]}\\s*(${src[t.LOOSEPLAIN]}|${src[t.XRANGEPLAIN]})`, true);
+    createToken("CARET", `^${src[t2.LONECARET]}${src[t2.XRANGEPLAIN]}$`);
+    createToken("CARETLOOSE", `^${src[t2.LONECARET]}${src[t2.XRANGEPLAINLOOSE]}$`);
+    createToken("COMPARATORLOOSE", `^${src[t2.GTLT]}\\s*(${src[t2.LOOSEPLAIN]})$|^$`);
+    createToken("COMPARATOR", `^${src[t2.GTLT]}\\s*(${src[t2.FULLPLAIN]})$|^$`);
+    createToken("COMPARATORTRIM", `(\\s*)${src[t2.GTLT]}\\s*(${src[t2.LOOSEPLAIN]}|${src[t2.XRANGEPLAIN]})`, true);
     exports.comparatorTrimReplace = "$1$2$3";
-    createToken("HYPHENRANGE", `^\\s*(${src[t.XRANGEPLAIN]})\\s+-\\s+(${src[t.XRANGEPLAIN]})\\s*$`);
-    createToken("HYPHENRANGELOOSE", `^\\s*(${src[t.XRANGEPLAINLOOSE]})\\s+-\\s+(${src[t.XRANGEPLAINLOOSE]})\\s*$`);
+    createToken("HYPHENRANGE", `^\\s*(${src[t2.XRANGEPLAIN]})\\s+-\\s+(${src[t2.XRANGEPLAIN]})\\s*$`);
+    createToken("HYPHENRANGELOOSE", `^\\s*(${src[t2.XRANGEPLAINLOOSE]})\\s+-\\s+(${src[t2.XRANGEPLAINLOOSE]})\\s*$`);
     createToken("STAR", "(<|>)?=?\\s*\\*");
     createToken("GTE0", "^\\s*>=\\s*0\\.0\\.0\\s*$");
     createToken("GTE0PRE", "^\\s*>=\\s*0\\.0\\.0-0\\s*$");
@@ -226,19 +226,19 @@ var require_identifiers = __commonJS({
   "node_modules/semver/internal/identifiers.js"(exports, module2) {
     "use strict";
     var numeric = /^[0-9]+$/;
-    var compareIdentifiers = (a, b) => {
-      if (typeof a === "number" && typeof b === "number") {
-        return a === b ? 0 : a < b ? -1 : 1;
+    var compareIdentifiers = (a2, b2) => {
+      if (typeof a2 === "number" && typeof b2 === "number") {
+        return a2 === b2 ? 0 : a2 < b2 ? -1 : 1;
       }
-      const anum = numeric.test(a);
-      const bnum = numeric.test(b);
+      const anum = numeric.test(a2);
+      const bnum = numeric.test(b2);
       if (anum && bnum) {
-        a = +a;
-        b = +b;
+        a2 = +a2;
+        b2 = +b2;
       }
-      return a === b ? 0 : anum && !bnum ? -1 : bnum && !anum ? 1 : a < b ? -1 : 1;
+      return a2 === b2 ? 0 : anum && !bnum ? -1 : bnum && !anum ? 1 : a2 < b2 ? -1 : 1;
     };
-    var rcompareIdentifiers = (a, b) => compareIdentifiers(b, a);
+    var rcompareIdentifiers = (a2, b2) => compareIdentifiers(b2, a2);
     module2.exports = {
       compareIdentifiers,
       rcompareIdentifiers
@@ -252,7 +252,7 @@ var require_semver = __commonJS({
     "use strict";
     var debug = require_debug();
     var { MAX_LENGTH, MAX_SAFE_INTEGER } = require_constants();
-    var { safeRe: re, t } = require_re();
+    var { safeRe: re, t: t2 } = require_re();
     var parseOptions = require_parse_options();
     var { compareIdentifiers } = require_identifiers();
     var SemVer = class _SemVer {
@@ -276,14 +276,14 @@ var require_semver = __commonJS({
         this.options = options;
         this.loose = !!options.loose;
         this.includePrerelease = !!options.includePrerelease;
-        const m = version.trim().match(options.loose ? re[t.LOOSE] : re[t.FULL]);
-        if (!m) {
+        const m2 = version.trim().match(options.loose ? re[t2.LOOSE] : re[t2.FULL]);
+        if (!m2) {
           throw new TypeError(`Invalid Version: ${version}`);
         }
         this.raw = version;
-        this.major = +m[1];
-        this.minor = +m[2];
-        this.patch = +m[3];
+        this.major = +m2[1];
+        this.minor = +m2[2];
+        this.patch = +m2[3];
         if (this.major > MAX_SAFE_INTEGER || this.major < 0) {
           throw new TypeError("Invalid major version");
         }
@@ -293,10 +293,10 @@ var require_semver = __commonJS({
         if (this.patch > MAX_SAFE_INTEGER || this.patch < 0) {
           throw new TypeError("Invalid patch version");
         }
-        if (!m[4]) {
+        if (!m2[4]) {
           this.prerelease = [];
         } else {
-          this.prerelease = m[4].split(".").map((id) => {
+          this.prerelease = m2[4].split(".").map((id) => {
             if (/^[0-9]+$/.test(id)) {
               const num = +id;
               if (num >= 0 && num < MAX_SAFE_INTEGER) {
@@ -306,7 +306,7 @@ var require_semver = __commonJS({
             return id;
           });
         }
-        this.build = m[5] ? m[5].split(".") : [];
+        this.build = m2[5] ? m2[5].split(".") : [];
         this.format();
       }
       format() {
@@ -367,45 +367,45 @@ var require_semver = __commonJS({
         } else if (!this.prerelease.length && !other.prerelease.length) {
           return 0;
         }
-        let i = 0;
+        let i2 = 0;
         do {
-          const a = this.prerelease[i];
-          const b = other.prerelease[i];
-          debug("prerelease compare", i, a, b);
-          if (a === void 0 && b === void 0) {
+          const a2 = this.prerelease[i2];
+          const b2 = other.prerelease[i2];
+          debug("prerelease compare", i2, a2, b2);
+          if (a2 === void 0 && b2 === void 0) {
             return 0;
-          } else if (b === void 0) {
+          } else if (b2 === void 0) {
             return 1;
-          } else if (a === void 0) {
+          } else if (a2 === void 0) {
             return -1;
-          } else if (a === b) {
+          } else if (a2 === b2) {
             continue;
           } else {
-            return compareIdentifiers(a, b);
+            return compareIdentifiers(a2, b2);
           }
-        } while (++i);
+        } while (++i2);
       }
       compareBuild(other) {
         if (!(other instanceof _SemVer)) {
           other = new _SemVer(other, this.options);
         }
-        let i = 0;
+        let i2 = 0;
         do {
-          const a = this.build[i];
-          const b = other.build[i];
-          debug("build compare", i, a, b);
-          if (a === void 0 && b === void 0) {
+          const a2 = this.build[i2];
+          const b2 = other.build[i2];
+          debug("build compare", i2, a2, b2);
+          if (a2 === void 0 && b2 === void 0) {
             return 0;
-          } else if (b === void 0) {
+          } else if (b2 === void 0) {
             return 1;
-          } else if (a === void 0) {
+          } else if (a2 === void 0) {
             return -1;
-          } else if (a === b) {
+          } else if (a2 === b2) {
             continue;
           } else {
-            return compareIdentifiers(a, b);
+            return compareIdentifiers(a2, b2);
           }
-        } while (++i);
+        } while (++i2);
       }
       // preminor will bump the version up to the next minor release, and immediately
       // down to pre-release. premajor and prepatch work the same way.
@@ -415,7 +415,7 @@ var require_semver = __commonJS({
             throw new Error("invalid increment argument: identifier is empty");
           }
           if (identifier) {
-            const match = `-${identifier}`.match(this.options.loose ? re[t.PRERELEASELOOSE] : re[t.PRERELEASE]);
+            const match = `-${identifier}`.match(this.options.loose ? re[t2.PRERELEASELOOSE] : re[t2.PRERELEASE]);
             if (!match || match[1] !== identifier) {
               throw new Error(`invalid identifier: ${identifier}`);
             }
@@ -482,14 +482,14 @@ var require_semver = __commonJS({
             if (this.prerelease.length === 0) {
               this.prerelease = [base];
             } else {
-              let i = this.prerelease.length;
-              while (--i >= 0) {
-                if (typeof this.prerelease[i] === "number") {
-                  this.prerelease[i]++;
-                  i = -2;
+              let i2 = this.prerelease.length;
+              while (--i2 >= 0) {
+                if (typeof this.prerelease[i2] === "number") {
+                  this.prerelease[i2]++;
+                  i2 = -2;
                 }
               }
-              if (i === -1) {
+              if (i2 === -1) {
                 if (identifier === this.prerelease.join(".") && identifierBase === false) {
                   throw new Error("invalid increment argument: identifier already exists");
                 }
@@ -553,8 +553,8 @@ var require_valid = __commonJS({
     "use strict";
     var parse = require_parse();
     var valid = (version, options) => {
-      const v = parse(version, options);
-      return v ? v.version : null;
+      const v2 = parse(version, options);
+      return v2 ? v2.version : null;
     };
     module2.exports = valid;
   }
@@ -566,8 +566,8 @@ var require_clean = __commonJS({
     "use strict";
     var parse = require_parse();
     var clean = (version, options) => {
-      const s = parse(version.trim().replace(/^[=v]+/, ""), options);
-      return s ? s.version : null;
+      const s2 = parse(version.trim().replace(/^[=v]+/, ""), options);
+      return s2 ? s2.version : null;
     };
     module2.exports = clean;
   }
@@ -646,7 +646,7 @@ var require_major = __commonJS({
   "node_modules/semver/functions/major.js"(exports, module2) {
     "use strict";
     var SemVer = require_semver();
-    var major = (a, loose) => new SemVer(a, loose).major;
+    var major = (a2, loose) => new SemVer(a2, loose).major;
     module2.exports = major;
   }
 });
@@ -656,7 +656,7 @@ var require_minor = __commonJS({
   "node_modules/semver/functions/minor.js"(exports, module2) {
     "use strict";
     var SemVer = require_semver();
-    var minor = (a, loose) => new SemVer(a, loose).minor;
+    var minor = (a2, loose) => new SemVer(a2, loose).minor;
     module2.exports = minor;
   }
 });
@@ -666,7 +666,7 @@ var require_patch = __commonJS({
   "node_modules/semver/functions/patch.js"(exports, module2) {
     "use strict";
     var SemVer = require_semver();
-    var patch = (a, loose) => new SemVer(a, loose).patch;
+    var patch = (a2, loose) => new SemVer(a2, loose).patch;
     module2.exports = patch;
   }
 });
@@ -689,7 +689,7 @@ var require_compare = __commonJS({
   "node_modules/semver/functions/compare.js"(exports, module2) {
     "use strict";
     var SemVer = require_semver();
-    var compare = (a, b, loose) => new SemVer(a, loose).compare(new SemVer(b, loose));
+    var compare = (a2, b2, loose) => new SemVer(a2, loose).compare(new SemVer(b2, loose));
     module2.exports = compare;
   }
 });
@@ -699,7 +699,7 @@ var require_rcompare = __commonJS({
   "node_modules/semver/functions/rcompare.js"(exports, module2) {
     "use strict";
     var compare = require_compare();
-    var rcompare = (a, b, loose) => compare(b, a, loose);
+    var rcompare = (a2, b2, loose) => compare(b2, a2, loose);
     module2.exports = rcompare;
   }
 });
@@ -709,7 +709,7 @@ var require_compare_loose = __commonJS({
   "node_modules/semver/functions/compare-loose.js"(exports, module2) {
     "use strict";
     var compare = require_compare();
-    var compareLoose = (a, b) => compare(a, b, true);
+    var compareLoose = (a2, b2) => compare(a2, b2, true);
     module2.exports = compareLoose;
   }
 });
@@ -719,9 +719,9 @@ var require_compare_build = __commonJS({
   "node_modules/semver/functions/compare-build.js"(exports, module2) {
     "use strict";
     var SemVer = require_semver();
-    var compareBuild = (a, b, loose) => {
-      const versionA = new SemVer(a, loose);
-      const versionB = new SemVer(b, loose);
+    var compareBuild = (a2, b2, loose) => {
+      const versionA = new SemVer(a2, loose);
+      const versionB = new SemVer(b2, loose);
       return versionA.compare(versionB) || versionA.compareBuild(versionB);
     };
     module2.exports = compareBuild;
@@ -733,7 +733,7 @@ var require_sort = __commonJS({
   "node_modules/semver/functions/sort.js"(exports, module2) {
     "use strict";
     var compareBuild = require_compare_build();
-    var sort = (list, loose) => list.sort((a, b) => compareBuild(a, b, loose));
+    var sort = (list, loose) => list.sort((a2, b2) => compareBuild(a2, b2, loose));
     module2.exports = sort;
   }
 });
@@ -743,7 +743,7 @@ var require_rsort = __commonJS({
   "node_modules/semver/functions/rsort.js"(exports, module2) {
     "use strict";
     var compareBuild = require_compare_build();
-    var rsort = (list, loose) => list.sort((a, b) => compareBuild(b, a, loose));
+    var rsort = (list, loose) => list.sort((a2, b2) => compareBuild(b2, a2, loose));
     module2.exports = rsort;
   }
 });
@@ -753,7 +753,7 @@ var require_gt = __commonJS({
   "node_modules/semver/functions/gt.js"(exports, module2) {
     "use strict";
     var compare = require_compare();
-    var gt = (a, b, loose) => compare(a, b, loose) > 0;
+    var gt = (a2, b2, loose) => compare(a2, b2, loose) > 0;
     module2.exports = gt;
   }
 });
@@ -763,7 +763,7 @@ var require_lt = __commonJS({
   "node_modules/semver/functions/lt.js"(exports, module2) {
     "use strict";
     var compare = require_compare();
-    var lt = (a, b, loose) => compare(a, b, loose) < 0;
+    var lt = (a2, b2, loose) => compare(a2, b2, loose) < 0;
     module2.exports = lt;
   }
 });
@@ -773,7 +773,7 @@ var require_eq = __commonJS({
   "node_modules/semver/functions/eq.js"(exports, module2) {
     "use strict";
     var compare = require_compare();
-    var eq = (a, b, loose) => compare(a, b, loose) === 0;
+    var eq = (a2, b2, loose) => compare(a2, b2, loose) === 0;
     module2.exports = eq;
   }
 });
@@ -783,7 +783,7 @@ var require_neq = __commonJS({
   "node_modules/semver/functions/neq.js"(exports, module2) {
     "use strict";
     var compare = require_compare();
-    var neq = (a, b, loose) => compare(a, b, loose) !== 0;
+    var neq = (a2, b2, loose) => compare(a2, b2, loose) !== 0;
     module2.exports = neq;
   }
 });
@@ -793,7 +793,7 @@ var require_gte = __commonJS({
   "node_modules/semver/functions/gte.js"(exports, module2) {
     "use strict";
     var compare = require_compare();
-    var gte = (a, b, loose) => compare(a, b, loose) >= 0;
+    var gte = (a2, b2, loose) => compare(a2, b2, loose) >= 0;
     module2.exports = gte;
   }
 });
@@ -803,7 +803,7 @@ var require_lte = __commonJS({
   "node_modules/semver/functions/lte.js"(exports, module2) {
     "use strict";
     var compare = require_compare();
-    var lte = (a, b, loose) => compare(a, b, loose) <= 0;
+    var lte = (a2, b2, loose) => compare(a2, b2, loose) <= 0;
     module2.exports = lte;
   }
 });
@@ -818,38 +818,38 @@ var require_cmp = __commonJS({
     var gte = require_gte();
     var lt = require_lt();
     var lte = require_lte();
-    var cmp = (a, op, b, loose) => {
+    var cmp = (a2, op, b2, loose) => {
       switch (op) {
         case "===":
-          if (typeof a === "object") {
-            a = a.version;
+          if (typeof a2 === "object") {
+            a2 = a2.version;
           }
-          if (typeof b === "object") {
-            b = b.version;
+          if (typeof b2 === "object") {
+            b2 = b2.version;
           }
-          return a === b;
+          return a2 === b2;
         case "!==":
-          if (typeof a === "object") {
-            a = a.version;
+          if (typeof a2 === "object") {
+            a2 = a2.version;
           }
-          if (typeof b === "object") {
-            b = b.version;
+          if (typeof b2 === "object") {
+            b2 = b2.version;
           }
-          return a !== b;
+          return a2 !== b2;
         case "":
         case "=":
         case "==":
-          return eq(a, b, loose);
+          return eq(a2, b2, loose);
         case "!=":
-          return neq(a, b, loose);
+          return neq(a2, b2, loose);
         case ">":
-          return gt(a, b, loose);
+          return gt(a2, b2, loose);
         case ">=":
-          return gte(a, b, loose);
+          return gte(a2, b2, loose);
         case "<":
-          return lt(a, b, loose);
+          return lt(a2, b2, loose);
         case "<=":
-          return lte(a, b, loose);
+          return lte(a2, b2, loose);
         default:
           throw new TypeError(`Invalid operator: ${op}`);
       }
@@ -864,7 +864,7 @@ var require_coerce = __commonJS({
     "use strict";
     var SemVer = require_semver();
     var parse = require_parse();
-    var { safeRe: re, t } = require_re();
+    var { safeRe: re, t: t2 } = require_re();
     var coerce = (version, options) => {
       if (version instanceof SemVer) {
         return version;
@@ -878,9 +878,9 @@ var require_coerce = __commonJS({
       options = options || {};
       let match = null;
       if (!options.rtl) {
-        match = version.match(options.includePrerelease ? re[t.COERCEFULL] : re[t.COERCE]);
+        match = version.match(options.includePrerelease ? re[t2.COERCEFULL] : re[t2.COERCE]);
       } else {
-        const coerceRtlRegex = options.includePrerelease ? re[t.COERCERTLFULL] : re[t.COERCERTL];
+        const coerceRtlRegex = options.includePrerelease ? re[t2.COERCERTLFULL] : re[t2.COERCERTL];
         let next;
         while ((next = coerceRtlRegex.exec(version)) && (!match || match.index + match[0].length !== version.length)) {
           if (!match || next.index + next[0].length !== match.index + match[0].length) {
@@ -967,19 +967,19 @@ var require_range = __commonJS({
         this.loose = !!options.loose;
         this.includePrerelease = !!options.includePrerelease;
         this.raw = range.trim().replace(SPACE_CHARACTERS, " ");
-        this.set = this.raw.split("||").map((r) => this.parseRange(r.trim())).filter((c) => c.length);
+        this.set = this.raw.split("||").map((r2) => this.parseRange(r2.trim())).filter((c2) => c2.length);
         if (!this.set.length) {
           throw new TypeError(`Invalid SemVer Range: ${this.raw}`);
         }
         if (this.set.length > 1) {
           const first = this.set[0];
-          this.set = this.set.filter((c) => !isNullSet(c[0]));
+          this.set = this.set.filter((c2) => !isNullSet(c2[0]));
           if (this.set.length === 0) {
             this.set = [first];
           } else if (this.set.length > 1) {
-            for (const c of this.set) {
-              if (c.length === 1 && isAny(c[0])) {
-                this.set = [c];
+            for (const c2 of this.set) {
+              if (c2.length === 1 && isAny(c2[0])) {
+                this.set = [c2];
                 break;
               }
             }
@@ -990,16 +990,16 @@ var require_range = __commonJS({
       get range() {
         if (this.formatted === void 0) {
           this.formatted = "";
-          for (let i = 0; i < this.set.length; i++) {
-            if (i > 0) {
+          for (let i2 = 0; i2 < this.set.length; i2++) {
+            if (i2 > 0) {
               this.formatted += "||";
             }
-            const comps = this.set[i];
-            for (let k = 0; k < comps.length; k++) {
-              if (k > 0) {
+            const comps = this.set[i2];
+            for (let k2 = 0; k2 < comps.length; k2++) {
+              if (k2 > 0) {
                 this.formatted += " ";
               }
-              this.formatted += comps[k].toString().trim();
+              this.formatted += comps[k2].toString().trim();
             }
           }
         }
@@ -1019,20 +1019,20 @@ var require_range = __commonJS({
           return cached;
         }
         const loose = this.options.loose;
-        const hr = loose ? re[t.HYPHENRANGELOOSE] : re[t.HYPHENRANGE];
+        const hr = loose ? re[t2.HYPHENRANGELOOSE] : re[t2.HYPHENRANGE];
         range = range.replace(hr, hyphenReplace(this.options.includePrerelease));
         debug("hyphen replace", range);
-        range = range.replace(re[t.COMPARATORTRIM], comparatorTrimReplace);
+        range = range.replace(re[t2.COMPARATORTRIM], comparatorTrimReplace);
         debug("comparator trim", range);
-        range = range.replace(re[t.TILDETRIM], tildeTrimReplace);
+        range = range.replace(re[t2.TILDETRIM], tildeTrimReplace);
         debug("tilde trim", range);
-        range = range.replace(re[t.CARETTRIM], caretTrimReplace);
+        range = range.replace(re[t2.CARETTRIM], caretTrimReplace);
         debug("caret trim", range);
         let rangeList = range.split(" ").map((comp) => parseComparator(comp, this.options)).join(" ").split(/\s+/).map((comp) => replaceGTE0(comp, this.options));
         if (loose) {
           rangeList = rangeList.filter((comp) => {
             debug("loose invalid filter", comp, this.options);
-            return !!comp.match(re[t.COMPARATORLOOSE]);
+            return !!comp.match(re[t2.COMPARATORLOOSE]);
           });
         }
         debug("range list", rangeList);
@@ -1077,8 +1077,8 @@ var require_range = __commonJS({
             return false;
           }
         }
-        for (let i = 0; i < this.set.length; i++) {
-          if (testSet(this.set[i], version, this.options)) {
+        for (let i2 = 0; i2 < this.set.length; i2++) {
+          if (testSet(this.set[i2], version, this.options)) {
             return true;
           }
         }
@@ -1094,14 +1094,14 @@ var require_range = __commonJS({
     var SemVer = require_semver();
     var {
       safeRe: re,
-      t,
+      t: t2,
       comparatorTrimReplace,
       tildeTrimReplace,
       caretTrimReplace
     } = require_re();
     var { FLAG_INCLUDE_PRERELEASE, FLAG_LOOSE } = require_constants();
-    var isNullSet = (c) => c.value === "<0.0.0-0";
-    var isAny = (c) => c.value === "";
+    var isNullSet = (c2) => c2.value === "<0.0.0-0";
+    var isAny = (c2) => c2.value === "";
     var isSatisfiable = (comparators, options) => {
       let result = true;
       const remainingComparators = comparators.slice();
@@ -1115,7 +1115,7 @@ var require_range = __commonJS({
       return result;
     };
     var parseComparator = (comp, options) => {
-      comp = comp.replace(re[t.BUILD], "");
+      comp = comp.replace(re[t2.BUILD], "");
       debug("comp", comp, options);
       comp = replaceCarets(comp, options);
       debug("caret", comp);
@@ -1129,70 +1129,70 @@ var require_range = __commonJS({
     };
     var isX = (id) => !id || id.toLowerCase() === "x" || id === "*";
     var replaceTildes = (comp, options) => {
-      return comp.trim().split(/\s+/).map((c) => replaceTilde(c, options)).join(" ");
+      return comp.trim().split(/\s+/).map((c2) => replaceTilde(c2, options)).join(" ");
     };
     var replaceTilde = (comp, options) => {
-      const r = options.loose ? re[t.TILDELOOSE] : re[t.TILDE];
-      return comp.replace(r, (_, M, m, p, pr) => {
-        debug("tilde", comp, _, M, m, p, pr);
+      const r2 = options.loose ? re[t2.TILDELOOSE] : re[t2.TILDE];
+      return comp.replace(r2, (_2, M2, m2, p2, pr) => {
+        debug("tilde", comp, _2, M2, m2, p2, pr);
         let ret;
-        if (isX(M)) {
+        if (isX(M2)) {
           ret = "";
-        } else if (isX(m)) {
-          ret = `>=${M}.0.0 <${+M + 1}.0.0-0`;
-        } else if (isX(p)) {
-          ret = `>=${M}.${m}.0 <${M}.${+m + 1}.0-0`;
+        } else if (isX(m2)) {
+          ret = `>=${M2}.0.0 <${+M2 + 1}.0.0-0`;
+        } else if (isX(p2)) {
+          ret = `>=${M2}.${m2}.0 <${M2}.${+m2 + 1}.0-0`;
         } else if (pr) {
           debug("replaceTilde pr", pr);
-          ret = `>=${M}.${m}.${p}-${pr} <${M}.${+m + 1}.0-0`;
+          ret = `>=${M2}.${m2}.${p2}-${pr} <${M2}.${+m2 + 1}.0-0`;
         } else {
-          ret = `>=${M}.${m}.${p} <${M}.${+m + 1}.0-0`;
+          ret = `>=${M2}.${m2}.${p2} <${M2}.${+m2 + 1}.0-0`;
         }
         debug("tilde return", ret);
         return ret;
       });
     };
     var replaceCarets = (comp, options) => {
-      return comp.trim().split(/\s+/).map((c) => replaceCaret(c, options)).join(" ");
+      return comp.trim().split(/\s+/).map((c2) => replaceCaret(c2, options)).join(" ");
     };
     var replaceCaret = (comp, options) => {
       debug("caret", comp, options);
-      const r = options.loose ? re[t.CARETLOOSE] : re[t.CARET];
-      const z = options.includePrerelease ? "-0" : "";
-      return comp.replace(r, (_, M, m, p, pr) => {
-        debug("caret", comp, _, M, m, p, pr);
+      const r2 = options.loose ? re[t2.CARETLOOSE] : re[t2.CARET];
+      const z2 = options.includePrerelease ? "-0" : "";
+      return comp.replace(r2, (_2, M2, m2, p2, pr) => {
+        debug("caret", comp, _2, M2, m2, p2, pr);
         let ret;
-        if (isX(M)) {
+        if (isX(M2)) {
           ret = "";
-        } else if (isX(m)) {
-          ret = `>=${M}.0.0${z} <${+M + 1}.0.0-0`;
-        } else if (isX(p)) {
-          if (M === "0") {
-            ret = `>=${M}.${m}.0${z} <${M}.${+m + 1}.0-0`;
+        } else if (isX(m2)) {
+          ret = `>=${M2}.0.0${z2} <${+M2 + 1}.0.0-0`;
+        } else if (isX(p2)) {
+          if (M2 === "0") {
+            ret = `>=${M2}.${m2}.0${z2} <${M2}.${+m2 + 1}.0-0`;
           } else {
-            ret = `>=${M}.${m}.0${z} <${+M + 1}.0.0-0`;
+            ret = `>=${M2}.${m2}.0${z2} <${+M2 + 1}.0.0-0`;
           }
         } else if (pr) {
           debug("replaceCaret pr", pr);
-          if (M === "0") {
-            if (m === "0") {
-              ret = `>=${M}.${m}.${p}-${pr} <${M}.${m}.${+p + 1}-0`;
+          if (M2 === "0") {
+            if (m2 === "0") {
+              ret = `>=${M2}.${m2}.${p2}-${pr} <${M2}.${m2}.${+p2 + 1}-0`;
             } else {
-              ret = `>=${M}.${m}.${p}-${pr} <${M}.${+m + 1}.0-0`;
+              ret = `>=${M2}.${m2}.${p2}-${pr} <${M2}.${+m2 + 1}.0-0`;
             }
           } else {
-            ret = `>=${M}.${m}.${p}-${pr} <${+M + 1}.0.0-0`;
+            ret = `>=${M2}.${m2}.${p2}-${pr} <${+M2 + 1}.0.0-0`;
           }
         } else {
           debug("no pr");
-          if (M === "0") {
-            if (m === "0") {
-              ret = `>=${M}.${m}.${p}${z} <${M}.${m}.${+p + 1}-0`;
+          if (M2 === "0") {
+            if (m2 === "0") {
+              ret = `>=${M2}.${m2}.${p2}${z2} <${M2}.${m2}.${+p2 + 1}-0`;
             } else {
-              ret = `>=${M}.${m}.${p}${z} <${M}.${+m + 1}.0-0`;
+              ret = `>=${M2}.${m2}.${p2}${z2} <${M2}.${+m2 + 1}.0-0`;
             }
           } else {
-            ret = `>=${M}.${m}.${p} <${+M + 1}.0.0-0`;
+            ret = `>=${M2}.${m2}.${p2} <${+M2 + 1}.0.0-0`;
           }
         }
         debug("caret return", ret);
@@ -1201,16 +1201,16 @@ var require_range = __commonJS({
     };
     var replaceXRanges = (comp, options) => {
       debug("replaceXRanges", comp, options);
-      return comp.split(/\s+/).map((c) => replaceXRange(c, options)).join(" ");
+      return comp.split(/\s+/).map((c2) => replaceXRange(c2, options)).join(" ");
     };
     var replaceXRange = (comp, options) => {
       comp = comp.trim();
-      const r = options.loose ? re[t.XRANGELOOSE] : re[t.XRANGE];
-      return comp.replace(r, (ret, gtlt, M, m, p, pr) => {
-        debug("xRange", comp, ret, gtlt, M, m, p, pr);
-        const xM = isX(M);
-        const xm = xM || isX(m);
-        const xp = xm || isX(p);
+      const r2 = options.loose ? re[t2.XRANGELOOSE] : re[t2.XRANGE];
+      return comp.replace(r2, (ret, gtlt, M2, m2, p2, pr) => {
+        debug("xRange", comp, ret, gtlt, M2, m2, p2, pr);
+        const xM = isX(M2);
+        const xm = xM || isX(m2);
+        const xp = xm || isX(p2);
         const anyX = xp;
         if (gtlt === "=" && anyX) {
           gtlt = "";
@@ -1224,35 +1224,35 @@ var require_range = __commonJS({
           }
         } else if (gtlt && anyX) {
           if (xm) {
-            m = 0;
+            m2 = 0;
           }
-          p = 0;
+          p2 = 0;
           if (gtlt === ">") {
             gtlt = ">=";
             if (xm) {
-              M = +M + 1;
-              m = 0;
-              p = 0;
+              M2 = +M2 + 1;
+              m2 = 0;
+              p2 = 0;
             } else {
-              m = +m + 1;
-              p = 0;
+              m2 = +m2 + 1;
+              p2 = 0;
             }
           } else if (gtlt === "<=") {
             gtlt = "<";
             if (xm) {
-              M = +M + 1;
+              M2 = +M2 + 1;
             } else {
-              m = +m + 1;
+              m2 = +m2 + 1;
             }
           }
           if (gtlt === "<") {
             pr = "-0";
           }
-          ret = `${gtlt + M}.${m}.${p}${pr}`;
+          ret = `${gtlt + M2}.${m2}.${p2}${pr}`;
         } else if (xm) {
-          ret = `>=${M}.0.0${pr} <${+M + 1}.0.0-0`;
+          ret = `>=${M2}.0.0${pr} <${+M2 + 1}.0.0-0`;
         } else if (xp) {
-          ret = `>=${M}.${m}.0${pr} <${M}.${+m + 1}.0-0`;
+          ret = `>=${M2}.${m2}.0${pr} <${M2}.${+m2 + 1}.0-0`;
         }
         debug("xRange return", ret);
         return ret;
@@ -1260,11 +1260,11 @@ var require_range = __commonJS({
     };
     var replaceStars = (comp, options) => {
       debug("replaceStars", comp, options);
-      return comp.trim().replace(re[t.STAR], "");
+      return comp.trim().replace(re[t2.STAR], "");
     };
     var replaceGTE0 = (comp, options) => {
       debug("replaceGTE0", comp, options);
-      return comp.trim().replace(re[options.includePrerelease ? t.GTE0PRE : t.GTE0], "");
+      return comp.trim().replace(re[options.includePrerelease ? t2.GTE0PRE : t2.GTE0], "");
     };
     var hyphenReplace = (incPr) => ($0, from, fM, fm, fp, fpr, fb, to, tM, tm, tp, tpr) => {
       if (isX(fM)) {
@@ -1294,19 +1294,19 @@ var require_range = __commonJS({
       return `${from} ${to}`.trim();
     };
     var testSet = (set2, version, options) => {
-      for (let i = 0; i < set2.length; i++) {
-        if (!set2[i].test(version)) {
+      for (let i2 = 0; i2 < set2.length; i2++) {
+        if (!set2[i2].test(version)) {
           return false;
         }
       }
       if (version.prerelease.length && !options.includePrerelease) {
-        for (let i = 0; i < set2.length; i++) {
-          debug(set2[i].semver);
-          if (set2[i].semver === Comparator.ANY) {
+        for (let i2 = 0; i2 < set2.length; i2++) {
+          debug(set2[i2].semver);
+          if (set2[i2].semver === Comparator.ANY) {
             continue;
           }
-          if (set2[i].semver.prerelease.length > 0) {
-            const allowed = set2[i].semver;
+          if (set2[i2].semver.prerelease.length > 0) {
+            const allowed = set2[i2].semver;
             if (allowed.major === version.major && allowed.minor === version.minor && allowed.patch === version.patch) {
               return true;
             }
@@ -1350,19 +1350,19 @@ var require_comparator = __commonJS({
         debug("comp", this);
       }
       parse(comp) {
-        const r = this.options.loose ? re[t.COMPARATORLOOSE] : re[t.COMPARATOR];
-        const m = comp.match(r);
-        if (!m) {
+        const r2 = this.options.loose ? re[t2.COMPARATORLOOSE] : re[t2.COMPARATOR];
+        const m2 = comp.match(r2);
+        if (!m2) {
           throw new TypeError(`Invalid comparator: ${comp}`);
         }
-        this.operator = m[1] !== void 0 ? m[1] : "";
+        this.operator = m2[1] !== void 0 ? m2[1] : "";
         if (this.operator === "=") {
           this.operator = "";
         }
-        if (!m[2]) {
+        if (!m2[2]) {
           this.semver = ANY;
         } else {
-          this.semver = new SemVer(m[2], this.options.loose);
+          this.semver = new SemVer(m2[2], this.options.loose);
         }
       }
       toString() {
@@ -1424,7 +1424,7 @@ var require_comparator = __commonJS({
     };
     module2.exports = Comparator;
     var parseOptions = require_parse_options();
-    var { safeRe: re, t } = require_re();
+    var { safeRe: re, t: t2 } = require_re();
     var cmp = require_cmp();
     var debug = require_debug();
     var SemVer = require_semver();
@@ -1454,7 +1454,7 @@ var require_to_comparators = __commonJS({
   "node_modules/semver/ranges/to-comparators.js"(exports, module2) {
     "use strict";
     var Range = require_range();
-    var toComparators = (range, options) => new Range(range, options).set.map((comp) => comp.map((c) => c.value).join(" ").trim().split(" "));
+    var toComparators = (range, options) => new Range(range, options).set.map((comp) => comp.map((c2) => c2.value).join(" ").trim().split(" "));
     module2.exports = toComparators;
   }
 });
@@ -1474,10 +1474,10 @@ var require_max_satisfying = __commonJS({
       } catch (er) {
         return null;
       }
-      versions.forEach((v) => {
-        if (rangeObj.test(v)) {
-          if (!max || maxSV.compare(v) === -1) {
-            max = v;
+      versions.forEach((v2) => {
+        if (rangeObj.test(v2)) {
+          if (!max || maxSV.compare(v2) === -1) {
+            max = v2;
             maxSV = new SemVer(max, options);
           }
         }
@@ -1503,10 +1503,10 @@ var require_min_satisfying = __commonJS({
       } catch (er) {
         return null;
       }
-      versions.forEach((v) => {
-        if (rangeObj.test(v)) {
-          if (!min || minSV.compare(v) === 1) {
-            min = v;
+      versions.forEach((v2) => {
+        if (rangeObj.test(v2)) {
+          if (!min || minSV.compare(v2) === 1) {
+            min = v2;
             minSV = new SemVer(min, options);
           }
         }
@@ -1535,8 +1535,8 @@ var require_min_version = __commonJS({
         return minver;
       }
       minver = null;
-      for (let i = 0; i < range.set.length; ++i) {
-        const comparators = range.set[i];
+      for (let i2 = 0; i2 < range.set.length; ++i2) {
+        const comparators = range.set[i2];
         let setMin2 = null;
         comparators.forEach((comparator) => {
           const compver = new SemVer(comparator.semver.version);
@@ -1630,8 +1630,8 @@ var require_outside = __commonJS({
       if (satisfies(version, range, options)) {
         return false;
       }
-      for (let i = 0; i < range.set.length; ++i) {
-        const comparators = range.set[i];
+      for (let i2 = 0; i2 < range.set.length; ++i2) {
+        const comparators = range.set[i2];
         let high = null;
         let low = null;
         comparators.forEach((comparator) => {
@@ -1705,8 +1705,8 @@ var require_simplify = __commonJS({
       const set2 = [];
       let first = null;
       let prev = null;
-      const v = versions.sort((a, b) => compare(a, b, options));
-      for (const version of v) {
+      const v2 = versions.sort((a2, b2) => compare(a2, b2, options));
+      for (const version of v2) {
         const included = satisfies(version, range, options);
         if (included) {
           prev = version;
@@ -1728,11 +1728,11 @@ var require_simplify = __commonJS({
       for (const [min, max] of set2) {
         if (min === max) {
           ranges.push(min);
-        } else if (!max && min === v[0]) {
+        } else if (!max && min === v2[0]) {
           ranges.push("*");
         } else if (!max) {
           ranges.push(`>=${min}`);
-        } else if (min === v[0]) {
+        } else if (min === v2[0]) {
           ranges.push(`<=${max}`);
         } else {
           ranges.push(`${min} - ${max}`);
@@ -1799,13 +1799,13 @@ var require_subset = __commonJS({
       }
       const eqSet = /* @__PURE__ */ new Set();
       let gt, lt;
-      for (const c of sub) {
-        if (c.operator === ">" || c.operator === ">=") {
-          gt = higherGT(gt, c, options);
-        } else if (c.operator === "<" || c.operator === "<=") {
-          lt = lowerLT(lt, c, options);
+      for (const c2 of sub) {
+        if (c2.operator === ">" || c2.operator === ">=") {
+          gt = higherGT(gt, c2, options);
+        } else if (c2.operator === "<" || c2.operator === "<=") {
+          lt = lowerLT(lt, c2, options);
         } else {
-          eqSet.add(c.semver);
+          eqSet.add(c2.semver);
         }
       }
       if (eqSet.size > 1) {
@@ -1827,8 +1827,8 @@ var require_subset = __commonJS({
         if (lt && !satisfies(eq, String(lt), options)) {
           return null;
         }
-        for (const c of dom) {
-          if (!satisfies(eq, String(c), options)) {
+        for (const c2 of dom) {
+          if (!satisfies(eq, String(c2), options)) {
             return false;
           }
         }
@@ -1841,40 +1841,40 @@ var require_subset = __commonJS({
       if (needDomLTPre && needDomLTPre.prerelease.length === 1 && lt.operator === "<" && needDomLTPre.prerelease[0] === 0) {
         needDomLTPre = false;
       }
-      for (const c of dom) {
-        hasDomGT = hasDomGT || c.operator === ">" || c.operator === ">=";
-        hasDomLT = hasDomLT || c.operator === "<" || c.operator === "<=";
+      for (const c2 of dom) {
+        hasDomGT = hasDomGT || c2.operator === ">" || c2.operator === ">=";
+        hasDomLT = hasDomLT || c2.operator === "<" || c2.operator === "<=";
         if (gt) {
           if (needDomGTPre) {
-            if (c.semver.prerelease && c.semver.prerelease.length && c.semver.major === needDomGTPre.major && c.semver.minor === needDomGTPre.minor && c.semver.patch === needDomGTPre.patch) {
+            if (c2.semver.prerelease && c2.semver.prerelease.length && c2.semver.major === needDomGTPre.major && c2.semver.minor === needDomGTPre.minor && c2.semver.patch === needDomGTPre.patch) {
               needDomGTPre = false;
             }
           }
-          if (c.operator === ">" || c.operator === ">=") {
-            higher = higherGT(gt, c, options);
-            if (higher === c && higher !== gt) {
+          if (c2.operator === ">" || c2.operator === ">=") {
+            higher = higherGT(gt, c2, options);
+            if (higher === c2 && higher !== gt) {
               return false;
             }
-          } else if (gt.operator === ">=" && !satisfies(gt.semver, String(c), options)) {
+          } else if (gt.operator === ">=" && !satisfies(gt.semver, String(c2), options)) {
             return false;
           }
         }
         if (lt) {
           if (needDomLTPre) {
-            if (c.semver.prerelease && c.semver.prerelease.length && c.semver.major === needDomLTPre.major && c.semver.minor === needDomLTPre.minor && c.semver.patch === needDomLTPre.patch) {
+            if (c2.semver.prerelease && c2.semver.prerelease.length && c2.semver.major === needDomLTPre.major && c2.semver.minor === needDomLTPre.minor && c2.semver.patch === needDomLTPre.patch) {
               needDomLTPre = false;
             }
           }
-          if (c.operator === "<" || c.operator === "<=") {
-            lower = lowerLT(lt, c, options);
-            if (lower === c && lower !== lt) {
+          if (c2.operator === "<" || c2.operator === "<=") {
+            lower = lowerLT(lt, c2, options);
+            if (lower === c2 && lower !== lt) {
               return false;
             }
-          } else if (lt.operator === "<=" && !satisfies(lt.semver, String(c), options)) {
+          } else if (lt.operator === "<=" && !satisfies(lt.semver, String(c2), options)) {
             return false;
           }
         }
-        if (!c.operator && (lt || gt) && gtltComp !== 0) {
+        if (!c2.operator && (lt || gt) && gtltComp !== 0) {
           return false;
         }
       }
@@ -1889,19 +1889,19 @@ var require_subset = __commonJS({
       }
       return true;
     };
-    var higherGT = (a, b, options) => {
-      if (!a) {
-        return b;
+    var higherGT = (a2, b2, options) => {
+      if (!a2) {
+        return b2;
       }
-      const comp = compare(a.semver, b.semver, options);
-      return comp > 0 ? a : comp < 0 ? b : b.operator === ">" && a.operator === ">=" ? b : a;
+      const comp = compare(a2.semver, b2.semver, options);
+      return comp > 0 ? a2 : comp < 0 ? b2 : b2.operator === ">" && a2.operator === ">=" ? b2 : a2;
     };
-    var lowerLT = (a, b, options) => {
-      if (!a) {
-        return b;
+    var lowerLT = (a2, b2, options) => {
+      if (!a2) {
+        return b2;
       }
-      const comp = compare(a.semver, b.semver, options);
-      return comp < 0 ? a : comp > 0 ? b : b.operator === "<" && a.operator === "<=" ? b : a;
+      const comp = compare(a2.semver, b2.semver, options);
+      return comp < 0 ? a2 : comp > 0 ? b2 : b2.operator === "<" && a2.operator === "<=" ? b2 : a2;
     };
     module2.exports = subset;
   }
@@ -2046,8 +2046,8 @@ var errors = true ? [
 ] : [];
 function die(error, ...args) {
   if (true) {
-    const e = errors[error];
-    const msg = typeof e === "function" ? e.apply(null, args) : e;
+    const e2 = errors[error];
+    const msg = typeof e2 === "function" ? e2.apply(null, args) : e2;
     throw new Error(`[Immer] ${msg}`);
   }
   throw new Error(
@@ -2094,19 +2094,19 @@ function has(thing, prop) {
   return getArchtype(thing) === 2 ? thing.has(prop) : Object.prototype.hasOwnProperty.call(thing, prop);
 }
 function set(thing, propOrOldValue, value) {
-  const t = getArchtype(thing);
-  if (t === 2)
+  const t2 = getArchtype(thing);
+  if (t2 === 2)
     thing.set(propOrOldValue, value);
-  else if (t === 3) {
+  else if (t2 === 3) {
     thing.add(value);
   } else
     thing[propOrOldValue] = value;
 }
-function is(x, y) {
-  if (x === y) {
-    return x !== 0 || 1 / x === 1 / y;
+function is(x2, y2) {
+  if (x2 === y2) {
+    return x2 !== 0 || 1 / x2 === 1 / y2;
   } else {
-    return x !== x && y !== y;
+    return x2 !== x2 && y2 !== y2;
   }
 }
 function isMap(target) {
@@ -2132,8 +2132,8 @@ function shallowCopy(base, strict) {
     const descriptors = Object.getOwnPropertyDescriptors(base);
     delete descriptors[DRAFT_STATE];
     let keys = Reflect.ownKeys(descriptors);
-    for (let i = 0; i < keys.length; i++) {
-      const key = keys[i];
+    for (let i2 = 0; i2 < keys.length; i2++) {
+      const key = keys[i2];
       const desc = descriptors[key];
       if (desc.writable === false) {
         desc.writable = true;
@@ -2560,10 +2560,10 @@ var Immer2 = class {
         if (this.autoFreeze_)
           freeze(result, true);
         if (patchListener) {
-          const p = [];
+          const p2 = [];
           const ip = [];
-          getPlugin("Patches").generateReplacementPatches_(base, result, p, ip);
-          patchListener(p, ip);
+          getPlugin("Patches").generateReplacementPatches_(base, result, p2, ip);
+          patchListener(p2, ip);
         }
         return result;
       } else
@@ -2574,8 +2574,8 @@ var Immer2 = class {
         return (state, ...args) => this.produceWithPatches(state, (draft) => base(draft, ...args));
       }
       let patches, inversePatches;
-      const result = this.produce(base, recipe, (p, ip) => {
-        patches = p;
+      const result = this.produce(base, recipe, (p2, ip) => {
+        patches = p2;
         inversePatches = ip;
       });
       return [result, patches, inversePatches];
@@ -2621,16 +2621,16 @@ var Immer2 = class {
     this.useStrictShallowCopy_ = value;
   }
   applyPatches(base, patches) {
-    let i;
-    for (i = patches.length - 1; i >= 0; i--) {
-      const patch = patches[i];
+    let i2;
+    for (i2 = patches.length - 1; i2 >= 0; i2--) {
+      const patch = patches[i2];
       if (patch.path.length === 0 && patch.op === "replace") {
         base = patch.value;
         break;
       }
     }
-    if (i > -1) {
-      patches = patches.slice(i + 1);
+    if (i2 > -1) {
+      patches = patches.slice(i2 + 1);
     }
     const applyPatchesImpl = getPlugin("Patches").applyPatches_;
     if (isDraft(base)) {
@@ -2680,21 +2680,21 @@ var produce = immer.produce;
 // src/utils/object.ts
 var assignUnknownObjectFromDefaultObject = (defaultObject, targetObject) => {
   const newObj = structuredClone(targetObject);
-  Object.entries(defaultObject).forEach(([k, v]) => {
-    if (v === null) {
+  Object.entries(defaultObject).forEach(([k2, v2]) => {
+    if (v2 === null) {
       return;
     }
-    if (isPlainRecord(v)) {
-      const newTargetObject = newObj[k];
+    if (isPlainRecord(v2)) {
+      const newTargetObject = newObj[k2];
       if (isPlainRecord(newTargetObject)) {
-        newObj[k] = assignUnknownObjectFromDefaultObject(v, newTargetObject);
+        newObj[k2] = assignUnknownObjectFromDefaultObject(v2, newTargetObject);
       } else {
-        newObj[k] = v;
+        newObj[k2] = v2;
       }
       return;
     }
-    if (newObj[k] === null || newObj[k] === void 0) {
-      newObj[k] = v;
+    if (newObj[k2] === null || newObj[k2] === void 0) {
+      newObj[k2] = v2;
       return;
     }
   });
@@ -2900,8 +2900,8 @@ var HeadingShifterSettingTab = class extends import_obsidian.PluginSettingTab {
       dropdown.addOption("outdent to zero", "Outdent to 0").addOption(
         "sync with headings",
         "Sync with headings"
-      ).addOption("noting", "Noting").setValue(this.plugin.settings.list.childrenBehavior).onChange((v) => {
-        this.plugin.settings.list.childrenBehavior = v;
+      ).addOption("noting", "Noting").setValue(this.plugin.settings.list.childrenBehavior).onChange((v2) => {
+        this.plugin.settings.list.childrenBehavior = v2;
         this.plugin.saveSettings();
       });
     });
@@ -2909,8 +2909,8 @@ var HeadingShifterSettingTab = class extends import_obsidian.PluginSettingTab {
       text: "Editor"
     });
     new import_obsidian.Setting(containerEl).setName("Tab size").addSlider((cb) => {
-      cb.setDynamicTooltip().setLimits(2, 8, 2).setValue(this.plugin.settings.editor.tabSize).onChange((v) => {
-        this.plugin.settings.editor.tabSize = v;
+      cb.setDynamicTooltip().setLimits(2, 8, 2).setValue(this.plugin.settings.editor.tabSize).onChange((v2) => {
+        this.plugin.settings.editor.tabSize = v2;
         this.plugin.saveSettings();
       });
     });
@@ -2938,7 +2938,7 @@ var migrateSettings = ({
       draft.version = latestVersion;
     });
   }
-  const migrationVersions = Object.entries(migrationObject).filter(([k]) => import_semver.default.gt(k, currentVersion)).sort((a, b) => import_semver.default.compare(a[0], b[0]));
+  const migrationVersions = Object.entries(migrationObject).filter(([k2]) => import_semver.default.gt(k2, currentVersion)).sort((a2, b2) => import_semver.default.compare(a2[0], b2[0]));
   const migratedSettings = migrationVersions.reduce(
     (accSettings, [_version, settingObj]) => {
       const mergedOld = assignUnknownObjectFromDefaultObject(
@@ -3090,6 +3090,291 @@ var RegExpExample = {
   }
 };
 
+// node_modules/ts-pattern/dist/index.js
+var t = Symbol.for("@ts-pattern/matcher");
+var e = Symbol.for("@ts-pattern/isVariadic");
+var n = "@ts-pattern/anonymous-select-key";
+var r = (t2) => Boolean(t2 && "object" == typeof t2);
+var i = (e2) => e2 && !!e2[t];
+var o = (n2, s2, c2) => {
+  if (i(n2)) {
+    const e2 = n2[t](), { matched: r2, selections: i2 } = e2.match(s2);
+    return r2 && i2 && Object.keys(i2).forEach((t2) => c2(t2, i2[t2])), r2;
+  }
+  if (r(n2)) {
+    if (!r(s2)) return false;
+    if (Array.isArray(n2)) {
+      if (!Array.isArray(s2)) return false;
+      let t2 = [], r2 = [], u2 = [];
+      for (const o2 of n2.keys()) {
+        const s3 = n2[o2];
+        i(s3) && s3[e] ? u2.push(s3) : u2.length ? r2.push(s3) : t2.push(s3);
+      }
+      if (u2.length) {
+        if (u2.length > 1) throw new Error("Pattern error: Using `...P.array(...)` several times in a single pattern is not allowed.");
+        if (s2.length < t2.length + r2.length) return false;
+        const e2 = s2.slice(0, t2.length), n3 = 0 === r2.length ? [] : s2.slice(-r2.length), i2 = s2.slice(t2.length, 0 === r2.length ? Infinity : -r2.length);
+        return t2.every((t3, n4) => o(t3, e2[n4], c2)) && r2.every((t3, e3) => o(t3, n3[e3], c2)) && (0 === u2.length || o(u2[0], i2, c2));
+      }
+      return n2.length === s2.length && n2.every((t3, e2) => o(t3, s2[e2], c2));
+    }
+    return Reflect.ownKeys(n2).every((e2) => {
+      const r2 = n2[e2];
+      return (e2 in s2 || i(u2 = r2) && "optional" === u2[t]().matcherType) && o(r2, s2[e2], c2);
+      var u2;
+    });
+  }
+  return Object.is(s2, n2);
+};
+var s = (e2) => {
+  var n2, o2, u2;
+  return r(e2) ? i(e2) ? null != (n2 = null == (o2 = (u2 = e2[t]()).getSelectionKeys) ? void 0 : o2.call(u2)) ? n2 : [] : Array.isArray(e2) ? c(e2, s) : c(Object.values(e2), s) : [];
+};
+var c = (t2, e2) => t2.reduce((t3, n2) => t3.concat(e2(n2)), []);
+function u(...t2) {
+  if (1 === t2.length) {
+    const [e2] = t2;
+    return (t3) => o(e2, t3, () => {
+    });
+  }
+  if (2 === t2.length) {
+    const [e2, n2] = t2;
+    return o(e2, n2, () => {
+    });
+  }
+  throw new Error(`isMatching wasn't given the right number of arguments: expected 1 or 2, received ${t2.length}.`);
+}
+function a(t2) {
+  return Object.assign(t2, { optional: () => h(t2), and: (e2) => d(t2, e2), or: (e2) => y(t2, e2), select: (e2) => void 0 === e2 ? v(t2) : v(e2, t2) });
+}
+function l(t2) {
+  return Object.assign(((t3) => Object.assign(t3, { [Symbol.iterator]() {
+    let n2 = 0;
+    const r2 = [{ value: Object.assign(t3, { [e]: true }), done: false }, { done: true, value: void 0 }];
+    return { next: () => {
+      var t4;
+      return null != (t4 = r2[n2++]) ? t4 : r2.at(-1);
+    } };
+  } }))(t2), { optional: () => l(h(t2)), select: (e2) => l(void 0 === e2 ? v(t2) : v(e2, t2)) });
+}
+function h(e2) {
+  return a({ [t]: () => ({ match: (t2) => {
+    let n2 = {};
+    const r2 = (t3, e3) => {
+      n2[t3] = e3;
+    };
+    return void 0 === t2 ? (s(e2).forEach((t3) => r2(t3, void 0)), { matched: true, selections: n2 }) : { matched: o(e2, t2, r2), selections: n2 };
+  }, getSelectionKeys: () => s(e2), matcherType: "optional" }) });
+}
+var f = (t2, e2) => {
+  for (const n2 of t2) if (!e2(n2)) return false;
+  return true;
+};
+var g = (t2, e2) => {
+  for (const [n2, r2] of t2.entries()) if (!e2(r2, n2)) return false;
+  return true;
+};
+var m = (t2, e2) => {
+  const n2 = Reflect.ownKeys(t2);
+  for (const r2 of n2) if (!e2(r2, t2[r2])) return false;
+  return true;
+};
+function d(...e2) {
+  return a({ [t]: () => ({ match: (t2) => {
+    let n2 = {};
+    const r2 = (t3, e3) => {
+      n2[t3] = e3;
+    };
+    return { matched: e2.every((e3) => o(e3, t2, r2)), selections: n2 };
+  }, getSelectionKeys: () => c(e2, s), matcherType: "and" }) });
+}
+function y(...e2) {
+  return a({ [t]: () => ({ match: (t2) => {
+    let n2 = {};
+    const r2 = (t3, e3) => {
+      n2[t3] = e3;
+    };
+    return c(e2, s).forEach((t3) => r2(t3, void 0)), { matched: e2.some((e3) => o(e3, t2, r2)), selections: n2 };
+  }, getSelectionKeys: () => c(e2, s), matcherType: "or" }) });
+}
+function p(e2) {
+  return { [t]: () => ({ match: (t2) => ({ matched: Boolean(e2(t2)) }) }) };
+}
+function v(...e2) {
+  const r2 = "string" == typeof e2[0] ? e2[0] : void 0, i2 = 2 === e2.length ? e2[1] : "string" == typeof e2[0] ? void 0 : e2[0];
+  return a({ [t]: () => ({ match: (t2) => {
+    let e3 = { [null != r2 ? r2 : n]: t2 };
+    return { matched: void 0 === i2 || o(i2, t2, (t3, n2) => {
+      e3[t3] = n2;
+    }), selections: e3 };
+  }, getSelectionKeys: () => [null != r2 ? r2 : n].concat(void 0 === i2 ? [] : s(i2)) }) });
+}
+function b(t2) {
+  return true;
+}
+function w(t2) {
+  return "number" == typeof t2;
+}
+function S(t2) {
+  return "string" == typeof t2;
+}
+function j(t2) {
+  return "bigint" == typeof t2;
+}
+var K = a(p(b));
+var O = a(p(b));
+var E = K;
+var x = (t2) => Object.assign(a(t2), { startsWith: (e2) => {
+  return x(d(t2, (n2 = e2, p((t3) => S(t3) && t3.startsWith(n2)))));
+  var n2;
+}, endsWith: (e2) => {
+  return x(d(t2, (n2 = e2, p((t3) => S(t3) && t3.endsWith(n2)))));
+  var n2;
+}, minLength: (e2) => x(d(t2, ((t3) => p((e3) => S(e3) && e3.length >= t3))(e2))), length: (e2) => x(d(t2, ((t3) => p((e3) => S(e3) && e3.length === t3))(e2))), maxLength: (e2) => x(d(t2, ((t3) => p((e3) => S(e3) && e3.length <= t3))(e2))), includes: (e2) => {
+  return x(d(t2, (n2 = e2, p((t3) => S(t3) && t3.includes(n2)))));
+  var n2;
+}, regex: (e2) => {
+  return x(d(t2, (n2 = e2, p((t3) => S(t3) && Boolean(t3.match(n2))))));
+  var n2;
+} });
+var A = x(p(S));
+var N = (t2) => Object.assign(a(t2), { between: (e2, n2) => N(d(t2, ((t3, e3) => p((n3) => w(n3) && t3 <= n3 && e3 >= n3))(e2, n2))), lt: (e2) => N(d(t2, ((t3) => p((e3) => w(e3) && e3 < t3))(e2))), gt: (e2) => N(d(t2, ((t3) => p((e3) => w(e3) && e3 > t3))(e2))), lte: (e2) => N(d(t2, ((t3) => p((e3) => w(e3) && e3 <= t3))(e2))), gte: (e2) => N(d(t2, ((t3) => p((e3) => w(e3) && e3 >= t3))(e2))), int: () => N(d(t2, p((t3) => w(t3) && Number.isInteger(t3)))), finite: () => N(d(t2, p((t3) => w(t3) && Number.isFinite(t3)))), positive: () => N(d(t2, p((t3) => w(t3) && t3 > 0))), negative: () => N(d(t2, p((t3) => w(t3) && t3 < 0))) });
+var P = N(p(w));
+var k = (t2) => Object.assign(a(t2), { between: (e2, n2) => k(d(t2, ((t3, e3) => p((n3) => j(n3) && t3 <= n3 && e3 >= n3))(e2, n2))), lt: (e2) => k(d(t2, ((t3) => p((e3) => j(e3) && e3 < t3))(e2))), gt: (e2) => k(d(t2, ((t3) => p((e3) => j(e3) && e3 > t3))(e2))), lte: (e2) => k(d(t2, ((t3) => p((e3) => j(e3) && e3 <= t3))(e2))), gte: (e2) => k(d(t2, ((t3) => p((e3) => j(e3) && e3 >= t3))(e2))), positive: () => k(d(t2, p((t3) => j(t3) && t3 > 0))), negative: () => k(d(t2, p((t3) => j(t3) && t3 < 0))) });
+var T = k(p(j));
+var B = a(p(function(t2) {
+  return "boolean" == typeof t2;
+}));
+var _ = a(p(function(t2) {
+  return "symbol" == typeof t2;
+}));
+var W = a(p(function(t2) {
+  return null == t2;
+}));
+var $ = a(p(function(t2) {
+  return null != t2;
+}));
+var z = { __proto__: null, matcher: t, optional: h, array: function(...e2) {
+  return l({ [t]: () => ({ match: (t2) => {
+    if (!Array.isArray(t2)) return { matched: false };
+    if (0 === e2.length) return { matched: true };
+    const n2 = e2[0];
+    let r2 = {};
+    if (0 === t2.length) return s(n2).forEach((t3) => {
+      r2[t3] = [];
+    }), { matched: true, selections: r2 };
+    const i2 = (t3, e3) => {
+      r2[t3] = (r2[t3] || []).concat([e3]);
+    };
+    return { matched: t2.every((t3) => o(n2, t3, i2)), selections: r2 };
+  }, getSelectionKeys: () => 0 === e2.length ? [] : s(e2[0]) }) });
+}, set: function(...e2) {
+  return a({ [t]: () => ({ match: (t2) => {
+    if (!(t2 instanceof Set)) return { matched: false };
+    let n2 = {};
+    if (0 === t2.size) return { matched: true, selections: n2 };
+    if (0 === e2.length) return { matched: true };
+    const r2 = (t3, e3) => {
+      n2[t3] = (n2[t3] || []).concat([e3]);
+    }, i2 = e2[0];
+    return { matched: f(t2, (t3) => o(i2, t3, r2)), selections: n2 };
+  }, getSelectionKeys: () => 0 === e2.length ? [] : s(e2[0]) }) });
+}, map: function(...e2) {
+  return a({ [t]: () => ({ match: (t2) => {
+    if (!(t2 instanceof Map)) return { matched: false };
+    let n2 = {};
+    if (0 === t2.size) return { matched: true, selections: n2 };
+    const r2 = (t3, e3) => {
+      n2[t3] = (n2[t3] || []).concat([e3]);
+    };
+    if (0 === e2.length) return { matched: true };
+    var i2;
+    if (1 === e2.length) throw new Error(`\`P.map\` wasn't given enough arguments. Expected (key, value), received ${null == (i2 = e2[0]) ? void 0 : i2.toString()}`);
+    const [s2, c2] = e2;
+    return { matched: g(t2, (t3, e3) => {
+      const n3 = o(s2, e3, r2), i3 = o(c2, t3, r2);
+      return n3 && i3;
+    }), selections: n2 };
+  }, getSelectionKeys: () => 0 === e2.length ? [] : [...s(e2[0]), ...s(e2[1])] }) });
+}, record: function(...e2) {
+  return a({ [t]: () => ({ match: (t2) => {
+    if (null === t2 || "object" != typeof t2 || Array.isArray(t2)) return { matched: false };
+    var n2;
+    if (0 === e2.length) throw new Error(`\`P.record\` wasn't given enough arguments. Expected (value) or (key, value), received ${null == (n2 = e2[0]) ? void 0 : n2.toString()}`);
+    let r2 = {};
+    const i2 = (t3, e3) => {
+      r2[t3] = (r2[t3] || []).concat([e3]);
+    }, [s2, c2] = 1 === e2.length ? [A, e2[0]] : e2;
+    return { matched: m(t2, (t3, e3) => {
+      const n3 = "string" != typeof t3 || Number.isNaN(Number(t3)) ? null : Number(t3), r3 = null !== n3 && o(s2, n3, i2), u2 = o(s2, t3, i2), a2 = o(c2, e3, i2);
+      return (u2 || r3) && a2;
+    }), selections: r2 };
+  }, getSelectionKeys: () => 0 === e2.length ? [] : [...s(e2[0]), ...s(e2[1])] }) });
+}, intersection: d, union: y, not: function(e2) {
+  return a({ [t]: () => ({ match: (t2) => ({ matched: !o(e2, t2, () => {
+  }) }), getSelectionKeys: () => [], matcherType: "not" }) });
+}, when: p, select: v, any: K, unknown: O, _: E, string: A, number: P, bigint: T, boolean: B, symbol: _, nullish: W, nonNullable: $, instanceOf: function(t2) {
+  return a(p(/* @__PURE__ */ (function(t3) {
+    return (e2) => e2 instanceof t3;
+  })(t2)));
+}, shape: function(t2) {
+  return a(p(u(t2)));
+} };
+var I = class extends Error {
+  constructor(t2) {
+    let e2;
+    try {
+      e2 = JSON.stringify(t2);
+    } catch (n2) {
+      e2 = t2;
+    }
+    super(`Pattern matching error: no pattern matches value ${e2}`), this.input = void 0, this.input = t2;
+  }
+};
+var L = { matched: false, value: void 0 };
+function M(t2) {
+  return new R(t2, L);
+}
+var R = class _R {
+  constructor(t2, e2) {
+    this.input = void 0, this.state = void 0, this.input = t2, this.state = e2;
+  }
+  with(...t2) {
+    if (this.state.matched) return this;
+    const e2 = t2[t2.length - 1], r2 = [t2[0]];
+    let i2;
+    3 === t2.length && "function" == typeof t2[1] ? i2 = t2[1] : t2.length > 2 && r2.push(...t2.slice(1, t2.length - 1));
+    let s2 = false, c2 = {};
+    const u2 = (t3, e3) => {
+      s2 = true, c2[t3] = e3;
+    }, a2 = !r2.some((t3) => o(t3, this.input, u2)) || i2 && !Boolean(i2(this.input)) ? L : { matched: true, value: e2(s2 ? n in c2 ? c2[n] : c2 : this.input, this.input) };
+    return new _R(this.input, a2);
+  }
+  when(t2, e2) {
+    if (this.state.matched) return this;
+    const n2 = Boolean(t2(this.input));
+    return new _R(this.input, n2 ? { matched: true, value: e2(this.input, this.input) } : L);
+  }
+  otherwise(t2) {
+    return this.state.matched ? this.state.value : t2(this.input);
+  }
+  exhaustive(t2 = F) {
+    return this.state.matched ? this.state.value : t2(this.input);
+  }
+  run() {
+    return this.exhaustive();
+  }
+  returnType() {
+    return this;
+  }
+  narrow() {
+    return this;
+  }
+};
+function F(t2) {
+  throw new I(t2);
+}
+
 // src/utils/range.ts
 var setMin = (prev, cur) => {
   if (prev === void 0 || prev !== void 0 && cur < prev) {
@@ -3103,7 +3388,7 @@ var setMax = (prev, cur) => {
   }
   return prev;
 };
-var createRange = (start, num) => Array.from(Array(num), (v, k) => k + start);
+var createRange = (start, num) => Array.from(Array(num), (v2, k2) => k2 + start);
 
 // src/utils/markdown.ts
 var checkHeading = (content) => {
@@ -3233,7 +3518,8 @@ var composeLineChanges = (editor, lineNumbers, changeCallback, settings) => {
 var createListIndentChanges = (editor, {
   parentLineNumber,
   parentIndentLevel,
-  tabSize = TABSIZE
+  tabSize = TABSIZE,
+  changeHeadingLevel
 }) => {
   const parentLine = editor.getLine(parentLineNumber);
   const prevParentIndentLevel = countIndentLevel(parentLine, tabSize);
@@ -3250,15 +3536,24 @@ var createListIndentChanges = (editor, {
       countIndentLevel(line, tabSize) + indentDelta,
       0
     );
-    const match = line.match(
+    const matchResult = line.match(
       new RegExp("^(?<whitespace>\\s*)(?<bullet>[-*]\\s*|(?<numbered>\\d+\\.\\s*))(?<heading>#+\\s*)?(?<content>.*)$")
     );
     const tabsMarkers = "	".repeat(newIndentLevel);
-    const bulletMarkers = ((_a = match == null ? void 0 : match.groups) == null ? void 0 : _a.bullet) || "";
-    const numberedMarkers = ((_b = match == null ? void 0 : match.groups) == null ? void 0 : _b.numbered) || "";
+    const bulletMarkers = ((_a = matchResult == null ? void 0 : matchResult.groups) == null ? void 0 : _a.bullet) || "";
+    const numberedMarkers = ((_b = matchResult == null ? void 0 : matchResult.groups) == null ? void 0 : _b.numbered) || "";
     const listMarker = bulletMarkers || numberedMarkers;
-    const headingMarkers = ((_c = match == null ? void 0 : match.groups) == null ? void 0 : _c.heading) ? "#".repeat(Math.min(newIndentLevel + 1, 6)) + " " : "";
-    const content = ((_d = match == null ? void 0 : match.groups) == null ? void 0 : _d.content) || "";
+    const headingMarkers = M({
+      heading: (_c = matchResult == null ? void 0 : matchResult.groups) == null ? void 0 : _c.heading,
+      changeHeadingLevel
+    }).with({ heading: void 0, changeHeadingLevel: z._ }, () => "").with(
+      { heading: z._, changeHeadingLevel: true },
+      () => `${"#".repeat(Math.min(newIndentLevel + 1, 6))} `
+    ).with(
+      { heading: z._, changeHeadingLevel: z.not(true) },
+      ({ heading }) => heading
+    ).exhaustive();
+    const content = ((_d = matchResult == null ? void 0 : matchResult.groups) == null ? void 0 : _d.content) || "";
     const newLine = `${tabsMarkers}${listMarker}${headingMarkers}${content}`;
     changes.push({
       text: newLine,
@@ -3273,13 +3568,13 @@ var createListIndentChanges = (editor, {
 var applyHeading = (chunk, headingSize, settings) => {
   var _a;
   const extractRegExp = (settingObj, regExpObj) => {
-    return Object.entries(settingObj != null ? settingObj : {}).flatMap(([k, v]) => {
+    return Object.entries(settingObj != null ? settingObj : {}).flatMap(([k2, v2]) => {
       var _a2;
-      if (Array.isArray(v)) {
-        return v;
+      if (Array.isArray(v2)) {
+        return v2;
       }
-      if (k in regExpObj && v === true) {
-        return (_a2 = regExpObj[k]) != null ? _a2 : [];
+      if (k2 in regExpObj && v2 === true) {
+        return (_a2 = regExpObj[k2]) != null ? _a2 : [];
       }
       return [];
     });
@@ -3323,20 +3618,18 @@ var createListIndentChangesByListBehavior = (editor, {
   parentIndentLevel,
   parentLineNumber
 }) => {
-  if (listBehavior !== "outdent to zero" && listBehavior !== "sync with headings") {
+  if (listBehavior === "noting") {
     return [];
   }
-  const parentIndentLevelByBehavior = listBehavior === "sync with headings" ? (
-    // follow parent
-    Math.max(0, parentIndentLevel)
-  ) : (
-    // Force the next line of parent to be 0
-    -countIndentLevel(editor.getLine(parentLineNumber + 1), tabSize) + countIndentLevel(editor.getLine(parentLineNumber), tabSize)
-  );
+  const parentIndentLevelByBehavior = M(listBehavior).with("sync with headings", () => Math.max(0, parentIndentLevel)).with(
+    "outdent to zero",
+    () => -countIndentLevel(editor.getLine(parentLineNumber + 1), tabSize) + countIndentLevel(editor.getLine(parentLineNumber), tabSize)
+  ).exhaustive();
   const indentChanges = createListIndentChanges(editor, {
     parentLineNumber,
     parentIndentLevel: parentIndentLevelByBehavior,
-    tabSize
+    tabSize,
+    changeHeadingLevel: listBehavior === "sync with headings"
   });
   return indentChanges;
 };

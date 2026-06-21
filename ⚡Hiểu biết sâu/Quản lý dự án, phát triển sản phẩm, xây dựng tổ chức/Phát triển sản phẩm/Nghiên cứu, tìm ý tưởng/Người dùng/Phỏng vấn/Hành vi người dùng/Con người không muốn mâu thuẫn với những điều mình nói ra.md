@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:11
+updated: 2026-05-12T23:39
 ---
 Tất nhiên họ có thể bịa ra lý do để lý giải hành vi của mình, nhưng đó là khi họ chưa ý thức được sự bịa đó. Nhưng một khi họ đã nói ra rồi, thì thường họ sẽ muốn làm đúng với lời họ nói?
 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-07-28T21:54
-updated: 2026-03-11T13:56
+updated: 2026-05-12T23:39
 aliases:
   - ngắn hạn
   - khẩn cấp

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:49
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Phức tạp, phức hợp]], [[Đơn giản]]
 ![The Law of Unintended Consequences example explained - when a simple system regulates a complex system](https://sketchplanations.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fsketchplanations%2FZ3wOn5bqstJ99Fti_SP663-Unintendedconsequences-revised.png%3Fauto%3Dformat%2Ccompress&w=3840&q=75)

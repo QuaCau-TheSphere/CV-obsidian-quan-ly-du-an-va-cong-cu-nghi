@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-03-30T12:46
+updated: 2026-05-12T23:39
 ---
 [[Quan sát tham dự không phải là khai thác thông tin]]
 [[❓Nếu nhà nhân học kết nối với lý thuyết nhiều hơn, vậy thì khác gì với các bài báo xã luận, phân tích]] 

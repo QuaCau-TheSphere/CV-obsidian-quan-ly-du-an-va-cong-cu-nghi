@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-22T21:55
-updated: 2026-02-16T12:31
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 Ngày xưa có 2 trường phái:

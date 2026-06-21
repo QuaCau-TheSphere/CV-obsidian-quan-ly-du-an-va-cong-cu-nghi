@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-03-13T22:19
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Nguồn:: [Nghiên cứu 8 chatbot AI: Chatbot nào cũng dẫn sai thông tin, trung bình 60%, cá biệt có AI sai 96%](https://tinhte.vn/thread/nghien-cuu-8-chatbot-ai-chatbot-nao-cung-dan-sai-thong-tin-trung-binh-60-ca-biet-co-ai-sai-96.3968655/)
 [LESSON 9](https://thebullshitmachines.com/lesson-9-blue-links-matter/index.html)

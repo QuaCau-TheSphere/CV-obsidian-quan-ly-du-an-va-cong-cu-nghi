@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-22T21:45
-updated: 2026-03-25T12:42
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Vật thể]]
 [[Ẩn dụ là nền tảng của mọi suy nghĩ và lập luận]]. [[Chúng ta sống bằng ẩn dụ]]

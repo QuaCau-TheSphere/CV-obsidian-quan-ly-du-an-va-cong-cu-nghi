@@ -37,7 +37,7 @@
   "obsidian-snippet-downloader",
   "obsidian-local-rest-api",
   "image-to-text-ocr",
-  "obsidian-excalidraw-plugin",
   "obsidian-image-uploader",
-  "obsidian-zotero-desktop-connector"
+  "obsidian-zotero-desktop-connector",
+  "vscode-editor"
 ]

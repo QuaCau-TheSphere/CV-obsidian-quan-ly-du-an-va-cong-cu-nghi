@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-13T00:06
-updated: 2026-04-18T20:12
+updated: 2026-05-12T23:39
 ---
 [[Thành quả (outcome) là kết quả thu được do sự thay đổi về hành vi của người dùng khi tương tác với sản phẩm đã được cải tiến hoặc sản phẩm mới]] 
 [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]

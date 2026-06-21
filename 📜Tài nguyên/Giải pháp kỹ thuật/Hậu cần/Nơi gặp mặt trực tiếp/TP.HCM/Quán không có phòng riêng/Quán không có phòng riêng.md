@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-18T11:21
-updated: 2026-01-14T13:11
+updated: 2026-05-12T23:39
 title: Quán không có phòng riêng ở TPHCM
 ---
 Không bị ồn từ bên ngoài:: ❌

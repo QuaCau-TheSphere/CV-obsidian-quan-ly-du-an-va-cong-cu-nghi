@@ -3,7 +3,7 @@ share: true
 created: 2023-05-26T14:51
 aliases:
   - Đồ thị mạng lưới
-updated: 2026-02-05T17:27
+updated: 2026-06-05T13:02
 ---
 [[Đồ thị mạng lưới giúp ta thấy được mẫu hình]]. Tùy vào mục tiêu mà có nhiều loại khác nhau. Nếu mục tiêu là làm rõ lập luận của mình thì xem [[Sơ đồ hóa kiến thức, tạo canvas]]. Ở đây tập trung vào mục tiêu thể hiện được sự biến thiên phi tuyến của các đại lượng, hoặc sự liên kết hoặc rời rạc của các nút. Nó nằm trong động học hệ thống ([System dynamics](https://en.wikipedia.org/wiki/System_dynamics) hoặc [[lý thuyết đồ thị]]. Xem thêm:: [[Hệ phức hợp]]
 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-18T20:34
-updated: 2026-03-30T12:46
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Diễn giải, đọc]]
 [[Khi nhà nghiên cứu xem mình là người đọc và chú giải văn bản, họ bóc tách các lớp để tạo ra một văn bản mới. Khi họ xem mình là đưa thư, họ kết nối những văn bản để tạo ra văn bản mới]]

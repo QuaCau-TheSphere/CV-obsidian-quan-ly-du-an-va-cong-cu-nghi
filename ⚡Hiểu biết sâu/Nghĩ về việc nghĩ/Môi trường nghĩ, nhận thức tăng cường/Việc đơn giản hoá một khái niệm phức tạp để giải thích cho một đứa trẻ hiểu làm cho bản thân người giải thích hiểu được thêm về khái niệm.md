@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 title: Việc đơn giản hoá một khái niệm phức tạp để giải thích cho một đứa trẻ hiểu không làm cho đứa trẻ đó hiểu được hết khái niệm đó, nhưng làm cho bản thân người giải thích hiểu được thêm về khái niệm
 ---
 

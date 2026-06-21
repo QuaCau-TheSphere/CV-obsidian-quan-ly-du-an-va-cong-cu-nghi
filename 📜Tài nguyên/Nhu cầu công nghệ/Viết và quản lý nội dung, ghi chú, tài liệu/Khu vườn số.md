@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-12-02T14:00
-updated: 2026-03-25T12:47
+updated: 2026-05-31T21:49
 ---
 Đáp ứng cho nhu cầu công việc: `=filter(this.file.inlinks, (i) => contains(i.nhu-cầu-công-nghệ, [[]]))`
 

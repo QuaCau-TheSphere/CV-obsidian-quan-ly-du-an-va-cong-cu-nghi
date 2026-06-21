@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-11-24T21:23
-updated: 2026-01-14T13:11
+updated: 2026-05-27T13:56
 ---
 Tôi đang trong cơn muốn tìm hiểu về đường cú pháp, và tôi google [`syntactic sugar`](https://www.google.com/search?client=firefox-b-d&q=syntactic+sugar). Tôi bấm các liên kết tôi thấy hấp dẫn, và trong đó có bài [On syntactic sugar](https://evertpot.com/syntactic-sugar/). Dường như trong những kết quả được lên trang nhất Google, thì tôi thấy muốn đọc các blog cá nhân hơn, vì cảm giác mình sẽ dễ thu lượm được những thứ mà những nền tảng blog khác như dev.to, freeCodeCamp, Quora, v.v. ít khi cung cấp. Tôi nghĩ nhiều bài trên đó cũng đáng xem, nhưng để biết được những thứ thực sự rất rốt ráo thì . Bài viết dẫn tới hai bài này:
 - [Why Async/Await Is More Than Just Syntactic Sugar](https://www.zhenghao.io/posts/await-vs-promise)

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-10-18T12:41
-updated: 2026-03-27T00:03
+updated: 2026-06-05T13:02
 aliases:
   - Sơ đồ kiến thức, canvas, mindmap
 description: Thể hiện bức tranh toàn cảnh giữa các lập luận, ý tưởng
@@ -30,6 +30,7 @@ Lý thuyết phạm trù
 - [Diagrammatic reasoning - Wikipedia](https://en.wikipedia.org/wiki/Diagrammatic_reasoning)
 - Concept map, knowledge graph
 - [The Flowchart - UKPersonalFinance Wiki](https://ukpersonal.finance/flowchart/)
+
 ## Tự nhập ý tưởng của mình
 ### Số lượng nhỏ
 [Chỉ cần mẩu khăn giấy](https://file.nhasachmienphi.com/pdf/nhasachmienphi-chi-can-mau-khan-giay.pdf)
@@ -40,6 +41,8 @@ Lý thuyết phạm trù
 - [Kinopio](https://kinopio.club/hello-kinopio-0sorcue6MMLibrO24qy-C) (tác giả của nó là đồng sáng lập ra Fog Creek: [About](https://pketh.org/about/), [#8 – Pirijan Ketheswaran: Kinopio, Canvas-based tools, being a solo developer — localfirst.fm](https://www.localfirst.fm/8))
 
 ### Số lượng lớn
+Việc lập cây vấn đề hoặc cây giải pháp (issue tree/solution tree) là một phần không thể thiếu trong việc lập kế hoạch để đi tìm nguyên nhân gốc rễ và vét cạn các giải pháp cho vấn đề đó. Vấn đề là cho tới nay không có cách nào để vẽ được nó trên máy một cách thuận tiện cả. Tất nhiên là vẫn có những phần mềm để vẽ, nhưng bạn vẫn còn phải làm một công việc thủ công: tự tay cầm chuột nối các khối lại với nhau. Với những sơ đồ lớn (nghe nói là có những dự án phải vẽ lên trên cả một bức tường), việc thêm vào một nút hoặc một nhánh nhiều khi là phải vẽ lại toàn bộ cả sơ đồ. Mà bạn biết đấy, cứ mỗi lần bạn nghĩ là mình đã nghĩ ra hết không còn ý nào rồi thì một thời gian sau đầu bạn lại nảy ra thêm một ý mới. Bỏ thì vương thương thì tội: ý mới quá quan trọng không thể không bổ sung vào, mà bổ sung vào thì cực quá. Bạn không bao giờ chắc chắn là đây có phải là phiên bản cuối cùng hay chưa, nhưng bạn có thể chắc chắn rằng với ý tưởng mới ra này bạn cần phải vẽ lại ngay để mà còn sử dụng. Thành ra cuối cùng là chúng ta đánh nhau với công cụ, hơn là dùng công cụ để giải quyết vấn đề.
+
 Cái này không gọi là đồ thị mạng lưới, vì dù nó có liên kết với nhau thì việc ứng dụng lý thuyết đồ thị vào nó cũng thấp. Cần có một định nghĩa rõ ràng hơn cho việc liên kết.
 
 ![Kialo - YouTube](https://youtu.be/MifNyU49_JA) 

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-12-16T11:18
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Web]], [[Gánh nặng nhận thức]]
 [[Thời gian để ta thấy không bị ngắt mạch là 100 ms]]. Thời gian lật trang cũng chừng đó.

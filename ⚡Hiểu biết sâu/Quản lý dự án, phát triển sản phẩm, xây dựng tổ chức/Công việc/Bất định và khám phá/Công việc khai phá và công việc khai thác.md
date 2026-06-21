@@ -1,12 +1,14 @@
 ---
 share: true
-created: 2023-05-26T14:51
-updated: 2026-03-11T14:36
+created: 2025-09-27T16:20
+updated: 2026-05-18T21:31
 cssclasses:
   - wide-table
 aliases:
   - Công việc khai phá
   - Công việc khai thác
+Nội dung:
+  - câu trả lời
 ---
 Khái niệm:: [[Công việc]], [[Cấu trúc]]
 
@@ -89,3 +91,9 @@ Tuy việc này sẽ làm cây mục tiêu đồ sộ hơn so với chỉ đính
 - [[Người người vạch chiến lược hay nhiều khi được giao triển khai luôn, hoặc người làm chuyên môn tốt nhiều khi được đề bạt lên làm quản lý, lãnh đạo]]
 - [[Những công việc không đòi hỏi sự tập trung cao độ]]
 - [[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết là đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
+
+Khái niệm:: [[Hệ phức hợp]]
+[[Tổ chức phi tập trung]]
+## Sự cân bằng giữa exploration và exploitation
+Sự khám phá những cái mới làm giảm tốc độ cải thiện kỹ năng sử dụng cái cũ. Việc competences của quy trình hiện tại được cải thiện làm việc thử nghiệm cái mới kém hấp dẫn hơn
+Trong ngôn ngữ của những mô hình về tiến hóa tổ chức và công nghệ thì vấn đề này được frame là sự cân bằng giữa biến thể và lọc lựa. Because of the links among environmental turbulence, organizational diversity, and competitive advantage,the evolutionary dominance of an organizational practice is sensitive to the relation between the rate of exploratory variation created by the practice and the rate of change in the environs. 

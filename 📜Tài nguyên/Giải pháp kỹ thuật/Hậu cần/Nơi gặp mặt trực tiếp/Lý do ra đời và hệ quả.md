@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2025-05-06T12:52
-updated: 2026-03-06T16:14
+updated: 2026-06-16T20:54
 description: Nó khác gì với những dự án tương tự khác? Nó chấp nhận những đánh đổi nào?
 aliases:
   - Động lực
+title: Lý do ra đời kho địa điểm để chọn nơi gặp mặt, và hệ quả của những lý do đó
 ---
-# Lý do ra đời kho địa điểm để chọn nơi gặp mặt, và hệ quả của những lý do đó
 ## Lý do ra đời
 [[Nơi gặp mặt trực tiếp|Kho địa điểm để chọn nơi gặp mặt]] đến từ mong muốn kết nối người cần tìm địa điểm với người có địa điểm. Dự án mong muốn một điều *duy nhất*: **Làm cho người cần tìm địa điểm gặp mặt có thể tìm được địa điểm phù hợp với nhu cầu riêng biệt của mình một cách nhanh nhất**.
 
@@ -18,7 +18,7 @@ aliases:
 	- Dữ liệu có sẵn trong kho thông tin của người dùng có thể được tải lên kho chung một cách thụ động và hàng loạt 
 	- Người dùng có thể tự triển khai hệ thống của riêng họ cho nhóm người dùng của riêng họ
 	- Chức năng mới có thể bổ sung dễ dàng 
-- Đạt quy mô
+- Đạt quy mô đủ để xác suất gặp thông tin lạc hậu thấp ở mức chấp nhận được
 
 Do không tìm được chương trình nào thỏa mãn được những điều đó nên tôi bắt tay vào làm. Đây là một phần của dự án [[Mô tả dự án|Phá vỡ silo thông tin, nắm bắt nhu cầu các bên và sử dụng các nguồn tài nguyên cộng đồng hiệu quả]]
 
@@ -119,7 +119,7 @@ Chỉ tập trung vào ăn uống
 ### Bản đồ tiếp cận D.Map
 [D.Map](https://dmap.drdvietnam.org/#/mapx) là một bản đồ hướng đến việc giúp người khuyết tật tìm kiếm các công trình công cộng tiếp cận. Dự án được USAID và UNDP Việt Nam tài trợ, và có sự tham gia của báo chí, tổ chức sự kiện ở nhiều tỉnh thành. Vào thời điểm ra mắt, nó có cả app cho Android và iOS.
 
-Kiến thức để tự vận hành một cơ sở dữ liệu thế này phức tạp hơn cho người không biết gì
+Kiến thức để tự vận hành một cơ sở dữ liệu thế này phức tạp hơn cho người không biết 
 
 ![[Pasted image 20250717114312.png]]
 ![[Pasted image 20250717114251.png]]

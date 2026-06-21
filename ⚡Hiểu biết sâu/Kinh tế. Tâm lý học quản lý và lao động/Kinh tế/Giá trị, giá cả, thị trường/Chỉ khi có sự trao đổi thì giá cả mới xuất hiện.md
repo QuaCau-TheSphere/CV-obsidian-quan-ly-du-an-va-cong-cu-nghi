@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Giá cả]]
 [Giá trị trao đổi](https://vi.wikipedia.org/wiki/Gi%C3%A1_tr%E1%BB%8B_trao_%C4%91%E1%BB%95i "Giá trị trao đổi") là một quan hệ về số lượng, là tỉ lệ theo một [giá trị sử dụng](https://vi.wikipedia.org/wiki/Gi%C3%A1_tr%E1%BB%8B_s%E1%BB%AD_d%E1%BB%A5ng "Giá trị sử dụng") loại hàng hoá này được trao đổi với một giá trị sử dụng khác. Ví dụ 1 m vải có thể đổi được 4 kg gạo. Gạo và vải, tại sao lại trao đổi được với nhau, hơn nữa lại trao đổi được theo một tỉ lệ nhất định như vậy, rõ ràng nó phải có một cơ sở chung, đó không phải là giá trị sử dụng của chúng vì vải và gạo có giá trị sử dụng hoàn toàn khác nhau, cái chung đó là cả vải và gạo đều là [sản phẩm](https://vi.wikipedia.org/wiki/S%E1%BA%A3n_ph%E1%BA%A9m "Sản phẩm") của lao động, do lao động (thời gian lao động và công sức lao động) được chứa đựng trong hàng hoá, đó chính là cơ sở giá trị của hàng hoá.

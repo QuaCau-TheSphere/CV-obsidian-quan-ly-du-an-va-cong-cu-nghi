@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-05-11T14:27
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Trung tâm hóa]], [[Dữ liệu]]
 Lý do:: [[Việc hợp tác làm việc thời gian thực với dữ liệu được lưu ở máy cá nhân là một bài toán khó]]

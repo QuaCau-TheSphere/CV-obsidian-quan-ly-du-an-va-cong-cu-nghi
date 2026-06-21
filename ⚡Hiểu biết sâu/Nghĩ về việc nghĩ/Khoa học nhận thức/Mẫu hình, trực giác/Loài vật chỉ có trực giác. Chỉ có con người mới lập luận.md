@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Trực giác]], [[Lập luận]]
 [[Sự suy luận (reasoning) là việc đưa ra những thông tin mới từ những thông tin đã có một cách có ý thức]]

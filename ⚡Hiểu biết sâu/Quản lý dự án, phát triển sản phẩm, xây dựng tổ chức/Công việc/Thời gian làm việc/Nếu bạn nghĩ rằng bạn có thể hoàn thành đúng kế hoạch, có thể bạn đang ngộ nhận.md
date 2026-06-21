@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-29T12:05
-updated: 2026-04-16T12:26
+updated: 2026-05-27T15:31
 ---
 Khái niệm:: [[Kế hoạch (khái niệm)]], [[Dự đoán]]
 Lý do:: [[Mọi thứ sẽ luôn tốn thời gian hơn bạn nghĩ|Định luật Hofstadter: Mọi thứ sẽ luôn tốn thời gian hơn bạn nghĩ, kể cả khi bạn đã tính đến định luật Hofstadter]]

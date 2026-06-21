@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 aliases:
   - Tại sao có nhiều giải pháp khác nhau cho cùng một vấn đề đến như vậy?
 description: Tại sao có nhiều giải pháp khác nhau cho cùng một vấn đề đến như vậy?

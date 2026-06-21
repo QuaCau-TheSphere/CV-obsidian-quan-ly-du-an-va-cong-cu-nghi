@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 [[Não con người thay đổi rất chậm]]
 Vì trong khi công nghệ thường thay đổi nhanh chóng, mọi người thay đổi rất chậm

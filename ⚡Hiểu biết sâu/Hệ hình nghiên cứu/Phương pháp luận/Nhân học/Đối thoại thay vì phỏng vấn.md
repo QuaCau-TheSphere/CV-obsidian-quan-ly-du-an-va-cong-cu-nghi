@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-11T21:29
-updated: 2026-03-30T13:03
+updated: 2026-05-12T23:39
 ---
 [[Diễn giải văn bản không phải là sự đối thoại do nó không phụ thuộc vào việc có mặt của người nói]] 
 

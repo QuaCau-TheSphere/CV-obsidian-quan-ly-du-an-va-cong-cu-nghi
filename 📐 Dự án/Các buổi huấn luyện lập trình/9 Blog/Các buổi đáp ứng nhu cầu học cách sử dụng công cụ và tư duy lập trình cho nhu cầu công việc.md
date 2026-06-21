@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-26T15:55
-updated: 2026-02-04T17:33
+updated: 2026-06-16T21:23
 cssClasses:
   - wide-table
 ---
@@ -75,18 +75,17 @@ Writing Logseq Collins Dictionary Plugin
 Giới hạn của PKM nằm ở đâu: máy móc mình sử dụng hay chính người sử dụng nó? 
 ![Giới hạn của PKM nằm ở đâu: máy móc mình sử dụng hay chính người sử dụng nó? - YouTube](https://www.youtube.com/watch?v=DIKNl3nVSxw)
 
- Công nghệ và ký ức: trí nhớ của ta có còn nằm trong não của ta nữa không?
+Công nghệ và ký ức: trí nhớ của ta có còn nằm trong não của ta nữa không?
 ![Công nghệ và ký ức: trí nhớ của ta có còn nằm trong não của ta nữa không? - YouTube](https://www.youtube.com/watch?v=anEPsQCBPKI)
+
+Không tên
+![Thảo luận về công cụ và tư duy lập trình cho nhu cầu công việc - YouTube](https://youtu.be/By_xf7OpOSY?si=5M2xmM-_X1c9_PPV)
 
 ## Lộ trình
 Vì đây là dự án phục vụ nhu cầu của bạn, nên số lượng buổi học, thời gian học, và hình thức học (trực tuyến hay trực tiếp) đều do bạn quyết định. 
 
 Người ai có khả năng và mong muốn hướng dẫn lại cho người khác sẽ trở thành người hướng dẫn. Hiện tại, người hướng dẫn chính là Lý Minh Nhật ([LinkedIn](https://www.linkedin.com/in/nh%E1%BA%ADt-l%C3%BD/)).
 
-Bọn mình cho rằng **bạn nên được quyền quyết định giá trị của buổi hướng dẫn**. Bọn mình khuyến khích bạn đề xuất giá trị của buổi hướng dẫn này với đa dạng hình thức chi trả/trao đổi nhu cầu (ví dụ: tiền hoặc các tác vụ hỗ trợ Quả Cầu theo thoả thuận). Để tham gia hãy điền vào phiếu đăng ký ở dưới. Sau khi xem xét các đăng ký, bọn mình sẽ lựa chọn để trao đổi và hợp tác với những nhu cầu phù hợp.
-
-Đọc thêm các bài sau đây để hiểu hơn về ý tưởng này:
-- [[Mô hình kinh doanh của các buổi đáp ứng nhu cầu học cách sử dụng công cụ và tư duy lập trình|Khi nào thì chiến lược định giá "trả tuỳ tâm" đạt được sự bền vững?]]
 - [Các buổi chia sẻ kỹ năng miễn phí với nhau](https://xn--qucu-hr5aza.cc/cac-buoi-chia-se-ky-nang-mien-phi-voi-nhau/?utm_source=CW+%C2%BB+Obsidian%2C+qu%E1%BA%A3n+l%C3%BD+d%E1%BB%B1+%C3%A1n+v%C3%A0+c%C3%B4ng+c%E1%BB%A5+ngh%C4%A9&utm_medium=vault&utm_campaign=C%C3%A1c+bu%E1%BB%95i+h%C6%B0%E1%BB%9Bng+d%E1%BA%ABn+l%E1%BA%ADp+tr%C3%ACnh)
 
 ## Nơi thảo luận, đăng ký

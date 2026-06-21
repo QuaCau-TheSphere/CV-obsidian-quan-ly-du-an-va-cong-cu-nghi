@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-03T11:28
-updated: 2026-02-10T12:09
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Văn bản]]
 Cho rất nhiều văn bản, mỗi văn bản chứa rất nhiều từ. Mục tiêu là tô màu các từ sao cho:

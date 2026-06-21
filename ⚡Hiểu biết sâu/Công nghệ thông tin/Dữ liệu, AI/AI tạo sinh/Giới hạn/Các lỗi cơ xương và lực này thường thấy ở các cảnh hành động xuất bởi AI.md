@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 AI có xu hướng cân đối lại hình đầu vào mà nó nhận được. Như ảnh này chụp hơi nghiêng thi nó bóp cho thành chuẩn trực diện. Thứ nữa AI chưa hiểu được giải phẫu cơ xương và lực. Dễ thấy cơ hàm con beo khi ngoạm mồi nó phải gồng lên và bị lệch do góc xương của con mồi. Răng nanh phải ngoạm vào con mồi vì vậy bị che khuất thì AI cho là "phải có đủ". Các lỗi cơ xương và lực này thường thấy ở các cảnh hành động xuất bởi AI, như là cánh tay cơ bắp luôn tròn trịa đầy đặn bất kể đang cầm, nắm, buông, kéo, đẩy.v.v

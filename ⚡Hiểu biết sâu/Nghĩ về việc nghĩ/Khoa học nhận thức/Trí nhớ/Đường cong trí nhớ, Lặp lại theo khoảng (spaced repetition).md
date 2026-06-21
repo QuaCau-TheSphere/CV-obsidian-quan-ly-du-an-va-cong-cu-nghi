@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Một bài truyện tranh giải thích về đường cong trí nhớ và công cụ lặp lại theo khoảng (spaced repetition) là gì này. Đây là một bài tương tác, nghĩa là bạn vừa tìm hiểu về nó vừa thực hành luôn, và đọc xong sẽ có thể tạo ra một thẻ học cho riêng mình luôn.
 

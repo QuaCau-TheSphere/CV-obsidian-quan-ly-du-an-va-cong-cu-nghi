@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-06-15T11:49
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 [[LLM không học. Nó chỉ được tối ưu hoá trong một tập điều kiện]]
 Learning is a helpful metaphor for what LLMs and diffusion models do. However, there is a distinction between the _metaphor_ of learning and the _process_ we describe with that metaphor. For one, a model doesn’t exist until it has “learned,” which is quite different from what we do as people: a student exists, and then goes to school, and then learns, using a mind that was already there. We value a student’s ability to learn because people have intrinsic value.

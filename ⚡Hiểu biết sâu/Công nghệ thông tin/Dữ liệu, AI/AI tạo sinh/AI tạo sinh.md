@@ -4,7 +4,7 @@ created: 2024-11-26T17:35
 title: Các câu hỏi và đối thoại về AI tạo sinh
 aliases:
   - LLM
-updated: 2026-03-25T12:55
+updated: 2026-05-27T13:30
 ---
 ## LLM có năng lực cao?
 
@@ -132,3 +132,4 @@ toàn bộ cuộc nói chuyện chỉ theo một framework thôi
 Trong trường hợp kiểm tra thông tin, mình nghĩ có thể xem AI như Wiki vậy: tiện dụng khi tham khảo, nhưng ko dùng làm trích dẫn được. Nếu AI bảo là có trang A gì đó nói thông tin X, thì điều bạn cần là dẫn ra trang A chứ ko phải là kết quả AI. Nếu AI bảo là đã xem qua các trang A, B, C và không thấy có thông tin X, thì điều bạn cần là dẫn ra các trang A, B, C và nói là bạn không thấy có thông tin X trong đó
 
 [AI Safety Vietnam](https://www.antoan.ai)
+![Sự vô đạo đức của AI (aka những kẻ đứng sau nó) trong Truyền Thông Marketing - YouTube](https://www.youtube.com/watch?v=MFO6ev83Uy4)

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-22T13:37
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Giả định]], [[Triết học]]
 [[Thật khó để nghe thấy sự nghĩ của chính mình]]

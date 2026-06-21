@@ -92,3 +92,48 @@ body .internal-embed .markdown-embed-content {
 	width: 100%;
 	min-height: 10rem;
 }
+
+/**
+Divide & Conquer Settings Page
+**/
+
+/* Warning wrapper */
+.dac-warning-setting {
+	border: 3px solid var(--text-warning);
+	padding: 10px;
+	margin-bottom: 12px;
+}
+
+/* Warning top text */
+.dac-warning-setting .setting-item-name {
+	color: var(--text-warning);
+	font-weight: 600;
+}
+
+/* Exclusions: left side*/
+.dac-exclusions .setting-item-info {
+	width: 45%;
+}
+
+/* Exclusions: right side*/
+.dac-exclusions .setting-item-control {
+	width: 100%;
+}
+
+.dac-exclusions .setting-item-control textarea {
+	width: 100%;
+}
+
+/* Exclusions: readonly included-items textareas show pointer cursor for click-to-exclude UX */
+.dac-exclusions .setting-item-control textarea:nth-child(1) {
+	cursor: pointer;
+}
+
+/**
+Obsidian Community Plugins Page
+**/
+
+/* The action buttons that are inserted */
+.installed-plugins-container .setting-item-heading .setting-item-control button {
+	margin-left: 8px;
+}

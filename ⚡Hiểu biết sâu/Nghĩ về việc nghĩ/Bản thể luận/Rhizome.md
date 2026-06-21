@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-09-03T00:36
-updated: 2026-02-10T11:50
+updated: 2026-06-01T19:41
 ---
 Khái niệm:: [[Lý thuyết đồ thị]], [[Phân loại]], [[Giải trung tâm]]
 ## Sách rễ cọc

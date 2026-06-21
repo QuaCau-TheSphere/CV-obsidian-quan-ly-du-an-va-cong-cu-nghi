@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Bản đồ]]
 Lý do:: [[Ngành kỹ thuật phần mềm không có một ngôn ngữ thị giác chung]]. [[Các biểu diễn kiến trúc không nói gì về thời gian, sự thay đổi theo thời gian, và sự bất định về sự thay đổi]]

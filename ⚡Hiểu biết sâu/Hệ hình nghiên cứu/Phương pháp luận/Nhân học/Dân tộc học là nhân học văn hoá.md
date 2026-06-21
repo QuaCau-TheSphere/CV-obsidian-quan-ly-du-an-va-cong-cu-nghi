@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-03-30T12:46
+updated: 2026-05-12T23:39
 ---
 **Từ những chuyển động đầu tiên đầy khó khăn ở Khoa Lịch sử, trường Đại học Quốc gia Hà Nội, giữa những năm 1990, một thập kỷ sau người ta đã thấy cả hệ thống nghiên cứu và đào tạo dân tộc học Việt Nam đang chuyển hướng sang tiếp cận nhân loại học không phải là một ngoại lệ mà nó nằm trong xu thế phổ biến ở tất cả các nước xã hội chủ nghĩa, trong quá trình hội nhập quốc tế và hiện đại hóa khoa học.**
 

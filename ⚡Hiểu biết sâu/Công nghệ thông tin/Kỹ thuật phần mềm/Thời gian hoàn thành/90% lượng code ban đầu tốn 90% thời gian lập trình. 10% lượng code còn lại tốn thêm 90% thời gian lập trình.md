@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-27T00:43
-updated: 2025-12-22T17:31
+updated: 2026-05-12T23:39
 aliases:
   - "Định luật 90-90: 90% lượng code ban đầu tốn 90% thời gian lập trình. 10% lượng code còn lại tốn thêm 90% thời gian lập trình"
 ---

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-03-29T22:37
-updated: 2026-03-30T13:01
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Diễn giải, đọc]]
 [[Trong nghiên cứu định tính, câu hỏi thường là mở và có khả năng kiểm chứng thông tin tại chỗ. Trong nghiên cứu định lượng, câu hỏi thường là đóng]]

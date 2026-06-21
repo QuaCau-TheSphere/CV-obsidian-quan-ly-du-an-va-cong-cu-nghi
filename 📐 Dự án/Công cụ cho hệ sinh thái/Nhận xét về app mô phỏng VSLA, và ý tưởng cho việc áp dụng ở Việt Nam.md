@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2026-01-14T13:11
+updated: 2026-06-03T14:20
 aliases:
   - Kula
 ---
@@ -57,5 +57,5 @@ Việc dùng app dịch có lẽ cũng đủ để hướng dẫn họ, chưa ph
 Mấy cái đồng coin hay có mấy cái game dùng để làm quen với nó, chắc cũng áp dụng ý tưởng tương tự.
 
 Đọc thêm: 
-- [[Môi trường nghĩ là nơi ta có thể có những loại suy nghĩ mới, những suy nghĩ mà trước đây ta không thể hình thành]]
+- [[Một môi trường nghĩ mới là nơi ta có thể có những loại suy nghĩ mới mà không thể hoặc khó hình thành ở môi trường nghĩ cũ]]
 - [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]

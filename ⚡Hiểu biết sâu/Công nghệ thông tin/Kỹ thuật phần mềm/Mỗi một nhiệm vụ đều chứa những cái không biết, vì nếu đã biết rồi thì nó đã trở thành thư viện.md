@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-11-16T12:47
-updated: 2025-12-22T17:31
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 [[Ta không lường trước được những công việc mình cần làm là gì trừ phi đã từng làm nó rồi]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-01-05T20:41
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 Two of the most important motivations for constructing an ontology are that (i) it can help to prevent concept drift and (ii) it supports the interoperability of systems. Regarding the first of these, a common issue in software development is that the use of strings of symbols in computer code by different programmers can change over time, causing unintended performance in a system. An ontology standardizes and reuses concepts, thereby preventing a concept expressed by a string within a given body of code at one time from drifting into use as another, different concept at a later time. Regarding interoperability, note first that the kind of ontology one creates will, at least in part, be driven by its intended uses. Broadly, there are three categories of use, ultimately leading to a computational implementation, which may all be present in some application: (1) communication among people, (2) communication among machines or between people and machines, and (3) computation.

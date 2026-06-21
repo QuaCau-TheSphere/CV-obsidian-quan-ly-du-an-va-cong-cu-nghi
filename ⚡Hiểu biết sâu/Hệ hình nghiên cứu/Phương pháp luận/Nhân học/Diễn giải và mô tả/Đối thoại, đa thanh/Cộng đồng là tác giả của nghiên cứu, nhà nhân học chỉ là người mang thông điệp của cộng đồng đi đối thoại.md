@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-11T21:31
-updated: 2026-03-30T12:46
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Cộng đồng]], [[Tác giả]]
 Lý do:: [[Sự kiểm soát của người bản xứ đối với những kiến thức có được trong quá trình thực địa là khá đáng kể, và thậm chí là có tính quyết định]]

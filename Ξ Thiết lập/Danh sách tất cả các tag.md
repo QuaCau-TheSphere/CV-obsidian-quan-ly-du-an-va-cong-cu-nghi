@@ -4,6 +4,10 @@ aliases:
 created: 2023-06-11T18:31
 updated: 2023-10-13T15:33
 ---
+```dataview
+LIST blog
+WHERE blog 
+```
 # Các mức độ trạng thái/tình trạng của công việc
 ```dataview
 List 

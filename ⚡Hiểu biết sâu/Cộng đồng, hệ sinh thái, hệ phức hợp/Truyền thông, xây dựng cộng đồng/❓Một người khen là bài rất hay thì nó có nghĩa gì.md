@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-31T16:54
-updated: 2026-04-23T14:49
+updated: 2026-05-12T23:39
 aliases:
   - Làm sao để biết một đánh giá tích cực là thực sự là họ thấy vậy hay chỉ là muốn làm mình vui lòng thôi?
   - Sự khác biệt giữa thực sự thấy hay và khen xã giao hoặc khích lệ

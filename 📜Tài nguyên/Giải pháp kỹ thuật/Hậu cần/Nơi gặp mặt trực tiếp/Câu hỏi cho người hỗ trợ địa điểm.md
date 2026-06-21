@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2026-01-14T13:11
+updated: 2026-05-12T23:39
 ---
 Hiện tại em đang làm một kho địa điểm để chọn nơi gặp mặt, với tiêu chí là có chính sách hỗ trợ các dự án phi lợi nhuận. Em xin phép được thêm bên mình vào trong kho địa điểm này tại liên kết sau: https://doi-thoai.deno.dev/ft.PUrwN41.1
 

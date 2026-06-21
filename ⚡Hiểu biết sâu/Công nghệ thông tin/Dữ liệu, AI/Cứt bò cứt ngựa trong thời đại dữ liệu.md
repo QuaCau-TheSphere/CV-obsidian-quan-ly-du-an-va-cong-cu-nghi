@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2026-03-10T14:55
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Dữ liệu]]
 Bạn tuy có thể không biết horseshit thì cũng là bullshit, nhưng bạn chắc đã biết bullshit là những thứ vớ vẩn, nhảm cứt. Trong lúc mình đang lướt Sketchplanations thì bắt gặp tranh vẽ mình hoạ [nguyên lý bất đối xứng cứt bò](https://sketchplanations.com/the-bs-asymmetry-principle) này:

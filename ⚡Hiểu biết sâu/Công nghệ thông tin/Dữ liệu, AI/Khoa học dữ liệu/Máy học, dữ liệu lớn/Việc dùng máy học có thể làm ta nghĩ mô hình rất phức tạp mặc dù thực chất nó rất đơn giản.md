@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-02-10T11:56
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Đơn giản]]
 Trong lĩnh vực tội phạm học, các mô hình dự báo về khả năng phạm tội của một người có thể có độ chính xác tương đương với những người ngẫu nhiên tweet 

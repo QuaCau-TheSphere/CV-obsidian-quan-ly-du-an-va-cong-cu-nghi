@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:11
+updated: 2026-05-12T23:39
 ---
 [[Phỏng vấn phù hợp để đánh giá cách tiếp nhận hay thái độ]]
 [[Nên phỏng vấn cả những người không nằm trong nhóm đối tượng mục tiêu của mình]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 [[Thật khó để nghe thấy sự nghĩ của chính mình]]
 [[Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google]]

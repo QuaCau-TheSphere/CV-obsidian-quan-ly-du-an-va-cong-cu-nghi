@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-30T14:31
-updated: 2026-04-26T12:47
+updated: 2026-05-12T23:41
 aliases:
   - Ưu tiên
 ---
@@ -106,7 +106,7 @@ I find that when someone's taking time to do something right in the present, the
 [[Việc mải mê làm việc đến quên cả đói cho thấy phần thưởng từ việc làm việc là đủ lớn hơn việc được ăn]] 
 [[Vấn đề ngắn hạn hay dài hạn không quan trọng, quan trọng là làm cái này mà phải nghĩ về cái khác thì sẽ nhức đầu]] 
 [[Những công việc không đòi hỏi sự tập trung cao độ]]
-[[Khi một người dành thời gian để làm một điều đúng ở hiện tại, họ là một người cầu toàn không có khả năng ưu tiên. Còn khi một người dành thời gian làm một điều đúng trong quá khứ, họ là nghệ nhân bậc thầy với tầm nhìn xa trông rộng]]
+[[Khi một người dành thời gian làm một điều đúng trong quá khứ, họ là nghệ nhân bậc thầy với tầm nhìn xa trông rộng|Khi một người dành thời gian để làm một điều đúng ở hiện tại, họ là một người cầu toàn không có khả năng ưu tiên. Còn khi một người dành thời gian làm một điều đúng trong quá khứ, họ là nghệ nhân bậc thầy với tầm nhìn xa trông rộng]]
 [[Những thứ không quan trọng có thể tự xử lý lẫn nhau]]
 [[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết là đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
 [[Việc nghĩ ra ý tưởng tốt hơn làm ta muốn theo đuổi nó hơn là làm tiếp thứ hiện tại]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-10-05T16:06
-updated: 2026-01-14T13:10
+updated: 2026-06-01T19:33
 ---
 Khái niệm:: [[Sự không biết]]
 [[❓Bản đồ là cách để ta biết mình cần gì khi còn chưa cảm nhận được thứ mình cần là gì]]

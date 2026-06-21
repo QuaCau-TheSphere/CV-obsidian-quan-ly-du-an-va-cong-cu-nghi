@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-04-18T20:19
-updated: 2026-04-18T20:19
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Mục tiêu]]
 [[❝Mục tiêu❞ và ❝Kết quả❞ là những từ bao trùm]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2026-01-02T12:18
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Trung tâm hóa]], [[Nền tảng]]
 Chính vì như vậy, nên [[Ưu tiên giao thức hơn nền tảng]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 [[Nhiều thứ ta thấy là bất định thực ra là vì không có thời gian để xác định quy luật hoặc kiểm nghiệm giả thiết]] 

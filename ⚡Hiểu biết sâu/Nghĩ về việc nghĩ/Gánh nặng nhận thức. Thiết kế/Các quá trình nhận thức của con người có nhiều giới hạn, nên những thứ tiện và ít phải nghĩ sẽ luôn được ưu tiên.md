@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-03-17T14:57
-updated: 2026-03-17T14:57
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Ưu tiên]], [[Gánh nặng nhận thức]]
 (trí nhớ ngắn hạn, trí nhớ dài hạn, sự tập trung, sự xử lý ngôn ngữ)

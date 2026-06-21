@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-28T22:40
-updated: 2026-03-06T16:14
+updated: 2026-06-21T20:01
 ---
 > [!info] Bài chi tiết
 >[[Mô tả dự án|Phá vỡ silo thông tin, nắm bắt nhu cầu các bên và sử dụng các nguồn tài nguyên cộng đồng hiệu quả: vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản]]

@@ -2,7 +2,7 @@
 share: true
 created: 2025-05-26T19:55
 description: Ngoài việc viết ra thì còn có thể làm được những gì?
-updated: 2026-04-04T14:15
+updated: 2026-06-03T14:20
 ---
 Ngoài việc viết ra thì còn có thể làm được những gì? 
 - [[Minh hoạ dữ liệu không nhất thiết phải chính xác, mà chỉ cần đủ để đặt câu hỏi]]
@@ -32,7 +32,7 @@ Kể cả khi là viết chữ thì quan trọng vẫn là tình tiết hoặc �
 
 ## Người dùng tương tác được
 [[Một văn bản không nên chỉ là thứ để truyền đạt thông tin hay hiểu biết một chiều và thụ động, mà còn nên trở thành một sân chơi cho người đọc khám phá]]
-[[Môi trường nghĩ là nơi ta có thể có những loại suy nghĩ mới, những suy nghĩ mà trước đây ta không thể hình thành]]
+[[Một môi trường nghĩ mới là nơi ta có thể có những loại suy nghĩ mới mà không thể hoặc khó hình thành ở môi trường nghĩ cũ]]
 
 ### Tương tác thông qua màn hình
 - [[Tạo đồ thị mạng lưới, hệ thống phi tuyến|Đồ thị mạng lưới]]

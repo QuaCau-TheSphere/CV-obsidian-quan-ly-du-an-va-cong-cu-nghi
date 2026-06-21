@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-02T14:48
-updated: 2026-03-17T13:49
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Nhận thức/Ý tưởng]]
 Lý do:: [[Khoảnh khắc loé sáng ý tưởng thường đến vào những lúc ta không tập trung chú ý]]

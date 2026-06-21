@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-12-31T11:01
-updated: 2026-01-Mo'T'15:50
+updated: 2026-06-21T20:13
 ---
 # Khi nào thì Google Sheet hoặc Notion không phù hợp để dùng?
 Theo dõi protocol quan trọng
@@ -35,7 +35,7 @@ fb vẫn muốn mọi người lệ thuộc
 | Nắm được bản chất của dữ liệu và tự động hóa                                                                                              | Kém                                                             | <span style="color:green">Rất tốt</span>                           |
 | Có [[đồ thị mạng lưới giúp thấy được bức tranh tổng thể]]                                                                                 | Không                                                           | <span style="color:green">Có</span>                                |
 
-Thông thường với mục tiêu quản lý thì tới đây là ổn rồi. Nhưng nếu bạn muốn [[Phát triển cộng đồng]], [[xây dựng mạng lưới, hệ sinh thái]] thì bạn có thể còn muốn những cá nhân, tổ chức được liệt kê trong danh sách này cũng phải thấy được nó để có thể kết nối được với nhau. Tức là về bản chất, nó không chỉ dừng lại ở chuyện [[Xây dựng kho tri thức, hệ thống quản lý kiến thức hoặc quản lý dự án|xây dựng hệ thống quản lý]], mà còn là [[xây dựng kho tài nguyên cộng đồng]]. Tức là phải chia sẻ dữ liệu lên web. Đây là các tiêu chí thường gặp để so sánh các giải pháp đáp ứng nhu cầu này:
+Thông thường với mục tiêu quản lý thì tới đây là ổn rồi. Nhưng nếu bạn muốn [[Phát triển cộng đồng]], [[xây dựng mạng lưới, hệ sinh thái]] thì bạn có thể còn muốn những cá nhân, tổ chức được liệt kê trong danh sách này cũng phải thấy được nó để có thể kết nối được với nhau. Tức là về bản chất, nó không chỉ dừng lại ở chuyện [[Xây dựng kho tri thức, hệ thống quản lý kiến thức hoặc quản lý dự án|xây dựng hệ thống quản lý]], mà còn là [[xây dựng kho tài nguyên cộng]]. Tức là phải chia sẻ dữ liệu lên web. Đây là các tiêu chí thường gặp để so sánh các giải pháp đáp ứng nhu cầu này:
 
 | Tiêu chí cho việc chia sẻ lên web                                                | Notion (hoặc các SaaS khác)                                                                        | Web tĩnh                                              |
 | -------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | ----------------------------------------------------- |

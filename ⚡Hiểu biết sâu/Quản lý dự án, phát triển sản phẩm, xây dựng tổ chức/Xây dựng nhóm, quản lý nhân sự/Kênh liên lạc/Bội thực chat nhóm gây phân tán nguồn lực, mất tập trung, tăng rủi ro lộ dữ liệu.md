@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:11
+updated: 2026-06-01T15:34
 ---
 Khái niệm:: [[Dữ liệu]]
 Hơn 11 giờ đêm, màn hình điện thoại của Hồng Vy vẫn sáng bởi thông báo từ gần 20 nhóm chat công việc và trò chuyện cá nhân đang đổ về.

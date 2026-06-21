@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-22T20:27
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 Bởi vì [[Lập trình viên không chỉ không được giao một đề bài rõ ràng, đầy đủ ngay từ đầu, mà các yêu cầu cũng thay đổi theo thời gian]], nên [[Hình ảnh một phần mềm được xây dựng thuần tuý từ lý thuyết là một ảo tưởng]]. Tuy nhiên, [[Việc giả bộ là phần mềm được xây dựng bằng lý tính là có ích]]

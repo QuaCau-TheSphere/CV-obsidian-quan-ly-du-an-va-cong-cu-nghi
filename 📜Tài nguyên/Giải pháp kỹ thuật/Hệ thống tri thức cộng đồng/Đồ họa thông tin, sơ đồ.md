@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2024-09-24T15:20
-updated: 2026-01-14T13:11
+updated: 2026-06-02T20:03
 aliases:
   - hoạ
 ---
 Ví dụ:: Canvas
-Ưu điểm:: [[Media trên Internet khác hẳn media trên các phương tiện ở chỗ người tiêu dùng có thể tương tác với nó]]
+Ưu điểm:: [[Media trên internet khác hẳn media trên các phương tiện ở chỗ người tiêu dùng có thể tương tác với nó]]
 Hạn chế::
 
 Bài chi tiết:

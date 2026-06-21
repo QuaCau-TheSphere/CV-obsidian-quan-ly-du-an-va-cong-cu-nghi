@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2026-01-14T13:10
+updated: 2026-05-27T16:34
 ---
 Khái niệm:: [[Gánh nặng nhận thức|Nhức đầu]], [[Diễn giải, đọc]]
 
@@ -15,7 +15,3 @@ Khái niệm:: [[Gánh nặng nhận thức|Nhức đầu]], [[Diễn giải, đ
 [[Nội việc đặt câu hỏi thôi đã đủ áp lực rồi, chứ đừng nói đến việc đi google hay đặt câu hỏi tốt hơn]]
 Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 [The Academic Knowledge Management (AKM) system that 10x’d my research productivity | Chris Lovejoy](https://www.chrislovejoy.me/akm)
-
-Khái niệm:: 
-
-Nguồn:: 

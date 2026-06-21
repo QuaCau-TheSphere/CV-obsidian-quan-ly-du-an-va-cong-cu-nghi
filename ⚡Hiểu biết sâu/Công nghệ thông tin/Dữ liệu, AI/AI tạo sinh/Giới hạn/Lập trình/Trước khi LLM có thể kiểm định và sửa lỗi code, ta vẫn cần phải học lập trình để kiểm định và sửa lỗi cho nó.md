@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 Lý do:: [[Để LLM có thể tham gia vào việc lập trình được, nó cần phải làm được cả việc kiểm định và sửa lỗi code, chứ không phải chỉ mỗi sinh code]], [[LLM gần như không có khả năng tự sửa lỗi code]] 

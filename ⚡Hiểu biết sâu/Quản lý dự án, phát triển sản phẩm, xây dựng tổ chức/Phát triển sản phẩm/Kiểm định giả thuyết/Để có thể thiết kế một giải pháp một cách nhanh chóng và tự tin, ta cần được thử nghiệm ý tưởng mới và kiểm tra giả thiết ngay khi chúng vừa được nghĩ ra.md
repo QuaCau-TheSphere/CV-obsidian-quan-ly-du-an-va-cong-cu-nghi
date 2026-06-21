@@ -1,7 +1,9 @@
 ---
 share: true
 created: 2023-10-22T21:45
-updated: 2026-01-14T13:11
+updated: 2026-05-27T14:04
+aliases:
+  - Nếu có thể được thử nghiệm ý tưởng mới và kiểm tra giả thiết ngay khi chúng vừa được nghĩ ra, việc thiết kế một giải pháp sẽ trở nên nhanh chóng và tự tin
 ---
 Nguồn:: [[Bret Victor]], [Up and Down the Ladder of Abstraction](http://worrydream.com/LadderOfAbstraction/)
 

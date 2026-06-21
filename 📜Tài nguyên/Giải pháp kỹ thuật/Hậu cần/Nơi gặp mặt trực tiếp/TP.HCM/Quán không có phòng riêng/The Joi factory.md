@@ -2,7 +2,7 @@
 share: true
 description: =địa chỉ
 created: 2025-09-15T18:02
-updated: 2026-01-14T13:11
+updated: 2026-05-12T23:39
 ---
 Địa chỉ:: 212/2B Nguyễn Trãi
 Phường:: Cầu Ông Lãnh

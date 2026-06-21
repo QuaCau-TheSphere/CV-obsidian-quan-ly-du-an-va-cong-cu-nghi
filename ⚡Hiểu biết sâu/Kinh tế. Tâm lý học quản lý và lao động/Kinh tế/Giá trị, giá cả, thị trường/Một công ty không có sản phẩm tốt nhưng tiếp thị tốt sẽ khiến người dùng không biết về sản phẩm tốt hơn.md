@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-03-04T15:44
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Cộng đồng/Marketing]], [[Động lực]], [[Cạnh tranh]], [[Sản phẩm]]
 Lý do:: [[❓Truyền miệng là cách duy nhất để sản phẩm thực sự tốt hơn chiến thắng trên thị trường]]

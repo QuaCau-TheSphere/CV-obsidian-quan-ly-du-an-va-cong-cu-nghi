@@ -585,7 +585,7 @@ class JumpToLink extends obsidian.Plugin {
             this.settings = (yield this.loadData()) || new Settings();
             this.addSettingTab(new SettingTab(this.app, this));
             const markViewPlugin = this.markViewPlugin = view.ViewPlugin.fromClass(MarkPlugin, {
-                decorations: v => v.decorations
+                decorations: (v) => v.decorations
             });
             this.registerEditorExtension([markViewPlugin]);
             this.watchForSelectionChange();
@@ -616,7 +616,10 @@ class JumpToLink extends obsidian.Plugin {
         if (this.isLinkHintActive) {
             return;
         }
-        const activeViewOfType = app.workspace.getActiveViewOfType(obsidian.MarkdownView);
+        const activeViewOfType = this.app.workspace.getActiveViewOfType(obsidian.MarkdownView);
+        if (!activeViewOfType) {
+            return;
+        }
         const currentView = this.currentView = activeViewOfType.leaf.view;
         const mode = this.mode = this.getMode(this.currentView);
         this.contentElement = activeViewOfType.contentEl;
@@ -643,6 +646,7 @@ class JumpToLink extends obsidian.Plugin {
         }
     }
     getMode(currentView) {
+        var _a;
         // @ts-ignore
         const isLegacy = this.app.vault.getConfig("legacyEditor");
         if (currentView.getState().mode === 'preview') {
@@ -652,9 +656,14 @@ class JumpToLink extends obsidian.Plugin {
             return VIEW_MODE.LEGACY;
         }
         else if (currentView.getState().mode === 'source') {
-            const isLivePreview = currentView.editor.cm.state.field(obsidian.editorLivePreviewField);
-            if (isLivePreview)
-                return VIEW_MODE.LIVE_PREVIEW;
+            try {
+                const isLivePreview = (_a = currentView.editor.cm.state) === null || _a === void 0 ? void 0 : _a.field(obsidian.editorLivePreviewField);
+                if (isLivePreview)
+                    return VIEW_MODE.LIVE_PREVIEW;
+            }
+            catch (e) {
+                console.error(e);
+            }
             return VIEW_MODE.SOURCE;
         }
     }

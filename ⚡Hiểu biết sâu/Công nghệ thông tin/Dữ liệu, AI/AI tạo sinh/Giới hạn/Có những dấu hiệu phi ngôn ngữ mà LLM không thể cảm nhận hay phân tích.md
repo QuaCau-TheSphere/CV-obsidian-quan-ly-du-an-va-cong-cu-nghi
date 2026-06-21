@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 Có những dấu hiệu phi ngôn ngữ mà AI không thể cảm nhận hay phân tích. Vì thế chỉ có thể chẩn đoán đúng khi bác sỹ nhận ra giọng điệu hơi kỳ lạ của phụ huynh, ánh mắt bất thường, cách chọn từ; phân biệt được tiếng khóc của một đứa trẻ cáu kỉnh với một đứa trẻ bị tổn thương, chủ động soi đáy mắt và phát hiện xuất huyết võng mạc. Chỉ sau khi có dữ liệu, ChatGPT mới có thể phát huy tác dụng.

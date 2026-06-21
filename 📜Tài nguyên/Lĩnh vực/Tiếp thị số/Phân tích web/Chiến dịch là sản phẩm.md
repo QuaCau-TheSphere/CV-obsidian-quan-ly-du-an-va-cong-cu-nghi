@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:11
+updated: 2026-05-29T01:48
 ---
 
 Khi trang web chỉ là những bài viết thì có thể dùng nhóm chủ đề. Nhưng tốt nhất là cố gắng tìm ra mục tiêu của mình khi viết những bài đó, biến nhóm chủ đề đó thành một dự án, đặt tên cho dự án đó, rồi dùng tên đó để làm tên chiến dịch.
@@ -10,4 +10,4 @@ Khi trang web chỉ là những bài viết thì có thể dùng nhóm chủ đ�
 Tuy nhiên, do dựa vào tên trang ta có thể suy ra được
 
 [[Sản phẩm là kết quả của các công việc]] 
-[[Dự án chủ yếu gồm các công việc khai phá. Chiến dịch chủ yếu gồm các công việc khai thác]]
+[[Dự án chủ yếu gồm các công việc khai phá. Chiến dịch, chương trình chủ yếu gồm các công việc khai thác]]

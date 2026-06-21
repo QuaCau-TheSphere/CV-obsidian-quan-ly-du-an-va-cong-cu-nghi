@@ -1,14 +1,14 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:11
+updated: 2026-06-21T09:24
 ---
 ![[Pasted image 20240221020431.png]]
 
 ## Các vấn đề về Excel 
 ```dataview
 list
-from "⚡Hiểu biết sâu/Công nghệ thông tin/Hệ thống thông tin/No code, low code/Excel" 
+from "⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Hệ thống thông tin/No code, low code/Excel"
 ```
 
 ## Chương trình Beancount

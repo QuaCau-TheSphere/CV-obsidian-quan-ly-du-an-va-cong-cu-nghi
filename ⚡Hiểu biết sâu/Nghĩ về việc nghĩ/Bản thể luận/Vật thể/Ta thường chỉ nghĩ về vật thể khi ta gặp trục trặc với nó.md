@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-03-19T13:48
-updated: 2026-03-25T12:43
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Vật thể]]
 Ta thường chỉ quan tâm xem cái búa là gì khi mà ta không đóng được đinh

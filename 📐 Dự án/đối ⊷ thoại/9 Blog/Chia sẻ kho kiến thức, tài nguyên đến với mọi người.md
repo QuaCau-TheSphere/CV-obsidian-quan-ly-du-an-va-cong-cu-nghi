@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-02-07T12:59
+updated: 2026-06-05T18:55
 ---
 # **đối ⊷ thoại**: Chương trình tìm và chia sẻ kho kiến thức, tài nguyên đến với mọi người
 Nếu bạn cần chia sẻ kho thông tin (vault) của mình tới người khác, đặc biệt là khi bạn đang dùng điện thoại còn người nhận thì không quen dùng Obsidian, thì giải pháp thường là sao chép nội dung ghi chú rồi gửi qua tin nhắn. Nhưng việc đó làm mất liên kết tới các ghi chú khác. Nếu bạn muốn họ có trải nghiệm tương tự như khi dùng Obsidian thì bạn cần tạo website từ kho của mình. Bạn có thể mua gói Publish của Obsidian, hoặc sử dụng các plugin tạo website khác. Nếu nhu cầu bạn dừng ở đó và bạn không thấy có vấn đề gì cả thì bạn cũng không cần đọc tiếp bài này.

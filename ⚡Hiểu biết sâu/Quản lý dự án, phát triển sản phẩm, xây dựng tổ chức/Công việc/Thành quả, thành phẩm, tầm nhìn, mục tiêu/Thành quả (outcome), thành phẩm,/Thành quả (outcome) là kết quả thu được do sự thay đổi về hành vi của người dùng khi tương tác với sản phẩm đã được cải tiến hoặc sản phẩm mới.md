@@ -1,7 +1,7 @@
 ---
 share: true
-created: 2023-05-26T14:51
-updated: 2026-04-18T20:12
+created: 2025-09-27T16:20
+updated: 2026-05-18T21:39
 ---
 Khái niệm:: [[Thành quả]]
 Ví dụ: tăng retention rate, tăng giá trị đơn hàng mỗi lần mua, tăng frequency mua hàng
@@ -30,3 +30,15 @@ Tham khảo:: [[Hoàng Đức Minh]]
 [[Tiêu đề của thành quả mong muốn bắt đầu bằng người dùng]] 
 [[Đổi những câu hỏi chất vấn giả định của một thành quả về dạng khẳng định thì ta sẽ có những thành quả mong muốn thành phần]]
 [[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng]]
+
+Outcomes have nothing to do with making stuff—though they sometimes are created by making the right stuff. Instead, outcomes are the changes in customer, user, employee behavior that lead to good things for your company, your organization, or whomever is the focus of your work.
+
+Nó là câu trả lời cho câu hỏi "tôi tham gia nơi này vì điều gì?" 
+
+-   You can manage a team by telling them what to make: that’s called managing outputs. It’s a problem, because features don’t always deliver value.
+-   You can manage a team by asking them to create some high-level value, like growing revenue. That’s called managing impact. It’s a problem because it’s not specific enough.
+-   What you want is to manage with outcomes: ask teams to create a specific customer behavior that drives business results. That allows them to find the right solution, and keeps them focused on delivering value.
+-   For our purposes, an outcome is “a change in customer behavior that drives business results.”
+-   Defining outcomes in terms of customer behaviors creates a more customer-centric and user-centric way of working.
+-   Outcomes and Agility: using outcomes to direct the work of your teams unlocks your team’s creativity. They will work to find the best solution to the problem at hand in order to create the outcome you seek.
+-   To figure out if your outputs create the outcomes you seek, you need to test and run experiments. MVP is just a buzzword that means “experiment.”

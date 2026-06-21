@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-03-30T12:46
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Quan sát tham dự]], [[Trải nghiệm]]
 [[Hoạt động trải nghiệm là việc tận dụng những gợi ý manh mối, dấu vết, cử chỉ, và cảm quan trước khi phát triển những diễn giải ổn định]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 Trong khi nếu là nghiên cứu vật dụng mới thì không nhức đầu đến mức như thế

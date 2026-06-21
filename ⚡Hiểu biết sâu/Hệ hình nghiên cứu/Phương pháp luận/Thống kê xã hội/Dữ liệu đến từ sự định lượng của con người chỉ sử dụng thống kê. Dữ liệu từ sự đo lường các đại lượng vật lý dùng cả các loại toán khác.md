@@ -1,8 +1,8 @@
 ---
 share: true
 created: 2026-01-16T12:53
-updated: 2026-05-09T18:17
-blog: true
+updated: 2026-06-20T15:16
+blog: working
 aliases:
   - Người làm dữ liệu nói gì về sự thiếu sót của dữ liệu?
 description: Dữ liệu đến từ sự định lượng của con người chỉ sử dụng thống kê. Dữ liệu từ sự đo lường các đại lượng vật lý dùng cả các loại toán khác. Người làm với loại dữ liệu đầu cần cẩn trọng
@@ -448,11 +448,14 @@ Dữ liệu trở nên đáng tin vì nó giúp xác lập được mối quan h
 
 confounder không biết là một trong những lý do ta phải lấy mẫu ngẫu nhiên
 
+trải nghiệm của các cá nhân là khác nhau, nhưng ta có thể gom lại thành giai cấp, văn hóa, cộng đồng
 [[Nếu bệnh nặng, dễ lây, hoặc điều trị được, thì giảm ngưỡng cắt để tối đa hóa số ca dương thật. Nếu việc xét nghiệm quá đắt, hoặc xâm lấn nhiều, hoặc có tác hại lớn nếu kết quả sai thì tăng ngưỡng cắt để tối thiểu hóa số ca dương giả]]. [[Giảm ngưỡng cắt làm tăng độ nhạy, từ đó làm tăng số dương thật. Tăng ngưỡng cắt làm làm tăng độ đặc hiệu, từ đó làm giảm số dương giả]]
 Các thiếu sót của dữ liệu đã được đánh đổi ở đây. Một khi đã ấn định một con số, nghĩa là đã chấp nhận đánh đổi
 Bayes 
+Việc nói rằng trung bình chỉ là một phát minh cũng giống như nói rằng hồi quy cũng chỉ là một phát minh. Toán học là phát minh hay khám phá
+Cái gì cũng là phát minh cả. So sánh loài người với tích phân hay đạo hàm thì cũng bị phê bình?
 
-
+foucault biopolitics 
 
 | **Tên chương**                                                                                                  | **Mục, tiểu mục**                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | --------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -511,3 +514,16 @@ The process T → Z → Y → X → $\mathbb R$ is what I call "T become $\mathb
 
 
 Dữ liệu lớn chỉ dự báo bằng thống kê suy diễn. Mô phỏng dự báo bằng các mối quan hệ nhân quả
+
+Cái gì c
+
+
+Is the example in [this comment](https://math.codidact.com/comments/thread/11791#comment-29302)?
+
+So there are different kinds of σ-algebra:
+- The body can be the whole set that the σ-algebra is defined on, and the subsets are head, torso, limbs, genitals. the set of all actual bodies
+- Or the whole set is the set of all bodies in the world, and an individual body is one subset of it
+- the set of all bodies in some probability distribution (
+
+
+

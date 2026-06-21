@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-09T09:41
-updated: 2026-01-02T12:49
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Cộng đồng]]
 ## Nhược điểm của nhóm Facebook

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-03-30T12:59
-updated: 2026-03-31T16:49
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 [[Trong nghiên cứu định tính, việc diễn giải câu trả lời có sự tham gia của người trả lời. Trong nghiên cứu định lượng, việc đó nằm ở người làm nghiên cứu]]

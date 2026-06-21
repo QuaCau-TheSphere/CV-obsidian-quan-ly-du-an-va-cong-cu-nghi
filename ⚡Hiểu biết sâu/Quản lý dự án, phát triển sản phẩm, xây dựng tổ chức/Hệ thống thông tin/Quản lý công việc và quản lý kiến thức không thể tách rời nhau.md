@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:11
+updated: 2026-05-12T23:39
 ---
 Lý do:: [[Công việc khai phá chính là việc nghiên cứu và quản lý kiến thức]] 
 Lý do:: [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]

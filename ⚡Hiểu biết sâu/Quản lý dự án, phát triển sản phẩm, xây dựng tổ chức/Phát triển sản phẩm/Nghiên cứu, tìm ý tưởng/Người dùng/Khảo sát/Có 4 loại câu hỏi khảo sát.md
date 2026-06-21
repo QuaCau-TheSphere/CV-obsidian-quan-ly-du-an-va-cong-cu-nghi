@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-02-18T22:12
+updated: 2026-05-29T01:51
 title: "Có 4 loại câu hỏi khảo sát: đặc điểm, thái độ, lòng tin, hành vi"
 ---
 Khái niệm:: [[Khảo sát]]

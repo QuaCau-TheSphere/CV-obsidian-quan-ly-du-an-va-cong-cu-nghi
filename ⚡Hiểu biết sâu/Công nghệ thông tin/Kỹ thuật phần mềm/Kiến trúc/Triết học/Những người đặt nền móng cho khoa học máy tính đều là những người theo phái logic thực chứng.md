@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-24T12:49
-updated: 2026-02-16T12:35
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 những người đặt nền móng cho ngành khoa học máy tính:

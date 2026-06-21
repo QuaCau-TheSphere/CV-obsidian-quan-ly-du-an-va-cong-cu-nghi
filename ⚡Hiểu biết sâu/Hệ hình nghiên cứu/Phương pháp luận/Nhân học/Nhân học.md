@@ -1,6 +1,6 @@
 ---
 created: 2023-10-12T22:30
-updated: 2026-03-30T12:46
+updated: 2026-05-31T16:58
 share: true
 ---
 Một trong những mong muốn của tôi là trả lời được câu hỏi [[❓Khi nào thì một người sẽ cởi mở và thoải mái nói về những thứ họ không muốn nói|khi nào một người sẽ cởi mở và thoải mái khi nói về những vấn đề mà họ không muốn nói]], [[Cộng đồng là tác giả của nghiên cứu, nhà nhân học chỉ là người mang thông điệp của cộng đồng đi đối thoại|để những câu chuyện họ kể ra có thể đối thoại được với nhau]]. Tôi nghĩ rằng [[Các dự án xã hội không tập trung vào việc đối thoại với người bên cạnh mình|các dự án xã hội hiện nay không tập trung vào việc đối thoại với người bên cạnh mình]]. Tôi nghĩ rằng nhân học sẽ là lĩnh vực cho tôi nhiều giải pháp nhất. Nên khi tôi biết tin Viện SocialLife mở lớp nhân học, tôi rất háo hức tham gia.
@@ -13,10 +13,10 @@ Bạn có thể đọc thêm các phản hồi của các học viên khác tron
 
 ![NHÂN HỌC LÀ GÌ? - What is "Anthropology"? - YouTube](https://youtu.be/txTWz8eXpiU?si=-x6TETCqDn4zia_5)
 <a href="https://area51.stackexchange.com/proposals/128069/anthropology-and-sociology?referrer=MDlhNjIxNzVjZDY0OTU1NmVjYmIxYTlkNjEzNDFhZmY1NTdkODJlNTdhODA4NjEzOGNhOTMwMWVkZGM4Mzc4Md8auWz_DV5CDGcCTSa7YmraW1IcajQEYLDAJfI2DBOh0"><img src="https://area51.stackexchange.com/ads/proposal/128069.png" width="300" height="250" alt="Stack Exchange Q&A site proposal: Anthropology and Sociology" /></a>
+
 ```dataview
 LIST rows.file.link
-FROM "⚡Hiểu biết sâu/Nhân học" 
+FROM "⚡Hiểu biết sâu/Hệ hình nghiên cứu/Phương pháp luận/Nhân học" 
 WHERE file.name!=this.file.name
-Group by split(file.folder, "/" )[2] 
+Group by split(file.folder, "/" )[4] 
 ```
-

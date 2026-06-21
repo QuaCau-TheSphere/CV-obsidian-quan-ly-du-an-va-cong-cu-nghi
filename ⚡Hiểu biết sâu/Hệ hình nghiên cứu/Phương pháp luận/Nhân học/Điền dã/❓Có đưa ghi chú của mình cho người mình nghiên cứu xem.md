@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-03-30T12:46
+updated: 2026-05-12T23:39
 ---
 Nếu có yêu cầu xoá thì như thế nào?
 Nếu xoá vì sợ một người khác đọc được, nhưng mình thấy rằng mình sẽ không để người đó đọc được thì mình có thể xem là sẽ không vấn đề gì không?

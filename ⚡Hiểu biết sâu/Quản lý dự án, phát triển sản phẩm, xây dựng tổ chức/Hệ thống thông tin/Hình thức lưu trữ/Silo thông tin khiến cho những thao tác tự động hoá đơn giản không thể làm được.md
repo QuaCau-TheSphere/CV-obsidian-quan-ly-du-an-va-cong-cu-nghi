@@ -1,6 +1,6 @@
 ---
 share: true
-updated: 2026-01-14T13:11
+updated: 2026-05-12T23:39
 created: 2024-10-29T10:16
 ---
 Khái niệm:: [[Đơn giản]]

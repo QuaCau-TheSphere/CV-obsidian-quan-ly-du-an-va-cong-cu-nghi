@@ -1,6 +1,6 @@
 ---
 created: 2025-09-27T16:20
-updated: 2026-01-23T11:39
+updated: 2026-05-12T23:39
 ---
 Interface designers are often interested in designing “engaging interactions,” but interactions are, by default, a burden imposed upon the user—a tax to be avoided. If I’m using an interface to analyze some data, the ideal is zero interactions: I read a screen of information, notice a pattern, and answer my question. Every filter box, navigation button, and scrubber is an extra cost.
 

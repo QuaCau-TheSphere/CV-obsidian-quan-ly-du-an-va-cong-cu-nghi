@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-12-11T17:32
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 Lý do:: [[Nhà đầu tư là người ra quyết định cuối cùng về sản phẩm, không phải người dùng]]

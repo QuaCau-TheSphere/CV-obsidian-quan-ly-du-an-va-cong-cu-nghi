@@ -1,6 +1,6 @@
 ---
 created: 2023-07-22T11:55
-updated: 2025-12-22T17:31
+updated: 2026-05-12T23:39
 share: true
 ---
 ## Một số lỗi thường gặp trong lập trình winform

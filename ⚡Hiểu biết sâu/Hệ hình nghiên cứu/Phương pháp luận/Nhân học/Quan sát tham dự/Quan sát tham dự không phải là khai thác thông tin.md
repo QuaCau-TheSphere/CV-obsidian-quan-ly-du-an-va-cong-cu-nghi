@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-11T21:08
-updated: 2026-03-30T12:46
+updated: 2026-05-12T23:39
 ---
 [[Quan sát tham dự đời sống xã hội chính là một quá trình thay đổi toàn bộ con người mình để trở thành thành viên của cộng đồng]]
 [[❓Nhà nghiên cứu khi điền dã thì cũng đã có một mục tiêu nghiên cứu nào đó rồi. Nếu không phải khai thác thông tin thì sẽ không hoàn thành công việc được]] 

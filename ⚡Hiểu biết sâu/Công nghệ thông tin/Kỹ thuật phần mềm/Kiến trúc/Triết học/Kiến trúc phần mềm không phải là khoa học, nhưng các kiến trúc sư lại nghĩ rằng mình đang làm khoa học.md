@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-22T13:49
-updated: 2026-02-16T12:34
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Khoa học]], [[Kiến trúc]]
 Lý do:: [[Lập trình viên không chỉ không được giao một đề bài rõ ràng, đầy đủ ngay từ đầu, mà các yêu cầu cũng thay đổi theo thời gian]]

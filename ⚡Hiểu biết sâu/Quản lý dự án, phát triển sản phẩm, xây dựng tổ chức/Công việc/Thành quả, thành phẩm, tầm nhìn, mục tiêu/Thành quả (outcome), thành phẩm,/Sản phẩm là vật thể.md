@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-04-18T20:12
+updated: 2026-05-12T23:39
 ---
 Lý do:: [[Ta mô phỏng thế giới qua những vật thể]]
 [[Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của nguồn lực]]. [[Một sản phẩm được tạo nên bởi nhiều thành phẩm. Thứ ta gọi là sản phẩm thành phần, hoặc sản phẩm nhỏ hơn, chính là thành phẩm]]

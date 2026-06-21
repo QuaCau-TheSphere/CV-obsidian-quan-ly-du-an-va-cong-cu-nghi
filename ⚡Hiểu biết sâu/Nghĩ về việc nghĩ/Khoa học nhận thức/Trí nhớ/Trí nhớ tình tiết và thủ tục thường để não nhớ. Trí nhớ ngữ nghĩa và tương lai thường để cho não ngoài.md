@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2024-08-05T17:16
-updated: 2026-02-14T20:44
+updated: 2026-06-16T22:32
 ---
-Khái niệm:: [[Trí nhớ]]
+Khái niệm:: [[Trí nhớ, ký ức]]
 
 ## Bộ nhớ trong (internal memory)
 Mục đích chính:
@@ -17,6 +17,7 @@ Mục đích chính:
 - Có tính cá nhân
 - Có tính sáng tạo
 - Bảo mật
+
 ## Bộ nhớ ngoài (external memory)
 Mục đích chính:
 - Ký ức ngữ nghĩa (Semantic)
@@ -30,6 +31,7 @@ Mục đích chính:
 - Dung lượng
 - Độ trung thực
 - Khả năng chia sẻ
+
 ## Mối quan hệ giữa bộ nhớ bên trong và bên ngoài
 Bộ nhớ bên trong:
 - Mở rộng theo gợi ý
@@ -43,7 +45,8 @@ Bộ nhớ bên ngoài:
 - Hành động như hệ thống kiểm tra và xác nhận cho bộ nhớ bên trong
 - Tăng cường (mã hóa)
 - Giải phóng dung lượng
-## Sử dụng chiến lược hỗ trợ trí nhớ
+
+## Chiến lược hỗ trợ trí nhớ
 Mọi người sử dụng chiến lược hỗ trợ bộ nhớ bên ngoài dựa trên tính chất của nhiệm vụ và loại thông tin. Ví dụ, ký ức tình tiết và thủ tục thường được lưu giữ bên trong, trong khi ký ức ngữ nghĩa và ký ức tương lai thường được chuyển cho các hỗ trợ bên ngoài.
 
 ## Metamemory - ký ức tự quy chiếu (ký ức về ký ức) và giảm tải nhận thức

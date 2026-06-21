@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 VD: 
 - JS ra đời để chạy trên trình duyệt. Nếu tương lai còn cần trình duyệt thì JS vẫn được sử dụng. Nếu sau này ta có cách tương tác với thông tin trên internet tốt hơn trình duyệt thì trình duyệt sẽ không còn cần dùng nhiều, và từ đó JS cũng sẽ không cần dùng nhiều

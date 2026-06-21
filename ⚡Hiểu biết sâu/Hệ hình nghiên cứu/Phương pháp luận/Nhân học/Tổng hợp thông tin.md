@@ -1,6 +1,6 @@
 ---
 created: 2023-10-01T08:31
-updated: 2026-03-30T12:46
+updated: 2026-05-12T23:39
 ---
 [[Nhật ký điền dã]]
 1.     **Quan sát:** cộng đồng, quan sát nhà (không gian sinh hoạt trong gia đình, chú ý đến chức năng, biểu tượng văn hoá), quan sát và mô tả chân dung nhân vật (đọc lại bài giảng)

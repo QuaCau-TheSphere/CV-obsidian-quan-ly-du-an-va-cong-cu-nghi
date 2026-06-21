@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-09-03T00:32
-updated: 2026-01-14T13:11
+updated: 2026-05-18T21:34
 ---
 Khái niệm:: [[Quản trị kiến thức]]
 Trước tiên hãy nói về cách đánh số thư mục. Cách đánh số này lấy ý tưởng từ cách đánh số [Johnny•Decimal](https://johnnydecimal.com/).
@@ -59,7 +59,7 @@ Trong doanh nghiệp, mục thử thách này gọi là đào tạo nội bộ, 
 
 Chia sẻ đam mê
 Sự sẵn sàng chia sẻ thường chỉ khi họ vẫn còn đang cần. Khi hiểu rành rẽ rồi thì sự hứng thú đó cũng giảm
-[[Bản đồ là yếu tố tuyệt vời nhất của game mà các dự án có sử dụng game hoá chưa sử dụng triệt để]]
+[[⚡Hiểu biết sâu/Nghĩ về việc nghĩ/Môi trường nghĩ, nhận thức tăng cường/Đọc và viết/Bản đồ là yếu tố tuyệt vời nhất của game mà các dự án có sử dụng game hoá chưa sử dụng triệt để]]
 
 Các file trong đây file nào cũng có thể là tài liệu 
 

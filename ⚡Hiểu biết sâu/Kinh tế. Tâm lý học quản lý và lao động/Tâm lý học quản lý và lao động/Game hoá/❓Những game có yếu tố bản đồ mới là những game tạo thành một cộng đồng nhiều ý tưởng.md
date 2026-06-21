@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-11-09T16:21
-updated: 2026-01-14T13:10
+updated: 2026-05-18T21:34
 ---
-Khái niệm:: [[Bản đồ]], [[Game hoá]]
+Khái niệm:: [[Bản đồ]], [[⚡Hiểu biết sâu/Ξ Khái niệm/Game hoá]]
 [[Giàn giáo nhận thức cần phải tuỳ biến với quá trình hiểu biết của người dùng]]
 [[❓Bản đồ là cách để ta biết mình cần gì khi còn chưa cảm nhận được thứ mình cần là gì]]
 [[Đa số các dự án game hoá chỉ tập trung vào cạnh tranh thi đua, chứ không tập trung vào bản đồ]]

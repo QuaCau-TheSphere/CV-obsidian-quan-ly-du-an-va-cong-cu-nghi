@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-12-18T10:03
-updated: 2025-12-22T17:31
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Phức tạp, phức hợp]]
 [[Mọi thứ ban đầu không phức tạp. Chỉ đến khi có nhiều người dùng và tính năng thì nó mới bắt đầu phức tạp]]

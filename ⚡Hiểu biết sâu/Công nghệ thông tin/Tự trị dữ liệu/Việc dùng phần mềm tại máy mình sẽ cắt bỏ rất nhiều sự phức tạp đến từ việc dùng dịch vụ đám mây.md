@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-12-18T10:40
-updated: 2026-05-11T14:27
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Phức tạp, phức hợp]]
 [[Sự phức tạp của code sẽ tự cân bằng nó]]

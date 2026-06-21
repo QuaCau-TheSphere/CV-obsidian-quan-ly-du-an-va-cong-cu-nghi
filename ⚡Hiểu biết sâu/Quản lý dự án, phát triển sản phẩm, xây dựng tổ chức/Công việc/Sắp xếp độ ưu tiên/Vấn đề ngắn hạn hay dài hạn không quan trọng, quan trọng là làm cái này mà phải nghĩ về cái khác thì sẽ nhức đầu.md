@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:11
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Ưu tiên]], [[Gánh nặng nhận thức]]
 [[Ý tưởng sinh ra không theo độ khẩn cấp]]. [[Ý tưởng nếu không ghi lại ngay sẽ quên rất nhanh]]

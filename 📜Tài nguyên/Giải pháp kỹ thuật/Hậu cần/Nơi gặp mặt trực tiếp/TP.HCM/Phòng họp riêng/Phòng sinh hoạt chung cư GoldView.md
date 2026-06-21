@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-03-18T12:17
+updated: 2026-05-26T20:11
 description: Tầng 5, chung cư The GoldView, 346 Bến Vân Đồn, Vĩnh Hội
 ---
 Địa chỉ:: Tầng 5, chung cư The GoldView, 346 Bến Vân Đồn, Vĩnh Hội

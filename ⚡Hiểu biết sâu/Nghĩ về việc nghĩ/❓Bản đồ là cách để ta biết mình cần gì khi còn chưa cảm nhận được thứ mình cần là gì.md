@@ -1,10 +1,10 @@
 ---
 share: true
 created: 2024-03-16T14:36
-updated: 2026-03-06T16:14
+updated: 2026-06-01T19:31
 ---
-Khái niệm:: [[Bản đồ]], [[Sự không biết]]
-[[❓Tác giả của một bài viết không bao giờ vét cạn được mọi từ khoá mà người đọc có thể sẽ nhập vào máy tìm kiếm để được gợi ý tới bài viết đó]]
+Khái niệm:: [[Bản đồ]], [[Sự không biết]], [[Trực giác]]
+[[❓Tác giả của một bài viết không bao giờ vét cạn được mọi từ khóa mà người đọc có thể sẽ nhập vào máy tìm kiếm để được gợi ý tới bài viết đó]]
 [[Cảm giác mơ hồ sẽ mạnh hơn nếu đó không phải là thứ mình biết là mình không biết, mà là thứ mình biết là mình không biết là mình không biết]]
 
 Nguồn:: ![Quả Cầu x Duy Phong: Writing Logseq Collins Dictionary Plugin - YouTube](https://youtu.be/obcpkYjSGQw?si=--l2RceC_ZCnbRAv)

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-02-07T13:03
+updated: 2026-06-05T19:03
 ---
 # **đối ⊷ thoại**: Rút gọn liên kết và thống kê lưu lượng truy cập cho các dự án, tổ chức hiện diện trên nhiều nền tảng
 Một tổ chức, mạng lưới có nhiều dự án, sản phẩm khác nhau giống như một vùng đất có nhiều lối vào và lối ra. Những người đến vùng đất đó có những lộ trình khác nhau. Việc cải thiện trải nghiệm của họ đòi hỏi những người đang xây dựng vùng đất đó biết được họ đã đến nơi này như thế nào.

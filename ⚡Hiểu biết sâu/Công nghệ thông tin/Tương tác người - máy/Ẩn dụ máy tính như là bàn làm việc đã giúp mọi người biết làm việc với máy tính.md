@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-22T21:45
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Ẩn dụ]]
 But he talked about how in the very beginning when, mostly at Apple, they were starting to try and design those icons, and figure out a way to give cause, right, Apple designed the desktop metaphor right? So before that, all computers were just the command line. You know, you just don't have anywhere to start. And they designed this idea of like, okay, your computer is like your desk and the code on your thing is contained into files, just like your paper on the desk.

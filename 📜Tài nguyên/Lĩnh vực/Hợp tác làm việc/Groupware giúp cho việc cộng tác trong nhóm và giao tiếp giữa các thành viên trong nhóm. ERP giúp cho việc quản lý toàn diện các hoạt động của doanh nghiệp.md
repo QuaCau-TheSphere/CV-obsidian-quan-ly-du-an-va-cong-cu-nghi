@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:11
+updated: 2026-05-21T18:24
 ---
 Groupware là phần mềm nhóm, giúp các cá nhân cộng tác trên các dự án với mục tiêu chung từ các địa điểm phân tán về mặt địa lý thông qua giao diện Internet chia sẻ như một phương tiện để giao tiếp trong nhóm[1](https://filegi.com/tech-term/groupware-3057/). Groupware có thể bao gồm hệ thống lưu trữ truy cập từ xa để lưu trữ thường xuyên sử dụng các file dữ liệu[1](https://filegi.com/tech-term/groupware-3057/).
 
@@ -11,8 +11,8 @@ Vậy Groupware và ERP có điểm khác biệt cơ bản là Groupware giúp c
 
 # Các cách phân loại groupware
 ## Theo không thời gian
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Cscwmatrix.jpg/703px-Cscwmatrix.jpg) 
-Nguồn:: [[Wikipedia]], [Computer-supported cooperative work](https://en.wikipedia.org/wiki/Computer-supported_cooperative_work), [[Bing AI]], [Collaborative software](https://en.wikipedia.org/wiki/Collaborative_software)
+![](https://upload.wikimedia.org/wikipedia/commons/2/28/Cscwmatrix.jpg) 
+Nguồn:: [[Wikipedia]], [Computer-supported cooperative work](https://en.wikipedia.org/wiki/Computer-supported_cooperative_work), [Collaborative software](https://en.wikipedia.org/wiki/Collaborative_software)
 
 ## Theo mức độ hợp tác
 - Giao tiếp
@@ -25,8 +25,8 @@ Groupware can be divided into three categories depending on the level of [collab
 2.  **Conferencing** (or collaboration level, as it is called in the academic papers that discuss these levels) refers to interactive work toward a shared goal. Brainstorming or voting are examples of this.
 3.  **Co-ordination** refers to complex interdependent work toward a shared goal. A good metaphor for understanding this is to think about a sports team; everyone has to contribute the right play at the right time as well as adjust their play to the unfolding situation - but everyone is doing something different - in order for the team to win. That is complex interdependent work toward a shared goal: collaborative management.
 
-
-![](https://www.researchgate.net/profile/Michael-Koch-21/publication/205976839/figure/fig1/AS:651875657474064@1532430676618/Categorizing-Groupware-in-between-the-three-different-interaction-modescommunication.png) 
+![[Categorizing-Groupware-in-between-the-three-different-interaction-modescommunication.png]]
+Nguồn:: https://www.researchgate.net/profile/Michael-Koch-21/publication/205976839/figure/fig1/AS:651875657474064@1532430676618/Categorizing-Groupware-in-between-the-three-different-interaction-modescommunication.png
 
 ## Theo chức năng (dành cho loại coordination) 
 Collaborative management tools facilitate and manage group activities. Examples include:

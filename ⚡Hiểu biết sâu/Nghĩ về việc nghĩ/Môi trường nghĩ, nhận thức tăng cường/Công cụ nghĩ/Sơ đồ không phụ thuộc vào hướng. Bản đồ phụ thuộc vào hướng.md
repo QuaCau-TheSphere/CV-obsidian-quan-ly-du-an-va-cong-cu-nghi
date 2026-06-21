@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-12-20T13:39
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Bản đồ]], [[Đồ thị mạng lưới]]
 ![](https://i.imgur.com/WogLoGv.jpeg)

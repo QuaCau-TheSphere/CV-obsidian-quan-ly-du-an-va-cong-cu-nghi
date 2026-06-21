@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-03-30T12:46
+updated: 2026-05-12T23:39
 ---
 Vì ta tồn tại với tư cách người hỏi, mình cũng cần có những câu hỏi lật ngược vấn đề. Nếu sau đó họ vẫn nói một chiều thì cần phải chấp nhận nhược điểm của phương pháp này.
 [[Việc hỏi quan điểm có thể gặp việc tránh né, hoặc câu trả lời bị theo tư duy của họ, hoặc không tạo đủ chất liệu cho việc kể chuyện]]

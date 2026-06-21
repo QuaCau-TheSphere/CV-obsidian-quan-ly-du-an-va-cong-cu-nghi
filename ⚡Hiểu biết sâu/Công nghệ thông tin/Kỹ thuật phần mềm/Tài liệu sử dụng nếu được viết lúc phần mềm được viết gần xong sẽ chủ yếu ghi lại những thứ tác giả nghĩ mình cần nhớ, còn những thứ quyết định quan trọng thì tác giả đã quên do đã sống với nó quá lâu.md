@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-22T20:09
-updated: 2025-12-22T17:31
+updated: 2026-05-12T23:39
 filename: Tài liệu sử dụng nếu được viết lúc phần mềm được viết gần xong sẽ chủ yếu ghi lại những thứ tác giả nghĩ mình cần nhớ
 ---
 Khái niệm:: 

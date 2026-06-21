@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-07-26T10:33
-updated: 2026-03-29T15:40
+updated: 2026-06-02T19:55
 ---
 Khái niệm:: [[Mẫu hình (pattern)]], [[Trực giác]]
 [[Sự chuyên gia đến từ việc nhìn ra mẫu hình]]

@@ -1,6 +1,6 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:11
+updated: 2026-05-31T21:36
 ---
-[[Idea là một cái gì đó để thử, còn insight là kết quả của sự thử]] 
+[[Ý tưởng là một cái gì đó để thử, còn hiểu biết sâu là kết quả của sự thử]] 

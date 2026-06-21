@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-11T20:37
-updated: 2026-03-30T12:46
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Dữ liệu]]
 [[Bookademy] Review Sách “Dữ Liệu Nhỏ”: Manh Mối Nhỏ Mở Ra Xu Hướng Lớn - YBOX](https://ybox.vn/ky-nang/bookademy-review-sach-du-lieu-nho-manh-moi-nho-mo-ra-xu-huong-lon-0iyubnsre8)

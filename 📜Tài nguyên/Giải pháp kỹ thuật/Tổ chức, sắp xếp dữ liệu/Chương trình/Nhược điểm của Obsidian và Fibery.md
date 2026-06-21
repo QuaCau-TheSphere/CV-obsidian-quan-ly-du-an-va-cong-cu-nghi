@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-08T21:32
-updated: 2026-01-14T13:11
+updated: 2026-05-16T21:00
 ---
 Fibery cũng là một sản phẩm low code. Nó *hứa hẹn* giải quyết được 2 vấn đề sau:
 - Một nơi vừa để quản lý công việc vừa quản lý kiến thức

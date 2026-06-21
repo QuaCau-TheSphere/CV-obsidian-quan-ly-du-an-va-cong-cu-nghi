@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-25T22:56
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 Lý do:: [[Lập trình viên không chỉ không được giao một đề bài rõ ràng, đầy đủ ngay từ đầu, mà các yêu cầu cũng thay đổi theo thời gian]]

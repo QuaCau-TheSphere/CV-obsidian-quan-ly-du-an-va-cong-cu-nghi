@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-09-07T21:06
-updated: 2026-01-29T18:06
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Cân bằng]], [[Công việc]], [[Thời gian, lịch]]
 ![](https://www.timeblockplanner.com/wp-content/uploads/2020/09/tasktable.jpg)

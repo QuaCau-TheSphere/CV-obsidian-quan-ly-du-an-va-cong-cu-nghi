@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-31T13:36
-updated: 2026-02-10T12:05
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Nhân văn số]]
 Lý do:: [[❓Nhân văn chỉ quan tâm đến việc lưu trữ, hiểu dữ liệu và tạo ra câu chuyện hay]], [[Mô hình chủ đề rất hữu dụng cho việc diễn giải]]

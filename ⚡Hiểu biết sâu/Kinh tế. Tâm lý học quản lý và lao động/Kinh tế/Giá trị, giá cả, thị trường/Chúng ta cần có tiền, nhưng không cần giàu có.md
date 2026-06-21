@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Tiền bạc có làm cho người ta hạnh phúc hay không ? Câu trả lời là có. Nhưng với một giới hạn. Giới hạn ấy là mức thu nhập 75 ngàn Đô La một năm ! Đó là kết quả của một nghiên cứu được công bố ngày 7 tháng 9, 2010 trên « Proceedings of the National Academy of Sciences », dựa trên một thống kê được thực hiện bởi viện Gallup, qua 450 ngàn câu trả lời thăm dò mức độ hạnh phúc của 1000 người Mỹ. Phân tích kết quả này, nhà Kinh Tế và Tâm Lý Học Daniel Kahneman (Nobel Kinh tế 2002), và Angus Deaton (Nobel kinh tế 2015), thuộc Đại học Princeton, cho biết là vượt quá mức thu nhập 75 ngàn Đô La một năm, cảm giác hạnh phúc sẽ không gia tăng. Sự bớt lo lắng hay bớt đau khổ cũng sẽ không suy giảm. 
 

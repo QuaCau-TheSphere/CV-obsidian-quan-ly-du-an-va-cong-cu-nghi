@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2026-05-11T14:27
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Trung tâm hóa]]
 Công nghệ web được sinh ra với ý tưởng phi trung tâm hoá, nhưng rốt cuộc cũng lại tái trung tâm hoá. Giao thức email được trung tâm hoá tại Google, XMPP được trung tâm hoá tại Facebook. Ngay cả Mastodon, thứ được thiết kế để giải trung tâm hoá, cũng tự tạo ra vài trung tâm bên trong nó.

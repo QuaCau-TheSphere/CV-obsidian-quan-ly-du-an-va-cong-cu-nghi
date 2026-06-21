@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-10-09T13:18
-updated: 2026-01-14T13:11
+updated: 2026-05-12T23:39
 title: Hướng dẫn đóng góp kho địa điểm để chọn nơi gặp mặt
 ---
 Các điểm cộng sẽ được ghi ở thể khẳng định và ở định dạng ô chọn (checkbox). Các điểm trừ sẽ được ghi ở thể phủ định và ở định dạng chấm đầu dòng (bullet). Việc này không những để phù hợp với việc ô chọn thường dùng cho những điều cần có, còn chấm đầu dòng thì thường dùng cho những điểm cần lưu ý, mà còn dễ để xử lý trong Dataview hơn. 

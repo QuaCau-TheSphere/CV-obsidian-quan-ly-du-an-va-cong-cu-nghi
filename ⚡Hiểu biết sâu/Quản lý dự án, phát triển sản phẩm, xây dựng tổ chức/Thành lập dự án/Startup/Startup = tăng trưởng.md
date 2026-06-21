@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:11
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 Không có ai bắt buộc một công ty phải tăng trưởng cả. Giống như những con cá sống ở biển được gọi là cá biển, những công ty nếu có tăng trưởng cao được gọi là startup. Nhưng cá biển với cá sông hay cá hồ thì cũng đều bình đẳng với nhau về định nghĩa. Tăng trưởng không phải là sự trói buộc của công ty hay mô hình kinh doanh, mà là sự trói buộc của loài người trong việc phân loại chúng.

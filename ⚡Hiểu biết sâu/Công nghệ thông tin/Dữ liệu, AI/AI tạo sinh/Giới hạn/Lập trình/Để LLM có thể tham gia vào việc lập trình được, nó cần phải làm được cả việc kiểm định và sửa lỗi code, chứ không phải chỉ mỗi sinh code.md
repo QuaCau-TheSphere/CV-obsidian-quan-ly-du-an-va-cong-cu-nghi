@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 [[Trước khi LLM có thể kiểm định và sửa lỗi code, ta vẫn cần phải học lập trình để kiểm định và sửa lỗi cho nó]] 

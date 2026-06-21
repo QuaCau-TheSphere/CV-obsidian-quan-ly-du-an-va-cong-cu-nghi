@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-12-18T10:29
-updated: 2026-02-02T11:59
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Phức tạp, phức hợp]]
 [[Mọi thứ sẽ trở nên phức tạp trước khi trở thành đơn giản]]

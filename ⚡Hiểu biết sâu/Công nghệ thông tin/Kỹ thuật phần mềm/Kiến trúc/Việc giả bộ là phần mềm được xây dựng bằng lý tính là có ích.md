@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-22T19:49
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Tuy [[Hình ảnh một phần mềm được xây dựng thuần tuý từ lý thuyết là một ảo tưởng]], nhưng [[Việc giả bộ là phần mềm được xây dựng bằng lý tính là có ích]]
 1) Designers need guidance. When we undertake a large project we can easily be overwhelmed by the enormity of the task. We will be unsure about what to do first. A good understanding of the ideal process will help us to know how to proceed.

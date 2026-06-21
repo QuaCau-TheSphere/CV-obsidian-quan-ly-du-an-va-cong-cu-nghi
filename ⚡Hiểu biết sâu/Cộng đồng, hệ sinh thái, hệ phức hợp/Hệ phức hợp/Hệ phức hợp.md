@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Sự tự tổ chức sự tạo mẫu hình một cách phi tuyến]]
 - Theo lý thuyết mạng lưới: có độ kết nối cao 

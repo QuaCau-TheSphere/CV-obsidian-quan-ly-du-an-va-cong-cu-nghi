@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-03-30T12:46
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 Trong câu chuyện SMC, nhân vật thực ra đã chết. Nhưng dựa trên các dữ liệu, và vì tác giả chọn đứng ở ngôi thứ nhất, nên tác giả đã ghi lại những suy nghĩ nội tâm của nhân vật, dù đó chỉ là hư cấu.

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-31T21:20
 ---
 Khái niệm:: [[Tóm tắt, mục lục]]
 
@@ -9,6 +9,6 @@ Khái niệm:: [[Tóm tắt, mục lục]]
 
 Nguồn:: [Học cách học: Một bài học quan trọng bậc nhất đang bị bỏ quên :: Yersin University](https://yersin.edu.vn/hoc-cach-hoc--mot-bai-hoc-quan-trong-bac-nhat-dang-bi-bo-quen-html "Học cách học: Một bài học quan trọng bậc nhất đang bị bỏ quên :: Yersin University")
 
-[[Việc rút gọn cả bài thành câu tóm tắt chỉ có tác dụng khi mình hiểu dược những khái niệm quan trọng trong bài]]
+[[Việc rút gọn cả bài thành câu tóm tắt chỉ có tác dụng khi mình hiểu được những khái niệm quan trọng trong bài]]
 [[Việc thu thập tài nguyên tạo cảm giác hữu ích hơn là thực sự hữu ích]]
 [[Đường cong trí nhớ, Lặp lại theo khoảng (spaced repetition)]]

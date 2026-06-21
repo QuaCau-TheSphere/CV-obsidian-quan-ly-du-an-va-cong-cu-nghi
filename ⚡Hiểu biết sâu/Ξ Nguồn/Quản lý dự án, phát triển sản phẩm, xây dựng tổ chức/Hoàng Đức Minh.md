@@ -1,12 +1,13 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-04-18T21:17
+updated: 2026-05-27T23:26
 ---
 ```dataview
-LIST file.cday
+LIST rows.file.link
 FROM [[]]
-sort file.cday desc
+GROUP BY split(file.folder, "/")[3]
+WHERE file.name != this.file.name
 ```
 ![https://youtu.be/hz86dVIrjIA](https://youtu.be/hz86dVIrjIA "https://youtu.be/hz86dVIrjIA")
 Trên mạng có rất nhiều tài liệu: 
@@ -40,7 +41,7 @@ Các cách để nghiên cứu người dùng:
 - Phân tích dữ liệu
 - Thí nghiệm
 
-[[⚡Hiểu biết sâu/Ξ Nguồn/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Khảo sát tốt nhất là chỉ có một câu. Người chịu khó trả lời câu hỏi mở thường là người đã quý mến mình sẵn rồi]]
+[[Khảo sát tốt nhất là chỉ có một câu. Người chịu khó trả lời câu hỏi mở thường là người đã quý mến mình sẵn rồi]]
 
 Những yếu tố có thể học được từ user reserach:
 - Hành vi → vẽ lại hành trình trải nghiệm
@@ -82,7 +83,7 @@ Insight không nên lung tung, mà nên theo danh mục các biến, theo mục 
 
 [[Làm game không được tính là làm sản phẩm. Nó nên được xem là làm nghệ thuật, nhưng vì nó có data, cũng phải dev, nên nó lai lai]]
 
-[[Làm product thiên về cảm giác, làm growth thiên về dữ liệu]]
+[[Làm sản phẩm thiên về cảm giác, làm tăng trưởng thiên về dữ liệu]]
 
 [[Vì tôi không biết làm nên không được giao, nhưng vì không được giao nên càng không biết làm]]
 

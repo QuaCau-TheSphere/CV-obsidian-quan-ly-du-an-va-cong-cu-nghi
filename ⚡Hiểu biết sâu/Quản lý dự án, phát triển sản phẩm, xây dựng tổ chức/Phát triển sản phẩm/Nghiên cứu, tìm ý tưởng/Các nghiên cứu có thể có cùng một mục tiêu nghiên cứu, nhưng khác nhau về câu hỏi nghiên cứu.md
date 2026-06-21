@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-04-18T20:22
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Câu hỏi nghiên cứu]], [[Mục tiêu]]
 Một mục tiêu nghiên cứu ví dụ là `Kiểm tra cách khách hàng tiếp nhận ý tưởng về sản phẩm`. Mục tiêu này dành cho sản phẩm chưa ra đời, hoặc ít nhất là khách hàng chưa biết tới. Các câu hỏi nghiên cứu có thể là:

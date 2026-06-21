@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:11
+updated: 2026-05-12T23:39
 ---
 Hầu hết các đại diện doanh nghiệp được tôi hỏi đều trả lời rằng họ “chưa bao giờ hài lòng”. Câu trả lời này lặp lại và ám ảnh tôi mãi.
 

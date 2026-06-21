@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-02T13:19
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: [[Hệ sinh thái]], [[Hỏi]]
 [[Để một hệ sinh thái hoạt động thực sự hiệu quả thì lượng năng lượng dành ra để nắm bắt tín hiệu của môi trường phải giảm tới mức gần như bằng 0]]

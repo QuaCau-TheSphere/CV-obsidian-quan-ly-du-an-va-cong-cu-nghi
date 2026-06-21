@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-05-12T23:39
 ---
 Khái niệm:: 
 [[Đằng sau vẻ ngoài tự trị của LLM là những người làm công việc dán nhãn và kiểm duyệt, vô hình và bếp bênh]]
