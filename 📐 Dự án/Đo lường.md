@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2025-05-20T14:56
-updated: 2026-01-20T13:53
+updated: 2026-07-14T11:58
 ---
-[[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng]]
+[[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng, không phải là tăng trưởng]]
 [[NPS trên 50% là đạt được sản phẩm phù hợp thị trường]]
 [[Tỉ lệ quay lại là thứ quan trọng nhất trong tăng trưởng]]
 ## Các chỉ số đánh giá giá trị của sản phẩm

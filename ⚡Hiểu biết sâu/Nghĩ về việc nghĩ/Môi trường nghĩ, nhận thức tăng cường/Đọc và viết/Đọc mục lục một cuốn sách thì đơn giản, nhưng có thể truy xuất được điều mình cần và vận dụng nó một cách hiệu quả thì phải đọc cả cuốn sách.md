@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-05-31T21:20
+updated: 2026-07-16T00:28
 ---
 Khái niệm:: [[Diễn giải, đọc]], [[Tóm tắt, mục lục]]
 Nhiều khi việc đọc lên cũng mơ hồ, giống như những âm thanh vô nghĩa đi vào tai rồi đi ra. Chỉ khi đọc hết quyển sách thì nó mới rõ ràng
@@ -10,4 +10,5 @@ Nhiều khi việc đọc lên cũng mơ hồ, giống như những âm thanh v�
 [[Lúc mới học thì cần chất lượng hơn là nhanh]]
 
 [[Có thể học nhanh video mà không cần xem đầy đủ không]]
+[[Người muốn có giải pháp sẽ muốn đọc nội dung dài]]
 Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]

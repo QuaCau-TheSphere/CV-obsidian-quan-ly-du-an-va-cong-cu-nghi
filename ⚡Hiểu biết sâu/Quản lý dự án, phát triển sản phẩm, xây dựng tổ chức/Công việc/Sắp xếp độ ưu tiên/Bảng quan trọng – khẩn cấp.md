@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-30T14:31
-updated: 2026-05-12T23:41
+updated: 2026-06-27T16:59
 aliases:
   - Ưu tiên
 ---
@@ -108,7 +108,7 @@ I find that when someone's taking time to do something right in the present, the
 [[Những công việc không đòi hỏi sự tập trung cao độ]]
 [[Khi một người dành thời gian làm một điều đúng trong quá khứ, họ là nghệ nhân bậc thầy với tầm nhìn xa trông rộng|Khi một người dành thời gian để làm một điều đúng ở hiện tại, họ là một người cầu toàn không có khả năng ưu tiên. Còn khi một người dành thời gian làm một điều đúng trong quá khứ, họ là nghệ nhân bậc thầy với tầm nhìn xa trông rộng]]
 [[Những thứ không quan trọng có thể tự xử lý lẫn nhau]]
-[[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết là đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
+[[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết mà đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
 [[Việc nghĩ ra ý tưởng tốt hơn làm ta muốn theo đuổi nó hơn là làm tiếp thứ hiện tại]]
 [[Loạn chủ đề khi chat]]
 

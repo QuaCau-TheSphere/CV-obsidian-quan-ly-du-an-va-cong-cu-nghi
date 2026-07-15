@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-22T21:45
-updated: 2026-05-27T13:57
+updated: 2026-07-10T20:04
 ---
 Khái niệm:: [[Hỏi]], [[Gánh nặng nhận thức]]
 Lý do:: [[Nội việc đặt câu hỏi thôi đã đủ áp lực rồi, chứ đừng nói đến việc đi google hay đặt câu hỏi tốt hơn]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-05-31T21:20
+updated: 2026-07-16T00:27
 ---
 Khái niệm:: [[Diễn giải, đọc]]
 [[Việc đọc là sự gặp gỡ, giao thoa của thế giới của văn bản và thế giới của người đọc]]
@@ -10,3 +10,7 @@ Khái niệm:: [[Diễn giải, đọc]]
 [[Ta dường như khó có thể chuyển trạng thái từ việc đọc lướt sang việc đọc cẩn thận một cách suôn sẻ và tự nhiên|Vấn đề của việc đọc lướt không phải vì nó có khả năng thành công cao, mà là vì khi mình đã kết luận là khả năng thành công không cao rồi, thì sự chuyển trạng thái sang thực sự đọc cẩn thận không suôn sẻ và tự nhiên]]
 
 [[Sự sẵn sàng và tiện lợi luôn áp đảo hơn sự chính xác]]
+[[Có thể học nhanh video mà không cần xem đầy đủ không]]
+[[Ta dường như khó có thể chuyển trạng thái từ việc đọc lướt sang việc đọc cẩn thận một cách suôn sẻ và tự nhiên|Vấn đề của việc đọc lướt không chỉ ở việc nó không có khả năng thành công cao, mà là vì khi mình đã kết luận là khả năng thành công không cao rồi, thì sự chuyển trạng thái sang thực sự đọc cẩn thận không suôn sẻ và tự nhiên]]
+
+[[Người muốn có giải pháp sẽ muốn đọc nội dung dài]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-01-24T16:44
-updated: 2026-06-21T19:55
+updated: 2026-07-14T14:29
 ---
 Khái niệm:: [[Dữ liệu]], [[Định lượng]]
 [[Dữ liệu đến từ sự định lượng của con người chỉ sử dụng thống kê. Dữ liệu từ sự đo lường các đại lượng vật lý dùng cả các loại toán khác]]
@@ -21,7 +21,7 @@ It’s tempting to use the term _intangible_ when what we really mean is that su
 ### Quá tập trung vào một chỉ số
 Thường không phải là dân nghiên cứu, vì họ thường thấy [[Sự đơn giản ép ta phải làm nó cực kỳ tốt]] hơn là [[Chỉ theo đuổi một chỉ số là quá đơn giản]]
 
-[[Phân tích quyết định đa tiêu chí (MCDA) là phương pháp để tìm điểm đánh đổi tối ưu nhất]]
+[[Phân tích quyết định đa tiêu chí (MCDA) là phương pháp để tìm điểm đánh đổi tối ưu nhất, và có thể sắp xếp các lựa chọn theo thứ tự giảm dần]]
 
 | Nếu vấn đề của dữ liệu định lượng là...            | thì có thể khắc phục bằng việc...                |
 | -------------------------------------------------- | ------------------------------------------------ |
@@ -34,3 +34,4 @@ Thường không phải là dân nghiên cứu, vì họ thường thấy [[Sự
 Tất nhiên, không dễ để việc khắc phục được hoàn hảo. Nhưng tựu chung lại thì đều cần nói rõ giới hạn của phương pháp của mình. Còn nếu người quản lý không chịu dành thời gian để quan tâm tới giới hạn của phương pháp thì [[❓Việc theo đuổi chỉ số sẽ không phải là vấn đề nếu người tạo ra chỉ số là người quyết định dự án hoặc không để quyết định con người]]
 
 bản thân việc bầu cử cũng là một cách định lượng một thứ khó đo lường: sự xứng đáng của một người cho việc điều hành tập thể. Với mỗi ứng cử viên, cử tri chỉ có 2 lựa chọn: gạch hoặc không gạch tên. Chẳng phải đó là một sự phân loại cứng nhắc đó sao? Nhưng dường như không ai xem xét việc bầu cử qua đếm số phiếu là có vấn đề gì cả
+[[Sử dụng nhiều phương pháp khác nhau để kiểm tra giả thuyết sẽ tránh thiên kiến tốt hơn là dùng một phương pháp nhiều lần]]

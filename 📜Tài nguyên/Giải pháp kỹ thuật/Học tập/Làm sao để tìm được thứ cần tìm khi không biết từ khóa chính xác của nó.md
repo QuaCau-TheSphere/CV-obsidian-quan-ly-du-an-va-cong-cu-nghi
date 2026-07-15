@@ -1,19 +1,19 @@
 ---
 share: true
 created: 2024-04-24T09:02
-updated: 2026-06-21T19:55
+updated: 2026-07-03T21:54
 title: Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó?
 aliases:
   - Đâu là nơi dễ gặp được từ khóa cần tìm nhất?
 description: Đâu là nơi dễ gặp được từ khóa cần tìm nhất?
 ---
-> The difference between the almost right word and the right word is really a large matter - 'tis the difference between the lightning-bug and the lightning.
+> [[Sự khác nhau giữa một từ gần đúng và một từ đúng cũng giống như sự khác nhau giữa một con bọ chớp và một tia chớp]]
 > — Mark Twain
 
 Thực ra trong rất nhiều trường hợp, thứ cản trở ta có được từ khóa không hẳn là ở việc không biết phải bắt đầu tìm hiểu ở đâu, mà ở việc không có thời gian tìm hiểu. [[Có những câu hỏi ta rất muốn có câu trả lời nhưng mãi mà vẫn chưa đi google]], và [[Kể cả khi có được một tài liệu chắc chắn sẽ trả lời câu hỏi của ta, thì ta cũng thường không sẵn sàng để đọc nó|kể cả khi đã có được bài viết rồi thì ta cũng thường không sẵn sàng để đọc nó]], vì [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]. Sẽ thật tốt nếu như bạn có ngay một người am hiểu về lĩnh vực đó và sẵn sàng trả lời cho bạn. Nhưng nếu bạn không có ai am hiểu lĩnh vực quanh mình, hoặc bạn không muốn làm phiền họ nên không muốn hỏi họ, hoặc họ cũng không biết câu trả lời, thì lúc này câu hỏi "Làm sao để tìm được thứ ta cần khi ta không biết từ khóa chính xác của nó" sẽ trở thành: 
 
 ## Nếu tôi phải tự tìm hiểu một mình, thì đâu là nơi dễ gặp được từ khóa cần tìm nhất?
-Các gợi ý được sắp xếp theo mức độ tiêu tốn năng lượng.
+Dưới đây là các gợi ý được sắp xếp theo mức độ tiêu tốn năng lượng.
 
 ### Mô hình ngôn ngữ lớn
 [[LLM làm rất tốt việc gợi ý từ khoá]]. Tuy nhiên, nhớ rằng [[LLM là định dạng ảnh mờ của web]]. [[Việc truy xuất thông tin cần có accuracy, sourcing, consistency, and fragility. LLM không có những thứ đó]].
@@ -35,7 +35,7 @@ Hoặc tốt hơn cả là kiếm trên [[Web nhỏ, internet tí hon]]?
 - [Globe Explorer](https://explorer.globe.engineer/): tự động liệt kê các khái niệm liên quan và phân loại chúng 
 - [Không gian vector từ của Google](https://projector.tensorflow.org/)
 - Từ điển các từ đồng nghĩa, gần nghĩa (synonyms) 
-- Phần mục lục của [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists "List of lists of lists - Wikipedia")
+- Các [[Danh sách tổng hợp không sắp thứ tự]], như phần mục lục của [List of lists of lists](https://en.wikipedia.org/wiki/List_of_lists_of_lists "List of lists of lists - Wikipedia")
 - [Wikipedia Map](https://wikipedia.luk.ke/), [Six Degrees of Wikipedia](https://www.sixdegreesofwikipedia.com)
 
 ### Các cộng đồng chuyên môn
@@ -48,7 +48,7 @@ Diễn đàn chuyên về hỏi đáp [[Stack Exchange]] có cơ chế bầu ch�
 - [For the identification of mysterious objects](https://www.reddit.com/r/whatisthisthing/)
 - [I Need a Name (INAN)](https://www.reddit.com/r/INeedAName/)
 
-Nếu cần nơi tổng hợp tiếng Việt thì mình có tổng hợp [500 nhóm Facebook hay](https://quảcầu.cc/cac-nhom-facebook-hay?utm_source=Vault+C+Obsidian%2C+quản+lý+dự+án+và+công+cụ+nghĩ+(Hiểu+biết+sâu)&utm_medium=Vault&utm_campaign=Tài+nguyên+khác%2CLàm+việc+hiệu+quả&utm_content=⚡Hiểu+biết+sâu%2FNghĩ+về+việc+nghĩ%2FHọc+tập%2C+hiểu+biết%2FLàm+sao+để+tìm+được+thứ+ta+cần+khi+ta+không+biết+từ+khoá+chính+xác+của+nó.md&utm_term=). Mục đích của danh sách này chủ yếu để seeding, không phải để tìm từ khoá, nhưng phần học thuật thì cũng có thể hữu ích cho bạn. Phần đó bây giờ cũng phải cập nhật lại.
+Nếu cần nơi tổng hợp tiếng Việt thì mình có tổng hợp [500 nhóm Facebook hay](https://quảcầu.cc/cac-nhom-facebook-hay?utm_source=Vault+C+Obsidian%2C+quản+lý+dự+án+và+công+cụ+nghĩ+(Hiểu+biết+sâu)&utm_medium=Vault&utm_campaign=Tài+nguyên+khác%2CLàm+việc+hiệu+quả&utm_content=⚡Hiểu+biết+sâu%2FNghĩ+về+việc+nghĩ%2FHọc+tập%2C+hiểu+biết%2FLàm+sao+để+tìm+được+thứ+ta+cần+khi+ta+không+biết+từ+khoá+chính+xác+của+nó.md&utm_term=). Mục đích ban đầu của danh sách này chủ yếu để seeding, không phải để tìm từ khoá, nhưng phần học thuật thì cũng có thể hữu ích cho bạn. Phần đó bây giờ cũng phải cập nhật lại.
 Phần khai báo trong đối thoại
 
 Nếu dành thời gian để viết những gì bạn đã thử mà không được thì câu hỏi của bạn sẽ trở nên hấp dẫn hơn, tạo được nhiều tương tác hơn.
@@ -63,7 +63,7 @@ Thường đó sẽ là các danh sách được tuyển chọn, ví dụ như:
 Các kho kiến thức:
  - Với tiếng Việt thì có [trang giới thiệu về đối ⊷ thoại](https://doi-thoai.deno.dev/blog?utm_source=Vault+C+Obsidian%2C+quản+lý+dự+án+và+công+cụ+nghĩ+(Hiểu+biết+sâu)&utm_medium=Vault&utm_campaign=đối+⊷+thoại&utm_content=⚡Hiểu+biết+sâu%2FNghĩ+về+việc+nghĩ%2FHọc+tập%2C+hiểu+biết%2FLàm+sao+để+tìm+được+thứ+ta+cần+khi+ta+không+biết+từ+khoá+chính+xác+của+nó.md&utm_term=).
 
-Xem thêm:: [[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]]
+Xem thêm:: [[Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]]
 ### Các nghiên cứu tổng quan, sách nhập môn, bài giảng đại học
 Hết cách rồi, phải lao đầu vào nghiên cứu thật kỹ thôi.
 
@@ -74,6 +74,7 @@ Hết cách rồi, phải lao đầu vào nghiên cứu thật kỹ thôi.
 - [Cách tìm kiếm các bài viết học thuật](https://phunghuy.wordpress.com/2016/01/05/academicsearch/)
 Xem thêm:: [[Tinh túy của một cuốn sách chính là mục lục của nó]]
 
+[[❓Bản đồ là cách để ta biết mình cần gì khi còn chưa cảm nhận được thứ mình cần là gì]]
 ## Liệu đây đã là cách hiệu quả nhất chưa? 
 Quay trở lại câu hỏi ban đầu:
 > Làm sao để tìm được thứ ta cần khi ta không biết từ khóa chính xác của nó?
@@ -99,9 +100,9 @@ Hoặc cũng có thể có câu trả lời rồi mà mình chưa biết. Nếu 
 - [[Khai thác một từ khoá]]
 - [Bản chất của sự mơ hồ](https://quảcầu.cc/ly-thuyet-ve-goc-nhin?utm_source=Vault+C+Obsidian%2C+quản+lý+dự+án+và+công+cụ+nghĩ+(Hiểu+biết+sâu)&utm_medium=Vault&utm_campaign=hiểu+lầm%2Cnét+nghĩa+ẩn%2Cthay+đổi+góc+nhìn%2CHiện+tượng+học%2C+khoa+học+nhận+thức%2C+vật+lý+luận%2Chiện+tượng+học&utm_content=⚡Hiểu+biết+sâu%2FNghĩ+về+việc+nghĩ%2FHọc+tập%2C+hiểu+biết%2FLàm+sao+để+tìm+được+thứ+ta+cần+khi+ta+không+biết+từ+khoá+chính+xác+của+nó.md&utm_term=)
 - [[Nghịch lý triển ngôn|Nghịch lý triển ngôn: Ý tưởng có trước hay sự triển khai ngôn ngữ có trước?]]
-- [[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người|Xây dựng hệ thống tri thức cộng đồng: Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]] 
+- [[Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]] 
 - [[Sự chuyên gia đến từ việc nhìn ra mẫu hình|Làm sao để giỏi hơn: Sự chuyên gia (expertise) đến từ việc nhìn ra mẫu hình]]
-- [[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết là đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
+- [[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết mà đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
 
 
 Khái niệm:: [[Mô hình tâm trí]], [[Sự không biết]]

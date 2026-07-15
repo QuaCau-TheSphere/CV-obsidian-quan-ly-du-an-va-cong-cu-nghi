@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:11
+updated: 2026-07-14T11:58
 title: 'Định luật Goodhart: "Khi một phép đo trở thành mục tiêu, nó thường mất đi sự hiệu quả của nó"'
 ---
 Khái niệm:: [[Thước đo, đo lường, chỉ số, KPI]]
@@ -17,7 +17,7 @@ Lý do:: [[Động lực ngoại sinh làm tăng sự tập trung vào đích đ
 
 [[Nếu bạn không thể đo lường, bạn không thể cải tiến]] 
 [[Dựa vào KPI thì bộ phận kinh doanh sẽ có tiếng nói lớn nhất, còn đội phát triển sản phẩm rất ít có tiếng nói]]
-[[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng]]
+[[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng, không phải là tăng trưởng]]
 [[Thứ nào được đo thì sẽ tốt lên, còn thứ nào khó đo thì sẽ tệ đi]]
 [[Khi cố điều khiển một hệ phức hợp bằng một hệ đơn giản, ta dễ gặp những hệ quả không mong muốn]]
 [[❓Việc theo đuổi các chỉ số ESG, phát triển bền vững có giúp làm điều tương tự không]]

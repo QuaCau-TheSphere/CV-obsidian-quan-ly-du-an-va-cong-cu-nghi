@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-03-06T16:14
+updated: 2026-06-22T13:55
 ---
 Bài này chưa viết xong. Nhưng bạn có thể đọc một bài có nhiều liên quan tới nó tại
 
@@ -17,4 +17,4 @@ Bằng quan sát cá nhân, chúng tôi thấy dù có rất nhiều tổ chức
 
 kiếm được các tài nguyên đã được tạo ra bởi các dự án khác, 
 
-Xem thêm:: [[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]]
+Xem thêm:: [[Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất|Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của họ một cách nhanh nhất?]]

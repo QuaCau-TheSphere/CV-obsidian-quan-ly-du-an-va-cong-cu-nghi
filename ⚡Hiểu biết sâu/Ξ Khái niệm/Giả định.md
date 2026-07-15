@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-04-22T13:43
-updated: 2026-04-18T20:09
+updated: 2026-07-01T19:54
 aliases:
   - Giả thiết
   - Giả thuyết

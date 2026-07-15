@@ -1,7 +1,8 @@
 ---
 share: true
 created: 2026-05-22T16:15
-updated: 2026-06-21T19:55
+updated: 2026-06-22T09:56
+title: Có thể học nhanh video mà không cần xem đầy đủ không?
 aliases:
   - youtube
 ---
@@ -11,5 +12,5 @@ e học nhiều từ youtube, nhưng cần học nhanh mà ko xem full, em cần
 - [[Lúc mới học thì cần chất lượng hơn là nhanh]]
 - [[Giữa thời gian, chất lượng, chi phí, ta chỉ chọn được 2]]
 - [[Việc rút gọn cả bài thành câu tóm tắt chỉ có tác dụng khi mình hiểu được những khái niệm quan trọng trong bài]] 
-
+[[Đọc lướt không giúp ta tiếp thu được gì cả]]
 [[Ghi chú trên YouTube]]

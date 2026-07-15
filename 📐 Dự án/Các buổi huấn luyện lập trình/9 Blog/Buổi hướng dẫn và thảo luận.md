@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-21T15:49
-updated: 2026-06-21T09:14
+updated: 2026-07-08T23:57
 aliases:
   - workshop
 ---

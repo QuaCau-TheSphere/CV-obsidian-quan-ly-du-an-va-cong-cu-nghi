@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-06-01T15:35
+updated: 2026-07-14T16:00
 ---
 Lĩnh vực:: 
 Nhu cầu công nghệ:: [[Cào web]], [[Tự động nhập sự kiện vào lịch]], [[Hệ thống quản lý kiến thức]], [[Tự động hoá các công việc lặp đi lặp lại]], [[Tổng hợp nội dung, tin tức, sự kiện từ các website]], [[Tài liệu động]]

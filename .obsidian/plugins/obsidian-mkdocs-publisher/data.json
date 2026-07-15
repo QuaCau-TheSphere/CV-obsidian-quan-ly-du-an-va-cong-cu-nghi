@@ -42,7 +42,7 @@
       }
     ],
     "verifiedRepo": true,
-    "rateLimit": 4997
+    "rateLimit": 4999
   },
   "upload": {
     "behavior": "obsidian",

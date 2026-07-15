@@ -2,9 +2,10 @@
 share: true
 description: Hỏi một người liệu sau này họ có làm điều này điều kia không là không chắc đúng
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:11
+updated: 2026-07-16T00:24
 ---
 Lý do:: [[Con người nhiều khi không nói dối mà chỉ đang lý tưởng hoá bản thân]]
+
 Ví dụ về một số câu hỏi cho ra kết quả không đáng tin cậy:
 - Bạn có tính sử dụng sản phẩm không?
 - Bạn có sẵn lòng mua sản phẩm mới không?
@@ -16,10 +17,12 @@ Mặc dù phỏng vấn khó có thể dự đoán hành vi, nhưng [[Phỏng v�
 [[Kết quả phỏng vấn phải actionable]]
 
 Nguồn:: [[Hoàng Đức Minh]]
-[[Phỏng vấn là để hiểu vấn đề người dùng gặp phải, không phải để cải thiện giải pháp]]
+[[Phỏng vấn là để hiểu vấn đề người dùng gặp phải, không phải để cải thiện giải pháp của mình]]
 [[Người dùng nói thích một tính năng không có nghĩa là họ sẽ bỏ những sản phẩm khác để đến với tính năng của mình]] 
+
 [[Về mặt nhận thức, con người tương lai của chính mình không liên quan gì đến mình]]
 Mâu thuẫn với:: [[Dữ liệu nhỏ cũng có tính dự báo xu hướng giống như dữ liệu lớn]]
 Mâu thuẫn với:: [[Con người không muốn mâu thuẫn với những điều mình nói ra]]
 
-[Value-action gap - Wikipedia](https://en.wikipedia.org/wiki/Value-action_gap)
+[[Không phải lúc nào con người cũng làm những điều họ nói]]
+Khái niệm:: [[⚡Hiểu biết sâu/Quản lý dự án, phát triển sản phẩm, xây dựng tổ chức/Phát triển sản phẩm/Nghiên cứu, tìm ý tưởng/Người dùng/Phỏng vấn/Phỏng vấn]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-09-03T00:32
-updated: 2026-05-18T21:34
+updated: 2026-07-11T23:32
 ---
 Khái niệm:: [[Quản trị kiến thức]]
 Trước tiên hãy nói về cách đánh số thư mục. Cách đánh số này lấy ý tưởng từ cách đánh số [Johnny•Decimal](https://johnnydecimal.com/).
@@ -114,6 +114,7 @@ Sự kiện là một loại output
 Sản phẩm là sự bồi tụ của các dòng hải lưu nhu cầu và kết tinh của kiến thức, trong khi sản phẩm nhỏ hơn là output. Nó là lý do khiến mọi người bu vào. Sản phẩm = dự án = nhóm các output. Những outcome nào liên quan đến nhau thì sẽ là để phục vụ cho một outcome lớn hơn
 Thường là để các cấp trong tổ chức nói chuyện với nhau
 Tầm nhìn chắc là outcome tổng
+[[❓Nhu cầu = impact = vấn đề = điểm đau = động lực = lý do bắt đầu = thành quả mong muốn nguyên thuỷ]]
 Nhu cầu = impact = problem = why start = pain point = động lực
 ![](https://miro.medium.com/max/1200/1*pNf5d7h2c-N-BrbM8cVDIA.png) 
 

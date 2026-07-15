@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-04-18T20:08
+updated: 2026-07-13T15:24
 aliases:
   - Không nên xem công việc chỉ để hoàn thành, mà nên xem nó như là một cách để kiểm định giả thiết
 ---

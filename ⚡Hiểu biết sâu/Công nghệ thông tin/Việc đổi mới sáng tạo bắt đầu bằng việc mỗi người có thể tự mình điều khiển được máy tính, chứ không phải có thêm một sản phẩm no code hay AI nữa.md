@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-09-22T22:30
-updated: 2026-05-12T23:39
+updated: 2026-07-04T11:46
 aliases:
   - Phần mềm cá nhân
 ---

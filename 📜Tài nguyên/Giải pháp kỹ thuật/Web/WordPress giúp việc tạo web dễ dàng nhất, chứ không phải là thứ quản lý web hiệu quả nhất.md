@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-02-27T15:45
-updated: 2026-06-02T21:42
+updated: 2026-07-08T12:14
 description: WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ tạo web hiệu quả nhất
 blog: finished
 aliases:
@@ -76,6 +76,5 @@ Xem thêm:
 ## Nháp
 ## Lưu ý cho người cần tìm người phụ đăng bài
 Nếu bạn đã có một trang web có theme đẹp rồi, và 
-Nếu bạn ưu tiên cắt giảm công đoạn đăng bài, chấp nhận ko có theme đẹp một thời gian thì mình đề xuất dùng web tĩnh. Một thời gian sau thì sẽ có, nhưng nếu bạn muốn nhờ mình làm theme thì sẽ tuỳ vào công việc của mình. Bạn có thể thuê người ngoài để làm nhanh. Còn nếu bạn không thể bỏ theme hiện tại được thì phải đợi có theme rồi mới chuyển web đc
 
 web động cũng như web tĩnh đều đòi hỏi bạn phải cài đặt, cấu hình phần mềm. Nhưng vì người dùng web động phải trả thêm cả tiền host khiến cho các công ty hosting có thêm nhiều tiền từ các phần mềm tạo web động hơn các phần mềm tạo web tĩnh. WordPress vào thời điểm ra mắt là phần mềm tạo web động duy nhất có giao diện thân thiện với người dùng. Những điều này đã thúc đẩy các công ty này tập trung vào WordPress, quảng cáo cho nó nhiều hơn. Các công ty này có lợi hơn nếu như người dùng nghĩ đến WordPress đầu tiên khi họ muốn tạo website. %%

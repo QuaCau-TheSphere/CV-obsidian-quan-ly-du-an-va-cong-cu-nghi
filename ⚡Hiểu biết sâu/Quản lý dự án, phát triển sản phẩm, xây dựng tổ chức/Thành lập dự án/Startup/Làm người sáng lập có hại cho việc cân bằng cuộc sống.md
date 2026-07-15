@@ -1,12 +1,12 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:11
+updated: 2026-06-26T12:37
 ---
 Nguồn:: ![Sam Altman - How to Succeed with a Startup - YouTube](https://youtu.be/0lJKucu6HJc?si=KZSfIRxwf6NzLRPa&t=618)
 
 [[Bảng quan trọng – khẩn cấp]]
-[[Quản lý công việc và quản lý kiến thức không thể tách rời nhau]], vì [[Công việc khai phá chính là việc nghiên cứu và quản lý kiến thức]] 
+[[Quản lý công việc và quản lý kiến thức không thể tách rời nhau]], vì [[Xây dựng chiến lược, nghiên cứu, quản lý tri thức, thiết kế hệ thống là các công việc khai phá]] 
 [[Không có giải pháp nào cho người sáng lập để giải quyết sự quá tải ngoài những lời khuyên chung chung]]
 [[Việc mải mê làm việc đến quên cả đói cho thấy phần thưởng từ việc làm việc là đủ lớn hơn việc được ăn]] 
 [[Chưa thấy có dự án nào nói về việc làm giảm tải gánh nặng công việc cho người bên cạnh mình]] 

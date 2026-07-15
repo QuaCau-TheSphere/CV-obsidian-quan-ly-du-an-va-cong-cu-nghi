@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-03-16T14:36
-updated: 2026-06-01T19:31
+updated: 2026-07-03T21:53
 ---
 Khái niệm:: [[Bản đồ]], [[Sự không biết]], [[Trực giác]]
 [[❓Tác giả của một bài viết không bao giờ vét cạn được mọi từ khóa mà người đọc có thể sẽ nhập vào máy tìm kiếm để được gợi ý tới bài viết đó]]
@@ -16,4 +16,4 @@ Nguồn:: ![Quả Cầu x Duy Phong: Writing Logseq Collins Dictionary Plugin - 
 [[Bản đồ không phải là vùng đất]]
 [[❓Những game có yếu tố bản đồ mới là những game tạo thành một cộng đồng nhiều ý tưởng]]
 [[Sơ đồ không phụ thuộc vào hướng. Bản đồ phụ thuộc vào hướng]]
-[[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người]]
+[[Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất]]

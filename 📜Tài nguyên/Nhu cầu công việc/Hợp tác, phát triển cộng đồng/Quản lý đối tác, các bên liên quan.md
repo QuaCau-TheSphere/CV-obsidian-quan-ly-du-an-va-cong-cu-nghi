@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:11
+updated: 2026-07-03T22:29
 ---
 Nhu cầu công việc:: [[Nắm bắt hoạt động của nhau]], [[Thúc đẩy sự hợp tác giữa các thành viên trong mạng lưới]]
 Nhu cầu công nghệ:: [[Tạo đồ thị mạng lưới, hệ thống phi tuyến]], [[Tài liệu động]]

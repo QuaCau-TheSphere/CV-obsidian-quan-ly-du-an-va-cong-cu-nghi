@@ -3,7 +3,7 @@ share: true
 created: 2023-07-01T14:03
 aliases:
   - làm sao
-updated: 2026-06-21T19:55
+updated: 2026-07-01T12:48
 ---
 Khái niệm:: [[Công cụ, công nghệ]]
 
@@ -36,7 +36,7 @@ Các vấn đề của một công cụ:
 ## Hiểu biết sâu
 ```dataview
 LIST rows.file.link 
-WHERE contains(khái-niệm, [[Công cụ]])
+WHERE contains(khái-niệm, [[Công cụ, công nghệ]])
 GROUP BY split(file.folder, "/")[3]
 WHERE file.name != this.file.name
 ```

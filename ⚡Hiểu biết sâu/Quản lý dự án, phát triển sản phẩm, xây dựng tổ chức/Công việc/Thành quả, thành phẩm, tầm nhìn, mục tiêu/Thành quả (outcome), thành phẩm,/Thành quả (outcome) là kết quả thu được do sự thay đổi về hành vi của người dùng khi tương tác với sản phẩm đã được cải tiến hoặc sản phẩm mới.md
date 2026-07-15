@@ -1,9 +1,10 @@
 ---
 share: true
 created: 2025-09-27T16:20
-updated: 2026-05-18T21:39
+updated: 2026-07-14T11:58
 ---
 Khái niệm:: [[Thành quả]]
+[[An outcome is a change in human behavior that drives business results]]
 Ví dụ: tăng retention rate, tăng giá trị đơn hàng mỗi lần mua, tăng frequency mua hàng
 Việc chia như vậy là quan trọng, vì:
 - Outcome mới là cái mình thực sự hướng đến
@@ -29,7 +30,7 @@ Tham khảo:: [[Hoàng Đức Minh]]
 
 [[Tiêu đề của thành quả mong muốn bắt đầu bằng người dùng]] 
 [[Đổi những câu hỏi chất vấn giả định của một thành quả về dạng khẳng định thì ta sẽ có những thành quả mong muốn thành phần]]
-[[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng]]
+[[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng, không phải là tăng trưởng]]
 
 Outcomes have nothing to do with making stuff—though they sometimes are created by making the right stuff. Instead, outcomes are the changes in customer, user, employee behavior that lead to good things for your company, your organization, or whomever is the focus of your work.
 

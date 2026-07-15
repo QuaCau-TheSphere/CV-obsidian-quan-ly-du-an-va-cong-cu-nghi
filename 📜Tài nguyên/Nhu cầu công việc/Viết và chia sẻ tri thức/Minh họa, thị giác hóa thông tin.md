@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-09-26T10:25
-updated: 2026-03-06T16:14
+updated: 2026-06-22T13:55
 ---
 Đọc tổng quan trên Wikipedia: [Visualization (graphics)](https://en.wikipedia.org/wiki/Visualization_(graphics))
 
@@ -19,7 +19,7 @@ updated: 2026-03-06T16:14
 
 ![[Mối liên hệ giữa sơ đồ, biểu đồ, bản đồ, đồ thị mạng lưới.excalidraw]]
 
-Xem thêm:: [[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người]]
+Xem thêm:: [[Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất]]
 
 ## Nơi thảo luận
 [![](https://imagizer.imageshack.com/a/img924/9471/eQpmWA.png)](https://discord.com/channels/898550123007709204/1296474612716146719)

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-03-11T14:35
-updated: 2026-06-21T19:55
+updated: 2026-06-30T21:57
 aliases:
   - karaoke từ hàng xóm
   - Tiếng TV
@@ -43,7 +43,28 @@ Có nhiều lý do khiến cho một người không tập trung cao độ để
 - Bật quạt to
 - Bật âm thanh nền [Background Noises • Ambient Sounds • Relaxing Music \| myNoise ®](https://mynoise.net/)
 
+Mấy bài nhạc như [Deep Focus - Music For Studying, Concentration and Work - YouTube](https://www.youtube.com/watch?v=oPVte6aMprI) là kiểu lúc trầm lúc bổng, nên không luôn át được tiếng nhạc bên ngoài.
+
 ## Trường hợp nhức đầu
 ### Nhức đầu do nắng
 ### Nhức đầu do suy nghĩ
 Xem thêm:: [[Bảng quan trọng – khẩn cấp]]
+
+## Bị ngắt quãng
+### Đi bộ, đi xe buýt
+| Coi, nghe video, podcast không đòi hỏi suy nghĩ (nhạc, vlog trải nghiệm)                      | ✔   | ✔   | Tùy | ❌  | ❌  |
+| --------------------------------------------------------------------------------------------- | --- | --- | --- | --- | --- |
+| Coi, nghe video, podcast đòi hỏi suy nghĩ (video essay)                                       | ❌  | ✔   | Tùy | ❌  | ❌  |
+| Chat, đọc email                                                                               | ✔   | ✔   | ✔   | ❌  | ❌  |
+| Học phím tắt bàn phím (vim)                                                                   | ✔   | ✔   | ✔   | ❌  | ❌  |
+| Học nội dung ngắn: flashcard, Duolingo                                                        | ✔   | ✔   | ✔   | ❌  | ❌  |
+| Lướt mạng xã hội                                                                              | ✔   | ✔   | ✔   | ❌  | ❌  |
+| Đăng bài, xem kết quả truyền thông                                                            | ✔   | ✔   | ✔   | ❌  | ❌  |
+| Khám phá danh mục: [Subreddit Directory](https://www.reddit.com/r/findareddit/wiki/directory) | ✔   | ✔   | ✔   | ❌  | ❌  |
+| Nhập, phân loại dữ liệu thô: tiền bạc, [[Nơi gặp mặt trực tiếp]], ghi chú nháp                | ✔   | ✔   | ✔   | ✔   | ✔   |
+| Dọn dẹp dữ liệu: tập tin, chương trình                                                        | ✔   | ✔   | ✔   | ✔   | ✔   |
+| Việc thủ công: làm việc nhà                                                                   | ✔   | ✔   | ✔   | ✔   | ✔   |
+| Trò chuyện trực tiếp                                                                          | ✔   | ✔   | ✔   | ✔   | ✔   |
+| Lái xe                                                                                        | ✔   | ✔   | ✔   | ✔   | ✔   |
+
+### Ngồi họp

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-09-21T21:29
-updated: 2026-01-14T13:11
+updated: 2026-06-22T10:15
 aliases:
   - Xây dựng hệ thống quản lý
 ---

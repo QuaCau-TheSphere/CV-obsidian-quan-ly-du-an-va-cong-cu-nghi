@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-05-12T23:39
+updated: 2026-07-13T23:25
 ---
 Outcomes have nothing to do with making stuff—though they sometimes are created by making the right stuff. Instead, outcomes are the changes in customer, user, employee behavior that lead to good things for your company, your organization, or whomever is the focus of your work.
 
@@ -14,3 +14,4 @@ Nó là câu trả lời cho câu hỏi "tôi tham gia nơi này vì điều gì
 -   Defining outcomes in terms of customer behaviors creates a more customer-centric and user-centric way of working.
 -   Outcomes and Agility: using outcomes to direct the work of your teams unlocks your team’s creativity. They will work to find the best solution to the problem at hand in order to create the outcome you seek.
 -   To figure out if your outputs create the outcomes you seek, you need to test and run experiments. MVP is just a buzzword that means “experiment.”
+[[Thành quả (outcome) là kết quả thu được do sự thay đổi về hành vi của người dùng khi tương tác với sản phẩm đã được cải tiến hoặc sản phẩm mới]]

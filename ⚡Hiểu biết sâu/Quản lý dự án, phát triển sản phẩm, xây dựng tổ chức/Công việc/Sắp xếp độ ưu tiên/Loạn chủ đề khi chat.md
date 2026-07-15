@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-03-17T14:48
-updated: 2026-03-17T14:50
+updated: 2026-07-03T15:09
 ---
 Khái niệm:: 
 
@@ -13,3 +13,5 @@ Khái niệm::
 
 [[Bảng quan trọng – khẩn cấp]]
 Nguồn:: 
+
+[[Bội thực chat nhóm gây phân tán nguồn lực, mất tập trung, tăng rủi ro lộ dữ liệu]]

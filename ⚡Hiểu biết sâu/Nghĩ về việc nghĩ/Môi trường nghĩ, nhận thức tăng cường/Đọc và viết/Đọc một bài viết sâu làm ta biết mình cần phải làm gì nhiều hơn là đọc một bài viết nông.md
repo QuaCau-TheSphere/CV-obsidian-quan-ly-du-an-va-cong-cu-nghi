@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:10
+updated: 2026-06-26T21:46
 ---
 Khái niệm:: [[Diễn giải, đọc]]
 Nó cho ta nhiều giá trị hơn trong ít thời gian hơn việc đọc các bài viết nông

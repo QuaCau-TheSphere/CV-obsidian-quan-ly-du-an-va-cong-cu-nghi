@@ -1,6 +1,6 @@
 ---
 created: 2025-09-27T16:20
-updated: 2026-05-18T21:31
+updated: 2026-07-12T19:51
 share: true
 ---
 ## Chúng ta đang quá coi trọng product delivery

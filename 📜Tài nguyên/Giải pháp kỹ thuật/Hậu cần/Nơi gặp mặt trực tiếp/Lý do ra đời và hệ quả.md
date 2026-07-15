@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-06T12:52
-updated: 2026-06-16T20:54
+updated: 2026-06-27T18:11
 description: Nó khác gì với những dự án tương tự khác? Nó chấp nhận những đánh đổi nào?
 aliases:
   - Động lực
@@ -125,6 +125,9 @@ Kiến thức để tự vận hành một cơ sở dữ liệu thế này phứ
 ![[Pasted image 20250717114251.png]]
 Dường như dự án đã ngừng hoạt động. Trong [trang giới thiệu dự án](https://www.drdvietnam.org/vi/du-an/ban-do-tiep-can-dmap/gioi-thieu/), lần cuối cùng cập nhật là 2021. Các app Andoird và iOS cũng đã bị gỡ xuống. Chức năng đăng ký không hoạt động được.
 
+### Bản đồ cứu hộ
+[Thông Tin Cứu Hộ](https://thongtincuuho.org/)
+[Bản đồ điểm hỗ trợ](https://tramcuutro.com/map/support)
 
 ## Đạt quy mô
 Hoặc không phải nơi chủ lưu. Đã có những dự án phục vụ cho một đối tượng cụ thể, nhưng vẫn chết yểu. Lấy ví dụ như D.Maps. Có tiền và có cả đội thu thập dữ liệu. Tức là dữ liệu không đủ để đối tượng thụ hưởng tiềm năng thấy là nó hữu ích. người nó đã giúp được không quay lại, còn người nó  giúp không quay lại giúp nó. [[Tỉ lệ quay lại là thứ quan trọng nhất trong tăng trưởng]]
@@ -151,7 +154,7 @@ Những người khgvông cần nơi này là, chấp nhận sự không hoàn h
 
 Với những nơi như này thì có lẽ động lực 1 là quan trọng nhất. (So sánh với Google Maps thì nó có xu hướng hỗ trợ tốt hơn cho người kinh doanh địa điểm.)
 ## Hệ quả của các yêu cầu trên
-Giải pháp đáp ứng được tất cả các nhu cầu này là một [[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người|hệ thống tri thức cộng đồng]] dưới hình thức là một [[Tài liệu động]] được lưu ở định dạng đơn giản nhất là văn bản thuần. 
+Giải pháp đáp ứng được tất cả các nhu cầu này là một [[Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất|hệ thống tri thức cộng đồng]] dưới hình thức là một [[Tài liệu động]] được lưu ở định dạng đơn giản nhất là văn bản thuần. 
 
 | Yêu cầu                                                                                                        | Hệ quả                         |
 | -------------------------------------------------------------------------------------------------------------- | ------------------------------ |

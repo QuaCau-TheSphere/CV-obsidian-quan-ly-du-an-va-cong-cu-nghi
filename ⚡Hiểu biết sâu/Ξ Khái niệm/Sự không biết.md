@@ -1,10 +1,11 @@
 ---
 share: true
 created: 2025-05-26T12:19
-updated: 2026-05-29T01:16
+updated: 2026-07-01T12:27
 ---
 ```dataview
 LIST rows.file.link
-WHERE contains(khái-niệm, [[]])
+from [[]]
 GROUP BY split(file.folder, "/")[3]
 ```
+WHERE contains(khái-niệm, [[]])

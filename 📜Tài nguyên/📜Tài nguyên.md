@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-14T13:11
+updated: 2026-07-16T00:44
 aliases:
   - Ý đồ thiết kế thư mục
 ---
@@ -47,7 +47,7 @@ nccn --> gpkt --> gpkt
 
 Xét ghi chú [[Sắp chữ, thiết kế, xuất bản]]. Nó là một lĩnh vực. Theo sơ đồ trên, thì trong ghi chú này không nên tạo liên kết có nhãn đến ghi chú về nhu cầu công nghệ. Nhưng trong lúc viết thì cảm giác rất muốn để nhu cầu công nghệ là [[WYSIWYM]], và nhu cầu công việc là [[Chèn ảnh, bảng, sơ đồ, mục lục, ghi chú, song ngữ, trích dẫn theo đúng ý]], vì thấykhi nói tới lĩnh vực này thì chỉ có một nhu cầu duy nhất là định dạng cho đúng ý, và chỉ có công nghệ WYSIWYM mới giải quyết được.
 
-Tuy nhiên, ở một lĩnh vực khác là [[Nhân văn số|nhân văn số]], để ý là khi nghĩ về nó ta không thấy cần để nhu cầu công nghệ là [[Xác định các chủ đề có trong ngữ liệu]], và nhu cầu công việc là [[Nắm bắt xu hướng mạng]] hay [[Nghiên cứu cộng đồng mạng]], vì tự thấy rằng nhân văn số còn nhiều thứ hơn cái này.
+Tuy nhiên, ở một lĩnh vực khác là [[Các dự án, công cụ, tài nguyên cho nhân văn số|nhân văn số]], để ý là khi nghĩ về nó ta không thấy cần để nhu cầu công nghệ là [[Xác định các chủ đề có trong ngữ liệu]], và nhu cầu công việc là [[Nắm bắt xu hướng mạng]] hay [[Nghiên cứu cộng đồng mạng]], vì tự thấy rằng nhân văn số còn nhiều thứ hơn cái này.
 
 Ban đầu Nhu cầu công việc là Chia sẻ kho tri thức của mình cho mọi người, và nhu cầu công nghệ là Xây dựng hệ thống tri thức cộng đồng. Nhưng sau đó thấy ghi chú trong đó vẫn chỉ tập trung vào xây dựng nền tảng lý luận, nên gộp vào nhu cầu công việc và để làm alias
 

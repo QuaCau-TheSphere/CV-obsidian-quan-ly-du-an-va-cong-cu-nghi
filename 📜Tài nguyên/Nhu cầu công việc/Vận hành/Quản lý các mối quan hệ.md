@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:11
+updated: 2026-07-03T22:29
 aliases:
   - danh bạ
 ---
@@ -15,5 +15,7 @@ aliases:
 [[Nắm bắt hoạt động của nhau]]
 [[Nhìn tổng thể, toàn cảnh kế hoạch]]
 [[Quản lý đối tác, các bên liên quan]]
+Nhu cầu công nghệ:: [[Quản lý việc chat]]
+
 [Browse Companies](https://www.partnerbase.com/app/search/?utmCampaign=Partnerbase+Welcome+Email&utmMedium=email&hsmi=214590202&utmContent=214590202&utmSource=hs_automation&country=Vietnam&sort=partnerbase_score|desc&limit=200)
 [[Khi được hỏi về các rào cản làm cản trở mối quan hệ đối tác, phía doanh nghiệp chủ yếu nói về việc thiếu năng lực, còn phía các tổ chức xã hội chủ yếu nói về việc không cùng hướng đi]]

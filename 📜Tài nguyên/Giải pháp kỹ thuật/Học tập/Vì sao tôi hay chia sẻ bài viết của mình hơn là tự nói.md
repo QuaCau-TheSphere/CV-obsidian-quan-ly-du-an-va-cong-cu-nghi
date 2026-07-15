@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-05-31T17:01
-updated: 2026-06-21T19:55
+updated: 2026-07-16T00:40
 description: "Có 2 lý do chính: (1) Việc viết giúp diễn đạt được ý tốt hơn là nói. (2) Việc đưa liên kết không phải chỉ là để đọc bài viết, mà còn là để khám phá một sân chơi"
 title: Vì sao tôi hay chia sẻ bài viết của mình hơn là tự nói?
 blog: working
@@ -23,13 +23,13 @@ Việc tôi hay ậm ờ là vì nhiều khi thấy ý mình nói ra không hoà
 [Incubation](https://en.wikipedia.org/wiki/Incubation_\(psychology\)). Tốn thời gian để
 Mất vài giờ cho đến mấy tháng, khi mà sự việc được gợi ý lại một cách tình cờ. Lúc đi mình đã gác vấn đề đáng một bên rồi
 ![[The sentence in my mind.jpg]]
-
 Mark Twain: [[Sự khác nhau giữa một từ gần đúng và một từ đúng cũng giống như sự khác nhau giữa một con bọ chớp và một tia chớp]]
 ![[Khả năng đưa ra câu trả lời tốt cho một câu hỏi.jpg]]
 The perfect word
-
+[[A problem well stated is half solved]]
 Việc nhớ được đầy đủ ý hơn cũng nằm trong ý này. [[Nhiều khi ta nhớ nơi lưu trữ thông tin hơn là chính thông tin đó]]. [[Trí nhớ tình tiết và thủ tục thường để não nhớ. Trí nhớ ngữ nghĩa và tương lai thường để cho não ngoài]]
 
+[[Có những vấn đề lúc cần nói ra thì không nghĩ ra nhưng vẫn cảm thấy chưa vét cạn]]
 Từ ngữ nhập nhằng, cùng một từ mà nhiều người lại có thể hiểu khác nhau.
 
 > [!NOTE] Bạn có biết
@@ -46,16 +46,18 @@ Việc toàn bộ câu trả lời được thu gọn lại chỉ còn bằng m�
 
 Bởi vì [[Hành vi và phản ứng là những thứ native trong môi trường máy tính]], nên [[Ta không tận dụng hết được môi trường máy tính khi chỉ bắt chước môi trường giấy]]. [[Việc web dùng ẩn dụ trang giấy giới hạn cách nghĩ của ta về web]]. [[Media trên internet khác hẳn media trên các phương tiện ở chỗ người tiêu dùng có thể tương tác với nó]]
 
-[[Một văn bản không nên chỉ là thứ để truyền đạt thông tin hay hiểu biết một chiều và thụ động, mà còn nên trở thành một sân chơi cho người đọc khám phá]]. Về lý thuyết thì việc đưa liên kết không phải chỉ là để đọc bài viết, mà còn là để khám phá một sân chơi. Sân chơi đó không chỉ có mỗi ảnh hay video, mà còn có thể là [[Tạo đồ thị mạng lưới, hệ thống phi tuyến|Đồ thị mạng lưới]], [[Tài liệu động]], [[Game, truyện tương tác]], [[Explorable explanation thiên về toán, còn data journalism thiên về thống kê dữ liệu\|Explorable explanation, data journalism]], [[Nhân văn số]]
+[[Một văn bản không nên chỉ là thứ để truyền đạt thông tin hay hiểu biết một chiều và thụ động, mà còn nên trở thành một sân chơi cho người đọc khám phá]]. Về lý thuyết thì việc đưa liên kết không phải chỉ là để đọc bài viết, mà còn là để khám phá một sân chơi. Sân chơi đó không chỉ có mỗi ảnh hay video, mà còn có thể là [[Tạo đồ thị mạng lưới, hệ thống phi tuyến|Đồ thị mạng lưới]], [[Tài liệu động]], [[Game, truyện tương tác]], [[Explorable explanation thiên về toán, còn data journalism thiên về thống kê dữ liệu\|Explorable explanation, data journalism]], [[⚡Hiểu biết sâu/Ξ Khái niệm/Nhân văn số]]
 
 Bài cụ thể: [[Làm thông điệp trở nên hấp dẫn và trải nghiệm được]]
 
+[[❓Bản đồ là cách để ta biết mình cần gì khi còn chưa cảm nhận được thứ mình cần là gì]]
 [[Một môi trường nghĩ mới là nơi ta có thể có những loại suy nghĩ mới mà không thể hoặc khó hình thành ở môi trường nghĩ cũ]]
 
 Có cập nhật gì thì họ cũng luôn được biết mà không cần phải hỏi lại
 [[Khu vườn số luôn phát triển và thay đổi. Nó không bao giờ có trạng thái hoàn thành]]
 [Living document](https://en.wikipedia.org/wiki/Living_document)
 
+[[Sự khác biệt giữa các nền tảng viết trên mạng]]
 ## Các lý do khác
 Nguồn sự thật duy nhất [Single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth)
 [Don't repeat yourself](https://en.wikipedia.org/wiki/Don't_repeat_yourself)
@@ -67,6 +69,7 @@ Bỏ qua những thứ đã làm, kém kích thích.
 Có thể đo lường sự quan tâm 
 
 ## Nhược điểm 
+[[Việc nghe - nói tốn ít năng lượng hơn là đọc - viết]]
 [[Kể cả khi có được một tài liệu chắc chắn sẽ trả lời câu hỏi của ta, thì ta cũng thường không sẵn sàng để đọc nó]]
 Các bài viết trên web thường là nháp chứ ko hẳn là các bài đóng gói hoàn chỉnh, nên người chỉ cần có một câu trả lời đơn giản thì khó mà có được từ Nhật.
 

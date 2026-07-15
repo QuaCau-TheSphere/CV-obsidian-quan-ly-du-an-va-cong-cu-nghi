@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-10-28T22:40
-updated: 2026-06-21T20:01
+updated: 2026-07-14T11:58
 ---
 > [!info] Bài chi tiết
 >[[Mô tả dự án|Phá vỡ silo thông tin, nắm bắt nhu cầu các bên và sử dụng các nguồn tài nguyên cộng đồng hiệu quả: vai trò của các phần mềm ghi chú động lưu dữ liệu tại máy người dùng và ở định dạng đơn giản]]
@@ -17,7 +17,7 @@ Dự án mong muốn:
 - Giảm gánh nặng nhận thức trong việc quản lý và chia sẻ dữ liệu dự án, 
 - Xây dựng hệ sinh thái nơi các thành viên có thể đóng góp dữ liệu một cách thụ động và tự động vào các cơ sở dữ liệu chung
 - Tăng khả năng hợp tác và phát triển ý tưởng mới của đối tượng thụ hưởng với ít nỗ lực hơn
-- [[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người]], giúp mọi người [[Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó|tìm được thứ cần tìm khi không biết từ khoá chính xác của nó]]
+- [[Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất]], giúp mọi người [[Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó|tìm được thứ cần tìm khi không biết từ khoá chính xác của nó]]
 
 ## Đối tượng thụ hưởng 
 Đối tượng thụ hưởng là những người đang cảm thấy quá tải và thiếu công cụ hiệu quả để quản lý thông tin cho việc phát triển dự án, tổ chức, cộng đồng, mạng lưới, hệ sinh thái. Thường họ là nhà hoạt động xã hội hoặc khởi nghiệp, nhưng cũng có thể là nhà nghiên cứu. Các nhu cầu của họ bao gồm:
@@ -79,8 +79,8 @@ Nhà nghiên cứu
 
 ## Kế hoạch hoạt động 
 [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]
-[[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết là đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
-[[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng]]
+[[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết mà đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
+[[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng, không phải là tăng trưởng]]
 [[Thay vì lập ra danh sách công việc, hãy thử lập ra danh sách không phải công việc xem]]
 [[Đo lường]]
 Khác với wiki 

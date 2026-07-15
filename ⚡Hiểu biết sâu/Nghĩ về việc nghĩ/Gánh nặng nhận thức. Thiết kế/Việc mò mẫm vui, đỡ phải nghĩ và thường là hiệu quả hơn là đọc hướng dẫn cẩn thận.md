@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-05-12T23:39
+updated: 2026-07-16T00:27
 ---
 [[Mỗi một thắc mắc đều làm tăng thêm khối lượng nhận thức mà chúng ta có trong tâm trí, qua đó làm phân tán sự tập trung của ta khỏi thứ mà ta định làm]]
 [[Chúng ta không chọn phương án tối ưu khi chọn sai cũng chẳng hại gì]] 
@@ -29,3 +29,7 @@ Nguồn:: [[Đừng bắt tôi nghĩ]]
 [[Con người sẽ theo đuổi kỹ năng mới với giá trị tiềm năng trong phạm vi dự đoán]]
 
 Nhưng vì việc [[Đọc lướt không giúp ta tiếp thu được gì cả]], nên ta sẽ thấy nhức đầu khi bật trang mới dù ta không cảm thấy áp lực gì cả. Dễ thấy nhất khi cần ngồi nghiên cứu và ta bật rất nhiều tab. [[Ta dường như khó có thể chuyển trạng thái từ việc đọc lướt sang việc đọc cẩn thận một cách suôn sẻ và tự nhiên|Vấn đề của việc đọc lướt không phải vì nó có khả năng thành công cao, mà là vì khi mình đã kết luận là khả năng thành công không cao rồi, thì sự chuyển trạng thái sang thực sự đọc cẩn thận không suôn sẻ và tự nhiên]] 
+
+
+
+[[Người muốn có giải pháp sẽ muốn đọc nội dung dài]]

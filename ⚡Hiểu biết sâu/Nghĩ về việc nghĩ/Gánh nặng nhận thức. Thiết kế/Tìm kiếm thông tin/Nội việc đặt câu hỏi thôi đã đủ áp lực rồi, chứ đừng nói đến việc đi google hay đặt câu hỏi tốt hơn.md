@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-29T12:50
-updated: 2026-05-12T23:39
+updated: 2026-06-22T09:52
 ---
 Khái niệm:: [[Hỏi]]
 Sự tập trung của chúng ta chỉ có một khoảng nhất định, và ta sẽ chỉ có thể làm thứ quan trọng nhất. Nếu ta ráng làm cái khác, thì một cơn nhức đầu sẽ kéo thôi thúc ta nhanh chóng bỏ cuộc để quay trở lại làm điều dang dở. Bạn có thể trải nghiệm cơn nhức đầu này mỗi khi đang tập trung làm một việc gì đó mà có tiếng điện thoại reo.

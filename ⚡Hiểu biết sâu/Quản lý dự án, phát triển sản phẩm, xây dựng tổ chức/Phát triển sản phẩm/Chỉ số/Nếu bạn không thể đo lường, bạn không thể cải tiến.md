@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-05-12T23:39
+updated: 2026-07-14T11:58
 ---
 Khái niệm:: [[Thước đo, đo lường, chỉ số, KPI]]
 
@@ -10,7 +10,7 @@ Khái niệm:: [[Thước đo, đo lường, chỉ số, KPI]]
 Nguồn:: Kelvin
 ![](https://www.azquotes.com/picture-quotes/quote-if-you-can-not-measure-it-you-can-not-improve-it-lord-kelvin-79-18-55.jpg) 
 
-[[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng]]
+[[Chỉ số ta theo đuổi phải là chỉ số về giá trị của sản phẩm đối với người dùng, không phải là tăng trưởng]]
 [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]
 [[Thứ nào được đo thì sẽ tốt lên, còn thứ nào khó đo thì sẽ tệ đi]]
 [[❓Việc theo đuổi chỉ số sẽ không phải là vấn đề nếu người tạo ra chỉ số là người quyết định dự án hoặc không để quyết định con người]]

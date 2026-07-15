@@ -1,0 +1,11 @@
+{
+  "apps": [
+    {
+      "name": "Open folder with yazi",
+      "code": "yazi",
+      "arguments": ".",
+      "showInMenu": false
+    }
+  ],
+  "sysexpInFileMenu": false
+}

@@ -1,6 +1,6 @@
 ---
 created: 2023-05-29T18:39
-updated: 2026-06-01T15:36
+updated: 2026-07-16T00:40
 share: true
 ---
 [Tools for better thinking \| Untools](https://untools.co/)
@@ -20,5 +20,5 @@ những phần nghiên cứu định tính MaxQDA, NVivo, Atlas.ti tuy mạnh nh
 
 ## [The Academic Knowledge Management (AKM) system that 10x’d my research productivity | Chris Lovejoy](https://www.chrislovejoy.me/akm)
 
-Xem thêm:: [[Nhân văn số|Các dự án, công cụ, tài nguyên cho nhân văn số]]
+Xem thêm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Nhân văn số|Các dự án, công cụ, tài nguyên cho nhân văn số]]
 

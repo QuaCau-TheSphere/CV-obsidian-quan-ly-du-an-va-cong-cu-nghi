@@ -1,10 +1,10 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:11
+updated: 2026-06-26T12:46
 ---
 Nguồn:: [[Hoàng Đức Minh]]
-[[Ai cũng có một kế hoạch cho tới khi bị đấm vào mồm]]
+[[Ai cũng có một kế hoạch, cho tới khi bị đấm vào mồm]]
 [[Insight through making]]
 [[Công việc khai phá và công việc khai thác]]
 [[Ta không lường trước được những công việc mình cần làm là gì trừ phi đã từng làm nó rồi]]

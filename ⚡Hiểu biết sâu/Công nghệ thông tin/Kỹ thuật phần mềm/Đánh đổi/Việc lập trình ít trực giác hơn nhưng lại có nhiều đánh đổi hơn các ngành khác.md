@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-05-12T23:39
+updated: 2026-07-10T19:52
 aliases:
   - Những đánh đổi phổ biến trong việc phát triển phần mềm
   - Ngành lập trình có rất nhiều đánh đổi
@@ -12,8 +12,9 @@ description: Đâu là những đánh đổi phổ biến trong việc phát tri
 Khái niệm:: [[Đánh đổi]], [[Trực giác]]
 Đó chính là lý do [[Lập trình thực ra là dùng ẩn dụ]], vì [[Ẩn dụ là cách ta hiểu code bằng cơ thể]]
 [[Các ngành khác đều làm việc với những vật thể cụ thể trong không gian. Chỉ có ngành lập trình là không có điều đó]]
-[[Khi đang dành tâm trí cho một công việc nhưng phải tạm hoãn giữa chừng để học một công cụ, ta sẽ không nhức đầu khi đó là công cụ vật lý, nhưng lại nhức đầu khi đó là công cụ số]] 
+
 [[Học lập trình nhức đầu hơn học các ngành khác vì nó có quá nhiều đánh đổi, đồng thời cũng kém tính vận động trong không gian hơn, nên ta ít có khả năng nảy sinh trực giác hơn]]
+[[Khi đang dành tâm trí cho một công việc nhưng phải tạm hoãn giữa chừng để học một công cụ, ta sẽ không nhức đầu khi đó là công cụ vật lý, nhưng lại nhức đầu khi đó là công cụ số]] 
 
 ---
 Mỗi loại công nghệ đều có những ưu, khuyết điểm trong những trường hợp nhất định (về yêu cầu, quy mô, nhân lực, timeline, bảo mật, ông lead, bà PM, vân vân mây mây...)

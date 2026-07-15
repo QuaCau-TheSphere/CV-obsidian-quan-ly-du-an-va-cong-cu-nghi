@@ -1,6 +1,6 @@
 ---
 share: true
-updated: 2026-06-01T19:38
+updated: 2026-07-03T12:15
 created: 2024-08-02T00:59
 ---
 Khái niệm:: [[Học]]
@@ -13,3 +13,4 @@ Mâu thuẫn với:: [[Sự sẵn sàng và tiện lợi luôn áp đảo hơn s
 
 Nguồn:: [[Tự ngẫm nghĩ, trải nghiệm]]
 [[Có thể học nhanh video mà không cần xem đầy đủ không]]
+

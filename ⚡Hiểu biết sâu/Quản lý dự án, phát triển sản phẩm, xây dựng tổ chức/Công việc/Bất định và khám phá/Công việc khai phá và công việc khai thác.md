@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-09-27T16:20
-updated: 2026-05-18T21:31
+updated: 2026-06-27T16:59
 cssclasses:
   - wide-table
 aliases:
@@ -90,7 +90,7 @@ Tuy việc này sẽ làm cây mục tiêu đồ sộ hơn so với chỉ đính
 - [[Hệ thống 1 dựa vào trí nhớ dài hạn. Hệ thống 2 dựa vào trí nhớ ngắn hạn]] 
 - [[Người người vạch chiến lược hay nhiều khi được giao triển khai luôn, hoặc người làm chuyên môn tốt nhiều khi được đề bạt lên làm quản lý, lãnh đạo]]
 - [[Những công việc không đòi hỏi sự tập trung cao độ]]
-- [[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết là đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
+- [[Điều đã biết là đã biết được dùng để lên kế hoạch chính. Điều không biết mà đã biết được dùng để lên kế hoạch dự phòng. Điều đã biết là không biết thì cần nghiên cứu thêm]]
 
 Khái niệm:: [[Hệ phức hợp]]
 [[Tổ chức phi tập trung]]

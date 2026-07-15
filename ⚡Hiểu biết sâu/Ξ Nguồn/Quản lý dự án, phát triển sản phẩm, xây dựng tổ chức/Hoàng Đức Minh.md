@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-05-27T23:26
+updated: 2026-07-14T12:58
 ---
 ```dataview
 LIST rows.file.link
@@ -54,7 +54,7 @@ Những yếu tố có thể học được từ user reserach:
 - Sở thích
 - Nỗi đau
 
-[[Một số ví dụ về mục tiêu nghiên cứu]]
+[[Một số ví dụ về mục tiêu nghiên cứu về người dùng]]
 Hoạt động phỏng vấn nên là để kiểm chứng suy đoán, chứ không phải là để tạo ra suy đoán. Sau khi có giả định thì việc đặt câu hỏi nó khác hẳn và có thể tách nhỏ.
 AI sẽ rất hữu ích trong việc tạo ra giả thiết để mình kiểm chứng
 

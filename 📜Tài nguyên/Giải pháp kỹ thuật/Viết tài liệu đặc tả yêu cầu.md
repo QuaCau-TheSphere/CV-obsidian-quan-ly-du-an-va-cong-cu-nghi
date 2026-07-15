@@ -1,9 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-01-19T15:25
+updated: 2026-07-03T15:34
 ---
 Tuy [[Hình ảnh một phần mềm được xây dựng thuần tuý từ lý thuyết là một ảo tưởng]], nhưng [[Việc giả bộ là phần mềm được xây dựng bằng lý tính là có ích]]
+[[Cấu trúc kỹ thuật của sản phẩm phản ánh giới hạn xã hội của tổ chức tạo ra nó|Định luật Conway: "Cấu trúc kỹ thuật của sản phẩm phản ánh giới hạn xã hội của tổ chức tạo ra nó"]]
 
 ## Computer Specification
 A specification of the machines on which the software must run. The machine need not be hardware-for some software this section might simply be a pointer to a language reference manual.

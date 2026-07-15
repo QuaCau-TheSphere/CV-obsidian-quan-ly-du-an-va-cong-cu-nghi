@@ -187,14 +187,6 @@
       "key": "F10"
     }
   ],
-  "open-with:show-file-in-explorer": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "E"
-    }
-  ],
   "quick-explorer:browse-current": [
     {
       "modifiers": [
@@ -396,14 +388,6 @@
       "key": "H"
     }
   ],
-  "open-with-default-app:show": [
-    {
-      "modifiers": [
-        "Alt"
-      ],
-      "key": "E"
-    }
-  ],
   "workspace:next-tab": [
     {
       "modifiers": [
@@ -551,6 +535,22 @@
         "Alt"
       ],
       "key": "A"
+    }
+  ],
+  "open-with:open-file-with-yazi": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
+    }
+  ],
+  "open-with:open-file-with-open folder with yazi": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "E"
     }
   ]
 }

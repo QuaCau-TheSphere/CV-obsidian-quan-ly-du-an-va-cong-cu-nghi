@@ -1,15 +1,12 @@
 ---
 created: 2023-06-12T00:57
-updated: 2026-05-12T23:39
+updated: 2026-07-11T23:30
+share: true
 ---
-Câu hỏi liên quan đến chủ đề này:
 ```dataview
-List from "3 Kiến thức, câu hỏi/32 Câu hỏi" where contains(khái-niệm,[[]]) 
+LIST rows.file.link
+FROM [[]]
+GROUP BY split(file.folder, "/")[1]
+WHERE file.name != this.file.name
 ```
-
-Chủ đề quan tâm đến chủ đề này:
-```dataview
-List from "3 Kiến thức, câu hỏi/31 Khái niệm, chủ đề" where contains(khái-niệm,[[]]) 
-```
-
 impact—high-level aspirational goals

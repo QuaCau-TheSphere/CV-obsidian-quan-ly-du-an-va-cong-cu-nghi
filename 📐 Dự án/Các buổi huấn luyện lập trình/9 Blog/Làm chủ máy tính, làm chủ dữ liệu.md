@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-01-31T16:50
-updated: 2026-01-31T16:50
+updated: 2026-07-08T23:57
 ---
 [[Người không học về lập trình thấy việc lập trình như làm phép thuật]]
 [[Việc đổi mới sáng tạo bắt đầu bằng việc mỗi người có thể tự mình điều khiển được máy tính, chứ không phải có thêm một sản phẩm no code hay AI nữa]]

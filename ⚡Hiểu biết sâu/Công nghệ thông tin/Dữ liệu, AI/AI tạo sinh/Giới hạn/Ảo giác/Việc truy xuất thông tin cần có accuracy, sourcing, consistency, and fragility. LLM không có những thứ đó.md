@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2026-05-31T22:04
+updated: 2026-07-03T12:16
 aliases:
   - Ngay từ đầu LLM được tạo ra không nhằm mục đích truy vấn thông tin mà là để tạo ra văn bản
 ---
@@ -12,3 +12,5 @@ Ngay từ đầu LLM được tạo ra không nhằm mục đích truy xuất th
 Nguồn:: [LESSON 9](https://thebullshitmachines.com/lesson-9-blue-links-matter/index.html)
 
 Tuy nhiên [[Hành vi tìm kiếm thông tin sẽ dừng ngay khi kết quả chấp nhận được ở mức tối thiểu được tìm ra]]. [[Sự sẵn sàng và tiện lợi luôn áp đảo hơn sự chính xác]]
+[[Con người điều chỉnh theo hướng reliability]]
+[[Kệ sách cho ta thứ ta không biết là không biết. Thanh tìm kiếm cho ta thứ ta biết là không biết]]

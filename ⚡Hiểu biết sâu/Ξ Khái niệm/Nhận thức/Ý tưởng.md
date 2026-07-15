@@ -1,10 +1,11 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-05-31T21:36
+updated: 2026-07-03T21:42
 ---
 ```dataview
-LIST
+LIST rows.file.link
+FROM [[]]
+GROUP BY split(file.folder, "/")[1]
 WHERE file.name != this.file.name
-WHERE contains(khái-niệm, [[]])
 ```

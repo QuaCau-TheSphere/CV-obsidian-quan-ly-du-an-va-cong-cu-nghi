@@ -2,7 +2,7 @@
 share: true
 created: 2025-05-26T19:55
 description: Ngoài việc viết ra thì còn có thể làm được những gì?
-updated: 2026-06-03T14:20
+updated: 2026-07-16T00:40
 ---
 Ngoài việc viết ra thì còn có thể làm được những gì? 
 - [[Minh hoạ dữ liệu không nhất thiết phải chính xác, mà chỉ cần đủ để đặt câu hỏi]]
@@ -39,7 +39,7 @@ Kể cả khi là viết chữ thì quan trọng vẫn là tình tiết hoặc �
 - [[Tài liệu động]]
 - [[Game, truyện tương tác]]
 - [[Explorable explanation thiên về toán, còn data journalism thiên về thống kê dữ liệu\|Explorable explanation, data journalism]]
-- [[Nhân văn số]]
+- [[⚡Hiểu biết sâu/Ξ Khái niệm/Nhân văn số]]
 
 [OMNI-Mapping](https://omnimapping.org/)
 

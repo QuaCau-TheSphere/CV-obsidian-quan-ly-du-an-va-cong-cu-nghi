@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-05-12T23:39
+updated: 2026-06-26T12:37
 ---
-Lý do:: [[Công việc khai phá chính là việc nghiên cứu và quản lý kiến thức]] 
+Lý do:: [[Xây dựng chiến lược, nghiên cứu, quản lý tri thức, thiết kế hệ thống là các công việc khai phá]] 
 Lý do:: [[Cần nghĩ về công việc như là một cách để kiểm định giả thiết, chứ không phải chỉ để hoàn thành]]
 [[Công việc và cuộc sống không thể tách rời nhau]]
 

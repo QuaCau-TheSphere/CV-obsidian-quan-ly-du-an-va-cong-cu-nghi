@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2025-05-26T19:55
-updated: 2026-05-12T23:39
+updated: 2026-07-11T23:31
 ---
 Khái niệm:: [[Dữ liệu]]
 Bạn tuy có thể không biết horseshit thì cũng là bullshit, nhưng bạn chắc đã biết bullshit là những thứ vớ vẩn, nhảm cứt. Trong lúc mình đang lướt Sketchplanations thì bắt gặp tranh vẽ mình hoạ [nguyên lý bất đối xứng cứt bò](https://sketchplanations.com/the-bs-asymmetry-principle) này:
@@ -68,7 +68,7 @@ But let's be honest: we _like_ the fact that the term is profane. After all, pro
 In this course, we focus on bullshit as it often appears in the natural and social sciences: in the form of misleading models and data that drive erroneous conclusions.
 ![Calling Bullshit 6.4: Dataviz Ducks - YouTube](https://youtu.be/rmii1hfP6d4?si=s5VGdr2Oolz8yS5X)
 ![Calling Bullshit 10.3: Debunking Myths - YouTube](https://youtu.be/W3APikrtqqU?si=e-jy3fXrblKSTNAY)
-[[Chia sẻ kho tri thức, tài nguyên của mình cho mọi người|Hệ thống tri thức cộng đồng]]
+[[Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất|Hệ thống tri thức cộng đồng]]
 Crackpot
 Không có Khoa học xã hội
 [The Bullshit Machines](https://thebullshitmachines.com/)

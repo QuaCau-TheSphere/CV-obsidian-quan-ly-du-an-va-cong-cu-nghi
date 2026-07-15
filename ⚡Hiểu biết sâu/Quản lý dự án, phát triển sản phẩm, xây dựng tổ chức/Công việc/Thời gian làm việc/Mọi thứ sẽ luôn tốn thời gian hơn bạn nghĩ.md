@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-09-29T12:05
-updated: 2026-05-27T15:29
+updated: 2026-07-01T20:16
 aliases:
   - "Định luật Hofstadter: Mọi thứ sẽ luôn tốn thời gian hơn bạn nghĩ, kể cả khi bạn đã tính đến định luật Hofstadter"
 ---
@@ -12,7 +12,8 @@ Khái niệm:: [[Kế hoạch (khái niệm)]], [[Thời gian, lịch]]
 [[Nếu bạn nghĩ rằng bạn có thể hoàn thành đúng kế hoạch, có thể bạn đang ngộ nhận]] 
 [[Chỉ có thể ước lượng được thời gian cần có để hoàn thành khi công việc của ta gần như chỉ gồm công việc khai thác]]
 [[Nhiều khi vấn đề chỉ được phát hiện ra khi đến khâu triển khai ý tưởng]]
-[[Ai cũng có một kế hoạch cho tới khi bị đấm vào mồm]]
+[[Ai cũng có một kế hoạch, cho tới khi bị đấm vào mồm]]
 [[Mọi thứ luôn nằm ở chỗ cuối cùng bạn tìm thấy nó]]
 [[Hãy nhắm còn đủ tiền cho khoảng 20 đến 30 lần thất bại]]
 [[Nên ưu tiên làm những việc có thể sẽ khiến ta phải viết lại kế hoạch]]
+[[Khi đã chuyển được nhiều thứ mình biết là mình không biết sang mình biết là mình biết, thì xác suất dự đoán chính xác thời gian hoàn thành sẽ tăng lên|Làm sao để biết rằng việc nghiên cứu không kéo dài mãi mãi?]]

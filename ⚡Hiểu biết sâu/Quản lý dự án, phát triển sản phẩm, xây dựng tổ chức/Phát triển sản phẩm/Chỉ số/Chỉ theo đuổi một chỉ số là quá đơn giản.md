@@ -1,10 +1,10 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-05-15T21:47
+updated: 2026-07-14T11:59
 aliases:
 ---
-Khái niệm:: [[Đơn giản]], [[⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/Ra quyết định]], [[Thước đo, đo lường, chỉ số, KPI]]
+Khái niệm:: [[Đơn giản]], [[Thước đo, đo lường, chỉ số, KPI]], [[Ra quyết định]]
 Nguồn:: [Don’t measure your product using a north star metric](https://kashishhora.com/dont-measure-your-product-using-a-north-star-metric/)
 Mâu thuẫn với:: [[Sự đơn giản ép ta phải làm nó cực kỳ tốt]]
 
@@ -12,10 +12,11 @@ Không phải cái gì đơn giản cũng là đúng. Hệ thống nhị nguyên
 
 [[Khi cố điều khiển một hệ phức hợp bằng một hệ đơn giản, ta dễ gặp những hệ quả không mong muốn]]
 
-[[Phân tích quyết định đa tiêu chí (MCDA) là phương pháp để tìm điểm đánh đổi tối ưu nhất]]
+[[Phân tích quyết định đa tiêu chí (MCDA) là phương pháp để tìm điểm đánh đổi tối ưu nhất, và có thể sắp xếp các lựa chọn theo thứ tự giảm dần]]
 [[❓Dù việc sử dụng phân tích quyết định đa tiêu chí vẫn là quy về một chỉ số, thì việc theo đuổi nó vẫn khác với theo đuổi một chỉ số thành phần, nên cũng không sợ nó quá đơn giản]][[❓Theo đuổi một bộ chỉ số thì không còn sợ là quá đơn giản nữa]]
 [[Hiểu biết không chỉ để mình làm một cái gì đó, mà còn để mình không làm một cái gì đó]]
 [[Con người sẽ theo đuổi kỹ năng mới với giá trị tiềm năng trong phạm vi dự đoán]]
+[[Con số không nói dối, nhưng nó nói nửa sự thật, và người nói dối dùng con số]]
 
 ---
 Stop treating “north star metrics” like the end-all be-all metric and accept the fact that there is no one metric that summarizes your entire product. **Products and users are complex and can’t be summed up by a single “north star” metric.**

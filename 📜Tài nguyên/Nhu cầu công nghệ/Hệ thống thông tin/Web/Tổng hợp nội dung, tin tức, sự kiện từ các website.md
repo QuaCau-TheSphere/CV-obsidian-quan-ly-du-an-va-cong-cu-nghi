@@ -1,13 +1,15 @@
 ---
 share: true
 created: 2024-11-29T12:19
-updated: 2026-01-14T13:11
+updated: 2026-07-08T12:13
 ---
 Đáp ứng cho nhu cầu công việc: `=filter(this.file.inlinks, (i) => contains(i.nhu-cầu-công-nghệ, [[]]))`
 
 Lĩnh vực:: 
 Giải pháp kỹ thuật:: 
 Nhu cầu công nghệ:: [[Cào web]]
+
+[[WordPress giúp việc tạo web dễ dàng nhất, chứ không phải là thứ quản lý web hiệu quả nhất|Người dùng cá nhân hoặc dự án nhỏ có nên dùng WordPress hay không?]]
 
 ## Tin tức
 **news aggregator**, also termed a **feed aggregator**, **content aggregator**, **feed reader**, **news reader**, or simply an **aggregator**
