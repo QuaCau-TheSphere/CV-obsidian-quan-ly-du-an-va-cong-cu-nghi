@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-07-13T12:51
-updated: 2026-07-13T13:07
+updated: 2026-07-16T13:30
 ---
 Về mặt toán học, phương pháp này là bài toán tính thể tích vật đa chiều. Nếu chỉ có 2 tiêu chí để đánh giá, thì nó là bài toán tính diện tích hình chữ nhật.
 
@@ -17,5 +17,5 @@ Không biết phương pháp này đã tối ưu nhất chưa? Không biết nó
 [[❓Dù việc sử dụng phân tích quyết định đa tiêu chí vẫn là quy về một chỉ số, thì việc theo đuổi nó vẫn khác với theo đuổi một chỉ số thành phần, nên cũng không sợ nó quá đơn giản]]
 [[Độ tác động của quyết định, độ có sẵn của thông tin, trạng thái của môi trường là một trong nhiều thứ bất định]]
 
-Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/Ra quyết định]], [[Thước đo, đo lường, chỉ số, KPI]], [[Định lượng]]
+Khái niệm:: [[⚡Hiểu biết sâu/Ξ Khái niệm/Quản lý tổ chức/Ra quyết định]], [[Thước đo, đo lường, chỉ số, KPI]], [[⚡Hiểu biết sâu/Ξ Khái niệm/Định lượng]]
 [Multiple-criteria decision analysis - Wikipedia](https://en.wikipedia.org/wiki/Multiple-criteria_decision_analysis)

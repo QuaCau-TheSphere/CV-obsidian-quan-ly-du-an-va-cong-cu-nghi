@@ -1,6 +1,6 @@
 ---
 created: 2023-10-12T22:30
-updated: 2026-07-16T00:58
+updated: 2026-07-17T13:02
 share: true
 ---
 Từ thông tín viên không có quyền lực trong việc diễn giải 
@@ -28,20 +28,13 @@ Hỏi những câu hỏi mở, mô tả các kinh nghiệm, hành vi, trải ngh
 
 Gợi chuyện (elicitation methods)
 
-Khi đóng vai để tham gia vào hệ thống, để trở thành một phần của cộng đồng, thì ko có sự đồng thuận trực tiếp
 
-đạo đức của mỗi nước về báo chí là khác nhau 
-autoethnography thì có quyền nói về trải nghiệm của mình. Khi tự nói về trải nghiệm của bản thân thì là khách quan hay chủ quan?
-
-Các hội đồng đạo đức khác nhau thì có mâu thuẫn với nhau không? Nếu có thì cơ bản chỉ cần đổi hội đồng là được? Không được thì cứ công bố, chỉ là không phải là nghiên cứu nhân học thôi là được?
-
-Bảo vệ sự tò mò. Đúng phương pháp thì được miễn tội
 ```dataview
 LIST rows.file.link
-FROM "⚡Hiểu biết sâu/Hệ hình nghiên cứu/Phương pháp luận/Nhân học" 
+FROM "⚡Hiểu biết sâu/Bản thể luận, nhận thức luận, phương pháp luận/Phương pháp luận/Định tính/Nhân học" 
 WHERE file.name!=this.file.name
-WHERE contains(file.name, "❓" )
-Group by split(file.folder, "/" )[4] 
+WHERE contains(file.name, "❓")
+Group by split(file.folder, "/" )[5] 
 ```
 
 Một trong những mong muốn của tôi là trả lời được câu hỏi [[❓Khi nào thì một người sẽ cởi mở và thoải mái nói về những thứ họ không muốn nói|khi nào một người sẽ cởi mở và thoải mái khi nói về những vấn đề mà họ không muốn nói]], [[Cộng đồng là tác giả của nghiên cứu, nhà nhân học chỉ là người mang thông điệp của cộng đồng đi đối thoại|để những câu chuyện họ kể ra có thể đối thoại được với nhau]]. Tôi nghĩ rằng [[Các dự án xã hội không tập trung vào việc đối thoại với người bên cạnh mình|các dự án xã hội hiện nay không tập trung vào việc đối thoại với người bên cạnh mình]]. Tôi nghĩ rằng nhân học sẽ là lĩnh vực cho tôi nhiều giải pháp nhất. Nên khi tôi biết tin Viện SocialLife mở lớp nhân học, tôi rất háo hức tham gia.
@@ -57,7 +50,7 @@ Bạn có thể đọc thêm các phản hồi của các học viên khác tron
 
 ```dataview
 LIST rows.file.link
-FROM "⚡Hiểu biết sâu/Hệ hình nghiên cứu/Phương pháp luận/Nhân học" 
+FROM "⚡Hiểu biết sâu/Bản thể luận, nhận thức luận, phương pháp luận/Phương pháp luận/Định tính/Nhân học" 
 WHERE file.name!=this.file.name
-Group by split(file.folder, "/" )[4] 
+Group by split(file.folder, "/" )[5] 
 ```

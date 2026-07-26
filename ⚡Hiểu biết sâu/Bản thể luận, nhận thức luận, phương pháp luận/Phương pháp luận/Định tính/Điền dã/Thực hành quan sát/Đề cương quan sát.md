@@ -1,8 +1,8 @@
 ---
 created: 2023-09-05T16:17
-updated: 2026-07-16T00:58
+updated: 2026-07-16T13:49
 ---
-# Mục đích
+## Mục đích
 Hiểu được:
 - Các mâu thuẫn:
 	- của má chồng với cô Yến,
@@ -15,10 +15,10 @@ Hiểu được:
 
 Những câu chuyện này sẽ giúp gợi ý cho một hệ thống quan điểm của một bộ phận người bình dân thành thị.
 
-# Hình thức và cấu trúc sản phẩm
+## Hình thức và cấu trúc sản phẩm
 Trước mắt do chưa thấy được nhiều liên kết giữa các vấn đề này nên hình thức tạm thời sẽ là những câu chuyện lẻ độc lập với nhau. Để tránh việc mô tả lại có tính uy quyền diễn giải quá lớn, những đoạn thông tin nào đến từ lời của nhân vật sẽ được trích lại. Hình thức trích dẫn sẽ là [[In nghiêng câu trích dẫn thay vì để vào trong ngoặc kép làm câu văn tự nhiên hơn|in nghiêng thay vì để vào trong ngoặc kép. Điều này sẽ làm câu văn tự nhiên hơn, như cách mà bài viết *Đường tới Bờ Rạ* của Andrew Hardy đã áp dụng.]]
 
-# Phương pháp thực hiện
+## Phương pháp thực hiện
 Tiếp cận và trò chuyện với các nhân vật có liên quan càkng nhiều càng tốt. Một khó khăn trong việc thực hiện là làm sao để các nhân vật cởi mở và thoải mái khi nói về những vấn đề này. Nếu có thể đem quan điểm của mỗi người đi đối thoại với nhau thì càng tốt.
 
 [[❓Người ta ngại không muốn từ chối thì mình có tiến tới ko]]

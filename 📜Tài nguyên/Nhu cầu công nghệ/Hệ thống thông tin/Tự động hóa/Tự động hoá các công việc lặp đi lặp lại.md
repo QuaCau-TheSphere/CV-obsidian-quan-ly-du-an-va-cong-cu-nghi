@@ -1,11 +1,13 @@
 ---
 share: true
 created: 2023-05-26T14:51
-updated: 2026-01-14T13:11
+updated: 2026-07-21T16:12
 ---
 Đáp ứng cho nhu cầu công việc: `=filter(this.file.inlinks, (i) => contains(i.nhu-cầu-công-nghệ, [[]]))`
 
 [Cộng đồng n8n AI Automation Việt Nam \| Facebook](https://facebook.com/groups/n8n.automation/)
+[Tasker for Android - Top features and more - YouTube](https://youtu.be/Hggcf2alWa8?si=T7_xK9FpiJVwzHaP)
+
 Giải pháp kỹ thuật:: [[Tạo phím tắt bằng AutoHotKey]], [[CopyQ|Quản lý clipboard bằng CopyQ]],  [[App script]]
 ```dataview
 LIST

@@ -1,9 +1,9 @@
 ---
 share: true
 created: 2026-01-24T16:44
-updated: 2026-07-14T14:29
+updated: 2026-07-16T13:30
 ---
-Khái niệm:: [[Dữ liệu]], [[Định lượng]]
+Khái niệm:: [[Dữ liệu]], [[⚡Hiểu biết sâu/Ξ Khái niệm/Định lượng]]
 [[Dữ liệu đến từ sự định lượng của con người chỉ sử dụng thống kê. Dữ liệu từ sự đo lường các đại lượng vật lý dùng cả các loại toán khác]]
 ### Không nắm bắt được những thứ khó đo lường
 It’s tempting to use the term _intangible_ when what we really mean is that such things are hard to quantify in our modern institutional environment with the kinds of measuring tools that are used by modern bureaucratic systems. The gap between reality and what’s easy to measure shows up everywhere. Consider cost-benefit analysis, which is supposed to be an objective—and therefore unimpeachable—procedure for making decisions by tallying up expected financial costs and expected financial benefits. But the process is deeply constrained by the kinds of cost information that are easy to gather. It’s relatively straightforward to provide data to support claims about how a certain new overpass might help traffic move efficiently, get people to work faster, and attract more businesses to a downtown. It’s harder to produce data in support of claims about how the overpass might reduce the beauty of a city, or how the noise might affect citizens’ well-being, or how a wall that divides neighborhoods could erode community. From a policy perspective, anything hard to measure can start to fade from sight.

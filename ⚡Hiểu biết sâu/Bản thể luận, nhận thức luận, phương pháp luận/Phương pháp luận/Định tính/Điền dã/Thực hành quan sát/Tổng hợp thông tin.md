@@ -1,8 +1,9 @@
 ---
-created: 2023-10-01T08:31
-updated: 2026-07-16T00:58
+created: 2026-07-16T13:47
+updated: 2026-07-16T13:49
+share: true
 ---
-[[⚡Hiểu biết sâu/Hệ hình nghiên cứu/Phương pháp luận/Định tính/Nhân học/Điền dã/Thực hành quan sát/Nhật ký điền dã]]
+[[Nhật ký điền dã]]
 1.     **Quan sát:** cộng đồng, quan sát nhà (không gian sinh hoạt trong gia đình, chú ý đến chức năng, biểu tượng văn hoá), quan sát và mô tả chân dung nhân vật (đọc lại bài giảng)
 
 2.     **Trình thuật câu chuyện cuộc đời của mỗi nhân vật** mà mình đã chọn, nhằm mục đích sau đợt quan sát tham dự có thể kể câu chuyện cuộc đời của nhân vật theo nhưng thành phần sau:
@@ -143,4 +144,3 @@ Ngoài ra hình như cũng có bất đồng với cô Hiền về vấn đề c
 **6. Kết luận:** Cung cấp giải đáp hoặc hướng dẫn về kết quả cuối cùng cho nhân vật chính và các yếu tố khác của câu chuyện.
 
 **7. Phần kết thúc:** Cung cấp một cái nhìn sâu hơn, rõ ràng về tác động và hậu quả của câu chuyện.
-

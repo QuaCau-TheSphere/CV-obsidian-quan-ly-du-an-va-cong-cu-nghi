@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-04-17T15:06
-updated: 2026-07-16T00:58
+updated: 2026-07-16T13:25
 ---
 Khái niệm:: [[Bản đồ]]
 [[O'Reilly ứng dụng lý thuyết structural differential của Korzybski vào việc tạo ra khái niệm open source và web 2.0]]

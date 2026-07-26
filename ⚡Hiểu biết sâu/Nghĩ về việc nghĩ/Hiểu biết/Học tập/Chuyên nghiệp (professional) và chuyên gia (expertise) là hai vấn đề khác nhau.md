@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-05T15:42
-updated: 2026-06-01T19:38
+updated: 2026-07-26T23:37
 ---
 Khái niệm:: [[Chuyên nghiệp]], [[Chuyên gia]]
 Họ đưa ra dự đoán còn tệ hơn đánh ngẫu nhiên
@@ -11,3 +11,4 @@ Nguồn:: [[Veritasium]], ![The 4 things it takes to be an expert - YouTube](htt
 [[Sự chuyên nghiệp là việc ta tách bạch cuộc sống và công việc]], còn [[Sự chuyên gia đến từ việc nhìn ra mẫu hình]]
 
 [[Trong tiếng Anh, nghĩa gốc của amateur (nghiệp dư) là những người làm vì đam mê, chứ không phải là trình độ còn non]]
+[[Thang đo năng lực dựa trên việc có thể đưa ra phân tích và trực giác đúng hay không]]

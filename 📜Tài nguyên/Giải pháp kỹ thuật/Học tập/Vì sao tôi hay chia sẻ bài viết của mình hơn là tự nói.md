@@ -1,10 +1,10 @@
 ---
 share: true
+blog: working
 created: 2026-05-31T17:01
-updated: 2026-07-16T00:40
+updated: 2026-07-22T20:46
 description: "Có 2 lý do chính: (1) Việc viết giúp diễn đạt được ý tốt hơn là nói. (2) Việc đưa liên kết không phải chỉ là để đọc bài viết, mà còn là để khám phá một sân chơi"
 title: Vì sao tôi hay chia sẻ bài viết của mình hơn là tự nói?
-blog: working
 ---
 Có bạn nhắn với tôi là bạn thấy một [[Mẫu hình (pattern)]] của tôi là luôn đưa luôn web của mình cho mọi người đọc thay vì trả lời. Bạn nghĩ rằng cách nghĩ này nó tiện cho việc tối ưu hóa tác vụ hoặc code dạng snippet. Nhưng mà giao tiếp thì em nghĩ nó khác nguyên tắc á, tại người ta có thể lười đọc và muốn anh trình bày gãy gọn, có câu chuyện, điểm hút đồ.
 

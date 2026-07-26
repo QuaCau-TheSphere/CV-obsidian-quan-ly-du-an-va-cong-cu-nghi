@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-08-23T15:06
-updated: 2026-05-31T22:57
+updated: 2026-07-17T13:28
 aliases:
   - Kho địa điểm để chọn nơi gặp mặt
   - Hướng dẫn sử dụng kho địa điểm để chọn nơi gặp mặt

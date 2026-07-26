@@ -1,8 +1,9 @@
 ---
 share: true
+blog: done
 created: 2024-08-17T11:00
-updated: 2026-01-14T13:11
-description: Plugin này sử dụng 11ty làm chương trình tạo website, và Vercel làm dịch vụ hosting. Chúng có những nhược điểm gì?
+updated: 2026-07-24T17:41
+description: Plugin Digital Garden sử dụng 11ty làm chương trình tạo website, và Vercel làm dịch vụ hosting. Chúng có những nhược điểm gì?
 ---
 Nếu bạn không muốn mua gói Publish nhưng vẫn muốn tạo một website từ kho của bạn thì bạn cần 3 thứ sau:
 - Một plugin để đẩy ghi chú từ máy của bạn lên GitHub
@@ -12,6 +13,10 @@ Nếu bạn không muốn mua gói Publish nhưng vẫn muốn tạo một websi
 Qua buổi hướng dẫn tạo web từ kho đầu tiên thì mình thấy một điểm chung là dường như nhiều bạn bắt đầu hành trình của mình bằng plugin [Digital Garden](https://github.com/oleeskild/obsidian-digital-garden "oleeskild/obsidian-digital-garden"). Có thể là vì cái tên của nó khiến cho nó dễ được tìm đến nhất. 
 
 Tuy nhiên, plugin này sử dụng **11ty** làm chương trình tạo website, và **Vercel** làm dịch vụ hosting. Mình thấy chúng có những bất cập sau:
+- Digital Garden ít chức năng và ít cập nhật
+- Dịch vụ hosting Vercel hoặc Netlify là những dao 
+- Hướng dẫn sử dụng bỏ qua bước tạo website trên trên máy bạn
+
 ## Digital Garden ít chức năng và ít cập nhật
 Vào thời điểm viết bài, hiện tại có tới [207 vấn đề được cộng đồng gửi đến](https://github.com/oleeskild/obsidian-digital-garden/issues "Issues · oleeskild/obsidian-digital-garden"). Gần như không có cái nào được tác giả phản hồi cả. Hồi mới tập tành làm web mình cũng bắt đầu với plugin này, nhưng không dùng được vì bị lỗi tiếng Việt. [Mình có gửi vấn đề lên](https://github.com/oleeskild/obsidian-digital-garden/issues/292 "Why are there so much 404 error? · Issue #292 · oleeskild/obsidian-digital-garden") nhưng cũng chịu số phận như rất nhiều vấn đề khác. 
 

@@ -1,8 +1,9 @@
 ---
-created: 2023-09-05T16:17
-updated: 2026-07-16T00:58
+created: 2026-07-16T13:48
+updated: 2026-07-16T13:48
+share: true
 ---
-[[⚡Hiểu biết sâu/Hệ hình nghiên cứu/Phương pháp luận/Định tính/Nhân học/Điền dã/Thực hành quan sát/Tổng hợp thông tin]]
+[[Tổng hợp thông tin]]
 
 8h sáng hơn ngày 1/10/2023, tôi đã thấy Huy đứng trước hẻm 133 Quang Trung, Gò Vấp, TP.HCM. Hai chúng tôi là những học viên của Viện Đời sống Xã hội đang làm bài tập quan sát tham dự một gia đình để kể lại câu chuyện cuộc đời của các nhân vật. Do lúc tôi đến thì cũng hơi trễ giờ nên tôi không kịp quan sát không gian ở ngoài và trong hẻm lắm. Có lẽ Huy đã có thời gian để làm tốt hơn tôi. Khi gửi xe xong thì tôi liền hối hả chạy vào nhà nhân vật. Thứ đập vào mắt tôi đầu tiên là một con chó lông vàng bị cột ngay trước cửa. Mặt nó cũng hơi nhiều lông; cấu hình mặt của nó trông vừa ngộ ngộ vừa hiền hiền. Khi tôi đến nó không hề sủa tôi mà lại ra ngửi rất nhiều như thể tôi là người trong nhà vậy. Tôi muốn dành thêm thời gian cho nó vì thấy nó thân thiện và cũng vì muốn quan sát cái mặt ngồ ngộ của nó, nhưng cũng không thể quá mải mê nhìn nó được vì nhà có nhiều thành viên khác. Tôi thấy mắt mình sao mà lộn xộn và ngột ngạt: một người phụ nữ chừng 50 tuổi, tóc xoăn, hơi mập đang rối rít kêu bọn tôi vào nhà, một người đàn ông cởi trần đang ngồi trên ghế xếp, một anh trai và một chị gái mập mạp đang loay hoay chuẩn bị đi ra ở vùng không gian đi lại duy nhất đang bị chèn ép bởi một khối chữ nhật khổng lồ màu đen ngòm ở bên phải, và chừng ba cái xe máy ở bên trái. Cái khối đen ngòm ấy phải nhìn kỹ thì mới nhận ra đó là một cái tủ lạnh. Ba bốn con mèo đang nhỏng đuôi lởn vởn gần cửa, trong khi con chó thì vẫn chưa thôi nhảy lên người tôi. Tôi đã bước vào gia đình cô Yến như vậy đấy.
 ## Cô Yến
@@ -45,3 +46,4 @@ Khi viết bài này tôi không để lời nhân vật vào trong ngoặc kép
 ====================
 ## Con chó lông vàng
 Lúc mọi người đi ngủ thì tôi thấy thương con chó bị cột quá nên 
+

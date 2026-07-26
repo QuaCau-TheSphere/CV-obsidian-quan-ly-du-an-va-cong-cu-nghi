@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-06-25T14:15
-updated: 2026-06-25T14:17
+updated: 2026-07-26T22:11
 aliases:
   - value-action gap
   - attitude-behaviour gap

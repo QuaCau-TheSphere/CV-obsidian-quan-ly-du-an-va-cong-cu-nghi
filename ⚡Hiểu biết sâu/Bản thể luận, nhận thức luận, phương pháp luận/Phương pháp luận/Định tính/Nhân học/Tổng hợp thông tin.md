@@ -1,8 +1,8 @@
 ---
 created: 2023-10-01T08:31
-updated: 2026-07-16T00:58
+updated: 2026-07-16T13:46
 ---
-[[⚡Hiểu biết sâu/Hệ hình nghiên cứu/Phương pháp luận/Định tính/Nhân học/Nhật ký điền dã]]
+[[⚡Hiểu biết sâu/Bản thể luận, nhận thức luận, phương pháp luận/Phương pháp luận/Định tính/Điền dã/Thực hành quan sát/Nhật ký điền dã]]
 1.     **Quan sát:** cộng đồng, quan sát nhà (không gian sinh hoạt trong gia đình, chú ý đến chức năng, biểu tượng văn hoá), quan sát và mô tả chân dung nhân vật (đọc lại bài giảng)
 
 2.     **Trình thuật câu chuyện cuộc đời của mỗi nhân vật** mà mình đã chọn, nhằm mục đích sau đợt quan sát tham dự có thể kể câu chuyện cuộc đời của nhân vật theo nhưng thành phần sau:

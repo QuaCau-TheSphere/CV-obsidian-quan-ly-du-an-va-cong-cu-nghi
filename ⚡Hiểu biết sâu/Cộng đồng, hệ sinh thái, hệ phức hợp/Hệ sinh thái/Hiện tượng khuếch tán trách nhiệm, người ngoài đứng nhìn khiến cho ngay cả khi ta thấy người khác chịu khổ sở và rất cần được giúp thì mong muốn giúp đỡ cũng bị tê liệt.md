@@ -1,6 +1,6 @@
 ---
 created: 2025-05-26T19:55
-updated: 2026-05-12T23:39
+updated: 2026-07-26T23:35
 share: true
 ---
 Khái niệm:: [[Động lực]]
@@ -52,3 +52,4 @@ Bạn có thể đọc thêm nghiên cứu tại: https://greatergood.berkele
 [[❓Động lực làm việc không liên quan đến sự khuếch tán trách nhiệm]]
 ![Whose job is it? or The Responsibility Poem illustration: four people named Everybody, Somebody, Anybody and Nobody. Everybody is given a job but in the end Nobody takes responsibility for it](https://sketchplanations.com/_next/image?url=https%3A%2F%2Fimages.prismic.io%2Fsketchplanations%2Faa428cb0-d1e7-414b-9159-e1bc74108fa2_SP%2B846%2B-%2BWhose%2Bjob%2Bis%2Bit.png%3Fauto%3Dcompress%2Cformat&w=3840&q=75)
 [[Người viết code thường làm một mình, không được hỗ trợ, không được trả tiền, chỉ làm vì sự đam mê. Họ cần xây dựng rất nhiều mối quan hệ tin tưởng được nhau]]
+[[❓Khi nào thì một người thấy được mình có thể giúp người khác nhưng lại không có hứng thú giúp]]

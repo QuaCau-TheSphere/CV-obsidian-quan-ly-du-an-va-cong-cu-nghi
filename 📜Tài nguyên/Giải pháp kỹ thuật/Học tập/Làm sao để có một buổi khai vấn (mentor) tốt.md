@@ -1,7 +1,8 @@
 ---
 share: true
+blog: working
 created: 2026-07-01T12:07
-updated: 2026-07-14T15:24
+updated: 2026-07-18T18:04
 title: Làm sao để có một buổi khai vấn (mentor) tốt?
 description: Làm sao để biết được điều mình cần biết mà không biết?
 ---
@@ -36,14 +37,10 @@ Liệt kê sẵn những nguồn tài nguyên mình có thể chia sẻ cũng nh
 
 Trong trường hợp khai vấn nhóm kết hợp giao lưu (networking) 
 [[Làm sao để một người có thể tìm đến tài nguyên tốt nhất cho nhu cầu của mình một cách nhanh nhất|Xây dựng hệ thống tri thức, kho tài nguyên cộng đồng]]
-
-
 [[Nguyễn Cảnh Bình]]
 [[Sự khác biệt giữa khai vấn, tư vấn, đào tạo, huấn luyện]]
-Khái niệm:: [[Sự khác biệt giữa khai vấn, tư vấn, đào tạo, huấn luyện]]
 
-
-
+Em thấy các buổi khai vấn này có thể làm tốt hơn, để tránh tình trạng mọi người quá phụ thuộc vào anh, và để có thể đưa tài nguyên tốt nhất cho nhu cầu của người cần khai vấn một cách nhanh nhất. Em nghĩ nếu có thể biến buổi khai vấn nhóm của anh thành nơi mọi người hỗ trợ lẫn nhau thì sẽ tốt hơn. Để hiệu quả hơn về mặt thời gian thì người tham gia nên viết sẵn đề án của mình, đồng thời liệt kê các nhu cầu khác mình cần được đáp ứng, cũng như các nguồn lực họ có thể chia sẻ. Họ có thể gửi trước cho nhau hoặc đến buổi đó thì cùng chia sẻ. 
 
 ## Các chủ đề thường gặp khi tìm sự khai vấn
 ### Tôi thấy mông lung, không biết mình muốn gì và nên làm gì

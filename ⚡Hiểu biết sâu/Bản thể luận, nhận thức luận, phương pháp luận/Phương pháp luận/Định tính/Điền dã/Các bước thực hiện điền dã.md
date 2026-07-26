@@ -1,11 +1,11 @@
 ---
 share: true
 created: 2023-09-05T16:17
-updated: 2026-07-16T00:58
+updated: 2026-07-16T13:49
 ---
-# B1: nhập gia
-# B2: từ người lạ đến thân quen
-# B3: mang thông điệp đem đi đối thoại
+## B1: nhập gia
+## B2: từ người lạ đến thân quen
+## B3: mang thông điệp đem đi đối thoại
 Nguồn:: [[Nguyễn Đức Lộc]]
 
 [[Ghi chép điền dã tập trung vào mô tả và trình thuật]]

@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2026-01-08T17:06
-updated: 2026-01-14T13:11
+updated: 2026-07-22T17:38
 ---
 Đáp ứng cho nhu cầu công việc: `=filter(this.file.inlinks, (i) => contains(i.nhu-cầu-công-nghệ, [[]]))`
 
@@ -14,6 +14,7 @@ Nếu muốn một cái nào đơn giản, không cần cài đặt thì có [Ca
 ![Thiết kế bài giảng với Beamer Latex \| Beamer slide presentations - YouTube](https://youtu.be/JJzW59-0pZ0?si=0zD-Z4fuvDbQLGvQ)
 
 Đầu tư hơn nữa thì làm animation hoặc [[Tài liệu động]]
+[HyperFrames — Edit Videos By Vibe-Coding](https://hyperframes.heygen.com/)
 
 Nếu ngại thiết lập môi trường thì xem các dịch vụ (hosted services)
 [List of markdown presentation tools · GitHub](https://gist.github.com/johnloy/27dd124ad40e210e91c70dd1c24ac8c8?permalink_comment_id=3574217)

@@ -1,14 +1,14 @@
 ---
 share: true
 created: 2023-06-02T10:46
-updated: 2026-01-14T13:11
+updated: 2026-07-27T00:41
 ---
 Việc lên giường lúc 22h và thức dậy lúc 5h có rất nhiều lợi ích: thêm nhiều ánh sáng hơn. Ngoài ra 
 - Easy to drift, hard to revert
 
 Because you need 1 hour more staying awake in bed
 
-# Những lý do khó duy trì việc ngủ lúc 22h
+## Những lý do khó duy trì việc ngủ lúc 22h
 - Đang có một câu chuyện dang dở cần phải nói tiếp, nhất là với bạn bè lâu năm
 - Bạn bè tụ tập
 - Thuật toán của youtube, netflix, instagram rất giỏi trong việc giới thiệu những sản phẩm truyền thông đủ sức cuốn hút hơn cả lợi ích của việc đi ngủ. Mà lúc nghỉ làm ra nghỉ chỉ muốn giải tri chút

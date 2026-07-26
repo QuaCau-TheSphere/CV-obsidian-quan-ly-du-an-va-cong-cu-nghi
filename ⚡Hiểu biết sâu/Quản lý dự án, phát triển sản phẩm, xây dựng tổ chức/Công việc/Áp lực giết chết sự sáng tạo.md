@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2023-06-13T00:06
-updated: 2026-01-14T13:11
+updated: 2026-07-26T22:09
 ---
 Khái niệm:: [[Sáng tạo]]
 Lý do:: [[Não cần thời gian để kết nối các ý tưởng lại với nhau]], [[Muốn thấy được những vấn đề lớn cần sự thong thả]]

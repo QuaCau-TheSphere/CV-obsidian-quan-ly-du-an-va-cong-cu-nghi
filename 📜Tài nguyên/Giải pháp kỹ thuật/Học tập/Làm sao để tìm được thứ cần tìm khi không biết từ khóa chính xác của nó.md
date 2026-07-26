@@ -1,7 +1,7 @@
 ---
 share: true
 created: 2024-04-24T09:02
-updated: 2026-07-03T21:54
+updated: 2026-07-26T23:29
 title: Làm sao để tìm được thứ cần tìm khi không biết từ khóa chính xác của nó?
 aliases:
   - Đâu là nơi dễ gặp được từ khóa cần tìm nhất?
@@ -79,7 +79,7 @@ Xem thêm:: [[Tinh túy của một cuốn sách chính là mục lục của n�
 Quay trở lại câu hỏi ban đầu:
 > Làm sao để tìm được thứ ta cần khi ta không biết từ khóa chính xác của nó?
 
-Như có đề cập ở đầu bài, trong rất nhiều trường hợp, thứ cản trở ta có được từ khóa không hẳn là ở việc không biết phải bắt đầu tìm hiểu ở đâu, mà ở việc không có thời gian tìm hiểu. Một mặt, [[sự tập trung đòi hỏi người khác phải lo cho những nhu cầu khác của mình]], nhưng mặt khác, [[việc giúp đỡ người đã giúp mình không đủ khẩn cấp hoặc nhiều cảm hứng bằng việc giải quyết vấn đề tiếp theo, hoặc đủ cảm hứng bằng việc cải tiến giải pháp hiện có]]. Cho nên, giải pháp tốt nhất cho vấn đề ban đầu không phải là hỏi xem "Nếu tôi phải tự tìm hiểu một mình, thì đâu là nơi tôi dễ gặp được từ khóa cần tìm nhất?", mà là:
+Như có đề cập ở đầu bài, trong rất nhiều trường hợp, thứ cản trở ta có được từ khóa không hẳn là ở việc không biết phải bắt đầu tìm hiểu ở đâu, mà ở việc không có thời gian tìm hiểu. Một mặt, [[Sự tập trung đòi hỏi người khác phải lo cho những nhu cầu khác của mình]], nhưng mặt khác, [[Việc giúp đỡ người đã giúp mình không đủ khẩn cấp hoặc nhiều cảm hứng bằng việc giải quyết vấn đề tiếp theo, hoặc đủ cảm hứng bằng việc cải tiến giải pháp hiện có]]. Cho nên, giải pháp tốt nhất cho vấn đề ban đầu không phải là hỏi xem "Nếu tôi phải tự tìm hiểu một mình, thì đâu là nơi tôi dễ gặp được từ khóa cần tìm nhất?", mà là:
 
 > Làm sao để tôi có thể luôn tìm được người sẵn sàng chia sẻ hiểu biết của mình với chi phí chấp nhận được?
 
